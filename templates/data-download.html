@@ -23,6 +23,7 @@
   <!-- build:css {{m.based('css/data-download.min.css')}} -->
     <link rel="stylesheet" href="{{m.based('bower_components/selectize/dist/css/selectize.bootstrap3.css')}}"/>
     <link rel="stylesheet" href="{{m.based('bower_components/angular-ui-select/dist/select.css')}}"/>
+    <link rel="stylesheet" href="{{m.based('bower_components/leaflet/dist/leaflet.css')}}"/>
     <link rel="stylesheet" href="{{m.based('css/data-download.css')}}">
   <!-- endbuild -->
 
@@ -30,6 +31,8 @@
     <script src="{{m.based('bower_components/xdomain/dist/xdomain.min.js')}}"
               slave="//s3.amazonaws.com/tnris-datadownload/xdomain-proxy.html"></script>
   <![endif]-->
+
+  <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.11/themes/css/cartodb.css" />
 {% endblock styles %}
 
 {% block contents %}
@@ -111,6 +114,7 @@
     <script type="text/javascript" src="{{m.based('bower_components/angular-ui-select/dist/select.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angulartics/dist/angulartics.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angulartics/dist/angulartics-ga.min.js')}}"></script>
+    <script type="text/javascript" src="{{m.based('bower_components/leaflet/dist/leaflet.js')}}"></script>
   <!-- endbuild -->
 
   <!-- build:js {{m.based('js/data-download.min.js')}} -->
@@ -125,6 +129,8 @@
     <script type="text/javascript" src="{{m.based('js/data-download/counties.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/app.js')}}"></script>
   <!-- endbuild -->
+
+  <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>
 {% endblock scripts %}
 
 
