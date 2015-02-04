@@ -3,9 +3,9 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
     restrict: 'EA',
     template: '<div id="map"></div>',
     link: {
-      post: function ($scope, $element) {
+      post: function (scope, element) {
         // create a map in the "map" div, set the view to a given place and zoom
-        var map = L.map($element[0]).setView([30, -97], 12);
+        var map = L.map(element[0]).setView([30, -97], 12);
 
         // mapquest open aerial layer
         var openAerial = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png',{
@@ -26,6 +26,7 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
             layer.setInteraction(true);
             layer.on('featureClick', function(e, latlng, pos, data) {
               cartodb.log.log(e, latlng, pos, data);
+              map.setView([data.c_lat, data.c_lon]);
               $state.go('quad', {name: data.quadname});
             });
             layer.on('error', function(err) {
