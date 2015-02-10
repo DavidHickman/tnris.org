@@ -8,13 +8,13 @@ author: Gayla Mullins
 status_image: status_image_02_02_15.jpg
 status_image_preview: status_image_02_02_15_sm.jpg
 latest_report: Weekly_Status_Report_013015.pdf
-status_date: January 30th, 2015
+status_date: February 6th, 2015
 updates:
-  - Four airplanes with ADS100 digital camera sensors acquired imagery simultaneously in Texas.
-  - Weather and conditions this week slowed acquisition progress.
-progress_1: 46
-progress_2: 65
-progress_3: 40 
+  - Four airplanes with ADS100 digital camera sensors continued to acquire imagery simultaneously over Texas. Progress is shown as red lines in the Status Map to the right.
+  - Part of a 6-inch BUY-UP area in West Texas was acquired. Progress is shown as blue lines in the Status Map to the right.
+progress_1: 47
+progress_2: 80
+progress_3: 42 
 progress_4: 0
 progress_5: 0
 ---
