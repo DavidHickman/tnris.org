@@ -5,9 +5,9 @@ mainimage: images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract: 
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
-status_image: status_image_02_02_15.jpg
-status_image_preview: status_image_02_02_15_sm.jpg
-latest_report: Weekly_Status_Report_013015.pdf
+status_image: status_image_2015_02_09.jpg
+status_image_preview: status_image_2015_02_09_sm.jpg
+latest_report: Weekly_Status_Report_020615.pdf
 status_date: February 6th, 2015
 updates:
   - Four airplanes with ADS100 digital camera sensors continued to acquire imagery simultaneously over Texas. Progress is shown as red lines in the Status Map to the right.
@@ -88,7 +88,7 @@ progress_5: 0
 <p class="lead"><strong>Five additional government agencies</strong> contributed funds toward select 1-foot or 6-inch BUY-UP areas.</p>
 
 <section class="buy-ups">
-    <div class="row">
+    <div class="row partner-container">
       <div class="col-xs-5ths">
         <a class="partner"  href="https://www.nga.mil/Pages/default.aspx">
           <img class="img-responsive" src="images/statewide-orthoimagery/logos/space_logo.jpg" alt="National Geospatial-Intelligence Agency Logo and Link to website">
