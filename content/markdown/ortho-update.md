@@ -13,6 +13,6 @@ template: news.html
 ### Data Progress
 - 37% of the state has been flown for 0.5-meter imagery
 - 25% of the state has been surveyed for ground control
-- 10% of the state has been begun initial image processing
+- 10% of the state has begun initial image processing
 - 0% pilot data received
 - 0% final orthoimagery received
