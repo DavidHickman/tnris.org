@@ -227,7 +227,8 @@ h2.updates-header {
 // custom bar graph //
 .data-progress {
 
-  progress, progress[role] {
+  progress, 
+  progress[role] {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
@@ -248,7 +249,48 @@ h2.updates-header {
   }
 }
 
-// The unordered list
+// bar gradients
+
+
+.level-four::-webkit-progress-value {
+    background: linear-gradient(to right, $error, #f44, $orange, $yield, $yellowgreen);
+}
+
+.level-four::-moz-progress-bar {
+    background: -moz-linear-gradient(to right, $error, #f44, $orange, $yield, $yellowgreen);
+}
+
+
+.level-three::-webkit-progress-value {
+    background-image:
+     -webkit-linear-gradient(left, $error, #f44, $yield);
+}
+
+.level-three::-moz-progress-bar {
+    background: -moz-linear-gradient(left, $error, #f44, $yield);
+}
+
+.level-two::-webkit-progress-value {
+    background-image:
+     -webkit-linear-gradient(left, $error, #f44, $orange);
+
+}
+
+.level-two::-moz-progress-bar {
+    background: -moz-linear-gradient(left, $error, #f44, $orange);
+
+}
+
+.level-one::-webkit-progress-value {
+    background-image:
+     -webkit-linear-gradient(left, $error, #f44);
+}
+
+.level-one::-moz-progress-bar {
+    background-image:
+     -moz-webkit-linear-gradient(left, $error, #f44);
+}
+
 
 
 .status {
@@ -283,51 +325,6 @@ h2.updates-header {
   }
 }
 
-.level-four::-webkit-progress-value {
-    background-image:
-     -webkit-linear-gradient(left, $error, $yield, $yellowgreen);
-}
-
-.level-four::-moz-progress-bar {
-    background-image:
-     -webkit-linear-gradient(left, $error, $yield, $yellowgreen);
-}
-
-
-.level-three::-webkit-progress-value {
-    background-image:
-     -webkit-linear-gradient(left, $error, #f44, $yield);
-}
-
-.level-three::-moz-progress-bar {
-    background-image:
-     -webkit-linear-gradient(left, $error, #f44, $yield);
-}
-
-.level-two::-webkit-progress-value {
-    background-image:
-     -webkit-linear-gradient(left, $error, #f44, $orange);
-
-}
-
-.level-two::-moz-progress-bar {
-    background-image:
-     -webkit-linear-gradient(left, $error, #f44, $orange);
-
-}
-
-.level-one::-webkit-progress-value {
-    background-image:
-     -webkit-linear-gradient(left, $error, #f44);
-}
-
-.level-one::-moz-progress-bar {
-    background-image:
-     -webkit-linear-gradient(left, $error, #f44);
-}
-
-
-
 // Color Level Classes //
 .level-zero {
   color: $error;
@@ -342,7 +339,7 @@ h2.updates-header {
 .ortho-intro {
   background: $darkgrey;
   color: $white;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 
   @media (min-width: $screen-sm) {
     background: url(../images/statewide-orthoimagery/pivotpoints_bg.jpg) right bottom no-repeat $darkgrey;
@@ -582,27 +579,53 @@ h2.updates-header {
 
   @media (min-width: $screen-md) {
     float: none;
-    margin-right: -230px;
+    margin-right: -290px;
+    margin-top: -10px;
     position: absolute;
     right: 0;
     width: 200px;
+  }
+
+  @media (min-width: $screen-lg) {
+    margin-top: -26px;
+  }
+  
+  .glyphicon-arrow-up {
+    bottom: 0;
+    color: $infoblue;
+    font-size: 40px;
+    position: absolute;
+    right: 50%;
+    width: 40px;
   }
 }
 
 // contributor info-graphic
 .contributor-box {
-  border-radius: 25px;
-  box-shadow: 0 0 4px $midgrey inset;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px $middarkgrey;
   color: $white;
   float: left;
   font-size: 20px;
   padding: 10px;
   text-align: center;
   width: 100%;
+
+  @media (min-width: $screen-md) {
+    font-size: 28px;
+  }
 }
 
 .base-collection {
-  margin-bottom: 30px;
+  margin-bottom: 70px;
+
+  @media (min-width: $screen-md) {
+    width: 930px;
+  }
+
+  @media (min-width: $screen-lg) {
+    width: 1030px;
+  }
 
   .glyphicon {
     color: $successgreen;
@@ -618,6 +641,8 @@ h2.updates-header {
 }
 
 .buy-ups  {
+  margin-bottom: 70px;
+
   .glyphicon {
     color: $infoblue;
     display: block;
@@ -626,18 +651,30 @@ h2.updates-header {
     width: 40px;
   }
 
+  .partner-container {
+    @media (min-width: $screen-md) {
+      width: 700px;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 840px;
+    }
+  }
+
   .contributor-box {
     background: $infoblue;
+
+    @media (min-width: $screen-md) {
+      width: 960px;
+    }
+    
+    @media (min-width: $screen-lg) {
+      width: 1060px;
+    }
   }
 
   @media (max-width: $screen-md) {
     clear: both;
-  }
-
-  @media (min-width: $screen-md) and (max-width: $screen-lg) {
-    .partner {
-    min-height: 200px;
-    }
   }
 }
 
@@ -668,7 +705,7 @@ h2.updates-header {
   }
 
   @media (min-width: $screen-md){
-    min-height: 250px;
+    min-height: 200px;
   }
 
   @media (min-width: $screen-lg){
