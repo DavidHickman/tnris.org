@@ -40,6 +40,7 @@
     "gulpsmith": "^0.5.3",
     "lazypipe": "^0.2.2",
     "lodash": "^2.4.1",
+    "lodash.trim": "^3.0.1",
     "marked": "^0.3.2",
     "metalsmith": "^0.10.0",
     "metalsmith-collections": "^0.4.1",
