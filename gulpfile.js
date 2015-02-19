@@ -27,6 +27,7 @@ var scsslint = require('gulp-scss-lint');
 var sitemap = require('metalsmith-sitemap');
 var swig = require('swig');
 var templates = require('metalsmith-templates');
+var trim = require('lodash.trim');
 var uglify = require('gulp-uglify');
 var useref = require('gulp-useref');
 var vinylPaths = require('vinyl-paths');
@@ -142,7 +143,7 @@ function parseCSV(options) {
     if (options.titleKey) {
       file.title = file[options.titleKey];
     }
-   
+
     //add a stats object to each file based on the stats of the source csv file
     //the stats objects are used by the sitemap plugin
     file.stats = fs.statSync(path);
@@ -170,12 +171,23 @@ function validateLink(str, crossref, filename) {
     clog.warn("Invalid link: from " + filename);
     return '#';
   }
-  var ref = urlPath(str);
+
+  var trimsplit = trim(str, '/').split('#');
+  var link = trimsplit[0],
+      anchor = trimsplit[1];
+
+  var ref = urlPath(link);
   if (!crossref[ref]) {
-    clog.warn("Invalid link: " + str + " (" + ref + ") from " + filename);
+    clog.warn("Invalid link: " + link + " (" + ref + ") from " + filename);
     return '#';
   }
-  return crossref[ref];
+
+  var url = crossref[ref];
+  if (anchor) {
+    url += '#' + anchor;
+  }
+
+  return url;
 }
 
 var dirs = {
