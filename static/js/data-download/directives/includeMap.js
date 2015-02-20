@@ -6,6 +6,7 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
       post: function (scope, element) {
         // create a map in the "map" div, set the view to a given place and zoom
         var map = L.map(element[0], {zoomControl: false});
+        var quads, counties;
 
         // disable normal pan/zoom behaviors
         map.dragging.disable();
@@ -28,12 +29,17 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
 
           map.addLayer(positron);
 
-          cartodb.createLayer(map, CartoService.vizURL('quad'))
+          counties = cartodb.createLayer(map, CartoService.vizURL('county'))
+            .addTo(map)
+            .on('done', function(layer) {
+              layer.setInteraction(false);
+            });
+
+          quads = cartodb.createLayer(map, CartoService.vizURL('quad'))
             .addTo(map)
             .on('done', function(layer) {
               layer.setInteraction(true);
               layer.on('featureClick', function(e, latlng, pos, data) {
-                cartodb.log.log(e, latlng, pos, data);
                 map.setView([data.c_lat, data.c_lon], 12, {reset: true});
                 $state.go('quad', {name: data.quadname});
               });
