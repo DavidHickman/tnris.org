@@ -5,7 +5,14 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
     link: {
       post: function (scope, element) {
         // create a map in the "map" div, set the view to a given place and zoom
-        var map = L.map(element[0]);
+        var map = L.map(element[0], {zoomControl: false});
+
+        // disable normal pan/zoom behaviors
+        map.dragging.disable();
+        map.touchZoom.disable();
+        map.doubleClickZoom.disable();
+        map.scrollWheelZoom.disable();
+
 
         zoomTo('statewide').then(function() {
           // mapquest open aerial layer
