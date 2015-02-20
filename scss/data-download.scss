@@ -17,10 +17,16 @@ h2 {
 
 #map {
   height: 500px;
+  width: 100%;
 }
 
 #mapFrame {
   margin-bottom: 20px;
+
+  div.cartodb-tooltip {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 #mapColumn {
