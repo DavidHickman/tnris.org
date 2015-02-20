@@ -34,7 +34,7 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
               layer.setInteraction(true);
               layer.on('featureClick', function(e, latlng, pos, data) {
                 cartodb.log.log(e, latlng, pos, data);
-                map.setView([data.c_lat, data.c_lon]);
+                map.setView([data.c_lat, data.c_lon], 12, {reset: true});
                 $state.go('quad', {name: data.quadname});
               });
               layer.on('error', function(err) {
