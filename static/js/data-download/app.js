@@ -78,9 +78,6 @@ var dataDownloadApp = function () {
           templateUrl: resultsTemplate,
           controller: function($scope, $rootScope, DataService) {
             $scope.category = 'Statewide';
-
-            $scope.map = null;
-
             $rootScope.pageTitle = 'Texas Statewide';
 
             DataService.getAreaDatasets('state', 'texas')
@@ -115,9 +112,6 @@ var dataDownloadApp = function () {
           controller: function($scope, $rootScope, $stateParams, $filter, DataService, MapService, CountyService, HistoricalAerialsService) {
             $scope.category = 'County';
             $scope.name = _.clone($stateParams.name);
-
-            $scope.map = MapService.find('counties', $scope.name);
-
             $rootScope.pageTitle = $filter('titleize')($scope.name) + ' County';
 
             var fips = CountyService.getFipsForName($scope.name);
@@ -144,8 +138,6 @@ var dataDownloadApp = function () {
           controller: function($scope, $rootScope, $stateParams, $collection, $filter, DataService, MapService) {
             $scope.category = 'Quad';
             $scope.name = $stateParams.name;
-
-            $scope.map = MapService.find('quads', $scope.name);
 
             $rootScope.pageTitle = $filter('titleize')($scope.name) + ' Quad';
 

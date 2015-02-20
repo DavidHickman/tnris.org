@@ -1,4 +1,4 @@
-var MapService = ['$collection', '$http', 'MAP_IMAGE_URL_PRE', 'CartoService', function ($collection, $http, mapImageUrlPre, CartoService)  {
+var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoService', function ($collection, $http, $q, mapImageUrlPre, CartoService)  {
   'use strict';
 
   MapService = {};
@@ -46,6 +46,21 @@ var MapService = ['$collection', '$http', 'MAP_IMAGE_URL_PRE', 'CartoService', f
       });
   };
 
+  MapService.getCenter = function (type, name) {
+    if (type === 'statewide') {
+      return $q(function(resolve, reject) {
+        resolve({
+          centroid: [31.16937, -100.07718],
+          zoom: 5
+        });
+      });
+    } else {
+      return MapService.findByName(type, name)
+        .then(function(geom) {
+          console.log(geom);
+        });
+    }
+  };
 
   return MapService;
 }];
