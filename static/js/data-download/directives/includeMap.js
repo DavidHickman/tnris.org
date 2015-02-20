@@ -29,15 +29,19 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
 
           map.addLayer(positron);
 
-          counties = cartodb.createLayer(map, CartoService.vizURL('county'))
+          cartodb.createLayer(map, CartoService.vizURL('county'))
             .addTo(map)
             .on('done', function(layer) {
+              counties = layer;
               layer.setInteraction(false);
+
+              updateMapState();
             });
 
-          quads = cartodb.createLayer(map, CartoService.vizURL('quad'))
+          cartodb.createLayer(map, CartoService.vizURL('quad'))
             .addTo(map)
             .on('done', function(layer) {
+              quads = layer;
               layer.setInteraction(true);
               layer.on('featureClick', function(e, latlng, pos, data) {
                 map.setView([data.c_lat, data.c_lon], 12, {reset: true});
@@ -46,14 +50,43 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
               layer.on('error', function(err) {
                 cartodb.log.log('error: ' + err);
               });
+
+              updateMapState();
             }).on('error', function(a,b,c) {
               cartodb.log.log("some error occurred");
             });
         });
 
+
+        function show(layer) {
+          if (layer) {
+            layer.show();
+          }
+        }
+
+        function hide(layer) {
+          if (layer) {
+            layer.hide();
+          }
+        }
+
         function updateMapState() {
           var type = $state.current.name;
           var name = $state.params.name;
+
+          if (type === 'statewide') {
+            show(counties);
+            hide(quads);
+          } else if (type === 'county') {
+            show(counties);
+            show(quads);
+          } else if (type === 'quad') {
+            hide(counties);
+            show(quads);
+          } else {
+            hide(counties);
+            hide(quads);
+          }
 
           zoomTo(type, name);
         }
