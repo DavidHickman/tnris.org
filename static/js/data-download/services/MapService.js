@@ -1,6 +1,19 @@
 var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoService', function ($collection, $http, $q, mapImageUrlPre, CartoService)  {
   'use strict';
 
+  function processSQL (data, nameField) {
+    if (data.rows.length === 0) {
+      return {};
+    }
+    if (data.rows.length > 1) {
+      console.log("WARNING: More than 1 result returned from SQL query.");
+      return {};
+    }
+    var obj = data.rows[0];
+    obj.name = obj[nameField];
+    return obj;
+  }
+
   MapService = {};
 
   MapService.find = function (type, name) {
@@ -19,45 +32,45 @@ var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoServi
     var table = CartoService.tableName(type);
     var nameField = CartoService.nameField(type);
 
-    var query = 'SELECT ' + nameField + ', ST_AsGeoJSON(the_geom) from ' + table + ' WHERE ' + nameField + " = '" + name + "'";
+    var query = 'SELECT ' + nameField + ', ST_AsGeoJSON(ST_Envelope(the_geom)) as bbox from ' + table + ' WHERE ' + nameField + " = '" + name + "'";
 
-    return CartoService.sql(query);
+    return CartoService.sql(query)
+      .then(function (data) {
+        return processSQL(data, nameField);
+      });
   };
 
   MapService.findByLatLong = function (type, latitude, longitude) {
     var table = CartoService.tableName(type);
     var nameField = CartoService.nameField(type);
 
-    var query = 'SELECT ' + nameField + ', ST_AsGeojson(the_geom) as geojson from ' + table +
+    var query = 'SELECT ' + nameField + ', ST_AsGeojson(ST_Envelope(the_geom)) as bbox from ' + table +
       ' WHERE ST_Intersects(the_geom, ST_SetSRID(POINT(' + longitude + ', ' + latitude + ')::geometry, 4326))';
 
     return CartoService.sql(query)
       .then(function (data) {
-        if (data.rows.length === 0) {
-          return {};
-        }
-        if (data.rows.length > 1) {
-          console.log("WARNING: More than 1 result returned for : " + type + '(' + latitude + ', ' + longitude + ')');
-          return {};
-        }
-        var obj = data.rows[0];
-        obj.name = obj[nameField];
-        return obj;
+        return processSQL(data, nameField);
       });
   };
 
-  MapService.getCenter = function (type, name) {
+  MapService.getBounds = function (type, name) {
     if (type === 'statewide') {
       return $q(function(resolve, reject) {
-        resolve({
-          centroid: [31.16937, -100.07718],
-          zoom: 5
-        });
+        resolve(L.latLngBounds([
+          [25.84, -106.65],
+          [36.68, -93.51]
+        ]));
       });
     } else {
       return MapService.findByName(type, name)
-        .then(function(geom) {
-          console.log(geom);
+        .then(function(data) {
+          var bbox = JSON.parse(data.bbox).coordinates[0].map(function (coordinates) {
+            return L.latLng(coordinates[1], coordinates[0]);
+          });
+          return [
+            bbox[0],
+            bbox[2]
+          ];
         });
     }
   };

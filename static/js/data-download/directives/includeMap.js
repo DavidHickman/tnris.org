@@ -46,9 +46,9 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
         }
 
         function zoomTo(type, name) {
-          return MapService.getCenter(type, name)
-            .then(function (center) {
-              map.setView(center.centroid, center.zoom);
+          return MapService.getBounds(type, name)
+            .then(function (bounds) {
+              map.fitBounds(bounds);
             });
         }
 
