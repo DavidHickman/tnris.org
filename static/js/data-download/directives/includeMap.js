@@ -1,7 +1,7 @@
 var includeMap = function ($compile, $http, $state, MapService, CartoService) {
   return {
     restrict: 'EA',
-    template: '<div id="map"></div>',
+    template: '<div id="map"></div><div id="mapInfo"></div>',
     link: {
       post: function (scope, element) {
         // create a map in the "map" div, set the view to a given place and zoom
@@ -79,21 +79,21 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
           var type = $state.current.name;
           var name = $state.params.name;
 
-          if (type === 'statewide') {
-            show(counties);
-            hide(quads);
-          } else if (type === 'county') {
-            show(counties);
-            show(quads);
-          } else if (type === 'quad') {
-            hide(counties);
-            show(quads);
-          } else {
-            hide(counties);
-            hide(quads);
-          }
-
-          zoomTo(type, name);
+          zoomTo(type, name).then(function() {
+            if (type === 'statewide') {
+              show(counties);
+              hide(quads);
+            } else if (type === 'county') {
+              show(counties);
+              show(quads);
+            } else if (type === 'quad') {
+              hide(counties);
+              show(quads);
+            } else {
+              hide(counties);
+              hide(quads);
+            }
+          });
         }
 
         function zoomTo(type, name) {
