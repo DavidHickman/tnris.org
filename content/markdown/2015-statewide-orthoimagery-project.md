@@ -5,14 +5,14 @@ mainimage: images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract: 
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
-status_image: status_image_2015_02_09.jpg
-status_image_preview: status_image_2015_02_09_sm.jpg
-latest_report: Weekly_Status_Report_020615.pdf
+status_image: status_image_2015_02_21.jpg
+status_image_preview: status_image_2015_02_21_sm.jpg
+latest_report: Weekly_Status_Report_022015.pdf
 status_date: February 6th, 2015
 updates:
   - Five airplanes with ADS100 digital camera sensors continued to acquire imagery simultaneously over Texas.
-  - Due to weather conditions affecting the overall project, the acquisition season end date for Seasons 2 and 3 was extended to February 28, 2015.
-  - The first of four pilot datasets was received at TNRIS for review: HOCKLEY COUNTY.
+  - "Due to weather conditions affecting the overall project, the acquisition season end date for Seasons 2 and 3 was extended to February 28, 2015."
+  - "The first of four pilot datasets was received at TNRIS for review: HOCKLEY COUNTY."
 progress_1: 71
 progress_2: 100
 progress_3: 50 

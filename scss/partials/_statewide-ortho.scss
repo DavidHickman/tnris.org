@@ -250,6 +250,13 @@ h2.updates-header {
 }
 
 // bar gradients
+.level-five::-webkit-progress-value {
+    background: linear-gradient(to right, $error, #f44, $orange, $yield, $yellowgreen, $successgreen);
+}
+
+.level-five::-moz-progress-bar {
+    background: -moz-linear-gradient(to right, $error, #f44, $orange, $yield, $yellowgreen, $successgreen);
+}
 
 
 .level-four::-webkit-progress-value {
@@ -314,13 +321,13 @@ h2.updates-header {
   .fa-plane {
     color: $canary;
     font-size: 30px;
-    left: 35%;
+    left: 63%;
     position: absolute;
     text-shadow: -1px -1px 1px $orange;
     top: 7px;
 
     @media (min-width: $screen-sm) {
-      left: 37%;
+      left: 65%;
     }
   }
 }
