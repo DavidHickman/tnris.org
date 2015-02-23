@@ -65,18 +65,24 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
               quads = layer;
               layer.setInteraction(true);
               layer.on('featureOver', function(e, latlng, pos, data) {
-                scope.hovered = {
-                  name: data.quadname
-                };
-                scope.$digest();
+                if ($state.current.name !== 'statewide') {
+                  scope.hovered = {
+                    name: data.quadname
+                  };
+                  scope.$digest();
+                }
               });
               layer.on('featureOut', function(e, latlng, pos, data) {
-                scope.hovered = {};
-                scope.$digest();
+                if ($state.current.name !== 'statewide') {
+                  scope.hovered = {};
+                  scope.$digest();
+                }
               });
               layer.on('featureClick', function(e, latlng, pos, data) {
-                map.setView([data.c_lat, data.c_lon], 12, {reset: true});
-                $state.go('quad', {name: data.quadname});
+                if ($state.current.name !== 'statewide') {
+                  map.setView([data.c_lat, data.c_lon], 12, {reset: true});
+                  $state.go('quad', {name: data.quadname});
+                }
               });
               layer.on('error', function(err) {
                 cartodb.log.log('error: ' + err);
@@ -113,7 +119,7 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
               show(counties);
               show(quads);
             } else if (type === 'quad') {
-              hide(counties);
+              show(counties);
               show(quads);
             } else {
               hide(counties);
