@@ -5,7 +5,8 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
     link: {
       post: function (scope, element) {
         // create a map in the "map" div, set the view to a given place and zoom
-        var map = L.map(element[0], {zoomControl: false});
+        var mapElement = $(element).find('#map')[0];
+        var map = L.map(mapElement, {zoomControl: false});
         var quads, counties;
 
         // disable normal pan/zoom behaviors
@@ -14,6 +15,7 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
         map.doubleClickZoom.disable();
         map.scrollWheelZoom.disable();
 
+        scope.hovered = {};
 
         zoomTo('statewide').then(function() {
           // mapquest open aerial layer
@@ -27,13 +29,27 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
           });
 
-          map.addLayer(positron);
+          map.addLayer(openAerial);
 
           cartodb.createLayer(map, CartoService.vizURL('county'))
             .addTo(map)
             .on('done', function(layer) {
               counties = layer;
               layer.setInteraction(true);
+              layer.on('featureOver', function(e, latlng, pos, data) {
+                if ($state.current.name === 'statewide') {
+                  scope.hovered = {
+                    name: data.name
+                  };
+                  scope.$digest();
+                }
+              });
+              layer.on('featureOut', function(e, latlng, pos, data) {
+                if ($state.current.name === 'statewide') {
+                  scope.hovered = {};
+                  scope.$digest();
+                }
+              });
               layer.on('featureClick', function(e, latlng, pos, data) {
                 if ($state.current.name === 'statewide') {
                   $state.go('county', {name: data.name});
@@ -48,6 +64,16 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
             .on('done', function(layer) {
               quads = layer;
               layer.setInteraction(true);
+              layer.on('featureOver', function(e, latlng, pos, data) {
+                scope.hovered = {
+                  name: data.quadname
+                };
+                scope.$digest();
+              });
+              layer.on('featureOut', function(e, latlng, pos, data) {
+                scope.hovered = {};
+                scope.$digest();
+              });
               layer.on('featureClick', function(e, latlng, pos, data) {
                 map.setView([data.c_lat, data.c_lon], 12, {reset: true});
                 $state.go('quad', {name: data.quadname});
@@ -76,8 +102,8 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
         }
 
         function updateMapState() {
-          var type = $state.current.name;
-          var name = $state.params.name;
+          var type = scope.type = $state.current.name;
+          var name = scope.name = $state.params.name;
 
           zoomTo(type, name).then(function() {
             if (type === 'statewide') {
