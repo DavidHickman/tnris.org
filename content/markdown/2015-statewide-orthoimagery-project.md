@@ -10,12 +10,13 @@ status_image_preview: status_image_2015_02_09_sm.jpg
 latest_report: Weekly_Status_Report_020615.pdf
 status_date: February 6th, 2015
 updates:
-  - Four airplanes with ADS100 digital camera sensors continued to acquire imagery simultaneously over Texas. Progress is shown as red lines in the Status Map to the right.
-  - Part of a 6-inch BUY-UP area in West Texas was acquired. Progress is shown as blue lines in the Status Map to the right.
-progress_1: 47
-progress_2: 80
-progress_3: 42 
-progress_4: 0
+  - Five airplanes with ADS100 digital camera sensors continued to acquire imagery simultaneously over Texas.
+  - Due to weather conditions affecting the overall project, the acquisition season end date for Seasons 2 and 3 was extended to February 28, 2015.
+  - The first of four pilot datasets was received at TNRIS for review: HOCKLEY COUNTY.
+progress_1: 71
+progress_2: 100
+progress_3: 50 
+progress_4: 25
 progress_5: 0
 ---
 
@@ -138,7 +139,7 @@ progress_5: 0
 
 <p>Leaf-off imagery allows manmade structures under deciduous tree cover to be mapped or monitored more easily than using leaf-on imagery. Vegetation mapping can also be beneficial with leaf-off imagery because evergreen vs. deciduous species are more readily identified.</p>
 
-*Grab the Image Slider to compare between Leaf-Off **(Google Earth, Nov. 9, 2011)** and Leaf-On imagery **(Smith GIS Consortium, Feb. 16, 2010)**.*
+*Grab the Image Slider to compare between Leaf-Off imagery **(left; Feb 16, 2010)** and Leaf-On imagery **(right, Nov. 9, 2011)**.*
 
 <figure>
 <div id="imageCompare7" class='twentytwenty-container leaf-off-on'>
