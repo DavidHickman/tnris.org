@@ -8,7 +8,7 @@ author: Gayla Mullins
 status_image: status_image_2015_02_21.jpg
 status_image_preview: status_image_2015_02_21_sm.jpg
 latest_report: Weekly_Status_Report_022015.pdf
-status_date: February 6th, 2015
+status_date: February 20th, 2015
 updates:
   - Five airplanes with ADS100 digital camera sensors continued to acquire imagery simultaneously over Texas.
   - "Due to weather conditions affecting the overall project, the acquisition season end date for Seasons 2 and 3 was extended to February 28, 2015."
