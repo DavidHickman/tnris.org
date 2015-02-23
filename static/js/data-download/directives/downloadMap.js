@@ -1,4 +1,4 @@
-var includeMap = function ($compile, $http, $state, MapService, CartoService) {
+var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
   return {
     restrict: 'EA',
     template: '<div id="map"></div><div id="mapInfo"></div>',

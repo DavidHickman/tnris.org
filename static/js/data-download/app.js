@@ -20,7 +20,7 @@ var dataDownloadApp = function () {
     .factory('MapService', MapService)
     .factory('CountyService', CountyService)
     .factory('HistoricalAerialsService', HistoricalAerialsService)
-    .directive('includeMap', includeMap)
+    .directive('downloadMap', downloadMap)
     .directive('resourceGroup',  resourceGroup)
     .filter('titleize',  titleizeFilter)
     .constant('CARTODB_CONFIG', {
