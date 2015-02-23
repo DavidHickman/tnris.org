@@ -33,7 +33,12 @@ var includeMap = function ($compile, $http, $state, MapService, CartoService) {
             .addTo(map)
             .on('done', function(layer) {
               counties = layer;
-              layer.setInteraction(false);
+              layer.setInteraction(true);
+              layer.on('featureClick', function(e, latlng, pos, data) {
+                if ($state.current.name === 'statewide') {
+                  $state.go('county', {name: data.name});
+                }
+              });
 
               updateMapState();
             });
