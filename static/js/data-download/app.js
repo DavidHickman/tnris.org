@@ -26,9 +26,9 @@ var dataDownloadApp = function () {
     .constant('CARTODB_CONFIG', {
       account: 'tnris',
       county: {
-        table: 'county_tx',
+        table: 'county_extended',
         nameField: 'name',
-        viz_id: 'da36f3e8-9a69-11e4-8554-0e4fddd5de28'
+        viz_id: '51ed411a-bc54-11e4-941d-0e4fddd5de28'
       },
       quad: {
         table: 'tnris_quad_wgs84',
