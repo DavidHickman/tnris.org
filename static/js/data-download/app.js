@@ -31,7 +31,7 @@ var dataDownloadApp = function () {
         viz_id: 'da36f3e8-9a69-11e4-8554-0e4fddd5de28'
       },
       quad: {
-        table: 'usgs_quad',
+        table: 'tnris_quad_wgs84',
         nameField: 'quadname',
         viz_id: '6d6032fe-a8c2-11e4-b1cd-0e4fddd5de28'
       }
