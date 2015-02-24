@@ -31,66 +31,40 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
 
           map.addLayer(openAerial);
 
-          cartodb.createLayer(map, CartoService.vizURL('county'))
+          cartodb.createLayer(map, CartoService.vizURL('data-download'))
             .addTo(map)
             .on('done', function(layer) {
-              counties = layer;
-              layer.setInteraction(true);
-              layer.on('featureOver', function(e, latlng, pos, data) {
-                if ($state.current.name === 'statewide') {
+              // returns sublayer from layer with layer_name === find_name
+              function findSubLayer (layer, find_name) {
+                var index = _.findIndex(layer.layers, function(iter_layer) {
+                  return iter_layer.options.layer_name === find_name;
+                });
+                return layer.getSubLayer(index);
+              }
+
+              counties = findSubLayer(layer, "counties");
+              quads = findSubLayer(layer, "quads");
+
+              function setListeners(sublayer, stateName, nameField) {
+                sublayer.on('featureOver', function(e, latlng, pos, data) {
                   scope.hovered = {
-                    name: data.name
+                    name: data[nameField]
                   };
                   scope.$digest();
-                }
-              });
-              layer.on('featureOut', function(e, latlng, pos, data) {
-                if ($state.current.name === 'statewide') {
+                });
+                sublayer.on('featureOut', function(e, latlng, pos, data) {
                   scope.hovered = {};
                   scope.$digest();
-                }
-              });
-              layer.on('featureClick', function(e, latlng, pos, data) {
-                if ($state.current.name === 'statewide') {
-                  $state.go('county', {name: data.name});
-                }
-              });
+                });
+                sublayer.on('featureClick', function(e, latlng, pos, data) {
+                  $state.go(stateName, {name: data[nameField]});
+                });
+              }
+
+              setListeners(counties, 'county', 'name');
+              setListeners(quads, 'quad', 'quadname');
 
               updateMapState();
-            });
-
-          cartodb.createLayer(map, CartoService.vizURL('quad'))
-            .addTo(map)
-            .on('done', function(layer) {
-              quads = layer;
-              layer.setInteraction(true);
-              layer.on('featureOver', function(e, latlng, pos, data) {
-                if ($state.current.name !== 'statewide') {
-                  scope.hovered = {
-                    name: data.quadname
-                  };
-                  scope.$digest();
-                }
-              });
-              layer.on('featureOut', function(e, latlng, pos, data) {
-                if ($state.current.name !== 'statewide') {
-                  scope.hovered = {};
-                  scope.$digest();
-                }
-              });
-              layer.on('featureClick', function(e, latlng, pos, data) {
-                if ($state.current.name !== 'statewide') {
-                  map.setView([data.c_lat, data.c_lon], 12, {reset: true});
-                  $state.go('quad', {name: data.quadname});
-                }
-              });
-              layer.on('error', function(err) {
-                cartodb.log.log('error: ' + err);
-              });
-
-              updateMapState();
-            }).on('error', function(a,b,c) {
-              cartodb.log.log("some error occurred");
             });
         });
 
@@ -107,23 +81,26 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
           }
         }
 
+        function setInteractiveLayer(layername) {
+          if (layername === "counties") {
+            counties && counties.setInteraction(true);
+            quads && quads.setInteraction(false);
+          }
+          if (layername === "quads") {
+            counties && counties.setInteraction(false);
+            quads && quads.setInteraction(true);
+          }
+        }
+
         function updateMapState() {
           var type = scope.type = $state.current.name;
           var name = scope.name = $state.params.name;
 
           zoomTo(type, name).then(function() {
             if (type === 'statewide') {
-              show(counties);
-              hide(quads);
-            } else if (type === 'county') {
-              show(counties);
-              show(quads);
-            } else if (type === 'quad') {
-              show(counties);
-              show(quads);
-            } else {
-              hide(counties);
-              hide(quads);
+              setInteractiveLayer('counties');
+            } else if (type === 'county' || type === 'quad') {
+              setInteractiveLayer('quads');
             }
           });
         }

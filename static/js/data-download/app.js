@@ -25,6 +25,9 @@ var dataDownloadApp = function () {
     .filter('titleize',  titleizeFilter)
     .constant('CARTODB_CONFIG', {
       account: 'tnris',
+      'data-download': {
+        viz_id: 'c2a92a1a-bc5c-11e4-a61b-0e853d047bba'
+      },
       county: {
         table: 'county_extended',
         nameField: 'name',
