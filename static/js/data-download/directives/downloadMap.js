@@ -44,6 +44,7 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
 
               counties = findSubLayer(layer, "counties");
               quads = findSubLayer(layer, "quads");
+              findSubLayer(layer, "quad labels").setInteraction(false);
 
               function setListeners(sublayer, stateName, nameField) {
                 sublayer.on('featureOver', function(e, latlng, pos, data) {
