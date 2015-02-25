@@ -58,7 +58,10 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
                   scope.$digest();
                 });
                 sublayer.on('featureClick', function(e, latlng, pos, data) {
-                  $state.go(stateName, {name: data[nameField]});
+                  if (data.c_lat && data.c_lon) {
+                    map.setView([data.c_lat, data.c_lon], 12, {animate: false});
+                  }
+
                 });
               }
 
