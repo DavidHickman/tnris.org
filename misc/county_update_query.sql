@@ -19,3 +19,7 @@ FROM (
   WHERE r = 1
 ) as c
 where cartodb_id=c.quad_id
+
+
+-- delete county-less quads (no intersection with a county);
+DELETE from tnris_quad_wgs84_copy WHERE closest_county is null
