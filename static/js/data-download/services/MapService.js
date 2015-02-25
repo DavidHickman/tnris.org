@@ -64,7 +64,7 @@ var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoServi
     } else {
       return MapService.findByName(type, name)
         .then(function(data) {
-          var bbox = JSON.parse(data.bbox).coordinates[0].map(function (coordinates) {
+          var bbox = _.map(JSON.parse(data.bbox).coordinates[0], function (coordinates) {
             return L.latLng(coordinates[1], coordinates[0]);
           });
           return [
