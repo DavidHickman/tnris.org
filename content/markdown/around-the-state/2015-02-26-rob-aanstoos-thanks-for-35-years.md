@@ -68,12 +68,14 @@ R: My biggest catch has been my wife, Charlotte -- also a TNRIS alum!! Other tha
 **T: What does the next chapter in your life have in store for you?**
 
 R: A lot of home projects, some learning, more time with my wife, some travel, more volunteer work, and maybe a little contract work here and there. Other than that... who knows?
-<figure>
-<img class="img-responsive" alt="Rob Today, along with colleagues past and present from TNRIS" src="images/around-the-state/rob-aanstoos/tnris_rob.jpg">
-<figcaption><em><strong>TNRIS Past and Present from Left to Right</strong>: Hugh Bender (Former Director), Lou Falconieri (Former Aerial Photo Manager), Dr. Charles Palmer (Former Director), Charlotte Aanstoos (Former Data Specialist), Rob Aanstoos (Former GIS/Remote Sensing Specialist), Richard Wade (Current Director/GIO), Felicia Retiz (Deputy GIO), Brent Porter (Former Applications Developer)</figcaption>
-</figure>
+
 * * *
 
 *One thing is certain, Rob’s influence runs deep in Texas and our industry has benefitted immensely from his leadership.*
 
 *Rob, from all your friends in the GIS community, we wish you all the best and we hope that our actions moving forward will make you proud.*
+
+<figure>
+<img class="img-responsive" alt="Rob Today, along with colleagues past and present from TNRIS" src="images/around-the-state/rob-aanstoos/tnris_rob.jpg">
+<figcaption><em><strong>TNRIS Past and Present from Left to Right</strong>: Hugh Bender (Former Director), Lou Falconieri (Former Aerial Photo Manager), Dr. Charles Palmer (Former Director), Charlotte Aanstoos (Former Data Specialist), Rob Aanstoos (Former GIS/Remote Sensing Specialist), Richard Wade (Current Director/GIO), Felicia Retiz (Deputy GIO), Brent Porter (Former Applications Developer)</figcaption>
+</figure>
