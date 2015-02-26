@@ -35,7 +35,7 @@ R: My physics specialty was optical properties of solids. Plus, I was fascinated
 
 R: I started at TNRIS in 1979 and continued learning and practicing GIS in the 80's and 90's at the Railroad Commission and then the Water Commission (which became TNRCC, which became TCET:. More recently, I accepted a GIS coordination role at DIR, which inevitably led to a diminution of actually practicing GIS. By now, my GIS chops are more than a bit rusty. Anyone looking for an AML programmer?
 
-<img class="img-responsive" alt="A picture from the 1980s, Rob is marking a plotted map and referencing an aerial photo" src="images/updates/2015/rob-aanstoos/rob_2.jpg">
+<img class="img-responsive" alt="A picture from the 1980s, Rob is marking a plotted map and referencing an aerial photo" src="images/around-the-state/rob-aanstoos/rob_2.jpg">
 
 **T: What influences did you have that shaped the person you are today?**
 
