@@ -77,5 +77,5 @@ R: A lot of home projects, some learning, more time with my wife, some travel, m
 
 <figure>
 <img class="img-responsive" alt="Rob Today, along with colleagues past and present from TNRIS" src="images/around-the-state/rob-aanstoos/tnris_rob.jpg">
-<figcaption><em><strong>TNRIS Past and Present from Left to Right</strong>: Hugh Bender (Former Director), Lou Falconieri (Former Aerial Photo Manager), Dr. Charles Palmer (Former Director), Charlotte Aanstoos (Former Data Specialist), Rob Aanstoos (Former GIS/Remote Sensing Specialist), Richard Wade (Current Director/GIO), Felicia Retiz (Deputy GIO), Brent Porter (Former Applications Developer)</figcaption>
+<figcaption><em><strong>TNRIS Past and Present from Left to Right</strong>: Hugh Bender (Former Director), Lou Falconieri (Former Aerial Photo Manager), Dr. Charles Palmer (Former Director), Charlotte Aanstoos (Former Data Specialist), Rob Aanstoos (Former GIS/Remote Sensing Specialist), Richard Wade (Current Director/GIO), Felicia Retiz (Deputy GIO), Brent Porter (Former Applications Developer)</em></figcaption>
 </figure>
