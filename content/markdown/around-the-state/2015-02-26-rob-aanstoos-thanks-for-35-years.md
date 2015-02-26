@@ -1,14 +1,14 @@
 ---
 title: Rob Aanstoos – Thank you for an amazing 35 years!
 template: news.html
-author: Felicia Retiz, Deputy GIO
+author: Richard Wade, TNRIS Director/GIO
 thumbnail: images/around-the-state/rob-aanstoos/rob-aanstoos-th.jpg
 thumbalt: A headshot of Rob Aanstoos
 abstract:
     TNRIS had the chance to talk to Rob Aanstoos, a key figure in Texas GIS, on the eve of his retirement from 35 years of service to the state.
 ---
 <img class="pull-left" src="images/around-the-state/rob-aanstoos/rob-aanstoos-th.jpg">
-<p class="lead"> Every day, people retire from their jobs and go off quietly to enjoy free time with their family and pursuing interests they love. For the colleagues left behind, we simply pick up where they left off without too much fanfare. But every so often, a key player retires who has made a big difference and impact in your industry.</p>
+<p class="lead">Every day, people retire from their jobs and go off quietly to enjoy free time with their family and pursuing interests they love. For the colleagues left behind, we simply pick up where they left off without too much fanfare. But every so often, a key player retires who has made a big difference and impact in your industry.</p>
 
 This is exactly the case with Mr. Rob Aanstoos. Rob is officially retiring at the end of February from Texas Department of Information Resources (DIR) where he has worked in the Technology Planning, Policy and Governance section. Rob has been involved with GIS since the earliest days at the State.  After 35 years, it will be difficult to see him go.  
 
@@ -45,11 +45,11 @@ R: I credit my earliest bosses at DIR -- John Wilson, Sam McCullough, and the es
 
 R: True integration of geospatial technologies with mainstream information technologies would lead to tremendous benefits to society. Although great progress has been made, there is still a long way to go.
 
+<p><div class="pull-quote right" title="A pulled quote, out of order with text flow">True integration of geospatial technologies with mainstream information technologies would lead to tremendous benefits to society. Although great progress has been made, there is still a long way to go.</div><strong>T: What was your most rewarding part of your career?</strong></p>
+
 **T: What would you consider to be your greatest achievement?**
 
 R: Probably my role in developing the well mapping system at the Railroad Commission, and guiding the massive data conversion effort that ensued.
-
-<p><div class="pull-quote right" title="A pulled quote, out of order with text flow">True integration of geospatial technologies with mainstream information technologies would lead to tremendous benefits to society. Although great progress has been made, there is still a long way to go.</div><strong>T: What was your most rewarding part of your career?</strong></p>
 
 R: Oh gosh... retiring, maybe?
 
@@ -68,7 +68,10 @@ R: My biggest catch has been my wife, Charlotte -- also a TNRIS alum!! Other tha
 **T: What does the next chapter in your life have in store for you?**
 
 R: A lot of home projects, some learning, more time with my wife, some travel, more volunteer work, and maybe a little contract work here and there. Other than that... who knows?
-
+<figure>
+<img class="img-responsive" alt="Rob Today, along with colleagues past and present from TNRIS" src="images/around-the-state/rob-aanstoos/tnris_rob.jpg">
+<figcaption><em><strong>TNRIS Past and Present from Left to Right</strong>: Hugh Bender (Former Director), Lou Falconieri (Former Aerial Photo Manager), Dr. Charles Palmer (Former Director), Charlotte Aanstoos (Former Data Specialist), Rob Aanstoos (Former GIS/Remote Sensing Specialist), Richard Wade (Current Director/GIO), Felicia Retiz (Deputy GIO), Brent Porter (Former Applications Developer)</figcaption>
+</figure>
 * * *
 
 *One thing is certain, Rob’s influence runs deep in Texas and our industry has benefitted immensely from his leadership.*
