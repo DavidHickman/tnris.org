@@ -47,11 +47,11 @@ R: True integration of geospatial technologies with mainstream information techn
 
 <p><div class="pull-quote right" title="A pulled quote, out of order with text flow">True integration of geospatial technologies with mainstream information technologies would lead to tremendous benefits to society. Although great progress has been made, there is still a long way to go.</div><strong>T: What was your most rewarding part of your career?</strong></p>
 
+R: Oh gosh... retiring, maybe?
+
 **T: What would you consider to be your greatest achievement?**
 
 R: Probably my role in developing the well mapping system at the Railroad Commission, and guiding the massive data conversion effort that ensued.
-
-R: Oh gosh... retiring, maybe?
 
 **T: What will you remember most about your career?**  
 
