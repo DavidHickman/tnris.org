@@ -20,6 +20,7 @@ var dataDownloadApp = function () {
     .factory('MapService', MapService)
     .factory('CountyService', CountyService)
     .factory('HistoricalAerialsService', HistoricalAerialsService)
+    .directive('mapControl', mapControl)
     .directive('downloadMap', downloadMap)
     .directive('resourceGroup',  resourceGroup)
     .filter('titleize',  titleizeFilter)

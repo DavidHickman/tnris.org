@@ -5,6 +5,8 @@
   <div ng-switch-default>
     <h2>{{name}} {{type}}</h2>
   </div>
+
+  <div map-control></div>
 </div>
 
 <div id="map">
@@ -13,21 +15,21 @@
       <div ng-switch-when="statewide">
         <div ng-if="!hovered.name">
           Use map to select a county.
-        </div> 
+        </div>
         <div ng-if="hovered.name">
           Go to {{hovered.name}} county.
-        </div> 
+        </div>
       </div>
       <div ng-switch-default>
         <div ng-if="!hovered.name">
           Use map to select a quad.
-        </div> 
+        </div>
         <div ng-if="hovered.name && (hovered.name != name)">
           Go to {{hovered.name}} quad.
-        </div> 
+        </div>
         <div ng-if="hovered.name == name">
           Already at {{hovered.name}} quad.
-        </div> 
+        </div>
       </div>
     </div>
   </div>

@@ -46,11 +46,9 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
               quads = findSubLayer(layer, "quads");
               findSubLayer(layer, "quad labels").setInteraction(false);
 
-              function setListeners(sublayer, stateName, nameField) {
+              function setListeners(sublayer, stateName, extractParamFunc) {
                 sublayer.on('featureOver', function(e, latlng, pos, data) {
-                  scope.hovered = {
-                    name: data[nameField]
-                  };
+                  scope.hovered = extractParamFunc(data);
                   scope.$digest();
                 });
                 sublayer.on('featureOut', function(e, latlng, pos, data) {
@@ -62,11 +60,20 @@ var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
                     map.setView([data.c_lat, data.c_lon], 12, {animate: false});
                   }
 
+                  $state.go(stateName, extractParamFunc(data));
                 });
               }
 
-              setListeners(counties, 'county', 'name');
-              setListeners(quads, 'quad', 'quadname');
+              setListeners(counties, 'county', function(data) {
+                return {
+                  name: data.name
+                };
+              });
+              setListeners(quads, 'quad', function(data) {
+                return {
+                  name: data.quadname
+                };
+              });
 
               updateMapState();
             });

@@ -32,7 +32,12 @@ var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoServi
     var table = CartoService.tableName(type);
     var nameField = CartoService.nameField(type);
 
-    var query = 'SELECT ' + nameField + ', ST_AsGeoJSON(ST_Envelope(the_geom)) as bbox from ' + table + ' WHERE ' + nameField + " = '" + name + "'";
+    var extra = '';
+    if (type === 'quad') {
+      extra = ', closest_county ';
+    }
+
+    var query = 'SELECT ' + nameField + ', ST_AsGeoJSON(ST_Envelope(the_geom)) as bbox ' + extra + 'from ' + table + ' WHERE ' + nameField + " = '" + name + "'";
 
     return CartoService.sql(query)
       .then(function (data) {
@@ -72,6 +77,26 @@ var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoServi
             bbox[2]
           ];
         });
+    }
+  };
+
+  MapService.getReturn = function (type, name) {
+    if (type === 'quad') {
+      return MapService.findByName(type, name)
+        .then(function (data) {
+          return {
+            statewide: true,
+            county: data.closest_county
+          };
+        });
+    } else {
+      return $q(function(resolve, reject) {
+        var obj = {};
+        if (type === 'county') {
+          obj.statewide = true;
+        }
+        resolve(obj);
+      });
     }
   };
 
