@@ -17,13 +17,13 @@ tags: GIO, Data Sharing, GIS, Geospatial
 
 <img class="img-responsive" alt="Aerial orthoimagery composed in the layout and colors of the Texas flag" src="images/ortho_flag_blank.jpg">
 
-Ms. Mullins gave a detailed overview of the current status of the project and introduced the new dedicated TOP project page located on the TNRIS website. Four state agencies contributed funds to the 0.5-meter statewide orthoimagery. Several local entities and one federal agency are participating in 6-inch and 1-foot buy-up options that were offered by the imagery acquisition vendor, Surdex Corporation. Specific AOIs and participating entities can be found on the project website.
+Ms. Mullins gave a detailed overview of the current status of the project and introduced the new dedicated TOP project page located on the TNRIS website. Four state agencies contributed funds to the 0.5-meter statewide orthoimagery. Several local entities and one federal agency are participating in 6-inch and 1-foot buy-up options that were offered by the imagery acquisition vendor, Surdex Corporation. Specific AOIs and participating entities can be found on the [project website](2015-statewide-orthoimagery-project).
 
-Gayla extended an invitation to anyone interested in assisting with the QA/QC of the imagery using the online quality assurance tool provided by Surdex. For more information or to participate, please fill out and submit the form located on the project page https://tnris.org/2015-statewide-orthoimagery-project/.
+Gayla extended an invitation to anyone interested in assisting with the QA/QC of the imagery using the online quality assurance tool provided by Surdex. For more information or to participate, please fill out and submit the [form](https://tnris.org/2015-statewide-orthoimagery-project/#contact-pm) located on the project page.
 
 ### Texas NAIP 2014 Availability – 2014 – Gayla Mullins, TNRIS
 
-Gayla went on to announce the pending availability of the county compressed mosaic (CCM) imagery files from the 2014 National Agriculture Imagery Program statewide flyover. The CCM files will be available for download through the TNRIS Data Download page, by county, in February. 
+Gayla went on to announce the pending availability of the county compressed mosaic (CCM) imagery files from the 2014 National Agriculture Imagery Program statewide flyover. The CCM files will be available for download through the TNRIS Data Download page, by county, in March. 
 
 **Alternatively, the NAIP 2014 imagery are available via a USDA-APFO WMS:**
 
