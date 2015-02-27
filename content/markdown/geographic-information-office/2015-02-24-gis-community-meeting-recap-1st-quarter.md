@@ -3,7 +3,7 @@ template: gio-news.html
 title: "Texas GIS Community Meeting Recap - 1st Quarter, 2015"
 author: Felicia Retiz, Deputy GIO
 mainimage: images/gio-stories/texaswords.jpg
-thumb: images/gio-stories/texaswords.jpg
+thumbnail: images/gio-stories/texaswords_th.jpg
 abstract:
     Highlights from 1st Quarterly Meeting of the GIO. 
 tags: GIO, Data Sharing, GIS, Geospatial
