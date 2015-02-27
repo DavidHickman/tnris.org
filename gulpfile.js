@@ -11,6 +11,7 @@ var gulp = require('gulp');
 var gulp_front_matter = require('gulp-front-matter');
 var gulpif = require('gulp-if');
 var gulpsmith = require('gulpsmith');
+var gulpSwig = require('gulp-swig');
 var lazypipe = require('lazypipe');
 var markdown = require('metalsmith-markdown');
 var marked = require('marked');
@@ -20,6 +21,7 @@ var ngAnnotate = require('gulp-ng-annotate');
 var paginate = require('metalsmith-paginate');
 var path = require('path');
 var permalinks = require('metalsmith-permalinks');
+var rename = require('gulp-rename');
 var replace = require('metalsmith-replace');
 var sass = require('gulp-ruby-sass');
 var scapegoat = require('scapegoat');
@@ -196,7 +198,8 @@ var dirs = {
   scss: './scss',
   static: 'static',
   tmp: './.tmp',
-  templates: './templates'
+  templates: './templates',
+  sitemap: './sitemap'
 };
 
 dirs.markdown = path.join(dirs.content, 'markdown');
@@ -231,8 +234,8 @@ gulp.task('webserver', ['dist-dev'],  function() {
 });
 
 gulp.task('dist', ['dist-production']);
-gulp.task('dist-dev', ['dist-fonts', 'dist-metal', 'dist-scss', 'dist-static']);
-gulp.task('dist-production', ['set-production', 'dist-dev', 'dist-useref', 'dist-production-sitemap']);
+gulp.task('dist-dev', ['dist-fonts', 'dist-metal', 'dist-scss', 'dist-static', 'dist-sitemap']);
+gulp.task('dist-production', ['set-production', 'dist-dev', 'dist-useref', 'dist-sitemap']);
 
 gulp.task('set-production', function () {
   production = true;
@@ -264,8 +267,8 @@ gulp.task('dist-metal', function () {
           contentsKey: 'description',
           titleKey: 'name',
           additional: function (file) {
-            var image_name = file['urlized_name'].replace(/-/g, '_');
-            var base = 'images/data-catalog/' + file['urlized_category'] + '/' + image_name;
+            var image_name = file.urlized_name.replace(/-/g, '_');
+            var base = 'images/data-catalog/' + file.urlized_category + '/' + image_name;
 
             var image_types = [
               {
@@ -392,16 +395,11 @@ gulp.task('dist-metal', function () {
           engine: 'swig'
         }))
         .use(sitemap({
-          hostname: 'http://tnris.org'
+          hostname: 'http://tnris.org',
+          output: 'sitemap-main.xml'
         }))
       )
     .pipe(gulpif(production, gulp.dest(dirs.tmp), gulp.dest(dirs.dist)));
-});
-
-gulp.task('dist-production-sitemap', ['dist-metal'], function () {
-  var sitemap_file = path.join(dirs.tmp, 'sitemap.xml');
-  return gulp.src(sitemap_file)
-    .pipe(gulp.dest(dirs.dist));
 });
 
 gulp.task('dist-scss', function () {
@@ -432,6 +430,29 @@ gulp.task('dist-useref', ['dist-metal', 'dist-scss', 'dist-static'], function ()
       .pipe(assets.restore())
       .pipe(useref())
       .pipe(gulp.dest(dirs.dist));
+});
+
+gulp.task('dist-sitemap', ['dist-metal', 'sitemap-datadownload', 'sitemap-index'], function () {
+  var sitemap_file = path.join(dirs.tmp, 'sitemap*.xml');
+  return gulp.src(sitemap_file)
+    .pipe(gulp.dest(dirs.dist));
+});
+
+gulp.task('sitemap-datadownload', function() {
+  gulp.src(path.join(dirs.sitemap, 'sitemap-datadownload.xml'))
+    .pipe(gulp.dest(dirs.tmp));
+});
+
+gulp.task('sitemap-index', function() {
+  var opts = {
+    data: {
+      modified_date: new Date()
+    }
+  };
+  return gulp.src(path.join(dirs.sitemap, 'sitemap-index.xml.swig'))
+    .pipe(gulpSwig(opts))
+    .pipe(rename('sitemap-index.xml'))
+    .pipe(gulp.dest(dirs.tmp));
 });
 
 gulp.task('clean', ['clean-dist']);
