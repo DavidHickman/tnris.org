@@ -1,6 +1,12 @@
 var dataDownloadApp = function () {
   'use strict';
 
+  // Amend any incoming hash links to use hash-bang
+  var loc = window.location.href;
+  if (loc.indexOf('#') !== -1 && loc.indexOf('#!') === -1) {
+    window.location = loc.replace('#', '#!');
+  }
+
   var dataDownloadApp = angular.module('dataDownloadApp', [
     'angulartics',
     'angulartics.google.analytics',
@@ -20,13 +26,16 @@ var dataDownloadApp = function () {
     .config(function ($analyticsProvider) {
       $analyticsProvider.withAutoBase(true);
     })
-    .config(function($stateProvider, $urlRouterProvider, $sceDelegateProvider) {
+    .config(function($stateProvider, $urlRouterProvider, $sceDelegateProvider, $locationProvider) {
       $sceDelegateProvider.resourceUrlWhitelist([
         // Allow same origin resource loads
         'self',
         // Allow loading from our s3 bucket
         '//s3.amazonaws.com/tnris-datadownload/**'
       ]);
+
+      // Use hash-bang #! URLs for SEO
+      $locationProvider.hashPrefix('!');
 
       // For any unmatched url, redirect to /statewide
       $urlRouterProvider.otherwise("/statewide");
@@ -113,6 +122,7 @@ var dataDownloadApp = function () {
           }
         });
     });
+
 
   return dataDownloadApp;
 }();
