@@ -27,10 +27,10 @@
           {% if loop.index <= 5 %}
             <li class="media">
               <a class="media-left" href="{{m.link(news_item.preserved)}}" title="Read {{news_item.title}}">
-                <img class="media-object" src="{{news_item.thumbnail}}" alt="{{news_item.thumbalt}}">
+                <img class="media-object" src="{{m.link(news_item.thumbnail)}}" alt="{{news_item.thumbalt}}">
               </a>
               <div class="media-body">
-                <time>{{ news_item.date|date('F jS, Y') }}</time>
+                <time>{{news_item.date|date('F jS, Y')}}</time>
                 <h3 class="media-heading">
                   <a href="{{m.link(news_item.preserved)}}">{{news_item.title}}</a>
                 </h3>
@@ -88,7 +88,7 @@
           {% if loop.index <= 4 %}
             <li class="media">
               <a href="{{m.link(spotlight.preserved)}}">
-                <img class="media-object img-responsive" src="{{ spotlight.thumb }}" alt="A small preview of the {{ spotlight.title }} image">
+                <img class="media-object img-responsive" src="{{spotlight.thumb}}" alt="A small preview of the {{ spotlight.title }} image">
                 <h4>{{ spotlight.title }}</h4>
               </a>
             </li>

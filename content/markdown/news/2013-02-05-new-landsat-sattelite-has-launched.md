@@ -2,8 +2,8 @@
 template: news.html
 title: New Landsat Satellite Has Launched
 author: Gayla Mullins, StratMap
-thumbnail: images/updates/2013/landsat-launch/LDCM_Logo_th.jpg
-mainimage: images/updates/2013/landsat-launch/solitario_landsat.jpg
+thumbnail: static/images/updates/2013/landsat-launch/LDCM_Logo_th.jpg
+mainimage: static/images/updates/2013/landsat-launch/solitario_landsat.jpg
 imagealt: Landsat of El Solitario en Big Bend Ranch State Park
 abstract: 
     The latest launch of Landsat has gone to orbit and will be sending high-resolution imagery in the coming months.
@@ -21,7 +21,7 @@ The first scenes from Landsat 8 are expected to be available 100 days after laun
 
 Scene footprints that cover Texas in the [Worldwide Reference System-2](http://landsat.gsfc.nasa.gov/about/wrs.html) are shown below. Every scene, or path/row designation, is imaged every 16 days. See near real-time image acquisition at the [USGS EarthNow! Landsat Image Viewer](http://earthnow.usgs.gov/earthnow_app.html?sessionId=6667755c86f8359d1ef5adb2ed34585b17979%20%20target=).
 
-![Scene Footprints of Texas](images/updates/2013/landsat-launch/tx_wrs2_0.jpg) 
+![Scene Footprints of Texas](static/images/updates/2013/landsat-launch/tx_wrs2_0.jpg) 
 
 **Download** the Texas Landsat path/row shapefile: [Landsat_WRS2_TX.zip](static/documents/misc/landsat-8/Landsat_WRS2_TX.zip).
 
@@ -30,15 +30,15 @@ Scene footprints that cover Texas in the [Worldwide Reference System-2](http://l
 ### Midland/Odessa area
 Landsat 5 path 30 row 38, 11/3/2011, False color bands 742
 
-![Landsat of Midland/Odessa area](images/updates/2013/landsat-launch/midland_landsat_1.JPG)
+![Landsat of Midland/Odessa area](static/images/updates/2013/landsat-launch/midland_landsat_1.JPG)
 
 ### Center-Pivot Irrigation in Collingsworth County
 Landsat 5 path 29 row 36, 8/24/2011, False color bands 742
 
-![Landsat of Center-Pivot Irrigation in Collingsworth County](images/updates/2013/landsat-launch/pivots_landsat.jpg)
+![Landsat of Center-Pivot Irrigation in Collingsworth County](static/images/updates/2013/landsat-launch/pivots_landsat.jpg)
 
 ### Bastrop County Complex Wildfire Burn Scar
 Landsat 5 path 27 row 39, 9/11/2011, False color bands 743
 
-![Landsat of Bastrop County Complex Wildfire Burn Scar](images/updates/2013/landsat-launch/bastrop_landsat.jpg)
+![Landsat of Bastrop County Complex Wildfire Burn Scar](static/images/updates/2013/landsat-launch/bastrop_landsat.jpg)
 

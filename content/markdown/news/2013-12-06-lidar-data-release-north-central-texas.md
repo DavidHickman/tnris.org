@@ -2,8 +2,8 @@
 template: news.html
 title: "LiDAR Data Release For Parts of North & Central Texas"
 author: StratMap
-thumbnail: images/updates/2013/lidar-data-release-north-central/lidar-release-th.png
-mainimage: images/updates/2013/lidar-data-release-north-central/image002.jpg
+thumbnail: static/images/updates/2013/lidar-data-release-north-central/lidar-release-th.png
+mainimage: static/images/updates/2013/lidar-data-release-north-central/image002.jpg
 imagealt: A sample of collected liDAR data
 abstract: 
     TNRIS is releasing newly acquired high resolution lidar data for 3,090 square miles of North Texas
@@ -15,11 +15,11 @@ The Texas Natural Resources Information System (TNRIS) is pleased to announce th
 This project was administered by the TNRIS Strategic Mapping Program (StratMap) and the data were procured through the Council on Competitive Government’s (CCG) High Priority Imagery and Datasets (HPIDS) contract.  Funding was provided by the U.S. Department of Agriculture Natural Resources Conservation Service (NRCS), the Texas Commission on Environmental Quality (TCEQ), the San Antonio River Authority (SARA) and the Texas Water Development Board (TWDB).</p>
 
 <div style="float: left; width: 350px; margin-right: 20px">
-<a href="images/updates/2013/lidar-data-release-north-central/AOI_North_3090_full.jpg" alt="map of lidar coverage"><img src="images/updates/2013/lidar-data-release-north-central/AOI_North_3090_small.jpg" alt="map of lidar coverage"></a>
+<a href="{{m.link('static/images/updates/2013/lidar-data-release-north-central/AOI_North_3090_full.jpg')}}" alt="map of lidar coverage"><img src="{{m.link('static/images/updates/2013/lidar-data-release-north-central/AOI_North_3090_small.jpg')}}" alt="map of lidar coverage"></a>
 <caption style="font-size: 10px;">Click for Full Preview</caption>
 </div>
 <div style="float: left; width: 350px;">
-<a href="images/updates/2013/lidar-data-release-north-central/AOI_Central.jpg" alt="Aoi Central Image"><img src="images/updates/2013/lidar-data-release-north-central/AOI_Central_small.jpg" alt="AOI Central image"></a>
+<a href="{{m.link('static/images/updates/2013/lidar-data-release-north-central/AOI_Central.jpg')}}" alt="Aoi Central Image"><img src="{{m.link('static/images/updates/2013/lidar-data-release-north-central/AOI_Central_small.jpg')}}" alt="AOI Central image"></a>
 <caption style="font-size: 10px;">Click for Full Preview</caption>
 </div>
 
@@ -58,12 +58,12 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 - Units are in meters denoting orthometric heights
 - Structure for data listed above shall conform to 1/64th USGS 7.5-minute quadrangle
 - Quarter-quarter-quarter quadrangle (DOQQQQ, or DO4Q)<br>
-![A diagram of the DOQQ grid system](images/data/quad.png)
+![A diagram of the DOQQ grid system](static/images/data/quad.png)
 
 ## Sample Images
 
-![A sample of collected liDAR data](images/updates/2013/lidar-data-release-north-central/image001.jpg)
+![A sample of collected liDAR data](static/images/updates/2013/lidar-data-release-north-central/image001.jpg)
 
-![A sample of collected liDAR data](images/updates/2013/lidar-data-release-north-central/image003.png)
+![A sample of collected liDAR data](static/images/updates/2013/lidar-data-release-north-central/image003.png)
 
-![A sample of collected liDAR data](images/updates/2013/lidar-data-release-north-central/image004.png)
+![A sample of collected liDAR data](static/images/updates/2013/lidar-data-release-north-central/image004.png)
