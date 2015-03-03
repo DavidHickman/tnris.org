@@ -88,8 +88,8 @@
           {% if loop.index <= 4 %}
             <li class="media">
               <a href="{{m.link(spotlight.preserved)}}">
-                <img class="media-object img-responsive" src="{{spotlight.thumb}}" alt="A small preview of the {{ spotlight.title }} image">
-                <h4>{{ spotlight.title }}</h4>
+                <img class="media-object img-responsive" src="{{m.link(spotlight.thumb)}}" alt="A small preview of the {{spotlight.title}} image">
+                <h4>{{spotlight.title}}</h4>
               </a>
             </li>
           {% endif %}
@@ -110,14 +110,13 @@
         {% if loop.index <= 4 %}
           <li class="media col-xs-12 col-sm-3 col-md-12">
             <a href="{{m.link(spotlight.preserved)}}">
-              <img class="media-object img-responsive" src="{{ spotlight.thumb }}" alt="...">
-              <h4>{{ spotlight.title }}</h4>
+              <img class="media-object img-responsive" src="{{m.link(spotlight.thumb)}}" alt="...">
+
             </a>
          </li>
        {% endif %}
      {% endfor %}
     </ul>
-    
   </div>
 
 {% include "./partials/highlights.html" %}
