@@ -61,8 +61,12 @@
   </li>
 {%- endmacro -%}
 
+{%- macro based(str) -%}
+  {{base}}{{str}}
+{%- endmacro -%}
+
 {%- macro link(str, path) -%}
-  {{validateLink(str, crossref, path || filename)}}
+  {{base}}{{validateLink(str, crossref, path || filename)}}
 {%- endmacro -%}
 
 {%- macro wms_link(url) -%}
@@ -81,5 +85,3 @@
   {%- set end = '}}' -%}
   {{ start + str + end}}
 {%- endmacro -%}
-
-
