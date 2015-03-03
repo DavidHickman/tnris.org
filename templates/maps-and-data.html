@@ -96,7 +96,7 @@
         <div class="media col-xs-12 col-sm-6">
           <h2 class="media-heading">{{item.name}}</h2>
           <a class="media-left" href="{{m.link(item.link)}}">
-            <img class="thumbnail" src="{{item.image}}" alt="{{item.alt_text}}"/>
+            <img class="thumbnail" src="{{m.link('static/' + item.image)}}" alt="{{item.alt_text}}"/>
           </a>
           <div class="media-body">
             <p>{{item.description}}</p>

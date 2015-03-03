@@ -27,7 +27,7 @@ Just fill out a custom map order form at (link) and include all available datase
 > 
 > Printed Dimensions:
 
-<img src="images/maps-and-data/custom_fishing_map.jpg" class="img-responsive" alt="Custom Fishing produced by RDC">
+<img src="{{m.link('static/images/maps-and-data/custom_fishing_map.jpg')}}" class="img-responsive" alt="Custom Fishing produced by RDC">
 
 
 ###Ranch Map
@@ -35,8 +35,8 @@ Just fill out a custom map order form at (link) and include all available datase
 > 
 > Printed Dimensions:
 
-<img src="images/maps-and-data/custom_ranch_map.jpg" class="img-responsive" alt="Custom Ranch produced by RDC">
+<img src="{{m.link('static/images/maps-and-data/custom_ranch_map.jpg')}}" class="img-responsive" alt="Custom Ranch produced by RDC">
 
 ###Custom County Map
-<img src="images/maps-and-data/custom_county_map.jpg" class="img-responsive" alt="Custom County produced by RDC">
+<img src="{{m.link('static/images/maps-and-data/custom_county_map.jpg')}}" class="img-responsive" alt="Custom County produced by RDC">
 
