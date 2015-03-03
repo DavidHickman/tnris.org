@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block header %}
+  {% parent %}
+  <meta name="fragment" content="!">
+{% endblock header %}
+
 {% block styles %}
   {% parent %}
 
