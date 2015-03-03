@@ -16,11 +16,12 @@ var dataDownloadApp = function () {
     .constant('MAP_IMAGE_URL_PRE', '//s3.amazonaws.com/tnris-datadownload/')
     .constant('DOWNLOAD_URL_PRE', '//tg-twdb-gemss.s3.amazonaws.com')
     .constant('DOWNLOAD_API_PRE', '//tnris.org/data-download/api/v1')
+    .constant('PARTIALS_PATH', '../partials/')
     .controller('dataDownloadCtrl', dataDownloadCtrl)
     .config(function ($analyticsProvider) {
       $analyticsProvider.withAutoBase(true);
     })
-    .config(function($stateProvider, $urlRouterProvider, $sceDelegateProvider) {
+    .config(function($stateProvider, $urlRouterProvider, $sceDelegateProvider, PARTIALS_PATH) {
       $sceDelegateProvider.resourceUrlWhitelist([
         // Allow same origin resource loads
         'self',
@@ -31,10 +32,12 @@ var dataDownloadApp = function () {
       // For any unmatched url, redirect to /statewide
       $urlRouterProvider.otherwise("/statewide");
 
+      var resultsTemplate = PARTIALS_PATH + 'results.html';
+
       $stateProvider
         .state('statewide', {
           url: "/statewide",
-          templateUrl: "partials/results.html",
+          templateUrl: resultsTemplate,
           controller: function($scope) {
             $scope.category = 'Statewide';
 
@@ -62,7 +65,7 @@ var dataDownloadApp = function () {
         })
         .state('county', {
           url: "/county/:name",
-          templateUrl: "partials/results.html",
+          templateUrl: resultsTemplate,
           controller: function($scope, $stateParams, MapService) {
             $scope.category = 'County';
             $scope.name = _.clone($stateParams.name);
@@ -82,7 +85,7 @@ var dataDownloadApp = function () {
         })
         .state('quad', {
           url: "/quad/:name",
-          templateUrl: "partials/results.html",
+          templateUrl: resultsTemplate,
           controller: function($scope, $stateParams, $collection, MapService) {
             $scope.category = 'Quad';
             $scope.name = $stateParams.name;
