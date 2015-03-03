@@ -2,7 +2,7 @@
 template: 2014-forum.html
 title: 2014 Texas GIS Forum
 subtitle: October 20th-23rd | J.J. Pickle Center | Austin, Texas
-mainimage: images/forum2.jpg
+mainimage: static/images/forum2.jpg
 abstract: Once a year, take a break from your screen to go social at the Texas GIS Forum, the premier, statewide conference dedicated to spatial technology advancements in the government and private sectors.
 ---
 
@@ -11,22 +11,22 @@ abstract: Once a year, take a break from your screen to go social at the Texas G
 <div class="row">
 <div class="media keynote col-md-6">
 	<div class="media-left">
-		<img class="media-object" src="images/texas-gis-forum/2014/suri_th_0.jpg" alt="Jeremi Suri Head Shot">
+		<img class="media-object" src="{{m.link('static/images/texas-gis-forum/2014/suri_th_0.jpg')}}" alt="Jeremi Suri Head Shot">
 	</div>
 	<div class="media-body">
 		<small>Wednesday, October 22nd, 9AM to 10AM</small>
 		<h3>Jeremi Suri</h3>
-		<p>Jeremi Suri holds the Mack Brown Distinguished Chair for Leadership in Global Affairs at the University of Texas at Austin. He is a professor in the University's Department of History and the Lyndon B. Johnson School of Public Affairs, and the author of five books on contemporary politics and foreign policy.</p><a href="news/2014-10-01/forum-keynote-jeremi-suri/">--> Full Bio</a>
+		<p>Jeremi Suri holds the Mack Brown Distinguished Chair for Leadership in Global Affairs at the University of Texas at Austin. He is a professor in the University's Department of History and the Lyndon B. Johnson School of Public Affairs, and the author of five books on contemporary politics and foreign policy.</p><a href="{{m.link('news/2014-10-01-forum-keynote-jeremi-suri')}}">--> Full Bio</a>
 	</div>
 </div>
 <div class="media keynote col-md-6">
 	<div class="media-left">
-		<img class="media-object" src="images/texas-gis-forum/2014/wolter_th.jpg" alt="Scott Wolter Head Shot">
+		<img class="media-object" src="{{m.link('static/images/texas-gis-forum/2014/wolter_th.jpg')}}" alt="Scott Wolter Head Shot">
 	</div>
 	<div class="media-body">
 		<small>Thursday, October 23rd, 9AM to 10AM</small>
 		<h3>Scott F. Wolter</h3>
-		<p>Forensic geologist Scott Wolter is the host of History’s H2 network’s hit show, America Unearthed, that follows his quest to uncover the truth behind historic artifacts and sites found throughout North America. </p><a href="news/2014-07-29/forum-keynote-scott-f-wolter/">--> Full Bio</a>
+		<p>Forensic geologist Scott Wolter is the host of History’s H2 network’s hit show, America Unearthed, that follows his quest to uncover the truth behind historic artifacts and sites found throughout North America. </p><a href="{{m.link('news/2014-07-29-forum-keynote-scott-f-wolter')}}">--> Full Bio</a>
 	</div>
 </div>
 </div>

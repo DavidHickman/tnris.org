@@ -2,7 +2,7 @@
 template: 2014-forum.html
 title: Sponsors & Exhibitors
 subtitle: October 20th-23rd | J.J. Pickle Center | Austin, Texas
-mainimage: images/forum2.jpg
+mainimage: static/images/forum2.jpg
 abstract: Partner with Texas's Premiere gathering for the Geospatial Professionals to reach your customers and your community.
 ---
 
