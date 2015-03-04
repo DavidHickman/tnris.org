@@ -3,12 +3,10 @@ template: spotlight.html
 title: Toledo Bend DEM
 author: Joey Thomas
 author_division: Research & Distribution
-thumb: images/data-spotlights/toledo-bend-dem-th.jpg
-mainimage: images/data-spotlights/toledo-bend-dem-horiz.jpg
-fullimage: images/data-spotlights/toledo-bend-dem.jpg
+thumb: static/images/data-spotlights/toledo-bend-dem-th.jpg
+mainimage: static/images/data-spotlights/toledo-bend-dem-horiz.jpg
+fullimage: static/images/data-spotlights/toledo-bend-dem.jpg
 ---
-
-{% import '_macros.html' as m %}
 
 <p class="lead">This Digital Elevation Model (DEM) was acquired from a 2011 [High Priority Imagery and Datasets](high-priority-imagery-data-sets) project by TNRIS. The model covers the area near Gum Pond of North Toledo Bend Wildlife Management Area along the Texas-Louisiana border.</p>
 

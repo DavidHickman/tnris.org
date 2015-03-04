@@ -1,17 +1,17 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
 {% import "_form_macros.html" as form %}
 
 
 {% block styles %}
   {% parent %}
 
-  {{ form.styles() }}
+  {{form.styles()}}
 {% endblock styles %}
 
 {% block scripts %}
   {% parent %}
 
-  {{ form.scripts() }}
+  {{form.scripts()}}
 {% endblock scripts %}
 
 
@@ -20,7 +20,7 @@
 
     <div class="top-container">
         {% if mainimage %}
-          <img src="{{ mainimage }}" alt="Main Image for Statewide Ortho project, a Texas Flag composed of imagery"> 
+          <img src="{{m.link(mainimage)}}" alt="Main Image for Statewide Ortho project, a Texas Flag composed of imagery">
         {% endif %}
 
         <div class="top-header center-block">
@@ -48,18 +48,18 @@
         </div>
     </div>
 </div>
-{% endblock topcontent %} 
+{% endblock topcontent %}
 {% block contents %}
 <div class="row">
     <div class="col-md-8">
-        {{ contents|safe }} 
+        {{contents|safe}}
     </div>
 
-       
+
 </div>
 {% endblock contents %}
 
-{% block contents-two %} 
+{% block contents-two %}
     <section class="ortho-top">
       <div class="container">
           <div class="row">

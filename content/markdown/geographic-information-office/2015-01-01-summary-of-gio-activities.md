@@ -2,13 +2,13 @@
 template: gio-news.html
 title: "Our 2014 Recap and What's to Come"
 author: Richard Wade, State GIO
-thumbnail: images/gio-stories/calendar_th.jpg
+thumbnail: static/images/gio-stories/calendar_th.jpg
 abstract:
     What we were up to in 2014 and some plans for the year ahead.
 tags: GIO, Data Sharing, GIS, Geospatial
 ---
 
-<p><img class="pull-right" src="{{thumbnail}}">This past year was a busy one and the GIO was just getting started. Here's a rundown of some of exciting projects and initiatives our office was part of, followed with a look ahead to the coming year.</p>
+<p><img class="pull-right" src="{{m.link(thumbnail)}}">This past year was a busy one and the GIO was just getting started. Here's a rundown of some of exciting projects and initiatives our office was part of, followed with a look ahead to the coming year.</p>
 
 ### Some of the things we did...
 

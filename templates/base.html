@@ -1,9 +1,16 @@
+{%- import "_macros.html" as m -%}
 <!DOCTYPE html>
-<html lang="en" class="wf-loading">
+<html {% block htmltag %} lang="en" class="wf-loading" {% endblock htmltag %}>
   <head>
     {% block header %}
       {% include "./partials/header.html" %}
     {% endblock header %}
+
+    {% block title %}
+     <title>
+        {% if title %}{{title}} | {% endif %}TNRIS - Texas Natural Resources Information System
+      </title>
+    {% endblock title %}
 
     {% block styles %}
       {% include "./partials/styles.html" %}

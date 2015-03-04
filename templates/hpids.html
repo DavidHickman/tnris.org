@@ -9,7 +9,7 @@
         <p>
           {% if vendor.thumbnail %}
             <a href="{{vendor.url}}">
-              <img class="center-block" src="{{vendor.thumbnail}}" alt="{{vendor.name}} Logo and link to website">
+              <img class="center-block" src="{{m.link(vendor.thumbnail)}}" alt="{{vendor.name}} Logo and link to website">
             </a>
            {% else %}
             <a href="{{vendor.url}}">
