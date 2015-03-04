@@ -427,12 +427,18 @@ gulp.task('dist-useref', ['dist-metal', 'dist-scss', 'dist-static'], function ()
     .pipe(ngAnnotate)
     .pipe(uglify);
 
+  // WARNING: Currently broken, proceed with caution!
+  // see: https://github.com/jonkemp/gulp-useref/issues/87
+  //return gulp.src(dirs.tmp + '/**/index.html')
+      //.pipe(assets)
+      //.pipe(gulpif('*.min.js', jsCompress()))
+      //.pipe(gulpif('*.min.css', minifyCss()))
+      //.pipe(assets.restore())
+      //.pipe(useref())
+      //.pipe(gulp.dest(dirs.dist));
+
+  // instead, just pipe to dist
   return gulp.src(dirs.tmp + '/**/index.html')
-      .pipe(assets)
-      .pipe(gulpif('*.min.js', jsCompress()))
-      .pipe(gulpif('*.min.css', minifyCss()))
-      .pipe(assets.restore())
-      .pipe(useref())
       .pipe(gulp.dest(dirs.dist));
 });
 
