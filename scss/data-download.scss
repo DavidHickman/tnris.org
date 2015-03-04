@@ -1,10 +1,5 @@
 @import "partials/variables";
 
-.return-statewide {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
 h2 {
   text-transform: uppercase;
 }
@@ -30,6 +25,23 @@ h2 {
 
   div {
     margin-left: 15px;
+  }
+}
+
+.sink-from {
+  position: relative;
+
+  .sink-this {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+.map-control {
+  div {
+    float: right;
+    margin-left: 1em;
   }
 }
 

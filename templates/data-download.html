@@ -86,23 +86,12 @@
   </div>
 
   <div class="row">
-    <div class="col-xs-12">
-      <div class="return-statewide search" ng-if="!('statewide' | isState) && !('' | isState)">
-        <a ui-sref="statewide" id="linkStatewide" style="" title="Return to Statewide Dataset Download">
-          <span class="fa fa-share fa-flip-horizontal" aria-hidden="true"></span>
-          Return to Statewide
-        </a>
-      </div>
+    <div class="col-xs-12 search downloadMap">
+      <div download-map></div>
     </div>
   </div>
 
-      <div class="row">
-        <div class="col-xs-12 search downloadMap">
-          <div download-map></div>
-        </div>
-      </div>
-
-      <div ui-view></div>
+  <div ui-view></div>
 
 </div>
 {% endblock contents %}
