@@ -349,13 +349,17 @@ gulp.task('dist-metal', function () {
               var renderer = new marked.Renderer();
               var re = /^(.*:.*|\/\/)/;
 
-              var originalLink = renderer.link;
-              renderer.link = function newLink(href, title, text) {
-                if (!href.match(re)) {
-                  href = "{{m.link('" + href + "', path + '.md')}}";
-                }
-                return originalLink.apply(renderer, [href, title, text]);
-              };
+              function macroifyLink (originalFunc) {
+                return function (href, title, text) {
+                  if (!href.match(re)) {
+                    href = "{{m.link('" + href + "', path + '.md')}}";
+                  }
+                  return originalFunc.apply(renderer, [href, title, text]);
+                };
+              }
+
+              renderer.link = macroifyLink(renderer.link);
+              renderer.image = macroifyLink(renderer.image);
 
               return renderer;
             }()),
