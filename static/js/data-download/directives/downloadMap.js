@@ -1,7 +1,7 @@
-var downloadMap = function ($compile, $http, $state, MapService, CartoService) {
+var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, MapService, CartoService) {
   return {
     restrict: 'EA',
-    templateUrl: 'partials/downloadMap.html',
+    templateUrl: PARTIALS_PATH + 'downloadMap.html',
     link: {
       post: function (scope, element) {
         // create a map in the "map" div, set the view to a given place and zoom

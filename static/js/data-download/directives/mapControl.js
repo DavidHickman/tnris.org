@@ -1,7 +1,7 @@
-var mapControl = function ($compile, $http, $state, MapService, CartoService) {
+var mapControl = function ($compile, $http, $state, PARTIALS_PATH, MapService, CartoService) {
   return {
     restrict: 'EA',
-    templateUrl: 'partials/mapControl.html',
+    templateUrl: PARTIALS_PATH + 'mapControl.html',
     link: {
       post: function (scope, element) {
         function updateControl() {
