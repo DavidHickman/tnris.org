@@ -13,6 +13,7 @@ var dataDownloadApp = function () {
     .factory('MapService', MapService)
     .directive('includeMap', includeMap)
     .directive('resourceGroup',  resourceGroup)
+    .filter('titleize',  titleizeFilter)
     .constant('MAP_IMAGE_URL_PRE', '//s3.amazonaws.com/tnris-datadownload/')
     .constant('DOWNLOAD_URL_PRE', '//tg-twdb-gemss.s3.amazonaws.com')
     .constant('DOWNLOAD_API_PRE', '//tnris.org/data-download/api/v1')
@@ -33,15 +34,17 @@ var dataDownloadApp = function () {
       $urlRouterProvider.otherwise("/statewide");
 
       var resultsTemplate = PARTIALS_PATH + 'results.html';
-
+      
       $stateProvider
         .state('statewide', {
           url: "/statewide",
           templateUrl: resultsTemplate,
-          controller: function($scope) {
+          controller: function($scope, $rootScope) {
             $scope.category = 'Statewide';
 
             $scope.map = null;
+
+            $rootScope.pageTitle = 'Texas Statewide';
 
             DataService.getAreaDatasets('state', 'texas')
               .then(function (resourceGroups) {
@@ -66,11 +69,13 @@ var dataDownloadApp = function () {
         .state('county', {
           url: "/county/:name",
           templateUrl: resultsTemplate,
-          controller: function($scope, $stateParams, MapService) {
+          controller: function($scope, $rootScope, $stateParams, $filter, MapService) {
             $scope.category = 'County';
             $scope.name = _.clone($stateParams.name);
 
             $scope.map = MapService.find('counties', $scope.name);
+
+            $rootScope.pageTitle = $filter('titleize')($scope.name) + ' County';
 
             DataService.getAreaDatasets('county', $scope.name)
               .then(function (resourceGroups) {
@@ -86,11 +91,13 @@ var dataDownloadApp = function () {
         .state('quad', {
           url: "/quad/:name",
           templateUrl: resultsTemplate,
-          controller: function($scope, $stateParams, $collection, MapService) {
+          controller: function($scope, $rootScope, $stateParams, $collection, $filter, MapService) {
             $scope.category = 'Quad';
             $scope.name = $stateParams.name;
 
             $scope.map = MapService.find('quads', $scope.name);
+
+            $rootScope.pageTitle = $filter('titleize')($scope.name) + ' Quad';
 
             $scope.areaDatasets = [{
                 'area': 'quad',
