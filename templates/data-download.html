@@ -1,8 +1,14 @@
 {% extends "base.html" %}
 
+
 {% block htmltag %}
  {% parent %} ng-app="dataDownloadApp"
 {% endblock htmltag %}
+
+{% block header %}
+  {% parent %}
+  <meta name="fragment" content="!">
+{% endblock header %}
 
 {% block title %}
   {# This is kinda terrible but is the only way I could figure to do it without having a flash of {{}} #}
