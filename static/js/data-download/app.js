@@ -34,24 +34,17 @@ var dataDownloadApp = function () {
       $urlRouterProvider.otherwise("/statewide");
 
       var resultsTemplate = PARTIALS_PATH + 'results.html';
-      var origTitle = $('title').html();
-      var updateTitle = function (text) {
-        if (text) { text += " | "; }
-        else { text = ''; }
-
-        $('title').html(text + origTitle);
-      };
-
+      
       $stateProvider
         .state('statewide', {
           url: "/statewide",
           templateUrl: resultsTemplate,
-          controller: function($scope) {
+          controller: function($scope, $rootScope) {
             $scope.category = 'Statewide';
 
             $scope.map = null;
 
-            updateTitle('Texas Statewide');
+            $rootScope.pageTitle = 'Texas Statewide';
 
             DataService.getAreaDatasets('state', 'texas')
               .then(function (resourceGroups) {
@@ -76,13 +69,13 @@ var dataDownloadApp = function () {
         .state('county', {
           url: "/county/:name",
           templateUrl: resultsTemplate,
-          controller: function($scope, $stateParams, $filter, MapService) {
+          controller: function($scope, $rootScope, $stateParams, $filter, MapService) {
             $scope.category = 'County';
             $scope.name = _.clone($stateParams.name);
 
             $scope.map = MapService.find('counties', $scope.name);
 
-            updateTitle($filter('titleize')($scope.name) + ' County');
+            $rootScope.pageTitle = $filter('titleize')($scope.name) + ' County';
 
             DataService.getAreaDatasets('county', $scope.name)
               .then(function (resourceGroups) {
@@ -98,13 +91,13 @@ var dataDownloadApp = function () {
         .state('quad', {
           url: "/quad/:name",
           templateUrl: resultsTemplate,
-          controller: function($scope, $stateParams, $collection, $filter, MapService) {
+          controller: function($scope, $rootScope, $stateParams, $collection, $filter, MapService) {
             $scope.category = 'Quad';
             $scope.name = $stateParams.name;
 
             $scope.map = MapService.find('quads', $scope.name);
 
-            updateTitle($filter('titleize')($scope.name) + ' Quad');
+            $rootScope.pageTitle = $filter('titleize')($scope.name) + ' Quad';
 
             $scope.areaDatasets = [{
                 'area': 'quad',
