@@ -3,11 +3,10 @@ template: spotlight.html
 title: Upper Devil's River Watershed
 author: Joey Thomas
 author_division: Research & Distribution
-thumb: images/data-spotlights/upper-devils-river-watershed-th.jpg
-mainimage: images/data-spotlights/upper-devils-river-watershed-horiz.jpg
-fullimage: images/data-spotlights/upper-devils-river-watershed.jpg
+thumb: static/images/data-spotlights/upper-devils-river-watershed-th.jpg
+mainimage: static/images/data-spotlights/upper-devils-river-watershed-horiz.jpg
+fullimage: static/images/data-spotlights/upper-devils-river-watershed.jpg
 ---
-{% import "_macros.html" as macros %}
 
 TNRIS staff created this image to illustrate the Upper Devil's River watershed, which spans across more than 3500 square miles and covers parts of Crockett, Shleicher, Sutton and Val Verde County.
 

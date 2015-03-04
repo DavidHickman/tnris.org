@@ -29,7 +29,7 @@
       </div>
       <div class="lead">
         {% if course_image %}
-          <img class="course-image pull-right" src="images/training/course-images/{{course_image}}" alt="courseimagealt">
+          <img class="course-image pull-right" src="{{m.link('static/images/training/course-images/' + course_image)}}" alt="courseimagealt">
         {% endif %}
         {{contents|safe}}
       </div>

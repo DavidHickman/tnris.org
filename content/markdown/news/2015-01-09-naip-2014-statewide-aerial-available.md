@@ -2,9 +2,9 @@
 title: NAIP 2014 Statewide Aerial Imagery – Available Now
 template: news.html
 author: StratMap
-thumbnail: images/updates/naip-2014-announcement/naip14_statewide_topo_th.jpg
+thumbnail: static/images/updates/naip-2014-announcement/naip14_statewide_topo_th.jpg
 thumbalt: Small thumb of NAIP 2014 Imagery
-mainimage: images/updates/naip-2014-announcement/naip14_statewide_topo.jpg
+mainimage: static/images/updates/naip-2014-announcement/naip14_statewide_topo.jpg
 mainimagealt: A photo mosaic of 2014 Imagery overlayed on topo map
 abstract:
     The National Agriculture Imagery Program (NAIP) 2014 1-meter orthoimagery covering the entire state of Texas are now available from TNRIS.
@@ -45,7 +45,7 @@ The 2014 NAIP orthoimagery are available for streaming through the APFO ArcGIS I
 ## Acquisition Area
 **NOTE** Areas along the Texas/Mexico border that were not covered in 2012 NAIP imagery are now covered in the 2014 NAIP imagery.
 
-<img class="img-responsive" alt="Acquisition Map Preview" src="images/updates/naip-2014-announcement/naip14_acquisition_map_sm.jpg">
+<img class="img-responsive" alt="Acquisition Map Preview" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_acquisition_map_sm.jpg')}}">
 
 ## Products
 - MrSID CCMs
@@ -62,33 +62,33 @@ The 2014 NAIP orthoimagery are available for streaming through the APFO ArcGIS I
 
 ## Imagery Preview
 ### Aransas County | Scale 1:21000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_aransas_wms_1to21000_sm.jpg" alt="preview of Aransas County imagery at scale 1:21000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_aransas_wms_1to21000_sm.jpg')}}" alt="preview of Aransas County imagery at scale 1:21000">
 
 ### Calhoun County | Scale 1:13000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_calhoun_wms_1to13000.jpg" alt="preview of Calhoun County imagery at scale 1:13000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_calhoun_wms_1to13000.jpg')}}" alt="preview of Calhoun County imagery at scale 1:13000">
 
 ### Dallas County | Scale 1:5000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_dallas_ccm_1to5000.jpg" alt="preview of Dallas County imagery at scale 1:5000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_dallas_ccm_1to5000.jpg')}}" alt="preview of Dallas County imagery at scale 1:5000">
 
 ### Dallas County | Scale 1:29000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_dallas_ccm_1to29000.jpg" alt="preview of Dallas County imagery at scale 1:29000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_dallas_ccm_1to29000.jpg')}}" alt="preview of Dallas County imagery at scale 1:29000">
 
 ### Dallas County | Scale 1:39000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_dallas_ccm_1to39000.jpg" alt="preview of Dallas County imagery at scale 1:39000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_dallas_ccm_1to39000.jpg')}}" alt="preview of Dallas County imagery at scale 1:39000">
 
 ### Haskell County | Scale 1:65000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_haskell_wms_1to65000.jpg" alt="preview of Haskell County imagery at scale 1:65000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_haskell_wms_1to65000.jpg')}}" alt="preview of Haskell County imagery at scale 1:65000">
 
 ### Liberty County | Scale 1:94000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_liberty_wms_1to94000.jpg" alt="preview of Dallas County imagery at scale 1:94000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_liberty_wms_1to94000.jpg')}}" alt="preview of Dallas County imagery at scale 1:94000">
 
 ### Real County | Scale 1:220000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_real_wms_1to220000.jpg" alt="preview of Real County imagery at scale 1:22000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_real_wms_1to220000.jpg')}}" alt="preview of Real County imagery at scale 1:22000">
 
 ### Real County | Scale 1:100000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_terry_wms_1to100000.jpg" alt="preview of Terry County imagery at scale 1:100000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_terry_wms_1to100000.jpg')}}" alt="preview of Terry County imagery at scale 1:100000">
 
 ### Willacy County | Scale 1:48000
-<img class="img-responsive" src="images/updates/naip-2014-announcement/naip14_willacy_wms_1to48000.jpg" alt="preview of Terry County imagery at scale 1:48000">
+<img class="img-responsive" src="{{m.link('static/images/updates/naip-2014-announcement/naip14_willacy_wms_1to48000.jpg')}}" alt="preview of Terry County imagery at scale 1:48000">
 
 

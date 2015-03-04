@@ -21,7 +21,7 @@
       </div>
 
       {% if mainimage %}
-        <img class="media-object img-responsive center-block" src="{{ mainimage }}" alt="{{ imagealt }}">
+        <img class="media-object img-responsive center-block" src="{{ m.link(mainimage) }}" alt="{{ imagealt }}">
       {% endif %}
 
       {{ contents|safe }}
@@ -39,7 +39,7 @@
             {% set count += 1 %}
           <li class="media">
             <div class="media-left">
-              <a href="{{m.link(gio_item.preserved)}}"><img  src="{{gio_item.thumbnail}}" alt="Thumbnail image for {{gio_item.title}}"></a>
+              <a href="{{m.link(gio_item.preserved)}}"><img src="{{m.link(gio_item.thumbnail)}}" alt="Thumbnail image for {{gio_item.title}}"></a>
             </div>
             <div class="media-body">
               <time>{{ gio_item.date|date('F jS, Y') }}</time>
