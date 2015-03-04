@@ -3,7 +3,7 @@
 {% block styles %}
   {% parent %}
 
-  <!-- build:css m.based('css/data-download.min.css') -->
+  <!-- build:css {{m.based('css/data-download.min.css')}} -->
     <link rel="stylesheet" href="{{m.based('bower_components/selectize/dist/css/selectize.bootstrap3.css')}}"/>
     <link rel="stylesheet" href="{{m.based('bower_components/angular-ui-select/dist/select.css')}}"/>
     <link rel="stylesheet" href="{{m.based('css/data-download.css')}}">
@@ -94,7 +94,7 @@
 {% block scripts %}
   {% parent %}
 
-  <!-- build:js m.based('js/data-download-vendor.js') -->
+  <!-- build:js {{m.based('js/data-download-vendor.js')}} -->
     <script type="text/javascript" src="{{m.based('bower_components/angular/angular.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angular-collection/angular-collection.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angular-sanitize/angular-sanitize.min.js')}}"></script>
@@ -104,7 +104,7 @@
     <script type="text/javascript" src="{{m.based('bower_components/angulartics/dist/angulartics-ga.min.js')}}"></script>
   <!-- endbuild -->
 
-  <!-- build:js m.based('js/data-download.min.js') -->
+  <!-- build:js {{m.based('js/data-download.min.js')}} -->
     <script type="text/javascript" src="{{m.based('js/data-download/services/DataService.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/services/MapService.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/directives/includeMap.js')}}"></script>
