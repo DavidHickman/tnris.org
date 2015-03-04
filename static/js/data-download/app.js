@@ -16,7 +16,7 @@ var dataDownloadApp = function () {
     .constant('MAP_IMAGE_URL_PRE', '//s3.amazonaws.com/tnris-datadownload/')
     .constant('DOWNLOAD_URL_PRE', '//tg-twdb-gemss.s3.amazonaws.com')
     .constant('DOWNLOAD_API_PRE', '//tnris.org/data-download/api/v1')
-    .constant('PARTIALS_PATH', '../partials/')
+    .constant('PARTIALS_PATH', '../js/data-download/partials/')
     .controller('dataDownloadCtrl', dataDownloadCtrl)
     .config(function ($analyticsProvider) {
       $analyticsProvider.withAutoBase(true);
