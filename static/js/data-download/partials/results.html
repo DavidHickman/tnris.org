@@ -8,8 +8,9 @@
               <h3>2004 NAIP Imagery for <strong>{{ name | titleize }} Quad</strong></h3>
               <p>Click on adjacent quads to pan.</p>
             </div>
-            <div ng-switch-default>
-              <h3><strong>{{ name | titleize }}</strong> {{ category }} Map View</h3>
+            <div ng-switch-when="County">
+              <h3><strong>{{ name | titleize }} County</strong> Map View</h3>
+              <p>Click on a quad to zoom in.</p>
             </div>
           </div>
           <div include-map="map.imageMap"></div>
