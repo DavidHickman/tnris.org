@@ -20,19 +20,19 @@
   <div ng-controller="dataDownloadCtrl">
       <div class="row top-row">
         <div class="col-xs-12 col-sm-8">
-          <h1>Data Search & Download</h1>
+          <h1>Data Search &amp; Download</h1>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12">
-          <p>Datasets are available at four levels: State, County, Quadrangle, and Quarter-Quadrangle.</p>
+          <p>GIS and imagery datasets are available at four levels: State, County, Quadrangle, and Quarter-Quadrangle.</p>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12">
-          <p>You can search by County or Quad below using auto-fill or a drop down list to identify your desired dataset.</p>
+          <p>You can search by County or Quad below using auto-fill or drop down list to identify your desired area.</p>
         </div>
       </div>
 
@@ -109,6 +109,7 @@
     <script type="text/javascript" src="{{m.based('js/data-download/services/MapService.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/directives/includeMap.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/directives/resourceGroup.js')}}"></script>
+    <script type="text/javascript" src="js/data-download/filters/titleizeFilter.js"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/controllers/dataDownloadCtrl.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/app.js')}}"></script>
   <!-- endbuild -->
