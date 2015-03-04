@@ -11,17 +11,17 @@ imagealt: A view of the Forum in the Commons Center Atrium
 ---
 
 By all accounts, the 2014 Texas GIS Forum was the best yet! Your participation and enthusiasm generated an unprecedented level of energy. We couldn’t be more pleased.
- 
-Enjoy photos from the event below, and [visit the Agenda page](http://www.tnris.org/2014gisforum#agenda) to view available presentations from this year's forum.
+
+Enjoy photos from the event below, and [visit the Agenda page](2014-texas-gis-forum) to view available presentations from this year's forum.
 
 We hope you had an ah-ha moment because you learned about a new idea or concept. Ideally you’ll take your projects to the next level as a result.
- 
+
 A special thank you to all sponsors and contributors who helped to make the Forum so successful.  Specifically we want to thank the  Platinum Sponsors: [ESRI](http://www.esri.com), [Quantum Spatial](http://www.quantumspatial.com), and [AppGeo](http://www.appgeo.com) – for their generous support and participation.
- 
+
 We hope you had a great time and that you will join us again next October. Thanks to you, the Texas GIS Forum continues to gain momentum and emerge as one the top geospatial events in the country.<
- 
-Until next year,  
-Richard Wade  
+
+Until next year,
+Richard Wade
 *Director, TNRIS*
 
 
