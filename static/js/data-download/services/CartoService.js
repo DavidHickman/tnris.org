@@ -3,7 +3,7 @@ var CartoService = ['$http', 'CARTODB_CONFIG', function ($http, config)  {
 
   CartoService = {};
 
-  var baseURL = window.location.protocol + '//' + config.account + '.cartodb.com/api/v2/';
+  var baseURL = 'https://' + config.account + '.cartodb.com/api/v2/';
 
   CartoService.vizURL = function (type) {
     var viz_id = config[type].viz_id;

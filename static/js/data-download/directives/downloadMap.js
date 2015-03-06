@@ -31,7 +31,7 @@ var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, MapService, 
 
           map.addLayer(openAerial);
 
-          cartodb.createLayer(map, CartoService.vizURL('data-download'))
+          cartodb.createLayer(map, CartoService.vizURL('data-download'), {https: true})
             .addTo(map)
             .on('done', function(layer) {
               // returns sublayer from layer with layer_name === find_name
