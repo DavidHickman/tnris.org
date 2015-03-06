@@ -214,5 +214,5 @@ the [Governor's Committee on People with Disabilities][6].
 [5]: mailto:ac@twdb.texas.gov
 [6]: http://www.governor.state.tx.us/disabilities/
 [7]: http://www.section508.gov/index.cfm?FuseAction=Content&ID=3
-[8]: http://info.sos.state.tx.us/pls/pub/readtac$ext.ViewTAC?tac_view=4&ti=1&pt=10&ch=206
+[8]: http://texreg.sos.state.tx.us/public/readtac$ext.TacPage?sl=R&app=9&p_dir=&p_rloc=&p_tloc=&p_ploc=&pg=1&p_tac=&ti=1&pt=10&ch=206&rl=50
 [9]:  http://dir.texas.gov/View-About-DIR/Pages/Content.aspx?id=19
