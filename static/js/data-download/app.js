@@ -28,6 +28,18 @@ var dataDownloadApp = function () {
     .config(function ($analyticsProvider) {
       $analyticsProvider.withAutoBase(true);
     })
+    .run(function ($rootScope, $timeout) {
+      //This method is used when the data-download app is pre-rendered for search engine listing.
+      // It should be called after the page is 'finished' rendering (after async calls complete)
+      // and will signal to our PhantomJS renderer to stop waiting for changes in the page
+      $rootScope.htmlReady = function () {
+        $timeout(function () {
+          if (angular.isFunction(window.callPhantom)) { 
+            window.callPhantom();
+          }
+        });
+      };
+    })
     .config(function($stateProvider, $urlRouterProvider, $sceDelegateProvider, $locationProvider, PARTIALS_PATH) {
       $sceDelegateProvider.resourceUrlWhitelist([
         // Allow same origin resource loads
@@ -72,6 +84,8 @@ var dataDownloadApp = function () {
                     'groups': groupedGroups
                   }
                 ];
+
+                $rootScope.htmlReady();
               });
           }
         })
@@ -94,13 +108,15 @@ var dataDownloadApp = function () {
                     'groups': resourceGroups
                   }
                 ];
+
+                $rootScope.htmlReady();
               });
           }
         })
         .state('quad', {
           url: "/quad/:name",
           templateUrl: resultsTemplate,
-          controller: function($scope, $rootScope, $stateParams, $collection, $filter, MapService) {
+          controller: function($scope, $rootScope, $stateParams, $q, $collection, $filter, MapService) {
             $scope.category = 'Quad';
             $scope.name = $stateParams.name;
 
@@ -117,18 +133,21 @@ var dataDownloadApp = function () {
               }
             ];
 
-            DataService.getAreaDatasets('quad', $scope.name)
+            var quadPromise = DataService.getAreaDatasets('quad', $scope.name)
               .then(function (resourceGroups) {
                 $scope.areaDatasets[0].groups = resourceGroups;
               });
 
-            ['NW','NE','SW','SE'].map(function(corner, index) {
-              DataService.getAreaDatasets('qquad', $scope.name + '|' + corner)
+            var cornerPromises = _.map(['NW','NE','SW','SE'], function (corner, index) {
+              return DataService.getAreaDatasets('qquad', $scope.name + '|' + corner)
                 .then(function (resourceGroups) {
                   $scope.areaDatasets[1].groups[index] = resourceGroups[0];
                 });
             });
 
+            $q.all([].concat(quadPromise, cornerPromises)).then(function() {
+              $rootScope.htmlReady();
+            });
           }
         });
     });
