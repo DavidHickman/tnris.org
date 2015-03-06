@@ -161,10 +161,7 @@ distribute its materials. The agency would appreciate acknowledgment.
 At the Texas Water Development Board (TWDB), we are committed to making our Web
 site accessible to all users.
 
-To ensure that we comply with state and federal law, we review each new Web page
-or application for compliance with the [Worldwide Web Consortium's][3] [Web
-Content Accessibility Guidelines][4] (WCAG).  We also review previously existing
-Web pages and applications for accessibility when we make significant
+To ensure that we comply with state and federal law, we review each new Web page or application for compliance with the [Worldwide Web Consortium's][3] [Web Content Accessibility Guidelines][4] (WCAG).  We also review previously existing Web pages and applications for accessibility when we make significant
 modifications to them.
 
 Nonetheless, much of our current content was produced before these guidelines
@@ -175,7 +172,7 @@ applications also become accessible.
 
 If you use assistive technology and the format of any material on our Web site
 interferes with your ability to access information, please e-mail the TWDB Web
-accessibility coordinator through [webmaster@twdb.texas.gov][5]
+accessibility coordinator through [ac@twdb.texas.gov][5]
 
 When you contact us, please be sure to tell us each of these points:
 
@@ -206,16 +203,16 @@ the [Governor's Committee on People with Disabilities][6].
 #### Related Information
 
 * [Federal Law: ADA Section 508][7]
-* [State Rules: 1 TAC Section 206][8]
-* [Web Accessibility in Texas][9]
+* [State Rules: 1 TAC Section 206.50][8]
+* [EIR Accessibility Policy][9]
 
 [TWDB]: //www.twdb.texas.gov
 [1]: mailto:publicinfo@twdb.texas.gov
 [2]: http://www.dir.texas.gov/SitePolicies/Pages/linkpolicy.aspx
 [3]: http://www.w3.org/
 [4]: http://www.w3.org/TR/WCAG20/
-[5]: mailto:webmaster@twdb.texas.gov
+[5]: mailto:ac@twdb.texas.gov
 [6]: http://www.governor.state.tx.us/disabilities/
 [7]: http://www.section508.gov/index.cfm?FuseAction=Content&ID=3
 [8]: http://info.sos.state.tx.us/pls/pub/readtac$ext.ViewTAC?tac_view=4&ti=1&pt=10&ch=206
-[9]: http://www.dir.texas.gov/SitePolicies/Pages/accessibilitypolicy.aspx
+[9]:  http://dir.texas.gov/View-About-DIR/Pages/Content.aspx?id=19
