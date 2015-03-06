@@ -14,6 +14,7 @@ var templatePath = path.join(__dirname, 'sitemap-datadownload.xml.swig');
 var template = swig.compileFile(templatePath);
 
 var defaults = {
+  baseUrl: "http://tnris.org/data-download/#!",
   output: path.join(__dirname, 'sitemap-datadownload.xml')
 };
 
@@ -21,6 +22,7 @@ function generate(options, cb) {
   var opts = extend({}, defaults, options);
   var context = {
     areas: areas,
+    baseUrl: opts.baseUrl,
     modified_date: new Date()
   };
 
