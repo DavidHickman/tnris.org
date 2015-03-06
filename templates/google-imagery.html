@@ -28,26 +28,23 @@
 {% block contents %}
 
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-6">
       {{ contents|safe }}
 
       {% block extracontent %}
       {% endblock extracontent %}
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-6">
       {% block sidebarLeft %}
+
+    <section class="google-contact">
+             {% include "./partials/google-contact.html" %}
+    </section>
       {% endblock sidebarLeft %}
     </div>
   </div>
 {% endblock contents %}
 
 {% block contents-two %} 
-    <section class="ortho-top">
-      <div class="container">
-          <div class="row">
-             {% include "./partials/google-contact.html" %}
-           </div>
-         </div>
-    </section>
 {% endblock contents-two %}
