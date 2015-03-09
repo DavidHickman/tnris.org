@@ -17,7 +17,7 @@ On Monday, February 11, 2013 at precisely 12:02 p.m. CST, NASA launched the next
 
 The LDCM satellite is a joint venture between NASA and the U.S. Geological Survey (USGS). The new [Operational Land Imager (OLI)](http://www.nasa.gov/mission_pages/landsat/spacecraft/index.html) onboard Landsat 8 will capture two new spectral bands to observe coastal zone characteristics and detect cirrus clouds. Also on Landsat 8, the new [Thermal Infrared Sensor (TIRS)](http://www.nasa.gov/mission_pages/landsat/spacecraft/index.html) will detect land surface temperature in two new narrow thermal bands. Additionally, refinements were made to the remaining Landsat heritage bands. Other changes include a “pushbroom” design for image data capture along the legacy 185-km wide swath and a 38% increase in the number of scenes captured per day compared to Landsat 7.
 
-The first scenes from Landsat 8 are expected to be available 100 days after launch. Search, preview, and download Landsat scenes from previous missions from the [USGS LandsatLook Viewer](http://landsatlook.usgs.gov/.
+The first scenes from Landsat 8 are expected to be available 100 days after launch. Search, preview, and download Landsat scenes from previous missions from the [USGS LandsatLook Viewer](http://landsatlook.usgs.gov/).
 
 Scene footprints that cover Texas in the [Worldwide Reference System-2](http://landsat.gsfc.nasa.gov/about/wrs.html) are shown below. Every scene, or path/row designation, is imaged every 16 days. See near real-time image acquisition at the [USGS EarthNow! Landsat Image Viewer](http://earthnow.usgs.gov/earthnow_app.html?sessionId=6667755c86f8359d1ef5adb2ed34585b17979%20%20target=).
 
