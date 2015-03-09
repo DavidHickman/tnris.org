@@ -25,18 +25,7 @@ Gayla extended an invitation to anyone interested in assisting with the QA/QC of
 
 Gayla went on to announce the pending availability of the county compressed mosaic (CCM) imagery files from the 2014 National Agriculture Imagery Program statewide flyover. The CCM files will be available for download through the TNRIS Data Download page, by county, in March. 
 
-**Alternatively, the NAIP 2014 imagery are available via a USDA-APFO WMS:**
-
-<p>
-<div class="input-group copy-url-container">
-      <span class="input-group-btn">
-    <button class="btn btn-tnris copy-url-btn" type="button">
-      <i class="fa fa-clipboard"></i> Copy URL
-    </button>
-  </span>
-  <input class="wms-url copy-url-input form-control" type="text" readonly value="http://fsa.usda.gov/FSA/apfoapp?area=home&subject=prog&topic=nai">
-</div>
-</p>
+**Alternatively, the NAIP 2014 imagery are available via a USDA-APFO WMS, information available here: http://fsa.usda.gov/FSA/apfoapp?area=home&subject=prog&topic=nai**
 
 TNRIS will receive the 2014 NAIP uncompressed Geotiff and compressed JPEG2000 DOQQs within the next six weeks.
 
@@ -53,22 +42,22 @@ New lidar for central Texas is set to be released in the coming weeks. The cover
 <p class="lead">Many representatives of government agencies and city governments from across the state were in attendance, and shared updates on key projects and initiatives their organizations are working on. We'd love to see you or your organization at the next meeting.</p>
 
 ### Texas Parks and Wildlife Department (TPWD) – Kim Ludeke 
-<a href=""><img class="pull-right" src="{{m.link('static/images/gio-stories/logos/tpwd_logo.jpg')}}"></a>The Vegetation Map of Texas is now public and can be downloaded by ecoregion. A new application is under construction – TEAM – the Texas Ecosystems 
+<a href="https://tpwd.texas.gov/"><img class="pull-right" src="{{m.link('static/images/gio-stories/logos/tpwd_logo.jpg')}}"></a>The Vegetation Map of Texas is now public and can be downloaded by ecoregion. A new application is under construction – TEAM – the Texas Ecosystems 
 - Analytical Mapper. Field biologists are working with ranchers across the state to ensure utility of the application and the integrity of the data.
 - TPWD is also working on the Karst Map of Texas.
 - Two positions are expected to open at TPWD in the coming weeks.
 
 ### Texas Department of Transportation (TxDOT) – Michael Chamberlain
-<a href=""><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/txdot_logo.jpg')}}"></a>
+<a href="http://www.txdot.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/txdot_logo.jpg')}}"></a>
 - A new map portal based on Proposition 1 was recently released and “public involvement begins today.” The viewer enables the user to search by area where Prop 1 funds are allocated that will assist in completing transportation projects around the state. Michael pointed out the importance of the proposition and encouraged input as a citizen of Texas.
 - TxDOT has collected all public roads in Texas as part of the Highway Performance Monitoring System (HPMS) program. The collected roadway data, referred to as the Geospatial Roadway Inventory Database (GRID) is available online from TxDOT or TNRIS.
 
 ### Texas Water Development Board (TWDB) – Miguel Pavon
-<a href=""><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/twdb_logo.jpg')}}"></a>
+<a href="http://www.twdb.texas.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/twdb_logo.jpg')}}"></a>
 - Miguel is building a pilot map service for the TWDB Texas Water Survey group for internal use. The map service will contain socioeconomic and demographic data to assist in making grant funding decisions based on greatest need. The map service is internal to TWDB but can be demonstrated at the next meeting.
 
 ### Texas Department of Public Safety (TxDPS) – Andrew Mellon
-<a href=""><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/tx_dps_logo.jpg')}}"></a>
+<a href="http://www.dps.texas.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/tx_dps_logo.jpg')}}"></a>
 - TxMap is a fully functioning web map service available to internal TxDPS staff. The map service lacks users mainly because of the difficulty in showing the value to young troopers. TxDPS also maintains strategically placed camera sensors to monitor border activity. A suggestion to give a presentation on that project was brought up by R. Wade. 
 - TxDPS is working on a critical information system portal using WebEOC. The portal is for TDEM support during emergency response and recovery.
 

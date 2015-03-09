@@ -15,4 +15,4 @@ In September 2011 he published a new book on the past and future of nation-build
 
 His writings appear widely in blogs and print media. Professor Suri is also a frequent public lecturer and guest on radio and television programs.
 
-Mr. Suri's website: [jermisuri.net.](http://www.jermisuri.net.)
+Mr. Suri's website: [jeremisuri.net](http://jeremisuri.net/)
