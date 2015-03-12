@@ -429,21 +429,12 @@ ul.news-list {
   background: $lightgrey;
   color: $tnrisblue;
   font-family: $pragmatica;
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 25px;
   line-height: normal;
   margin: 20px;
   margin-top: 5px;
-  max-width: 60%;
+  max-width: 40%;
   padding: 30px;
-
-  @media (min-width: $screen-md) {
-    max-width: 40%;
-  }
-  
-  @media (min-width: $screen-sm) {
-    font-size: 25px;
-  }
 
   &:before {
     content: open-quote; 

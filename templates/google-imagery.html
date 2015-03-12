@@ -1,0 +1,50 @@
+{% extends "base.html" %} 
+{% import "_form_macros.html" as form %}
+
+{% block styles %}
+  {% parent %}
+
+  {{ form.styles() }}
+{% endblock styles %}
+
+{% block scripts %}
+  {% parent %}
+
+  {{ form.scripts() }}
+{% endblock scripts %}
+
+{% block topcontent %}
+<div class="container-fluid full">
+      <div class="top-container">
+        <div class="sr-only">
+              <h1>{{title}}</h1>
+              {{abstract}}
+        </div>
+        <img class="img-responsive center-block" src="{{ mainimage }}" alt="Masthead for {{title}}">
+      </div>
+</div>
+{% endblock topcontent %}
+
+{% block contents %}
+
+  <div class="row">
+    <div class="col-md-8">
+      {{ contents|safe }}
+
+      {% block extracontent %}
+      {% endblock extracontent %}
+    </div>
+
+<div class="col-md-4">
+      {% block sidebarLeft %}
+
+    <section class="google-contact">
+
+    </section>
+      {% endblock sidebarLeft %}
+    </div>
+  </div>
+{% endblock contents %}
+
+{% block contents-two %} 
+{% endblock contents-two %}
