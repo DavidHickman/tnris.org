@@ -4,17 +4,11 @@ title: Texas Google Imagery Service Pilot Project
 mainimage: images/google-imagery/google-bg.jpg
 abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, Utilize and Incorporate into the Work you do for the Public.
 ---
-Many of us use Google imagery in our daily lives, but with this innovative project, the **Texas Natural Resources Information System**, the state's **Department of Information Resources (DIR)** and Google Imagery have collaborated to harness the resources of this, to provide a high-quality, cost-efficient, and widely accessible mapping resource that meets the needs of government agencies.
+<p class="lead">Many of us use Google imagery in our daily lives, but with this innovative project, the State of Texas has collaborated with Google to to provide a cost-efficient and widely accessible mapping resource that meets the needs of government agencies.</p>
 
-The **Texas Google Imagery Service Pilot Project** is higher quality than the consumer product.
+<p class="lead">The Texas Google Imagery Service is designed to provide high resolution imagery showing the entire state of Texas with its most current coverage. The service provides continuous 6-inch natural color imagery for the entire state.</p>
 
-Google Imagery is designed to provide a high resolution imagery service showing the entire state of Texas with its most current coverage. Google imagery provides continuous 6-inch natural color imagery for the entire state.
-
-As a state provisioned service Google Imagery has two primary benefits:
-1. Giving organizations the most current imagery for mapping.
-2. Creating a consistent data source so any mapping performed will reflect the same underlying data as any other organization who uses it. This will keep maps for decision makers up to date and ahead of the consumer free imagery that is used by the public.
-
-Making Google imagery available to all public agencies in Texas distributes the cost, making the imagery and the updates affordable to all.
+<p class="lead">Making Google imagery available to all public agencies in Texas distributes the cost, making the imagery and the updates affordable to all.</p>
 
 ### Who can use the Google Imagery Services?
 

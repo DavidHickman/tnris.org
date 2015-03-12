@@ -28,18 +28,21 @@
 {% block contents %}
 
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-8">
       {{ contents|safe }}
 
       {% block extracontent %}
       {% endblock extracontent %}
     </div>
 
-    <div class="col-md-6">
+<div class="col-md-4">
       {% block sidebarLeft %}
 
     <section class="google-contact">
-             {% include "./partials/google-contact.html" %}
+      <!-- {% include "./partials/google-contact.html" %} -->
+             As a state provisioned service, Google Imagery has two primary benefits:
+1. Giving organizations current imagery for mapping.
+2. Creating a consistent data source so any mapping performed will reflect the same underlying data as any other organization who uses it. This will keep maps for decision makers up to date and ahead of the consumer free imagery that is used by the public.
     </section>
       {% endblock sidebarLeft %}
     </div>
