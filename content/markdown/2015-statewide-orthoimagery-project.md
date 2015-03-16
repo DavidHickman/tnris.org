@@ -8,12 +8,13 @@ author: Gayla Mullins
 status_image: status_image_2015_02_21.jpg
 status_image_preview: status_image_2015_02_21_sm.jpg
 latest_report: Weekly_Status_Report_022015.pdf
-status_date: February 20th, 2015
+status_date: February 27th, 2015
 updates:
-  - Five airplanes with ADS100 digital camera sensors continued to acquire imagery simultaneously over Texas.
-  - "Due to weather conditions affecting the overall project, the acquisition season end date for Seasons 2 and 3 was extended to February 28, 2015."
-  - "The first of four pilot datasets was received at TNRIS for review: HOCKLEY COUNTY."
-progress_1: 71
+  - Due to unfavorable weather conditions, very little imagery acquisition progress was made over the past week.
+  - Five airplanes with ADS100 digital camera sensors remain in Texas to take advantage of any opportunity to acquire imagery.
+  - Due to weather conditions affecting the overall project, the acquisition season end date for Seasons 2, 3, and 4 was extended to March 15, 2015.
+  - "TNRIS reviewed and submitted feedback on the first of four pilot datasets: HOCKLEY COUNTY."
+progress_1: 73
 progress_2: 100
 progress_3: 50 
 progress_4: 25
