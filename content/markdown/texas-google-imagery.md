@@ -1,7 +1,7 @@
 ---
 template: google-imagery.html
 title: Texas Google Imagery Service Pilot Project
-mainimage: images/google-imagery/google-bg.jpg
+mainimage: images/google/google-imagery-full.jpg
 abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, Utilize and Incorporate into the Work you do for the Public.
 ---
 <p class="lead">Many of us use Google imagery in our daily lives, but with this innovative project, the State of Texas has collaborated with Google to to provide a cost-efficient and widely accessible mapping resource that meets the needs of government agencies.</p>
