@@ -5,4 +5,41 @@
     background: $lightgrey;
     padding: 20px;
     padding-top: 0;
+
+    .btn {
+      margin-bottom: 30px;
+    }
+}
+
+.google-intro {
+  padding-top: 40px;
+  background: $darkgrey;
+  color: $white;
+  padding-bottom: 40px;
+
+.lead {
+    text-shadow: 0 0 1px $darkgrey;
+  }
+
+  h2 {
+    color: $canary;
+    font-weight: 300;
+    font-size: 40px;
+    text-shadow: 0 0 1px solid $darkgrey;
+  }
+
+  a {
+    color: $orange;
+
+    &:hover {
+      color: $yield;
+    }
+  }
+}
+
+
+#texas-google-imagery {
+    .container-fluid.full {
+    margin-bottom: 0;
+    }
 }

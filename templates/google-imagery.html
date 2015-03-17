@@ -23,6 +23,14 @@
         <img class="img-responsive center-block" src="{{ mainimage }}" alt="Masthead for {{title}}">
       </div>
 </div>
+
+<div id="intro" class="google-intro">
+    <div class="container">
+        <div id="project-updates" class="row">
+          {% include "./partials/google-intro.html" %}
+        </div>
+    </div>
+</div>
 {% endblock topcontent %}
 
 {% block contents %}
@@ -39,10 +47,16 @@
       {% block sidebarLeft %}
 
     <section class="google-contact">
-      <!-- {% include "./partials/google-contact.html" %} -->
-             As a state provisioned service, Google Imagery has two primary benefits:
-1. Giving organizations current imagery for mapping.
-2. Creating a consistent data source so any mapping performed will reflect the same underlying data as any other organization who uses it. This will keep maps for decision makers up to date and ahead of the consumer free imagery that is used by the public.
+      <h3>Informational Downloads</h3>
+      <a href="documents/google/google-imagery-fact-sheet.pdf" class="btn btn-default btn-lg btn-block">
+        <i class="glyphicon glyphicon-file"></i> Google Imagery Fact Sheet
+      </a>
+      <a href="documents/google/google-imagery-terms-of-use.pdf" class="btn btn-default btn-lg btn-block">
+      <i class="glyphicon glyphicon-file"></i> Google Imagery Terms of Use
+      </a>
+      <a href="documents/google/google-imagery-formal-accuracy-assessment.pdf" class="btn btn-default btn-lg btn-block">
+        <i class="glyphicon glyphicon-file"></i> Google Imagery Formal Accuracy Assessment
+      </a>
     </section>
       {% endblock sidebarLeft %}
     </div>
