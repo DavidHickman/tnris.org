@@ -13,7 +13,9 @@ It provides state organizations with a current and consistent data source while 
 Google hosts the Google imagery service through the Google Maps Engine.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving Terrabytes of data.  
  
 ## Who can use the Google Imagery Services?
-The Texas Google Imagery Service is a restricted license and is only for use by public organizations in the State of Texas (ie. state, regional and local governments).  Contractors for any public organization are permitted to use the imagery as long as the project or program is being performed directly in supports the public organization.  Rights to use the imagery, terminate upon completion of work by the outside entities.  The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
+The Texas Google Imagery Service is a restricted license and is only for use by public organizations in the State of Texas (ie. state, regional and local governments).  Contractors for any public organization are permitted to use the imagery as long as the project or program is being performed directly in supports the public organization. 
+
+Rights to use the imagery terminate upon completion of work by the outside entities. The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
  
 ## I don’t use the Google Maps API, how do can I incorporate the services into my tools and applications?
 Google Maps API provides access to the rich mapping content services from Google. Maps API is a commercial product that requires licensing based on quantities of use but is not required to access the Google Imagery Service.
@@ -23,31 +25,34 @@ The Texas Google Imagery Service is an open-standard service and can be incorpor
 Check with your IT Department to determine if an OGC compliant Web Service is supported by your applications.
  
 ## How is the Texas Google Imagery Service different than the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agricultural Imagery Program (NAIP)?
-The Texas Google Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 12-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than that of the 1-meter National Agriculture Imagery Program (NAIP) imagery.   
+The Texas Google Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 1/2-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than the 1-meter National Agriculture Imagery Program (NAIP) imagery.   
  
 The imagery represented by the Texas Google Imagery Service is not in the public domain and is restricted under license.
  
-
 ## Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Aerial Imagery Program (NAIP) partnerships?
 Yes, TNRIS will continue to coordinate with the agency partners to determine the need and interest for a statewide public domain imagery dataset.
  
 ## How do I add the Google Imagery services to my desktop environment?
 The Texas Google Imagery Service can be added as a layer into ArcGIS desktop. Instructions for this can be found at:
 
-<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B​" class="btn btn-default btn-lg">How to add to ArcGIS online</a>
+<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">How to add to ArcGIS online</a>
  
 ## What if my link stops working?
-There may be times when links will be updated to allow for access of newly added imagery.  Most likely, your agency would have been notified about these updates.  The fastest way to know whether this is the reason for your non-functioning links is to check the Google imagery web portal located at: http://www.tnris.org/texas-google-imagery. This page will provide link status updates, announcements, and instructions on how to reestablish your link.
+There may be times when links will be updated to allow for access of newly added imagery.  Most likely, your agency would have been notified about these updates.  The fastest way to know whether this is the reason for your non-functioning links is to check status updates at the top of this page:
+
+ <a href="#project-updates" class="smooth-scroll"><i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a> 
+
+These updates will provide link status updates, announcements, and instructions on how to reestablish your link.
  
 If there is nothing on the portal page about any updates, please use the “contact TNRIS” and we will reactive your link.
  
  
 ## How do I request a link for my organization?
-If you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to get a link, visit the request form using the button below:
+ Request a Unique Link Today
+</a> If you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to get a link, visit the request form using the button below.
 
-<a class="btn btn-tnris btn-lg center-block" href="google-request">
-<i class="glyphicon glyphicon-comment"></i> Request a Unique Link Today
-</a>
+<a class="btn btn-danger btn-lg" href="google-request">
+<i class="glyphicon glyphicon-comment"></i> Request a Unique Link</a>
  
 **Note:** Because the Texas Google Imagery Service is a restricted license, it can only for use by public organizations in the State of Texas.
  
@@ -69,7 +74,7 @@ No. Your current links should be updated automatically and always reflect the la
  
 ## What if I see errors or inconsistencies in the imagery?  How should I report it and to whom do I report it?
 Use the button below to go to the Questions and Feedback form located on this page.
-<a class="btn btn-tnris btn-lg btn-block smooth-scroll" href="#contact-pm">
+<a class="btn btn-default btn-lg smooth-scroll" href="#contact-pm">
 <i class="glyphicon glyphicon-question-sign"></i> General Questions or Feedback
 </a>
 
@@ -103,6 +108,6 @@ Because each agency is assigned their own specific URL for the Google Imagery Se
 ## Request a Unique Link
 If you feel all your questions have been answered, and are ready to get connected, please use the button below to request a unique link for your organization.
 
-<a class="btn btn-tnris btn-lg btn-block" href="google-request">
+<a class="btn btn-danger btn-lg" href="google-request">
 <i class="glyphicon glyphicon-comment"></i> Request a Unique Link Today
 </a>

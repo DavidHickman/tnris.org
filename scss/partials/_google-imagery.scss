@@ -1,14 +1,28 @@
 // _google-imagery.scss
 @import "variables";
 
-.google-contact {
-    background: $lightgrey;
+.google-side {
     padding: 20px;
     padding-top: 0;
 
     .btn {
       margin-bottom: 30px;
+      text-align: left;
     }
+}
+
+.google-top {
+  background: $lightgrey;
+  padding-bottom: 20px;
+
+  date {
+    text-transform: uppercase;
+  }
+
+
+  .btn {
+    margin-top: 50px;
+  }
 }
 
 .google-intro {
@@ -16,6 +30,15 @@
   background: $darkgrey;
   color: $white;
   padding-bottom: 40px;
+
+  a.orange {
+  color: $orange;
+
+  &:hover {
+    color: $yield;
+    }
+  }
+
 
 .lead {
     text-shadow: 0 0 1px $darkgrey;
@@ -26,6 +49,16 @@
     font-weight: 300;
     font-size: 40px;
     text-shadow: 0 0 1px solid $darkgrey;
+    margin-top: 0;
+  }
+
+  
+  h3 {
+    margin-top: 0;
+  }
+
+  .btn {
+    margin-top: 20px;
   }
 }
 
@@ -36,8 +69,22 @@
     }
 }
 
+#google-request {
+    .container-fluid.full {
+    margin-bottom: 0;
+    }
+} 
+
+
 .faq-list {
   li {
     margin-bottom: 15px;
+  }
+}
+
+ul.helpful {
+  li {
+    margin-bottom: 15px;
+    font-size: 18px;
   }
 }

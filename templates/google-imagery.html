@@ -1,86 +1,68 @@
-{% extends "base.html" %} 
-{% import "_form_macros.html" as form %}
-
-{% block styles %}
-  {% parent %}
-
-  {{ form.styles() }}
-{% endblock styles %}
-
-{% block scripts %}
-  {% parent %}
-
-  {{ form.scripts() }}
-{% endblock scripts %}
-
-{% block topcontent %}
+{% extends "base.html" %} {% import "_form_macros.html" as form %} {% block styles %} {% parent %} {{ form.styles() }} {% endblock styles %} {% block scripts %} {% parent %} {{ form.scripts() }} {% endblock scripts %} {% block topcontent %}
 <div class="container-fluid full">
-      <div class="top-container">
+    <div class="top-container">
         <div class="sr-only">
-              <h1>{{title}}</h1>
-              {{abstract}}
+            <h1>{{title}}</h1> {{abstract}}
         </div>
         <img class="img-responsive center-block" src="{{ mainimage }}" alt="Masthead for {{title}}">
-      </div>
+    </div>
 </div>
 
 <div id="intro" class="google-intro">
     <div class="container">
         <div id="project-updates" class="row">
-          {% include "./partials/google-intro.html" %}
+            {% include "./partials/google-intro.html" %}
         </div>
     </div>
 </div>
-<section class="ortho-top">
+<section class="google-top">
     <div class="container">
         <div id="project-updates" class="row">
             {% include "./partials/google-update.html" %}
         </div>
     </div>
 </section>
-{% endblock topcontent %}
+{% endblock topcontent %} {% block contents %}
 
-{% block contents %}
-
-  <div class="row">
+<div class="row">
     <div class="col-md-8">
-      <h1 id="project-faq">Project FAQ</h1>
-      {% include "./partials/google-faq-toc.html" %}
-
-      {{ contents|safe }}
-
-      {% block extracontent %}
-      {% endblock extracontent %}
+        <h1 id="project-faq">Project FAQ</h1> {% include "./partials/google-faq-toc.html" %} {{ contents|safe }} {% block extracontent %} {% endblock extracontent %}
     </div>
 
-<div class="col-md-4">
-      {% block sidebarLeft %}
+    <div class="col-md-4">
+        {% block sidebarLeft %}
 
-    <section class="google-contact">
-      <h3>Helpful Downloads</h3>
-      <a href="documents/google/google-imagery-fact-sheet.pdf" class="btn btn-default btn-lg btn-block">
-        <i class="glyphicon glyphicon-file"></i> Google Imagery Fact Sheet
-      </a>
-      <a href="documents/google/google-imagery-terms-of-use.pdf" class="btn btn-default btn-lg btn-block">
-      <i class="glyphicon glyphicon-file"></i> Google Imagery Terms of Use
-      </a>
-      <a href="documents/google/google-imagery-formal-accuracy-assessment.pdf" class="btn btn-default btn-lg btn-block">
-        <i class="glyphicon glyphicon-file"></i> Google Imagery Formal<br>Accuracy Assessment
-      </a>
-    </section>
-      {% endblock sidebarLeft %}
+        <section class="google-side">
+            <h3>Helpful Downloads</h3>
+            <ul class="helpful list-clean">
+                <li>
+                    <a href="documents/google/google-imagery-fact-sheet.pdf">
+                        <i class="glyphicon glyphicon-file"></i> Google Imagery Fact Sheet
+                    </a>
+                </li>
+                <li>
+                    <a href="documents/google/google-imagery-terms-of-use.pdf">
+                        <i class="glyphicon glyphicon-file"></i> Google Imagery Terms of Use
+                    </a>
+                </li>
+                <li>
+                    <a href="documents/google/google-imagery-formal-accuracy-assessment.pdf">
+                        <i class="glyphicon glyphicon-file"></i> Google Imagery Accuracy Assessment
+                    </a>
+                </li>
+              </ul>
+        </section>
+        {% endblock sidebarLeft %}
     </div>
-  </div>
-{% endblock contents %}
-
-{% block contents-two %} 
-    <section class="ortho-top">
-      <div class="container">
-          <div class="row">
+</div>
+{% endblock contents %} {% block contents-two %}
+<section class="ortho-top">
+    <div class="container">
+        <div class="row">
             <div class="col-md-8">
-             {% include "./partials/google-contact.html" %}
-           </div>
-           </div>
-         </div>
-    </section>
+                {% include "./partials/google-contact.html" %}
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock contents-two %}

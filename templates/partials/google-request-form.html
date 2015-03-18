@@ -4,12 +4,13 @@
   {{form.input("First Name", "First Name", "text", true)}}
 
   {{form.input("Last Name", "Last Name", "text", true)}}
+
   {{form.input("Email", {
-      label: "Email",
+      label: "Primary contact email",
       placeholder: "Enter email address"
     }, "email", true)}}
   {{form.input("Phone", {
-      label: "Phone",
+      label: "Primary contact phone",
       placeholder: "Enter your phone number"
     }, "tel", true)}}
 
@@ -42,7 +43,7 @@
           [
           'No',
           'Possible',
-          'Probable'
+          'Likely'
         ],
         true
       )}}
@@ -53,8 +54,8 @@
 
   {{form.checkbox(
     "Best Effort",
-    "Imagery web services are provided as a ‘best effort’ level service; there is no implied or explicit high availability service-level agreement for the imagery web services..",
-    "Yes, I agree",
+    "Imagery web services are provided as a ‘best effort’ level service; there is no implied or explicit high availability service-level agreement for the imagery web services.",
+    "Yes, I understand",
     true,
     true
   )}}
@@ -66,8 +67,29 @@
     true
   )}}
   {{form.checkbox(
-    "",
-    "License information, known issues, frequently asked questions, and other resources related to the Google imagery license are available at....",
+    "horizontal accuracy",
+    "Stated horizontal positional accuracy of the imagery is expected to achieve or exceed one meter (CE90) in most areas without significant vertical relief. Higher precision is expected in urban areas, where existing supplemental ground control was more abundant.",
+    "Yes, I understand",
+    true,
+    true
+  )}}
+  {{form.checkbox(
+    "datum transformation",
+    " A datum transformation may be required to achieve the highest level of positional accuracy, especially when reprojecting imagery between NAD27, NAD83, and WGS84-based datums.",
+    "Yes, I understand",
+    true,
+    true
+  )}}
+  {{form.checkbox(
+    "contractors",
+    "Contractors or formal partners performing work on behalf of a licensee must apply separately for access to the imagery service if it is to be used outside the immediate licensee's physical facilities or network.",
+    "Yes, I agree",
+    true,
+    true
+  )}}
+  {{form.checkbox(
+    "reselling",
+    "Imagery files may not be resold, leased, rented or redistributed outside of your immediate organization or used for projects not identified to and approved by TNRIS. Providing mass downloads of any imagery files or derivative works containing the imagery is not permitted.",
     "Yes, I agree",
     true,
     true
@@ -77,18 +99,27 @@
 <p class="lead">Image files may be requested through TNRIS for those organizations with legitimate use requirements that cannot be met using the imagery via web services.</p>
 
 <p><strong>Important Note: The imagery <strong>.jpg</strong> files are not yet ready, but you can still place your request in the queue for future attention.</strong></p>
+
+  {{form.checkbox(
+    "streaming needs",
+    "",
+    "The streaming imagery web service is not anticipated to meet my organization's needs. My organization is requesting access to the imagery files for the following project and reason:",
+    false,
+    true
+  )}}
+
   {{form.input("project or application description", {
-      label: "Project or Application Description (if applicable):",
+      label: "Project or Application Description:",
       placeholder: "Enter description"
     }, "text", false)}}
 
   {{form.input("requirements", {
-      label: "Why web service access doesn’t fulfill requirements (if applicable):",
+      label: "Why web service access doesn’t fulfill requirements:",
       placeholder: "Describe the issue"
     }, "text", false)}}
 
   {{form.input("geographic", {
-      label: "Description of Geographic Area Required:",
+      label: "Description of Geographic Area:",
       placeholder: "Describe the Geographic Area"
     }, "text", false)}}
 
