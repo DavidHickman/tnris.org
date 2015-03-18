@@ -1,12 +1,21 @@
 {% import "_form_macros.html" as form %}
-<h2 id="contact-pm">Request a Unique Link</h2>
+<h2 id="contact-pm">Contact and Feedback Form</h2>
 
-<p class="lead">The service links will distributed strictly and monitored closely.</p>
+<p class="lead">Use this form to ask us general questions, leave a comment, or give us feedback about the service.</p>
+<p class="lead">TNRIS staff will promptly reply to you within 2-3 Business days</p>
 
-<p class="lead">Once your service request has been made, TNRIS staff will follow up with verifications to approve authorization of the service use for your agency and staff.</p>
-
-{{form.before("google")}}
+{{form.before("google-contact")}}
   {{form.input("Name", "Name", "text", true)}}
+   {{form.multi(
+        "Reason",
+        "Reason for contacting",
+        "radio",
+          [
+          'General Inquiry',
+          'Imagery Service Feedback'
+        ],
+        true
+  )}}
   {{form.input("Email", {
       label: "Email",
       placeholder: "Enter email address"
@@ -15,18 +24,17 @@
       label: "Phone",
       placeholder: "Enter your phone number"
     }, "tel", false)}}
+
   {{form.input("Government Agency or Affiliation", {
       label: "What Is Your Government Agency or Affiliation?",
       placeholder: "Name of Agenecy or Organization"
     }, "text", false)}}
-
-  {{form.checkbox(
-    "Sign up",
-    "Sign up",
-    "Please sign me up for updates from TNRIS.",
-    false,
-    true
-  )}}
+    {{form.textarea(
+        "Question or Comments",
+        "Question / Comments",
+        true,
+        true
+    )}}
 
   {{form.submit("message")}}
 {{form.after()}}

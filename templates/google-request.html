@@ -20,37 +20,25 @@
               <h1>{{title}}</h1>
               {{abstract}}
         </div>
-        <img class="img-responsive center-block" src="{{ mainimage }}" alt="Masthead for {{title}}">
+        <a href="texas-google-imagery"><img class="img-responsive center-block" src="{{ mainimage }}" alt="Masthead for {{title}}"></a>
       </div>
 </div>
 
 <div id="intro" class="google-intro">
     <div class="container">
-        <div id="project-updates" class="row">
-          {% include "./partials/google-intro.html" %}
+        <div class="row">
+          <h2>Request a Unique Google Imagery Link for Your Organization
         </div>
     </div>
 </div>
-<section class="ortho-top">
-    <div class="container">
-        <div id="project-updates" class="row">
-            {% include "./partials/google-update.html" %}
-        </div>
-    </div>
-</section>
 {% endblock topcontent %}
 
 {% block contents %}
 
   <div class="row">
     <div class="col-md-8">
-      <h1 id="project-faq">Project FAQ</h1>
-      {% include "./partials/google-faq-toc.html" %}
-
       {{ contents|safe }}
-
-      {% block extracontent %}
-      {% endblock extracontent %}
+      {% include "./partials/google-request-form.html" %}
     </div>
 
 <div class="col-md-4">
@@ -72,15 +60,3 @@
     </div>
   </div>
 {% endblock contents %}
-
-{% block contents-two %} 
-    <section class="ortho-top">
-      <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-             {% include "./partials/google-contact.html" %}
-           </div>
-           </div>
-         </div>
-    </section>
-{% endblock contents-two %}

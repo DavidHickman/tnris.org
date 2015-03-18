@@ -27,14 +27,6 @@
     font-size: 40px;
     text-shadow: 0 0 1px solid $darkgrey;
   }
-
-  a {
-    color: $orange;
-
-    &:hover {
-      color: $yield;
-    }
-  }
 }
 
 
@@ -42,4 +34,10 @@
     .container-fluid.full {
     margin-bottom: 0;
     }
+}
+
+.faq-list {
+  li {
+    margin-bottom: 15px;
+  }
 }
