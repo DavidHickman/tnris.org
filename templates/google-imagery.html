@@ -1,9 +1,18 @@
+{% extends "base.html" %}
+{% import "_form_macros.html" as form %}
 
-{% extends "base.html" %} 
-{% import "_form_macros.html" as form %} 
-{% block styles %} {% parent %} {{ form.styles() }} 
-{% endblock styles %} {% block scripts %} {% parent %} 
-{{ form.scripts() }} {% endblock scripts %} 
+
+{% block styles %}
+  {% parent %}
+
+  {{form.styles()}}
+{% endblock styles %}
+
+{% block scripts %}
+  {% parent %}
+
+  {{form.scripts()}}
+{% endblock scripts %}
 
 {% block topcontent %}
 <div class="container-fluid full">
@@ -11,7 +20,7 @@
         <div class="sr-only">
             <h1>{{title}}</h1> {{abstract}}
         </div>
-        <img class="img-responsive center-block" src="{{ mainimage }}" alt="Masthead for {{title}}">
+        <img class="img-responsive center-block" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}">
     </div>
 </div>
 
