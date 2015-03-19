@@ -445,8 +445,8 @@
     }
 
     h4 {
-      font-size: 18px;
-      margin-bottom: 20px;
+      font-size: 17px;
+      margin-bottom: 5px;
       margin-top: 0;
     }
 
@@ -455,9 +455,20 @@
     }
 
     time {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 300;
       margin-bottom: 0px;
+    }
+
+    i {
+      float: left;
+      height: 30px;
+      margin-right: 5px;
+      padding-top: 5px;
+    }
+
+    li:last-child {
+      margin-bottom: 18px;
     }
   }
 
