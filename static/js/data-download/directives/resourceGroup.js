@@ -1,11 +1,11 @@
-var resourceGroup = ['$stateParams', 'DOWNLOAD_URL_PRE', function ($stateParams, downloadUrlPre) {
+var resourceGroup = ['$stateParams', 'DOWNLOAD_URL_PRE', 'PARTIALS_PATH', function ($stateParams, downloadUrlPre, PARTIALS_PATH) {
   return {
     restrict: 'EA',
     scope: {
       group: '=',
       areaDataset: '='
     },
-    templateUrl: 'partials/resourceGroup.html',
+    templateUrl: PARTIALS_PATH + 'resourceGroup.html',
     link: function($scope) {
       $scope.downloadUrlPre = downloadUrlPre;
 

@@ -1,1 +1,1 @@
-Sitemap: http://tnris.org/sitemap.xml
+Sitemap: http://tnris.org/sitemap-index.xml

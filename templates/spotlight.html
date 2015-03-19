@@ -3,9 +3,11 @@
 
 {% block topcontent %}
   <div class="container-fluid" id="spotlight-full-image">
-    <div class="center-block"><a href="#full-spot" data-toggle="modal"><img class="media-object img-responsive" src="{{ mainimage }}" alt="A large preview of the {{ title }} image">
-  </a>
-  </div>
+    <div class="center-block">
+      <a href="#full-spot" data-toggle="modal">
+        <img class="media-object img-responsive" src="{{m.link(mainimage)}}" alt="A large preview of the {{title}} image">
+      </a>
+    </div>
 
     <div class="spot-title center-block">
       <div class="container">
@@ -14,9 +16,9 @@
           Click Image for Full Preview
         </div>
         <small>Data Spotlight <i class="fa fa-lightbulb-o"></i></small>
-        <h1>{{ title }}</h1>
+        <h1>{{title}}</h1>
         <div class="byline">
-          by <author>{{ author }}<author>, {{ author_division }} | <time>{{ date|date('F jS, Y') }}</time>
+          by <author>{{author}}<author>, {{author_division}} | <time>{{date|date('F jS, Y')}}</time>
         </div>
       </div>
     </div>
@@ -27,10 +29,10 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h3 class="modal-title" id="myModalLabel">{{ title }}</h3>
+          <h3 class="modal-title" id="myModalLabel">{{title}}</h3>
         </div>
         <div class="modal-body">
-          <img class="media-object img-responsive center-block" src="{{ fullimage }}" alt="A large preview of the {{ title }} image">
+          <img class="media-object img-responsive center-block" src="{{m.link(fullimage)}}" alt="A large preview of the {{title}} image">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -38,39 +40,38 @@
       </div>
     </div>
   </div>
-  {% endblock topcontent %}
+{% endblock topcontent %}
+
 {% block contents %}
-
   <div class="row article">
-  <div class="col-md-9 blog-main">
-     {{ contents|safe }}
-	</div>
-	{% block rightContent %}
-  <div class="col-md-3 blog-sidebar">
-    <div class="sidebar-module sidebar-module-inset">
-      <h3>More Spotlights</h3>
-      <div id="dataSpot">
-      <ul class="media-list">
-        {% set count = 1 %}
-        {% for spotlight in spotlights %}
-          {% if (spotlight.id !== id) && count <= 3 %}
-            {% set count += 1 %}
-            <li class="media">
-              <a href="{{m.link(spotlight.preserved)}}">
-                <img class="media-object img-responsive" src="{{ spotlight.thumb }}" alt="A small preview of the {{ spotlight.title }} image">
-                <h4>{{ spotlight.title }}</h4>
-              </a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+    <div class="col-md-9 blog-main">
+       {{contents|safe}}
     </div>
-    </div>
-    <div class="sidebar-module">
-    </div>
+
+    {% block rightContent %}
+      <div class="col-md-3 blog-sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+          <h3>More Spotlights</h3>
+          <div id="dataSpot">
+            <ul class="media-list">
+              {% set count = 1 %}
+              {% for spotlight in spotlights %}
+                {% if (spotlight.id !== id) && count <= 3 %}
+                  {% set count += 1 %}
+                  <li class="media">
+                    <a href="{{m.link(spotlight.preserved)}}">
+                      <img class="media-object img-responsive" src="{{m.link(spotlight.thumb)}}" alt="A small preview of the {{spotlight.title}} image">
+                      <h4>{{spotlight.title}}</h4>
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="sidebar-module">
+        </div>
+      </div>
+    {% endblock rightContent %}
   </div>
-{% endblock rightContent %}
-</div>
-
-
 {% endblock contents %}

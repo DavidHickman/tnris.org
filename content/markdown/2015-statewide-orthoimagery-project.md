@@ -1,21 +1,22 @@
 ---
 title: 2015 Statewide Orthoimagery Project
 template: 2015-ortho-page.html
-mainimage: images/statewide-orthoimagery/ortho_flag_lg.jpg
+mainimage: static/images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract: 
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
-status_image: status_image_2015_02_09.jpg
-status_image_preview: status_image_2015_02_09_sm.jpg
-latest_report: Weekly_Status_Report_020615.pdf
-status_date: February 6th, 2015
+status_image: status_image_2015_03_02.jpg
+status_image_preview: status_image_2015_03_02_sm.jpg
+latest_report: Weekly_Status_Report_022715.pdf
+status_date: March 13th, 2015
 updates:
-  - Four airplanes with ADS100 digital camera sensors continued to acquire imagery simultaneously over Texas. Progress is shown as red lines in the Status Map to the right.
-  - Part of a 6-inch BUY-UP area in West Texas was acquired. Progress is shown as blue lines in the Status Map to the right.
-progress_1: 47
-progress_2: 80
-progress_3: 42 
-progress_4: 0
+  - Due to continued unfavorable weather conditions, little imagery acquisition progress was made over the past week.
+  - Three airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
+  - Due to weather conditions affecting the overall project, the acquisition season end date for the entire state, Seasons 1, 2, 3, and 4, was extended to March 31, 2015.
+progress_1: 76
+progress_2: 100
+progress_3: 60 
+progress_4: 25
 progress_5: 0
 ---
 
@@ -25,28 +26,28 @@ progress_5: 0
     <div class="row">
       <div class="col-xs-3">
         <a title="Visit the Texas Department of Transportation website" class="partner" href="http://www.txdot.gov">
-          <img class="img-responsive" src="images/statewide-orthoimagery/logos/txdot.jpg" alt="Texas Department of Transportation (TxDOT) Logo and Link to website">
+          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/txdot.jpg')}}" alt="Texas Department of Transportation (TxDOT) Logo and Link to website">
           <small class="hidden-xs">Texas Department of Transportation (TxDOT)</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
       </div>
         <div class="col-xs-3">
         <a class="partner" href="http://www.tceq.state.tx.us">
-          <img title="Visit the Texas Commission on Environmental Quality (TCEQ) website" class="img-responsive" src="images/statewide-orthoimagery/logos/tceq_logo.jpg" alt="Texas Commission on Environmental Quality (TCEQ) Logo and Link to website">
+          <img title="Visit the Texas Commission on Environmental Quality (TCEQ) website" class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/tceq_logo.jpg')}}" alt="Texas Commission on Environmental Quality (TCEQ) Logo and Link to website">
           <small class="hidden-xs">Texas Commission on Environmental Quality (TCEQ)</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
       </div>
       <div class="col-xs-3">
         <a class="partner" href="http://www.rrc.state.tx.us">
-          <img class="img-responsive" src="images/statewide-orthoimagery/logos/rrc_logo.jpg" alt="Railroad Commission of Texas Surface Mining and Reclamation Division Logo and Link to website">
+          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/rrc_logo.jpg')}}" alt="Railroad Commission of Texas Surface Mining and Reclamation Division Logo and Link to website">
           <small class="hidden-xs">Railroad Commission of Texas - Surface Mining and Reclamation Division</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
       </div>
       <div class="col-xs-3">
         <a class="partner" href="http://www.glo.texas.gov">
-          <img class="img-responsive" src="images/statewide-orthoimagery/logos/glo_logo.jpg" alt="Texas General Land Office (GLO) Logo and Link to website">
+          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/glo_logo.jpg')}}" alt="Texas General Land Office (GLO) Logo and Link to website">
           <small class="hidden-xs">Texas General Land Office (GLO)</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
@@ -63,7 +64,7 @@ progress_5: 0
 <figure class="buy-up">
         <h4>Map of 1-foot to 6-Inch Buy-Ups</h4>
         <a href="#buy-ups-map" data-toggle="modal">
-            <img src="images/statewide-orthoimagery/2015_orthos_buyups_sm.jpg" alt="thumbnail for buyup regions">
+            <img src="{{m.link('static/images/statewide-orthoimagery/2015_orthos_buyups_sm.jpg')}}" alt="thumbnail for buyup regions">
           <figcaption class="text-right"><i class="glyphicon glyphicon-search"></i> Click for larger view</figcaption>
         </a>
 </figure>
@@ -76,7 +77,7 @@ progress_5: 0
                 <h3>Map of 1-foot to 6-inch Buy-Ups</h3>
             </div>
             <div class="modal-body">
-                <img class="img-responsive" src="images/statewide-orthoimagery/2015_orthos_buyups.jpg" alt="Full version of the Time Frames Acquistition Map">
+                <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/2015_orthos_buyups.jpg')}}" alt="Full version of the Time Frames Acquistition Map">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -91,35 +92,35 @@ progress_5: 0
     <div class="row partner-container">
       <div class="col-xs-5ths">
         <a class="partner"  href="https://www.nga.mil/Pages/default.aspx">
-          <img class="img-responsive" src="images/statewide-orthoimagery/logos/space_logo.jpg" alt="National Geospatial-Intelligence Agency Logo and Link to website">
+          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/space_logo.jpg')}}" alt="National Geospatial-Intelligence Agency Logo and Link to website">
           <small class="hidden-xs">National Geospatial-Intelligence Agency</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
       </div>
       <div class="col-xs-5ths">
         <a class="partner" href="http://www.utlands.utsystem.edu">
-          <img class="img-responsive" src="images/statewide-orthoimagery/logos/lands_logo.jpg" alt="University Lands Logo and Link to website">
+          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/lands_logo.jpg')}}" alt="University Lands Logo and Link to website">
           <small class="hidden-xs">University Lands</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
       </div>
      <div class="col-xs-5ths">
         <a class="partner" href="https://www.sara-tx.org">
-          <img class="img-responsive" src="images/statewide-orthoimagery/logos/sara_logo.jpg" alt="San Antonio River Authority Logo and Link to website">
+          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/sara_logo.jpg')}}" alt="San Antonio River Authority Logo and Link to website">
           <small class="hidden-xs">San Antonio River Authority (SARA)</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
       </div>
      <div class="col-xs-5ths">
         <a class="partner" href="http://www.glo.texas.gov">
-          <img class="img-responsive" src="images/statewide-orthoimagery/logos/glo_logo.jpg" alt="Texas General Land Office - GLO Logo and Link to website">
+          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/glo_logo.jpg')}}" alt="Texas General Land Office - GLO Logo and Link to website">
           <small class="hidden-xs">Texas General Land Office (GLO)</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
       </div>
      <div class="col-xs-5ths">
         <a class="partner" href="https://georgetown.org">
-          <img class="img-responsive" src="images/statewide-orthoimagery/logos/georgetown_logo.jpg" alt="City of Georgetown Logo and Link to website">
+          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/georgetown_logo.jpg')}}" alt="City of Georgetown Logo and Link to website">
           <small class="hidden-xs">City of Georgetown</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
@@ -138,12 +139,12 @@ progress_5: 0
 
 <p>Leaf-off imagery allows manmade structures under deciduous tree cover to be mapped or monitored more easily than using leaf-on imagery. Vegetation mapping can also be beneficial with leaf-off imagery because evergreen vs. deciduous species are more readily identified.</p>
 
-*Grab the Image Slider to compare between Leaf-Off **(Google Earth, Nov. 9, 2011)** and Leaf-On imagery **(Smith GIS Consortium, Feb. 16, 2010)**.*
+*Grab the Image Slider to compare between Leaf-Off imagery **(left; Feb 16, 2010)** and Leaf-On imagery **(right, Nov. 9, 2011)**.*
 
 <figure>
 <div id="imageCompare7" class='twentytwenty-container leaf-off-on'>
-  <img src="images/statewide-orthoimagery/leaf_off.jpg" alt="Preview of Leaf-on imagery">
-  <img src="images/statewide-orthoimagery/leaf_on.jpg" alt="Preview of Leaf-Off Imagery">
+  <img src="{{m.link('static/images/statewide-orthoimagery/leaf_off.jpg')}}" alt="Preview of Leaf-on imagery">
+  <img src="{{m.link('static/images/statewide-orthoimagery/leaf_on.jpg')}}" alt="Preview of Leaf-Off Imagery">
 </div>
 </figure>
 
@@ -162,7 +163,7 @@ Select BUY-UP areas will be acquired and processed at either 1-foot or 6-inch pi
     <h4>6-inch <strong>Buy-Up Option</strong></h4>
   </div>
 </div>
-<img class="img-responsive" src="images/statewide-orthoimagery/pixel_rez.jpg" alt="Samples of different Pixel resolutions and products">
+<img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/pixel_rez.jpg')}}" alt="Samples of different Pixel resolutions and products">
 
 
 ## Spectral Resolution
@@ -173,8 +174,8 @@ These may may be displayed as natural color (Red, Green, Blue) or color infrared
 *Grab the Image Slider to compare between Natural Color and Infrared*
 <figure>
 <div id="imageCompare7" class='twentytwenty-container natural-color-infrared'>
-  <img src="images/statewide-orthoimagery/4_band_nc.jpg" alt="Preview of natural color imagery">
-  <img src="images/statewide-orthoimagery/4_band_ir.jpg" alt="Preview of Color Infra Red Imagery">
+  <img src="{{m.link('static/images/statewide-orthoimagery/4_band_nc.jpg')}}" alt="Preview of natural color imagery">
+  <img src="{{m.link('static/images/statewide-orthoimagery/4_band_ir.jpg')}}" alt="Preview of Color Infra Red Imagery">
 </div>
 </figure>
 

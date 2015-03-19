@@ -1,4 +1,11 @@
-{% extends "base.html" %} {% import "_form_macros.html" as form %} {% block styles %} {% parent %} {{ form.styles() }} {% endblock styles %} {% block scripts %} {% parent %} {{ form.scripts() }} {% endblock scripts %} {% block topcontent %}
+
+{% extends "base.html" %} 
+{% import "_form_macros.html" as form %} 
+{% block styles %} {% parent %} {{ form.styles() }} 
+{% endblock styles %} {% block scripts %} {% parent %} 
+{{ form.scripts() }} {% endblock scripts %} 
+
+{% block topcontent %}
 <div class="container-fluid full">
     <div class="top-container">
         <div class="sr-only">
@@ -55,7 +62,8 @@
         {% endblock sidebarLeft %}
     </div>
 </div>
-{% endblock contents %} {% block contents-two %}
+{% endblock contents %} 
+{% block contents-two %}
 <section class="ortho-top">
     <div class="container">
         <div class="row">
@@ -65,4 +73,5 @@
         </div>
     </div>
 </section>
+
 {% endblock contents-two %}

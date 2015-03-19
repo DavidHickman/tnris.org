@@ -15,8 +15,8 @@
   <![endif]-->
 
 
-  <!-- build:css css/contact.min.css -->
-    <link href="css/contact.css" rel="stylesheet">
+  <!-- build:css {{m.based('css/contact.min.css')}} -->
+    <link href="{{m.based('css/contact.css')}}" rel="stylesheet">
   <!-- endbuild -->
 
 
@@ -24,15 +24,13 @@
 
 {%- macro scripts() -%}
     <script src="//www.google.com/recaptcha/api.js?render=explicit&onload=vcRecapthaApiLoaded" async defer></script>
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-recaptcha/release/angular-recaptcha.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="{{m.based('bower_components/angular/angular.min.js')}}"></script>
+    <script src="{{m.based('bower_components/angular-recaptcha/release/angular-recaptcha.js')}}"></script>
+    <script src="{{m.based('bower_components/angular-animate/angular-animate.min.js')}}"></script>
 
-  <!-- build:js js/contact.min.js -->
-    <script src="js/contact-forms.js"></script>
+  <!-- build:js {{m.based('js/contact.min.js')}} -->
+    <script src="{{m.based('js/contact-forms.js')}}"></script>
   <!-- endbuild -->
-
-
 {%- endmacro -%}
 
 {%- macro before(form_id) -%}

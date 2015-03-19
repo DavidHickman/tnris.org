@@ -27,7 +27,7 @@
             <li class="media list-group-item">
               {% if wms_entry.thumb_url %}
                 <div class="media-left">
-                  <img class="media-object" src="{{wms_entry.thumb_url}}" alt="Thumbnail image for {{wms_entry.name}}">
+                  <img class="media-object" src="{{m.link('static/' + wms_entry.thumb_url)}}" alt="Thumbnail image for {{wms_entry.name}}">
                 </div>
               {% endif %}
               <div class="media-body">

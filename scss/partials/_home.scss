@@ -432,16 +432,6 @@
     @media (min-width: $screen-md) {
       border-left: none;
       padding: 0;
-
-      li:last-child {
-        display: none;
-      }
-    }
-
-    @media (min-width: $screen-lg) {
-      li:nth-child(4) {
-        display: none;
-      }
     }
 
     h3 {
@@ -472,7 +462,6 @@
   }
 
   .around-state-front {
-    background: url(../images/around-the-state/light_auburn_bg.png) right top no-repeat;
 
     @media (min-width: $screen-md) {
       border-right: none;

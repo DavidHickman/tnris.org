@@ -5,11 +5,12 @@
         <div id="mapFrame">
           <div ng-switch="category">
             <div ng-switch-when="Quad">
-              <h3>2004 NAIP Imagery for <strong>{{ name }}</strong></h3>
+              <h3>2004 NAIP Imagery for <strong>{{ name | titleize }} Quad</strong></h3>
               <p>Click on adjacent quads to pan.</p>
             </div>
-            <div ng-switch-default>
-              <h3><strong>{{ name }}</strong> {{ category }} Map View</h3>
+            <div ng-switch-when="County">
+              <h3><strong>{{ name | titleize }} County</strong> Map View</h3>
+              <p>Click on a quad to zoom in.</p>
             </div>
           </div>
           <div include-map="map.imageMap"></div>
@@ -22,11 +23,15 @@
 <div class="row">
   <div ng-repeat="areaDataset in areaDatasets">
     <div class="col-xs-12">
-      <h2>{{ areaDataset.area }} datasets</h2>
+      <div ng-switch="areaDataset.area">
+        <h2 ng-switch-when="statewide">Texas Statewide Datasets</h2>
+        <h2 ng-switch-when="doqq">Digital Orthophoto Quarter Quad (DOQQ) Datasets</h2>
+        <h2 ng-switch-default>{{ name | titleize }} {{ areaDataset.area | titleize }} Datasets</h2>
+      </div>
 
       <div ng-switch="areaDataset.area">
         <p ng-switch-when="doqq" class="previewInfo">
-          Orthophoto following the standard USGS Quarter Quad Grid.
+          Orthophotos following the standard USGS Quarter Quad Grid.
         </p>
         <p ng-switch-default class="previewInfo">
           Click on a link to download a compressed file containing the data to your local drive.

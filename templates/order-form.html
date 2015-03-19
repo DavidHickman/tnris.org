@@ -108,13 +108,28 @@
             is_lidar
         )}}
 
+        <div class="form-group form-callout bg-warning" ng-show="{{is_lidar}}">
+          <p>
+            <strong>Note:</strong> LiDAR data is often very large, and TNRIS can not offer digital downloads for datasets larger than 10GB. If the ordered dataset is larger than 10GB, you have the option of either providing a
+            factory-sealed hard drive (or multiple factory-sealed hard drives) or purchasing them at cost from TNRIS.
+          </p>
+        </div>
+
+        {{form.checkbox(
+            "Digital Download Preference",
+            "Prefer Digital Download",
+            "I would prefer a digital download, if available. If it is not available, use the hard drive option below.",
+            false,
+            is_lidar
+        )}}
+
         {{form.multi(
-            "Hard Drive Option",
-            "Hard Drive",
+            "Data Delivery Hard Drive Option (if digital download is unavailable)",
+            "Data Delivery Hard Drive Option",
             "radio",
             [
-              'TNRIS Drive',
-              'Customer Provided Drive'
+              'TNRIS Hard Drive',
+              'Customer Provided Hard Drive'
             ],
             true,
             is_lidar
