@@ -20,7 +20,7 @@
               <h1>{{title}}</h1>
               {{abstract}}
         </div>
-        <a href="texas-google-imagery"><img class="img-responsive center-block" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}"></a>
+        <a href="{{m.link('texas-google-imagery')}}"><img class="img-responsive center-block" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}"></a>
       </div>
 </div>
 
@@ -44,26 +44,27 @@
 <div class="col-md-4">
       {% block sidebarLeft %}
 
-    <section class="google-contact">
+
+        <section class="google-side">
             <h3>Helpful Downloads</h3>
             <ul class="helpful list-clean">
                 <li>
-                    <a href="documents/google/google-imagery-fact-sheet.pdf">
+                    <a href="{{m.link('static/documents/google/google-imagery-fact-sheet.pdf')}}">
                         <i class="glyphicon glyphicon-file"></i> Google Imagery Fact Sheet
                     </a>
                 </li>
                 <li>
-                    <a href="documents/google/google-imagery-terms-of-use.pdf">
+                    <a href="{{m.link('static/documents/google/google-imagery-terms-of-use.pdf')}}">
                         <i class="glyphicon glyphicon-file"></i> Google Imagery Terms of Use
                     </a>
                 </li>
                 <li>
-                    <a href="documents/google/google-imagery-formal-accuracy-assessment.pdf">
+                    <a href="{{m.link('static/documents/google/google-imagery-formal-accuracy-assessment.pdf')}}">
                         <i class="glyphicon glyphicon-file"></i> Google Imagery Accuracy Assessment
                     </a>
                 </li>
               </ul>
-    </section>
+        </section>
       {% endblock sidebarLeft %}
     </div>
   </div>

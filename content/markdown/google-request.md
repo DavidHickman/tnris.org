@@ -1,7 +1,7 @@
 ---
 template: google-request.html
 title: Request a Unique Link
-mainimage: static/images/google/google-imagery-full.jpg
+mainimage: static/images/google/google-imagery-full-2.jpg
 abstract: Request a Unique Link
 ---
 ## Organizational Usage Agreement, Google Imagery License
