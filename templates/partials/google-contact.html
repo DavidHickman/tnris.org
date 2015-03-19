@@ -1,0 +1,40 @@
+{% import "_form_macros.html" as form %}
+<h2 id="contact-pm">Contact and Feedback Form</h2>
+
+<p class="lead">Use this form to ask us general questions, leave a comment, or give us feedback about the service.</p>
+<p class="lead">TNRIS staff will promptly reply to you within 2-3 Business days.</p>
+
+{{form.before("google-contact")}}
+  {{form.input("Name", "Name", "text", true)}}
+   {{form.multi(
+        "Reason",
+        "Reason for contacting",
+        "radio",
+          [
+          'General Inquiry',
+          'I have a problem or issue with the Service'
+        ],
+        true
+  )}}
+  {{form.input("Email", {
+      label: "Email",
+      placeholder: "Enter email address"
+    }, "email", true)}}
+  {{form.input("Phone", {
+      label: "Phone",
+      placeholder: "Enter your phone number"
+    }, "tel", false)}}
+
+  {{form.input("Government Agency or Affiliation", {
+      label: "What Is Your Government Agency or Affiliation?",
+      placeholder: "Name of Agenecy or Organization"
+    }, "text", false)}}
+    {{form.textarea(
+        "Question or Comments",
+        "Question / Comments",
+        true,
+        true
+    )}}
+
+  {{form.submit("message")}}
+{{form.after()}}
