@@ -51,7 +51,7 @@ If there is nothing on the portal page about any updates, please use the “cont
  Request a Unique Link Today
 </a> If you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to get a link, visit the request form using the button below.
 
-<a class="btn btn-danger btn-lg" href="google-request">
+<a class="btn btn-danger btn-lg" href="{{m.link('google-request')}}">
 <i class="glyphicon glyphicon-comment"></i> Request a Unique Link</a>
  
 **Note:** Because the Texas Google Imagery Service is a restricted license, it can only for use by public organizations in the State of Texas.
@@ -108,7 +108,7 @@ Because each agency is assigned their own specific URL for the Google Imagery Se
 ## Request a Unique Link
 If you feel all your questions have been answered, and are ready to get connected, please use the button below to request a unique link for your organization.
 
-<a class="btn btn-danger btn-lg" href="google-request">
+<a class="btn btn-danger btn-lg" href="{{m.link('google-request')}}">
 <i class="glyphicon glyphicon-comment"></i> Request a Unique Link Today
 </a>
 
