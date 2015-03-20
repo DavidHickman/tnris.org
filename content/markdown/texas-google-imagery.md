@@ -6,11 +6,11 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 ---
 
 ## How can Google Imagery help my organization?
-The Texas Google Imagery Service serves 6-inch, natural color imagery for the state of Texas.
+The Texas Google Imagery Service serves 6-inch, natural color imagery for the State of Texas.
  
 It provides state organizations with a current and consistent data source while offering the highest resolution imagery available for any statewide program through an OGC compliant Web Mapping Services (WMS).
  
-Google hosts the Google imagery service through the Google Maps Engine.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving Terrabytes of data.  
+Google hosts the Google imagery service through the Google Maps Engine.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving terabytes of data.  
  
 ## Who can use the Google Imagery Services?
 The Texas Google Imagery Service is a restricted license and is only for use by public organizations in the State of Texas (ie. state, regional and local governments).  Contractors for any public organization are permitted to use the imagery as long as the project or program is being performed directly in supports the public organization. 
@@ -22,7 +22,7 @@ Google Maps API provides access to the rich mapping content services from Google
  
 The Texas Google Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS software and web mapping applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.
  
-Check with your IT Department to determine if an OGC compliant Web Service is supported by your applications.
+Check with your IT Department or software provider to determine if an OGC compliant Web Service is supported by your applications.
  
 ## How is the Texas Google Imagery Service different than the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agricultural Imagery Program (NAIP)?
 The Texas Google Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 1/2-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than the 1-meter National Agriculture Imagery Program (NAIP) imagery.   
@@ -44,19 +44,19 @@ There may be times when links will be updated to allow for access of newly added
 
 These updates will provide link status updates, announcements, and instructions on how to reestablish your link.
  
-If there is nothing on the portal page about any updates, please use the “contact TNRIS” and we will reactive your link.
+If there is nothing on the portal page regarding updates, please use the “contact TNRIS” and we will reactivate or reinstate your link.
  
  
 ## How do I request a link for my organization?
  Request a Unique Link Today
-</a> If you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to get a link, visit the request form using the button below.
+</a> If you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to obtain a link for your agency, visit the request form using the button below.
 
 <a class="btn btn-danger btn-lg" href="{{m.link('google-request')}}">
 <i class="glyphicon glyphicon-comment"></i> Request a Unique Link</a>
  
-**Note:** Because the Texas Google Imagery Service is a restricted license, it can only for use by public organizations in the State of Texas.
+**Note:** Because the Texas Google Imagery Service is a restricted license, it is only for use by public organizations in the State of Texas.
  
-Contractors or any individual working on behalf for a public organization are permitted to use the imagery as long as the work is being performed directly supports the public organization.  The sponsoring agency will need to request an imagery link on behalf of any contractor or outside or 3rd party.
+Contractors or any individual working on behalf for a public organization are permitted to use the imagery as long as the work is being performed directly supports the public organization.  The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
  
  
 ## What do I do if I suspect that my link has been compromised or is being used by someone or an organization that is not authorized to use it?
@@ -67,10 +67,10 @@ To learn about new imagery or any updates to the Google imagery service, Please 
 
 <a href="#project-updates" class="smooth-scroll"><i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a> 
 
-We will continually update this section to provide the information and the history of all updates relating to the service.
+We will continually monitor and update this section to provide the information and the history of all updates relating to the service.
  
 ## Do I need to refresh my service or get a new link to see new imagery?
-No. Your current links should be updated automatically and always reflect the latest imagery.  However, in the pilot year, there may be some platform adjustments that will occur that would warrant the creation of new links.  For example, Google is phasing out the Google Maps Engine platform in favor of their Google Cloud Platform (GCP).  This change is expected to occur late in 2015 for Texas.  Once this happens, new links will need to be created for all users.  TNRIS will do our best to notify all users well before the change takes place so that you can plan accordingly. 
+No. Your current links should be updated automatically and always reflect the latest imagery.  However, during the pilot year, there may be some platform adjustments that will occur that would warrant the creation of new links.  For example, Google is phasing out the Google Maps Engine platform in favor of their Google Cloud Platform (GCP).  This change is expected to occur late in 2015 for Texas.  Once this happens, new links will need to be created for all users.  TNRIS will do our best to notify all users well before the change takes place so that you can plan accordingly. 
  
 ## What if I see errors or inconsistencies in the imagery?  How should I report it and to whom do I report it?
 Use the button below to go to the Questions and Feedback form located on this page.
@@ -83,13 +83,13 @@ TNRIS will log these issues and work with Google staff to find solutions to corr
 ## Can I download or get a physical copy of the original image that is in the service?
 In the pilot year, copies of the imagery will be downloaded by TNRIS and made available to the contributing partners upon request.  The requesting agency would need to provide their own hard drives to TNRIS so that the copies can be made.   These images will be in JPG2000 format and will only be downloaded and distributed by TNRIS.  For additional information, please contact TNRIS directly.
  
-After the pilot year, the image download may be done at an additional cost.  These details are still pending.  TNRIS is still working with the GIS governance council, DIR and Google to determine the process and costs for downloading imagery after the pilot year is over.
+After the pilot year, the image download may be done at an additional cost.  These details are still pending.  TNRIS is working with the Texas GIS Solutions Group, DIR and Google to determine the process and costs for downloading imagery after the pilot year is over.
 
  
 ## Is it possible to get a Color Infrared (CIR) version of the imagery as a service?
 Not at this time.  Google Imagery Service will only be serving out the natural color imagery for now.  The CIR version of the imagery is available for download in the pilot year.
  
-After the pilot year, the CIR image download may be done at an additional cost.  These details are still pending.  TNRIS is still working with the GIS governance council, DIR and Google to determine the process and costs for downloading imagery after the pilot year is over.
+After the pilot year, the CIR image download may be done at an additional cost.  These details are still pending.  TNRIS is still working with the Texas GIS Solutions Group, DIR and Google to determine the process and costs for downloading imagery after the pilot year is over.
  
  
 ## How can I get more information about upcoming flights in Texas?
