@@ -27,7 +27,7 @@ NAIP is a nationwide program administered by the USDA-Farm Service Agency-Aerial
   </div>
 </div>
 ****
-The 2014 NAIP orthoimagery are available for streaming through the APFO ArcGIS Image Service.
+**The 2014 NAIP orthoimagery are available for streaming through the APFO ArcGIS Image Service.**
 
 ### To access the service in ArcGIS, add an ArcGIS Server using the URL below:
 
@@ -40,6 +40,10 @@ The 2014 NAIP orthoimagery are available for streaming through the APFO ArcGIS I
   <input class="wms-url copy-url-input form-control" type="text" readonly value="http://gis.apfo.usda.gov/arcgis/services">
 </div>
 
+In ArcMap, natural color (NC) imagery is the default display when you add the service. To view **color infrared (CIR)** imagery, under Symbology, change the Channel/Band assignment to:
+Red > Band 4
+Green > Band 1
+Blue > Band 2
 
 ## Acquisition Area
 **NOTE** Areas along the Texas/Mexico border that were not covered in 2012 NAIP imagery are now covered in the 2014 NAIP imagery.
