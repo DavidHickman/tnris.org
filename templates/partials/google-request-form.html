@@ -1,9 +1,7 @@
 {% import "_form_macros.html" as form %}
 
 {{form.before("google-request")}}
-  {{form.input("First Name", "First Name", "text", true)}}
-
-  {{form.input("Last Name", "Last Name", "text", true)}}
+  {{form.input("Name", "Name", "text", true)}}
 
   {{form.input("Email", {
       label: "Primary contact email",
@@ -14,39 +12,81 @@
       placeholder: "Enter your phone number"
     }, "tel", true)}}
 
+  {{form.multi(
+    "Contractor Access",
+    "Are you requesting access as a contractor in partnership with a qualifying agency?",
+    "radio",
+      [
+      'Yes',
+      'No'
+    ],
+    true
+  )}}
 
-<h3>PART 1b: Additional Information Required from Contractors Requesting Access</h3>
-  {{form.input("Relevant Project of Partnership", {
+  {% set is_contractor = "form_model['Contractor Access'] == 'Yes'" %}
+  <div class="form-group form-callout bg-warning" ng-show="{{is_contractor}}">
+    <p>
+      We require some additional information about the project and partnership for contractors that are
+      requesting access to the imagery.
+    </p>
+  </div>
+
+  {{form.input(
+    "Relevant Project of Partnership",
+    {
       label: "Name of project or relevant partnership for which imagery will be used:",
       placeholder: "Name of Project or Partnership"
-    }, "text", true)}}
+    },
+    "text",
+    true,
+    is_contractor
+  )}}
 
-      {{form.input("Relevant Project of Partnership", {
+  {{form.input(
+    "Relevant Project of Partnership",
+    {
       label: "Name of the qualifying agency for which you are performing work under the project or formal partnership:",
       placeholder: "Name of Qualifying Agency"
-    }, "text", true)}}
+    },
+    "text",
+    true,
+    is_contractor
+  )}}
 
-      {{form.input("Email of qualifying Agency", {
+  {{form.input(
+    "Email of qualifying Agency",
+    {
       label: "Contact email at qualifying agency with which you are formally partnering or performing contracted work:",
       placeholder: "Contact Email"
-    }, "text", true)}}
+    },
+    "text",
+    true,
+    is_contractor
+  )}}
 
-          {{form.input("Anticipated project end date:", {
+  {{form.input(
+    "Anticipated project end date:",
+    {
       label: "Anticipated project end date:",
       placeholder: "Project End Date"
-    }, "text", true)}}
+    },
+    "text",
+    true,
+    is_contractor
+  )}}
 
-      {{form.multi(
-        "end date",
-        "Is the anticipated end date likely to be extended?",
-        "radio",
-          [
-          'No',
-          'Possible',
-          'Likely'
-        ],
-        true
-      )}}
+  {{form.multi(
+    "end date",
+    "Is the anticipated end date likely to be extended?",
+      "radio",
+      [
+        'No',
+        'Possible',
+        'Likely'
+      ],
+    true,
+    is_contractor
+  )}}
 
 <h2>PART 2: Informational Items and Terms of Service (Required)</h2>
 <p class="lead">Check each box to indicate acknowledgement and agreement to the informational items and terms of service.</p>
