@@ -1,9 +1,7 @@
 {% import "_form_macros.html" as form %}
 
 {{form.before("google-request")}}
-  {{form.input("First Name", "First Name", "text", true)}}
-
-  {{form.input("Last Name", "Last Name", "text", true)}}
+  {{form.input("Name", "Name", "text", true)}}
 
   {{form.input("Email", {
       label: "Primary contact email",
