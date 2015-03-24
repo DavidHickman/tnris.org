@@ -1,0 +1,39 @@
+@import "variables";
+
+.georodeo-front {
+  position: relative;
+
+  @media (max-width: $screen-sm) {
+    min-height: 250px;
+  }
+  
+  @media (min-width: $screen-sm) {
+    min-height: 315px;
+  }
+
+  @media (min-width: $screen-lg) {
+    min-height: 360px;
+  }
+
+  img {
+    position: absolute;
+  }
+
+  a.btn {
+      bottom: 15px;
+      left: 30px;
+      position: absolute;
+
+      @media (min-width: $screen-sm) {
+        margin-right: 5%;
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+  }
+}
+
+.small-banner {
+  @media (min-width: $screen-sm) {
+    display: none;
+  }
+}

@@ -54,8 +54,9 @@ $break-lg: 1200px;
 $break-md: 992px;
 $break-xs: 768px;
 
-
+// reusable heights //
 $footer-height: 275px;
+$dataspot-height: 325px;
 
 // transparent backgrounds //
 @mixin alpha-attribute($attribute, $color, $background) {
