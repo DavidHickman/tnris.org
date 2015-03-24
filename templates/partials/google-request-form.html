@@ -7,10 +7,13 @@
       label: "Primary contact email",
       placeholder: "Enter email address"
     }, "email", true)}}
+
   {{form.input("Phone", {
       label: "Primary contact phone",
       placeholder: "Enter your phone number"
     }, "tel", true)}}
+
+  {{form.input("Organization", "Organization", "text", true)}}
 
   {{form.multi(
     "Contractor Access",
