@@ -20,45 +20,41 @@
         <div class="sr-only">
             <h1>{{title}}</h1> {{abstract}}
         </div>
-        <img class="img-responsive center-block" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}">
+        <img class="main hidden-xs" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}">
+        <img class="img-responsive hidden-lg hidden-md hidden-sm" src="{{m.link('static/images/georodeo/small_georodeo.jpg')}}" alt="A banner for the 2015 GeoRodeo, Cowboy Nerd in front of Chisos Mountains">
     </div>
 </div>
 
-<div id="intro" class="google-intro">
+<div id="intro" class="georodeo-intro">
     <div class="container">
-        <div id="project-updates" class="row">
-            {% include "./partials/google-intro.html" %}
+        <div class="row">
+            {% include "./partials/georodeo/georodeo-intro.html" %}
         </div>
     </div>
 </div>
-<section class="google-top">
-    <div class="container">
-        <div id="project-updates" class="row">
-            {% include "./partials/google-update.html" %}
-        </div>
-    </div>
-</section>
 {% endblock topcontent %} {% block contents %}
 
 <div class="row">
     <div class="col-md-8">
-        <h1 id="project-faq">Project FAQ</h1> {% include "./partials/google-faq-toc.html" %} {{ contents|safe }} {% block extracontent %} {% endblock extracontent %}
+
+        {{ contents|safe }} 
+        {% block extracontent %} {% endblock extracontent %}
     </div>
 
     <div class="col-md-4">
         {% block sidebarLeft %}
-           {% include "./partials/google-side.html" %}
+            <div class="georodeo-side">
+                {% include "./partials/georodeo/georodeo-side.html" %}
+            </div>
         {% endblock sidebarLeft %}
     </div>
 </div>
 {% endblock contents %} 
 {% block contents-two %}
-<section class="ortho-top">
+<section class="georodeo-bottom">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                {% include "./partials/google-contact.html" %}
-            </div>
+                {% include "./partials/georodeo/georodeo-map.html" %}   
         </div>
     </div>
 </section>

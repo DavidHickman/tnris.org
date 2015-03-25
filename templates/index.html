@@ -1,157 +1,152 @@
-{% extends "base.html" %}
-{% import '_macros.html' as m %}
-
-{% block topcontent %}
-  <div id="home-top-content">
+{% extends "base.html" %} {% import '_macros.html' as m %} {% block topcontent %}
+<div id="home-top-content">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-12 col-xs-12 quick-nav">
-        {% include "./partials/quicknav.html" %}
+        <div class="row">
+            <div class="col-md-3 col-sm-12 col-xs-12 quick-nav">
+                {% include "./partials/quicknav.html" %}
+            </div>
+            <div id="front-image-container" class="col-md-9 col-sm-12 col-xs-12">
+                {% include "./partials/mainfeature.html" %}
+            </div>
         </div>
-        <div id="front-image-container" class="col-md-9 col-sm-12 col-xs-12">
-        {% include "./partials/mainfeature.html" %}
-      </div>
-       </div>
     </div>
-  </div>
-{% endblock topcontent %}
-
+</div>
+{% endblock topcontent %} 
 
 {% block contents %}
-  <h1 class="sr-only">Texas Natural Resources Information System</h1>
+<h1 class="sr-only">Texas Natural Resources Information System</h1>
   <div class="row">
-    <div id="updates-front" class="col-md-6 col-sm-12 col-md-push-3">
-      <h2>Latest News <i class="fa fa-newspaper-o"></i></h2>
-      <ul class="news-list list-clean">
-        {% for news_item in news %}
-          {% if loop.index <= 5 %}
-            <li class="media">
-              <a class="media-left" href="{{m.link(news_item.preserved)}}" title="Read {{news_item.title}}">
-                <img class="media-object" src="{{m.link(news_item.thumbnail)}}" alt="{{news_item.thumbalt}}">
-              </a>
-              <div class="media-body">
-                <time>{{news_item.date|date('F jS, Y')}}</time>
-                <h3 class="media-heading">
-                  <a href="{{m.link(news_item.preserved)}}">{{news_item.title}}</a>
-                </h3>
-                <p>
-                  {{news_item.abstract}}
-                </p>
-              </div>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+        <div id="updates-front" class="col-md-5 col-sm-12 col-md-push-3">
+            <h2>Latest News <i class="fa fa-newspaper-o"></i></h2>
+            <ul class="news-list list-clean">
+                {% for news_item in news %} {% if loop.index
+                <=5 %} <li class="media">
+                    <a class="media-left" href="{{m.link(news_item.preserved)}}" title="Read {{news_item.title}}">
+                        <img class="media-object" src="{{m.link(news_item.thumbnail)}}" alt="{{news_item.thumbalt}}">
+                    </a>
+                    <div class="media-body">
+                        <time>{{news_item.date|date('F jS, Y')}}</time>
+                        <h3 class="media-heading">
+                      <a href="{{m.link(news_item.preserved)}}">{{news_item.title}}</a>
+                    </h3>
+                        <p>
+                            {{news_item.abstract}}
+                        </p>
+                    </div>
+                    </li>
+                    {% endif %} {% endfor %}
+            </ul>
 
-      <p class="text-center">
-        <a class="btn btn-tnris" href="{{m.link('updates')}}" role="button">More <span class="sr-only">News</span> Updates <span class="glyphicon glyphicon-chevron-right"></a>
-      </p>
-    </div>
-
-    <div id="front-sidebar" class="col-md-3 col-sm-12 col-md-pull-6">
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-12">
-          <div class="around-state-front">
-          <h2>Around the State <i class="fa fa-bullhorn"></i></h2>
-          <a href="{{m.link('around-the-state/2015-02-26-rob-aanstoos-thanks-for-35-years')}}"><img src="{{m.link('static/images/around-the-state/rob-aanstoos/rob_2_sm.jpg')}}" alt="A head shot of Rob Aanstoos"></a>
-
-          <h4><a href="{{m.link('around-the-state/2015-02-26-rob-aanstoos-thanks-for-35-years')}}">Rob Aanstoos – Thank you for an amazing 35 years!</a></h4>
-          <p>TNRIS had the chance to talk to Rob Aanstoos, a key figure in Texas GIS, on the eve of his retirement from 35 years of service to the state.</p>
-          <p class="text-center">
-            <a class="btn btn-tnris" href="{{m.link('around-the-state/2015-02-26-rob-aanstoos-thanks-for-35-years')}}" role="button">Read More <span class="sr-only">about Rob Aanstoos's retirement</span><span class="glyphicon glyphicon-chevron-right"></a>
-          </p>
-        </div>
+            <p class="text-center">
+                <a class="btn btn-tnris" href="{{m.link('updates')}}" role="button">More <span class="sr-only">News</span> Updates <span class="glyphicon glyphicon-chevron-right"></a>
+            </p>
         </div>
 
-        <div class="col-xs-12 col-sm-8 col-md-12 training-front">
-          <h2><a href="{{m.link('training')}}">GIS Training &amp; Education</a> <i class="fa fa-graduation-cap"></i></h2>
-          <p>Spring has Arrived! Register for GIS Classes to Sharpen your Skills!</p>
-          <h3>New date &amp; space available</h3>
-          <ul class="list-clean">
-            <li>
-            <i class="glyphicon glyphicon-calendar" style="margin-bottom: 20px;"></i>
-            <div><time>March 30-31, 2015</time>
-            <h4><a href="{{m.link('training/advanced-arcgis-programming-with-python/march-2015')}}">Advanced ArcGIS Programming with Python</a></h4></div>
-          </li>
-          </ul>
-            <h3>New classes!</h3>
-          <ul class="list-clean">
-            <li>
-            <i class="glyphicon glyphicon-calendar"></i>
-              <time> April 14-15, 2015</time>
-            <h4><a href="{{m.link('training/arcgis-online-for-the-desktop-user/april-2015')}}">ArcGIS Online for the Desktop User</a></h4></li>
-            <li>
-              <i class="glyphicon glyphicon-calendar"></i>
-              <div><time>May 7, 2015</time>
-            <h4><a href="{{m.link('training/fundamentals-of-google-earth-pro/may-2015/')}}">Fundamentals of Google Earth Pro</a></h4></div>
-          </li>
-          </ul>
-         <h3> Back by popular demand</h3>
-         <ul class="list-clean">
-            <li>
-              <i class="glyphicon glyphicon-calendar"></i>
-              <div>
-                <time>May 18-20, 2015</time>
-            <h4><a href="{{m.link('training/arc-hydro-gis-for-water-resources/may-2015')}}">Arc Hydro: GIS for Water Resources</a></h4></div>
-            </li>
-            <li>
-            <i class="glyphicon glyphicon-calendar" style="margin-bottom: 20px;"></i>
-            <div><time>May 21-22, 2015</time>
-            <h4><a href="{{m.link('training/hydrologic-and-hydraulic-analysis-using-arcgis/may-2015')}}">Hydrologic &amp; Hydraulic Analysis Using ArcGIS</a></h4></div>
-          </li>
-          </ul>
-         <!--  <ul class="list-clean">
-            {% for event in training %}
-              {% if loop.index <= 5 %}
-              <li><time>{{event.date}}</time><h4><a href="{{m.link(event.path)}}">
-                {{event.class_title}}</a></h4>
-              </li>
-              {% endif %}
-            {% endfor %}
-          </ul> -->
-          <p class="text-center"><a class="btn btn-tnris" href="{{m.link('training')}}" role="button">Full Course List <span class="glyphicon glyphicon-chevron-right"></a></p>
+        <div id="front-sidebar" class="col-md-3 col-sm-12 col-md-pull-5">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-12">
+                    <div class="around-state-front">
+                        <h2>Around the State <i class="fa fa-bullhorn"></i></h2>
+                        <a href="{{m.link('around-the-state/2015-02-26-rob-aanstoos-thanks-for-35-years')}}"><img src="{{m.link('static/images/around-the-state/rob-aanstoos/rob_2_sm.jpg')}}" alt="A head shot of Rob Aanstoos">
+                        </a>
+
+                        <h4><a href="{{m.link('around-the-state/2015-02-26-rob-aanstoos-thanks-for-35-years')}}">Rob Aanstoos – Thank you for an amazing 35 years!</a></h4>
+                        <p>TNRIS had the chance to talk to Rob Aanstoos, a key figure in Texas GIS, on the eve of his retirement from 35 years of service to the state.</p>
+                        <p class="text-center">
+                            <a class="btn btn-tnris" href="{{m.link('around-the-state/2015-02-26-rob-aanstoos-thanks-for-35-years')}}" role="button">Read More <span class="sr-only">about Rob Aanstoos's retirement</span><span class="glyphicon glyphicon-chevron-right"></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-8 col-md-12 training-front">
+                    <h2><a href="{{m.link('training')}}">GIS Training &amp; Education</a> <i class="fa fa-graduation-cap"></i></h2>
+                    <p>Spring has Arrived! Register for GIS Classes to Sharpen your Skills!</p>
+                    <h3>New classes!</h3>
+                    <ul class="list-clean">
+                        <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                            <time> April 14-15, 2015</time>
+                            <h4><a href="{{m.link('training/arcgis-online-for-the-desktop-user/april-2015')}}">ArcGIS Online for the Desktop User</a></h4>
+                        </li>
+                        <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                            <div>
+                                <time>May 7, 2015</time>
+                                <h4><a href="{{m.link('training/fundamentals-of-google-earth-pro/may-2015/')}}">Fundamentals of Google Earth Pro</a></h4>
+                            </div>
+                        </li>
+                    </ul>
+                    <img class="img-responsive" src="{{ m.link('static/images/front-page/training_promo.jpg')}}" alt="Books and Screenshots from training">
+                    <h3> Back by popular demand</h3>
+                    <ul class="list-clean">
+                        <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                            <div>
+                                <time>May 18-20, 2015</time>
+                                <h4><a href="{{m.link('training/arc-hydro-gis-for-water-resources/may-2015')}}">Arc Hydro: GIS for Water Resources</a></h4>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="glyphicon glyphicon-calendar" style="margin-bottom: 20px;"></i>
+                            <div>
+                                <time>May 21-22, 2015</time>
+                                <h4><a href="{{m.link('training/hydrologic-and-hydraulic-analysis-using-arcgis/may-2015')}}">Hydrologic &amp; Hydraulic Analysis Using ArcGIS</a></h4>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="text-center"><a class="btn btn-tnris" href="{{m.link('training')}}" role="button">Full Course List <span class="glyphicon glyphicon-chevron-right"></a>
+                    </p>
+                </div>
+            </div>
         </div>
+
+        <div id="front-right" class="col-sm-12 col-md-4">
+          <img class="img-responsive ad" src="{{ m.link('static/images/front-page/2015_savethedate.jpg')}}" alt="2015 Texas GIS Forum Save the Date">
+          
+          <a href="{{ m.link('2015-statewide-orthoimagery-project')}}"><img class="img-responsive ad" src="{{ m.link('static/images/front-page/statewide_ad_2.jpg')}}" alt="2015 Statewide Orthoimagery Project link"></a>
+            <div id="dataSpot">
+                <div class="spotText">
+                  <i class="glyphicon glyphicon-eye-open"></i> A closer look at featured data and maps from our own catalog and other sources.
+                </div>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" keyboard="true">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        {% for spotlight in spotlights %} {% if loop.index
+                        <=4 %} 
+                        <div class="item">
+                            <a href="{{m.link(spotlight.preserved)}}">
+                                <img class="media-object" src="{{m.link(spotlight.thumb )}}" alt="...">
+                                <h4>
+                                <small>Data Spotlight</small>
+                                {{ spotlight.title }}</h4>
+                            </a>
+                        </div>
+                       {% endif %} {% endfor %}
+                    </div>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        
       </div>
-    </div>
-
-    <div id="dataSpot" class="col-md-3 hidden-sm hidden-xs">
-      <h2>Data Spotlight</h2>
-      <p class="spotText">A closer look at featured data and maps from our own catalog and other sources.</p>
-      <ul class="media-list">
-        {% for spotlight in spotlights %}
-          {% if loop.index <= 4 %}
-            <li class="media">
-              <a href="{{m.link(spotlight.preserved)}}">
-                <img class="media-object img-responsive" src="{{m.link(spotlight.thumb)}}" alt="A small preview of the {{spotlight.title}} image">
-                <h4>{{spotlight.title}}</h4>
-              </a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-{% endblock contents %}
-
-{% block contents-two %}
-
-  <div id="dataSpot" class="container-fluid hidden-md hidden-lg" >
-    <h2>Data Spotlight</h2>
-    <p class="spotText">A closer look at featured data and maps from our own catalog and other sources.</p>
-
-    <ul class="media-list row">
-      {% for spotlight in spotlights %}
-        {% if loop.index <= 4 %}
-          <li class="media col-xs-12 col-sm-3 col-md-12">
-            <a href="{{m.link(spotlight.preserved)}}">
-              <img class="media-object img-responsive" src="{{m.link(spotlight.thumb)}}" alt="...">
-
-            </a>
-         </li>
-       {% endif %}
-     {% endfor %}
-    </ul>
   </div>
 
-{% include "./partials/highlights.html" %}
+{% endblock contents %} 
+
+{% block contents-two %} 
+
+{% include "./partials/highlights.html" %} 
+
 {% endblock contents-two %}
