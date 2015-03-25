@@ -58,7 +58,7 @@ abstract: Once a year, take a break from your screen to go social at the Texas G
   </tr>
   <tr>
     <td class="col-1">10:00 - 10:30 am</td>
-    <td>Break & Exhibits</td>
+    <td>Break &amp; Exhibits</td>
   </tr>
   <tr class="tg-even">
     <td class="col-1">10:30 am - 12:00 pm</td>
