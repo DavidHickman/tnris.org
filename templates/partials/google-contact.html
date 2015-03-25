@@ -2,7 +2,6 @@
 <h2 id="contact-pm">Contact and Feedback Form</h2>
 
 <p class="lead">Use this form to ask us general questions, leave a comment, or give us feedback about the service.</p>
-<p class="lead">TNRIS staff will promptly reply to you within 2-3 Business days.</p>
 
 {{form.before("google-contact")}}
   {{form.input("Name", "Name", "text", true)}}
@@ -11,8 +10,8 @@
         "Reason for contacting",
         "radio",
           [
-          'General Inquiry',
-          'I have a problem or issue with the Service'
+          'Feedback/General Inquiry',
+          'Issue Reporting'
         ],
         true
   )}}
@@ -27,7 +26,7 @@
 
   {{form.input("Government Agency or Affiliation", {
       label: "What Is Your Government Agency or Affiliation?",
-      placeholder: "Name of Agenecy or Organization"
+      placeholder: "Name of Agency or Organization"
     }, "text", false)}}
     {{form.textarea(
         "Question or Comments",

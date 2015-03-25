@@ -5,15 +5,18 @@ mainimage: static/images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract: 
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
-status_image: status_image_2015_03_02.jpg
-status_image_preview: status_image_2015_03_02_sm.jpg
-latest_report: Weekly_Status_Report_022715.pdf
-status_date: March 13th, 2015
+status_image: status_image_20150325_base.jpg
+status_image_preview: status_image_20150325_base_sm.jpg
+status_image_buyup: status_image_20150325_buyups.jpg
+status_image_buyup_preview: status_image_20150325_buyups_sm.jpg
+latest_report: Weekly_Status_Report_032015.pdf
+status_date: March 20th, 2015
 updates:
   - Due to continued unfavorable weather conditions, little imagery acquisition progress was made over the past week.
-  - Three airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
+  - Six airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery in the remaining areas.
   - Due to weather conditions affecting the overall project, the acquisition season end date for the entire state, Seasons 1, 2, 3, and 4, was extended to March 31, 2015.
-progress_1: 76
+  - TNRIS has initiated a plan for image data inspection. Check back to this website for opportunities to contribute to the QC of the new orthoimagery.
+progress_1: 78
 progress_2: 100
 progress_3: 60 
 progress_4: 25
@@ -62,9 +65,9 @@ progress_5: 0
 
 
 <figure class="buy-up">
-        <h4>Map of 1-foot to 6-Inch Buy-Ups</h4>
+        <h4>Latest Buy-Up Acquisition Status</h4>
         <a href="#buy-ups-map" data-toggle="modal">
-            <img src="{{m.link('static/images/statewide-orthoimagery/2015_orthos_buyups_sm.jpg')}}" alt="thumbnail for buyup regions">
+            <img src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + status_image_buyup_preview)}}" alt="thumbnail for buyup regions">
           <figcaption class="text-right"><i class="glyphicon glyphicon-search"></i> Click for larger view</figcaption>
         </a>
 </figure>
@@ -74,10 +77,10 @@ progress_5: 0
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                 </button>
-                <h3>Map of 1-foot to 6-inch Buy-Ups</h3>
+                <h3>Latest 1-foot to 6-inch Buy-Up Acquisition Status</h3>
             </div>
             <div class="modal-body">
-                <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/2015_orthos_buyups.jpg')}}" alt="Full version of the Time Frames Acquistition Map">
+                <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + status_image_buyup)}}" alt="Full version of the Time Frames Acquistition Map">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -112,9 +115,9 @@ progress_5: 0
         <span class="glyphicon glyphicon-arrow-down"></span>
       </div>
      <div class="col-xs-5ths">
-        <a class="partner" href="http://www.glo.texas.gov">
-          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/glo_logo.jpg')}}" alt="Texas General Land Office - GLO Logo and Link to website">
-          <small class="hidden-xs">Texas General Land Office (GLO)</small>
+        <a class="partner" href="http://tpwd.texas.gov">
+          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/logos/tpwd_logo.jpg')}}" alt="Texas Parks and Wildlife Logo and Link to website">
+          <small class="hidden-xs">Texas Parks and Wildlife</small>
         </a>
         <span class="glyphicon glyphicon-arrow-down"></span>
       </div>
