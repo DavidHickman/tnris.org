@@ -8,12 +8,13 @@ author: Gayla Mullins
 status_image: status_image_2015_03_02.jpg
 status_image_preview: status_image_2015_03_02_sm.jpg
 latest_report: Weekly_Status_Report_022715.pdf
-status_date: March 13th, 2015
+status_date: March 20th, 2015
 updates:
   - Due to continued unfavorable weather conditions, little imagery acquisition progress was made over the past week.
-  - Three airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
+  - Six airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery in the remaining areas.
   - Due to weather conditions affecting the overall project, the acquisition season end date for the entire state, Seasons 1, 2, 3, and 4, was extended to March 31, 2015.
-progress_1: 76
+  - TNRIS has initiated a plan for image data inspection. Check back to this website for opportunities to contribute to the QC of the new orthoimagery.
+progress_1: 78
 progress_2: 100
 progress_3: 60 
 progress_4: 25
