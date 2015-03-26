@@ -721,9 +721,8 @@ h2.updates-header {
 }
 
 .qc-box {
-  background: url(../images/statewide-orthoimagery/qc_bg.jpg) 0 0 no-repeat $darkgrey;
+  background: url(../images/statewide-orthoimagery/qc_bg.jpg) 0 0 no-repeat $midgrey;
   border-radius: 10px;
-  color: white;
   margin-top: 20px;
   padding: 10px;
   padding-left: 125px;
@@ -731,7 +730,6 @@ h2.updates-header {
   
   h3 {
     margin-top: 0;
-    text-shadow: 1px 1px 2px $darkgrey;
   }
 
   .green-check {
