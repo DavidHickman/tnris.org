@@ -1,0 +1,31 @@
+{% import "_form_macros.html" as form %}
+<div class="col-md-6">
+<h2 id="contact-pm">Find Out More about Becoming a QC Reviewer</h2>
+
+<p class="lead">By submitting this form, you are not obligated to participate in the review. We'll get in touch with you and find out what works best for your capacity.</p>
+
+{{form.before("ortho-qc")}}
+  {{form.input("Name", "Name", "text", true)}}
+  {{form.input("Email", {
+      label: "Email",
+      placeholder: "Enter email address"
+    }, "email", true)}}
+  {{form.input("Phone", {
+      label: "Phone",
+      placeholder: "Enter your phone number"
+    }, "tel", false)}}
+  {{form.input("Area of Interest", {
+      label: "General area of interest",
+      placeholder: "(Ex. Harris Co, City of Midland, No preference, etc.)"
+    }, "text", false)}}
+
+  {{form.textarea(
+      "Questions or Comments",
+      "Questions/Comments",
+      true,
+      true
+  )}}
+
+  {{form.submit("message")}}
+{{form.after()}}
+</div>
