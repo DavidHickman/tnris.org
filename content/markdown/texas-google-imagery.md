@@ -10,19 +10,47 @@ The Texas Google Imagery Service serves 6-inch, natural color imagery for the St
  
 It provides state organizations with a current and consistent data source while offering the highest resolution imagery available for any statewide program through an OGC compliant Web Mapping Service (WMS).
  
-Google hosts the Google imagery service through the Google Maps Engine.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving terabytes of data.  
- 
+Google hosts the Google imagery service through the Google Maps Engine.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving terabytes of data.
+
+## How is the Google Imagery Service different from the imagery seen in Google Earth and Google Maps?
+The Google Imagery Service has a higher level of positional accuracy (~0.5m) because it has been reprocessed using existing ground control points where available (mostly in high density urban areas). Imagery can be downloaded for on-premise use and archiving (coming soon). The Google Imagery Service can be used in all state and local government web applications without an API key, including those applications that are not public facing or require a login. The Google Imagery Service can be used to derive data and the imagery can be incorporated into base map tiles, etc without restriction.
+
+## How will this project initiative be impacted in light of Google’s recent announcement that Google Maps Engine (GME) will be turned off early next year?
+A GME-based WMS service is how the most current imagery service is being delivered to Texas for acceptance testing. That service is expected to be replaced with a WMS and WMTS (tile service) hosted on the Google Cloud Platform (GCP) in the coming months. The GIS Solutions Group will select a software application to serve the imagery from GCP from among the existing commercial and open-source choices such as ArcGIS Server, MapProxy, or Geoserver.
+
+At this point we see the GCP option as being superior to the GME platform as it gives us more control, flexibility, and potential cost-savings. Initial access to the service will be via a temporary WMS URL. In a few months, the temporary URL would be need to be replaced with links that use the new GCP-based service.
+
 ## Who can use the Google Imagery Services?
 The Texas Google Imagery Service is a restricted license and is only for use by public organizations in the State of Texas (ie. state, regional and local governments).  Contractors for any public organization are permitted to use the imagery as long as the project or program being performed directly supports the public organization. 
 
 Rights to use the imagery terminate upon completion of work by the outside entities. The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
+
+## How will maintenance and imagery update costs be covered in the future?
+During the pilot year, which extends through March 2016, the GIS Solutions Group will review options for a fair and reasonable cost-recovery model using usage metrics and other factors. The more that play the less we all pay.
  
 ## I don’t use the Google Maps API, how can I incorporate the services into my tools and applications?
 Google Maps API provides access to the rich mapping content services from Google. Maps API is a commercial product that requires licensing based on quantities of use but is not required to access the Google Imagery Service.
- 
+
 The Texas Google Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS software and web mapping applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.
  
 Check with your IT Department or software provider to determine if an OGC compliant Web Service is supported by your applications.
+ 
+## How do I add the Google Imagery services to my:
+
+<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//00sp0000000s000000" class="btn btn-default btn-lg">ArcMap</a>
+
+<a href="{{m.link('static/documents/google/WMS2Pro.pdf')}}" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
+
+<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">ArcGIS Online</a>
+
+<a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" class="btn btn-default btn-lg">GlobalMapper</a>
+
+<a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" class="btn btn-default btn-lg">AutoCAD MAP 3D</a>
+
+<a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" class="btn btn-default btn-lg">AutoCAD CIVIL 3D 2013</a>
+
+<a href="{{m.link('static/documents/google/MicroStationGoogleWMSDemo.pdf')}}" class="btn btn-default btn-lg">MicroStation</a>
+ 
  
 ## How is the Texas Google Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?
 The Texas Google Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 1/2-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than the 1-meter National Agriculture Imagery Program (NAIP) imagery.   
@@ -30,24 +58,19 @@ The Texas Google Imagery Service is a mapping service that is available on-deman
 The imagery represented by the Texas Google Imagery Service is not in the public domain and is restricted under license.
  
 ## Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Agriculture Imagery Program (NAIP) partnerships?
-Yes, TNRIS will continue to coordinate with agency partners to determine the need and interest for statewide public domain imagery datasets.
- 
-## How do I add the Google Imagery services to my desktop environment?
-The Texas Google Imagery Service can be added as a layer into ArcGIS desktop. Instructions for this can be found at:
 
-<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">How to add to ArcGIS online</a>
- 
+Yes, TNRIS will continue to work in coordination with partners to determine the need for orthoimagery. Persisting situations will call for new statewide leaf-off (TOP) or leaf-on (NAIP) acquisition projects to meet higher specific requirements (resolution, positioning) or even greater currency than Google’s update cycle goals (targeted for a 3 year refresh cycle around the State). Additionally, at the federal level, we currently expect the statewide 1 meter 2-year NAIP updates, contracted by the USDA, and the high resolution NGA 133 Cities imagery programs to continue. These products are different enough from the Google imagery, in terms of acquisition schedule and specs, that they should be complementary data resources.
+
 ## What if my link stops working?
 There may be times when links will be updated to allow for access of newly added imagery.  Most likely, your agency would have been notified about these updates.  The fastest way to know whether this is the reason for your non-functioning links is to check status updates at the top of this page:
 
- <a href="#project-updates" class="smooth-scroll"><i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a> 
+<a href="#project-updates" class="smooth-scroll"><i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a> 
 
 These updates will provide link status updates, announcements, and instructions on how to reestablish your link.
  
 If there is nothing on the portal page regarding updates, please use the “Contact and Feedback Form” and we will reactivate or reinstate your link.
  
- 
-## How do I request a link for my organization?
+ ## How do I request a link for my organization?
  Request a Unique link today
 </a> if you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to obtain a link for your agency, visit the request form using the button below.
 
@@ -57,7 +80,6 @@ If there is nothing on the portal page regarding updates, please use the “Cont
 **Note:** Because the Texas Google Imagery Service is a restricted license, it is only for use by public organizations in the State of Texas.
  
 Contractors or any individual working on behalf of a public organization are permitted to use the imagery as long as the work being performed directly supports the public organization.  The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
- 
  
 ## What do I do if I suspect that my link has been compromised or is being used by someone or an organization that is not authorized to use it?
 If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately.  We will disable your current links and re-establish new links for you to use.
@@ -79,18 +101,22 @@ Use the button below to go to the Questions and Feedback form located on this pa
 </a>
 
 TNRIS will log these issues and work with Google staff to find solutions to correct them in future releases. 
+
+## I am having trouble with exporting and printing. How can I fix this?
+There is a printing, plotting, and exporting issue with the current GME WMS in Esri software. You will not be able to print, plot, or export maps due to a 2048 pixel limitation within GME’s WMS. Also related to GME’s WMS is the inability to export maps to certain formats such as .JPG while other formats (.PDF, .PNG,.TIF) will export the imagery correctly at most scales. The WMS will not export from ArcMap when the DPI is set high or ‘Output Image Quality’ is set to ‘Best’. Additionally, the GME WMS will not draw below scales of 1:400 in ArcMap. These issues will go away when the imagery and service is migrated out of GME and into the GCP. It is also important for users to understand that the collection is made up of many flights flown at different times of the year. There may be color changes between these flights as they are not collected during the same time of the year. Mis-alignments may also occur along the seams of different flights.
+
+## What projection is the Google Imagery Service using?
+The native coordinate system for the Google files and services is a Geographic Coordinate System with a WGS 1984 datum. Many end users work in coordinate systems with a different datum (NAD 1983 for example). It will be critical for end users that require the highest locational precision to set up their working environment through the use of the appropriate geographic transformation (Esri software users should use NAD_1983_To_WGS_1984_5). The geographic transformation parameter is needed to overcome the locational difference between the WGS84 and NAD83 datum’s “realization points” that are about a meter apart. Without the proper geographic transformation, reprojection algorithms will not be able to resolve the last meter of positional accuracy. In order for the imagery to be positioned as accurately as possible when there is a difference between the native projection and datums of the imagery and the client viewing application, a datum conversion must be set. For ArcMap users, the appropriate datum conversion for Texas is NAD_1983_To_WGS_1984_5. The default (no transformation specified) will likely introduce several feet of horizontal positional error.
  
 ## Can I download or get a physical copy of the original image that is in the service?
 In the pilot year, copies of the imagery will be downloaded by TNRIS and made available to the contributing partners upon request.  The requesting agency would need to provide their own hard drives to TNRIS so that the copies can be made.   These images will be in JPEG2000 format and will only be downloaded and distributed by TNRIS.  For additional information, please contact TNRIS directly.
  
 After the pilot year, the image download may be done at an additional cost.  These details are still pending.  TNRIS is working with the Texas GIS Solutions Group, DIR and Google to determine the process and costs for downloading imagery after the pilot year is over.
 
- 
 ## Is it possible to get a Color Infrared (CIR) version of the imagery as a service?
 Not at this time.  Google Imagery Service will only be serving out the natural color imagery for now.  The CIR version of the imagery is available for download in the pilot year.
  
 After the pilot year, the CIR image download may be done at an additional cost.  These details are still pending.  TNRIS is still working with the Texas GIS Solutions Group, DIR and Google to determine the process and costs for downloading imagery after the pilot year is over.
- 
  
 ## How can I get more information about upcoming flights in Texas?
 To learn about upcoming flights in Texas and any other updates to the Google Imagery Service, please visit the status section at the top of this page.
@@ -100,7 +126,6 @@ To learn about upcoming flights in Texas and any other updates to the Google Ima
 This section will provide the information about the upcoming scheduled flights for specific areas in Texas. 
  
 Please note that information in the Google flight schedules are used as general guidelines and may have several overriding factors such as weather conditions and conflicting schedules.  This information can change at any time.
- 
  
 ## How do I know how much my organization has used the Google imagery service?
 Because each agency is assigned their own specific URL for the Google Imagery Service, usage will be tracked for organizations by monitoring these URL’s.   TNRIS will provide a report at the beginning of each month to each participating agency to show how much their link was used and how it compares to the overall usage for the month.  
