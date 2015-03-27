@@ -20,8 +20,7 @@ A GME-based WMS service is how the most current imagery service is being deliver
 
 At this point we see the GCP option as being superior to the GME platform as it gives us more control, flexibility, and potential cost-savings. Initial access to the service will be via a temporary WMS URL. In a few months, the temporary URL would be need to be replaced with links that use the new GCP-based service.
 
-
- ## Who can use the Google Imagery Services?
+## Who can use the Google Imagery Services?
 The Texas Google Imagery Service is a restricted license and is only for use by public organizations in the State of Texas (ie. state, regional and local governments).  Contractors for any public organization are permitted to use the imagery as long as the project or program being performed directly supports the public organization. 
 
 Rights to use the imagery terminate upon completion of work by the outside entities. The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
@@ -31,14 +30,18 @@ During the pilot year, which extends through March 2016, the GIS Solutions Group
  
 ## I don’t use the Google Maps API, how can I incorporate the services into my tools and applications?
 Google Maps API provides access to the rich mapping content services from Google. Maps API is a commercial product that requires licensing based on quantities of use but is not required to access the Google Imagery Service.
+
+The Texas Google Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS software and web mapping applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.
+ 
+Check with your IT Department or software provider to determine if an OGC compliant Web Service is supported by your applications.
  
 ## How do I add the Google Imagery services to my:
 
 <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//00sp0000000s000000" class="btn btn-default btn-lg">ArcMap</a>
 
-<a href="ADD LINK TO PDF FOR ArcGIS Pro HERE" class="btn btn-default btn-lg">ArcGIS Pro</a>
+<a href="{{m.link('static/documents/google/WMS2Pro.pdf')}}" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
 
-<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">ArcGIS online</a>
+<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">ArcGIS Online</a>
 
 <a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" class="btn btn-default btn-lg">GlobalMapper</a>
 
@@ -46,11 +49,8 @@ Google Maps API provides access to the rich mapping content services from Google
 
 <a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" class="btn btn-default btn-lg">AutoCAD CIVIL 3D 2013</a>
 
-<a href="ADD LINK TO PDF FOR MICROSTATION HERE" class="btn btn-default btn-lg">MicroStation</a>
+<a href="{{m.link('static/documents/google/MicroStationGoogleWMSDemo.pdf')}}" class="btn btn-default btn-lg">MicroStation</a>
  
-The Texas Google Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS software and web mapping applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.
- 
-Check with your IT Department or software provider to determine if an OGC compliant Web Service is supported by your applications.
  
 ## How is the Texas Google Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?
 The Texas Google Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 1/2-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than the 1-meter National Agriculture Imagery Program (NAIP) imagery.   
@@ -64,7 +64,7 @@ Yes, TNRIS will continue to work in coordination with partners to determine the 
 ## What if my link stops working?
 There may be times when links will be updated to allow for access of newly added imagery.  Most likely, your agency would have been notified about these updates.  The fastest way to know whether this is the reason for your non-functioning links is to check status updates at the top of this page:
 
- <a href="#project-updates" class="smooth-scroll"><i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a> 
+<a href="#project-updates" class="smooth-scroll"><i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a> 
 
 These updates will provide link status updates, announcements, and instructions on how to reestablish your link.
  
