@@ -28,34 +28,21 @@
                 <h1>{{title}}</h1> {% if abstract %}
                 <div class="lead">{{abstract}}</div>
                 {% endif %}
-                <a href="#intro" class="btn btn-danger btn-lg smooth-scroll">More background about the project <i class="glyphicon glyphicon-chevron-right"></i></a>
+                <a style="max-width: 400px;" href="{{ m.link('2015-statewide-orthoimagery-project')}}" class="btn btn-danger btn-md smooth-scroll center-block">Return to 2015 Ortho Main Page <i class="glyphicon glyphicon-chevron-right" ></i></a><br><br>
             </div>
         </div>
     </div>
 </div>
-<section class="ortho-top">
-    <div class="container">
-        <div id="project-updates" class="row">
-            {% include "./partials/2015-ortho/top-update.html" %}
-        </div>
-    </div>
-</section>
 
-<div id="intro" class="ortho-intro">
-    <div class="container">
-        <div id="project-updates" class="row">
-        {% include "./partials/2015-ortho/intro.html" %}
-        </div>
-    </div>
-</div>
 {% endblock topcontent %}
 {% block contents %}
 <div class="row">
     <div class="col-md-8">
         {{contents|safe}}
     </div>
-
-
+    <div class="col-md4">
+      <img class="img-circle img-responsive center-block" src="{{ m.link('static/images/statewide-orthoimagery/ortho_qc_main.jpg')}}">
+    </div>
 </div>
 {% endblock contents %}
 
@@ -63,7 +50,7 @@
     <section class="ortho-top">
       <div class="container">
           <div class="row">
-             {% include "./partials/2015-ortho/ortho-contact.html" %}
+             {% include "./partials/2015-ortho/ortho-qc-contact.html" %}
            </div>
          </div>
     </section>

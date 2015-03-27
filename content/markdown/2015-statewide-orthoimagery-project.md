@@ -68,7 +68,7 @@ progress_5: 0
         <h4>Latest Buy-Up Acquisition Status</h4>
         <a href="#buy-ups-map" data-toggle="modal">
             <img src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + status_image_buyup_preview)}}" alt="thumbnail for buyup regions">
-          <figcaption class="text-right"><i class="glyphicon glyphicon-search"></i> Click for larger view</figcaption>
+          <figcaption class="text-right hidden-xs"><i class="glyphicon glyphicon-search"></i> Click for larger view</figcaption>
         </a>
 </figure>
 <div class="modal fade" id="buy-ups-map" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

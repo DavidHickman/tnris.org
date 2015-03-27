@@ -719,3 +719,30 @@ h2.updates-header {
     min-height: 180px;
   }
 }
+
+.qc-box {
+  background: url(../images/statewide-orthoimagery/qc_bg.jpg) 0 0 no-repeat $darkgrey;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 125px;
+  position: relative;
+  
+  h3 {
+    margin-top: 0;
+  }
+
+  .green-check {
+    position: absolute;
+    left: 25px;
+    top: 27%;
+  }
+}
+
+#_2015-ortho-qc {
+  .img-circle {
+    border: 7px solid $yellowgreen;
+    max-width: 200px;
+  }
+}

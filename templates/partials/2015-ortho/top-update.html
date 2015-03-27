@@ -6,6 +6,13 @@
         <li>{{update}}</li>
         {% endfor %}
     </ul>
+    <div class="qc-box">
+        <div class="green-check">
+          <img src="{{m.link('static/images/statewide-orthoimagery/green_check.png')}}" alt="a small thumbnail of orthoimagery">
+      </div>
+      <h3>We Need YOU for the Quality Control (QC) Review</h3>
+      <p>We are seeking volunteers to review the incoming imagery products between May and October. No experience necessary. </p><a class="btn btn-lg btn-danger" href="{{ m.link('2015-ortho-qc')}}"><i class="glyphicon glyphicon-info-sign"></i> Learn More <span class="sr-only">about Becoming a QC Reviewer</span></a>
+    </div>
     <h3>Data Progress</h3>
     <ul class="list-clean data-progress">
         <li class="status">
@@ -46,7 +53,7 @@
     <h3>Latest Flightline Status Map</h3>
     <a href="#status-image" data-toggle="modal">
         <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + status_image_preview)}}" alt="Latest Status Image and flightlines for the Orthoimagery Project">
-        <figcaption class="text-right"><span class="glyphicon glyphicon-search"></span> Click for larger view</figcaption>
+        <figcaption class="text-right hidden-xs"><span class="glyphicon glyphicon-search"></span> Click for larger view</figcaption>
     </a>
     <div class="modal fade" id="status-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
