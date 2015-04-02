@@ -12,9 +12,7 @@ abstract:
 
 Although Landsat data have been freely available since 2008, Amazon Web Services (AWS) has made Landsat 8 data available from their on-demand computing resources, making a big leap forward to eliminate storage costs and time required to download Landsat data. 
 
-View more imagery and a live demo at [Unlock Earth's Secrets](http://www.esri.com/landing-pages/software/landsat/unlock-earths-secrets).
-
-Esri, Mapbox, and others are using Landsat on  <abbr title="Amazon Web Services">AWS</abbr> to serve the latest and recently archived Landsat data to users.
+Esri, Mapbox, and others are harnessing <abbr title="Amazon Web Services">AWS</abbr> to serve the latest and recently archived Landsat data to users. You can view imagery and try out a live demo at [Unlock Earth's Secrets](http://www.esri.com/landing-pages/software/landsat/unlock-earths-secrets).
 
 From the [ArcGIS blog](http://blogs.esri.com/esri/arcgis/2015/03/19/making-landsat-on-aws-accessible/):
 
