@@ -23,42 +23,57 @@
 <div class="row">
   <div class="col-xs-12 col-sm-10 col-md-7">
     {{form.before("twdb-order")}}
-          {{form.multi(
-          "Type of Map",
-          "Type of Map",
-          "radio",
-          [
-            'Pre-Made Map',
-            'Custom Map'
-          ],
-          true
-      )}}
-      <!-- Show this if Pre-made Map -->
-      <label>Pre-Made Map Selection</label>
-      <p>There are a number of pre-made TWDB maps that we can print for you.</p>
-      <p><a class="btn btn-lg btn-danger pull-right" target="_blank" href="http://www.twdb.texas.gov/mapping/maps.asp"><i class="glyphicon glyphicon-eye-open"></i> View Pre-Made Maps</a>Please visit the pre-made maps page and copy the title of the map you would like and enter it below.</p>
-      
-          {{form.input("premade", {
-      label: "Pre-Made Map Title",
-      placeholder: "Enter the title of the map"
-    }, "text", false)}}
-    <!-- End Pre-made map -->
 
+      {{form.multi(
+        "Type of Map",
+        "Type of Map",
+        "radio",
+        [
+          'Pre-Made Map',
+          'Custom Map'
+        ],
+        true
+      )}}
+
+      {% set is_premade = "form_model['Type of Map'] == 'Pre-Made Map'" %}
+      <!-- Show this if Pre-made Map -->
+        <div class="form-group form-callout" ng-show="{{is_premade}}">
+          <p>There are a number of pre-made TWDB maps that we can print for you.</p>
+          <p><a class="btn btn-lg btn-danger pull-right" target="_blank" href="http://www.twdb.texas.gov/mapping/maps.asp"><i class="glyphicon glyphicon-eye-open"></i> View Pre-Made Maps</a>Please visit the pre-made maps page and copy the title of the map you would like and enter it below.</p>
+        </div>
+
+        {{form.input(
+          "premade",
+          {
+            label: "Pre-made Map Title",
+            placeholder: "Enter the title of the map"
+          },
+          "text",
+          false,
+          is_premade
+        )}}
+      <!-- End Pre-made map -->
+
+      {% set is_custom = "form_model['Type of Map'] == 'Custom Map'" %}
       <!-- Show this if Custom Map -->
-      <label>Describe your Custom Map Request</label>
-          <p>What elements: i.e. information, data, geographic area, etc...would you like included in the map?</p>
-          <p>We will contact you to get further details and ensure the map matches your needs.</p>
+        <div class="form-group form-callout" ng-show="{{is_custom}}">
+          <p>
+            Please describe geographic area and information that you would like to be
+            included in the map, along with any other details you think are important.
+            We will contact you to follow up and ensure the map matches your needs.
+          </p>
+        </div>
 
         {{form.textarea(
-            "Custom Map Description",
-            {
-              label: 'Custom Map Description',
-              placeholder: 'Describe the Map you would like to order.'
-            },
-            true
+          "Custom Map Description",
+          {
+            label: 'Custom Map Description',
+            placeholder: 'Describe the map you would like to order.'
+          },
+          true,
+          is_custom
         )}}
-
-        <!-- End Custom Map -->
+      <!-- End Custom Map -->
 
   {{form.input("Name", "Name", "text", true)}}
   {{form.input("Email", {
@@ -78,11 +93,11 @@
       label: "City",
       placeholder: "Your City"
     }, "text", false)}}
-  
 
-      {{form.input("State", "State", "text", true)}}
-      {{form.input("Zip", "Zip", "text", true)}}
-      
+
+    {{form.input("State", "State", "text", true)}}
+    {{form.input("Zip", "Zip", "text", true)}}
+
 
   {{form.input("Organization", {
       label: "Organization",
