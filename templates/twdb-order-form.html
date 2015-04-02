@@ -75,49 +75,74 @@
         )}}
       <!-- End Custom Map -->
 
-  {{form.input("Name", "Name", "text", true)}}
-  {{form.input("Email", {
-      label: "Email",
-      placeholder: "Enter email address"
-    }, "email", true)}}
-  {{form.input("Phone", {
-      label: "Phone",
-      placeholder: "Enter your phone number"
-    }, "tel", false)}}
+      {{form.input("Name", "Name", "text", true)}}
+      {{form.input(
+        "Email",
+        {
+          label: "Email",
+          placeholder: "Enter email address"
+        },
+        "email",
+        true
+      )}}
 
-  {{form.input("address", {
-      label: "Address",
-      placeholder: "Enter your address"
-    }, "text", false)}}
-      {{form.input("City", {
-      label: "City",
-      placeholder: "Your City"
-    }, "text", false)}}
+      {{form.input(
+        "Phone",
+        {
+          label: "Phone",
+          placeholder: "Enter your phone number"
+        },
+        "tel",
+        false
+      )}}
 
+      {{form.input(
+        "address",
+        {
+          label: "Address",
+          placeholder: "Enter your address"
+        },
+        "text",
+        false
+      )}}
 
-    {{form.input("State", "State", "text", true)}}
-    {{form.input("Zip", "Zip", "text", true)}}
+      {{form.input(
+        "City",
+        {
+          label: "City",
+          placeholder: "Your City"
+        },
+        "text",
+        false
+      )}}
 
+      {{form.input("State", "State", "text", true)}}
+      {{form.input("Zip", "Zip", "text", true)}}
 
-  {{form.input("Organization", {
-      label: "Organization",
-      placeholder: "Who are you affiliated with?"
-    }, "text", false)}}
+      {{form.input(
+        "Organization",
+        {
+          label: "Organization",
+          placeholder: "Who are you affiliated with?"
+        },
+        "text",
+        false
+      )}}
 
-    <!-- Add Date Needed by Input -->
-    <label>Date Needed by</label>
-    <strong>DATE SELECTOR HERE</strong>
+      <!-- Add Date Needed by Input -->
+      <label>Date Needed by</label>
+      <strong>DATE SELECTOR HERE</strong>
 
-  {{form.checkbox(
-    "Legislative Request",
-    "Is this a Legislative Request?",
-    "Yes",
-    false,
-    true
-  )}}
+      {{form.checkbox(
+        "Legislative Request",
+        "Is this a Legislative Request?",
+        "Yes",
+        false,
+        true
+      )}}
 
-  {{form.submit("message")}}
-{{form.after()}}
+      {{form.submit("message")}}
+    {{form.after()}}
   </div>
 </div>
 
