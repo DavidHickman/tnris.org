@@ -93,17 +93,27 @@
           placeholder: "Enter your phone number"
         },
         "tel",
-        false
+        true
       )}}
 
       {{form.input(
         "address",
         {
-          label: "Address",
+          label: "Address 1",
           placeholder: "Enter your address"
         },
         "text",
-        false
+        true
+      )}}
+
+         {{form.input(
+        "address-2",
+        {
+          label: "Address 2",
+          placeholder: "More space for your address"
+        },
+        "text",
+        true
       )}}
 
       {{form.input(
@@ -113,7 +123,7 @@
           placeholder: "Your City"
         },
         "text",
-        false
+        true
       )}}
 
       {{form.input("State", "State", "text", true)}}
@@ -122,16 +132,22 @@
       {{form.input(
         "Organization",
         {
-          label: "Organization",
+          label: "Organization/Affiliation",
           placeholder: "Who are you affiliated with?"
+        },
+        "text",
+        true
+      )}}
+
+         {{form.input(
+        "date",
+        {
+          label: "Date Needed by",
+          placeholder: "Give a date or timeline: i.e. 'no rush' or 'by the end of April'"
         },
         "text",
         false
       )}}
-
-      <!-- Add Date Needed by Input -->
-      <label>Date Needed by</label>
-      <strong>DATE SELECTOR HERE</strong>
 
       {{form.checkbox(
         "Legislative Request",
@@ -141,8 +157,48 @@
         true
       )}}
 
+{{form.multi(
+          "Delivery Method",
+          "Delivery Method",
+          "radio",
+          [
+            ['USPS', 'U.S.P.S'],
+            ['FedEx', 'Fed-Ex ($10.00 - $15.00)'],
+            ['FedEx Customer Charged', 'Fed-Ex charged to customer number'],
+            ['FTP', 'File Transfer Protocol (FTP)']
+          ],
+          true
+      )}}
+
+      {{form.input(
+        "FedEx Customer Number", "Customer FedEx Account Number", "text", true,
+        "form_model['Delivery Method'] == 'FedEx Customer Charged'")}}
+
+      {{form.multi(
+          "Payment Method",
+          "Payment Method",
+          "radio",
+          [
+            ['Credit Card', 'Credit Card (A TNRIS staff member will call you to acquire your credit card information.)'],
+            'Check',
+            'Pay at Pickup',
+            ['Purchase Order', 'Purchase Order (Government agencies only)']
+          ],
+          true
+      )}}
+
+      {{form.input(
+        "Check Number", "Check Number", "text", true,
+        "form_model['Payment Method'] == 'Check'")}}
+
+      {{form.input(
+        "Purchase Order Number", "Purchase Order Number", "text", true,
+        "form_model['Payment Method'] == 'Purchase Order'")}}
+
+
       {{form.submit("message")}}
     {{form.after()}}
+    <p>Someone
   </div>
 </div>
 

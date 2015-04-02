@@ -1,9 +1,7 @@
 ---
 template: twdb-order-form.html
-title: TWDB Custom Map Ordering
+title: TWDB Map Ordering
 ---
-Welcome to the Map Service Center's order form.
+Welcome to TWDB map ordering form. TNRIS acts as the GIS and map support for the TWDB.
 
-Please fill out the information below and TNRIS staff will begin processing your order as soon as it is received.
-
-For other inquiries please use the general [contact form](contact).
+Please fill out the form and our staff will contact you shortly to verify your order and collect payment information.
