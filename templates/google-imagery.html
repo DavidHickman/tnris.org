@@ -27,14 +27,14 @@
 <div id="intro" class="google-intro">
     <div class="container">
         <div id="project-updates" class="row">
-            {% include "./partials/google-intro.html" %}
+            {% include "./partials/google/google-intro.html" %}
         </div>
     </div>
 </div>
 <section class="google-top">
     <div class="container">
         <div id="project-updates" class="row">
-            {% include "./partials/google-update.html" %}
+            {% include "./partials/google/google-update.html" %}
         </div>
     </div>
 </section>
@@ -42,12 +42,12 @@
 
 <div class="row">
     <div class="col-md-8">
-        <h1 id="project-faq">Project FAQ</h1> {% include "./partials/google-faq-toc.html" %} {{ contents|safe }} {% block extracontent %} {% endblock extracontent %}
+        <h1 id="project-faq">Project FAQ</h1> {% include "./partials/google/google-faq-toc.html" %} {{ contents|safe }} {% block extracontent %} {% endblock extracontent %}
     </div>
 
     <div class="col-md-4">
         {% block sidebarLeft %}
-           {% include "./partials/google-side.html" %}
+           {% include "./partials/google/google-side.html" %}
         {% endblock sidebarLeft %}
     </div>
 </div>
@@ -57,7 +57,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                {% include "./partials/google-contact.html" %}
+                {% include "./partials/google/google-contact.html" %}
             </div>
         </div>
     </div>
