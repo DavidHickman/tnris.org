@@ -12,7 +12,7 @@ abstract:
 
 The National Agriculture Imagery Program (NAIP) 2014 1-meter orthoimagery covering the entire state of Texas are now available from TNRIS. 
 
-These image products were flown April – October 2014 during leaf-on conditions and include Compressed County Mosaics (CCMs) - **available by request** - and Digital Orthophoto Quarter Quads (DOQQs) – **available April 2015**. 
+These image products were flown April – October 2014 during leaf-on conditions and include Compressed County Mosaics (CCMs) - **available by request** - and Digital Orthophoto Quarter Quads (DOQQs) – **available May 2015**. 
 
 NAIP is a nationwide program administered by the USDA-Farm Service Agency-Aerial Photography Field Office.
 
