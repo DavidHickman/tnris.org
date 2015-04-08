@@ -1,12 +1,16 @@
 @import "variables";
 
-#georodeo {
-  h2 {
-      font-family: $adelle;
-  }
+
   
-  .container-fluid.full {
-    margin-bottom: 0;
+  .georodeo-masthead {
+
+    &.container-fluid.full {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-family: $adelle;
+    }
 
       img.main {
         height: 300px;
@@ -23,7 +27,6 @@
         }
       }
   }
-}
 
 .georodeo-front {
   position: relative;
@@ -77,7 +80,7 @@
     }
   }
 
-  img {
+  img.img-circle {
     border: 5px solid $auburn;
     display: block;
     margin: 0 auto;
