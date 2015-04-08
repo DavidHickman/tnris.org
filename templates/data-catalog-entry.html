@@ -2,14 +2,6 @@
 {% import '_macros.html' as m %}
 
 
-{% block styles %}
-  {% parent %}
-
-  {% if status_map_cartodb_id %}
-    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.13/themes/css/cartodb.css" />
-  {% endif %}
-{% endblock styles %}
-
 {% block contents %}
   {%- set images = [
     {
@@ -254,21 +246,22 @@
 {% block scripts %}
   {% parent %}
 
-  {% if status_map_cartodb_id %}
-    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.13/cartodb.js"></script>
-  {% endif %}
-
   <script type="text/javascript">
     $(function() {
+      var callout = $('.data-callout').collapse();
+
       $('.carousel')
         .carousel();
 
       $('.carousel')
-        .on('slid.bs.carousel', function (event) {
-          var cartodb_map = $(event.relatedTarget).find('.cartodb-map');
-          var viz_json_url = 'http://tnris.cartodb.com/api/v2/viz/' + cartodb_map.data('cartodbId') + '/viz.json';
-          var id = cartodb_map.attr('id');
-          cartodb.createVis(id, viz_json_url);
+        .on('slide.bs.carousel', function (event) {
+          var iframe = $(event.relatedTarget).find('iframe');
+
+          if (iframe.length) {
+            callout.hide();
+          } else {
+            callout.show();
+          }
         });
     });
   </script>
