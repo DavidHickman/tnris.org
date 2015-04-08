@@ -60,7 +60,13 @@
   }
 
   iframe {
-    margin-bottom: -5px;
+    min-height: 310px;
+    @media (min-width: $screen-md) {
+      min-height: 484px;
+    }
+    @media (min-width: $screen-lg) {
+      min-height: 584px;
+    }
   }
 
   .caption {

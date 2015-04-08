@@ -85,9 +85,9 @@
             {% if image.url %}
               <div class="item{% if !active_set %} active{% endif %}">
                 {% if image.is_cartodb %}
-                    <iframe width='100%' height='484' frameborder='0' src='//tnris.cartodb.com/viz/{{image.url}}/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-                  {%- else  -%}
-                    <img class="img-responsive image-one" src="{{m.link('static/' + image.url)}}" alt="{{image.alt}}">
+                  <iframe class="img-responsive image-one" width='100%' frameborder='0' src='//tnris.cartodb.com/viz/{{image.url}}/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                 {%- else  -%}
+                  <img class="img-responsive image-one" src="{{m.link('static/' + image.url)}}" alt="{{image.alt}}">
                 {% endif %}
               </div>
 
