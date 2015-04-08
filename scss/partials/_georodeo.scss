@@ -1,32 +1,39 @@
 @import "variables";
 
-
-  
-  .georodeo-masthead {
-
-    &.container-fluid.full {
-      margin-bottom: 0;
-    }
-
+#georodeo {
+  #contentMain {
     h2 {
       font-family: $adelle;
     }
-
-      img.main {
-        height: 300px;
-        margin-left: -25%;
-        width: auto;
-
-        @media (min-width: $screen-sm) {
-        }
-
-        @media (min-width: $screen-md) {
-          height: auto;
-          margin-left: 0;
-          width: 100%;
-        }
-      }
   }
+}
+
+  
+.georodeo-masthead {
+
+  &.container-fluid.full {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: $adelle;
+  }
+
+    img.main {
+      height: 300px;
+      margin-left: -25%;
+      width: auto;
+
+      @media (min-width: $screen-sm) {
+      }
+
+      @media (min-width: $screen-md) {
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+}
 
 .georodeo-front {
   position: relative;
