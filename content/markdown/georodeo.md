@@ -59,8 +59,8 @@ Subject to change
     <td><h3>Lightning Talks/General Discussion/Closing Remarks</h3></td>
   </tr>
     <tr>
-    <td>5:00ish</td>
-    <td><h3>Mappy Hour at Black Star Coop</h3>
+    <td>5:30PM</td>
+    <td><h3>Mappy Hour at Black Star Co-op</h3>
       <a href="http://www.meetup.com/MaptimeATX/events/221439962/"> <img src="{{m.link('static/images/georodeo/mappyhour_sm.jpg')}}" alt="Maptimeatx and atx-osg Mappy Hour at black star graphic"></a>
 
 <p>Join [MaptimeATX](http://www.meetup.com/maptimeatx/) and [ATX-OSG](http://www.meetup.com/atx-osg/) after the GeoRodeo for a ['Mappy' Hour](http://www.meetup.com/MaptimeATX/events/221439962/) at [Black Star Co-op](https://goo.gl/maps/fyn2u).</p></td>
