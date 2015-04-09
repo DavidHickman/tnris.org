@@ -1,6 +1,6 @@
 ---
 template: spotlight.html
-title: Earliest Historical Imagery by County
+title: Downtown Dallas, 1927
 author: Joey Thomas
 author_division: RDC
 thumb: 
