@@ -15,6 +15,6 @@ All imagery dataset represented by this figure are available from the TNRIS Rese
 
 ## Where Did the Data Come From?
 
-This data was created by using our Historical Aerial Imagery Index which will be coming to our website later this year. 
+This data was created by using our Historical Aerial Imagery Index which will be coming to our website later this year. After launched the index can be used to view the source, date, scale and format by county for all historical aerial imagery within the TNRIS archive. 
 
 {% include "./partials/order-button.html" %}
