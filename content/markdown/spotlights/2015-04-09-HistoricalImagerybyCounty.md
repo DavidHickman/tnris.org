@@ -15,6 +15,6 @@ All imagery dataset represented by this figure are available from the TNRIS Rese
 
 ## Where Did the Data Come From?
 
-This is part of our historical archive. Please contact the RDC through our [order  form](https://tnris.org/order-data/) to inquire about this imagery and more.
+This data was created by using our Historical Aerial Imagery Index which will be coming to our website later this year. 
 
 {% include "./partials/order-button.html" %}
