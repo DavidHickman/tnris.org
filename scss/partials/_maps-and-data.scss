@@ -50,7 +50,7 @@
   min-height: 88px;
   max-height: 800px;
   overflow: hidden;
-  background: $tnrisblue;
+  background: $darkgrey;
 
   h1 {
     height: 50px;
@@ -152,9 +152,11 @@
     }
   }
   .btn-container {
+    background: $tnrisblue;
     text-align: center;
     
     @media (min-width: $screen-sm) {
+      background: none;
       margin-top: -22px;
     }
 
