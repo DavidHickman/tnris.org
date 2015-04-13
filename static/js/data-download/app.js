@@ -27,6 +27,16 @@ var dataDownloadApp = function () {
     .controller('dataDownloadCtrl', dataDownloadCtrl)
     .config(function ($analyticsProvider) {
       $analyticsProvider.withAutoBase(true);
+      //Turn off automatic pageview tracking and manually track after page is rendered
+      $analyticsProvider.virtualPageviews(false);
+    })
+    .run(function ($rootScope, $timeout, $analytics) {
+      $rootScope.$on('$stateChangeSuccess', function () {
+        //Track the pageview after a timeout so that it happens after the current $digest
+        $timeout(function() {
+          $analytics.pageTrack();
+        });
+      });
     })
     .config(function($stateProvider, $urlRouterProvider, $sceDelegateProvider, $locationProvider, PARTIALS_PATH) {
       $sceDelegateProvider.resourceUrlWhitelist([
