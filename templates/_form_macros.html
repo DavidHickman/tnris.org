@@ -27,14 +27,18 @@
     <script src="{{m.based('bower_components/angular/angular.min.js')}}"></script>
     <script src="{{m.based('bower_components/angular-recaptcha/release/angular-recaptcha.js')}}"></script>
     <script src="{{m.based('bower_components/angular-animate/angular-animate.min.js')}}"></script>
+    <script src="{{m.based('bower_components/ng-file-upload/angular-file-upload-all.min.js')}}"></script>
 
   <!-- build:js {{m.based('js/contact.min.js')}} -->
-    <script src="{{m.based('js/contact-forms.js')}}"></script>
+    <script src="{{m.based('js/configApp.js')}}"></script>
+    <script src="{{m.based('js/contact-forms/app.js')}}"></script>
+    <script src="{{m.based('js/contact-forms/directives/progressbar.js')}}"></script>
+    <script src="{{m.based('js/contact-forms/services/uploadService.js')}}"></script>
   <!-- endbuild -->
 {%- endmacro -%}
 
 {%- macro before(form_id) -%}
-<div id="ng-app" ng-app="FormApp">
+<div id="ng-app" ng-app="ContactFormApp">
   <div ng-controller="FormController">
     <form name="form" role="form" novalidate ng-cloak>
       {{hidden('form_id', form_id)}}
@@ -183,6 +187,30 @@
   {{_item_after(name, display, type, required)}}
 {%- endmacro -%}
 
+{%- macro uploadZip(name, display, required, show) -%}
+  {%set type="file" %}
+  {{_item_before(name, display, type, required, show)}}
+
+  <div ng-hide="isUploading">
+    <input type="file" ng-file-select ng-model="files"
+      ng-multiple="false" name="{{name}}" accept=".zip"
+      ng-file-change="uploadZipFile($files, $event)"
+      {{requiredAttr(required, show)}}>
+  </div>
+
+  <div class="row" ng-show="isUploading || uploadSuccess">
+    <div class="col-md-12">
+      <div progress-bar value="uploadProgress" type="progressBarType"></div>
+    </div>
+  </div>
+  <p class="text-success" ng-show="uploadSuccess">
+    File successfully uploaded.
+  </p>
+  <p class="text-danger" ng-show="uploadError" ng-bind="uploadErrorMessage">
+  </p>
+
+  {{_item_after(name, display, type, required)}}
+{%- endmacro -%}
 
 {# reused input components #}
 {%- macro industry() -%}

@@ -4,5 +4,6 @@
 
 angular.module('ConfigApp', [])
   .constant('CONTACT_SUBMIT_URL', 'http://localhost:8001/')
-  .constant('ORDER_DATA_UPLOAD_POLICY_URL', 'http://localhost:8001/policy/order-data')
+  .constant('CONTACT_UPLOAD_BUCKET', 'contact-uploads')
+  .constant('ZIP_UPLOAD_POLICY_URL', 'http://localhost:8001/policy/zip-upload')
   ;
