@@ -1,4 +1,4 @@
-var resourceGroup = ['$stateParams', 'DOWNLOAD_URL_PRE', 'PARTIALS_PATH', function ($stateParams, downloadUrlPre, PARTIALS_PATH) {
+var resourceGroup = ['$stateParams', 'PARTIALS_PATH', function ($stateParams, PARTIALS_PATH) {
   return {
     restrict: 'EA',
     scope: {
@@ -7,8 +7,6 @@ var resourceGroup = ['$stateParams', 'DOWNLOAD_URL_PRE', 'PARTIALS_PATH', functi
     },
     templateUrl: PARTIALS_PATH + 'resourceGroup.html',
     link: function($scope) {
-      $scope.downloadUrlPre = downloadUrlPre;
-
       //EventAction strings for GA event tracking
       switch ($scope.areaDataset.area) {
         case 'statewide':
