@@ -1,0 +1,77 @@
+
+{% extends "base.html" %}
+{% import "_form_macros.html" as form %}
+
+
+{% block styles %}
+  {% parent %}
+
+  {{form.styles()}}
+{% endblock styles %}
+
+{% block scripts %}
+  {% parent %}
+
+  {{form.scripts()}}
+{% endblock scripts %}
+
+
+
+{% block topcontent %}
+<div id="2015-forum-container">
+  <div class="container-fluid full">
+
+      <div class="top-container">
+          {% if mainimage %}
+            <img src="{{m.link(mainimage)}}" alt="Texas GIS Forum Main Image">
+          {% endif %}
+
+          <div class="top-header center-block">
+              <div class="container">
+                  <h1>{{title}}</h1> 
+                  {% if subtitle %}
+                    <h2>{{ subtitle }}</h2>
+                  {% endif %}
+                  {% if abstract %}
+                  <div class="lead">{{abstract}}</div>
+                  {% endif %}
+
+                  <div class="pull-right">
+
+                  <a href="#intro" class="btn btn-danger btn-lg smooth-scroll">Register to Attend<i class="glyphicon glyphicon-chevron-right"></i></a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<div class="forum-intro">
+    <div class="container">
+        {{contents|safe}}
+    </div>
+</div>
+
+{% endblock topcontent %}
+
+{% block contents %}
+<div class="row">
+    <div class="col-md-8">
+    </div>
+</div>
+</div>
+{% endblock contents %}
+
+{% block contents-two %}
+{% if contact %}
+
+    <section class="ortho-top">
+      <div class="container">
+          <div class="row">
+             {% include "./partials/2015-ortho/ortho-contact.html" %}
+           </div>
+        </div>
+    </section>
+{% endif %}
+
+{% endblock contents-two %}
+
