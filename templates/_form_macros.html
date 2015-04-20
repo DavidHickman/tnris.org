@@ -27,7 +27,7 @@
     <script src="{{m.based('bower_components/angular/angular.min.js')}}"></script>
     <script src="{{m.based('bower_components/angular-recaptcha/release/angular-recaptcha.js')}}"></script>
     <script src="{{m.based('bower_components/angular-animate/angular-animate.min.js')}}"></script>
-    <script src="{{m.based('bower_components/ng-file-upload/angular-file-upload-shim.min.js')}}"></script>
+    <script>window.FileAPI = {};</script> {# necessary for not breaking in IE when loading upload shim #}
     <script src="{{m.based('bower_components/ng-file-upload/angular-file-upload-all.min.js')}}"></script>
 
   <!-- build:js {{m.based('js/contact.min.js')}} -->
