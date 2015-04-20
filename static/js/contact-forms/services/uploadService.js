@@ -13,12 +13,12 @@ angular.module('ContactFormApp')
             return response.data;
           })
           .then(function (s3policy) {
-            var fileName = form_id + '/' + Date.now() + '_' + file.name;
+            var fileKey = form_id + '/' + Date.now() + '_' + file.name;
             return $upload.upload({
               url: 'https://' + CONTACT_UPLOAD_BUCKET + '.s3.amazonaws.com/',
               method: 'POST',
               fields: {
-                key: fileName,
+                key: fileKey,
                 acl: 'private',
                 AWSAccessKeyId: s3policy.key,
                 Policy: s3policy.policy,

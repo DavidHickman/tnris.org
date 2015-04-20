@@ -1,4 +1,5 @@
 'use strict';
+/* global FileAPI:false */
 
 angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angularFileUpload'])
   .controller('FormController',
@@ -23,6 +24,8 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
         $log.info('Created widget ID: %s', widgetId);
         $scope.recaptchawidgetId = widgetId;
       };
+
+      $scope.isUploadUnsupported = angular.isDefined(window.FileAPI) && !FileAPI.hasFlash;
 
       function resetUpload() {
         $scope.uploadError = false;
