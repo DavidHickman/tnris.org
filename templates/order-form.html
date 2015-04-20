@@ -143,6 +143,17 @@
             is_lidar
         )}}
 
+        {% set has_site_file = "form_model['LiDAR Site File']" %}
+        {{form.uploadZip(
+          "Site File Upload",
+          {
+            label: "Upload Site File",
+            help: "Select a zipped (.zip) Shapefile to upload. Maximum allowed file size is 20 MB."
+          },
+          false,
+          has_site_file
+        )}}
+
         {{form.textarea(
             "LiDAR Description",
             {

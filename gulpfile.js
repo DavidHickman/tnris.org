@@ -199,7 +199,8 @@ var dirs = {
   static: 'static',
   tmp: './.tmp',
   templates: './templates',
-  sitemap: './sitemap'
+  sitemap: './sitemap',
+  config: './config'
 };
 
 dirs.markdown = path.join(dirs.content, 'markdown');
@@ -213,6 +214,7 @@ var paths = {
   scss: dirs.scss + '/**/*.scss',
   static: [dirs.static + '/**/*', '!' + path.join(dirs.bower, 'bootstrap-sass-official/**'), '!' + path.join(dirs.bower, 'bourbon/**')],
   templates: dirs.templates + '/**/*',
+  config: dirs.config + '/**/*',
   variables: dirs.content + '/variables.yaml'
 };
 
@@ -224,6 +226,7 @@ gulp.task('watch', function () {
   gulp.watch(paths.scss, ['dist-scss']);
   gulp.watch(paths.templates, ['dist-metal']);
   gulp.watch(paths.javascript, ['dist-static']);
+  gulp.watch(paths.config, ['dist-config']);
 });
 
 gulp.task('webserver', ['dist-dev'],  function() {
@@ -234,7 +237,7 @@ gulp.task('webserver', ['dist-dev'],  function() {
 });
 
 gulp.task('dist', ['dist-production']);
-gulp.task('dist-dev', ['dist-fonts', 'dist-metal', 'dist-scss', 'dist-static', 'dist-sitemap']);
+gulp.task('dist-dev', ['dist-config', 'dist-fonts', 'dist-metal', 'dist-scss', 'dist-static', 'dist-sitemap']);
 gulp.task('dist-production', ['set-production', 'dist-dev', 'dist-useref', 'dist-sitemap']);
 
 gulp.task('set-production', function () {
@@ -463,6 +466,20 @@ gulp.task('sitemap-index', function() {
     .pipe(gulpSwig(opts))
     .pipe(rename('sitemap-index.xml'))
     .pipe(gulp.dest(dirs.tmp));
+});
+
+gulp.task('dist-config', function () {
+  var path;
+  if (production) {
+    path = dirs.config + '/config-production.js';
+  }
+  else {
+    path = dirs.config + '/config-development.js';
+  }
+
+  return gulp.src(path)
+    .pipe(rename('configApp.js'))
+    .pipe(gulp.dest(dirs.dist + '/js'));
 });
 
 gulp.task('clean', ['clean-dist']);
