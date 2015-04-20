@@ -3,8 +3,8 @@
 
 angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angularFileUpload'])
   .controller('FormController',
-    ['$scope', '$http', '$log', 'UploadService', 'CONTACT_SUBMIT_URL',
-    function($scope, $http, $log, UploadService, CONTACT_SUBMIT_URL) {
+    ['$scope', '$http', '$log', '$window', 'UploadService', 'CONTACT_SUBMIT_URL',
+    function($scope, $http, $log, $window, UploadService, CONTACT_SUBMIT_URL) {
   
       $scope.master = {};
       $scope.errors = {};
@@ -25,7 +25,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
         $scope.recaptchawidgetId = widgetId;
       };
 
-      $scope.isUploadUnsupported = angular.isDefined(window.FileAPI) && !FileAPI.hasFlash;
+      $scope.isUploadUnsupported = $window.FileAPI && !FileAPI.hasFlash;
 
       function resetUpload() {
         $scope.uploadError = false;
