@@ -175,7 +175,7 @@ Select BUY-UP areas will be acquired and processed at either 1-foot or 6-inch pi
 
 These may may be displayed as natural color (Red, Green, Blue) or color infrared (Near Infrared, Red, Green) composites, as seen in the examples below.
 
-*Grab the Image Slider to compare between Natural Color and Infrared*
+*Grab the Image Slider to compare between Natural Color and Color Infrared*
 <figure>
 <div id="imageCompare7" class='twentytwenty-container natural-color-infrared'>
   <img src="{{m.link('static/images/statewide-orthoimagery/4_band_nc.jpg')}}" alt="Preview of natural color imagery">
