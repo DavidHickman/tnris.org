@@ -25,7 +25,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
         $scope.recaptchawidgetId = widgetId;
       };
 
-      $scope.isUploadUnsupported = !$window.FormData && $window.FileAPI && !FileAPI.hasFlash;
+      $scope.isUploadUnsupported = $window.FileAPI && !FileAPI.hasFlash;
 
       function resetUpload() {
         $scope.uploadError = false;
