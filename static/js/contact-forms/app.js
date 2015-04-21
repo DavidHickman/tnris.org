@@ -109,10 +109,12 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
 
         if (file.type.indexOf('image') !== 0) {
           setUploadError("Only image files are accepted. Please check your file type.");
+          return;
         }
 
         if (file.size > 5242880) {
           setUploadError("Please ensure the selected image file's size is less than 5 MB.");
+          return;
         }
 
         var formFieldName = angular.element($event.target).attr('name');
