@@ -42,6 +42,31 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
         $scope.files = null;
       }
 
+      function onUploadSuccess(formFieldName) {
+        return function (response) {
+          var data = response.data;
+          var fileUrl = angular.element(data).find('location').text();
+          $scope.uploadSuccess = true;
+          $scope.progressBarType = "success";
+          $scope.form_model[formFieldName] = fileUrl;
+        };
+      }
+
+      function onUploadError(err) {
+        setUploadError("There was an error uploading. Please check your file and try again.");
+        $log.error(err);
+      }
+
+      function onUploadProgress(evt) {
+        $scope.uploadProgress = Math.round(100.0 * evt.loaded / evt.total);
+      }
+
+      function onUploadFinally() {
+        $scope.isUploading = false;
+      }
+
+      //XXX: Note that there will likely be problems/collisions if multiple uploads
+      // exist on a given form
       $scope.uploadZipFile = function ($files, $event) {
         resetUpload();
         
@@ -50,7 +75,6 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
         }
 
         var file = $files[0];
-        var formFieldName = angular.element($event.target).attr('name');
 
         if (file.type !== "application/zip") {
           setUploadError("Only zipped Shapefiles are accepted. Please check your file type.");
@@ -62,24 +86,47 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
           return;
         }
 
+        var formFieldName = angular.element($event.target).attr('name');
         $scope.isUploading = true;
 
         UploadService.uploadZip(file, $scope.form_model.form_id)
-          .then(function onSuccess(response) {
-            var data = response.data;
-            var fileUrl = angular.element(data).find('location').text();
-            $scope.uploadSuccess = true;
-            $scope.progressBarType = "success";
-            $scope.form_model[formFieldName] = fileUrl;
-          }, function onError(err) {
-            setUploadError("There was an error uploading. Please check your file and try again.");
-            $log.error(err);
-          }, function onProgress(evt) {
-            $scope.uploadProgress = Math.round(100.0 * evt.loaded / evt.total);
-          })
-          ['finally'](function onFinally() {
-            $scope.isUploading = false;
-          });      
+          .then(
+            onUploadSuccess(formFieldName),
+            onUploadError,
+            onUploadProgress
+          )
+          ['finally'](onUploadFinally);
+      };
+
+      $scope.uploadImageFile = function($files, $event) {
+        resetUpload();
+
+        if (!$files || !$files.length) {
+          return;
+        }
+
+        var file = $files[0];
+
+        if (file.type.indexOf('image') !== 0) {
+          setUploadError("Only image files are accepted. Please check your file type.");
+          return;
+        }
+
+        if (file.size > 5242880) {
+          setUploadError("Please ensure the selected image file's size is less than 5 MB.");
+          return;
+        }
+
+        var formFieldName = angular.element($event.target).attr('name');
+        $scope.isUploading = true;
+
+        UploadService.uploadImage(file, $scope.form_model.form_id)
+          .then(
+            onUploadSuccess(formFieldName),
+            onUploadError,
+            onUploadProgress
+          )
+          ['finally'](onUploadFinally);
       };
 
       $scope.submit = function(form) {
