@@ -1,21 +1,21 @@
 ---
 template: 2015-forum.html
-title: Call for Papers
-subtitle: Call for Papers
+title: Call for Presentations
+subtitle: Call for Presentations
 mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
 abstract: Share your knowledge with the Texas GIS Community
-body_class: call-for-papers
+body_class: call-for-presentations
 ---
 
-## Call for Presentations Now Open!
+TNRIS is pleased to invite you to participate as a presenter in this year's Texas GIS Forum.
 
-TNRIS is pleased to invite you to participate in our 2014 Texas GIS Forum, October 20th -24th at the JJ Pickle Center in Austin, Texas. The Forum is a great opportunity to share your knowledge with a respected community of GIS Professionals and network with your peers in the geospatial industry.
+The Forum is a great opportunity to share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry.
 
 Please review the suggested topics of interest and the selection criteria prior to submitting an abstract.
 
 ## Topics of Interest
 
-Individuals are welcome to submit on any theme related to GIS. However, special consideration will be given to abstracts relating to the following topics:
+ Individuals are invited to propose a GIS-themed presentation. However, special consideration will be given to abstracts relating to the following topics:
 
 - Emerging GIS Technologies
 - Cloud-based Solutions
