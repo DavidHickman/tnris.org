@@ -1,17 +1,37 @@
 @import "variables";
 
-#2015-forum-container {
-
+#_2015-forum-container {
   .forum-intro {
-    background: $darkgrey;
-    color: $white;
-    padding-bottom: 60px;
+    font-size: 20px;
   }
 
  .container-fluid.full {
+
+      img.banner {
+        min-width: 100%;
+        display: block;
+      }
+
+      .forum-logo-container {
+        position: relative;
+        top: 0;
+
+    }
+
      .top-container {
        margin-bottom: 0;
+
+        .top-header h2 {
+          color: $white;
+        }
      }
   }
+}
 
+h2.logo-2015 {
+  background: url('../images/texas-gis-forum/2015/logo_white_lg.png')  0 0 no-repeat;
+  display: block;
+  height: 126px;
+  text-indent: -9999px;
+  width: 607px;  
 }

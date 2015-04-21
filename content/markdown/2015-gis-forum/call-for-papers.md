@@ -1,15 +1,13 @@
 ---
 template: 2015-forum.html
 title: Call for Papers
-subtitle: Texas GIS Forum | October 26th – 29th, 2015
+subtitle: Call for Papers
 mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
-abstract: Partner with Texas's Premiere gathering for the Geospatial Professionals to reach your customers and your community.
+abstract: Share your knowledge with the Texas GIS Community
 body_class: call-for-papers
 ---
 
-# Call for Presentations is Open
-
-** Submit Today! **
+## Call for Presentations Now Open!
 
 TNRIS is pleased to invite you to participate in our 2014 Texas GIS Forum, October 20th -24th at the JJ Pickle Center in Austin, Texas. The Forum is a great opportunity to share your knowledge with a respected community of GIS Professionals and network with your peers in the geospatial industry.
 
@@ -37,10 +35,12 @@ Abstract selection is very competitive; please follow the format instructions ou
 
 ## Submission
 
-The deadline for abstracts is July 25th, 2015.
+The deadline for abstracts is June 19th, 2015.
 
-<a class="btn btn-lg btn-danger" href="">Click Here to complete the Online Application</a>
+<a class="btn btn-lg btn-danger" href="https://www.surveymonkey.com/s/HZQZM8D">Click Here to Submit an Online Application</a>
 
 ## Acceptance
 
-Applicants will be notified of abstract acceptance and will receive additional instructions by email no later than August 15th, 2014. For inquiries, please contact Kathy Wilson at kwilson@cmpmanagement.com or 512-258-7474.
+Applicants will be notified of abstract acceptance and will receive additional instructions by email no later than July 10th, 2015. 
+
+For inquiries, please contact **Kathy Wilson at kwilson@cmpmanagement.com or 512-258-7474**.
