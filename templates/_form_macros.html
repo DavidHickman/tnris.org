@@ -119,7 +119,7 @@
   {% endif %}
   {{_item_before(name, display, type, required, show)}}
     <select name="{{name}}" class="form-control" ng-model="form_model['{{name}}']" ng-change="updateItem(form['{{name}}'])" ng-options="option for option in ['{{ options|join("','") }}']" ng-class="{'placeholder': !form_model['{{name}}']}" {{requiredAttr(required, show)}}>
-      <option value="">Select a {{display}}</option>
+      <option value="">Select {{display}}</option>
     </select>
   {{_item_after(name, display, type, required)}}
 
