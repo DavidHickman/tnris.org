@@ -1,18 +1,17 @@
 ---
 title: 2014 Central Texas and Fort Bend County LiDAR
-template: 2015-lidar-release.html
+template: news.html
 mainimage: 
 status_image: 
 status_image_preview: 
-status_date: January 26, 2014
+status_date: January 26, 2015
 abstract:
     A collaborative initiative to capture high-quality LiDAR data for parts of Bandera, Fort Bend, Lampasas, Mills and Uvalde County, Texas
 ---
 
-#LiDAR Data Release for Central Texas
-
 The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution lidar data for 3242 square miles of parts of Bandera, Fort Bend, Lampasas, Mills and Uvalde County, Texas. Aerial collection took place from January to March 2013 during the leaf-off season. Fugro performed data acquisition/processing while URS Corporation provided third-party quality assurance and quality control (QA/QC).
-This project was administered by the TNRIS Strategic Mapping Program (StratMap) and the data were procured through the Council on Competitive Government’s (CCG) High Priority Imagery and Datasets (HPIDS) contract. Funding was provided by the U.S. Department of Agriculture Natural Resources Conservation Service (NRCS), Texas Parks & Wildlife Department (TPWD), Central Texas Council of Governments (CTCOG) and Bandera County River Authority and Groundwater District (BCRAGD) working in coordination with the San Antonio River Authority (SARA).
+
+]This project was administered by the TNRIS Strategic Mapping Program (StratMap) and the data were procured through the Council on Competitive Government’s (CCG) High Priority Imagery and Datasets (HPIDS) contract. Funding was provided by the U.S. Department of Agriculture Natural Resources Conservation Service (NRCS), Texas Parks & Wildlife Department (TPWD), Central Texas Council of Governments (CTCOG) and Bandera County River Authority and Groundwater District (BCRAGD) working in coordination with the San Antonio River Authority (SARA).
 
 ##PRODUCTS
 - Classified all-return lidar DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format
@@ -22,7 +21,7 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 - File-level FGDC metadata in XML
 - 1ft contours for Fort Bend County AOI
 
-##PRODUCT SPECIFICATION
+## PRODUCT SPECIFICATION
 - Vertical accuracy (RMSEz) tested ~8.5 cm in Lampasas AOI, ~12 cm in Bandera AOI, and ~6 cm in Fort Bend for open areas. The tested accuracy in all areas meets or exceeds the project specification of 12 cm.
 - Average first-return point density is slightly over 4 points per square meter (ppsm) in All areas of interest, meeting the 4 ppsm state standard identified in the project specification.
 - Point data are classified according to the following American Society for Photogrammetry and Remote Sensing (ASPRS) class schema:
@@ -49,7 +48,11 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 - Structure for data listed above shall conform to 1/64th USGS 7.5-minute quadrangle
 - Quarter-quarter-quarter quadrangle (DOQQQQ, or DO4Q)
 
+## Data Access
+
 Please fill out an [order form](https://tnris.org/order-data/) to obtain this data. 
+
+{% include "./partials/order-button.html" %}
 
 Please check our [LiDAR status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage. 
 
