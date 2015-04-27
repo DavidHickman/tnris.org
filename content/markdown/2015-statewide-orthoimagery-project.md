@@ -5,21 +5,21 @@ mainimage: static/images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract: 
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
-status_image: status_image_20150420.jpg
-status_image_preview: status_image_20150420_sm.jpg
-status_image_buyup: 20150420_buyups.jpg
-status_image_buyup_preview: 20150420_buyups_sm.jpg
-latest_report: Weekly_Status_Report_041715.pdf
-status_date: April 17th, 2015
+status_image: 20150427_base.jpg
+status_image_preview: 20150427_base_sm.jpg
+status_image_buyup: 20150427_buyups.jpg
+status_image_buyup_preview: 20150427_buyups_sm.jpg
+latest_report: Weekly_Status_Report_042415.pdf
+status_date: April 24th, 2015
 updates:
-  - Weather conditions were unfavorable this week, as such very little imagery acquisition progress was made over the past week.
-  - Four airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
+  - Weather conditions were unfavorable this week, as such little imagery acquisition progress was made over the past week.
+  - Two airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
   - Due to weather conditions and airspace restrictions affecting the overall project, the acquisition season end date for the entire state, Seasons 1, 2, 3, and 4 was extended to April 30, 2015.
   - Quality Control data review has begun at TNRIS.
   - TNRIS has initiated a crowd-sourcing plan for image quality control review. 
-progress_1: 83
+progress_1: 88
 progress_2: 100
-progress_3: 60 
+progress_3: 75 
 progress_4: 25
 progress_5: 0
 ---
