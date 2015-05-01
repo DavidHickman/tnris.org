@@ -76,7 +76,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
 
         var file = $files[0];
 
-        if (file.type !== "application/zip") {
+        if (file.type.indexOf("zip") < 0) {
           setUploadError("Only zipped Shapefiles are accepted. Please check your file type.");
           return;
         }
@@ -107,7 +107,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
 
         var file = $files[0];
 
-        if (file.type.indexOf('image') !== 0) {
+        if (file.type.indexOf('image') < 0) {
           setUploadError("Only image files are accepted. Please check your file type.");
           return;
         }
