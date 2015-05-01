@@ -12,7 +12,7 @@ angular.module('ContactFormApp')
           });
       }
 
-      function uploadParams(file, form_id, s3policy) {
+      function uploadParams(file, form_id, fileType, s3policy) {
         var fileKey = form_id + '/' + Date.now() + '_' + file.name;
         return {
           url: 'https://' + CONTACT_UPLOAD_BUCKET + '.s3.amazonaws.com/',
@@ -23,7 +23,7 @@ angular.module('ContactFormApp')
             AWSAccessKeyId: s3policy.key,
             Policy: s3policy.policy,
             Signature: s3policy.signature,
-            'Content-Type': file.type,
+            'Content-Type': fileType,
             'Content-Length': file.size,
             'success_action_status': '201',
             'success_action_redirect': ''
@@ -37,14 +37,14 @@ angular.module('ContactFormApp')
       service.uploadZip = function uploadZip(file, form_id) {
         return getPolicy(ZIP_UPLOAD_POLICY_URL)
           .then(function (s3policy) {
-            return $upload.upload(uploadParams(file, form_id, s3policy));
+            return $upload.upload(uploadParams(file, form_id, "application/zip", s3policy));
           });
       };
 
       service.uploadImage = function uploadImage(file, form_id) {
         return getPolicy(IMAGE_UPLOAD_POLICY_URL)
           .then(function (s3policy) {
-            return $upload.upload(uploadParams(file, form_id, s3policy));
+            return $upload.upload(uploadParams(file, form_id, file.type, s3policy));
           });
       };
 

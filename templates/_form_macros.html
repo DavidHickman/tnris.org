@@ -189,7 +189,7 @@
 
 {%- macro uploadZip(name, display, required, show) -%}
   {% set type="file" %}
-  <div ng-hide="isUploadUnsupported">
+  <div class="ie-all-hide" ng-hide="isUploadUnsupported">
     {{_item_before(name, display, type, required, show)}}
     <div ng-hide="isUploading">
       <input type="file" ng-file-select ng-model="files"
@@ -214,7 +214,7 @@
 
 {%- macro uploadImage(name, display, required, show) -%}
   {% set type="file" %}
-  <div ng-hide="isUploadUnsupported">
+  <div class="ie-all-hide" ng-hide="isUploadUnsupported">
     {{_item_before(name, display, type, required, show)}}
     <div ng-hide="isUploading">
       <input type="file" ng-file-select ng-model="imageFiles"
