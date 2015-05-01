@@ -86,6 +86,9 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
           return;
         }
 
+        //standardize to application/zip since it is reported slightly differently based on browser
+        file.type = "application/zip";
+
         var formFieldName = angular.element($event.target).attr('name');
         $scope.isUploading = true;
 
