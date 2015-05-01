@@ -144,6 +144,12 @@
         )}}
 
         {% set has_site_file = "form_model['LiDAR Site File']" %}
+        <div ng-show="{{has_site_file|safe}}" class="ie-all-show">
+          <p class="text-info">
+            A TNRIS employee will contact you to get your site file.<br/>
+            In order to upload site files directly through this form, please update to a modern browser version. See <a href="http://browsehappy.com/" title="Browser upgrade information">http://browsehappy.com/</a> for assistance.
+          </p>
+        </div>
         {{form.uploadZip(
           "Site File Upload",
           {

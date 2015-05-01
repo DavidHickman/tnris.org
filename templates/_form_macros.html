@@ -189,31 +189,25 @@
 
 {%- macro uploadZip(name, display, required, show) -%}
   {% set type="file" %}
-  <div class="ie-all-show">
-    <p class="text-info">
-      A TNRIS employee will contact you to get your site file.<br/>
-      In order to upload site files directly through this form, please update to a modern browser version. See <a href="http://browsehappy.com/" title="Browser upgrade information">http://browsehappy.com/</a> for assistance.
-    </p>
-  </div>
   <div class="ie-all-hide" ng-hide="isUploadUnsupported">
     {{_item_before(name, display, type, required, show)}}
-    <div ng-hide="isUploading">
-      <input type="file" ng-file-select ng-model="files"
-        ng-multiple="false" name="{{name}}" accept=".zip"
-        ng-file-change="uploadZipFile($files, $event)"
-        {{requiredAttr(required, show)}}>
-    </div>
-
-    <div class="row" ng-show="isUploading || uploadSuccess">
-      <div class="col-md-12">
-        <div progress-bar value="uploadProgress" type="progressBarType"></div>
+      <div ng-hide="isUploading">
+        <input type="file" ng-file-select ng-model="files"
+          ng-multiple="false" name="{{name}}" accept=".zip"
+          ng-file-change="uploadZipFile($files, $event)"
+          {{requiredAttr(required, show)}}>
       </div>
-    </div>
-    <p class="text-success" ng-show="uploadSuccess">
-      File successfully uploaded.
-    </p>
-    <p class="text-danger" ng-show="uploadError" ng-bind="uploadErrorMessage">
-    </p>
+
+      <div class="row" ng-show="isUploading || uploadSuccess">
+        <div class="col-md-12">
+          <div progress-bar value="uploadProgress" type="progressBarType"></div>
+        </div>
+      </div>
+      <p class="text-success" ng-show="uploadSuccess">
+        File successfully uploaded.
+      </p>
+      <p class="text-danger" ng-show="uploadError" ng-bind="uploadErrorMessage">
+      </p>
     {{_item_after(name, display, type, required)}}
   </div>
 {%- endmacro -%}
