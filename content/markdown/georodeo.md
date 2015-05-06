@@ -46,6 +46,9 @@ James Seppi has been a software developer at TNRIS for 3 years. He holds a Maste
 
 The DriveTexas web application is an important tool for the Texas Department of Transportation (TxDOT) to communicate to the public the current status of roadway conditions. The app shows current information on both planned conditions, such as construction, as well as unplanned and unfolding situations such as weather events and serious accidents. Peter will discuss its development and applications.
 
+### About Peter:
+Peter is a Vice President and head of application development at Applied Geographics, Inc. (AppGeo) in Boston.  He has been programming in the geospatial industry for nearly 30 years, starting at the New York State Department of Transportation in the late 1980s and moving on to Esri in the 1990s before arriving at AppGeo in 2000.
+
 ## Andrew Thornton
 <h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/andrew_thornton.jpg')}}" alt="Headshot of Andrew Thornton">Web Maps with D3.js</h3>
 
