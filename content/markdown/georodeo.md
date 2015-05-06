@@ -27,17 +27,19 @@ Johannes is a Program Manager for Microsoft’s Bing Maps based out of Redmond, 
 ## Gretchen Peterson - Author
 <h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/gretchen_peterson.jpg')}}">Cartography in the Modern World</h3>
 
-A fun presentation on what’s new in cartography: general principles, workflow, and common patterns are all discussed along with a multitude of examples, some serious, some entertaining, and some seriously entertaining.</p>
+A fun presentation on what's new in cartography: general principles, workflow, and common patterns are all discussed along with a multitude of examples, some serious, some entertaining, and some seriously entertaining.</p>
 
 ### About Gretchen:
 Gretchen Peterson is the author of the cartography books Cartographer’s Toolkit and GIS Cartography. Peterson resides in Colorado and actively tweets via @petersongis on cartography.
 
 ## James Seppi – TNRIS
-<h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/james_seppi.jpg')}}">TurfJS - Geospatial Analysis in JavaScript</h3>
+<h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/james_seppi.jpg')}}">Turf - Geospatial Analysis in JavaScript</h3>
+
+[Turf](http://turfjs.org) is a relatively new open-source JavaScript library for spatial analysis that works both in the browser and on the back-end via NodeJS. This presentation will introduce Turf through examples, show some neat projects using Turf, and let you know how to contribute to its development.
 
 ### About James:
 
-James Seppi has been a software developer at TNRIS for 3 years. He holds a Master's degree in Water Resources Engineering from the University of Texas at Austin. James is also a co-organizer of the MaptimeATX meetup group.
+James Seppi has been a software developer at TNRIS for 3 years. He holds a Master's degree in Water Resources Engineering from the University of Texas at Austin. James is also a co-organizer of the [MaptimeATX](http://www.meetup.com/MaptimeATX/) meetup group.
 
 ##Peter Girard
 <h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/peter_girard.jpg')}}">Redesigning DriveTexas for Scalability</h3>
