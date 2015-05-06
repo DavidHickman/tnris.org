@@ -16,19 +16,13 @@ Sean is an engineer at Mapbox, working on core algorithmic and geospatial
 issues. He’s the creator of the successful Shapely and Fiona open-source GIS
 libraries, and one of the main authors of the GeoJSON specification.
 
-Sean has worked on image analysis, linked historical data, education, topology,
-and software development. He’s a graduate of the University of Utah and
-Colorado State University with degrees in Physics and Atmospheric Science.
-
 ## Johannes Kebeck – Microsoft 
 <h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/johanne_kabek.jpg')}}">Abstract:</h3>
-
-Geospatial technologies have become a part of our everyday life. We carry sensors and consume or create information that have been augmented with geospatial information. Maps can be our guide through physical and virtual worlds, they can keep us fit, track our activities or social life. They can be the canvas on which we paint a picture, tell stories or chart our data.
 
 After a quick lap around some of the location-enabled products and services at Microsoft we will dive into the developer aspects starting with cross-platform development of connected apps before looking at the new universal Bing Maps control for Windows 10 with its offline and 3D capabilities.
 
 ### About Johannes:
-Johannes is a Program Manager for Microsoft’s Bing Maps based out of Redmond, WA with many years of experience in various geospatial technologies. In 2004 he joined Microsoft in Germany, a year later he relocated to the UK and joined the Bing Maps team and in 2011 he moved to Redmond - initially as a Worldwide Technology Solution Professional and later as a Program Manager. Before specializing on Microsoft’s geospatial products and services, he had experience with various GIS, spatial databases, relational database management systems, workflow management, collaboration products and IT security.
+Johannes is a Program Manager for Microsoft’s Bing Maps based out of Redmond, WA with many years of experience in various geospatial technologies. In 2004 he joined Microsoft in Germany, a year later he relocated to the UK and joined the Bing Maps team and in 2011 he moved to Redmond - initially as a Worldwide Technology Solution Professional and later as a Program Manager.
 
 ## Gretchen Peterson - Author
 <h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/gretchen_peterson.jpg')}}">Cartography in the Modern World</h3>
