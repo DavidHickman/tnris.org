@@ -11,7 +11,7 @@ abstract: Annual Texas GeoDeveloper Round-Up, May 22nd, Austin, Texas
 
 Many of us are using Python to extend our GIS software or write entirely new applications. I'm going to provide an overview of modern best practices for writing, running, and distributing Python GIS software, talk about new features of Python 3, and demonstrate several new modules that will help you make the most out of Python.
 
-### About Sean:
+### About Sean
 Sean is an engineer at Mapbox, working on core algorithmic and geospatial
 issues. He’s the creator of the successful Shapely and Fiona open-source GIS
 libraries, and one of the main authors of the GeoJSON specification.
@@ -21,7 +21,7 @@ libraries, and one of the main authors of the GeoJSON specification.
 
 After a quick lap around some of the location-enabled products and services at Microsoft we will dive into the developer aspects starting with cross-platform development of connected apps before looking at the new universal Bing Maps control for Windows 10 with its offline and 3D capabilities.
 
-### About Johannes:
+### About Johannes
 Johannes is a Program Manager for Microsoft’s Bing Maps based out of Redmond, WA with many years of experience in various geospatial technologies. In 2004 he joined Microsoft in Germany, a year later he relocated to the UK and joined the Bing Maps team and in 2011 he moved to Redmond - initially as a Worldwide Technology Solution Professional and later as a Program Manager.
 
 ## Gretchen Peterson - Author
@@ -29,7 +29,7 @@ Johannes is a Program Manager for Microsoft’s Bing Maps based out of Redmond, 
 
 A fun presentation on what's new in cartography: general principles, workflow, and common patterns are all discussed along with a multitude of examples, some serious, some entertaining, and some seriously entertaining.</p>
 
-### About Gretchen:
+### About Gretchen
 Gretchen Peterson is the author of the cartography books Cartographer’s Toolkit and GIS Cartography. Peterson resides in Colorado and actively tweets via @petersongis on cartography.
 
 ## James Seppi – TNRIS
@@ -37,7 +37,7 @@ Gretchen Peterson is the author of the cartography books Cartographer’s Toolki
 
 [Turf](http://turfjs.org) is a relatively new open-source JavaScript library for spatial analysis that works both in the browser and on the back-end via NodeJS. This presentation will introduce Turf through examples, show some neat projects using Turf, and let you know how to contribute to its development.
 
-### About James:
+### About James
 
 James Seppi has been a software developer at TNRIS for 3 years. He holds a Master's degree in Water Resources Engineering from the University of Texas at Austin. James is also a co-organizer of the [MaptimeATX](http://www.meetup.com/MaptimeATX/) meetup group.
 
@@ -46,7 +46,7 @@ James Seppi has been a software developer at TNRIS for 3 years. He holds a Maste
 
 The DriveTexas web application is an important tool for the Texas Department of Transportation (TxDOT) to communicate to the public the current status of roadway conditions. The app shows current information on both planned conditions, such as construction, as well as unplanned and unfolding situations such as weather events and serious accidents. Peter will discuss its development and applications.
 
-### About Peter:
+### About Peter
 Peter is a Vice President and head of application development at Applied Geographics, Inc. (AppGeo) in Boston.  He has been programming in the geospatial industry for nearly 30 years, starting at the New York State Department of Transportation in the late 1980s and moving on to Esri in the 1990s before arriving at AppGeo in 2000.
 
 ## Andrew Thornton
