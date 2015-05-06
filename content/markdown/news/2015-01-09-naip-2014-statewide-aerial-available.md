@@ -10,7 +10,7 @@ abstract:
     The National Agriculture Imagery Program (NAIP) 2014 1-meter orthoimagery covering the entire state of Texas are now available from TNRIS.
 ---
 ** View this data set in our data catalog **
-{{m.catalog_data_card('aerial-orthoimagery-statewide/naip-2014-1m-nc-cir')}}
+{{m.catalog_data_card('aerial-orthoimagery-statewide/national-agriculture-imagery-program-naip-2014-1m-nc-cir')}}
 
 The National Agriculture Imagery Program (NAIP) 2014 1-meter orthoimagery covering the entire state of Texas are now available from TNRIS. 
 
