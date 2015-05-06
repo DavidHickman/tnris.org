@@ -44,10 +44,10 @@ James Seppi has been a software developer at TNRIS for 3 years. He holds a Maste
 
 The DriveTexas web application is an important tool for the Texas Department of Transportation (TxDOT) to communicate to the public the current status of roadway conditions. The app shows current information on both planned conditions, such as construction, as well as unplanned and unfolding situations such as weather events and serious accidents. Peter will discuss its development and applications.
 
-## Andrew Thornton – Exigo Energy Solutions
+## Andrew Thornton
 <h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/andrew_thornton.jpg')}}" alt="Headshot of Andrew Thornton">Web Maps with D3.js</h3>
 
-These days, the common thread among many amazing web maps is very likely a JavaScript library called [D3.js](http://d3js.org). D3 is quickly becoming the de facto choice when it comes to data visualization in the browser. It provides incredible flexibility by embracing web standards, resulting in few limitations other than a developer's imagination. In this talk, Andy will take the intimidation out of this little powerhouse of a library, and show you the essentials you need to begin making your own incredible maps with D3.
+These days, the common thread among many web maps is very likely a JavaScript library called [D3.js](http://d3js.org). D3 is quickly becoming the de facto choice when it comes to data visualization in the browser. It provides incredible flexibility by embracing web standards, resulting in few limitations other than a developer's imagination. In this talk, Andy will take the intimidation out of this little powerhouse of a library, and show you the essentials you need to begin making your own incredible maps with D3.
 
 ### About Andrew
 
