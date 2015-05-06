@@ -10,14 +10,14 @@ status_image_preview: 20150427_base_sm.jpg
 status_image_buyup: 20150427_buyups.jpg
 status_image_buyup_preview: 20150427_buyups_sm.jpg
 latest_report: Weekly_Status_Report_042415.pdf
-status_date: April 24th, 2015
+status_date: May 1st, 2015
 updates:
-  - Weather conditions were unfavorable this week, as such little imagery acquisition progress was made over the past week.
-  - Two airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
-  - Due to weather conditions and airspace restrictions affecting the overall project, the acquisition season end date for the entire state, Seasons 1, 2, 3, and 4 was extended to April 30, 2015.
-  - Quality Control data review has begun at TNRIS.
-  - TNRIS has initiated a crowd-sourcing plan for image quality control review. 
-progress_1: 88
+  - Weather conditions were more favorable this week, as such some imagery acquisition progress was made over the past week.
+  - Three airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
+  - Due to weather conditions and airspace restrictions affecting the overall project, the acquisition season end date for the entire state, Seasons 1, 2, 3, and 4 was extended to May 15, 2015.
+  - Quality Control (QC) data review has begun at TNRIS but is currently on hold awaiting more imagery to be processed by Surdex.
+  - TNRIS has initiated a crowd-sourcing method for image quality control review. 
+progress_1: 89
 progress_2: 100
 progress_3: 75 
 progress_4: 25
