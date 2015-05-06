@@ -47,7 +47,7 @@ The DriveTexas web application is an important tool for the Texas Department of 
 ## Andrew Thornton – Exigo Energy Solutions
 <h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/andrew_thornton.jpg')}}" alt="Headshot of Andrew Thornton">Web Maps with D3.js</h3>
 
-These days, the common thread among many these amazing web maps is very likely a JavaScript library called [D3.js](http://d3js.org). D3 is quickly becoming the de facto choice when it comes to data visualization in the browser. It provides incredible flexibility by embracing web standards, resulting in few limitations other than a developer's imagination. In this talk, Andy will take the intimidation out of this little powerhouse of a library, and show you the essentials you need to begin making your own incredible maps with D3.
+These days, the common thread among many amazing web maps is very likely a JavaScript library called [D3.js](http://d3js.org). D3 is quickly becoming the de facto choice when it comes to data visualization in the browser. It provides incredible flexibility by embracing web standards, resulting in few limitations other than a developer's imagination. In this talk, Andy will take the intimidation out of this little powerhouse of a library, and show you the essentials you need to begin making your own incredible maps with D3.
 
 ### About Andrew
 
