@@ -58,6 +58,16 @@ These days, the common thread among many web maps is very likely a JavaScript li
 
 [Andrew Thornton](https://twitter.com/encodingpixels) is a Senior Front-End Developer for Exigo Energy Solutions in Austin, TX. He loves all things data, with a special passion for data visualization and mapping. He is the co-author of a book titled [*Developing a D3.js Edge*](http://bleedingedgepress.com/our-books/developing-a-d3-js-edge/), and is the organizer of the [D3.js Austin Meetup](http://www.meetup.com/Austin-d3-js-Meetup/events/221862691/). You can check out some of his personal work [here](http://encodingpixels.com).
 
+
+## Nik Freeman
+
+<h3><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/nik_freeman.jpg')}}" alt="Headshot of Nik Freeman">How to help a map go viral</h3>
+
+New maps hit the web everyday, but they don't all make headlines. This presentation will discuss observations and conclusions drawn from watching maps circle the Internet. From planning to execution to promotion, I'll offer tips and practices to help your maps rise above the average, gain attention, and get their message in front of an audience.
+
+### About Nik
+Nik Freeman earns a living managing and analyzing geographic data in the energy industry. He holds degrees in geography and communications. As a freelance geographer, he maps whatever suits his fancy. His maps occasionally go viral throughout the Internet.
+
 ## Mappy Hour at Black Star Co-op
 Join [MaptimeATX](http://www.meetup.com/maptimeatx/) and [ATX-OSG](http://www.meetup.com/atx-osg/) after the GeoRodeo for a ['Mappy' Hour](http://www.meetup.com/MaptimeATX/events/221439962/) at [Black Star Co-op](https://goo.gl/maps/fyn2u).
 
