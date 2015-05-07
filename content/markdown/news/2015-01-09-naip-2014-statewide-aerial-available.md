@@ -9,29 +9,30 @@ mainimagealt: A photo mosaic of 2014 Imagery overlayed on topo map
 abstract:
     The National Agriculture Imagery Program (NAIP) 2014 1-meter orthoimagery covering the entire state of Texas are now available from TNRIS.
 ---
-** View this data set in our data catalog **
-{{m.catalog_data_card('aerial-orthoimagery-statewide/national-agriculture-imagery-program-naip-2014-1m-nc-cir')}}
-
 The National Agriculture Imagery Program (NAIP) 2014 1-meter orthoimagery covering the entire state of Texas are now available from TNRIS. 
 
-These image products were flown April – October 2014 during leaf-on conditions and include Compressed County Mosaics (CCMs) - **available by request** - and Digital Orthophoto Quarter Quads (DOQQs) – **available May 2015**. 
+These image products were flown April – October 2014 during leaf-on conditions and include Compressed County Mosaics (CCMs) and Digital Orthophoto Quarter Quads (DOQQs) – **available to download from TNRIS**.
 
 NAIP is a nationwide program administered by the USDA-Farm Service Agency-Aerial Photography Field Office.
 
 ## Data Access
+** View this data set in our data catalog **
+
+{{m.catalog_data_card('aerial-orthoimagery-statewide/national-agriculture-imagery-program-naip-2014-1m-nc-cir')}}
+
+The NAIP 2014 is available on our Data Search & Download. Search for your area to find the available orthoimagery.
+
 <div class="media">
   <div class="media-left">
-    {% include "./partials/order-button.html" %}
+    {% include "./partials/data-download-button.html" %}
   </div>
   <div class="media-body">
-    <p>Additionally, the orthoimagery files (CCM MrSIDs) are in the public domain and available for download from the TNRIS Research and Distribution Center.</p>
-    <p>DOQQ GeoTIFFs & JPEG2000s are coming soon!</p>
   </div>
 </div>
-****
-**The 2014 NAIP orthoimagery are available for streaming through the APFO ArcGIS Image Service.**
 
-### To access the service in ArcGIS, add an ArcGIS Server using the URL below:
+****
+
+The 2014 NAIP orthoimagery are available for streaming through the APFO ArcGIS Image Service. To access the service in ArcGIS, add an ArcGIS Server using the URL below:
 
 <div class="input-group copy-url-container">
       <span class="input-group-btn">
@@ -42,10 +43,11 @@ NAIP is a nationwide program administered by the USDA-Farm Service Agency-Aerial
   <input class="wms-url copy-url-input form-control" type="text" readonly value="http://gis.apfo.usda.gov/arcgis/services">
 </div>
 
+
 In ArcMap, natural color (NC) imagery is the default display when you add the service. To view **color infrared (CIR)** imagery, under Symbology, change the Channel/Band assignment to:
-Red > Band 4
-Green > Band 1
-Blue > Band 2
+- Red > Band 4
+- Green > Band 1
+- Blue > Band 2
 
 ## Acquisition Area
 **NOTE** Areas along the Texas/Mexico border that were not covered in 2012 NAIP imagery are now covered in the 2014 NAIP imagery.
@@ -61,7 +63,7 @@ Blue > Band 2
 ## Product Specification
 - 1-meter pixel resolution
 - 4-band, natural color and color infrared DOQQs (CCMs are 3-band natural color only)
-- UTM NAD83 coordinate system
+- UTM NAD83 coordinate system (NOTE: JPEG2000 DOQQs are in WGS 1984 Web Mercator Auxiliary Sphere)
 - Units in meters
 - Compiled to meet +/- 6 horizontal accuracy to true ground at 95% confidence
 
