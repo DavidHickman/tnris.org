@@ -174,3 +174,26 @@
   border: 5px solid $auburn;
   max-width: 160px;
 }
+
+.quick-agenda {
+  td {
+    vertical-align: top;
+
+    h4 {
+      margin: 0;
+    }
+
+    ul {
+      padding: 0;
+
+      li {
+        margin: 0;
+        list-style: none;
+      }
+    }
+  }
+
+  tr:nth-child(even) td {
+    background: $lightgrey;
+  }
+}
