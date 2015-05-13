@@ -36,17 +36,16 @@
 {% endblock topcontent %} {% block contents %}
 
 <div class="row">
-    <div class="col-md-8">
-        {{ contents|safe }} 
-        {% block extracontent %} {% endblock extracontent %}
-    </div>
-
-    <div class="col-md-4">
+    <div class="col-md-4 col-md-push-8">
         {% block sidebarLeft %}
             <div class="georodeo-side">
                 {% include "./partials/georodeo/georodeo-side.html" %}
             </div>
         {% endblock sidebarLeft %}
+    </div>
+    <div class="col-md-8 col-md-pull-4">
+        {{ contents|safe }} 
+        {% block extracontent %} {% endblock extracontent %}
     </div>
 </div>
 {% endblock contents %} 
