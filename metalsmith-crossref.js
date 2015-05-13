@@ -26,7 +26,6 @@ function crossref(options) {
       });
     }
 
-
     Object.keys(files).forEach(function(filename){
       var file = files[filename];
 
@@ -40,7 +39,7 @@ function crossref(options) {
       //This has the effect of only creating the crossref for
       // first file in paginated collection (it returns early otherwise)
       if (file.pagination && file.pagination.prev) { 
-        return;
+        key = file.path;
       }
 
       var urlKey = urlPath(key);

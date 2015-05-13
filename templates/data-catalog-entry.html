@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% import '_macros.html' as m %}
 
+
 {% block contents %}
   {%- set images = [
     {
@@ -33,7 +34,7 @@
       'button': {
         'class': 'btn-tnris',
         'icon': 'glyphicon glyphicon-camera',
-        'label': 'natural features'
+        'label': 'natural <span class="hidden-xs">features</span>'
       },
       'url': natural_image_url
     }, {
@@ -41,9 +42,18 @@
       'button': {
         'class': 'btn-danger',
         'icon': 'fa fa-crosshairs',
-        'label': 'coverage map'
+        'label': 'coverage <span class="hidden-xs">map</span>'
       },
       'url': status_map_url
+    }, {
+      'alt': 'Coverage map for ' + name + ' data',
+      'button': {
+        'class': 'btn-danger',
+        'icon': 'fa fa-crosshairs',
+        'label': 'coverage <span class="hidden-xs">map</span>'
+      },
+      'url': status_map_cartodb_id,
+      'is_cartodb': true
     }
   ] -%}
 
@@ -60,34 +70,44 @@
   <div id="catalogEntryContent" class="row">
     <h1>{{ name }}</h1>
     <div id="catalog-main-image">
+          <div class="btn-container">
+              <div class="btn-group center-block" data-toggle="buttons">
+
+          {% set i = 0 %}
+          {% for image in images %}
+            {% if image.url %}
+              <label class="btn btn-primary {{image.button.class}}{% if i==0 %} active{% endif %}" data-target="#carousel-data-catalog" data-slide-to="{{i}}">
+                <input type="radio" name="options" id="option{{i}}" autocomplete="off" {% if i==0 %}checked{% endif %}>
+                <span class="{{image.button.icon}}"></span> {{image.button.label|safe}}
+              </label>
+              {% set i += 1 %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        </div>
       <div id="carousel-data-catalog" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner" role="listbox">
           {% set active_set = false %}
           {% for image in images %}
             {% if image.url %}
               <div class="item{% if !active_set %} active{% endif %}">
-                <img class="img-responsive image-one" src="{{image.url}}" alt="{{image.alt}}">
+                {% if image.is_cartodb %}
+                  <iframe class="img-responsive image-one" width='100%' frameborder='0' src='//tnris.cartodb.com/viz/{{image.url}}/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                 {%- else  -%}
+                  <img class="img-responsive image-one" src="{{m.link('static/' + image.url)}}" alt="{{image.alt}}">
+                {% endif %}
               </div>
+
               {% set active_set = true %}
             {% endif %}
           {% endfor %}
         </div>
 
-        <div class="btn-group" data-toggle="buttons">
-          {% set i = 0 %}
-          {% for image in images %}
-            {% if image.url %}
-              <label class="btn btn-primary {{image.button.class}}{% if i==0 %} active{% endif %}" data-target="#carousel-data-catalog" data-slide-to="{{i}}">
-                <input type="radio" name="options" id="option{{i}}" autocomplete="off" {% if i==0 %}checked{% endif %}>
-                <span class="{{image.button.icon}}"></span> {{image.button.label}}
-              </label>
-              {% set i += 1 %}
-            {% endif %}
-          {% endfor %}
-        </div>
+
       </div>
 
-      <div class="data-callout">
+
+    <div class="data-callout">
         <div class="row">
           <table>
             <thead>
@@ -232,7 +252,21 @@
 
   <script type="text/javascript">
     $(function() {
-      $('.carousel').carousel();
+      var callout = $('.data-callout').collapse();
+
+      $('.carousel')
+        .carousel();
+
+      $('.carousel')
+        .on('slide.bs.carousel', function (event) {
+          var iframe = $(event.relatedTarget).find('iframe');
+
+          if (iframe.length) {
+            callout.hide();
+          } else {
+            callout.show();
+          }
+        });
     });
   </script>
 {% endblock scripts %}

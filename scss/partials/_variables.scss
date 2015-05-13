@@ -34,7 +34,9 @@ $error: #a94442;
 $infoblue: #5bc0de;
 $bluegreen: #35adac;
 
+$yellowgreen: #a3c541;
 $canary: #fff4c3;
+$lightcanary: #fff9e0;
 $yield: #edca26;
 $orange: #ed8426;
 
@@ -42,6 +44,7 @@ $orange: #ed8426;
 $opensans: 'Open Sans', sans-serif;
 $pragmatica: 'pragmatica-web-condensed', sans-serif;
 $proxima: 'proxima-nova', sans-serif;
+$adelle: 'adelle' ,serif;
 
 // Media Queries //
 $break-med: 604px;
@@ -53,8 +56,9 @@ $break-lg: 1200px;
 $break-md: 992px;
 $break-xs: 768px;
 
-
+// reusable heights //
 $footer-height: 275px;
+$dataspot-height: 325px;
 
 // transparent backgrounds //
 @mixin alpha-attribute($attribute, $color, $background) {
@@ -89,27 +93,10 @@ $timelineheightsm: 160px;
 .col-xs-5ths {
   float: left;
   width: 20%;
-
-  @media (min-width: $screen-md) {
-    width: 100%;
-  }
 }
 
-@media (min-width: 768px) {
-  .col-sm-5ths {
-    float: left;
-    width: 20%;
-  }
-}
 @media (min-width: 992px) {
-  .col-md-5ths {
-    float: left;
-    width: 20%;
-  }
-}
-@media (min-width: 1200px) {
-  .col-lg-5ths {
-    float: left;
-    width: 20%;
+  .col-md-12 {
+    width: 100%;
   }
 }

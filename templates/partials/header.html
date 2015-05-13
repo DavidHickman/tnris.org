@@ -11,26 +11,4 @@
   <meta name="author" content="{{author}}">
 {% endif %}
 
-<link rel="shortcut icon" href="favicon.ico">
-
-{% if base %}
-  <base href="{{base}}"/>
-{% endif %}
-
-<!--[if lte IE 9]>
-  <script type="text/javascript">
-    var base = document.getElementsByTagName('base')[0];
-
-    if (base) {
-      var newBase = document.createElement('base');
-      newBase.setAttribute('href', base.href);
-
-      var parent = base.parentNode;
-      parent.removeChild(base);
-      parent.appendChild(newBase);
-    }
-  </script>
-<![endif]-->
-
-
-<title>{% if title %}{{title}} | {% endif %}TNRIS - Texas Natural Resources Information System</title>
+<link rel="shortcut icon" href="{{m.based('favicon.ico')}}">

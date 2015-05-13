@@ -53,9 +53,15 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
           })
           .pairs()
           .map(function(pair) {
+            var resources = _.sortBy(pair[1], 'name');
+
+            if(type === 'qquad') {
+              resources = resources.reverse()
+            }
+
             return {
               name: pair[0],
-              resources: _.sortBy(pair[1], 'name')
+              resources: resources
             };
           })
           .sortBy('name')

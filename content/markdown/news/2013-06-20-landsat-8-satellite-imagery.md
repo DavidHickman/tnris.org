@@ -2,8 +2,8 @@
 template: news.html
 title: Landsat 8 Satellite Imagery Now Available
 author: StratMap
-thumbnail: images/updates/2013/landsat-8/landsat8thumb.jpg
-mainimage: images/updates/2013/landsat-8/Panhandle_b753_p30r36_20130601.jpg
+thumbnail: static/images/updates/2013/landsat-8/landsat8thumb.jpg
+mainimage: static/images/updates/2013/landsat-8/Panhandle_b753_p30r36_20130601.jpg
 imagealt: A sample of 2013 coastal orthoimagery
 abstract: 
     High resolution 6-inch, 9-inch, and 12-inch aerial imagery are now available from TNRIS for the South Texas region, including the Lower Rio Grande Valley.
@@ -22,11 +22,11 @@ Landsat 8 is a joint venture between NASA and the U.S. Geological Survey (USGS).
 
 Also on Landsat 8, the new [Thermal Infrared Sensor (TIRS)](http://www.nasa.gov/mission_pages/landsat/spacecraft/index.html) detects land surface temperature in two new narrow thermal bands. Additionally, refinements were made to the remaining Landsat heritage bands and a new Quality Assessment band is included in the available data files. Landsat 8 captures image data with a “pushbroom” design along a 185-km wide swath. The new satellite has a 38% increase in the number of scenes captured per day compared to Landsat 7.
 
-![Band comparisons](images/updates/2013/landsat-8/Bands-compare-new.jpg)
+![Band comparisons](static/images/updates/2013/landsat-8/Bands-compare-new.jpg)
 Compare common <a href="http://landsat.usgs.gov/L8_band_combos.php">band combinations</a> between Landsat 8 and Landsat 5/7.
 
 Scene footprints that cover Texas are shown in the map. Every scene, or path/row designation, is imaged **every 16 days** by Landsat 8. Image products are available **within 12 hours** of data reception.
-![Scene Footprints of Texas](images/updates/2013/landsat-8/TX_WRS2_graphic_v2.jpg) 
+![Scene Footprints of Texas](static/images/updates/2013/landsat-8/TX_WRS2_graphic_v2.jpg) 
 
 **Download** the Texas Landsat path/row shapefile: [Landsat_WRS2_TX.zip)](static/documents/misc/landsat-8/Landsat_WRS2_TX.zip).
 
@@ -37,7 +37,7 @@ Further information about the [Worldwide Reference System-2](http://landsat.gsfc
 ### West Texas basalt (volcanic) rock formation in Brewster County
 
 Landsat 8 path 31 row 39 | 4/21/2013 | False color bands 752 | 30m pixel resolution
-![West Texas Basalt Formation in Brewster County](images/updates/2013/landsat-8/WTX_b752_p31r39_20130421.jpg)
+![West Texas Basalt Formation in Brewster County](static/images/updates/2013/landsat-8/WTX_b752_p31r39_20130421.jpg)
 
 ### The City of Houston, Trinity River, and Trinity Bay
 Landsat 8 path 25 row 39 | 5/13/2013 | Natural color bands 432 (left) and color infrared bands 543 (right) | 30m pixel resolution
@@ -46,19 +46,19 @@ Landsat 8 path 25 row 39 | 5/13/2013 | Natural color bands 432 (left) and color 
 
 <figure>
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="images/updates/2013/landsat-8/Houston_b432_p25r39_20130513.jpg" alt="Natural Color band of The City of Houston, Trinity River, and Trinity Bay">
-  <img class="img-responsive" src="images/updates/2013/landsat-8/Houston_b543_p25r39_20130513.jpg" alt="Infra Red band of The City of Houston, Trinity River, and Trinity Bay">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2013/landsat-8/Houston_b432_p25r39_20130513.jpg')}}" alt="Natural Color band of The City of Houston, Trinity River, and Trinity Bay">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2013/landsat-8/Houston_b543_p25r39_20130513.jpg')}}" alt="Infra Red band of The City of Houston, Trinity River, and Trinity Bay">
 </div>
 </figure>
 
 ### East Beltway 8 at US 90 in Houston
 Landsat 8 path 25 row 39 | 5/13/2013 | False color bands 753 | 30m pixel resolution (left), pansharpened 15m pixel resolution (right)
-![East Beltway 8 at US 90 in Houston, Full Description below](images/updates/2013/landsat-8/HoustonHwy_b753_p25r39_20130513_15m.jpg)
+![East Beltway 8 at US 90 in Houston, Full Description below](static/images/updates/2013/landsat-8/HoustonHwy_b753_p25r39_20130513_15m.jpg)
 
 
 ### Prairie Dog Town Fork of the Red River in Palo Duro Canyon
 Landsat 8 path 30 row 36 | 6/1/2013 | False color bands 753 | 30m pixel resolution
-![Prairie Dog Town Fork of the Red River in Palo Duro Canyon](images/updates/2013/landsat-8/Panhandle_b753_p30r36_20130601.jpg)
+![Prairie Dog Town Fork of the Red River in Palo Duro Canyon](static/images/updates/2013/landsat-8/Panhandle_b753_p30r36_20130601.jpg)
 
 ### Brownsville and Matamoros
 The City of Brownsville near the Texas coastline and the City of Matamoros in Mexico, north and south of the Rio Grande respectively
@@ -69,8 +69,8 @@ Landsat 8 path 26 row 42 | 5/4/2013 | Natural color bands 432 (left) and color i
 
 <figure>
 <div id="imageCompare2" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="images/updates/2013/landsat-8/Brownsville_b432_p26r42_20130504.jpg" alt="Natural Color band of Brownsville and Matamoros near Texas coastline">
-  <img class="img-responsive" src="images/updates/2013/landsat-8/Brownsville_b543_p26r42_20130504.jpg" alt="Infra Red band of Brownsville and Matamoros near Texas coastline">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2013/landsat-8/Brownsville_b432_p26r42_20130504.jpg')}}" alt="Natural Color band of Brownsville and Matamoros near Texas coastline">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2013/landsat-8/Brownsville_b543_p26r42_20130504.jpg')}}" alt="Infra Red band of Brownsville and Matamoros near Texas coastline">
 </div>
 </figure>
 

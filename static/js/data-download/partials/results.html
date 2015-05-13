@@ -1,0 +1,80 @@
+<div ng-if="map">
+  <div class="row">
+    <div class="col-xs-12 search">
+      <div id="mapColumn">
+        <div id="mapFrame">
+          <div ng-switch="category">
+            <div ng-switch-when="Quad">
+              <h3>2004 NAIP Imagery for <strong>{{ name | titleize }} Quad</strong></h3>
+              <p>Click on adjacent quads to pan.</p>
+            </div>
+            <div ng-switch-when="County">
+              <h3><strong>{{ name | titleize }} County</strong> Map View</h3>
+              <p>Click on a quad to zoom in.</p>
+            </div>
+          </div>
+          <div include-map="map.imageMap"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div ng-repeat="areaDataset in areaDatasets">
+    <div class="col-xs-12">
+      <div ng-switch="areaDataset.area">
+        <h2 ng-switch-when="statewide">Texas Statewide Datasets</h2>
+        <h2 ng-switch-when="doqq">Digital Orthophoto Quarter Quad (DOQQ) Datasets</h2>
+        <h2 ng-switch-default>{{ name | titleize }} {{ areaDataset.area | titleize }} Datasets</h2>
+      </div>
+
+      <div ng-switch="areaDataset.area">
+        <p ng-switch-when="doqq" class="previewInfo">
+          Orthophotos following the standard USGS Quarter Quad Grid.
+        </p>
+        <p ng-switch-default class="previewInfo">
+          Click on a link to download a compressed file containing the data to your local drive.
+        </p>
+      </div>
+    </div>
+    <div ng-switch="areaDataset.area">
+      <div ng-switch-when="statewide">
+        <div ng-repeat="groupGroup in areaDataset.groups">
+          <div class="col-md-4">
+            <div ng-repeat="group in groupGroup">
+              <div resource-group group="group" area-dataset="areaDataset"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ng-switch-when="doqq">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="col-xs-12 col-md-6">
+              <div resource-group group="areaDataset.groups[0]" area-dataset="areaDataset"></div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div resource-group group="areaDataset.groups[1]" area-dataset="areaDataset"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="col-xs-12 col-md-6">
+              <div resource-group group="areaDataset.groups[2]" area-dataset="areaDataset"></div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div resource-group group="areaDataset.groups[3]" area-dataset="areaDataset"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ng-switch-default>
+        <div ng-repeat="group in areaDataset.groups" ng-if="group" class="col-md-4">
+          <div resource-group group="group" area-dataset="areaDataset"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

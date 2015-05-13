@@ -403,6 +403,28 @@
     font-size: 22px;
     margin-top: 5px;
   }
+
+  .media:last-child {
+    @media (max-width: $screen-lg) {
+      display: none;
+    }
+  }
+  .media:nth-child(3) {
+    @media (max-width: $screen-md) {
+      border-bottom: 0;
+    }
+  }
+
+
+  .media:nth-child(4) {
+    @media (min-width: $screen-md) and (max-width: $screen-lg) {
+      border-bottom: 0;
+    }
+
+    @media (max-width: $screen-md) {
+      display: none;
+    }
+  }
 }
 
 /* training and around the state */
@@ -432,16 +454,6 @@
     @media (min-width: $screen-md) {
       border-left: none;
       padding: 0;
-
-      li:last-child {
-        display: none;
-      }
-    }
-
-    @media (min-width: $screen-lg) {
-      li:nth-child(4) {
-        display: none;
-      }
     }
 
     h3 {
@@ -455,8 +467,8 @@
     }
 
     h4 {
-      font-size: 18px;
-      margin-bottom: 20px;
+      font-size: 17px;
+      margin-bottom: 5px;
       margin-top: 0;
     }
 
@@ -465,14 +477,29 @@
     }
 
     time {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 300;
       margin-bottom: 0px;
+    }
+
+    i {
+      float: left;
+      height: 30px;
+      margin-right: 5px;
+      padding-top: 5px;
+    }
+
+    li:last-child {
+      margin-bottom: 18px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
     }
   }
 
   .around-state-front {
-    background: url(../images/around-the-state/light_auburn_bg.png) right top no-repeat;
 
     @media (min-width: $screen-md) {
       border-right: none;
@@ -486,18 +513,41 @@
     }
 
     h4 {
-      padding-right: 120px;
+      @media (min-width: $screen-md) {
+        padding-right: 120px;
+      }
     }
 
     img {
-      float: right;
-      margin-left: 10px;
-      padding-right: 5px;
-      width: 125px;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+
+      @media (min-width: $screen-md) {
+        float: right;
+        margin-left: 10px;
+        padding-right: 5px;
+        width: 125px;
+      }
 
       @media (min-width: $screen-lg) {
         width: 150px;
       }
+    }
+  }
+}
+
+#front-right {
+  @media (min-width: $screen-md) {
+    padding-right: 0;
+  }
+
+  img.ad {
+    margin-bottom: 25px;
+
+    @media (max-width: $screen-md) {
+      margin: 0 auto;
+      margin-bottom: 25px;
     }
   }
 }

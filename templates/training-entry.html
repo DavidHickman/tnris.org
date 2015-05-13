@@ -14,7 +14,7 @@
   		<h1 class="training-title">{{class_title}}</h1>
       <div class="training-date">
         <strong>
-          <span class="glyphicon glyphicon-calendar"></span> {{date}}
+          <span class="glyphicon glyphicon-calendar"></span> {{date_full}}
         </strong>, 
         <span class="glyphicon glyphicon-time"></span> {{time}}
       </div>
@@ -29,7 +29,7 @@
       </div>
       <div class="lead">
         {% if course_image %}
-          <img class="course-image pull-right" src="images/training/course-images/{{course_image}}" alt="courseimagealt">
+          <img class="course-image pull-right" src="{{m.link('static/images/training/course-images/' + course_image)}}" alt="courseimagealt">
         {% endif %}
         {{contents|safe}}
       </div>

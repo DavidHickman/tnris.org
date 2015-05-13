@@ -6,14 +6,14 @@
     <div class="col-sm-12 col-md-8 blog-main">
       <h1 class="headline">{{ title }}</h1>
       <div class="byline">
-        <strong>by <author>{{ author }}<author></strong> {% if division %}<em>{{ division }}</em>{% endif %} | <time>{{ date|date('F jS, Y') }}</time>
+        <strong>by <author>{{ author }}<author></strong> {% if division %}<em>{{division}}</em>{% endif %} | <time>{{date|date('F jS, Y')}}</time>
       </div>
 
       {% if mainimage %}
-        <img class="media-object img-responsive center-block" src="{{ mainimage }}" alt="{{ imagealt }}">
+        <img class="media-object img-responsive center-block" src="{{m.link(mainimage)}}" alt="{{imagealt}}">
       {% endif %}
 
-      {{ contents|safe }}
+      {{contents|safe}}
     </div>
 
     {% block rightContent %}
@@ -26,14 +26,14 @@
             {% set count += 1 %}
           <li class="media">
             <div class="media-left">
-              <a href="{{m.link(news_item.preserved)}}"><img  src="{{news_item.thumbnail}}" alt="Thumbnail image for {{news_item.title}}"></a>
+              <a href="{{m.link(news_item.preserved)}}"><img  src="{{m.link(news_item.thumbnail)}}" alt="Thumbnail image for {{news_item.title}}"></a>
             </div>
             <div class="media-body">
-              <time>{{ news_item.date|date('F jS, Y') }}</time>
+              <time>{{news_item.date|date('F jS, Y')}}</time>
               <h3 class="media-heading">
-              <a href="{{m.link(news_item.preserved)}}">{{ news_item.title }}</a></h3>
+              <a href="{{m.link(news_item.preserved)}}">{{news_item.title}}</a></h3>
               <p class="hidden-md hidden-lg">
-                {{ news_item.description }}
+                {{news_item.description}}
               </p>
             </div>
           </li>

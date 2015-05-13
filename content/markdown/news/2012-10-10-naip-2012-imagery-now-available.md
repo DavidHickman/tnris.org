@@ -2,7 +2,7 @@
 template: news.html
 title: NAIP 2012 Aerial Imagery Now Available
 author: StratMap
-thumbnail: images/updates/2012/naip-2012/NAIP2012_Hidalgo_County_thumb.jpg
+thumbnail: static/images/updates/2012/naip-2012/NAIP2012_Hidalgo_County_thumb.jpg
 abstract: 
     The National Agriculture Imagery Program (NAIP) aerial image data for 2012 are now available.
 tags: orthoimagery, data release, hpids, naip

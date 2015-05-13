@@ -2,13 +2,16 @@
 template: news.html
 title: New South Texas Aerial Imagery Now Available
 author: StratMap
-thumbnail: images/updates/2014/new-south-texas-aerial/new-south-texas-thumb.jpg
-mainimage: images/updates/2014/new-south-texas-aerial/Coastal_6in_1to3000_2697_62_2_d_2_20130214.jpg
+thumbnail: static/images/updates/2014/new-south-texas-aerial/new-south-texas-thumb.jpg
+mainimage: static/images/updates/2014/new-south-texas-aerial/Coastal_6in_1to3000_2697_62_2_d_2_20130214.jpg
 imagealt: A sample of 2013 coastal orthoimagery
 abstract: 
     High resolution 6-inch, 9-inch, and 12-inch aerial imagery are now available from TNRIS for the South Texas region, including the Lower Rio Grande Valley.
 tags: orthoimagery, data release, hpids
 ---
+
+** View the data using the link below **
+{{m.catalog_data_card('aerial-orthoimagery-hpids/hpids-south-texas-2013-6in-9in-12in-nc')}}
 
 High resolution 6-inch, 9-inch, and 12-inch aerial imagery are now available from TNRIS for the South Texas region, including the Lower Rio Grande Valley. Eleven local entities and one federal agency contributed funds to collect the new imagery.
 
@@ -42,16 +45,16 @@ The orthoimagery are used for city planning, road construction projects, utiliti
 The orthoimagery were acquired between December 2012 and February 2013 during leaf-off conditions. Leaf-off imagery allows the user to see more on-the-ground features underneath deciduous tree cover. Also, it is much easier to distinguish deciduous vs. evergreen vegetation with imagery acquired during the leaf-off period.
 
 ## Acquisition Areas
-<a href="images/updates/2014/new-south-texas-aerial/2013_STX_Ortho_Acquisition_20130124_large.jpg" target="_blank">
-  <img src="images/updates/2014/new-south-texas-aerial/2013_STX_Ortho_Acquisition_20130124_250dpi.jpg" alt="Map of Acquisition Areas of South Texas OrthoImagery">
+<a href="{{m.link('static/images/updates/2014/new-south-texas-aerial/2013_STX_Ortho_Acquisition_20130124_large.jpg')}}" target="_blank">
+  <img src="{{m.link('static/images/updates/2014/new-south-texas-aerial/2013_STX_Ortho_Acquisition_20130124_250dpi.jpg')}}" alt="Map of Acquisition Areas of South Texas OrthoImagery">
 </a>
 
 ## Imagery Preview
-![Sample of Orthoimagery, Texas Coast](images/updates/2014/new-south-texas-aerial/UrbanCoastal_6in_1to3000_2597_05_2_d_2_20130214.jpg)
+![Sample of Orthoimagery, Texas Coast](static/images/updates/2014/new-south-texas-aerial/UrbanCoastal_6in_1to3000_2597_05_2_d_2_20130214.jpg)
 
-![Sample of Orthoimagery, Texas Coast](images/updates/2014/new-south-texas-aerial/Urban_6in_1to800_2698_54_2_d_4_20130119.jpg)
+![Sample of Orthoimagery, Texas Coast](static/images/updates/2014/new-south-texas-aerial/Urban_6in_1to800_2698_54_2_d_4_20130119.jpg)
 
-![Sample of Orthoimagery, Wind Turbines, Texas Coast](images/updates/2014/new-south-texas-aerial/Wind_Turbines_1ft_Ortho.jpg)
+![Sample of Orthoimagery, Wind Turbines, Texas Coast](static/images/updates/2014/new-south-texas-aerial/Wind_Turbines_1ft_Ortho.jpg)
 
 ## Products
 
@@ -68,4 +71,4 @@ The orthoimagery were acquired between December 2012 and February 2013 during le
 - StatePlane TX South 4205 NAD83 coordinate system
 - Units in feet
 - DO4Q (approx. 1 sq. mi.) image tiles, 1/64th USGS 7.5-minute quadrangle
-![A diagram of the DOQQ grid system](images/data/quad.png)
+![A diagram of the DOQQ grid system](static/images/data/quad.png)

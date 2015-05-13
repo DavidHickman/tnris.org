@@ -21,7 +21,7 @@
       </div>
 
       {% if mainimage %}
-        <img class="media-object img-responsive center-block" src="{{ mainimage }}" alt="{{ imagealt }}">
+        <img class="media-object img-responsive center-block" src="{{ m.link(mainimage) }}" alt="{{ imagealt }}">
       {% endif %}
 
       {{ contents|safe }}
@@ -29,20 +29,7 @@
 
     {% block rightContent %}
       <div class="col-sm-12 col-md-4 blog-sidebar">
-          <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Next GIS Community Meeting</h3>
-          </div>
-          <div class="panel-body">
-            <h3>January 20th, 2015 - 2PM to 4PM</h3>
-            <h4>Location:</h4>
-            <address>
-              Stephen F. Austin Building, Room 170<br>
-              1700 N. Congress, 78701<br>
-            <a href="https://goo.gl/maps/PlLqD"><a href="https://goo.gl/maps/RE5BC"><i class="glyphicon glyphicon-new-window"></i> View Map</a>
-            </address>
-          </div>
-        </div>
+          {% include "./partials/gio-meeting.html" %}
 
         <h3>More GIO News</h3>
         <ul class="news-list list-clean">
@@ -52,7 +39,7 @@
             {% set count += 1 %}
           <li class="media">
             <div class="media-left">
-              <a href="{{m.link(gio_item.preserved)}}"><img  src="{{gio_item.thumbnail}}" alt="Thumbnail image for {{gio_item.title}}"></a>
+              <a href="{{m.link(gio_item.preserved)}}"><img src="{{m.link(gio_item.thumbnail)}}" alt="Thumbnail image for {{gio_item.title}}"></a>
             </div>
             <div class="media-body">
               <time>{{ gio_item.date|date('F jS, Y') }}</time>

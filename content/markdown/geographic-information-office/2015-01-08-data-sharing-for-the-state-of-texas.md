@@ -2,8 +2,8 @@
 template: gio-news.html
 title: "To Share or Not to Share...THAT is the question"
 author: Felicia Retiz, Deputy GIO
-thumbnail: images/gio-stories/datashake.jpg
-mainimage: images/gio-stories/datashake-long.jpg
+thumbnail: static/images/gio-stories/datashake.jpg
+mainimage: static/images/gio-stories/datashake-long.jpg
 mainimagealt: A milkshake with lidar imagery inside and straws to represent data sharing
 abstract:
     History has shown us that data sharing has been an issue among the GIS community in one form or another since the origins of the field. 

@@ -36,7 +36,7 @@
       var $node = node;
       var $btn = $('.copy-url-btn', $node);
       var origInner = $btn.html();
-      var $input = $('.copy-url-input', $node); 
+      var $input = $('.copy-url-input', $node);
       var val = $input.val();
 
       $input.focus(function () {
@@ -49,7 +49,7 @@
       }
       //else
       $btn.zclip({
-        path: 'bower_components/jquery-zclip/ZeroClipboard.swf',
+        path: '/bower_components/jquery-zclip/ZeroClipboard.swf',
         copy: val,
         afterCopy: function () {
           $btn.html('Copied!');
@@ -58,7 +58,7 @@
           }, 4000);
         }
       });
-      
+
     });
 
     $('.nav-cat').affix({
@@ -77,7 +77,6 @@
     $("a[href^='\#']").each(function(){
       this.href=location.href.split("#")[0]+'#'+this.href.substr(this.href.indexOf('#')+1);
     });
-
   });
 
   $(window).load(function() {
@@ -97,6 +96,8 @@
       }
     }
   });
+
+  $('.carousel-inner div:first').addClass('active');
 
 })(jQuery);
 

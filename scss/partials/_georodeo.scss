@@ -1,0 +1,176 @@
+@import "variables";
+
+#georodeo {
+  #contentMain {
+    h2 {
+      font-family: $adelle;
+    }
+  }
+}
+
+  
+.georodeo-masthead {
+
+  &.container-fluid.full {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: $adelle;
+  }
+
+    img.main {
+      height: 300px;
+      margin-left: -25%;
+      width: auto;
+
+      @media (min-width: $screen-sm) {
+      }
+
+      @media (min-width: $screen-md) {
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+}
+
+.georodeo-front {
+  position: relative;
+
+  @media (max-width: $screen-sm) {
+    min-height: 250px;
+  }
+  
+  @media (min-width: $screen-sm) {
+    min-height: 315px;
+  }
+
+  @media (min-width: $screen-lg) {
+    min-height: 360px;
+  }
+
+  img {
+    position: absolute;
+  }
+
+  a.btn {
+      bottom: 15px;
+      left: 30px;
+      position: absolute;
+
+      @media (min-width: $screen-sm) {
+        margin-right: 5%;
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+  }
+}
+
+.small-banner {
+  @media (min-width: $screen-sm) {
+    display: none;
+  }
+}
+
+
+.georodeo-intro {
+  padding-top: 40px;
+  background: $canary;
+  padding-bottom: 40px;
+
+  a.orange {
+  color: $orange;
+
+  &:hover {
+    color: $yield;
+    }
+  }
+
+  img.img-circle {
+    border: 5px solid $auburn;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+
+  .lead {
+  }
+
+  h2 {
+    font-family: $adelle;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  
+  h3 {
+    font-size: 34px;
+    margin-top: 0;
+
+    small {
+      color: $auburn;
+      font-size: 28px;
+    }
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+}
+
+.georodeo-side {
+  img {
+    border: 5px solid $auburn;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+}
+
+.georodeo-agenda {
+  border-collapse: collapse;
+
+  tr {
+    td {
+      font-size: 20px;
+      padding: 10px 5px;
+      vertical-align: top;
+    }
+
+    td:first-child {
+      font-family: $adelle;
+      font-size: 24px;
+      width: 25%;
+    }
+
+    &:nth-child(even) {
+      td {
+        background: $lightcanary;
+      }
+    }
+  }
+
+}
+
+.georodeo-bottom {
+  background: $canary;
+  padding: 20px 0;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.sponsor-side {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.presenter {
+  border: 5px solid $auburn;
+  max-width: 160px;
+}

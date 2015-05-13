@@ -1,52 +1,65 @@
-<div class="col-sm-7">
-    <h2 class="updates-header">Project Activity for the week of<br><strong>{{ status_date }}</strong></h2>
+<div class="col-sm-8">
+    <h2 class="updates-header">Project Activity for the week ending<br><strong>{{status_date}}</strong></h2>
     <h3>Update Summary</h3>
     <ul class="dash list-clean">
         {% for update in updates %}
-        <li>{{ update }}</li>
+        <li>{{update}}</li>
         {% endfor %}
     </ul>
+    <div class="qc-box">
+        <div class="green-check">
+          <img src="{{m.link('static/images/statewide-orthoimagery/green_check.png')}}" alt="a small thumbnail of orthoimagery">
+      </div>
+      <h3>We Need YOU for the Quality Control (QC) Review</h3>
+      <p>We are seeking volunteers to review the incoming imagery products between May and October. No experience necessary. </p><a class="btn btn-lg btn-danger" href="{{ m.link('2015-ortho-qc')}}"><i class="glyphicon glyphicon-info-sign"></i> Learn More <span class="sr-only">about Becoming a QC Reviewer</span></a>
+    </div>
     <h3>Data Progress</h3>
     <ul class="list-clean data-progress">
         <li class="status">
-            <progress class="level-three" max="100" value="{{ progress_1 }}">
+            <progress class="level-four" max="100" value="{{progress_1}}">
             </progress>
-            <h3 class="amount level-one">{{ progress_1 }}%</h3>
+            <h3 class="amount level-one">{{progress_1}}%</h3>
             <i class="fa fa-plane"></i>
             <p>of the state has been flown for 0.5-meter imagery</p>
         </li>
         <li class="status">
-            <progress class="level-two" max="100" value="{{ progress_2 }}">
+            <progress class="level-five" max="100" value="{{progress_2}}">
             </progress>
-            <h3 class="amount level-one">{{ progress_2 }}%</h3>
+            <h3 class="amount level-one">{{progress_2}}%</h3>
             <p>of the state has been surveyed for ground control</p>
         </li>
         <li class="status">
-            <progress class="level-one" max="100" value="{{ progress_3 }}">
+            <progress class="level-four" max="100" value="{{progress_3}}">
             </progress>
-            <h3 class="amount level-one">{{ progress_3 }}%</h3>
+            <h3 class="amount level-one">{{progress_3}}%</h3>
             <p>of the state has been begun initial image processing</p>
         </li>
         <li class="status">
-            <progress class="level-zero" max="100" value="{{ progress_4 }}">
+            <progress class="level-one" max="100" value="{{progress_6}}">
             </progress>
-            <h3 class="amount level-zero">{{ progress_4 }}%</h3>
+            <h3 class="amount level-one">{{progress_6}}%</h3>
+            <p>of the state has been processed through aerotriangulation</p>
+        </li>
+        <li class="status">
+            <progress class="level-one" max="100" value="{{progress_4}}">
+            </progress>
+            <h3 class="amount level-one">{{progress_4}}%</h3>
             <p>of pilot data received</p>
         </li>
         <li class="status">
-            <progress class="level-zero" max="100" value="{{ progress_5 }}">
+            <progress class="level-zero" max="100" value="{{progress_5}}">
             </progress>
-            <h3 class="amount level-zero">{{ progress_5 }}%</h3>
+            <h3 class="amount level-zero">{{progress_5}}%</h3>
             <p>of final orthoimagery received</p>
         </li>
     </ul>
-<!--     <a class="btn btn-default btn-lg" href="documents/2015-ortho-weekly-reports/{{latest_report}}"><span class="glyphicon glyphicon-file"></span> Download the latest full vendor report</a> -->
+    <a class="btn btn-default btn-lg" href="{{m.link('static/documents/2015-ortho-weekly-reports/' + latest_report)}}"><span class="glyphicon glyphicon-file"></span> Download the latest full vendor report</a>
 </div>
-<div class="col-sm-4 col-md-3 col-sm-offset-1">
+<div class="col-sm-4 col-md-3 col-md-offset-1">
     <h3>Latest Flightline Status Map</h3>
     <a href="#status-image" data-toggle="modal">
-        <img class="img-responsive" src="images/statewide-orthoimagery/weekly-updates/{{ status_image_preview }}" alt="Latest Status Image and flightlines for the Orthoimagery Project">
-        <figcaption class="text-right"><span class="glyphicon glyphicon-search"></span> Click for larger view</figcaption>
+        <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + status_image_preview)}}" alt="Latest Status Image and flightlines for the Orthoimagery Project">
+        <figcaption class="text-right hidden-xs"><span class="glyphicon glyphicon-search"></span> Click for larger view</figcaption>
     </a>
     <div class="modal fade" id="status-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -57,7 +70,7 @@
                     <h3>Latest Flightline Status Map</h3>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/statewide-orthoimagery/weekly-updates/{{ status_image }}" alt="Latest Status Image and flightlines for the Orthoimagery Project">
+                    <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + status_image)}}" alt="Latest Status Image and flightlines for the Orthoimagery Project">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -65,16 +78,15 @@
             </div>
         </div>
     </div>
+
+
+       
         <h3>Questions or Comments?</h3>
         <a class="btn btn-default btn-md btn-block smooth-scroll" href="#contact-pm">
           <i class="glyphicon glyphicon-comment"></i> Contact the Project Manager
         </a>
         <h3>Project Vendor</h3>
         <a href="http://www.surdex.com">
-          <img class="img-responsive center-block" src="images/vendors/surdex_logo.png" alt="Surdex logo and link to their website">
+          <img class="img-responsive center-block" src="{{m.link('static/images/vendors/surdex_logo.png')}}" alt="Surdex logo and link to their website">
         </a>
 </div>
-
-
-
-
