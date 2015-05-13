@@ -4,6 +4,16 @@ title: 2015 GeoRodeo
 mainimage: static/images/georodeo/georodeo_full_banner.jpg
 abstract: Annual Texas GeoDeveloper Round-Up, May 22nd, Austin, Texas
 ---
+## 8:00AM to 8:45AM
+### Breakfast – Social
+
+****
+
+## 8:45AM to 9:00AM
+### Opening Remarks – Richard Wade, Director of TNRIS
+
+****
+
 ## 9:00AM to 10:00AM
 ### Keynote Address: Andrew Hill, CartoDB
 
@@ -32,7 +42,18 @@ libraries, and one of the main authors of the GeoJSON specification.
 After a quick lap around some of the location-enabled products and services at Microsoft we will dive into the developer aspects starting with cross-platform development of connected apps before looking at the new universal Bing Maps control for Windows 10 with its offline and 3D capabilities.
 
 #### About Johannes
-Johannes is a Program Manager for Microsoft’s Bing Maps based out of Redmond, WA with many years of experience in various geospatial technologies. In 2004 he joined Microsoft in Germany, a year later he relocated to the UK and joined the Bing Maps team and in 2011 he moved to Redmond - initially as a Worldwide Technology Solution Professional and later as a Program Manager.
+Johannes is a Program Manager for Microsoft’s Bing Maps based out of Redmond, WA with many years of experience in various geospatial technologies. In 2004 he joined Microsoft in Germany, a year later he relocated to the UK and joined the Bing Maps team and in 2011 he moved to Redmond as a Program Manager.
+
+### Dana Bauer – Object Rocket, Rackspace
+
+<h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/dana_bauer.jpg')}}">Death and Open Data: Conquering your Fears and Sharing your Data</h4>
+ 
+People in many types of organizations are often afraid to share their data; we fear losing control, and we fear the unknown. Drawing from strategies used by counselors who tackle end-of-life conversations (death is the biggest fear of all), I'll talk about the cultural changes necessary for our community to get data out in the open. 
+ 
+#### About Dana
+ 
+Dana Bauer is a programmer, geographer, and open data enthusiast. She's part of the Developer Experience team at Rackspace, where she makes tools and leads workshops to help developers and technologists build amazing things with the Rackspace Public Cloud and OpenStack. She is an instructor with Software Carpentry and Girl Develop It and an organizer with the Public Lab. ​
+ 
 
 ****
 
@@ -74,7 +95,9 @@ Gretchen Peterson is the author of the cartography books Cartographer’s Toolki
 
 ******
 
-## 3:00PM to 3:15PM - Break
+## 3:00PM to 3:15PM
+
+###Break
 
 ******
 
@@ -102,6 +125,13 @@ These days, the common thread among many web maps is very likely a JavaScript li
 ## 4:30PM to 5:15PM 
 ### Lightning Talks
 
+If you have something quick to share, come prepared with an idea of what you could present within a short 5-minute time slot and sign up for a lightning talk on-site at the event.
+
+**Lightning Talk Rules**
+- 5 minutes Max – We will tightly enforce this.
+- No external computer laptops or tablets - only browser based access to materials and links
+- Tips: Understand your topic – make your point at the beginning. You don't have to use all 5 minutes
+
 ****
 
 ## 5:15PM to 5:20PM 
@@ -110,7 +140,8 @@ These days, the common thread among many web maps is very likely a JavaScript li
 
 ****
 
-## 5:30PM - Mappy Hour at Black Star Co-op
+## 5:30PM
+### Mappy Hour at Black Star Co-op
 Join [MaptimeATX](http://www.meetup.com/maptimeatx/) and [ATX-OSG](http://www.meetup.com/atx-osg/) after the GeoRodeo for a ['Mappy' Hour](http://www.meetup.com/MaptimeATX/events/221439962/) at [Black Star Co-op](https://goo.gl/maps/fyn2u).
 
 <a href="http://www.meetup.com/MaptimeATX/events/221439962/"> <img src="{{m.link('static/images/georodeo/mappyhour_sm.jpg')}}" alt="Maptimeatx and atx-osg Mappy Hour at black star graphic"></a>
