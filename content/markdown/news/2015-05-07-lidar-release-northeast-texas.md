@@ -1,21 +1,21 @@
 ---
 template: news.html
-title: "LiDAR Data Release For Parts of NE Texas"
-author: StratMap
-thumbnail: 
-mainimage:
+title: "LiDAR Data Release For Parts of Northeast Texas"
+author: Joey Thomas, StratMap
+thumbnail: static/images/updates/2015/ne-lidar/ne_lidar_th.jpg
+mainimage: static/images/updates/2015/ne-lidar/dem.jpg
 imagealt: A sample of collected liDAR data
 abstract: 
     TNRIS is releasing newly acquired high resolution lidar data for 2,756 square miles of North East Texas
 tags: lidar, data
 ---
-
  
 The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution lidar data for 2,729 square miles including portions of Smith, Van Zandt, Wood, Upshur, Henderson, Anderson, Freestone, Navarro, Kaufman, Ellis and Dallas Counties in North Texas.  Aerial collection took place from January 25, 2014 to February 18, 2014 during the leaf-off season.  Atkins teamed with McKim & Creed and Williams Aerial Mapping to perform data acquisition/processing while Fugro Geospatial provided third-party quality assurance and quality control (QA/QC).  
 
-This project was administered by the TNRIS Strategic Mapping Program (StratMap) and the data were procured through the Council on Competitive Government’s (CCG) High Priority Imagery and Datasets (HPIDS) contract.  Funding was provided by the U.S. Department of Agriculture Natural Resources Conservation Service (NRCS), the Texas Commission on Environmental Quality (TCEQ), the San Antonio River Authority (SARA) and the Texas Water Development Board (TWDB).</p>
+This project was administered by the TNRIS Strategic Mapping Program (StratMap) and the data were procured through the Council on Competitive Government’s (CCG) High Priority Imagery and Datasets (HPIDS) contract.  Funding was provided by the U.S. Department of Agriculture Natural Resources Conservation Service (NRCS), the Texas Commission on Environmental Quality (TCEQ), the San Antonio River Authority (SARA) and the Texas Water Development Board (TWDB).
 
 
+<img class="img-responsive" src="{{m.link('static/images/updates/2015/ne-lidar/natural.jpg')}}" alt="A DEM of Central Texas LiDAR">
 
 ## Data Access
 <div class="media">
@@ -33,6 +33,8 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 -	Lidar intensity images in GeoTIFF format (1-meter)
 -	Hydro-flattening breaklines in SHP
 -	File-level FGDC metadata in XML
+
+<img class="img-responsive" src="{{m.link('static/images/updates/2015/ne-lidar/city.jpg')}}" alt="A DEM of Central Texas LiDAR">
 
 ## Product Specification
 
@@ -53,4 +55,3 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 - Units are in meters denoting orthometric heights
 - Structure for data  tiles conforms to 1/64th USGS 7.5-minute quadrangle 
   Quarter-quarter-quarter quadrangle (DOQQQQ, or DO4Q)
-<br>
