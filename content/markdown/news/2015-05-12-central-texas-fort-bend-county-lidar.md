@@ -2,9 +2,9 @@
 title: 2014 Central Texas and Fort Bend County LiDAR
 author: Joey Thomas, StratMap
 template: news.html
-thumbnail: images/updates/2015/central-tx-lidar/central_tx_lidar_th.jpg
+thumbnail: static/images/updates/2015/central-tx-lidar/central_tx_lidar_th.jpg
 thumbalt: Thumb for Central Texas LiDAR Article
-mainimage: images/updates/2015/central-tx-lidar/house.jpg
+mainimage: static/images/updates/2015/central-tx-lidar/house.jpg
 mainimagealt: Houses captured by LiDAR
 abstract:
     A collaborative initiative to capture high-quality LiDAR data for parts of Bandera, Fort Bend, Lampasas, Mills and Uvalde County, Texas
