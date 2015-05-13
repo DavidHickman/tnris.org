@@ -144,7 +144,7 @@ If you have something quick to share, come prepared with an idea of what you cou
 ### Mappy Hour at Black Star Co-op
 Join [MaptimeATX](http://www.meetup.com/maptimeatx/) and [ATX-OSG](http://www.meetup.com/atx-osg/) after the GeoRodeo for a ['Mappy' Hour](http://www.meetup.com/MaptimeATX/events/221439962/) at [Black Star Co-op](https://goo.gl/maps/fyn2u).
 
-<a href="http://www.meetup.com/MaptimeATX/events/221439962/"> <img src="{{m.link('static/images/georodeo/mappyhour_sm.jpg')}}" alt="Maptimeatx and atx-osg Mappy Hour at black star graphic"></a>
+<a href="http://www.meetup.com/MaptimeATX/events/221439962/"> <img class="img-responsive" src="{{m.link('static/images/georodeo/mappyhour_sm.jpg')}}" alt="Maptimeatx and atx-osg Mappy Hour at black star graphic"></a>
 
 
 
