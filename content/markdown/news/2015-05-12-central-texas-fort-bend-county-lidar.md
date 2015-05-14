@@ -12,7 +12,7 @@ abstract:
 
 The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution lidar data for 3242 square miles of parts of Bandera, Fort Bend, Lampasas, Mills and Uvalde County, Texas. Aerial collection took place from January to March 2013 during the leaf-off season. Fugro performed data acquisition/processing while URS Corporation provided third-party quality assurance and quality control (QA/QC).
 
-]This project was administered by the TNRIS Strategic Mapping Program (StratMap) and the data were procured through the Council on Competitive Government’s (CCG) High Priority Imagery and Datasets (HPIDS) contract. Funding was provided by the U.S. Department of Agriculture Natural Resources Conservation Service (NRCS), Texas Parks & Wildlife Department (TPWD), Central Texas Council of Governments (CTCOG) and Bandera County River Authority and Groundwater District (BCRAGD) working in coordination with the San Antonio River Authority (SARA).
+This project was administered by the TNRIS Strategic Mapping Program (StratMap) and the data were procured through the Council on Competitive Government’s (CCG) High Priority Imagery and Datasets (HPIDS) contract. Funding was provided by the U.S. Department of Agriculture Natural Resources Conservation Service (NRCS), Texas Parks & Wildlife Department (TPWD), Central Texas Council of Governments (CTCOG) and Bandera County River Authority and Groundwater District (BCRAGD) working in coordination with the San Antonio River Authority (SARA).
 
 <img class="img-responsive" src="{{m.link('static/images/updates/2015/central-tx-lidar/DEM.jpg')}}" alt="A DEM of Central Texas LiDAR">
 
@@ -26,7 +26,7 @@ The Texas Natural Resources Information System (TNRIS) is pleased to announce th
 
 ## PRODUCT SPECIFICATION
 - Vertical accuracy (RMSEz) tested ~8.5 cm in Lampasas AOI, ~12 cm in Bandera AOI, and ~6 cm in Fort Bend for open areas. The tested accuracy in all areas meets or exceeds the project specification of 12 cm.
-- Average first-return point density is slightly over 4 points per square meter (ppsm) in All areas of interest, meeting the 4 ppsm state standard identified in the project specification.
+- Average first-return point density is slightly over 4 points per square meter (ppsm) in all areas of interest, meeting the 4 ppsm state standard identified in the project specification.
 - Point data are classified according to the following American Society for Photogrammetry and Remote Sensing (ASPRS) class schema:
   * Class 1: Unclassified
   * Class 2: Ground
