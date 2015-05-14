@@ -18,5 +18,3 @@ lakes.
 ## Where Did the Data Come From?
 
 The TNRIS 2011 50cm LiDAR data was used to generate this image.
-
-{{m.catalog_data_card('elevation-lidar/tnris-2011-50cm')}}

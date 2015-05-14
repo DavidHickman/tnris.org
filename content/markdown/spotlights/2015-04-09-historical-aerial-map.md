@@ -1,11 +1,11 @@
 ---
 template: spotlight.html
-title: Downtown Dallas, 1927
+title: Historical Aerial Availability
 author: Joey Thomas
 author_division: RDC
-thumb: 
-mainimage: 
-fullimage: 
+thumb: static/images/data-spotlights/historical_year_final_th.jpg
+mainimage: static/images/data-spotlights/historical_year_final_horiz.jpg
+fullimage: static/images/data-spotlights/historical_year_final.jpg
 ---
 ## What are we Looking At?
 
