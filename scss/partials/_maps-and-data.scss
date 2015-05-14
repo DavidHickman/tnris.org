@@ -151,11 +151,28 @@
       color: $lightgrey;
     }
   }
+  .btn-container {
+    background: $tnrisblue;
+    text-align: center;
+    
+    @media (min-width: $screen-sm) {
+      background: none;
+      margin-top: -22px;
+    }
 
-  .btn-group {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    .btn-group {
+      // position: absolute;
+      // top: 20px;
+      // left: 20px;
+      display: inline-block;
+      position: relative;
+      z-index: 1000;
+
+      @media (min-width: $screen-sm) {
+        margin-bottom: -50px;
+        margin-top: 31px;
+      }
+    }
   }
 
   img {

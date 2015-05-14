@@ -39,6 +39,24 @@ h2 {
   max-width: 750px;
 }
 
+.ie6 .ie-all-hide,
+.ie7 .ie-all-hide,
+.ie8 .ie-all-hide,
+.ie9 .ie-all-hide {
+  display: none !important;
+}
+
+.ie-all-show {
+  display: none;
+}
+
+.ie6 .ie-all-show,
+.ie7 .ie-all-show,
+.ie8 .ie-all-show,
+.ie9 .ie-all-show {
+  display: block;
+}
+
 /* for skip links */
 #contentMain {
   background: white;
@@ -100,7 +118,7 @@ h2 {
     background: $darkish;
     font-size: 12px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   .copyright {

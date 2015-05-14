@@ -23,8 +23,9 @@
       {% if mainimage %}
         <img class="media-object img-responsive center-block" src="{{ m.link(mainimage) }}" alt="{{ imagealt }}">
       {% endif %}
-
-      {{ contents|safe }}
+      <div class="gio-news-content">
+        {{ contents|safe }}
+      </div>
     </div>
 
     {% block rightContent %}

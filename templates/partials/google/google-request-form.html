@@ -17,7 +17,7 @@
 
   {{form.multi(
     "Contractor Access",
-    "Are you requesting access as a contractor in partnership with a qualifying agency?",
+    "Are you requesting access on behalf of a contractor currently under contract with your agency?",
     "radio",
       [
       'Yes',
@@ -149,36 +149,7 @@
     true
   )}}
 
-<h2>PART 3: On Premise Imagery Files Request (Optional)</h2>
-<p class="lead">Image files may be requested through TNRIS for those organizations with legitimate use requirements that cannot be met using the imagery via web services.</p>
-
-<p><strong>Important Note: The imagery <strong>.jpg</strong> files are not yet ready, but you can still place your request in the queue for future attention.</strong></p>
-
-  {{form.checkbox(
-    "streaming needs",
-    "",
-    "The streaming imagery web service is not anticipated to meet my organization's needs. My organization is requesting access to the imagery files for the following project and reason:",
-    false,
-    true
-  )}}
-
-  {{form.input("project or application description", {
-      label: "Project or Application Description:",
-      placeholder: "Enter description"
-    }, "text", false)}}
-
-  {{form.input("requirements", {
-      label: "Why web service access doesn’t fulfill requirements:",
-      placeholder: "Describe the issue"
-    }, "text", false)}}
-
-  {{form.input("geographic", {
-      label: "Description of Geographic Area:",
-      placeholder: "Describe the Geographic Area"
-    }, "text", false)}}
-
-
-<h2>PART 4. Acknowledgement (Required)</h2>
+<h2>PART 3. Acknowledgement (Required)</h2>
 <p>On behalf of my organization, I have checked the appropriate boxes to indicate acknowledgement and agreement to the informational items and terms of service, as listed above, pertaining to usage of the State of Texas’ license to the Google Imagery products and services. Furthermore, by signing this document, my organization commits to communicating the content of this agreement to all of its end users of the imagery service.</p>
   {{form.input("Primary Contact Signature", {
       label: "Signature of Primary Contact",

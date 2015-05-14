@@ -5,22 +5,24 @@ mainimage: static/images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract: 
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
-status_image: status_image_20150329_base.jpg
-status_image_preview: status_image_20150329_base_sm.jpg
-status_image_buyup: status_image_20150329_buyups.jpg
-status_image_buyup_preview: status_image_20150329_buyups_sm.jpg
-latest_report: Weekly_Status_Report_032715.pdf
-status_date: March 27th, 2015
+status_image: 20150505_base.jpg
+status_image_preview: 20150505_base_sm.jpg
+status_image_buyup: 20150505_buyups.jpg
+status_image_buyup_preview: 20150505_buyups_sm.jpg
+latest_report: Weekly_Status_Report_050115.pdf
+status_date: May 1st, 2015
 updates:
-  - Weather conditions were much more favorable this week, as such significant imagery acquisition progress was made over the past week.
-  - Four airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery in the remaining areas.
-  - Due to weather conditions and airspace restrictions affecting the overall project, the acquisition season end date for the entire state, Seasons 1, 2, 3, and 4, was extended to April 15, 2015.
-  - TNRIS has initiated a crowd-sourcing plan for image quality control review.
-progress_1: 80
+  - Weather conditions were more favorable this week, as such some imagery acquisition progress was made over the past week.
+  - Three airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
+  - Due to weather conditions and airspace restrictions affecting the overall project, the acquisition season end date for the entire state, Seasons 1, 2, 3, and 4 was extended to May 15, 2015.
+  - Quality Control (QC) data review has begun at TNRIS but is currently on hold awaiting more imagery to be processed by Surdex.
+  - TNRIS has initiated a crowd-sourcing method for image quality control review. 
+progress_1: 89
 progress_2: 100
-progress_3: 60 
+progress_3: 75 
 progress_4: 25
 progress_5: 0
+progress_6: 10
 ---
 
 ## Contributors
@@ -174,7 +176,7 @@ Select BUY-UP areas will be acquired and processed at either 1-foot or 6-inch pi
 
 These may may be displayed as natural color (Red, Green, Blue) or color infrared (Near Infrared, Red, Green) composites, as seen in the examples below.
 
-*Grab the Image Slider to compare between Natural Color and Infrared*
+*Grab the Image Slider to compare between Natural Color and Color Infrared*
 <figure>
 <div id="imageCompare7" class='twentytwenty-container natural-color-infrared'>
   <img src="{{m.link('static/images/statewide-orthoimagery/4_band_nc.jpg')}}" alt="Preview of natural color imagery">

@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Brand-New TNRIS site
+title: Welcome to the New TNRIS site
 template: news.html
 author: IS Team
 thumbnail: static/images/updates/new_website.jpg

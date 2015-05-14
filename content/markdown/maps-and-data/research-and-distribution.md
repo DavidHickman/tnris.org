@@ -14,4 +14,4 @@ abstract: The RDC offers a variety of additional products, support and services 
 * Data support for TNRIS datasets
 * Texas Water Development Board (TWDB) Publications and map hard copies
 
-To obtain these services or data please contact us at [contact us](contact).
+To obtain these services or data please [contact us](contact).

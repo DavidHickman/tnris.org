@@ -34,7 +34,7 @@
       'button': {
         'class': 'btn-tnris',
         'icon': 'glyphicon glyphicon-camera',
-        'label': 'natural features'
+        'label': 'natural <span class="hidden-xs">features</span>'
       },
       'url': natural_image_url
     }, {
@@ -42,7 +42,7 @@
       'button': {
         'class': 'btn-danger',
         'icon': 'fa fa-crosshairs',
-        'label': 'coverage map'
+        'label': 'coverage <span class="hidden-xs">map</span>'
       },
       'url': status_map_url
     }, {
@@ -50,7 +50,7 @@
       'button': {
         'class': 'btn-danger',
         'icon': 'fa fa-crosshairs',
-        'label': 'coverage map'
+        'label': 'coverage <span class="hidden-xs">map</span>'
       },
       'url': status_map_cartodb_id,
       'is_cartodb': true
@@ -70,6 +70,21 @@
   <div id="catalogEntryContent" class="row">
     <h1>{{ name }}</h1>
     <div id="catalog-main-image">
+          <div class="btn-container">
+              <div class="btn-group center-block" data-toggle="buttons">
+
+          {% set i = 0 %}
+          {% for image in images %}
+            {% if image.url %}
+              <label class="btn btn-primary {{image.button.class}}{% if i==0 %} active{% endif %}" data-target="#carousel-data-catalog" data-slide-to="{{i}}">
+                <input type="radio" name="options" id="option{{i}}" autocomplete="off" {% if i==0 %}checked{% endif %}>
+                <span class="{{image.button.icon}}"></span> {{image.button.label|safe}}
+              </label>
+              {% set i += 1 %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        </div>
       <div id="carousel-data-catalog" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner" role="listbox">
           {% set active_set = false %}
@@ -88,18 +103,7 @@
           {% endfor %}
         </div>
 
-        <div class="btn-group" data-toggle="buttons">
-          {% set i = 0 %}
-          {% for image in images %}
-            {% if image.url %}
-              <label class="btn btn-primary {{image.button.class}}{% if i==0 %} active{% endif %}" data-target="#carousel-data-catalog" data-slide-to="{{i}}">
-                <input type="radio" name="options" id="option{{i}}" autocomplete="off" {% if i==0 %}checked{% endif %}>
-                <span class="{{image.button.icon}}"></span> {{image.button.label}}
-              </label>
-              {% set i += 1 %}
-            {% endif %}
-          {% endfor %}
-        </div>
+
       </div>
 
 
