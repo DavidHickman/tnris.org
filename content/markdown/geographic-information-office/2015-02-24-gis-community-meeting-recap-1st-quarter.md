@@ -21,6 +21,8 @@ Ms. Mullins gave a detailed overview of the current status of the project and in
 
 Gayla extended an invitation to anyone interested in assisting with the QA/QC of the imagery using the online quality assurance tool provided by Surdex. For more information or to participate, please fill out and submit the [form](2015-statewide-orthoimagery-project#contact-pm) located on the project page.
 
+****
+
 ### Texas NAIP 2014 Availability – 2014 – Gayla Mullins, TNRIS
 
 Gayla went on to announce the pending availability of the county compressed mosaic (CCM) imagery files from the 2014 National Agriculture Imagery Program statewide flyover. The CCM files will be available for download through the TNRIS Data Download page, by county, in March. 
@@ -29,9 +31,13 @@ Gayla went on to announce the pending availability of the county compressed mosa
 
 TNRIS will receive the 2014 NAIP uncompressed Geotiff and compressed JPEG2000 DOQQs within the next six weeks.
 
+****
+
 ### Brazos County and the City of Palestine 6-inch Orthoimagery Project – Gayla Mullins, TNRIS
 
 Brazos County is once again flying orthoimagery for their county. New to the project is the City of Palestine who will also receive 6-inch orthoimagery. Although this project is not associated with the 2014-2015 TOP project, Surdex was selected as the imagery provider as well. This is the third year that Brazos County has participated in obtaining imagery through the High Priority Imagery and Data Sets contract.
+
+****
 
 ### Central Texas Lidar – Joey Thomas, TNRIS
 
@@ -47,32 +53,46 @@ New lidar for central Texas is set to be released in the coming weeks. The cover
 - TPWD is also working on the Karst Map of Texas.
 - Two positions are expected to open at TPWD in the coming weeks.
 
+****
+
 ### Texas Department of Transportation (TxDOT) – Michael Chamberlain
 <a href="http://www.txdot.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/txdot_logo.jpg')}}"></a>
 - A new map portal based on Proposition 1 was recently released and “public involvement begins today.” The viewer enables the user to search by area where Prop 1 funds are allocated that will assist in completing transportation projects around the state. Michael pointed out the importance of the proposition and encouraged input as a citizen of Texas.
 - TxDOT has collected all public roads in Texas as part of the Highway Performance Monitoring System (HPMS) program. The collected roadway data, referred to as the Geospatial Roadway Inventory Database (GRID) is available online from TxDOT or TNRIS.
 
+****
+
 ### Texas Water Development Board (TWDB) – Miguel Pavon
 <a href="http://www.twdb.texas.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/twdb_logo.jpg')}}"></a>
 - Miguel is building a pilot map service for the TWDB Texas Water Survey group for internal use. The map service will contain socioeconomic and demographic data to assist in making grant funding decisions based on greatest need. The map service is internal to TWDB but can be demonstrated at the next meeting.
+
+****
 
 ### Texas Department of Public Safety (TxDPS) – Andrew Mellon
 <a href="http://www.dps.texas.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/tx_dps_logo.jpg')}}"></a>
 - TxMap is a fully functioning web map service available to internal TxDPS staff. The map service lacks users mainly because of the difficulty in showing the value to young troopers. TxDPS also maintains strategically placed camera sensors to monitor border activity. A suggestion to give a presentation on that project was brought up by R. Wade. 
 - TxDPS is working on a critical information system portal using WebEOC. The portal is for TDEM support during emergency response and recovery.
 
+****
+
 ### Sam Houston State University – Jack Hill
 <a href="http://www.shsu.edu/"><img class="pull-right" alt="Sam Houston University logo and Link to website" src="{{m.link('static/images/gio-stories/logos/samhouston_logo.jpg')}}"></a>
 - SHSU is pleased with the new TPWD vegetation map. The students at SHSU use the data for a multitude of analysis projects and are seeing astonishing results from the data. SHSU received a grant from United Way to assist with locating children in need.
 - SHSU has received millions in grant funding and plans to use ArcGIS products and services with research projects. Jack would like to test the use of the transaction based credit model currently used in ESRI billing practices. Jack will report back on findings.
 
+****
+
 ### Texas General Land Office – Sterling Harris 
 <a href="http://www.glo.texas.gov/"><img class="pull-right" alt="Texas General Land Office Logo and Link to website" src="{{m.link('static/images/gio-stories/logos/tx_glo_logo.jpg')}}"></a>
 - GLO is using mobile applications in the field using a device called Bad Elf, a GPS unit that attaches to your mobile device, and the ArcGIS Collector application.
 
+****
+
 ### City of Georgetown – Ilyanna Kadich, Sasha Lockamy
 <a href="https://georgetown.org/"><img class="pull-right" alt="City of Georgetown Logo and Link to website" src="{{m.link('static/images/gio-stories/logos/georgetown_logo.jpg')}}"></a>
 - Ilyanna suggested the need for an ArcGIS Online user group in the region to network and discuss any tips or issues in using the service. Sasha mentioned the city of Georgetown is looking into using ArcGIS Online for asset management and would like to talk to others who might be doing the same.
+
+****
 
 ### TNRIS/GIO 
 
