@@ -27,7 +27,7 @@ abstract: Annual Texas GeoDeveloper Round-Up, May 22nd, Austin, Texas
 ## 10:15AM to 11:45AM
 
 ### Sean Gillies – Mapbox
-<h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/sean_gillies.jpg')}}"><em>Writing, running, and Distributing Python GIS Software</em></h4>
+<h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/sean_gillies.jpg')}}">Writing, running, and Distributing Python GIS Software</h4>
 
 Many of us are using Python to extend our GIS software or write entirely new applications. I'm going to provide an overview of modern best practices for writing, running, and distributing Python GIS software, talk about new features of Python 3, and demonstrate several new modules that will help you make the most out of Python.
 
@@ -68,7 +68,7 @@ Lunch on your own.
 ## 1:30PM to 3:00PM
 
 ### James Seppi – TNRIS
-<h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/james_seppi.jpg')}}"><em>Turf - Geospatial Analysis in JavaScript</em></h4>
+<h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/james_seppi.jpg')}}">Turf - Geospatial Analysis in JavaScript</h4>
 
 [Turf](http://turfjs.org) is a relatively new open-source JavaScript library for spatial analysis that works both in the browser and on the back-end via NodeJS. This presentation will introduce Turf through examples, show some neat projects using Turf, and let you know how to contribute to its development.
 
@@ -103,7 +103,7 @@ Gretchen Peterson is the author of the cartography books Cartographer’s Toolki
 
 ## 3:15PM to 4:30PM
 
-### Peter Girard
+### Peter Girard – AppGeo
 <h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/presenters/peter_girard.jpg')}}">Redesigning DriveTexas for Scalability</h4>
 
 The DriveTexas web application is an important tool for the Texas Department of Transportation (TxDOT) to communicate to the public the current status of roadway conditions. The app shows current information on both planned conditions, such as construction, as well as unplanned and unfolding situations such as weather events and serious accidents. Peter will discuss its development and applications.
