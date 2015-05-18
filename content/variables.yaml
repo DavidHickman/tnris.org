@@ -33,9 +33,9 @@ vendors:
     url:  http://www.kucerainternational.com/
     thumbnail: static/images/vendors/kucera_logo.png
     contractlink: documents/vendor-contracts/kucera.pdf
-  - name: Geocom
-    url:  http://www.geocom.ch/
-    thumbnail: static/images/vendors/geocom_logo.png
+  - name: Geocomm
+    url:  http://www.geo-comm.com
+    thumbnail: static/images/vendors/geocomm_logo.jpg
     contractlink: documents/vendor-contracts/geocom.pdf
   - name: Gorrondonna &amp; Associates
     url:  http://www.ga-inc.net
