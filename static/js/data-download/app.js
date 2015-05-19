@@ -53,7 +53,7 @@ var dataDownloadApp = function () {
       $urlRouterProvider.otherwise("/statewide");
 
       var resultsTemplate = PARTIALS_PATH + 'results.html';
-      
+
       $stateProvider
         .state('statewide', {
           url: "/statewide",
@@ -71,7 +71,13 @@ var dataDownloadApp = function () {
                 // for splitting statewide resource groups into columns
                 var groupedGroups = _(resourceGroups)
                   .groupBy(function(g, index) {
-                    return Math.floor(index / 4);
+                    if (index < 4) {
+                      return 0;
+                    } else if (index < 7) {
+                      return 1;
+                    } else {
+                      return 2;
+                    }
                   })
                   .values()
                   .value();
