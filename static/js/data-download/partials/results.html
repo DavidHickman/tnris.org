@@ -71,8 +71,15 @@
         </div>
       </div>
       <div ng-switch-default>
-        <div ng-repeat="group in areaDataset.groups" ng-if="group" class="col-md-4">
+        <div ng-repeat="group in areaDataset.groups" class="col-md-4">
           <div resource-group group="group" area-dataset="areaDataset"></div>
+        </div>
+        <div class="col-md-12" ng-show="aerialsYears.length">
+          <h3>Historical Aerial Imagery for {{name | titleize}} County</h3>
+          <p>
+            Historical aerial imagery for {{name | titleize}} County is available for the following years: {{ aerialsYears.join(', ')}}. <br/>
+            Use the TNRIS <a href="/order-data" title="Order Data">Order Data form</a> to request historical imagery for one or more of these years.
+          </p>
         </div>
       </div>
     </div>

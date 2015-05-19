@@ -1,1 +1,3 @@
 Sitemap: http://tnris.org/sitemap-index.xml
+
+Disallow: /historical-aerials/admin
