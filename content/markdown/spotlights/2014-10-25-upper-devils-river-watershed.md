@@ -21,5 +21,5 @@ The extensive water network seen is represented in blue by the [National Hydrogr
 
 The [National Elevation Dataset (NED)](data-catalog/elevation-image/tx-ned-2013) was used for elevations and is represented by the color ramp showing low areas in red with higher elevations in green.
 
-{{macros.catalog_data_card('elevation-image/tx-ned-2013')}}
+{{macros.catalog_data_card('elevation-image/national-elevation-dataset-ned-2013')}}
 

@@ -17,13 +17,17 @@ var dataDownloadApp = function () {
   ])
     .factory('DataService', DataService)
     .factory('MapService', MapService)
+    .factory('CountyService', CountyService)
+    .factory('HistoricalAerialsService', HistoricalAerialsService)
     .directive('includeMap', includeMap)
     .directive('resourceGroup',  resourceGroup)
     .filter('titleize',  titleizeFilter)
     .constant('MAP_IMAGE_URL_PRE', '//s3.amazonaws.com/tnris-datadownload/')
     .constant('DOWNLOAD_URL_PRE', '//tg-twdb-gemss.s3.amazonaws.com')
     .constant('DOWNLOAD_API_PRE', '//tnris.org/data-download/api/v1')
+    .constant('HISTORICAL_AERIALS_URL', '//tnris.org/historical-aerials/api/v1')
     .constant('PARTIALS_PATH', '../js/data-download/partials/')
+    .constant('COUNTIES', _counties)
     .controller('dataDownloadCtrl', dataDownloadCtrl)
     .config(function ($analyticsProvider) {
       $analyticsProvider.withAutoBase(true);
@@ -53,12 +57,12 @@ var dataDownloadApp = function () {
       $urlRouterProvider.otherwise("/statewide");
 
       var resultsTemplate = PARTIALS_PATH + 'results.html';
-      
+
       $stateProvider
         .state('statewide', {
           url: "/statewide",
           templateUrl: resultsTemplate,
-          controller: function($scope, $rootScope) {
+          controller: function($scope, $rootScope, DataService) {
             $scope.category = 'Statewide';
 
             $scope.map = null;
@@ -71,7 +75,13 @@ var dataDownloadApp = function () {
                 // for splitting statewide resource groups into columns
                 var groupedGroups = _(resourceGroups)
                   .groupBy(function(g, index) {
-                    return Math.floor(index / 4);
+                    if (index < 4) {
+                      return 0;
+                    } else if (index < 7) {
+                      return 1;
+                    } else {
+                      return 2;
+                    }
                   })
                   .values()
                   .value();
@@ -88,13 +98,20 @@ var dataDownloadApp = function () {
         .state('county', {
           url: "/county/:name",
           templateUrl: resultsTemplate,
-          controller: function($scope, $rootScope, $stateParams, $filter, MapService) {
+          controller: function($scope, $rootScope, $stateParams, $filter, DataService, MapService, CountyService, HistoricalAerialsService) {
             $scope.category = 'County';
             $scope.name = _.clone($stateParams.name);
 
             $scope.map = MapService.find('counties', $scope.name);
 
             $rootScope.pageTitle = $filter('titleize')($scope.name) + ' County';
+
+            var fips = CountyService.getFipsForName($scope.name);
+            HistoricalAerialsService.getYearsForCounty(fips)
+              .then(function (years) {
+                $scope.aerialsYears = years;
+                return years;
+              });
 
             DataService.getAreaDatasets('county', $scope.name)
               .then(function (resourceGroups) {
@@ -110,7 +127,7 @@ var dataDownloadApp = function () {
         .state('quad', {
           url: "/quad/:name",
           templateUrl: resultsTemplate,
-          controller: function($scope, $rootScope, $stateParams, $collection, $filter, MapService) {
+          controller: function($scope, $rootScope, $stateParams, $collection, $filter, DataService, MapService) {
             $scope.category = 'Quad';
             $scope.name = $stateParams.name;
 
