@@ -10,19 +10,20 @@ status_image_preview: 20150505_base_sm.jpg
 status_image_buyup: 20150505_buyups.jpg
 status_image_buyup_preview: 20150505_buyups_sm.jpg
 latest_report: Weekly_Status_Report_050115.pdf
-status_date: May 1st, 2015
+status_date: May 15th, 2015
 updates:
-  - Weather conditions were more favorable this week, as such some imagery acquisition progress was made over the past week.
-  - Three airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
-  - Due to weather conditions and airspace restrictions affecting the overall project, the acquisition season end date for the entire state, Seasons 1, 2, 3, and 4 was extended to May 15, 2015.
+  - Weather conditions were unfavorable this week, as such no imagery acquisition progress was made over the past week.
+  - Two airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
+  - Due to weather conditions and airspace restrictions affecting the overall project, the acquisition season end date for the remaining areas of the state, Seasons 2, 3, and 4 was extended to May 31, 2015.
   - Quality Control (QC) data review has begun at TNRIS but is currently on hold awaiting more imagery to be processed by Surdex.
   - TNRIS has initiated a crowd-sourcing method for image quality control review. 
+  - TNRIS has received the 2nd of four pilot data counties for review, SMITH COUNTY.
 progress_1: 89
 progress_2: 100
-progress_3: 75 
-progress_4: 25
+progress_3: 80 
+progress_4: 50
 progress_5: 0
-progress_6: 10
+progress_6: 15
 ---
 
 ## Contributors
