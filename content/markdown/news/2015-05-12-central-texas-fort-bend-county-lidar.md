@@ -16,6 +16,22 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 
 <img class="img-responsive" src="{{m.link('static/images/updates/2015/central-tx-lidar/DEM.jpg')}}" alt="A DEM of Central Texas LiDAR">
 
+## Data Access
+<div class="media">
+  <div class="media-left">
+    {% include "./partials/order-button.html" %}
+  </div>
+  <div class="media-body">
+    <p>Lidar data and the associated geospatial products are available for cost of reproduction through TNRIS.</p>
+  </div>
+</div>
+
+Please check our [LiDAR status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage. 
+
+### Catalog Entries
+{{m.catalog_data_card('elevation-lidar/tnris-2014-50cm-bandera-lampasas')}}
+{{m.catalog_data_card('elevation-lidar/tnris-2014-50cm-fort-bend')}}
+
 ##PRODUCTS
 - Classified all-return lidar DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format
 - Bare-earth digital elevation model (DEM) in USGS .dem format (1-meter)
@@ -52,13 +68,5 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 - Units are in feet denoting orthometric heights
 - Structure for data listed above shall conform to 1/64th USGS 7.5-minute quadrangle
 - Quarter-quarter-quarter quadrangle (DOQQQQ, or DO4Q)
-
-## Data Access
-
-Please fill out an [order form](https://tnris.org/order-data/) to obtain this data. 
-
-{% include "./partials/order-button.html" %}
-
-Please check our [LiDAR status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage. 
 
 
