@@ -5,11 +5,11 @@ mainimage: static/images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract: 
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
-status_image: 20150505_base.jpg
-status_image_preview: 20150505_base_sm.jpg
-status_image_buyup: 20150505_buyups.jpg
-status_image_buyup_preview: 20150505_buyups_sm.jpg
-latest_report: Weekly_Status_Report_050115.pdf
+status_image: 20150515_base.jpg
+status_image_preview: 20150515_base_sm.jpg
+status_image_buyup: 20150515_buyups.jpg
+status_image_buyup_preview: 20150515_buyups_sm.jpg
+latest_report: Weekly_Status_Report_051515.pdf
 status_date: May 15th, 2015
 updates:
   - Weather conditions were unfavorable this week, as such no imagery acquisition progress was made over the past week.
