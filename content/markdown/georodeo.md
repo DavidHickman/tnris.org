@@ -61,7 +61,9 @@ Dana Bauer is a programmer, geographer, and open data enthusiast. She's part of 
 
 ### Chow Time
 
-Lunch on your own.
+Lunch on your own. Here's a map of nearby lunch spots:
+
+<iframe src="https://www.google.com/maps/d/embed?mid=zd5XoMCEujcc.k_86BbpIkUR0" width="600" height="300"></iframe>
 
 *****
 
