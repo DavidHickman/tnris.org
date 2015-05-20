@@ -33,8 +33,9 @@
         </div>
     </div>
 </div>
-{% endblock topcontent %} {% block contents %}
+{% endblock topcontent %}
 
+{% block contents %}
 <div class="row">
     <div class="col-md-4 col-md-push-8">
         {% block sidebarLeft %}
@@ -48,14 +49,14 @@
         {% block extracontent %} {% endblock extracontent %}
     </div>
 </div>
-{% endblock contents %} 
+{% endblock contents %}
+
 {% block contents-two %}
 <section class="georodeo-bottom">
     <div class="container">
         <div class="row">
-                {% include "./partials/georodeo/georodeo-map.html" %}   
+            {% include "./partials/georodeo/georodeo-map.html" %}   
         </div>
     </div>
 </section>
-
 {% endblock contents-two %}
