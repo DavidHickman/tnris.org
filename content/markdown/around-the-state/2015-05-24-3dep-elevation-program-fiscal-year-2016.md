@@ -18,6 +18,7 @@ Pre-Proposals submission will be 07/17-08/25 with feedback being provided by 09/
 ## Texas Coordination Workshop
 
 The USGS is hosting a coordination meeting to increase awareness and to help interested parties prepare for the grant opportunity. The Texas meeting will be held at the [USGS Office](https://goo.gl/maps/xOqL6) in Austin Texas on June 1st from 1:30pm-4:00pm. 
+
 Seating is limited so please [register early](http://goo.gl/forms/xyvQqEWjDG) to ensure seating. 
 
 To view public and federal project areas of interest as well as to submit your own areas of interest please visit https://www.geoplatform.gov/elevation/3DEP
