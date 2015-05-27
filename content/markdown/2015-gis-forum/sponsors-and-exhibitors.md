@@ -8,7 +8,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 
 ## Sponsors & Exhibitors
 
-<p class="lead">TNRIS is pleased to invite you to participate in our 2015 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
+<p class="lead"><a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1717125" class="btn btn-danger btn-lg pull-right"><i class="glyphicon glyphicon-chevron-right"></i> Become a Forum Sponsor</a> TNRIS is pleased to invite you to participate in our 2015 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
 
 ### Participating as a Sponsor and Exhibitor will:
 
@@ -34,6 +34,8 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 		This information is for reference purposes only. Note that these prices and promotions are only valid for the 2014 forum and are liable to change for current or upcoming forums.
 	</div>
 </div> -->
+
+<a href="{{m.link('static/documents/2015-forum/Rules-and-Regulations-2015.pdf')}}" class="btn btn-danger btn-lg"><i class="glyphicon glyphicon-chevron-right"></i> Download the Sponsor Rules &amp; Regulations</a>
 
 ## Platinum Sponsor/Exhibitor ($4,000 - limit 3)
 
