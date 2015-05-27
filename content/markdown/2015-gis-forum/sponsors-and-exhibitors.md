@@ -8,7 +8,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 
 ## Sponsors & Exhibitors
 
-<p class="emphasize">TNRIS is pleased to invite you to participate in our 2014 Texas GIS Forum in Austin, Texas. The GIS Forum is the only event in Texas that offers the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your knowledge with a respected audience of geospatial professionals.</p>
+<p class="lead">TNRIS is pleased to invite you to participate in our 2015 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
 
 ### Participating as a Sponsor and Exhibitor will:
 
@@ -26,14 +26,14 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - On-site promotions
 - Technical demos
 
-<div class="panel panel-danger">
+<!-- <div class="panel panel-danger">
 	<div class="panel-heading">
 		<h3 class="panel-title">Important Note</h3>
 	</div>
 	<div class="panel-body">
 		This information is for reference purposes only. Note that these prices and promotions are only valid for the 2014 forum and are liable to change for current or upcoming forums.
 	</div>
-</div>
+</div> -->
 
 ## Platinum Sponsor/Exhibitor ($4,000 - limit 3)
 
@@ -56,7 +56,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - Prominently placed Logo printed on the Forum program given to all attendees
 - Your corporate print marketing materials added to the forum packet for all attendees
 
-## Gold Sponsor/Exhibitor ($2,000 - limit 4)
+## Gold Sponsor/Exhibitor ($2,500)
 ###Includes:
 
 - Highly desirable location of a 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
@@ -64,14 +64,14 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 ### Promotions Include:
 
 - Verbal and Visual recognition of your sponsorship during opening remarks at the Forum.
-- Sponsorship recognition for forum breakfast.
+- Sponsorship recognition of the Forum breakfasts and lunches.
 - Up to Three (3) free registrations for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
 - Large Logo on Forum sponsorship banner prominently displayed in the Exhibit Hall.
 - Placement of the corporate logo (with links to corporate website) on the FORUM website.
 - Color Logo printed on the Forum agenda program given to all attendees.
 - Your corporate marketing materials added to the forum packet for all attendees.
 
-## Silver Sponsor/Exhibitor ($1000)
+## Silver Sponsor/Exhibitor ($1500)
 ### Includes:
 
 - Desirable location 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
@@ -84,7 +84,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - Logo on Forum sponsorship banner displayed in the Exhibit Hall.
 - Logo on Forum website
 
-## Exhibitor Only ($850 – Limit 10)
+## Exhibitor Only ($1000 – Limit 10)
 
 **Note: Some Conditions do apply**
 
