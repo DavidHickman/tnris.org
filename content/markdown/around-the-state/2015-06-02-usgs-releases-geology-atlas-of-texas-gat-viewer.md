@@ -17,9 +17,12 @@ In October 2002, the [USGS Texas Water Science Center](http://tx.usgs.gov/), in 
 
 In 2014, the USGS Texas Water Science Center decided it was time to bring the Geologic Atlas of Texas to the masses by developing a comprehensive online viewer. From the USGS:
 
-> The new map viewer is an interactive web-based tool that allows a broad range of users to explore the geology of the Lone Star State at a scale of 1:250,000. Users can navigate the map with a simple click-and-point tool, or by using the location search tool to find common geographic place names, latitude/longitude coordinates and other areas of interest. The interactive map viewer allows users to turn data layers on or off, identify layers of interest and retrieve detailed information about each geologic formation, such as the feature name, geologic age and feature description. 
-> 
-> **From the USGS: [The History of Texas is Under Your Feet and at Your Fingertips!](http://www.usgs.gov/blogs/features/usgs_top_story/the-history-of-texas-is-under-your-feet-and-at-your-fingertips/)**
+<blockquote>
+<p>
+<a href="http://www.usgs.gov/blogs/features/usgs_top_story/the-history-of-texas-is-under-your-feet-and-at-your-fingertips/">
+<img class="pull-right" src="{{m.link('static/images/around-the-state/gat/gat_usgs_example.jpg')}}" alt="USGS example of the GAT Viewer"></a>The new map viewer is an interactive web-based tool that allows a broad range of users to explore the geology of the Lone Star State at a scale of 1:250,000. Users can navigate the map with a simple click-and-point tool, or by using the location search tool to find common geographic place names, latitude/longitude coordinates and other areas of interest. The interactive map viewer allows users to turn data layers on or off, identify layers of interest and retrieve detailed information about each geologic formation, such as the feature name, geologic age and feature description.</p>
+<p><strong>From the USGS: [The History of Texas is Under Your Feet and at Your Fingertips!](http://www.usgs.gov/blogs/features/usgs_top_story/the-history-of-texas-is-under-your-feet-and-at-your-fingertips/)</strong></p>
+</blockquote>
 
 Visit the [full post on the USGS's site](http://www.usgs.gov/blogs/features/usgs_top_story/the-history-of-texas-is-under-your-feet-and-at-your-fingertips) to learn all about this new tool for exploring Texas's resources.
 
