@@ -500,12 +500,16 @@
   }
 
   .around-state-front {
+    display: block;
+    min-height: 285px;
+    position: relative;
 
     @media (min-width: $screen-md) {
       border-right: none;
       padding-left: 0;
       padding-bottom: 10px;
       margin: 0 -15px;
+      min-height: 221px;
     }
 
     h2 {
@@ -515,21 +519,37 @@
     h3 {
       margin-top: 0;
     }
-
-    img {
-      display: block;
-      margin: 0 auto;
-      max-width: 100%;
-
+    figure {
+      min-height: 285px;
+      position: relative;
+      
       @media (min-width: $screen-md) {
-        float: right;
-        margin-left: 10px;
-        padding-right: 5px;
-        width: 125px;
+        min-height: 221px;
       }
 
-      @media (min-width: $screen-lg) {
-        width: 150px;
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        position: absolute;
+      }
+      h3 {
+        bottom: 35px;
+        left: 10px;
+        position: absolute;
+
+        a {
+          color: white;
+          font-weight: normal;
+          text-shadow: 1px 1px 1px #333;
+        }
+      }
+
+      a.btn {
+        bottom: 5px;
+        left: 10px;
+        position: absolute;
+
       }
     }
   }
