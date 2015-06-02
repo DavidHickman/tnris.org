@@ -5,6 +5,10 @@
     font-size: 20px;
   }
 
+  h2 {
+    color: $forum2015blue;
+  }
+
  .container-fluid.full {
 
       img.banner {
@@ -15,7 +19,6 @@
       .forum-logo-container {
         position: relative;
         top: 0;
-
     }
 
      .top-container {
@@ -37,6 +40,12 @@ h2.logo-2015 {
 }
 
 .forum-map {
-  background: $lightgrey;
+  background: $forum2015blue;
+  color: white;
   margin-top: 50px;
+}
+
+.forum-bar {
+  background: $forum2015blue;
+  font-size: 20px;
 }
