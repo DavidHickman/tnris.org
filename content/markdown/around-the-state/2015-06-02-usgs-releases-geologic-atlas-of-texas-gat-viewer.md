@@ -1,5 +1,5 @@
 ---
-title: "USGS Releases Geology Atlas of Texas (GAT) Viewer"
+title: "USGS Releases Geologic Atlas of Texas (GAT) Viewer"
 template: news.html
 author: Felicia Retiz, Deputy GIO
 mainimage: static/images/around-the-state/gat/gat_screenshot.jpg
