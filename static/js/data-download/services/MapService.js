@@ -34,7 +34,7 @@ var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoServi
 
     var extra = '';
     if (type === 'quad') {
-      extra = ', closest_county ';
+      extra = ', closest_county_name ';
     }
 
     var query = 'SELECT ' + nameField + ', ST_AsGeoJSON(ST_Envelope(the_geom)) as bbox ' + extra + 'from ' + table + ' WHERE ' + nameField + " = '" + name + "'";
@@ -86,7 +86,7 @@ var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoServi
         .then(function (data) {
           return {
             statewide: true,
-            county: data.closest_county
+            county: data.closest_county_name
           };
         });
     } else {

@@ -27,17 +27,15 @@ var dataDownloadApp = function () {
     .constant('CARTODB_CONFIG', {
       account: 'tnris',
       'data-download': {
-        viz_id: 'c2a92a1a-bc5c-11e4-a61b-0e853d047bba'
+        viz_id: 'eef97f1a-063b-11e5-a187-0e9d821ea90d'
       },
       county: {
         table: 'county_extended',
-        nameField: 'name',
-        viz_id: '51ed411a-bc54-11e4-941d-0e4fddd5de28'
+        nameField: 'name'
       },
       quad: {
-        table: 'tnris_quad_wgs84',
-        nameField: 'quadname',
-        viz_id: '6d6032fe-a8c2-11e4-b1cd-0e4fddd5de28'
+        table: 'usgs_doq_names_wgs84',
+        nameField: 'quadname'
       }
     })
     .constant('MAP_IMAGE_URL_PRE', '//s3.amazonaws.com/tnris-datadownload/')
