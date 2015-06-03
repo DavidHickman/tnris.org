@@ -35,58 +35,6 @@
     }
 }
 
-.georodeo-front {
-  position: relative;
-
-  @media (max-width: $screen-sm) {
-    min-height: 250px;
-  }
-  
-  @media (min-width: $screen-sm) {
-    min-height: 315px;
-  }
-
-  @media (min-width: $screen-lg) {
-    min-height: 360px;
-  }
-
-  img {
-    position: absolute;
-  }
-
-  p {
-      bottom: 160px;
-      font-size: 15px;
-      left: 265px;
-      position: absolute;
-      width: 455px;
-
-      @media (min-width: $screen-lg) {
-        bottom: 180px;
-        font-size: 18px;
-        left: 325px;
-        width: 505px;
-      }
-
-  }
-
-  a.btn {
-      bottom: 110px;
-      left: 265px;
-      position: absolute;
-
-      @media (min-width: $screen-lg) {
-      bottom: 28px;
-      left: 47px;
-      }
-
-      @media (min-width: $screen-sm) {
-        margin-right: 5%;
-        padding: 10px 15px;
-        font-size: 18px;
-    }
-  }
-}
 
 .small-banner {
   position: relative;

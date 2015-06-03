@@ -3,6 +3,7 @@ template: 2015-forum.html
 title: 2015 Texas GIS Forum
 subtitle: At the Intersection of Geography and Technology
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
+mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
 intro: true
 abstract: Save the date for the Texas GIS Forum, the premiere, statewide conference dedicated to spatial technology advancements in the government and private sectors.
 ---

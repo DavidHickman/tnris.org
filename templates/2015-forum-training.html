@@ -23,10 +23,14 @@
 
       <div class="top-container">
           {% if mainimage %}
+          <div class="hidden-sm hidden-xs">
             <img src="{{m.link(mainimage)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
           {% endif %} 
           {% if mainimagesm %}
+          <div class="hidden-md hidden-lg">
             <img src="{{m.link(mainimagesm)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
           {% endif %} 
       </div>
   </div>
@@ -54,11 +58,11 @@
     {% if event.day == '1' %}
     <div class="row training-header">
       <div class="col-xs-3 col-sm-2">
-        <span class="glyphicon glyphicon-time"></span> {{event.time}}
+        <i class="glyphicon glyphicon-time"></i> {{event.time}}
       </div>
       <div class="col-xs-9 col-sm-6">
-        <h3><a href="{{m.link(event.path)}}">{{event.class_title}}</a></h3></div>
-      <div class="col-xs-3 col-sm-2 course-info">
+        <h3>{{event.class_title}}</h3></div>
+      <div class="col-xs-6 col-sm-2 course-info">
         <strong>Taught by:</strong> <br>{{event.instructor}}
       </div>
       <div class="col-xs-3 col-sm-1 course-info">
@@ -89,11 +93,11 @@
     {% if event.day == '2' %}
     <div class="row training-header">
       <div class="col-xs-3 col-sm-2">
-        <span class="glyphicon glyphicon-time"></span> {{event.time}}
+        <i class="glyphicon glyphicon-time"></i> {{event.time}}
       </div>
       <div class="col-xs-9 col-sm-6">
-        <h3><a href="{{m.link(event.path)}}">{{event.class_title}}</a></h3></div>
-      <div class="col-xs-3 col-sm-2 course-info">
+        <h3>{{event.class_title}}</h3></div>
+      <div class="col-xs-6 col-sm-2 course-info">
         <strong>Taught by:</strong> <br>{{event.instructor}}
       </div>
       <div class="col-xs-3 col-sm-1 course-info">

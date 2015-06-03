@@ -3,6 +3,7 @@ template: 2015-forum.html
 title: Sponsors & Exhibitors
 subtitle: Texas GIS Forum | October 26th – 29th, 2015
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
+mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
 abstract: Partner with Texas's Premiere gathering for the Geospatial Professionals to reach your customers and your community.
 ---
 

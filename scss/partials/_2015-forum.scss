@@ -8,6 +8,22 @@
   h2 {
     color: $forum2015blue;
   }
+  .training-list {
+  .training-header {
+    background: $white;
+
+      i {
+        float: left;
+        font-size: 24px;
+        margin-bottom: 40px;
+        margin-right: 5px;
+      }
+
+      h3 {
+        margin: 0;
+      }
+    }
+  }
 
  .container-fluid.full {
 
@@ -43,6 +59,10 @@ h2.logo-2015 {
   background: $forum2015blue;
   color: white;
   margin-top: 50px;
+
+  h2 {
+    color: $midgrey;
+  }
 }
 
 .forum-bar {
