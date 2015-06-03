@@ -1,9 +1,16 @@
 {% extends "base.html" %} {% import '_macros.html' as m %} {% block topcontent %}
+<div class="hidden-md hidden-lg quicknav-small-container">
+  <div class="container quicknav-small">
+    {% include "./partials/quicknav-sm.html" %}
+  </div>
+</div>
 <div id="home-top-content">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-12 col-xs-12 quick-nav">
+            <div class="col-md-3 hidden-xs hidden-sm">
+              <div class="quick-nav">
                 {% include "./partials/quicknav.html" %}
+              </div>
             </div>
             <div id="front-image-container" class="col-md-9 col-sm-12 col-xs-12">
                 {% include "./partials/mainfeature.html" %}
@@ -61,7 +68,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-8 col-md-12 training-front">
-                    <h2><a href="{{m.link('training')}}">GIS Training &amp; Education</a> <i class="fa fa-graduation-cap"></i></h2>
+                    <h2><a href="{{m.link('training')}}">GIS Training &amp; Education</a> <i class="fa fa-graduation-cap"></i> </h2>
                     <p>Summer School doesn't have to be boring! Register soon to grab a spot.</p>
                     <h3>Beyond Basics</h3>
                     <ul class="list-clean">
@@ -77,7 +84,7 @@
                     <h3>Expand Your Professional Skills!</h3>
                     <ul class="list-clean">
                         <li>
-                            <i class="glyphicon glyphicon-calendar" style="margin-bottom: 20px;"></i>
+                            <i class="glyphicon glyphicon-calendar" style="margin-bottom: 40px;"></i>
                             <div>
                                 <time>June 22nd</time>
                                 <h4><a href="{{m.link('training/building-arcgis-applications-with-web-appbuilder/june-2015')}}">Building ArcGIS Applications with Web AppBuilder</a></h4>
@@ -98,10 +105,7 @@
         </div>
 
         <div id="front-right" class="col-sm-12 col-md-4">
-          <a href="{{ m.link('2015-gis-forum')}}">
-          <img class="img-responsive ad" src="{{ m.link('static/images/front-page/2015_savethedate.jpg')}}" alt="2015 Texas GIS Forum Save the Date">
-          </a>
-         <!--  <a href="{{ m.link('2015-statewide-orthoimagery-project')}}"><img class="img-responsive ad" src="{{ m.link('static/images/front-page/statewide_ad_2.jpg')}}" alt="2015 Statewide Orthoimagery Project link"></a> -->
+         <a href="{{ m.link('2015-statewide-orthoimagery-project')}}"><img class="img-responsive ad" src="{{ m.link('static/images/front-page/statewide_ad_2.jpg')}}" alt="2015 Statewide Orthoimagery Project link"></a>
             <div id="dataSpot">
                 <div class="spotText">
                   <i class="glyphicon glyphicon-eye-open"></i> A closer look at featured data and maps from our own catalog and other sources.

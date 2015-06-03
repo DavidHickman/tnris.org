@@ -2,7 +2,8 @@
 template: 2015-forum.html
 title: Call for Presentations
 subtitle: Call for Presentations
-mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
+mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
+mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
 abstract: Share your knowledge with the Texas GIS Community
 body_class: call-for-presentations
 ---

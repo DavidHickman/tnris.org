@@ -23,10 +23,16 @@
 
       <div class="top-container">
           {% if mainimage %}
-            <img src="{{m.link(mainimage)}}" class="banner" alt="Texas GIS Forum Main Image">
+          <div class="hidden-sm hidden-xs">
+            <img src="{{m.link(mainimage)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
           {% endif %} 
-            
-
+          {% if mainimagesm %}
+          <div class="hidden-md hidden-lg">
+            <img src="{{m.link(mainimagesm)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
+          {% endif %} 
+<!-- 
           <div class="top-header center-block">
               <div class="container">
                 <h2 class="logo-2015">Texas GIS Forum | October 26-29, 2015 | Austin, Texas</h2>
@@ -36,7 +42,7 @@
                     <div class="lead">{{abstract}}</div>
                   {% endif %}
               </div>
-          </div>
+          </div> -->
       </div>
   </div>
 
@@ -48,11 +54,12 @@
 {% endblock topcontent %}
 
 {% block contents %} 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse forum-bar">
   <div class="container">
     <ul class="nav navbar-nav">
         <li><a href="{{ m.link('2015-gis-forum')}}">Welcome</a></li>
-        <li><a href="{{ m.link('2015-gis-forum/call-for-papers')}}">Call For Presentations <span class="sr-only">(current)</span></a></li>
+        <li><a href="{{ m.link('2015-gis-forum/training')}}">Training</a></li>
+        <li><a href="{{ m.link('2015-gis-forum/call-for-papers')}}">Call For Presentations</a></li>
         <li><a href="{{ m.link('2015-gis-forum/sponsors-and-exhibitors')}}">Sponsors &amp; Exhibitors</a></li>
       </ul>
   </div>
