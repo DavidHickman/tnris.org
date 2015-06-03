@@ -6,7 +6,7 @@ var resourceGroup = ['$stateParams', 'PARTIALS_PATH', function ($stateParams, PA
       areaDataset: '='
     },
     templateUrl: PARTIALS_PATH + 'resourceGroup.html',
-    link: function($scope) {
+    link: function(scope) {
       //EventAction strings for GA event tracking
       switch (scope.areaDataset.area) {
         case 'statewide':
