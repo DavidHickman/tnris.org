@@ -467,7 +467,7 @@
     }
 
     h4 {
-      font-size: 17px;
+      font-size: 20px;
       margin-bottom: 5px;
       margin-top: 0;
     }
@@ -489,8 +489,8 @@
       padding-top: 5px;
     }
 
-    li:last-child {
-      margin-bottom: 18px;
+    li {
+      margin-bottom: 24px;
     }
 
     img {
@@ -559,7 +559,7 @@
         position: absolute;
 
         @include background-image(linear-gradient(to top, $darkgrey, transparent));
-        
+
         a {
           color: white;
           text-shadow: 1px 1px 1px #333;
