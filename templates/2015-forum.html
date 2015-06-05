@@ -28,28 +28,27 @@
           </div>
           {% endif %} 
           {% if mainimagesm %}
-          <div class="hidden-md hidden-lg">
+          <div class="hidden-xs hidden-md hidden-lg">
             <img src="{{m.link(mainimagesm)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
           </div>
           {% endif %} 
-<!-- 
-          <div class="top-header center-block">
-              <div class="container">
-                <h2 class="logo-2015">Texas GIS Forum | October 26-29, 2015 | Austin, Texas</h2>
-                  <h1>{{ subtitle }}</h1> 
 
-                  {% if abstract %}
-                    <div class="lead">{{abstract}}</div>
-                  {% endif %}
-              </div>
-          </div> -->
+          {% if mainimagexs %}
+          <div class="hidden-sm hidden-md hidden-lg">
+            <img src="{{m.link(mainimagexs)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
+          {% endif %} 
       </div>
   </div>
 
-<!-- <div class="forum-intro">
+<div class="_2015-forum-intro">
     <div class="container">
+      <a class="btn btn-lg btn-danger pull-right" href="{{ button_link}}"><i class="glyphicon glyphicon-hand-right"></i> {{ button_text }}</a>
+      <p class="lead">
+        {{ abstract }}
+      </p>
     </div>
-</div> -->
+</div>
 
 {% endblock topcontent %}
 
@@ -80,6 +79,9 @@
                 {% include "./partials/2015-forum/forum-map.html" %}   
         </div>
     </div>
+</section>
+<section class="forum-sponsors">
+  {% include "./partials/2015-forum/2015-forum-sponsors.html" %}
 </section>
 
 {% endblock contents-two %}

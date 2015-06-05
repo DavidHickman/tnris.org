@@ -4,13 +4,15 @@ title: Call for Presentations
 subtitle: Call for Presentations
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
 mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
-abstract: Share your knowledge with the Texas GIS Community
+mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
+abstract: Share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry. 
+button: callforpapers
+button_link: https://www.surveymonkey.com/s/HZQZM8D
+button_text: Submit a Presentation Proposal
 body_class: call-for-presentations
 ---
 
-TNRIS is pleased to invite you to participate as a presenter in this year's Texas GIS Forum.
-
-The Forum is a great opportunity to share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry.
+TNRIS is pleased to invite you to participate as a presenter in this year's Texas GIS Forum. The Forum doesn't happen without your important contribution!
 
 Please review the suggested topics of interest and the selection criteria prior to submitting an abstract.
 
@@ -38,7 +40,7 @@ Abstract selection is very competitive; please follow the format instructions ou
 
 The deadline for abstracts is June 19th, 2015.
 
-<a class="btn btn-lg btn-danger" href="https://www.surveymonkey.com/s/HZQZM8D">Click Here to Submit an Online Application</a>
+<a class="btn btn-lg btn-danger" href="https://www.surveymonkey.com/s/HZQZM8D"><i class="glyphicon glyphicon-hand-right"></i> Submit a Presentation Proposal</a>
 
 ## Acceptance
 

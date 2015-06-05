@@ -1,14 +1,37 @@
 @import "variables";
 
 #_2015-forum-container {
-  .forum-intro {
+
+  ._2015-forum-intro {
+    background: url(../images/texas-gis-forum/2015/forum_fade.jpg) right 0 no-repeat $forum2015blue;
+    color: white;
     font-size: 20px;
+    margin-bottom: 30px;
+    min-height: 150px;
+    padding: 30px 0;
+
+    .lead {
+      font-size: 24px;
+      margin-bottom: 0;
+      text-shadow: 1px 1px 1px $darkgrey;
+    }
+
+    .btn-lg {
+      font-size: 16px;
+
+      @media (min-width: $screen-sm) {
+        font-size: 20px;
+         min-width: 300px;
+      }
+    }
   }
 
   h2 {
     color: $forum2015blue;
   }
+
   .training-list {
+
   .training-header {
     background: $white;
 
@@ -26,6 +49,7 @@
   }
 
  .container-fluid.full {
+    margin-bottom: 0;
 
       img.banner {
         min-width: 100%;
@@ -68,4 +92,8 @@ h2.logo-2015 {
 .forum-bar {
   background: $forum2015blue;
   font-size: 20px;
+}
+
+.forum-sponsors {
+  background: $lightgrey;
 }
