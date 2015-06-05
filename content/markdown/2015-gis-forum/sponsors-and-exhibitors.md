@@ -4,12 +4,16 @@ title: Sponsors & Exhibitors
 subtitle: Texas GIS Forum | October 26th – 29th, 2015
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
 mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
+mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
+button: sponsors
+button_link: https://www.regonline.com/Register/Checkin.aspx?EventID=1717125
+button_text: Become a Forum Sponsor
 abstract: Partner with Texas's Premiere gathering for the Geospatial Professionals to reach your customers and your community.
 ---
 
 ## Sponsors & Exhibitors
 
-<p class="lead"><a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1717125" class="btn btn-danger btn-lg pull-right"><i class="glyphicon glyphicon-chevron-right"></i> Become a Forum Sponsor</a> TNRIS is pleased to invite you to participate in our 2015 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
+<p class="lead"> TNRIS is pleased to invite you to participate in our 2015 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
 
 ### Participating as a Sponsor and Exhibitor will:
 

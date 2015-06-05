@@ -4,8 +4,12 @@ title: 2015 Texas GIS Forum
 subtitle: At the Intersection of Geography and Technology
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
 mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
+mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
+button: registration
+button_link: https://www.regonline.com/Register/Checkin.aspx?EventID=1725172
+button_text: Register Now
 intro: true
-abstract: Save the date for the Texas GIS Forum, the premiere, statewide conference dedicated to spatial technology advancements in the government and private sectors.
+abstract: Save the date for the Texas GIS Forum, the state's premiere conference for the geospatial professional community.
 ---
 
 <h2><small>Keynote Speaker</small> <br>David Cowen</h2>
