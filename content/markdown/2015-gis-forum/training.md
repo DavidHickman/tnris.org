@@ -4,7 +4,9 @@ title: Forum Pre-Conference Training
 subtitle: Texas GIS Forum | October 26th – 29th, 2015
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
 mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
-abstract: Learn Stuff
+mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
+button: registration
+button_link: https://www.regonline.com/Register/Checkin.aspx?EventID=1725172
+button_text: Register Now
+abstract: Pre-Conference Training at the Texas GIS Forum is an opportunity for attendees to dive into in-depth workshops that further your professional skills and opportunities.
 ---
-
-<p class="lead">Pre-Conference Training at the Texas GIS Forum is an opportunity for attendees to dive into in-depth workshops that further your professional skills and opportunities.</p>
