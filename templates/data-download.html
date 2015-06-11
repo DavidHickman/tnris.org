@@ -100,6 +100,8 @@
 {% block scripts %}
   {% parent %}
 
+  <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.12/cartodb.js"></script>
+
   <!-- build:js {{m.based('js/data-download-vendor.js')}} -->
     <script type="text/javascript" src="{{m.based('bower_components/angular/angular.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angular-collection/angular-collection.min.js')}}"></script>
@@ -108,6 +110,7 @@
     <script type="text/javascript" src="{{m.based('bower_components/angular-ui-select/dist/select.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angulartics/dist/angulartics.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angulartics/dist/angulartics-ga.min.js')}}"></script>
+    <script type="text/javascript" src="{{m.based('bower_components/leaflet-plugins/layer/tile/Bing.js')}}"></script>
   <!-- endbuild -->
 
   <!-- build:js {{m.based('js/data-download.min.js')}} -->
@@ -125,7 +128,6 @@
     <script type="text/javascript" src="{{m.based('js/data-download/app.js')}}"></script>
   <!-- endbuild -->
 
-  <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.12/cartodb.js"></script>
 {% endblock scripts %}
 
 

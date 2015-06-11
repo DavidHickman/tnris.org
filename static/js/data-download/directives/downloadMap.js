@@ -1,4 +1,4 @@
-var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, MapService, CartoService) {
+var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, BING_API_KEY, MapService, CartoService) {
   return {
     restrict: 'EA',
     templateUrl: PARTIALS_PATH + 'downloadMap.html',
@@ -19,17 +19,20 @@ var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, MapService, 
 
         zoomTo('statewide').then(function() {
           // mapquest open aerial layer
-          var openAerial = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png',{
-            subdomains: '1234',
-            attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">'
-          });
+          //var openAerial = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png',{
+            //subdomains: '1234',
+            //attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">'
+          //});
+          //map.addLayer(openAerial);
+
+          var bing = new L.BingLayer(BING_API_KEY);
+          map.addLayer(bing);
 
           // positron layer
           var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',{
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
           });
 
-          map.addLayer(openAerial);
 
           cartodb.createLayer(map, CartoService.vizURL('data-download'), {https: true})
             .addTo(map)
