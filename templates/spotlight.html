@@ -11,14 +11,15 @@
 
     <div class="spot-title center-block">
       <div class="container">
+        <small>Data Spotlight</small>
+        <h1>{{title}}</h1>
+        <div class="byline">
+          by <author>{{author}}</author>, {{author_division}} | <time>{{date|date('F jS, Y')}}</time>
+        </div>
+        
         <div class="spot-zoom">
           <span class="glyphicon glyphicon-zoom-in"></span> 
           Click Image for Full Preview
-        </div>
-        <small>Data Spotlight <i class="fa fa-lightbulb-o"></i></small>
-        <h1>{{title}}</h1>
-        <div class="byline">
-          by <author>{{author}}<author>, {{author_division}} | <time>{{date|date('F jS, Y')}}</time>
         </div>
       </div>
     </div>
@@ -44,28 +45,36 @@
 
 {% block contents %}
   <div class="row article">
-    <div class="col-md-9 blog-main">
+    <div class="col-md-9">
        {{contents|safe}}
     </div>
   </div>
 {% endblock contents %}
 
 {% block contents-two %}
-
-<ul class="media-list">
+<section class="container-fluid feature-container">
+    <div class="row">
+      <h3 class="explore">Explore More Spotlights</h3>
   {% set count = 1 %}
   {% for spotlight in spotlights %}
     {% if (spotlight.id !== id) && count <= 3 %}
       {% set count += 1 %}
-      <li class="media list-clean">
-        <a href="{{m.link(spotlight.preserved)}}">
-          <img class="media-object img-responsive" src="{{m.link(spotlight.thumb)}}" alt="A small preview of the {{spotlight.title}} image">
-          <h4>{{spotlight.title}}</h4>
-        </a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+        <div class="feature col-sm-6 col-md-4">
+            <figure>
+                <a href="{{m.link(spotlight.preserved)}}">
+                <div class="vignette">
+                  <img class="feature-image" src="{{m.link(spotlight.thumb)}}" alt="A small preview of the {{spotlight.title}} image">
+                </div>
+                </a>
+            </figure>
+            <div class="feature-text bottom">                
+                <h4><a href="{{m.link(spotlight.preserved)}}">{{spotlight.title}}</a></h4>
+            </div>
+        </div>
 
+        {% endif %}
+      {% endfor %}
+      </div>
+    </section>
 {% endblock contents-two %}
 
