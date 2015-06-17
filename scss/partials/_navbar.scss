@@ -81,23 +81,24 @@
   &.maps-data-link {
     
     @media (min-width: $screen-md) {
-      background: url(../images/icons/folded-map-4.svg) 0 14px no-repeat;
-      background-size: 30px;
+      background: url(../images/icons/folded-map-white.svg) 0 15px no-repeat;
+      background-size: 25px;
       padding-left: 30px;
     }
 
     &:hover {
-      background-position: 0 -24px;
+      background: url(../images/icons/folded-map-blue.svg) 0 15px no-repeat;
+      background-size: 25px;
     }
   }
 
   &.gio {
     background: url(../images/icons/tx_icon.svg) 0 13px no-repeat;
-    background-size: 25px;
+    background-size: 23px;
     padding-left: 28px;
 
     &:hover {
-      background-position: 0 -28px;
+      background-position: 0 -25px;
     }
   }
 }
