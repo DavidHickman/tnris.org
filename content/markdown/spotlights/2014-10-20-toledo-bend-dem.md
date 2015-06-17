@@ -19,4 +19,4 @@ lakes.
 
 The TNRIS 2011 1M Shelby, Sabine and Newton LiDAR data was used to generate this image.
 
-{{macros.catalog_data_card('elevation-lidar/tnris-2011-1m-shelby-sabine-and-newton')}}
+{{m.catalog_data_card('elevation-lidar/tnris-2011-1m-shelby-sabine-and-newton')}}
