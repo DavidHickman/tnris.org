@@ -47,31 +47,25 @@
     <div class="col-md-9 blog-main">
        {{contents|safe}}
     </div>
-
-    {% block rightContent %}
-      <div class="col-md-3 blog-sidebar">
-        <div class="sidebar-module sidebar-module-inset">
-          <h3>More Spotlights</h3>
-          <div id="dataSpot">
-            <ul class="media-list">
-              {% set count = 1 %}
-              {% for spotlight in spotlights %}
-                {% if (spotlight.id !== id) && count <= 3 %}
-                  {% set count += 1 %}
-                  <li class="media">
-                    <a href="{{m.link(spotlight.preserved)}}">
-                      <img class="media-object img-responsive" src="{{m.link(spotlight.thumb)}}" alt="A small preview of the {{spotlight.title}} image">
-                      <h4>{{spotlight.title}}</h4>
-                    </a>
-                  </li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        <div class="sidebar-module">
-        </div>
-      </div>
-    {% endblock rightContent %}
   </div>
 {% endblock contents %}
+
+{% block contents-two %}
+
+<ul class="media-list">
+  {% set count = 1 %}
+  {% for spotlight in spotlights %}
+    {% if (spotlight.id !== id) && count <= 3 %}
+      {% set count += 1 %}
+      <li class="media list-clean">
+        <a href="{{m.link(spotlight.preserved)}}">
+          <img class="media-object img-responsive" src="{{m.link(spotlight.thumb)}}" alt="A small preview of the {{spotlight.title}} image">
+          <h4>{{spotlight.title}}</h4>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% endblock contents-two %}
+
