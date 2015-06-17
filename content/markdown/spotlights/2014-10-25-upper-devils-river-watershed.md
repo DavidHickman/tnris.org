@@ -16,10 +16,11 @@ The watershed is represented by the [USGS Water Shed Boundaries Dataset (WBD)](d
 {{macros.catalog_data_card('hydrography/watershed-boundaries')}}
 
 
-The extensive water network seen is represented in blue by the [National Hydrography Dataset (NHD)](data-catalog/hydrography/national-hydrography-dataset-nhd-and-texas-nhd-river-streams).
-{{macros.catalog_data_card('hydrography/national-hydrography-dataset-nhd-and-texas-nhd-river-streams')}}
+The extensive water network seen is represented in blue by the [National Hydrography Dataset (NHD)](data-catalog/hydrography/national-hydrography-dataset-nhd).
 
-The [National Elevation Dataset (NED)](data-catalog/elevation-image/tx-ned-2013) was used for elevations and is represented by the color ramp showing low areas in red with higher elevations in green.
+{{macros.catalog_data_card('hydrography/national-hydrography-dataset-nhd')}}
+
+The [National Elevation Dataset (NED)](data-catalog/elevation-image/national-elevation-dataset-ned-2013) was used for elevations and is represented by the color ramp showing low areas in red with higher elevations in green.
 
 {{macros.catalog_data_card('elevation-image/national-elevation-dataset-ned-2013')}}
 
