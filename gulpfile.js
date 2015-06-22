@@ -1,12 +1,5 @@
 'use strict';
 
-// TODO: sitemap generation is disabled due to a fatal dependency error in
-// metalsmith-sitemap package dependency chain:
-// see https://github.com/ExtraHop/metalsmith-sitemap/issues/7 for details
-//
-// be sure to re-enable sitemap generation when that issue is resolved and a
-// new, installable version of metalsmith-sitemap is available
-
 var _ = require('lodash');
 var clog = require('clog');
 var debug = require('debug')('tnris-site');
@@ -33,8 +26,7 @@ var replace = require('metalsmith-replace');
 var sass = require('gulp-ruby-sass');
 var scapegoat = require('scapegoat');
 var scsslint = require('gulp-scss-lint');
-// TODO: sitemap building temporarily disabled, see note at top of file
-//var sitemap = require('metalsmith-sitemap');
+var sitemap = require('metalsmith-sitemap');
 var swig = require('swig');
 var templates = require('metalsmith-templates');
 var trim = require('lodash.trim');
@@ -417,11 +409,10 @@ gulp.task('dist-metal', function () {
         .use(templates({
           engine: 'swig'
         }))
-        // TODO: sitemap building temporarily disabled, see note at top of file
-        //.use(sitemap({
-          //hostname: 'http://tnris.org',
-          //output: 'sitemap-main.xml'
-        //}))
+        .use(sitemap({
+          hostname: 'http://tnris.org',
+          output: 'sitemap-main.xml'
+        }))
       )
     .pipe(gulpif(production, gulp.dest(dirs.tmp), gulp.dest(dirs.dist)));
 });
@@ -462,13 +453,11 @@ gulp.task('dist-useref', ['dist-metal', 'dist-scss', 'dist-static'], function ()
       .pipe(gulp.dest(dirs.dist));
 });
 
-// TODO: sitemap building temporarily disabled, see note at top of file
-//gulp.task('dist-sitemap', ['dist-metal', 'sitemap-datadownload', 'sitemap-index'], function () {
-  //var sitemap_file = path.join(dirs.tmp, 'sitemap*.xml');
-  //return gulp.src(sitemap_file)
-    //.pipe(gulp.dest(dirs.dist));
-//});
-gulp.task('dist-sitemap', function () {});
+gulp.task('dist-sitemap', ['dist-metal', 'sitemap-datadownload', 'sitemap-index'], function () {
+  var sitemap_file = path.join(dirs.tmp, 'sitemap*.xml');
+  return gulp.src(sitemap_file)
+    .pipe(gulp.dest(dirs.dist));
+});
 
 gulp.task('sitemap-datadownload', function() {
   gulp.src(path.join(dirs.sitemap, 'sitemap-datadownload.xml'))
