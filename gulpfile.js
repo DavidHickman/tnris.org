@@ -328,7 +328,7 @@ gulp.task('dist-metal', function () {
         .use(parseCSV({
           name: 'forumtraining',
           path: 'content/forum-training.csv',
-          template: 'training-entry.html',
+          template: 'forum-training-entry.html',
           filenameKeys: ['class_title'],
           contentsKey: 'description',
           titleKey: 'class_title'

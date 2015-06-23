@@ -32,6 +32,16 @@
 
   .training-list {
 
+    .forum-course {
+    border-bottom: 1px solid $midlightgrey;
+    margin-bottom: 15px; 
+    padding-bottom: 15px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
   .training-header {
     background: $white;
 
