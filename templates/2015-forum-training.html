@@ -58,7 +58,6 @@
     <ul class="nav navbar-nav">
         <li><a href="{{ m.link('2015-gis-forum')}}">Welcome</a></li>
         <li><a href="{{ m.link('2015-gis-forum/training')}}">Training</a></li>
-        <li><a href="{{ m.link('2015-gis-forum/call-for-papers')}}">Call For Presentations</a></li>
         <li><a href="{{ m.link('2015-gis-forum/sponsors-and-exhibitors')}}">Sponsors &amp; Exhibitors</a></li>
       </ul>
   </div>
@@ -71,12 +70,12 @@
     <h2>Day 1 - Monday, October 26th</h2>
   {% for event in forumtraining %}
     {% if event.day == '1' %}
-    <div class="row training-header">
+    <div class="row training-header ">
       <div class="col-xs-3 col-sm-2">
         <i class="glyphicon glyphicon-time"></i> {{event.time}}
       </div>
       <div class="col-xs-9 col-sm-6">
-        <h3>{{event.class_title}}</h3></div>
+        <h3><a href="{{m.link(event.path)}}">{{event.class_title}}</a></h3></div>
       <div class="col-xs-6 col-sm-2 course-info">
         <strong>Taught by:</strong> <br>{{event.instructor}}
       </div>
@@ -87,16 +86,16 @@
         {{event.status}}
       </div>
   </div>
-  <div class="row course-description">
+  <div class="row course-description forum-course">
       <div class="col-xs-3 col-sm-2">
       </div>
       <div class="col-xs-9 col-sm-8">
         {{event.teaser}}
       </div>
       <div class="col-sm-1">
-<!--         <a class="btn btn-default btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
+        <a class="btn btn-danger btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
           Full Info
-        </a> -->
+        </a>
       </div>
       <div class="col-sm-1">
       </div>
@@ -106,12 +105,12 @@
     <h2>Day 2 - Tuesday, October 27th</h2>
   {% for event in forumtraining %}
     {% if event.day == '2' %}
-    <div class="row training-header">
+    <div class="row training-header ">
       <div class="col-xs-3 col-sm-2">
         <i class="glyphicon glyphicon-time"></i> {{event.time}}
       </div>
       <div class="col-xs-9 col-sm-6">
-        <h3>{{event.class_title}}</h3></div>
+        <h3><a href="{{m.link(event.path)}}">{{event.class_title}}</a></h3></div>
       <div class="col-xs-6 col-sm-2 course-info">
         <strong>Taught by:</strong> <br>{{event.instructor}}
       </div>
@@ -122,16 +121,16 @@
         {{event.status}}
       </div>
   </div>
-  <div class="row course-description">
+  <div class="row course-description forum-course">
       <div class="col-xs-3 col-sm-2">
       </div>
       <div class="col-xs-9 col-sm-8">
         {{event.teaser}}
       </div>
       <div class="col-sm-1">
-<!--         <a class="btn btn-default btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
+        <a class="btn btn-danger btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
           Full Info
-        </a> -->
+        </a>
       </div>
       <div class="col-sm-1">
       </div>
