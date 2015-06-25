@@ -2,9 +2,9 @@
   <div ng-repeat="areaDataset in areaDatasets">
     <div class="col-xs-12">
       <div ng-switch="areaDataset.area">
-        <h2 ng-switch-when="statewide">Texas Statewide Datasets</h2>
-        <h2 ng-switch-when="doqq">Digital Orthophoto Quarter Quad (DOQQ) Datasets</h2>
-        <h2 ng-switch-default>{{ name | titleize }} {{ areaDataset.area | titleize }} Datasets</h2>
+        <h2 ng-switch-when="statewide">Texas Statewide Imagery and GIS Data</h2>
+        <h2 ng-switch-when="doqq">Digital Orthophoto Quarter Quad (DOQQ) Imagery</h2>
+        <h2 ng-switch-default>{{ name | titleize }} {{ areaDataset.area | titleize }} Imagery and GIS Data</h2>
       </div>
 
       <div ng-switch="areaDataset.area">
