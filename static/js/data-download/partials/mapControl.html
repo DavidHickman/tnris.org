@@ -1,12 +1,12 @@
 <div ng-if="returnTo.statewide" class="returnTo">
-  <a ui-sref="statewide" title="Statewide Data">
+  <a class="btn btn-tnris" ui-sref="statewide" title="Statewide Data">
     <span class="fa fa-share fa-flip-horizontal" aria-hidden="true"></span>
     Texas
   </a>
 </div>
 
 <div ng-if="returnTo.county" class="returnTo">
-  <a ui-sref="county({name: returnTo.county})" title="{{returnTo.county}} County Data">
+  <a class="btn btn-tnris" ui-sref="county({name: returnTo.county})" title="{{returnTo.county}} County Data">
     <span class="fa fa-share fa-flip-horizontal" aria-hidden="true"></span>
     {{returnTo.county}} County
   </a>

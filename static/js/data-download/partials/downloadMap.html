@@ -3,12 +3,10 @@
     <h2>Texas</h2>
   </div>
   <div ng-switch-default>
-    <div class="row sink-from">
-      <div class="col-xs-12 col-sm-6">
-        <h2>{{name}} {{type}}</h2>
-      </div>
-      <div class="col-xs-12 col-sm-6 sink-this">
-        <div map-control class="map-control"></div>
+    <div class="row map-header">
+      <div class="col-xs-12">
+        <h2 class="pull-left">{{name}} {{type}}</h2>
+        <div map-control class="map-control pull-right"></div>
       </div>
     </div>
   </div>

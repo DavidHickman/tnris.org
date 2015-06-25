@@ -29,13 +29,11 @@ h2 {
   }
 }
 
-.sink-from {
-  position: relative;
+.map-header {
+  margin-top: 20px;
 
-  .sink-this {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+  h2 {
+    margin-top: 0px;
   }
 }
 
@@ -43,6 +41,7 @@ h2 {
   div {
     float: right;
     margin-left: 1em;
+    margin-bottom: 5px;
   }
 }
 
