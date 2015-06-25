@@ -33,67 +33,54 @@ var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, BING_API_KEY
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
           });
 
+          // returns sublayer from layer with layer_name === find_name
+          function findSubLayer (layer, find_name) {
+            var index = _.findIndex(layer.layers, function(iter_layer) {
+              return iter_layer.options.layer_name === find_name;
+            });
+            return layer.getSubLayer(index);
+          }
+
+          function setListeners(sublayer, stateName, extractParamFunc) {
+            sublayer.on('featureOver', function(e, latlng, pos, data) {
+              scope.hovered = extractParamFunc(data);
+              scope.$digest();
+            });
+            sublayer.on('featureOut', function(e, latlng, pos, data) {
+              scope.hovered = {};
+              scope.$digest();
+            });
+            sublayer.on('featureClick', function(e, latlng, pos, data) {
+              if (data.c_lat && data.c_lon) {
+                map.setView([data.c_lat, data.c_lon], 12, {animate: false});
+              }
+
+              $state.go(stateName, extractParamFunc(data));
+            });
+          }
 
           cartodb.createLayer(map, CartoService.vizURL('data-download'), {https: true})
             .addTo(map)
             .on('done', function(layer) {
-              // returns sublayer from layer with layer_name === find_name
-              function findSubLayer (layer, find_name) {
-                var index = _.findIndex(layer.layers, function(iter_layer) {
-                  return iter_layer.options.layer_name === find_name;
-                });
-                return layer.getSubLayer(index);
-              }
-
               counties = findSubLayer(layer, "counties");
-              quads = findSubLayer(layer, "quads");
-              findSubLayer(layer, "quad labels").setInteraction(false);
+              quads = findSubLayer(layer, 'qquads');
 
-              function setListeners(sublayer, stateName, extractParamFunc) {
-                sublayer.on('featureOver', function(e, latlng, pos, data) {
-                  scope.hovered = extractParamFunc(data);
-                  scope.$digest();
-                });
-                sublayer.on('featureOut', function(e, latlng, pos, data) {
-                  scope.hovered = {};
-                  scope.$digest();
-                });
-                sublayer.on('featureClick', function(e, latlng, pos, data) {
-                  if (data.c_lat && data.c_lon) {
-                    map.setView([data.c_lat, data.c_lon], 12, {animate: false});
-                  }
-
-                  $state.go(stateName, extractParamFunc(data));
-                });
-              }
-
-              setListeners(counties, 'county', function(data) {
-                return {
-                  name: data.name
-                };
-              });
               setListeners(quads, 'quad', function(data) {
                 return {
                   name: data.quadname
                 };
               });
 
+              setListeners(counties, 'county', function(data) {
+                return {
+                  name: data.name
+                };
+              });
+
+
               updateMapState();
             });
         });
-
-
-        function show(layer) {
-          if (layer) {
-            layer.show();
-          }
-        }
-
-        function hide(layer) {
-          if (layer) {
-            layer.hide();
-          }
-        }
 
         function setInteractiveLayer(layername) {
           if (layername === "counties") {
