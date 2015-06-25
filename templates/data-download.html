@@ -43,20 +43,18 @@
   </div>
 
   <div class="row">
-    <div class="col-xs-12">
-      <p>GIS and imagery datasets are available at four levels: State, County, Quadrangle, and Quarter-Quadrangle.</p>
+    <div class="col-xs-12 col-sm-10 col-md-8">
+      <p>
+        GIS and imagery datasets are available at four levels: State, County,
+        Quadrangle, and Quarter-Quadrangle. Use the drop-down menus to search by
+        name, or click on the map to explore different regions.
+      </p>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>Search</h2>
-    </div>
-  </div>
-
-  <div class="row">
+  <div class="row search">
     <div class="col-xs-12 col-md-6">
-      <div class="search search-county">
+      <div>
         <h3>County</h3>
         <form id="countyForm" class="form-inline">
           <div ui-select ng-model="county.selected" theme="selectize">
@@ -69,7 +67,7 @@
       </div>
     </div>
     <div class="col-xs-12 col-md-6">
-      <div class="search search-quad">
+      <div>
         <h3>Quadrangle</h3>
         <form id="quadForm" class="form-inline">
           <div ui-select ng-model="quad.selected" theme="selectize">
