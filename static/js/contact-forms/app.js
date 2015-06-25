@@ -5,7 +5,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
   .controller('FormController',
     ['$scope', '$http', '$log', '$window', 'UploadService', 'CONTACT_SUBMIT_URL',
     function($scope, $http, $log, $window, UploadService, CONTACT_SUBMIT_URL) {
-  
+
       $scope.master = {};
       $scope.errors = {};
       $scope.status = 'not submitted';
@@ -69,7 +69,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
       // exist on a given form
       $scope.uploadZipFile = function ($files, $event) {
         resetUpload();
-        
+
         if (!$files || !$files.length) {
           return;
         }

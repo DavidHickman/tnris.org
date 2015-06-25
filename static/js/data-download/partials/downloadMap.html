@@ -1,0 +1,39 @@
+<div ng-switch="type">
+  <div ng-switch-when="statewide">
+    <h2>Texas Map</h2>
+  </div>
+  <div ng-switch-default>
+    <div class="row map-header">
+      <div class="col-xs-12">
+        <h2 class="pull-left">{{name}} {{type}} Map</h2>
+        <div map-control class="map-control pull-right"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="map">
+  <div id="mapInfo">
+    <div ng-switch="type">
+      <div ng-switch-when="statewide">
+        <div ng-if="!hovered.name">
+          Use map to select a county.
+        </div>
+        <div ng-if="hovered.name">
+          Go to {{hovered.name}} county.
+        </div>
+      </div>
+      <div ng-switch-default>
+        <div ng-if="!hovered.name">
+          Use map to select a quad.
+        </div>
+        <div ng-if="hovered.name && (hovered.name != name)">
+          Go to {{hovered.name}} quad.
+        </div>
+        <div ng-if="hovered.name == name">
+          &nbsp
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
