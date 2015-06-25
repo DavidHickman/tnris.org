@@ -59,7 +59,12 @@ var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, BING_API_KEY
             });
           }
 
-          cartodb.createLayer(map, CartoService.vizURL('data-download'), {https: true})
+          var cartoDBOptions = {
+            cartodb_logo: false,
+            https: true
+          };
+
+          cartodb.createLayer(map, CartoService.vizURL('data-download'), cartoDBOptions)
             .addTo(map)
             .on('done', function(layer) {
               counties = findSubLayer(layer, "counties");
