@@ -1,3 +1,5 @@
+/*eslint "no-undef": false*/
+/*global angular*/
 var dataDownloadApp = function () {
   'use strict';
 
@@ -7,7 +9,7 @@ var dataDownloadApp = function () {
     window.location = loc.replace('#', '#!');
   }
 
-  var dataDownloadApp = angular.module('dataDownloadApp', [
+  var app = angular.module('dataDownloadApp', [
     'angulartics',
     'angulartics.google.analytics',
     'ngCollection',
@@ -169,5 +171,5 @@ var dataDownloadApp = function () {
     });
 
 
-  return dataDownloadApp;
+  return app;
 }();

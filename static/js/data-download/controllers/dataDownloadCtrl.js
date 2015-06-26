@@ -1,3 +1,4 @@
+/* globals _*/
 var dataDownloadCtrl = function ($scope, $state, DataService) {
   'use strict';
 

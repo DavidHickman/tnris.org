@@ -1,4 +1,6 @@
 var resourceGroup = ['$stateParams', 'PARTIALS_PATH', function ($stateParams, PARTIALS_PATH) {
+  'use strict';
+
   return {
     restrict: 'EA',
     scope: {
