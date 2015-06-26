@@ -48,15 +48,21 @@
         </div>
       </div>
       <div ng-switch-default>
+        <div class="col-md-12" ng-show="aerialsYears.length">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="panel panel-primary">
+                <div class="panel-body">
+                  Historical Aerial Imagery of {{name | titleize}} County is available in the TNRIS archives for the following years: <br/> {{ aerialsYears.join(', ')}}. <br/>
+                  The imagery is not available online, but you can use the <a href="/order-data" title="Order Data">Order Data form</a> to request historical
+                  imagery for one or more of these years.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div ng-repeat="group in areaDataset.groups" class="col-md-4">
           <div resource-group group="group" area-dataset="areaDataset"></div>
-        </div>
-        <div class="col-md-12" ng-show="aerialsYears.length">
-          <h3>Historical Aerial Imagery for {{name | titleize}} County</h3>
-          <p>
-            Historical aerial imagery for {{name | titleize}} County is available for the following years: {{ aerialsYears.join(', ')}}. <br/>
-            Use the TNRIS <a href="/order-data" title="Order Data">Order Data form</a> to request historical imagery for one or more of these years.
-          </p>
         </div>
       </div>
     </div>
