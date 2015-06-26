@@ -1,4 +1,5 @@
-var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoService', function ($collection, $http, $q, mapImageUrlPre, CartoService)  {
+/*global L*/
+var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoService', function ($collection, $http, $q, mapImageUrlPre, CartoService) {
   'use strict';
 
   function processSQL (data, nameField) {
@@ -6,7 +7,6 @@ var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoServi
       return {};
     }
     if (data.rows.length > 1) {
-      console.log("WARNING: More than 1 result returned from SQL query.");
       return {};
     }
     var obj = data.rows[0];
