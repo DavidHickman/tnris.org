@@ -6,9 +6,7 @@ var CartoService = ['$http', 'CARTODB_CONFIG', function ($http, config) {
   var baseURL = 'https://' + config.account + '.cartodb.com/api/v2/';
 
   CartoService.vizURL = function (type) {
-    var vizId = config[type].vizId;
-
-    return baseURL + 'viz/' + vizId + '/viz.json';
+    return baseURL + 'viz/' + config[type].viz_id + '/viz.json';
   };
 
   CartoService.sql = function (query) {
