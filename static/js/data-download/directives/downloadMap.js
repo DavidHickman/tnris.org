@@ -1,4 +1,7 @@
+/* globals _, cartodb, L */
 var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, BING_API_KEY, MapService, CartoService) {
+  'use strict';
+
   return {
     restrict: 'EA',
     templateUrl: PARTIALS_PATH + 'downloadMap.html',
@@ -28,15 +31,10 @@ var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, BING_API_KEY
           var bing = new L.BingLayer(BING_API_KEY);
           map.addLayer(bing);
 
-          // positron layer
-          var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',{
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
-          });
-
-          // returns sublayer from layer with layer_name === find_name
-          function findSubLayer (layer, find_name) {
-            var index = _.findIndex(layer.layers, function(iter_layer) {
-              return iter_layer.options.layer_name === find_name;
+          // returns sublayer from layer with layer_name === findName
+          function findSubLayer (layer, findName) {
+            var index = _.findIndex(layer.layers, function(iterLayer) {
+              return iterLayer.options.layer_name === findName;
             });
             return layer.getSubLayer(index);
           }
@@ -67,7 +65,7 @@ var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, BING_API_KEY
           cartodb.createLayer(map, CartoService.vizURL('data-download'), cartoDBOptions)
             .addTo(map)
             .on('done', function(layer) {
-              counties = findSubLayer(layer, "counties");
+              counties = findSubLayer(layer, 'counties');
               quads = findSubLayer(layer, 'qquads');
 
               setListeners(quads, 'quad', function(data) {
@@ -88,13 +86,21 @@ var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, BING_API_KEY
         });
 
         function setInteractiveLayer(layername) {
-          if (layername === "counties") {
-            counties && counties.setInteraction(true);
-            quads && quads.setInteraction(false);
+          if (layername === 'counties') {
+            if (counties) {
+              counties.setInteraction(true);
+            }
+            if (quads) {
+              quads.setInteraction(false);
+            }
           }
-          if (layername === "quads") {
-            counties && counties.setInteraction(false);
-            quads && quads.setInteraction(true);
+          if (layername === 'quads') {
+            if (counties) {
+              counties.setInteraction(false);
+            }
+            if (quads) {
+              quads.setInteraction(true);
+            }
           }
         }
 

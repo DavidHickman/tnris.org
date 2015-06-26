@@ -1,4 +1,6 @@
 var mapControl = function ($compile, $http, $state, PARTIALS_PATH, MapService, CartoService) {
+  'use strict';
+
   return {
     restrict: 'EA',
     templateUrl: PARTIALS_PATH + 'mapControl.html',
