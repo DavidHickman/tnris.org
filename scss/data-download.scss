@@ -17,16 +17,18 @@ h2 {
 }
 
 #mapInfo {
-  display: none;
   position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   z-index: 10;
+  padding-left: 15px;
+  font-size: 14px;
 
-  div {
-    margin-left: 15px;
+  em {
+    font-style: inherit;
+    font-weight: bold;
   }
 }
 

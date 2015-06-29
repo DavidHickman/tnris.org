@@ -17,18 +17,18 @@
     <div ng-switch="type">
       <div ng-switch-when="statewide">
         <div ng-if="!hovered.name">
-          Use map to select a county.
+          Use map to select a county
         </div>
         <div ng-if="hovered.name">
-          Go to {{hovered.name}} county.
+          Go to <em>{{hovered.name}} County</em>
         </div>
       </div>
       <div ng-switch-default>
         <div ng-if="!hovered.name">
-          Use map to select a quad.
+          Use map to select a quad
         </div>
         <div ng-if="hovered.name && (hovered.name != name)">
-          Go to {{hovered.name}} quad.
+          Go to <em>{{hovered.name}} Quad</em>
         </div>
         <div ng-if="hovered.name == name">
           &nbsp
