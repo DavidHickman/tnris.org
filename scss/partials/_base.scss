@@ -17,7 +17,7 @@ body {
   @include transition(opacity 0.1s linear);
 
   .wf-loading & {
-    opacity: 0;
+    opacity: 1;
   }
 
   .wf-active &, .wf-inactive & {
@@ -158,7 +158,7 @@ h2 {
 
     h4 {
       color: $lightgrey;
-    	
+
       a {
     		color: $lightgrey;
     	}
@@ -287,17 +287,17 @@ blockquote {
     display: block;
   }
 
-  .top-container {  
+  .top-container {
     position: relative;
     min-height: 200px;
 
-    .top-header { 
+    .top-header {
       color: white;
       text-shadow: 0 0 4px black;
       background: rgba(0, 0, 0, .75);
       height: auto;
       position: absolute;
-      z-index: 100;    
+      z-index: 100;
       bottom: 0;
       margin: 0 auto;
       width: 100%;
@@ -347,11 +347,11 @@ blockquote {
     a {
       color: $tnrisblue;
     }
-    
+
     &.alert-dismissible {
       .container {
         position: relative;
-        
+
         .close {
           font-size: 14px;
           text-transform: uppercase;
@@ -402,18 +402,18 @@ ul.news-list {
     .media {
       border-bottom: 1px solid $midgrey;
       margin-top: 25px;
-      
+
       h3 {
         font-size: 20px;
-        
+
         @media (min-width: $screen-xs) {
           font-size: 22px;
         }
       }
-      
+
       p {
         font-size: 15px;
-        margin-bottom: 25px;      
+        margin-bottom: 25px;
       }
 
       img {
@@ -421,7 +421,7 @@ ul.news-list {
         width: 100px;
         margin-bottom: 15px;
       }
-      
+
       &:first-child {
         margin-top: 0;
         padding-left: 0;
@@ -456,9 +456,9 @@ ul.news-list {
   padding: 30px;
 
   &:before {
-    content: open-quote; 
+    content: open-quote;
   }
-  &:after  { 
+  &:after  {
     content: close-quote;
   }
 
@@ -491,7 +491,7 @@ ul.news-list {
   }
 }
 
-// Custom Modal 
+// Custom Modal
 .modal-header {
   padding: 0 10px;
 }
