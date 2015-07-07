@@ -1,3 +1,4 @@
+/*global _*/
 var CountyService = ['COUNTIES', function (COUNTIES) {
   'use strict';
 

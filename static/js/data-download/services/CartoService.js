@@ -1,4 +1,4 @@
-var CartoService = ['$http', 'CARTODB_CONFIG', function ($http, config)  {
+var CartoService = ['$http', 'CARTODB_CONFIG', function ($http, config) {
   'use strict';
 
   CartoService = {};
@@ -6,9 +6,7 @@ var CartoService = ['$http', 'CARTODB_CONFIG', function ($http, config)  {
   var baseURL = 'https://' + config.account + '.cartodb.com/api/v2/';
 
   CartoService.vizURL = function (type) {
-    var viz_id = config[type].viz_id;
-
-    return baseURL + 'viz/' + viz_id + '/viz.json';
+    return baseURL + 'viz/' + config[type].viz_id + '/viz.json';
   };
 
   CartoService.sql = function (query) {
@@ -16,7 +14,7 @@ var CartoService = ['$http', 'CARTODB_CONFIG', function ($http, config)  {
 
     return $http.get(url, {
       params: {
-        q: query,
+        q: query
       }
     })
     .then(function (resp) {
