@@ -9,7 +9,6 @@
       swfobject.getFlashPlayerVersion().major !== 0 ? 'flash' : 'no-flash'
     );
 
-
     // Nav scroll spy
     $('body').scrollspy({ target: '.wms-nav-container', offset: 130 });
 
