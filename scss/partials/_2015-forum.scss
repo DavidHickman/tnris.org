@@ -32,6 +32,16 @@
 
   .training-list {
 
+    .forum-course {
+    border-bottom: 1px solid $midlightgrey;
+    margin-bottom: 15px; 
+    padding-bottom: 15px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
   .training-header {
     background: $white;
 
@@ -96,4 +106,13 @@ h2.logo-2015 {
 
 .forum-sponsors {
   background: $lightgrey;
+  padding-bottom: 40px;
+
+  img {
+    margin-right: 30px;
+  }
+
+  .sponsors-platinum img {
+    max-width: 300px;
+  }
 }

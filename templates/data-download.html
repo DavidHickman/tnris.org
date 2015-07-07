@@ -30,6 +30,8 @@
     <script src="{{m.based('bower_components/xdomain/dist/xdomain.min.js')}}"
               slave="//s3.amazonaws.com/tnris-datadownload/xdomain-proxy.html"></script>
   <![endif]-->
+
+  <link rel="stylesheet" href="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.12/themes/css/cartodb.css"/>
 {% endblock styles %}
 
 {% block contents %}
@@ -41,20 +43,18 @@
   </div>
 
   <div class="row">
-    <div class="col-xs-12">
-      <p>GIS and imagery datasets are available at four levels: State, County, Quadrangle, and Quarter-Quadrangle.</p>
+    <div class="col-xs-12 col-sm-10 col-md-8">
+      <p>
+        GIS and imagery datasets are available at four levels: State, County,
+        Quadrangle, and Quarter-Quadrangle. Use the drop-down menus to search by
+        name, or click on the map to explore different regions.
+      </p>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>Search</h2>
-    </div>
-  </div>
-
-  <div class="row">
+  <div class="row search">
     <div class="col-xs-12 col-md-6">
-      <div class="search search-county">
+      <div>
         <h3>County</h3>
         <form id="countyForm" class="form-inline">
           <div ui-select ng-model="county.selected" theme="selectize">
@@ -67,7 +67,7 @@
       </div>
     </div>
     <div class="col-xs-12 col-md-6">
-      <div class="search search-quad">
+      <div>
         <h3>Quadrangle</h3>
         <form id="quadForm" class="form-inline">
           <div ui-select ng-model="quad.selected" theme="selectize">
@@ -84,13 +84,8 @@
   </div>
 
   <div class="row">
-    <div class="col-xs-12">
-      <div class="return-statewide search" ng-if="!('statewide' | isState) && !('' | isState)">
-        <a ui-sref="statewide" id="linkStatewide" style="" title="Return to Statewide Dataset Download">
-          <span class="fa fa-share fa-flip-horizontal" aria-hidden="true"></span>
-          Return to Statewide
-        </a>
-      </div>
+    <div class="col-xs-12 search downloadMap">
+      <div download-map></div>
     </div>
   </div>
 
@@ -103,6 +98,8 @@
 {% block scripts %}
   {% parent %}
 
+  <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.12/cartodb.js"></script>
+
   <!-- build:js {{m.based('js/data-download-vendor.js')}} -->
     <script type="text/javascript" src="{{m.based('bower_components/angular/angular.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angular-collection/angular-collection.min.js')}}"></script>
@@ -111,20 +108,24 @@
     <script type="text/javascript" src="{{m.based('bower_components/angular-ui-select/dist/select.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angulartics/dist/angulartics.min.js')}}"></script>
     <script type="text/javascript" src="{{m.based('bower_components/angulartics/dist/angulartics-ga.min.js')}}"></script>
+    <script type="text/javascript" src="{{m.based('bower_components/leaflet-plugins/layer/tile/Bing.js')}}"></script>
   <!-- endbuild -->
 
   <!-- build:js {{m.based('js/data-download.min.js')}} -->
+    <script type="text/javascript" src="{{m.based('js/data-download/services/CartoService.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/services/DataService.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/services/MapService.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/services/CountyService.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/services/HistoricalAerialsService.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/directives/includeMap.js')}}"></script>
+    <script type="text/javascript" src="{{m.based('js/data-download/directives/downloadMap.js')}}"></script>
+    <script type="text/javascript" src="{{m.based('js/data-download/directives/mapControl.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/directives/resourceGroup.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/filters/titleizeFilter.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/controllers/dataDownloadCtrl.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/counties.js')}}"></script>
     <script type="text/javascript" src="{{m.based('js/data-download/app.js')}}"></script>
   <!-- endbuild -->
+
 {% endblock scripts %}
 
 

@@ -1,28 +1,68 @@
 @import "partials/variables";
 
-.return-statewide {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
 h2 {
   text-transform: uppercase;
 }
 
 .search {
+  margin-top: 5px;
   h3 {
     margin-top: 0px;
   }
 }
 
-#mapFrame {
-  margin-bottom: 20px;
+#map {
+  height: 600px;
+  width: 100%;
+  cursor: inherit;
 }
 
-#mapColumn {
-  width: 555px;
-  margin-left: auto;
-  margin-right: auto;
+#mapInfo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 10;
+  padding-left: 15px;
+
+  div {
+    font-size: 1rem;
+    min-height: 22px;
+
+    em {
+      font-style: inherit;
+      font-weight: bold;
+    }
+  }
+}
+
+.map-header {
+  margin-top: 20px;
+
+  h2 {
+    margin-top: 0px;
+  }
+}
+
+.map-control {
+  div {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 5px;
+  }
+}
+
+.downloadMap {
+  div.cartodb-tooltip {
+    visibility: hidden;
+    display: none;
+  }
+
+  div.cartodb-infowindow {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 .resourceGroup {

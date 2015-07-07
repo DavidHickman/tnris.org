@@ -1,3 +1,5 @@
+/*eslint "no-undef": false*/
+/*global angular*/
 var dataDownloadApp = function () {
   'use strict';
 
@@ -7,7 +9,7 @@ var dataDownloadApp = function () {
     window.location = loc.replace('#', '#!');
   }
 
-  var dataDownloadApp = angular.module('dataDownloadApp', [
+  var app = angular.module('dataDownloadApp', [
     'angulartics',
     'angulartics.google.analytics',
     'ngCollection',
@@ -15,13 +17,30 @@ var dataDownloadApp = function () {
     'ui.router',
     'ui.select'
   ])
+    .factory('CartoService', CartoService)
     .factory('DataService', DataService)
     .factory('MapService', MapService)
     .factory('CountyService', CountyService)
     .factory('HistoricalAerialsService', HistoricalAerialsService)
-    .directive('includeMap', includeMap)
+    .directive('mapControl', mapControl)
+    .directive('downloadMap', downloadMap)
     .directive('resourceGroup',  resourceGroup)
     .filter('titleize',  titleizeFilter)
+    .constant('CARTODB_CONFIG', {
+      account: 'tnris',
+      'data-download': {
+        viz_id: 'eef97f1a-063b-11e5-a187-0e9d821ea90d'
+      },
+      county: {
+        table: 'county_extended',
+        nameField: 'name'
+      },
+      quad: {
+        table: 'usgs_doq_names_wgs84',
+        nameField: 'quadname'
+      }
+    })
+    .constant('BING_API_KEY', 'Ar54FaSONDkvSeqhwoBnBW61JYlThqD8XVtwlaRAcUZDfKQzDjo2kjkMLKT3LCVi')
     .constant('MAP_IMAGE_URL_PRE', '//s3.amazonaws.com/tnris-datadownload/')
     .constant('DOWNLOAD_URL_PRE', '//tg-twdb-gemss.s3.amazonaws.com')
     .constant('DOWNLOAD_API_PRE', '//tnris.org/data-download/api/v1')
@@ -64,9 +83,6 @@ var dataDownloadApp = function () {
           templateUrl: resultsTemplate,
           controller: function($scope, $rootScope, DataService) {
             $scope.category = 'Statewide';
-
-            $scope.map = null;
-
             $rootScope.pageTitle = 'Texas Statewide';
 
             DataService.getAreaDatasets('state', 'texas')
@@ -101,9 +117,6 @@ var dataDownloadApp = function () {
           controller: function($scope, $rootScope, $stateParams, $filter, DataService, MapService, CountyService, HistoricalAerialsService) {
             $scope.category = 'County';
             $scope.name = _.clone($stateParams.name);
-
-            $scope.map = MapService.find('counties', $scope.name);
-
             $rootScope.pageTitle = $filter('titleize')($scope.name) + ' County';
 
             var fips = CountyService.getFipsForName($scope.name);
@@ -130,8 +143,6 @@ var dataDownloadApp = function () {
           controller: function($scope, $rootScope, $stateParams, $collection, $filter, DataService, MapService) {
             $scope.category = 'Quad';
             $scope.name = $stateParams.name;
-
-            $scope.map = MapService.find('quads', $scope.name);
 
             $rootScope.pageTitle = $filter('titleize')($scope.name) + ' Quad';
 
@@ -160,5 +171,5 @@ var dataDownloadApp = function () {
     });
 
 
-  return dataDownloadApp;
+  return app;
 }();

@@ -1,3 +1,4 @@
+/*global _*/
 var HistoricalAerialsService = ['$http', 'HISTORICAL_AERIALS_URL', function ($http, HISTORICAL_AERIALS_URL) {
   'use strict';
 

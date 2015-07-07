@@ -6,7 +6,7 @@ abstract:
 ---
 
 TNRIS was established by the Legislature in 1968 as the Texas Water-Oriented Data Bank. In 1972, after four years of growth and diversification, it was 
-renamed the Texas Natural Resources Information System.
+renamed the Texas Natural Resources Information System. 
 
 TNRIS is defined as the following in [Sec. 16.021](http://www.statutes.legis.state.tx.us/Docs/WA/htm/WA.16.htm) of the Texas Water Code:
 

@@ -1,4 +1,5 @@
-var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collection, $http, downloadAPIPre)  {
+/*global _*/
+var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collection, $http, downloadAPIPre) {
   'use strict';
   DataService = {};
 
@@ -8,13 +9,12 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
 
     if (!_.isUndefined(name)) {
       // case insensitive pattern match in name
-      filter += " AND name LIKE ";
+      filter += ' AND name LIKE ';
 
       // strict matching for datasets, non-strict for search
       if (strict) {
         filter += "'" + name + "'";
-      }
-      else {
+      } else {
         filter += "'%" + name + "%'";
       }
     }
@@ -42,7 +42,7 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
         return $http.get(downloadAPIPre + '/resources', {
           params: {
             filter: filter,
-            include: "Dataset"
+            include: 'Dataset'
           }
         });
       })
@@ -53,15 +53,15 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
           })
           .pairs()
           .map(function(pair) {
-            var resources = _.sortBy(pair[1], 'name');
+            var subResources = _.sortBy(pair[1], 'name');
 
-            if(type === 'qquad') {
-              resources = resources.reverse()
+            if (type === 'qquad') {
+              subResources = subResources.reverse();
             }
 
             return {
               name: pair[0],
-              resources: resources
+              resources: subResources
             };
           })
           .sortBy('name')

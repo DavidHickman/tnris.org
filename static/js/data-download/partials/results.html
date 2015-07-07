@@ -1,40 +1,17 @@
-<div ng-if="map">
-  <div class="row">
-    <div class="col-xs-12 search">
-      <div id="mapColumn">
-        <div id="mapFrame">
-          <div ng-switch="category">
-            <div ng-switch-when="Quad">
-              <h3>2004 NAIP Imagery for <strong>{{ name | titleize }} Quad</strong></h3>
-              <p>Click on adjacent quads to pan.</p>
-            </div>
-            <div ng-switch-when="County">
-              <h3><strong>{{ name | titleize }} County</strong> Map View</h3>
-              <p>Click on a quad to zoom in.</p>
-            </div>
-          </div>
-          <div include-map="map.imageMap"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="row">
   <div ng-repeat="areaDataset in areaDatasets">
     <div class="col-xs-12">
       <div ng-switch="areaDataset.area">
-        <h2 ng-switch-when="statewide">Texas Statewide Datasets</h2>
-        <h2 ng-switch-when="doqq">Digital Orthophoto Quarter Quad (DOQQ) Datasets</h2>
-        <h2 ng-switch-default>{{ name | titleize }} {{ areaDataset.area | titleize }} Datasets</h2>
+        <h2 ng-switch-when="statewide">Texas Statewide Imagery and GIS Data</h2>
+        <h2 ng-switch-when="doqq">Digital Orthophoto Quarter Quad (DOQQ) Imagery</h2>
+        <h2 ng-switch-default>{{ name | titleize }} {{ areaDataset.area | titleize }} Imagery and GIS Data</h2>
       </div>
 
       <div ng-switch="areaDataset.area">
         <p ng-switch-when="doqq" class="previewInfo">
-          Orthophotos following the standard USGS Quarter Quad Grid.
+          These orthophotos follow the standard USGS Quarter Quad Grid.
         </p>
         <p ng-switch-default class="previewInfo">
-          Click on a link to download a compressed file containing the data to your local drive.
         </p>
       </div>
     </div>
@@ -71,15 +48,21 @@
         </div>
       </div>
       <div ng-switch-default>
+        <div class="col-md-12" ng-show="aerialsYears.length">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="panel panel-primary">
+                <div class="panel-body">
+                  Historical Aerial Imagery of {{name | titleize}} County is available in the TNRIS archives for the following years: <br/> {{ aerialsYears.join(', ')}}. <br/>
+                  The imagery is not available online, but you can use the <a href="/order-data" title="Order Data">Order Data form</a> to request any of the
+                  historical imagery.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div ng-repeat="group in areaDataset.groups" class="col-md-4">
           <div resource-group group="group" area-dataset="areaDataset"></div>
-        </div>
-        <div class="col-md-12" ng-show="aerialsYears.length">
-          <h3>Historical Aerial Imagery for {{name | titleize}} County</h3>
-          <p>
-            Historical aerial imagery for {{name | titleize}} County is available for the following years: {{ aerialsYears.join(', ')}}. <br/>
-            Use the TNRIS <a href="/order-data" title="Order Data">Order Data form</a> to request historical imagery for one or more of these years.
-          </p>
         </div>
       </div>
     </div>
