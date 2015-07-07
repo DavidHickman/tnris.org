@@ -12,7 +12,7 @@
   </div>
 </div>
 
-<div id="map">
+<div id="map" ng-class="{hovered: hovered.name && (hovered.name !== name)}">
   <div id="mapInfo">
     <div ng-switch="type">
       <div ng-switch-when="statewide">
