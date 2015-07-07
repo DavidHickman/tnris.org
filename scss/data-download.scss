@@ -22,14 +22,18 @@ h2 {
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   z-index: 10;
   padding-left: 15px;
-  font-size: 14px;
 
-  em {
-    font-style: inherit;
-    font-weight: bold;
+  div {
+    font-size: 1rem;
+    min-height: 22px;
+
+    em {
+      font-style: inherit;
+      font-weight: bold;
+    }
   }
 }
 
