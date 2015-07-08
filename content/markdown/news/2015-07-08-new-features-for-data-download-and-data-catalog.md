@@ -26,7 +26,7 @@ At each level, the available datasets are quickly populated on the page.
 <a class="btn btn-lg btn-danger" href="{{m.link('data-download')}}"><i class="glyphicon glyphicon-new-window"></i> Try out the improved Data Download</a>
 
 
-## Expanding the Catalog with Outside Sources 
+## Expanding the Catalog with More Sources 
 
 The [Data Catalog](data-catalog) showcases each available dataset at TNRIS. The goal is to expand and provide a centralized hub for public geospatial datasets for the State of Texas.
 
