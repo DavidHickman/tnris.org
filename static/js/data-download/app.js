@@ -17,6 +17,7 @@ var dataDownloadApp = function () {
     'ui.router',
     'ui.select'
   ])
+    .factory('BrowserService', BrowserService)
     .factory('CartoService', CartoService)
     .factory('DataService', DataService)
     .factory('MapService', MapService)

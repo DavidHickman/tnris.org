@@ -1,11 +1,11 @@
 {%- import "_macros.html" as m -%}
 <!DOCTYPE html>
 {# ref http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ #}
-<!--[if lt IE 7]> <html {% block htmltag %} class="ie6 wf-loading" lang="en" {% endblock htmltag %}> <![endif]-->
-<!--[if IE 7]>    <html {% block htmltag %} class="ie7 wf-loading" lang="en" {% endblock htmltag %}> <![endif]-->
-<!--[if IE 8]>    <html {% block htmltag %} class="ie8 wf-loading" lang="en" {% endblock htmltag %}> <![endif]-->
-<!--[if IE 9]>    <html {% block htmltag %} class="ie9 wf-loading" lang="en" {% endblock htmltag %}> <![endif]-->
-<!--[if gt IE 9]><!--> <html {% block htmltag %} class="wf-loading" lang="en" {% endblock htmltag %}> <!--<![endif]-->
+<!--[if lt IE 7]>      <html class="ie6 wf-loading" lang="en" {% block htmltag %}{% endblock htmltag %}> <![endif]-->
+<!--[if IE 7]>         <html class="ie7 wf-loading" lang="en" {% block htmltag %}{% endblock htmltag %}> <![endif]-->
+<!--[if IE 8]>         <html class="ie8 wf-loading" lang="en" {% block htmltag %}{% endblock htmltag %}> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 wf-loading" lang="en" {% block htmltag %}{% endblock htmltag %}> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="wf-loading"     lang="en" {% block htmltag %}{% endblock htmltag %}> <!--<![endif]-->
   <head>
     {% block header %}
       {% include "./partials/header.html" %}
