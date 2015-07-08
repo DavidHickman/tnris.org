@@ -1,4 +1,4 @@
-var CartoService = ['$http', 'CARTODB_CONFIG', function ($http, config) {
+var CartoService = ['$http', 'BrowserService', 'CARTODB_CONFIG', function ($http, BrowserService, config) {
   'use strict';
 
   CartoService = {};
@@ -12,14 +12,23 @@ var CartoService = ['$http', 'CARTODB_CONFIG', function ($http, config) {
   CartoService.sql = function (query) {
     var url = baseURL + 'sql';
 
-    return $http.get(url, {
-      params: {
-        q: query
-      }
-    })
-    .then(function (resp) {
-      return resp.data;
-    });
+    if (BrowserService.supportsCORS()) {
+      return $http.get(url, {
+        params: {
+          q: query
+        }
+      })
+      .then(function (resp) {
+        return resp.data;
+      });
+    } else {
+      var JSONPUrl = url + '?callback=JSON_CALLBACK&q=' + query;
+
+      return $http.jsonp(JSONPUrl)
+        .then(function (resp) {
+          return resp.data;
+        });
+    }
   };
 
   CartoService.tableName = function (type) {
