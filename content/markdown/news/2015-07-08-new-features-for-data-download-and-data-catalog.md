@@ -15,7 +15,7 @@ The TNRIS Information Services team has rolled out new features on our popular [
 
 <img class="img-responsive" alt="An animated demo of the new data download interface" src="{{m.link('static/images/updates/2015/new-features/datasearch_demo5.gif')}}">
 
-## Immproved Search Map for Locating Your Data
+## Improved Search Map for Locating Your Data
 
 We're very excited to debut a dynamic search map on our [Data Search and Download](data-download).
 
