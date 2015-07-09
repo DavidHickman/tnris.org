@@ -331,8 +331,7 @@ this Document in order to meet the intent of this Document.
 
 ## Acknowledgement
 
-The human-readable summary and license text are original sourced from
-[http://opendatacommons.org/licenses/pddl/](http://opendatacommons.org/licenses/pddl/).
-The [Open Data Commons](http://opendatacommons.org/) is an [Open Knowledge
-Foundation](https://okfn.org/) project and the above content are made available
-under the Creative Commons Unported v3.0 Attribution license.
+The human-readable summary and license text are from the [Open Data
+Commons](http://opendatacommons.org/), an [Open Knowledge
+Foundation](https://okfn.org/) project. This content is made available under the
+Creative Commons Unported v3.0 Attribution license.
