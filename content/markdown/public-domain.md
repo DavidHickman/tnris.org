@@ -3,6 +3,28 @@ template: page.html
 title: Public Domain Data License
 ---
 
+## Human-readable Summary
+
+This is a human-readable summary of the [Public Domain Dedication and License
+1.0](http://opendatacommons.org/licenses/pddl/). See disclaimer below.
+
+### You are free:
+
+<i class="summary-icon fa fa-2x fa-share"></i> *To Share*: To copy, distribute and use the database.
+
+<i class="summary-icon fa fa-2x fa-lightbulb-o"></i> *To Create*: To produce works from the database.
+
+<i class="summary-icon fa fa-2x fa-wrench"></i> *To Adapt*: To modify, transform and build upon the database.
+
+
+### Disclaimer
+
+The section above is not a license. It is simply a handy reference for
+understanding the PDDL 1.0 — it is a human-readable expression of some of its
+key terms. The summary above has no legal value, and its contents do not appear
+in the actual license. Read the full text of *The License* below for the exact
+terms that apply.
+
 
 ## The License
 
@@ -302,3 +324,13 @@ Document terms are sought to be enforced. If the rights waived or granted under
 applicable law in the relevant jurisdiction includes additional rights not
 waived or granted under this Document, these additional rights are included in
 this Document in order to meet the intent of this Document.
+
+
+
+## Acknowledgement
+
+The human-readable summary and license text are original sourced from
+[http://opendatacommons.org/licenses/pddl/](http://opendatacommons.org/licenses/pddl/).
+The [Open Data Commons](http://opendatacommons.org/) is an [Open Knowledge
+Foundation](https://okfn.org/) project and the above content are made available
+under the Creative Commons Unported v3.0 Attribution license.
