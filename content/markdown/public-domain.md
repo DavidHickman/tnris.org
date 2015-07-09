@@ -1,6 +1,6 @@
 ---
 template: page.html
-title: Public Domain Data License
+title: Open Data Commons Public Domain Dedication and License (PDDL)
 ---
 
 ## Human-readable Summary
