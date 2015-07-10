@@ -27,6 +27,25 @@ var dataDownloadCtrl = function ($scope, $state, DataService) {
   $scope.quads = [];
   $scope.quad = {};
 
+  function byMatch(searchTerm) {
+    return function (a, b) {
+      searchTerm = searchTerm.toLowerCase();
+      var aText = a.text.toLowerCase();
+      var bText = b.text.toLowerCase();
+      var aIndex = aText.indexOf(searchTerm);
+      var bIndex = bText.indexOf(searchTerm);
+
+      if (_.isEmpty(searchTerm) || (aIndex === 0 && bIndex === 0) ||
+        (aIndex !== 0 && bIndex !== 0)) {
+          return (aText < bText) ? -1 : (aText > bText) ? 1 : 0;
+      }
+      if (aIndex === 0) {
+        return -1;
+      }
+      return 1;
+    };
+  }
+
   $scope.searchQuads = function(search) {
     DataService.getAreas('quad', search)
       .then(function (quads) {
@@ -35,7 +54,7 @@ var dataDownloadCtrl = function ($scope, $state, DataService) {
             value: quad.name,
             text: quad.name
           };
-        });
+        }).sort(byMatch(search));
       });
   };
 
