@@ -13,9 +13,9 @@ latest_report: Weekly_Status_Report_061915.pdf
 status_date: July 17th, 2015
 updates:
 - Weather conditions have been unfavorable this past month, as such very little imagery acquisition progress has been made since the last short missions were flown on June 10, 2015 and July 15, 2015.
--	Two airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
--	Due to weather conditions, airspace restrictions, and flood conditions affecting the overall project, the acquisition season end date for the remaining areas of the state, Seasons 2, 3, and 4 was extended to August 15, 2015.
--	Quality Control (QC) data review is underway at TNRIS. QC volunteers outside TNRIS have been trained to review data online. Another training session is expected early August.
+- Two airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
+- Due to weather conditions, airspace restrictions, and flood conditions affecting the overall project, the acquisition season end date for the remaining areas of the state, Seasons 2, 3, and 4 was extended to August 15, 2015.
+- Quality Control (QC) data review is underway at TNRIS. QC volunteers outside TNRIS have been trained to review data online. Another training session is expected early August.
 progress_1: 91
 progress_2: 100
 progress_3: 85 
