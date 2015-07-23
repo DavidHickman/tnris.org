@@ -2,9 +2,6 @@
 title: "New Features for Data Download and Data Catalog"
 template: news.html
 author: Information Services Team
-<!-- mainimage: static/images/updates/2015/new-features/datasearch_demo5.gif
-mainimagealt: An animated demo of the new data download interface
-mainimagecaption: Showing how to navigate from the statewide level to the Quad level. -->
 thumbnail: static/images/updates/2015/new-features/new-features-th.png
 thumbalt: A thumbnail for the 3dep announcement
 abstract:
