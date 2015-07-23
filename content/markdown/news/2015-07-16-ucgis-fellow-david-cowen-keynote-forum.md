@@ -3,7 +3,7 @@ title: "Forum Keynote: UCGIS Fellow Dr. David Cowen"
 template: news.html
 author: Forum News
 mainimage: static/images/updates/2015/cowen_parcels.jpg
-mainimagealt: Desired areas for 2016 3DEP acquisition
+mainimagealt: Image by Dr. Cowen, as part of his studies of Land Parcel Data.
 mainimagecaption: Image by Dr. Cowen, as part of his studies of Land Parcel Data.
 thumbnail: static/images/updates/2015/cowen_th.jpg
 thumbalt: A headshot of Dr. David Cowen
@@ -25,5 +25,5 @@ You can learn about his studies of the status of land parcel data in the United 
 
 Learn more about the Forum and register to attend today!
 
-<a href="{{m.link('texas-gis-forum')}}" class="btn btn-lg btn-danger">Visit the 2015 Forum Page</a>
+<a href="http://www.tnris.org/2015-gis-forum" class="btn btn-lg btn-danger">Visit the 2015 Forum Page</a>
 
