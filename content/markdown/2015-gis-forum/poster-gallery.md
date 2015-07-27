@@ -4,13 +4,12 @@ template: 2015-forum.html
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
 mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
 mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
-abstract: Showcase your research and cartographic skills to your peers!
+abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
 button: postergallery
 button_link: http://www.tnris.org/2015-gis-forum/poster-gallery#poster-submission
 button_text: Submit to the poster gallery
 body_class: poster-gallery
 ---
-
 
 The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:
 
@@ -20,6 +19,12 @@ The purpose of the poster gallery is to promote and recognize the advances of ma
 - Communication
 - Creativity
 - Originality
+
+### Winners
+
+The top 3 vote earners will be highlighted on the TNRIS website under the '<a href="{{ m.link('spotlights/2014-10-30/morris-sheppard-dam-lidar')}}">Data Spotlight</a>'' section following the forum. 
+
+The top vote earner will also receive a small gift.
 
 ## Physical Guidelines for Poster
 
@@ -31,11 +36,16 @@ The purpose of the poster gallery is to promote and recognize the advances of ma
 
 Posters will be displayed in the atrium of the J.J. Pickle Research Center. 
 
-## Winners
+## Mailing Address
 
-The top 3 vote earners will be highlighted on the TNRIS website under the '[Data Spotlight](spotlights/2014-10-30/morris-sheppard-dam-lidar)' section following the forum. 
+Please mail your poster in order to arrive no later than the Oct. 16th deadline, to the following address:
 
-The top vote earner will also receive a small gift.
+<address>
+<strong>Texas Natural Resources Information System<br>
+Attn: Erik O'Brian<br>
+1700 N. Congress, B-40<br>
+Austin, Texas, 78701</strong>
+</address>
 
 ## Poster Submission
 Please enter your information below if you plan on submitting a poster to the gallery. This info will be displayed along with your poster.
