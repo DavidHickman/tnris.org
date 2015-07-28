@@ -86,16 +86,16 @@
     {% set model_name = "form_model['" + name + "']" %}
 
     {% for option in options %}
-      {% if type === 'checkbox' %}
-        {% set model_name = "form_model['" + name + "_checkbox_" + option.replace(' ', '_').toLowerCase + "']" %}
-      {% endif %}
-
       {% if option.constructor === Array %}
         {% set value = option[0] %}
         {% set text = option[1] %}
        {%- else  -%}
         {% set value = option %}
         {% set text = option %}
+      {% endif %}
+
+      {% if type === 'checkbox' %}
+        {% set model_name = "form_model['" + name + "_checkbox_" + value.replace(' ', '_').toLowerCase + "']" %}
       {% endif %}
 
       <div class="{{type}}">
