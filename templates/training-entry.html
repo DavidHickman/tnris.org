@@ -31,15 +31,19 @@
         {% if course_image %}
           <img class="course-image pull-right" src="{{m.link('static/images/training/course-images/' + course_image)}}" alt="courseimagealt">
         {% endif %}
+
         {{contents|safe}}
       </div>
     </div>
     <div class="col-sm-4">
       {% block sidebarLeft %}
-
-        <a href="https://www.regonline.com/register/checkin.aspx?EventId=1643373&MethodId=0&EventSessionId=&startnewreg=1" class="btn btn-success btn-block">Register Online Today</a>
+        {% if status == "CLOSED" %}
+        {% else %}
+          <a href="https://www.regonline.com/register/checkin.aspx?EventId=1643373&MethodId=0&EventSessionId=&startnewreg=1" class="btn btn-success btn-block">Register Online Today</a>
+        {% endif %}
 
         {% include "./partials/course-cancellation.html" %}
+
       {% endblock sidebarLeft %}
     </div>
   </div>

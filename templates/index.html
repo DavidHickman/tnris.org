@@ -27,7 +27,7 @@
             <h2>Latest News <i class="fa fa-newspaper-o"></i></h2>
             <ul class="news-list list-clean">
                 {% for news_item in news %} {% if loop.index
-                <=5 %} <li class="media">
+                <=4 %} <li class="media">
                     <a class="media-left" href="{{m.link(news_item.preserved)}}" title="Read {{news_item.title}}">
                         <img class="media-object" src="{{m.link(news_item.thumbnail)}}" alt="{{news_item.thumbalt}}">
                     </a>
@@ -73,13 +73,6 @@
                     <img class="img-responsive" src="{{ m.link('static/images/front-page/training_promo.jpg')}}" alt="Books and Screenshots from training">
                     <h3>Expand Your Professional Skills!</h3>
                     <ul class="list-clean">
-                        <li>
-                            <i class="glyphicon glyphicon-calendar"></i>
-                            <div>
-                                <time> August 10th – 11th</time>
-                                <h4><a href="{{m.link('training/fundamentals-of-arcgis/august-2015')}}">Fundamentals of ArcGIS</a></h4>
-                            </div>
-                        </li>
                         <li>
                             <i class="glyphicon glyphicon-calendar"></i>
                             <div>
