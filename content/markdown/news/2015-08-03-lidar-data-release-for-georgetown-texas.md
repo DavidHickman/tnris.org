@@ -3,19 +3,20 @@
 template: news.html
 title: "LiDAR Data Release For Georgetown, Texas"
 author: Joey Thomas, StratMap
-thumbnail: 
+thumbnail: static/images/updates/2015/georgetown/courthouse_th.jpg
 mainimage: 
 imagealt: A sample of collected liDAR data
 abstract: 
-    TNRIS is releasing newly acquired high resolution lidar data for 224 square miles of Central Texas
+    TNRIS is releasing newly acquired high resolution lidar data for 224 square miles of Central Texas in the City of Georgetown area.
 tags: lidar, data
 ---
  
-The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution lidar data for 224 square miles of Georgetown, Texas.  Aerial collection took place on December 29,2014 during the leaf-off season.  Sanborn Map Company performed the data acquisition/processing while AECOM provided third-party quality assurance and quality control (QA/QC).  
+The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution lidar data for 224 square miles of Georgetown, Texas. Aerial collection took place on December 29,2014 during the leaf-off season. Sanborn Map Company performed the data acquisition/processing while AECOM provided third-party quality assurance and quality control (QA/QC).  
 
-
-
-<img class="img-responsive" src="{{m.link('static/images/updates/2015/ne-lidar/natural.jpg')}}" alt="A DEM of Central Texas LiDAR">
+<figure>
+<img class="img-responsive" src="{{m.link('static/images/updates/2015/georgetown/williamson_courthouse.jpg')}}" alt="A point cloud of the Williamson County Courthouse">
+<figcaption>A point cloud of the Williamson County Courthouse</figcaption>
+</figure>
 
 ## Data Access
 <div class="media">
@@ -37,7 +38,10 @@ The Texas Natural Resources Information System (TNRIS) is pleased to announce th
 -	Hydro-flattening breaklines in SHP
 -	File-level FGDC metadata in XML
 
-<img class="img-responsive" src="{{m.link('static/images/updates/2015/ne-lidar/city.jpg')}}" alt="A DEM of Central Texas LiDAR">
+<figure>
+<img class="img-responsive" src="{{m.link('static/images/updates/2015/georgetown/southwestern_dem.jpg')}}" alt="A point cloud of Southwestern University in Georgetown">
+<figcaption>A point cloud of Southwestern University in Georgetown</figcaption>
+</figure>
 
 ## Product Specification
 
