@@ -506,3 +506,11 @@ ul.news-list {
     opacity: .7;
   }
 }
+
+// Figcaption for articles
+
+.article figcaption {
+  color: $middarkgrey;
+  font-style: italic;
+  text-align: right;
+}
