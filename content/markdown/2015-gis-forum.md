@@ -166,7 +166,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premiere conference
   <div class="col-sm-10 col-md-5 col-sm-offset-2 col-md-offset-0">
         <h3><small>Session B (Li'l TEX)</small><br>
           State Initiatives (Cool Enough for Government Work)</h3>
-    <ul>
+    <ul class="agenda-track">
       <li><strong>Google's Imagery Program</strong><br>
         <em>Kyle Campbell, Google and Richard Wade, TNRIS</em></li>
     <li><strong>TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide</strong><br>
