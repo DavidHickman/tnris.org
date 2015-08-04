@@ -175,7 +175,14 @@ abstract: Save the date for the Texas GIS Forum, the state's premiere conference
   </div>
 </div>
 
-<div class="row forum-social-2015"
+<div class="row forum-social-2015">
+  <div class="col-sm-2">
+    6:00 pm
+  </div>
+  <div class="col-sm-10">
+    <h3>Forum Social</h3>
+  </div>
+</div>
 
 <div class="row">
 <h2>Day 2: Wednesday, October 29th</h2>
