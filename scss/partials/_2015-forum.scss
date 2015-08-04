@@ -124,3 +124,50 @@ h2.logo-2015 {
     margin: 10px 0;
   }
 }
+
+
+.keynote2015 {
+  img {
+    width: 150px;
+  }
+}
+
+.agenda-bg {
+  background: $lightgrey;
+}
+
+.agenda-full {
+  .row {
+    padding: 10px 0;
+
+    h3 {
+      color: $forum2015blue;
+      margin-top: 0;
+    }
+  }
+}
+
+ul.agenda-track {
+  padding-left: 25px;
+  
+  li {
+    border-bottom: 1px solid $midgrey;
+    list-style: none;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+  
+  li:before {
+    content: "\f130";
+    font-family: FontAwesome;
+    font-size: 20px;
+    margin-left: -25px;
+    padding-right: 10px;
+  }
+}
