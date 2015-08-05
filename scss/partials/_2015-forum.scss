@@ -138,15 +138,21 @@ h2.logo-2015 {
 
 .agenda-full {
   .row {
-    padding: 10px 0;
+    padding: 15px 0;
 
     h3 {
       color: $forum2015blue;
       margin-top: 0;
     }
 
-    .col-sm-2 {
-      color: $error;
+    .col-sm-3 {
+        color: $forum2015blue;
+        font-size: 17px;
+
+      @media (min-width: $screen-sm) {
+        background: none;
+        color: $forum2015blue;
+      }
     }
   }
 }
