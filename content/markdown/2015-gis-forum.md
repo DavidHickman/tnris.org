@@ -11,21 +11,18 @@ button_text: Register Now
 intro: true
 abstract: Save the date for the Texas GIS Forum, the state's premiere conference for the geospatial professional community.
 ---
-<div class="row">
-<div class="col-md-6 keynote2015">
-<h2><small>Keynote, Day 1 - 9:00 a.m.</small> <br>Patrick Meier</h2>
+<p class="lead-forum">
+For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community, where attendees come to stay informed of the latest advancements in the private and public sectors of the field and to touch base with long-time colleagues – as well as make new connections.
+</p>
 
-<p><img class="pull-right img-circle" src="{{ m.link('static/images/texas-gis-forum/2015/patrick.jpg')}}">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”</p>
+### Bringing the Best, Not Just In GIS
 
-<p>He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the iRevolutions blog, and tweets at @patrickmeier.</p>
-</div>
-
-<div class="col-md-6 keynote2015">
-<h2><small>Keynote, Day 2 - 9:00 a.m.</small> <br>David Cowen</h2>
-
-<p><img class="pull-right img-circle" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial develop.m.ent have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
-</div>
-</div>
+<p class="lead-forum">
+  <img class="pull-right" src="{{m.link('static/images/texas-gis-forum/2015/keynote2.jpg')}}">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, reknowned historians, and more.
+</p>
+<p class="lead-forum">
+  This year continues that record of exciting thinkers with <a href="#keynote-meier">Digital Humanitarian, Patrick Meier</a> and <a href="#keynote-cowen">UCGIS Fellow, David Cowen</a>.
+</p>
 
 <div class="container agenda-full">
 <div class="row">
@@ -50,7 +47,10 @@ abstract: Save the date for the Texas GIS Forum, the state's premiere conference
   9:00 - 10:00 a.m.
   </div>
   <div class="col-sm-9 col-md-10">
-    <h3><small>Keynote Presentation</small><br>Patrick Meier, Digital Humanitarian</h3>
+    <h3 id="keynote-meier"><small>Keynote Presentation</small><br>Patrick Meier, Digital Humanitarian</h3>
+    <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/patrick.jpg')}}">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”</p>
+
+<p>He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the iRevolutions blog, and tweets at @patrickmeier.</p>
   </div>
 </div>
 <div class="row agenda-bg">
@@ -206,7 +206,8 @@ abstract: Save the date for the Texas GIS Forum, the state's premiere conference
   9:00 - 10:00 a.m.
   </div>
   <div class="col-sm-9 col-md-10">
-    <h3><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
+    <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
+    <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial develop.m.ent have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
   </div>
 </div>
 <div class="row agenda-bg">

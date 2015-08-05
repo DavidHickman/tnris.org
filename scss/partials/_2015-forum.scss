@@ -126,11 +126,9 @@ h2.logo-2015 {
 }
 
 
-.keynote2015 {
-  img {
-    width: 150px;
-  }
-}
+img.keynote-portrait {
+   width: 125px;
+ }
 
 .agenda-bg {
   background: $lightgrey;
@@ -179,5 +177,14 @@ ul.agenda-track {
     font-size: 20px;
     margin-left: -25px;
     padding-right: 10px;
+  }
+}
+
+.lead-forum {
+  font-size: 16px;
+  font-weight: 300;
+  
+  @media (min-width: $screen-sm) {
+    font-size: 21px;
   }
 }
