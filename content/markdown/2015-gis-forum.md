@@ -12,7 +12,7 @@ intro: true
 abstract: Save the date for the Texas GIS Forum, the state's premiere conference for the geospatial professional community.
 ---
 <p class="lead-forum">
-For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community, where attendees come to stay informed of the latest advancements in the private and public sectors of the field and to touch base with long-time colleagues – as well as make new connections.
+For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community, who comes to stay informed of the latest advancements in the private and public sector and to touch base with long-time colleagues – as well as make new connections.
 </p>
 
 ### Bringing the Best, Not Just In GIS
@@ -21,7 +21,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   <img class="pull-right" src="{{m.link('static/images/texas-gis-forum/2015/keynote2.jpg')}}">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, reknowned historians, and more.
 </p>
 <p class="lead-forum">
-  This year continues that record of exciting thinkers with <a href="#keynote-meier">Digital Humanitarian, Patrick Meier</a> and <a href="#keynote-cowen">UCGIS Fellow, David Cowen</a>.
+  This year continues that record of exciting thinkers with <a href="{{m.link('2015-gis-forum#keynote-meier')}}">Digital Humanitarian, Patrick Meier</a> and <a href="{{m.link('2015-gis-forum#keynote-cowen')}}">UCGIS Fellow, David Cowen</a>.
 </p>
 
 <div class="container agenda-full">
@@ -50,7 +50,8 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
     <h3 id="keynote-meier"><small>Keynote Presentation</small><br>Patrick Meier, Digital Humanitarian</h3>
     <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/patrick.jpg')}}">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”</p>
 
-<p>He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the iRevolutions blog, and tweets at @patrickmeier.</p>
+<p>He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the [iRevolutions](http://irevolution.net) blog, and tweets at [@patrickmeier](https://twitter.com/patrickmeier).</p>
+<p><i class="glyphicon glyphicon-user"></i> [Full Bio](http://irevolution.net/bio)</p>
   </div>
 </div>
 <div class="row agenda-bg">
@@ -68,7 +69,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   10:30 a.m. - 12:00 p.m.
   </div>
   <div class="col-sm-9 col-md-5">
-    <h3><small>Session A (Big Tex)</small><br>Remote Sensing ()</h3>
+    <h3><small>Session A (Big Tex)</small><br>Remote Sensing (I Spy From Up High)</h3>
     <ul class="agenda-track">
       <li><strong>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</strong><br>
      <em>Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment</em></li>
@@ -79,7 +80,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   </ul>
   </div>
   <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-        <h3><small>Session B (Li'l TEX)</small><br>Applied GIS (Good Use of GIS Technology)</h3>
+        <h3><small>Session B (Li'l TEX)</small><br>Applied GIS (Putting GIS to Work)</h3>
     <ul class="agenda-track">
       <li><strong>Innovative Public Health Care GIS Applications</strong><br>
         <em>Jack Hill and Amanda Scarborough, Sam Houston State University</em></li>
@@ -105,7 +106,8 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   1:00 – 2:00 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
-    <strong>Platinum Demo</strong>
+    <h3><small>Platinum Sponsor Demo</small><br>
+       Applied Geographics, Inc.</h3>
   </div>
 </div>
 
@@ -114,7 +116,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   2:00 - 3:30 p.m.
   </div>
   <div class="col-sm-9 col-md-5">
-    <h3><small>Session A (Big Tex)</small><br>Open Source (Here's Something for Everyone)</h3>
+    <h3><small>Session A (Big Tex)</small><br>Open Source (Something for Everyone)</h3>
     <ul class="agenda-track">
       <li><strong>Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software</strong><br>
       <em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology</em></li>
@@ -125,7 +127,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   </ul>
   </div>
   <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-        <h3><small>Session B (Li'l TEX)</small><br>Innovative Technology (This is super cool)</h3>
+        <h3><small>Session B (Li'l TEX)</small><br>Innovative Technology (New to You)</h3>
     <ul class="agenda-track" >
       <li><strong>Augmented Reality for Hidden Assets</strong><br>
         <em>Brady Hustad and Ken Hetlinger, Astadia</em></li>
@@ -152,7 +154,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   </div>
   <div class="col-sm-9 col-md-5">
     <h3><small>Session A (Big Tex)</small><br>
-      Online Map Applications (You Can do THAT on the web?)</h3>
+      Online Map Applications (You Can Do THAT On the Web?)</h3>
     <ul class="agenda-track">
       <li><strong>The History of Texas is Under Your Feet and at Your Fingertips</strong><br>
       <em> Daniel K. Pearson, US Geological Survey</em>
@@ -185,7 +187,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
 </div>
 
 <div class="row">
-<h2>Day 2: Wednesday, October 29th</h2>
+<h2>Day 2: Thursday, October 29th</h2>
 <div class="col-sm-3 col-md-2">
   7:00 - 8:30 a.m.
   </div>
@@ -208,6 +210,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   <div class="col-sm-9 col-md-10">
     <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
     <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial develop.m.ent have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
+    <p><i class="glyphicon glyphicon-user"></i> [Full Bio](http://ucgis.org/ucgis-fellow/david-j-cowen)</p>
   </div>
 </div>
 <div class="row agenda-bg">
@@ -225,18 +228,18 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   10:30 a.m. - 12:00 p.m.
   </div>
   <div class="col-sm-9 col-md-5">
-    <h3><small>Session A (Big Tex)</small><br>LiDAR (So Many POINTS!)</h3>
+    <h3><small>Session A (Big Tex)</small><br>Lidar (Get to the Points)</h3>
     <ul class="agenda-track">
       <li><strong>Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection</strong><br>
      <em>Robert Dzur, Bohannan Huston, Inc and Sally Abbe, City of Lubbock</em></li>
-    <li><strong>Geiger Mode LiDAR: The Leap from Single Pulse to Avalanche and What it means to the End User</strong><br>
+    <li><strong>Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User</strong><br>
     <em>Harold Rempel, ESP Associates</em></li>
-    <li><strong>Innovations - Changing the way LiDAR is Used</strong><br>
+    <li><strong>Innovations - Changing the way Lidar is Used</strong><br>
     <em>Jamie Young, Merrick &amp; Company</em></li>
   </ul>
   </div>
   <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-        <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (App in the Clouds)</h3>
+        <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (App in the Cloud)</h3>
     <ul class="agenda-track">
       <li><strong>Regional Online Geospatial Services for the Houston-Galveston Region</strong><br>
         <em>Bill Bass, Houston-Galveston Area Council of Governments</em></li>
@@ -262,7 +265,8 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   1:00 – 2:00 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
-    <strong>Platinum Demo</strong>
+    <h3><small>Platinum Sponsor Demo</small><br>
+   Esri</h3>
   </div>
 </div>
 
@@ -271,7 +275,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   2:00 - 3:30 p.m.
   </div>
   <div class="col-sm-9 col-md-5">
-    <h3><small>Session A (Big Tex)</small><br>Applied GIS (Working in Another Dimension)</h3>
+    <h3><small>Session A (Big Tex)</small><br>Applied GIS (Putting GIS to Work)</h3>
     <ul class="agenda-track">
       <li><strong>3D Modeling of the City of Temple Landfill</strong><br>
       <em>Leah Fasick, City of Temple</em></li>
@@ -282,7 +286,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   </ul>
   </div>
   <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-        <h3><small>Session B (Li'l TEX)</small><br>State Initiatives (What is the State Doing Now?)</h3>
+        <h3><small>Session B (Li'l TEX)</small><br>State Initiatives</h3>
     <ul class="agenda-track" >
       <li><strong>The 2015 Texas Statewide Orthoimagery Project</strong><br>
         <em>Randy Mayden, Surdex Corporation and Gayla Mullins, TNRIS</em></li>
@@ -305,13 +309,8 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
 <div class="col-sm-3 col-md-2">
   4:00 - 5:30 p.m.
   </div>
-  <div class="col-sm-9 col-md-5">
-    <h3><small>Session A (Big Tex)</small><br>
-     Implementing New Ideas (Now This is FUN!)</h3>
-  </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-        <h3><small>Session B (Li'l TEX)</small><br>
-          Plotting Techniques (Make Your Maps POP!)</h3>
+  <div class="col-sm-9 col-md-10">
+    <h3>Session TBD</h3>
   </div>
 </div>
 
