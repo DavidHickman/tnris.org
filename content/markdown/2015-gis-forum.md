@@ -209,8 +209,8 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   </div>
   <div class="col-sm-9 col-md-10">
     <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
-    <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial develop.m.ent have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
-    <p><i class="glyphicon glyphicon-user"></i> [Full Bio](http://ucgis.org/ucgis-fellow/david-j-cowen)</p>
+    <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
+    <p><i class="glyphicon glyphicon-user"></i> <a href="{{ m.link('news/2015-07-16/ucgis-fellow-david-cowen-keynote-forum/')}}">Full Bio</a></p>
   </div>
 </div>
 <div class="row agenda-bg">
