@@ -1,5 +1,5 @@
 ---
-template: 2015-forum.html
+template: 2015-forum-main.html
 title: 2015 Texas GIS Forum
 subtitle: At the Intersection of Geography and Technology
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
@@ -11,15 +11,316 @@ button_text: Register Now
 intro: true
 abstract: Save the date for the Texas GIS Forum, the state's premiere conference for the geospatial professional community.
 ---
+<p class="lead-forum">
+For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community, who comes to stay informed of the latest advancements in the private and public sector and to touch base with long-time colleagues – as well as make new connections.
+</p>
 
-<h2><small>Keynote Speaker</small> <br>David Cowen</h2>
+### Bringing the Best, Not Just In GIS
 
-<img class="pull-right img-circle" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society. 
+<p class="lead-forum">
+  <img class="pull-right" src="{{m.link('static/images/texas-gis-forum/2015/keynote2.jpg')}}">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, reknowned historians, and more.
+</p>
+<p class="lead-forum">
+  This year continues that record of exciting thinkers with <a href="{{m.link('2015-gis-forum#keynote-meier')}}">Digital Humanitarian, Patrick Meier</a> and <a href="{{m.link('2015-gis-forum#keynote-cowen')}}">UCGIS Fellow, David Cowen</a>.
+</p>
 
-In addition to a distinguished academic career at the University of South Carolina, Professor Cowen has worked for more than three decades to demonstrate how geographic concepts and GIS can substantially increase the effectiveness of many activities in the public sector.
+<div class="container agenda-full">
+<div class="row">
+<h2>Day 1: Wednesday, October 28th</h2>
+<div class="col-sm-3 col-md-2">
+  7:00 - 8:30 a.m.
+  </div>
+  <div class="col-sm-9">
+    <strong>Registration</strong>
+  </div>
+</div>
+<div class="row agenda-bg">
+  <div class="col-sm-3 col-md-2">
+  8:30 - 9:00 a.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Opening remarks</strong>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-3 col-md-2">
+  9:00 - 10:00 a.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <h3 id="keynote-meier"><small>Keynote Presentation</small><br>Patrick Meier, Digital Humanitarian</h3>
+    <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/patrick.jpg')}}">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”</p>
 
-<h2><small>Keynote Speaker</small> <br>Patrick Meier</h2>
+<p>He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the [iRevolutions](http://irevolution.net) blog, and tweets at [@patrickmeier](https://twitter.com/patrickmeier).</p>
+<p><i class="glyphicon glyphicon-user"></i> [Full Bio](http://irevolution.net/bio)</p>
+  </div>
+</div>
+<div class="row agenda-bg">
+  <div class="col-sm-3 col-md-2">
+  10:00 - 10:30 a.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Break &amp; Exhibits</strong>
+  </div>
+</div>
 
-<img class="pull-right img-circle" src="{{ m.link('static/images/texas-gis-forum/2015/patrick.jpg')}}"> Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. His brand new book, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action,” hasbeen endorsed by Harvard, MIT, Stanford, Oxford, UN, Red Cross, World Bank, USAID and others. 
+<div class="row">
 
-He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, MicroMappers, Humanitarian UAV Network and the award-winning Standby Task Force. He is a distinguished scholar with a PhD from The Fletcher School, a Pre-Doctoral Fellowship from Stanford University, an MA from Columbia University and EAP from UC Berkeley. Patrick also writes the influential and widely-respected blog iRevolutions and tweets at @patrickmeier.
+<div class="col-sm-3 col-md-2">
+  10:30 a.m. - 12:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-5">
+    <h3><small>Session A (Big Tex)</small><br>Remote Sensing (I Spy From Up High)</h3>
+    <ul class="agenda-track">
+      <li><strong>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</strong><br>
+     <em>Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment</em></li>
+    <li><strong>Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System</strong><br>
+    <em>Frank Obusek, Hexagon Geospatial</em></li>
+    <li><strong>UAV Solutions Using Remote Sensing and Photogra.m.metry Applications</strong><br>
+    <em>Joe Mostowy, Hexagon Geospatial</em></li>
+  </ul>
+  </div>
+  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+        <h3><small>Session B (Li'l TEX)</small><br>Applied GIS (Putting GIS to Work)</h3>
+    <ul class="agenda-track">
+      <li><strong>Innovative Public Health Care GIS Applications</strong><br>
+        <em>Jack Hill and Amanda Scarborough, Sam Houston State University</em></li>
+    <li><strong>Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data Points for Accurate Call Routing</strong><br>
+    <em>Kim Paxton, Intrado</em></li>
+    <li><strong>GIS at the Wimberley Flash Flood Disaster </strong><br>
+      <em>Devon Humphrey, Waypoint Mapping</em></li>
+  </ul>
+  </div>
+</div>
+
+<div class="row agenda-bg">
+  <div class="col-sm-3 col-md-2">
+  12:00 - 1:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Lunch &amp; Exhibits</strong>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-3 col-md-2">
+  1:00 – 2:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <h3><small>Platinum Sponsor Demo</small><br>
+       Applied Geographics, Inc.</h3>
+  </div>
+</div>
+
+<div class="row agenda-bg"> 
+<div class="col-sm-3 col-md-2">
+  2:00 - 3:30 p.m.
+  </div>
+  <div class="col-sm-9 col-md-5">
+    <h3><small>Session A (Big Tex)</small><br>Open Source (Something for Everyone)</h3>
+    <ul class="agenda-track">
+      <li><strong>Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software</strong><br>
+      <em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology</em></li>
+    <li><strong>GIS Lessons: Learning to Query and Code with the CartoDB Academy </strong><br>
+    <em> Aurelia Moser and Andy Esbacher, CartoDB</em></li>
+    <li><strong>Open Source Software Education in Texas</strong><br>
+    <em>Phillip Davis, GeoAcademy and Richard Smith, Texas A &amp; M University, Corpus Christi</em></li>
+  </ul>
+  </div>
+  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+        <h3><small>Session B (Li'l TEX)</small><br>Innovative Technology (New to You)</h3>
+    <ul class="agenda-track" >
+      <li><strong>Augmented Reality for Hidden Assets</strong><br>
+        <em>Brady Hustad and Ken Hetlinger, Astadia</em></li>
+    <li><strong>VOICE - Virtual Online Inspection Checking and Editing</strong><br>
+      <em>Anand Iyer, Jeff Simmons, Quantum Spacial</em></li>
+    <li><strong>Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways</strong><br>
+    <em>Adrian Garcia and Ernie Martinez, The City of Fair Oaks Ranch, Texas</em></li>
+  </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-3 col-md-2">
+  3:30 - 4:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Break &amp; Exhibits</strong>
+  </div>
+</div>
+
+<div class="row agenda-bg"> 
+<div class="col-sm-3 col-md-2">
+  4:00 - 5:30 p.m.
+  </div>
+  <div class="col-sm-9 col-md-5">
+    <h3><small>Session A (Big Tex)</small><br>
+      Online Map Applications (You Can Do THAT On the Web?)</h3>
+    <ul class="agenda-track">
+      <li><strong>The History of Texas is Under Your Feet and at Your Fingertips</strong><br>
+      <em> Daniel K. Pearson, US Geological Survey</em>
+      </li>
+      <li><strong>The Texas Water Integrated Information Delivery (WIID) 2.0</strong><br>
+      <em>Ginny Vragel, Texas Water Development Board and Richard Winkelbauer</em></li>
+      <li><strong>Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGIS  Server, WMS &amp; WFS Cross-Platform Compatibility</strong><br>
+    <em>Eale Emrich and Justin Scott Winn, DrillingInfo</em></li>
+  </ul>
+  </div>
+  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+        <h3><small>Session B (Li'l TEX)</small><br>
+          State Initiatives (Cool Enough for Government Work)</h3>
+    <ul class="agenda-track">
+      <li><strong>Google's Imagery Program</strong><br>
+        <em>Kyle Campbell, Google and Richard Wade, TNRIS</em></li>
+    <li><strong>TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide</strong><br>
+      <em>Laura Wisdom, General Land Office</em></li>
+  </ul>
+  </div>
+</div>
+
+<div class="row forum-social-2015">
+  <div class="col-sm-3 col-md-2">
+    6:00 p.m.
+  </div>
+  <div class="col-sm-9">
+    <h3>Forum Social</h3>
+  </div>
+</div>
+
+<div class="row">
+<h2>Day 2: Thursday, October 29th</h2>
+<div class="col-sm-3 col-md-2">
+  7:00 - 8:30 a.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Registration</strong>
+  </div>
+</div>
+<div class="row agenda-bg">
+  <div class="col-sm-3 col-md-2">
+  8:30 - 9:00 a.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Opening remarks</strong>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-3 col-md-2">
+  9:00 - 10:00 a.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
+    <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
+    <p><i class="glyphicon glyphicon-user"></i> <a href="{{ m.link('news/2015-07-16/ucgis-fellow-david-cowen-keynote-forum/')}}">Full Bio</a></p>
+  </div>
+</div>
+<div class="row agenda-bg">
+  <div class="col-sm-3 col-md-2">
+  10:00 - 10:30 a.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Break &amp; Exhibits</strong>
+  </div>
+</div>
+
+<div class="row">
+
+<div class="col-sm-3 col-md-2">
+  10:30 a.m. - 12:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-5">
+    <h3><small>Session A (Big Tex)</small><br>Lidar (Get to the Points)</h3>
+    <ul class="agenda-track">
+      <li><strong>Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection</strong><br>
+     <em>Robert Dzur, Bohannan Huston, Inc and Sally Abbe, City of Lubbock</em></li>
+    <li><strong>Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User</strong><br>
+    <em>Harold Rempel, ESP Associates</em></li>
+    <li><strong>Innovations - Changing the way Lidar is Used</strong><br>
+    <em>Jamie Young, Merrick &amp; Company</em></li>
+  </ul>
+  </div>
+  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+        <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (App in the Cloud)</h3>
+    <ul class="agenda-track">
+      <li><strong>Regional Online Geospatial Services for the Houston-Galveston Region</strong><br>
+        <em>Bill Bass, Houston-Galveston Area Council of Governments</em></li>
+    <li><strong>The Information Commons: Cloud-Based GIS</strong><br>
+    <em> Santiago Giraldo Anduaga, CartoDB</em></li>
+    <li><strong>Modern Web Mapping for Local Governments Delivers Insights into Performance Metrics, Patterns of Change &amp; Distribution of Resources</strong><br>
+      <em>Kate Hickey, AppGeo</em></li>
+  </ul>
+  </div>
+</div>
+
+<div class="row agenda-bg">
+  <div class="col-sm-3 col-md-2">
+  12:00 - 1:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Lunch &amp; Exhibits</strong>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-3 col-md-2">
+  1:00 – 2:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <h3><small>Platinum Sponsor Demo</small><br>
+   Esri</h3>
+  </div>
+</div>
+
+<div class="row agenda-bg"> 
+<div class="col-sm-3 col-md-2">
+  2:00 - 3:30 p.m.
+  </div>
+  <div class="col-sm-9 col-md-5">
+    <h3><small>Session A (Big Tex)</small><br>Applied GIS (Putting GIS to Work)</h3>
+    <ul class="agenda-track">
+      <li><strong>3D Modeling of the City of Temple Landfill</strong><br>
+      <em>Leah Fasick, City of Temple</em></li>
+    <li><strong>Examination of the spatial relationship between development and aquatic nutrient loading in the Galveston Bay Estuary</strong><br>
+    <em> Helen Walters and Samuel Brody, Texas A&amp;M University, Galveston Campus</em></li>
+    <li><strong>The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast</strong><br>
+    <em> Jeff Scarborough and Chris Sallese, Dannenbaum Engineering Corporation</em></li>
+  </ul>
+  </div>
+  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+        <h3><small>Session B (Li'l TEX)</small><br>State Initiatives</h3>
+    <ul class="agenda-track" >
+      <li><strong>The 2015 Texas Statewide Orthoimagery Project</strong><br>
+        <em>Randy Mayden, Surdex Corporation and Gayla Mullins, TNRIS</em></li>
+    <li><strong>The New Texas Strategic Mapping Contract</strong><br>
+      <em>Gayla Mullins and Felicia Retiz, TNRIS</em></li>
+  </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-3 col-md-2">
+  3:30 - 4:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Break &amp; Exhibits</strong>
+  </div>
+</div>
+
+<div class="row agenda-bg"> 
+<div class="col-sm-3 col-md-2">
+  4:00 - 5:30 p.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <h3>Session TBD</h3>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-3 col-md-2">
+  5:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <strong>Closing Remarks</strong>
+  </div>
+</div>
+
+</div>
