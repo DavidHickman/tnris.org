@@ -239,7 +239,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   </ul>
   </div>
   <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-        <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (App in the Cloud)</h3>
+        <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (Apps in the Cloud)</h3>
     <ul class="agenda-track">
       <li><strong>Regional Online Geospatial Services for the Houston-Galveston Region</strong><br>
         <em>Bill Bass, Houston-Galveston Area Council of Governments</em></li>
