@@ -72,7 +72,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
     <h3><small>Session A (Big Tex)</small><br>Remote Sensing (I Spy From Up High)</h3>
     <ul class="agenda-track">
       <li><strong>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</strong><br>
-     <em>Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment</em></li>
+     <em>Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment | Nicholas Villarreal, Graduate Intern/SMWI Project, Texas State University at San Marcos </em></li>
     <li><strong>Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System</strong><br>
     <em>Frank Obusek, Hexagon Geospatial</em></li>
     <li><strong>UAV Solutions Using Remote Sensing and Photogra.m.metry Applications</strong><br>
@@ -119,7 +119,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
     <h3><small>Session A (Big Tex)</small><br>Open Source (Something for Everyone)</h3>
     <ul class="agenda-track">
       <li><strong>Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software</strong><br>
-      <em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology</em></li>
+      <em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology | T. Clay Templeton, PhD Student, University of Texas - School of Information </em></li>
     <li><strong>GIS Lessons: Learning to Query and Code with the CartoDB Academy </strong><br>
     <em> Aurelia Moser and Andy Esbacher, CartoDB</em></li>
     <li><strong>Open Source Software Education in Texas</strong><br>
@@ -160,7 +160,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
       <em> Daniel K. Pearson, US Geological Survey</em>
       </li>
       <li><strong>The Texas Water Integrated Information Delivery (WIID) 2.0</strong><br>
-      <em>Ginny Vragel, Texas Water Development Board and Richard Winkelbauer</em></li>
+      <em>Ginny Vragel, Texas Water Development Board | Richard Winkelbauer</em></li>
       <li><strong>Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGIS  Server, WMS &amp; WFS Cross-Platform Compatibility</strong><br>
     <em>Eale Emrich and Justin Scott Winn, DrillingInfo</em></li>
   </ul>
@@ -170,7 +170,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
           State Initiatives (Cool Enough for Government Work)</h3>
     <ul class="agenda-track">
       <li><strong>Google's Imagery Program</strong><br>
-        <em>Kyle Campbell, Google and Richard Wade, TNRIS</em></li>
+        <em>Kyle Campbell, Google | Richard Wade, TNRIS</em></li>
     <li><strong>TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide</strong><br>
       <em>Laura Wisdom, General Land Office</em></li>
   </ul>
@@ -210,7 +210,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   <div class="col-sm-9 col-md-10">
     <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
     <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
-    <p><i class="glyphicon glyphicon-user"></i> <a href="{{ m.link('news/2015-07-16/ucgis-fellow-david-cowen-keynote-forum/')}}">Full Bio</a></p>
+    <p><i class="glyphicon glyphicon-user"></i> <a href="{{m.link('news/2015-07-16-ucgis-fellow-david-cowen-keynote-forum')}}">Full Bio</a></p>
   </div>
 </div>
 <div class="row agenda-bg">
@@ -231,7 +231,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
     <h3><small>Session A (Big Tex)</small><br>Lidar (Get to the Points)</h3>
     <ul class="agenda-track">
       <li><strong>Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection</strong><br>
-     <em>Robert Dzur, Bohannan Huston, Inc and Sally Abbe, City of Lubbock</em></li>
+     <em>Robert Dzur, Bohannan Huston, Inc | Sally Abbe, City of Lubbock</em></li>
     <li><strong>Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User</strong><br>
     <em>Harold Rempel, ESP Associates</em></li>
     <li><strong>Innovations - Changing the way Lidar is Used</strong><br>
@@ -239,7 +239,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   </ul>
   </div>
   <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-        <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (Apps in the Cloud)</h3>
+        <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (App in the Cloud)</h3>
     <ul class="agenda-track">
       <li><strong>Regional Online Geospatial Services for the Houston-Galveston Region</strong><br>
         <em>Bill Bass, Houston-Galveston Area Council of Governments</em></li>
