@@ -2,7 +2,7 @@
 template: gio-news.html
 title: "Texas GIS Community Meeting Recap - 3rd Quarter, 2015"
 author: Felicia Retiz, Deputy GIO
-thumbnail: static/images/gio-stories/gat_th.jpg
+thumbnail: static/images/gio-stories/gio_aug_8_th.png
 abstract:
     Highlights from 3rd Quarterly Meeting of the GIO. 
 tags: GIO, Data Sharing, GIS, Geospatial
@@ -18,6 +18,8 @@ tags: GIO, Data Sharing, GIS, Geospatial
 <script async class="speakerdeck-embed" data-id="2c0243f5e8ea4c9cb248305107907274" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Attendee Introductions & Agency Roll Call
+
+<p class="lead">Attendees introduced themselves and gave quick updates on GIS related projects underway at their organization. Not a complete list.</p>
 
 <h3><a href="http://www.tdi.texas.gov"><img class="pull-right" src="{{m.link('static/images/gio-stories/logos/tdi_logo.png')}}" alt="TDI logo and link to website"></a> Texas Department of Insurance (TDI) – Roger Young</h3>
 
@@ -81,7 +83,6 @@ Working on a first responder basemap.
 
 ****
 
-
 ## TNRIS Project Updates
 
 ### Google Imagery Pilot Project Update – Richard Wade
@@ -120,8 +121,7 @@ Upon project completion and delivery, the imagery will be hosted in Esri’s Arc
 
 USGS is administering grants through the 3D Elevation Program to update the National Map Elevation Inventory. Grant pre-proposals are due August 25 and there are two entities in the central Texas area that will submit a proposal. If you are interested in applying for a grant, please contact Joey for more information and assistance with writing the pre-proposal as well as the proposal.
 
-
-##Peer Presentations
+## Peer Presentations
 
 ### Benefits of the Hexagon Geospatial ELA
 **Ken Hamilton, Regional Sales Manager, Hexagon Geospatial**
