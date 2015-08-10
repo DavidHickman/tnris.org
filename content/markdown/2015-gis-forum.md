@@ -72,7 +72,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
     <h3><small>Session A (Big Tex)</small><br>Remote Sensing (I Spy From Up High)</h3>
     <ul class="agenda-track">
       <li><strong>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</strong><br>
-     <em>Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment</em></li>
+     <em>Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment | Nicholas Villarreal, Graduate Intern/SMWI Project, Texas State University at San Marcos </em></li>
     <li><strong>Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System</strong><br>
     <em>Frank Obusek, Hexagon Geospatial</em></li>
     <li><strong>UAV Solutions Using Remote Sensing and Photogra.m.metry Applications</strong><br>
@@ -119,7 +119,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
     <h3><small>Session A (Big Tex)</small><br>Open Source (Something for Everyone)</h3>
     <ul class="agenda-track">
       <li><strong>Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software</strong><br>
-      <em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology</em></li>
+      <em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology | T. Clay Templeton, PhD Student, University of Texas - School of Information </em></li>
     <li><strong>GIS Lessons: Learning to Query and Code with the CartoDB Academy </strong><br>
     <em> Aurelia Moser and Andy Esbacher, CartoDB</em></li>
     <li><strong>Open Source Software Education in Texas</strong><br>
@@ -210,7 +210,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
   <div class="col-sm-9 col-md-10">
     <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
     <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
-    <p><i class="glyphicon glyphicon-user"></i> <a href="{{ m.link('news/2015-07-16/ucgis-fellow-david-cowen-keynote-forum/')}}">Full Bio</a></p>
+    <p><i class="glyphicon glyphicon-user"></i> <a href="{{m.link('news/2015-07-16-ucgis-fellow-david-cowen-keynote-forum')}}">Full Bio</a></p>
   </div>
 </div>
 <div class="row agenda-bg">
