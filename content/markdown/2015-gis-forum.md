@@ -160,7 +160,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
       <em> Daniel K. Pearson, US Geological Survey</em>
       </li>
       <li><strong>The Texas Water Integrated Information Delivery (WIID) 2.0</strong><br>
-      <em>Ginny Vragel, Texas Water Development Board and Richard Winkelbauer</em></li>
+      <em>Ginny Vragel, Texas Water Development Board | Richard Winkelbauer</em></li>
       <li><strong>Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGIS  Server, WMS &amp; WFS Cross-Platform Compatibility</strong><br>
     <em>Eale Emrich and Justin Scott Winn, DrillingInfo</em></li>
   </ul>
@@ -170,7 +170,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
           State Initiatives (Cool Enough for Government Work)</h3>
     <ul class="agenda-track">
       <li><strong>Google's Imagery Program</strong><br>
-        <em>Kyle Campbell, Google and Richard Wade, TNRIS</em></li>
+        <em>Kyle Campbell, Google | Richard Wade, TNRIS</em></li>
     <li><strong>TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide</strong><br>
       <em>Laura Wisdom, General Land Office</em></li>
   </ul>
@@ -231,7 +231,7 @@ For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the 
     <h3><small>Session A (Big Tex)</small><br>Lidar (Get to the Points)</h3>
     <ul class="agenda-track">
       <li><strong>Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection</strong><br>
-     <em>Robert Dzur, Bohannan Huston, Inc and Sally Abbe, City of Lubbock</em></li>
+     <em>Robert Dzur, Bohannan Huston, Inc | Sally Abbe, City of Lubbock</em></li>
     <li><strong>Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User</strong><br>
     <em>Harold Rempel, ESP Associates</em></li>
     <li><strong>Innovations - Changing the way Lidar is Used</strong><br>
