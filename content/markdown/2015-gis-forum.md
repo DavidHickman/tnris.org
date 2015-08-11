@@ -72,7 +72,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <ul class="agenda-track">
         <li>
           <strong>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</strong><br>
-          <em>Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment</em>
+          <em>Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment | Nicholas Villarreal, Graduate Intern/SMWI Project, Texas State University at San Marcos</em>
         </li>
         <li>
           <strong>Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System</strong><br>
@@ -133,7 +133,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <ul class="agenda-track">
       <li>
         <strong>Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software</strong><br>
-        <em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology</em>
+        <em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology | T. Clay Templeton, PhD Student, University of Texas - School of Information</em>
       </li>
       <li>
         <strong>GIS Lessons: Learning to Query and Code with the CartoDB Academy </strong><br>
@@ -189,7 +189,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       </li>
       <li>
         <strong>The Texas Water Integrated Information Delivery (WIID) 2.0</strong><br>
-        <em>Ginny Vragel, Texas Water Development Board and Richard Winkelbauer</em>
+        <em>Ginny Vragel, Texas Water Development Board | Richard Winkelbauer</em>
       </li>
       <li>
         <strong>Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGIS  Server, WMS &amp; WFS Cross-Platform Compatibility</strong><br>
@@ -205,7 +205,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <ul class="agenda-track">
       <li>
         <strong>Google's Imagery Program</strong><br>
-        <em>Kyle Campbell, Google and Richard Wade, TNRIS</em>
+        <em>Kyle Campbell, Google | Richard Wade, TNRIS</em>
       </li>
       <li>
         <strong>TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide</strong><br>
@@ -250,7 +250,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   <div class="col-sm-9 col-md-10">
     <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
     <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
-    <p><i class="glyphicon glyphicon-user"></i> <a href="{{ m.link('news/2015-07-16/ucgis-fellow-david-cowen-keynote-forum/')}}">Full Bio</a></p>
+    <p><i class="glyphicon glyphicon-user"></i> <a href="{{m.link('news/2015-07-16-ucgis-fellow-david-cowen-keynote-forum')}}">Full Bio</a></p>
   </div>
 </div>
 
@@ -272,7 +272,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <ul class="agenda-track">
       <li>
         <strong>Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection</strong><br>
-        <em>Robert Dzur, Bohannan Huston, Inc and Sally Abbe, City of Lubbock</em>
+        <em>Robert Dzur, Bohannan Huston, Inc | Sally Abbe, City of Lubbock</em>
       </li>
       <li>
         <strong>Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User</strong><br>
