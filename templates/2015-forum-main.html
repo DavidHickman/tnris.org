@@ -13,6 +13,44 @@
   {% parent %}
 
   {{form.scripts()}}
+
+  <script src="//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js"></script>
+  <script>
+    (function (_now) {
+      var now = _now || moment();
+
+      var dayOne = moment('2015-10-26');
+      var dayTwo = moment('2015-10-27');
+
+      var dayPrefix;
+      if (now.isSame(dayOne, 'day')) {
+        dayPrefix = 'DayOne_';
+      } else if (now.isSame(dayTwo, 'day')) {
+        dayPrefix = 'DayTwo_';
+      } else {
+        return; //exit if not a conference day 
+      }
+
+      var bestStart;
+      var nowTime = parseInt(now.format('HHmm'), 10);
+      $('.time-block').each(function () {
+        var blockDayStart = $(this).attr('id').split('_');
+        var blockDay = blockDayStart[0];
+        var blockStart = blockDayStart[1];
+        if (blockDay + '_' !== dayPrefix) { 
+          //only look at times for current day
+          return;
+        } 
+        if (!bestStart) {
+          bestStart = blockStart;
+        }
+        if (nowTime >= parseInt(blockStart, 10)) {
+          bestStart = blockStart;
+        }
+      });
+      window.location.hash = '#' + dayPrefix + bestStart;
+    })();
+  </script>
 {% endblock scripts %}
 
 

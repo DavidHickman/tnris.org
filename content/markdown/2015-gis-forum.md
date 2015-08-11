@@ -27,7 +27,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 <div class="container agenda-full">
   <div class="row">
     <h2>Day 1: Wednesday, October 28th</h2>
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-md-2 time-block" id="DayOne_0700">
       7:00 - 8:30 a.m.
     </div>
     <div class="col-sm-9">
@@ -35,7 +35,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-md-2 time-block" id="DayOne_0830">
       8:30 - 9:00 a.m.
     </div>
     <div class="col-sm-9 col-md-10">
@@ -43,7 +43,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-md-2 time-block" id="DayOne_0900">
       9:00 - 10:00 a.m.
     </div>
     <div class="col-sm-9 col-md-10">
@@ -55,7 +55,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1000">
       10:00 - 10:30 a.m.
     </div>
     <div class="col-sm-9 col-md-10">
@@ -64,7 +64,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
 
   <div class="row">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1030">
       10:30 a.m. - 12:00 p.m.
     </div>
     <div class="col-sm-9 col-md-5">
@@ -104,7 +104,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
 
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1200">
       12:00 - 1:00 p.m.
     </div>
     <div class="col-sm-9 col-md-10">
@@ -113,7 +113,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
 
   <div class="row">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1300">
       1:00 – 2:00 p.m.
     </div>
     <div class="col-sm-9 col-md-10">
@@ -125,7 +125,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
 
 <div class="row agenda-bg"> 
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1400">
     2:00 - 3:30 p.m.
   </div>
   <div class="col-sm-9 col-md-5">
@@ -165,7 +165,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1530">
     3:30 - 4:00 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
@@ -173,8 +173,8 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
 </div>
 
-<div class="row agenda-bg"> 
-  <div class="col-sm-3 col-md-2">
+<div class="row agenda-bg">
+  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1600">
     4:00 - 5:30 p.m.
   </div>
   <div class="col-sm-9 col-md-5">
@@ -216,7 +216,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row forum-social-2015">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1800">
     6:00 p.m.
   </div>
   <div class="col-sm-9">
@@ -226,7 +226,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 
 <div class="row">
   <h2>Day 2: Thursday, October 29th</h2>
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0700">
     7:00 - 8:30 a.m.
   </div>
   <div class="col-sm-9 col-md-10">
@@ -235,7 +235,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0830">
     8:30 - 9:00 a.m.
   </div>
   <div class="col-sm-9 col-md-10">
@@ -244,7 +244,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0900">
     9:00 - 10:00 a.m.
   </div>
   <div class="col-sm-9 col-md-10">
@@ -255,7 +255,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1000">
     10:00 - 10:30 a.m.
   </div>
   <div class="col-sm-9 col-md-10">
@@ -264,7 +264,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1030">
     10:30 a.m. - 12:00 p.m.
   </div>
   <div class="col-sm-9 col-md-5">
@@ -304,7 +304,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1200">
     12:00 - 1:00 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
@@ -313,7 +313,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1300">
     1:00 – 2:00 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
@@ -325,7 +325,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row agenda-bg"> 
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1400">
     2:00 - 3:30 p.m.
   </div>
   <div class="col-sm-9 col-md-5">
@@ -361,7 +361,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1330">
     3:30 - 4:00 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
@@ -370,7 +370,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1600">
     4:00 - 5:30 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
@@ -379,7 +379,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 
 <div class="row">
-  <div class="col-sm-3 col-md-2">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1700">
     5:00 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
