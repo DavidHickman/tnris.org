@@ -77,7 +77,7 @@ Infogroup business and residential data still under review by State agencies and
 
 ****
 
-<h3><a href="http://www.dps.texas.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/tx_dps_logo.jpg')}}" alt="Texas DPS logo and link to website"></a> Texas Department of Public Safety (TxDPS) – Jared Vandehuele</h3>
+<h3><a href="http://www.dps.texas.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/tx_dps_logo.jpg')}}" alt="Texas DPS logo and link to website"></a> Texas Department of Public Safety (TxDPS) – Jared Vandenhelvel</h3>
 
 Working on a first responder basemap.
 
@@ -103,7 +103,7 @@ Special recognition goes out to TxDOT for assisting with imagery review and maki
 
 The acquisition schedule has been affected by the unusually wet spring season and lots of cloud cover. Although a majority of the State has been collected, consideration for collecting the remaining 9% in the next leaf-off period, late 2015, is underway.
 
-Quality checks are nearly complete for Season 1 imagery. All 6-inch imagery products (buy-up areas) have been collected, qc’d and delivered to partners.
+Quality control review has begun for Season 1 imagery. All 6-inch buy-up imagery products have been collected and qc is nearly complete. Delivery to partners is expected by end of August.
 
 Upon project completion and delivery, the imagery will be hosted in Esri’s ArcGIS Imagery services.
 
@@ -126,9 +126,12 @@ USGS is administering grants through the 3D Elevation Program to update the Nati
 ### Benefits of the Hexagon Geospatial ELA
 **Ken Hamilton, Regional Sales Manager, Hexagon Geospatial**
 
+<script async class="speakerdeck-embed" data-id="f6cc47744c104d56b38fad749950aeea" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### Center for Geospatial Science, Applications and Technology: Collaboration Opportunities and Geospatial Technology Solutions
 **Dr. Michael Bishop, Founding Director, GeoSAT**
+
+<script async class="speakerdeck-embed" data-id="6a3fa4ffdb064b6498495ac689d6cce7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### GIS Rule
 
