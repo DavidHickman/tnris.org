@@ -13,69 +13,102 @@
   {% parent %}
 
   {{form.scripts()}}
+
+  <script src="//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js"></script>
+  <script>
+    (function (_now) {
+      var now = _now || moment();
+
+      var dayOne = moment('2015-10-26');
+      var dayTwo = moment('2015-10-27');
+
+      var dayPrefix;
+      if (now.isSame(dayOne, 'day')) {
+        dayPrefix = 'DayOne_';
+      } else if (now.isSame(dayTwo, 'day')) {
+        dayPrefix = 'DayTwo_';
+      } else {
+        return; //exit if not a conference day 
+      }
+
+      var bestStart;
+      var nowTime = parseInt(now.format('HHmm'), 10);
+      $('.time-block').each(function () {
+        var blockDayStart = $(this).attr('id').split('_');
+        var blockDay = blockDayStart[0];
+        var blockStart = blockDayStart[1];
+        if (blockDay + '_' !== dayPrefix) { 
+          //only look at times for current day
+          return;
+        } 
+        if (!bestStart) {
+          bestStart = blockStart;
+        }
+        if (nowTime >= parseInt(blockStart, 10)) {
+          bestStart = blockStart;
+        }
+      });
+      window.location.hash = '#' + dayPrefix + bestStart;
+    })();
+  </script>
 {% endblock scripts %}
 
 
 
 {% block topcontent %}
-<div id="_2015-forum-container">
-  <div class="container-fluid full">
-
+  <div id="_2015-forum-container">
+    <div class="container-fluid full">
       <div class="top-container">
-          {% if mainimage %}
-          <div class="hidden-sm hidden-xs">
-            <img src="{{m.link(mainimage)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
-          </div>
-          {% endif %} 
-          {% if mainimagesm %}
-          <div class="hidden-xs hidden-md hidden-lg">
-            <img src="{{m.link(mainimagesm)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
-          </div>
-          {% endif %} 
+        {% if mainimage %}
+        <div class="hidden-sm hidden-xs">
+          <img src="{{m.link(mainimage)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+        </div>
+        {% endif %} 
+        {% if mainimagesm %}
+        <div class="hidden-xs hidden-md hidden-lg">
+          <img src="{{m.link(mainimagesm)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+        </div>
+        {% endif %} 
 
-          {% if mainimagexs %}
-          <div class="hidden-sm hidden-md hidden-lg">
-            <img src="{{m.link(mainimagexs)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
-          </div>
-          {% endif %} 
+        {% if mainimagexs %}
+        <div class="hidden-sm hidden-md hidden-lg">
+          <img src="{{m.link(mainimagexs)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+        </div>
+        {% endif %} 
       </div>
-  </div>
-
-<div class="_2015-forum-intro">
-    <div class="container">
-      <a class="btn btn-lg btn-danger pull-right" href="{{ button_link}}"><i class="glyphicon glyphicon-hand-right"></i> {{ button_text }}</a>
-      <p class="lead">
-        {{ abstract }}
-      </p>
     </div>
-</div>
 
+    <div class="_2015-forum-intro">
+      <div class="container">
+        <a class="btn btn-lg btn-danger pull-right" href="{{ button_link}}"><i class="glyphicon glyphicon-hand-right"></i> {{ button_text }}</a>
+        <p class="lead">
+          {{ abstract }}
+        </p>
+      </div>
+    </div>
+  </div>
 {% endblock topcontent %}
 
 {% block contents %} 
-
-{% include "./partials/2015-forum/forum-nav-2015.html" %}
-
-<div class="row">
+  {% include "./partials/2015-forum/forum-nav-2015.html" %}
+  <div class="row">
     <div class="col-md-12">
-        {{contents|safe}}
+      {{contents|safe}}
     </div>
-</div>
-</div>
+  </div>
 {% endblock contents %}
 
 {% block contents-two %}
-<section class="forum-map">
+  <section class="forum-map">
     <div class="container">
-        <div class="row">
-                {% include "./partials/2015-forum/forum-map.html" %}   
-        </div>
+      <div class="row">
+        {% include "./partials/2015-forum/forum-map.html" %}   
+      </div>
     </div>
-</section>
-<section class="forum-sponsors">
-  {% include "./partials/2015-forum/2015-forum-sponsors.html" %}
-</section>
-
+  </section>
+  <section class="forum-sponsors">
+    {% include "./partials/2015-forum/2015-forum-sponsors.html" %}
+  </section>
 {% endblock contents-two %}
 
 
