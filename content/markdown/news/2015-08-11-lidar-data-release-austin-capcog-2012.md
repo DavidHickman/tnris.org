@@ -1,10 +1,11 @@
 
 ---
 template: news.html
-title: "LiDAR Data Release For Austin, Texas"
+title: "LiDAR Data Release For Austin, CAPCOG 2012"
 author: Joey Thomas, StratMap
-thumbnail: static/images/updates/2015/georgetown/courthouse_th.jpg
-mainimage: 
+thumbnail: static/images/updates/2015/capcog2012/darrell_k_royal_th.jpg
+mainimage: static/images/updates/2015/capcog2012/darrell_k_royal_stadium.jpg
+maingimagealt: A point cloud of Darrell K. Royal Stadium
 imagealt: A sample of collected liDAR data
 abstract: 
     TNRIS is releasing newly acquired high resolution lidar data for 1,085 square miles of Central Texas for the City of Austin region.
@@ -12,11 +13,6 @@ tags: lidar, data
 ---
  
 The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution LiDAR data for 1,085 square miles of Austin, Texas and suronding areas.. Aerial collection took place January 12, 2012 through January 28, 2012 during the leaf-off season. Sanborn Map Company performed the data acquisition/processing.  
-
-<figure>
-<img class="img-responsive" src="{{m.link('')}}" alt="A point cloud of Darrell K. Royal Stadium">
-<figcaption>A point cloud of Darrell K. Royal Stadium</figcaption>
-</figure>
 
 ## Data Access
 <div class="media">
@@ -29,10 +25,10 @@ The Texas Natural Resources Information System (TNRIS) is pleased to announce th
 </div>
 
 ### Catalog Entry
-{{m.catalog_data_card('elevation-lidar/georgetown-2015-50-cm')}}
+{{m.catalog_data_card('elevation-lidar/capcog-2012-140cm')}}
 
 ## Interactive AOI (Area of Interest) Map
-<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/a3cf9e14-3a1d-11e5-9323-0e0c41326911/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/01a1b8ba-3abe-11e5-bfd3-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 The map above shows the area of acquisition. The data is available in DO4Q tiles.
 
@@ -44,8 +40,8 @@ The map above shows the area of acquisition. The data is available in DO4Q tiles
 -	File-level FGDC metadata in XML
 
 <figure>
-<img class="img-responsive" src="{{m.link('')}}" alt="">
-<figcaption></figcaption>
+<img class="img-responsive" src="{{m.link('static/images/updates/2015/capcog2012/mansfield_dam.jpg')}}" alt="A point cloud of Mansfield Dam at Lake Travis">
+<figcaption>A point cloud of Mansfield Dam at Lake Travis</figcaption>
 </figure>
 
 ## Product Specification
