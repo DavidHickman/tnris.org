@@ -11,7 +11,7 @@ abstract:
 tags: lidar, data
 ---
  
-The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution lidar data for 224 square miles of Georgetown, Texas. Aerial collection took place on December 29, 2014 during the leaf-off season. Sanborn Map Company performed the data acquisition/processing while AECOM provided third-party quality assurance and quality control (QA/QC).  
+The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution LiDAR data for 224 square miles of Georgetown, Texas. Aerial collection took place on December 29, 2014 during the leaf-off season. Sanborn Map Company performed the data acquisition/processing while AECOM provided third-party quality assurance and quality control (QA/QC).  
 
 <figure>
 <img class="img-responsive" src="{{m.link('static/images/updates/2015/georgetown/williamson_courthouse.jpg')}}" alt="A point cloud of the Williamson County Courthouse">
@@ -38,7 +38,7 @@ The map above shows the area of acquisition. The data is available in DO4Q tiles
 
 ## Products
 
--	Classified all-return lidar DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format
+-	Classified all-return LiDAR DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format
 -	Bare-earth digital elevation model (DEM) in USGS .dem format (1-meter)
 -	Lidar intensity images in GeoTIFF format (1-meter)
 -	Hydro-flattening breaklines in SHP
