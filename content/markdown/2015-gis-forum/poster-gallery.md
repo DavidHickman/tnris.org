@@ -29,7 +29,7 @@ The top vote earner will also receive a small gift.
 ## Physical Guidelines for Poster
 
 - Maximum size limit: 36” X 36”
-- Medium: Heavy Bond or Photo Paper
+- Medium: Bond or Photo Paper
 - Submission Deadline: Friday, October 16th , 2015
 
 **Posters may be picked up after 2:00pm on Thursday, October 29th, 2015.**
