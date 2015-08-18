@@ -41,15 +41,18 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
         var filter = "area_id = '" + areaID + "'";
         return $http.get(downloadAPIPre + '/resources', {
           params: {
-            filter: filter,
-            include: 'Dataset'
+            filter: filter
           }
         });
       })
       .then(function (resp) {
-        var resources = resp.data.resources;
-        var group = _(resources).groupBy(function(resource) {
-            return resource.dataset.displayName;
+        var group = _(resp.data.resources)
+          .groupBy(function(resource) {
+            if (type === 'qquad') {
+              return resource.area.name;
+            } else {
+              return resource.dataset.category;
+            }
           })
           .pairs()
           .map(function(pair) {
