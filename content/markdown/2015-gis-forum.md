@@ -374,7 +374,12 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     4:00 - 5:30 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
-    <h3>Session TBD</h3>
+    <h3><small>Session A (Big TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
+     <ul class="agenda-track" >
+      <li>
+        <strong>Managing Special Events in Austin, TX with ArcGIS Online</strong><br>
+        <em>Jacquie Hrncir and John Clary, City of Austin</em>
+      </li>
   </div>
 </div>
 
