@@ -1,10 +1,10 @@
 <div class="resourceGroup">
-  <h3>{{ group.name }}</h3>
+  <h3>{{ groupName || group.name }}</h3>
   <ul>
     <li ng-repeat="resource in group.resources">
       <a href="{{ resource.url }}" analytics-on="click" analytics-event="{{eventAction}}" analytics-category="download" analytics-label="{{resource.url}}">
         <span class="glyphicon glyphicon-download-alt download-icon"></span>
-        <span class="download-text">{{ resource.name }}</span>
+        <span class="download-text">{{ resource.dataset.name }}</span>
       </a>
     </li>
   </ul>

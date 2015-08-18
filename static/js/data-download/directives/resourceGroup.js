@@ -5,6 +5,7 @@ var resourceGroup = ['$stateParams', 'PARTIALS_PATH', function ($stateParams, PA
     restrict: 'EA',
     scope: {
       group: '=',
+      groupName: '@',
       areaDataset: '='
     },
     templateUrl: PARTIALS_PATH + 'resourceGroup.html',
