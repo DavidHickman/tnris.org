@@ -25,6 +25,6 @@ angular.module('ConfigApp', [])
   .constant('BING_API_KEY', 'Ar54FaSONDkvSeqhwoBnBW61JYlThqD8XVtwlaRAcUZDfKQzDjo2kjkMLKT3LCVi')
   .constant('MAP_IMAGE_URL_PRE', '//s3.amazonaws.com/tnris-datadownload/')
   .constant('DOWNLOAD_URL_PRE', '//tg-twdb-gemss.s3.amazonaws.com')
-  .constant('DOWNLOAD_API_PRE', '//tnris.org/data-download/api/v1')
+  .constant('DOWNLOAD_API_PRE', '//tnris.org/data-download/api/v2')
   .constant('HISTORICAL_AERIALS_URL', '//tnris.org/historical-aerials/api/v1')
   ;
