@@ -152,7 +152,7 @@ function parseCSV(options) {
     debug(file.stats);
 
     if (files[data.filename]) {
-      clog.warn("Page '" + data.filename + "' generated from " + options.path + ", but it already exists. This indicates a likely url collision and/or overwriting an existing page.");
+      errors.breaking("Page '" + data.filename + "' generated from " + options.path + ", but it already exists. This indicates a likely url collision and/or overwriting an existing page.");
     }
     files[data.filename] = file;
 
@@ -170,7 +170,7 @@ function urlPath(str) {
 
 function validateLink(str, crossref, filename) {
   if (!str) {
-    clog.warn("Invalid link: from " + filename);
+    errors.breaking("Invalid link: from " + filename);
     return '#';
   }
 
@@ -180,7 +180,7 @@ function validateLink(str, crossref, filename) {
 
   var ref = urlPath(link);
   if (!crossref[ref]) {
-    clog.warn("Invalid link: " + link + " (" + ref + ") from " + filename);
+    errors.breaking("Invalid link: " + link + " (" + ref + ") from " + filename);
     return '#';
   }
 
@@ -191,6 +191,17 @@ function validateLink(str, crossref, filename) {
 
   return url;
 }
+
+var errors = function () {
+  var count = 0;
+  return {
+    breaking: function log (message) {
+      clog.error(message);
+      this.count++;
+    },
+    count: count
+  }
+}();
 
 var dirs = {
   dist: './.dist',
@@ -310,7 +321,7 @@ gulp.task('dist-metal', function () {
               if (exists) {
                 file[image_type.name + '_url'] = filename;
               } else if (image_type.always) {
-                clog.warn("Could not find required image for data catalog entry - " + staticPath);
+                errors.breaking("Could not find required image for data catalog entry - " + staticPath);
               }
             });
 
@@ -414,6 +425,15 @@ gulp.task('dist-metal', function () {
           hostname: 'http://tnris.org',
           output: 'sitemap-main.xml'
         }))
+        .use(function (files, metalsmith, done) {
+          if (errors.count > 0) {
+            clog.error("There were " + errors.count + " errors with this build. You'll need to fix them before continuing.");
+            process.exit();
+          } else {
+            clog.info('Build is clean! Hurray!');
+          }
+          done();
+        })
       )
     .pipe(gulpif(production, gulp.dest(dirs.tmp), gulp.dest(dirs.dist)));
 });
