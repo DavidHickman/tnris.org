@@ -33,6 +33,7 @@ var trim = require('lodash.trim');
 var uglify = require('gulp-uglify');
 var useref = require('gulp-useref');
 var vinylPaths = require('vinyl-paths');
+var winston = require('winston');
 var webserver = require('gulp-webserver');
 
 var autodate = require('./metalsmith-autodate');
@@ -43,6 +44,39 @@ var csv = require('./metalsmith-csv');
 var metadata = require('metalsmith-metadata');
 
 var production = false;
+
+var dirs = {
+  dist: './.dist',
+  content: './content',
+  scss: './scss',
+  static: 'static',
+  tmp: './.tmp',
+  templates: './templates',
+  sitemap: './sitemap',
+  config: './config'
+};
+
+dirs.markdown = path.join(dirs.content, 'markdown');
+dirs.bower = path.join(dirs.static, 'bower_components');
+
+var paths = {
+  catalog: dirs.content + '/data-catalog.csv',
+  content: dirs.content + '/**/*',
+  javascript: [dirs.static + '/**/*.js', '!' + path.join(dirs.bower, '**/*.js')],
+  markdown: dirs.markdown + '/**/*.md',
+  scss: dirs.scss + '/**/*.scss',
+  static: [dirs.static + '/**/*', '!' + path.join(dirs.bower, 'bootstrap-sass-official/**'), '!' + path.join(dirs.bower, 'bourbon/**')],
+  templates: dirs.templates + '/**/*',
+  config: dirs.config + '/**/*',
+  variables: dirs.content + '/variables.yaml'
+};
+
+winston.remove(winston.transports.Console);
+winston.add(winston.transports.Console, {colorize: true});
+winston.add(winston.transports.File, {
+  filename: path.join(dirs.dist, '.build_errors'),
+  json: false
+});
 
 // turn off caching swig templates - so changes will propagate if re-run by a
 // watch task
@@ -196,38 +230,13 @@ var errors = function () {
   var count = 0;
   return {
     breaking: function log (message) {
-      clog.error(message);
+      winston.log('error', message);
       this.count++;
     },
     count: count
   }
 }();
 
-var dirs = {
-  dist: './.dist',
-  content: './content',
-  scss: './scss',
-  static: 'static',
-  tmp: './.tmp',
-  templates: './templates',
-  sitemap: './sitemap',
-  config: './config'
-};
-
-dirs.markdown = path.join(dirs.content, 'markdown');
-dirs.bower = path.join(dirs.static, 'bower_components');
-
-var paths = {
-  catalog: dirs.content + '/data-catalog.csv',
-  content: dirs.content + '/**/*',
-  javascript: [dirs.static + '/**/*.js', '!' + path.join(dirs.bower, '**/*.js')],
-  markdown: dirs.markdown + '/**/*.md',
-  scss: dirs.scss + '/**/*.scss',
-  static: [dirs.static + '/**/*', '!' + path.join(dirs.bower, 'bootstrap-sass-official/**'), '!' + path.join(dirs.bower, 'bourbon/**')],
-  templates: dirs.templates + '/**/*',
-  config: dirs.config + '/**/*',
-  variables: dirs.content + '/variables.yaml'
-};
 
 gulp.task('default', ['dist-dev', 'watch', 'webserver']);
 gulp.task('dev-prod', ['dist', 'watch', 'webserver']);
