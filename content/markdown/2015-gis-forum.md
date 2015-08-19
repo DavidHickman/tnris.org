@@ -346,15 +346,13 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </ul>
   </div>
   <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-    <h3><small>Session B (Li'l TEX)</small><br>State Initiatives</h3>
-    <ul class="agenda-track" >
+
+
+    <h3><small>Session B (Li'l TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
+     <ul class="agenda-track" >
       <li>
-        <strong>The 2015 Texas Statewide Orthoimagery Project</strong><br>
-        <em>Randy Mayden, Surdex Corporation and Gayla Mullins, TNRIS</em>
-      </li>
-      <li>
-        <strong>The New Texas Strategic Mapping Contract</strong><br>
-        <em>Gayla Mullins and Felicia Retiz, TNRIS</em>
+        <strong>Managing Special Events in Austin, TX with ArcGIS Online</strong><br>
+        <em>Jacquie Hrncir and John Clary, City of Austin</em>
       </li>
     </ul>
   </div>
@@ -371,15 +369,10 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 
 <div class="row agenda-bg">
   <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1600">
-    4:00 - 5:30 p.m.
+    4:00 - 5:00 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
-    <h3><small>Session A (Big TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
-     <ul class="agenda-track" >
-      <li>
-        <strong>Managing Special Events in Austin, TX with ArcGIS Online</strong><br>
-        <em>Jacquie Hrncir and John Clary, City of Austin</em>
-      </li>
+    <h3>Session TBD</h3>
   </div>
 </div>
 
