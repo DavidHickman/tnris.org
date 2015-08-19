@@ -70,48 +70,10 @@ Click on the button for your GIS software to learn how to add the imagery servic
 
 If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “**Apply Gamma Stretch**:” option and to set the “**Stretch**” type to None. 
 
-
-<div id="carousel-example-generic" class="carousel slide" data-interval="false">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="{{m.link('static/images/google/tutorial-1.jpg')}}" alt="...">
-    </div>
-    <div class="item">
-      <img src="{{m.link('static/images/google/tutorial-2.jpg')}}" alt="...">
-      <div class="carousel-caption">
-        Using the default in the “Layer Properties” Dialog yields very patchy results.
-      </div>
-    </div>
-        <div class="item">
-      <img src="{{m.link('static/images/google/tutorial-3.jpg')}}" alt="...">
-    </div>
-        <div class="item">
-      <img src="{{m.link('static/images/google/tutorial-4.jpg')}}" alt="...">
-      <div class="carousel-caption">
-        By unchecking the “Apply Gamma Stretch:” option and setting the “Stretch” type to None, the results are much more uniform.
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+<figure>
+  <img class="img-responsive" src="{{m.link('static/images/google/layer-properties.jpg')}}" alt="Highlighting the properties to change for better display">
+  <figcaption>The Layer properties dialog box on ArcGIS</figcaption>
+</figure>
 
 ## What if my link stops working?
 There may be times when links will be updated to allow for access of newly added imagery.  Most likely, your agency would have been notified about these updates.  The fastest way to know whether this is the reason for your non-functioning links is to check status updates at the top of this page:
