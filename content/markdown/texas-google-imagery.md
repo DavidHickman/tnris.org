@@ -35,7 +35,22 @@ The Texas Google Imagery Service is an open-standard service and can be incorpor
  
 Check with your IT Department or software provider to determine if an OGC compliant Web Service is supported by your applications.
  
-## How do I add the Google Imagery services to my:
+
+## How is the Texas Google Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?
+The Texas Google Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 1/2-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than the 1-meter National Agriculture Imagery Program (NAIP) imagery.   
+ 
+The imagery represented by the Texas Google Imagery Service is not in the public domain and is restricted under license.
+ 
+## Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Agriculture Imagery Program (NAIP) partnerships?
+
+Yes, TNRIS will continue to work in coordination with partners to determine the need for orthoimagery. Persisting situations will call for new statewide leaf-off (TOP) or leaf-on (NAIP) acquisition projects to meet higher specific requirements (resolution, positioning) or even greater currency than Google’s update cycle goals (targeted for a 3 year refresh cycle around the State). Additionally, at the federal level, we currently expect the statewide 1 meter 2-year NAIP updates, contracted by the USDA, and the high resolution NGA 133 Cities imagery programs to continue. These products are different enough from the Google imagery, in terms of acquisition schedule and specs, that they should be complementary data resources.
+
+## What do I do if I suspect that my link has been compromised or is being used by someone or an organization that is not authorized to use it?
+If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately.  We will disable your current links and re-establish new links for you to use.
+
+## How do I add the Google Imagery services to my software?
+
+Click on the button for your GIS software to learn how to add the imagery service.
 
 <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//00sp0000000s000000" class="btn btn-default btn-lg">ArcMap</a>
 
@@ -51,15 +66,52 @@ Check with your IT Department or software provider to determine if an OGC compli
 
 <a href="{{m.link('static/documents/google/MicroStationGoogleWMSDemo.pdf')}}" class="btn btn-default btn-lg">MicroStation</a>
  
- 
-## How is the Texas Google Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?
-The Texas Google Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 1/2-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than the 1-meter National Agriculture Imagery Program (NAIP) imagery.   
- 
-The imagery represented by the Texas Google Imagery Service is not in the public domain and is restricted under license.
- 
-## Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Agriculture Imagery Program (NAIP) partnerships?
+## Why does my downloaded tile imagery look blocky/patchy when displayed in ArcGIS? 
 
-Yes, TNRIS will continue to work in coordination with partners to determine the need for orthoimagery. Persisting situations will call for new statewide leaf-off (TOP) or leaf-on (NAIP) acquisition projects to meet higher specific requirements (resolution, positioning) or even greater currency than Google’s update cycle goals (targeted for a 3 year refresh cycle around the State). Additionally, at the federal level, we currently expect the statewide 1 meter 2-year NAIP updates, contracted by the USDA, and the high resolution NGA 133 Cities imagery programs to continue. These products are different enough from the Google imagery, in terms of acquisition schedule and specs, that they should be complementary data resources.
+If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “**Apply Gamma Stretch**:” option and to set the “**Stretch**” type to None. 
+
+
+<div id="carousel-example-generic" class="carousel slide" data-interval="false">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="{{m.link('static/images/google/tutorial-1.jpg')}}" alt="...">
+    </div>
+    <div class="item">
+      <img src="{{m.link('static/images/google/tutorial-2.jpg')}}" alt="...">
+      <div class="carousel-caption">
+        Using the default in the “Layer Properties” Dialog yields very patchy results.
+      </div>
+    </div>
+        <div class="item">
+      <img src="{{m.link('static/images/google/tutorial-3.jpg')}}" alt="...">
+    </div>
+        <div class="item">
+      <img src="{{m.link('static/images/google/tutorial-4.jpg')}}" alt="...">
+      <div class="carousel-caption">
+        By unchecking the “Apply Gamma Stretch:” option and setting the “Stretch” type to None, the results are much more uniform.
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 ## What if my link stops working?
 There may be times when links will be updated to allow for access of newly added imagery.  Most likely, your agency would have been notified about these updates.  The fastest way to know whether this is the reason for your non-functioning links is to check status updates at the top of this page:
@@ -81,8 +133,7 @@ If there is nothing on the portal page regarding updates, please use the “Cont
  
 Contractors or any individual working on behalf of a public organization are permitted to use the imagery as long as the work being performed directly supports the public organization.  The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
  
-## What do I do if I suspect that my link has been compromised or is being used by someone or an organization that is not authorized to use it?
-If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately.  We will disable your current links and re-establish new links for you to use.
+
  
 ## How do I know if and when new imagery has come on line?
 To learn about new imagery or any updates to the Google imagery service, please visit the status section at the top of this page. 
@@ -102,16 +153,14 @@ Use the button below to go to the Questions and Feedback form located on this pa
 
 TNRIS will log these issues and work with Google staff to find solutions to correct them in future releases. 
 
-## I am having trouble with exporting and printing. How can I fix this?
-There is a printing, plotting, and exporting issue with the current GME WMS in Esri software. You will not be able to print, plot, or export maps due to a 2048 pixel limitation within GME’s WMS. Also related to GME’s WMS is the inability to export maps to certain formats such as .JPG while other formats (.PDF, .PNG,.TIF) will export the imagery correctly at most scales. The WMS will not export from ArcMap when the DPI is set high or ‘Output Image Quality’ is set to ‘Best’. Additionally, the GME WMS will not draw below scales of 1:400 in ArcMap. These issues will go away when the imagery and service is migrated out of GME and into the GCP. It is also important for users to understand that the collection is made up of many flights flown at different times of the year. There may be color changes between these flights as they are not collected during the same time of the year. Mis-alignments may also occur along the seams of different flights.
-
 ## What projection is the Google Imagery Service using?
-The native coordinate system for the Google files and services is a Geographic Coordinate System with a WGS 1984 datum. Many end users work in coordinate systems with a different datum (NAD 1983 for example). It will be critical for end users that require the highest locational precision to set up their working environment through the use of the appropriate geographic transformation (Esri software users should use NAD_1983_To_WGS_1984_5). The geographic transformation parameter is needed to overcome the locational difference between the WGS84 and NAD83 datum’s “realization points” that are about a meter apart. Without the proper geographic transformation, reprojection algorithms will not be able to resolve the last meter of positional accuracy. In order for the imagery to be positioned as accurately as possible when there is a difference between the native projection and datums of the imagery and the client viewing application, a datum conversion must be set. For ArcMap users, the appropriate datum conversion for Texas is NAD_1983_To_WGS_1984_5. The default (no transformation specified) will likely introduce several feet of horizontal positional error.
+The map service tiles are webmercator EPSG:3857. 
  
 ## Can I download or get a physical copy of the original image that is in the service?
-In the pilot year, copies of the imagery will be downloaded by TNRIS and made available to the contributing partners upon request.  The requesting agency would need to provide their own hard drives to TNRIS so that the copies can be made.   These images will be in JPEG2000 format and will only be downloaded and distributed by TNRIS.  For additional information, please contact TNRIS directly.
- 
-After the pilot year, the image download may be done at an additional cost.  These details are still pending.  TNRIS is working with the Texas GIS Solutions Group, DIR and Google to determine the process and costs for downloading imagery after the pilot year is over.
+Yes however, downloading imagery is limited to the financial stakeholders.  To learn more about downloading imagery, please contact TNRIS (Add form here).
+
+## What projection are the downloaded Jpeg2000 (jp2) tiles using? 
+The downloaded Jpeg2000 tiles are Platte Carre Geographic EPSG:4326.
 
 ## Is it possible to get a Color Infrared (CIR) version of the imagery as a service?
 Not at this time.  Google Imagery Service will only be serving out the natural color imagery for now.  The CIR version of the imagery is available for download in the pilot year.
@@ -128,7 +177,7 @@ This section will provide the information about the upcoming scheduled flights f
 Please note that information in the Google flight schedules are used as general guidelines and may have several overriding factors such as weather conditions and conflicting schedules.  This information can change at any time.
  
 ## How do I know how much my organization has used the Google imagery service?
-Because each agency is assigned their own specific URL for the Google Imagery Service, usage will be tracked for organizations by monitoring these URL’s.   TNRIS will provide a report at the beginning of each month to each participating agency to show how much their link was used and how it compares to the overall usage for the month.  
+TNRIS will post a report at the beginning of each month on the google imagery project website to show usage by agency or group.
 
 ## Request a Unique Link
 If you feel all your questions have been answered, and are ready to get connected, please use the button below to request a unique link for your organization.
