@@ -8,56 +8,60 @@
   {%- set category = search['urlized_category'] || search.split('/')[0] -%}
   {%- set name = search['urlized_name'] || search.split('/')[1] -%}
   {%- set item = catalog|find({'urlized_category': category, 'urlized_name':name}) -%}
+  {%- if !item %}
+    {# run validateLink to generate a usable build warning #}
+    {%- set throwaway = validateLink(search, crossref, filename) -%}
+   {%- else  -%}
+    <li class="media list-group-item data-card-single">
+     {% if item.thumb_url %}
+        <a class="media-left" href="{{link(item.path)}}">
+          <img class="media-object data-thumb" src="{{m.link('static/' + item.thumb_url)}}" alt="thumbnail of {{item.name}} data set">
+        </a>
+       {% else %}
+        <a class="media-left" href="{{link(item.path)}}">
+          <img class="media-object" src="holder.js/100x100" alt="...">
+        </a>
+      {% endif %}
+      <div class="media-body">
+        <h3 class="media-heading">
+        <a href="{{link(item.path)}}" class="btn btn-sm btn-tnris pull-right">
+          <span class="glyphicon glyphicon-info-sign"></span> Full Info
+        </a>
+          <a href="{{link(item.path)}}">{{item.name}}</a>
+        </h3>
 
-  <li class="media list-group-item data-card-single">
-   {% if item.thumb_url %}
-      <a class="media-left" href="{{link(item.path)}}">
-        <img class="media-object data-thumb" src="{{m.link('static/' + item.thumb_url)}}" alt="thumbnail of {{item.name}} data set">
-      </a>
-     {% else %}
-      <a class="media-left" href="{{link(item.path)}}">
-        <img class="media-object" src="holder.js/100x100" alt="...">
-      </a>
-    {% endif %}
-    <div class="media-body">
-      <h3 class="media-heading">
-      <a href="{{link(item.path)}}" class="btn btn-sm btn-tnris pull-right">
-        <span class="glyphicon glyphicon-info-sign"></span> Full Info
-      </a>
-        <a href="{{link(item.path)}}">{{item.name}}</a>
-      </h3>
+        <div class="right-info">
+          <strong>Access via:</strong>
+          <ul>
+            {% if item.download %}
+              <li>
+                <span class="glyphicon glyphicon-search"></span> Data Search &amp; Download
+              </li>
+            {% endif %}
+            {% if item.download_link %}
+              <li>
+               <span class="glyphicon glyphicon-download-alt"></span> Direct Download
+              </li>
+            {% endif %}
+            {% if item.order %}
+              <li>
+                <span class="glyphicon glyphicon-phone-alt"></span> Ordering
+              </li>
+            {% endif %}
+            {% if item.wms_link %}
+              <li>
+                <span class="glyphicon glyphicon-globe"></span> Online Service
+              </li>
+            {% endif %}
+          </ul>
+        </div>
 
-      <div class="right-info">
-        <strong>Access via:</strong>
-        <ul>
-          {% if item.download %}
-            <li>
-              <span class="glyphicon glyphicon-search"></span> Data Search &amp; Download
-            </li>
-          {% endif %}
-          {% if item.download_link %}
-            <li>
-             <span class="glyphicon glyphicon-download-alt"></span> Direct Download
-            </li>
-          {% endif %}
-          {% if item.order %}
-            <li>
-              <span class="glyphicon glyphicon-phone-alt"></span> Ordering
-            </li>
-          {% endif %}
-          {% if item.wms_link %}
-            <li>
-              <span class="glyphicon glyphicon-globe"></span> Online Service
-            </li>
-          {% endif %}
-        </ul>
+        <p>
+          {{item.short_description}}
+        </p>
       </div>
-
-      <p>
-        {{item.short_description}}
-      </p>
-    </div>
-  </li>
+    </li>
+  {% endif -%}
 {%- endmacro -%}
 
 {%- macro based(str) -%}
