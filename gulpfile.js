@@ -337,6 +337,7 @@ gulp.task('dist-metal', function () {
           variables: 'variables.yaml'
         }))
         .use(each(function(file, filename) {
+          file.filename = filename;
           file.preserved = filename.slice(0, -1 * path.extname(filename).length);
           file.id = file.preserved.replace(/\//g, '-');
           if (file.id[0].match(/\d/)) {
