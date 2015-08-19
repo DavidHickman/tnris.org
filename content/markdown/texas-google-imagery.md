@@ -48,7 +48,9 @@ Yes, TNRIS will continue to work in coordination with partners to determine the 
 ## What do I do if I suspect that my link has been compromised or is being used by someone or an organization that is not authorized to use it?
 If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately.  We will disable your current links and re-establish new links for you to use.
 
-## How do I add the Google Imagery services to:
+## How do I add the Google Imagery services to my software?
+
+Click on the button for your GIS software to learn how to add the imagery service.
 
 <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//00sp0000000s000000" class="btn btn-default btn-lg">ArcMap</a>
 
@@ -66,10 +68,10 @@ If you feel that an unauthorized party has compromised your links, please contac
  
 ## Why does my downloaded tile imagery look blocky/patchy when displayed in ArcGIS? 
 
-If you are adding the downloaded imagery tiles (Not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “Apply Gamma Stretch:” option and to set the “Stretch” type to None. 
+If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “**Apply Gamma Stretch**:” option and to set the “**Stretch**” type to None. 
 
 
-<div id="carousel-example-generic" class="carousel slide">
+<div id="carousel-example-generic" class="carousel slide" data-interval="false">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
