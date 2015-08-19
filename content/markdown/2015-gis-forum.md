@@ -72,7 +72,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <ul class="agenda-track">
         <li>
           <strong>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</strong><br>
-          <em>Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment | Nicholas Villarreal, Graduate Intern/SMWI Project, Texas State University at San Marcos</em>
+          <em>Nicholas Villarreal, Graduate Intern/SMWI Project, Texas State University at San Marcos | Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment</em>
         </li>
         <li>
           <strong>Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System</strong><br>
