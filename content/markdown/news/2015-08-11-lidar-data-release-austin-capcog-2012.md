@@ -12,7 +12,7 @@ abstract:
 tags: lidar, data
 ---
  
-The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution LiDAR data for 1,085 square miles of Austin, Texas and suronding areas.. Aerial collection took place January 12, 2012 through January 28, 2012 during the leaf-off season. Sanborn Map Company performed the data acquisition/processing.  
+The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution LiDAR data for 1,085 square miles of Austin, Texas and surrounding areas. Aerial collection took place January 12, 2012 through January 28, 2012 during the leaf-off season. Sanborn Map Company performed the data acquisition/processing.  
 
 ## Data Access
 <div class="media">
