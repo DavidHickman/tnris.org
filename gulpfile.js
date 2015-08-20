@@ -437,7 +437,7 @@ gulp.task('dist-metal', function () {
         .use(function (files, metalsmith, done) {
           if (errors.count > 0) {
             clog.error("There were " + errors.count + " errors with this build. You'll need to fix them before continuing.");
-            process.exit();
+            process.exit(1);
           } else {
             clog.info('Build is clean! Hurray!');
           }
