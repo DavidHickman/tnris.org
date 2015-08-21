@@ -21,7 +21,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   <img class="pull-right" src="{{m.link('static/images/texas-gis-forum/2015/keynote2.jpg')}}">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, reknowned historians, and more.
 </p>
 <p class="lead-forum">
-  This year continues that record of exciting thinkers with <a href="{{m.link('2015-gis-forum#keynote-meier')}}">Digital Humanitarian, Patrick Meier</a> and <a href="{{m.link('2015-gis-forum#keynote-cowen')}}">UCGIS Fellow, David Cowen</a>.
+  This year continues that record of exciting thinkers with Digital Humanitarian, <a href="#keynote-meier">Patrick Meier</a>, UCGIS Fellow, <a href="#keynote-cowen')}}">David Cowen</a>, and Aerospace Engineer, <a href="#keynote-humphries">Todd Humpreys</a>.
 </p>
 
 <div class="container agenda-full">
@@ -372,7 +372,15 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     4:00 - 5:00 p.m.
   </div>
   <div class="col-sm-9 col-md-10">
-    <h3>Session TBD</h3>
+     <h3 id="keynote-humphries"><small>Keynote Presentation</small><br>Todd Humpreys, Aerospace Engineer, UT Austin</h3>
+    <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/humpreys_head.jpg')}}">  Todd E. Humphreys is an assistant professor in the department of Aerospace
+Engineering and Engineering Mechanics at the University of Texas at Austin,
+and Director of the UT Radionavigation Laboratory. He specializes in the
+application of optimal detection and estimation techniques to problems in
+satellite navigation, autonomous systems, and signal processing.  His recent
+focus has been on secure perception for autonomous systems, including
+navigation, timing, and collision avoidance, and on centimeter-accurate
+location for the mass market. </p>
   </div>
 </div>
 
