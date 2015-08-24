@@ -33,6 +33,7 @@ var trim = require('lodash.trim');
 var uglify = require('gulp-uglify');
 var useref = require('gulp-useref');
 var vinylPaths = require('vinyl-paths');
+var winston = require('winston');
 var webserver = require('gulp-webserver');
 
 var autodate = require('./metalsmith-autodate');
@@ -43,6 +44,39 @@ var csv = require('./metalsmith-csv');
 var metadata = require('metalsmith-metadata');
 
 var production = false;
+
+var dirs = {
+  dist: './.dist',
+  content: './content',
+  scss: './scss',
+  static: 'static',
+  tmp: './.tmp',
+  templates: './templates',
+  sitemap: './sitemap',
+  config: './config'
+};
+
+dirs.markdown = path.join(dirs.content, 'markdown');
+dirs.bower = path.join(dirs.static, 'bower_components');
+
+var paths = {
+  catalog: dirs.content + '/data-catalog.csv',
+  content: dirs.content + '/**/*',
+  javascript: [dirs.static + '/**/*.js', '!' + path.join(dirs.bower, '**/*.js')],
+  markdown: dirs.markdown + '/**/*.md',
+  scss: dirs.scss + '/**/*.scss',
+  static: [dirs.static + '/**/*', '!' + path.join(dirs.bower, 'bootstrap-sass-official/**'), '!' + path.join(dirs.bower, 'bourbon/**')],
+  templates: dirs.templates + '/**/*',
+  config: dirs.config + '/**/*',
+  variables: dirs.content + '/variables.yaml'
+};
+
+winston.remove(winston.transports.Console);
+winston.add(winston.transports.Console, {colorize: true});
+winston.add(winston.transports.File, {
+  filename: path.join(dirs.dist, '.build_errors'),
+  json: false
+});
 
 // turn off caching swig templates - so changes will propagate if re-run by a
 // watch task
@@ -152,7 +186,7 @@ function parseCSV(options) {
     debug(file.stats);
 
     if (files[data.filename]) {
-      clog.warn("Page '" + data.filename + "' generated from " + options.path + ", but it already exists. This indicates a likely url collision and/or overwriting an existing page.");
+      errors.breaking("Page '" + data.filename + "' generated from " + options.path + ", but it already exists. This indicates a likely url collision and/or overwriting an existing page.");
     }
     files[data.filename] = file;
 
@@ -170,7 +204,7 @@ function urlPath(str) {
 
 function validateLink(str, crossref, filename) {
   if (!str) {
-    clog.warn("Invalid link: from " + filename);
+    errors.breaking("Invalid link: from " + filename);
     return '#';
   }
 
@@ -180,7 +214,7 @@ function validateLink(str, crossref, filename) {
 
   var ref = urlPath(link);
   if (!crossref[ref]) {
-    clog.warn("Invalid link: " + link + " (" + ref + ") from " + filename);
+    errors.breaking("Invalid link: " + link + " (" + ref + ") from " + filename);
     return '#';
   }
 
@@ -192,31 +226,17 @@ function validateLink(str, crossref, filename) {
   return url;
 }
 
-var dirs = {
-  dist: './.dist',
-  content: './content',
-  scss: './scss',
-  static: 'static',
-  tmp: './.tmp',
-  templates: './templates',
-  sitemap: './sitemap',
-  config: './config'
-};
+var errors = function () {
+  var count = 0;
+  return {
+    breaking: function log (message) {
+      winston.log('error', message);
+      this.count++;
+    },
+    count: count
+  }
+}();
 
-dirs.markdown = path.join(dirs.content, 'markdown');
-dirs.bower = path.join(dirs.static, 'bower_components');
-
-var paths = {
-  catalog: dirs.content + '/data-catalog.csv',
-  content: dirs.content + '/**/*',
-  javascript: [dirs.static + '/**/*.js', '!' + path.join(dirs.bower, '**/*.js')],
-  markdown: dirs.markdown + '/**/*.md',
-  scss: dirs.scss + '/**/*.scss',
-  static: [dirs.static + '/**/*', '!' + path.join(dirs.bower, 'bootstrap-sass-official/**'), '!' + path.join(dirs.bower, 'bourbon/**')],
-  templates: dirs.templates + '/**/*',
-  config: dirs.config + '/**/*',
-  variables: dirs.content + '/variables.yaml'
-};
 
 gulp.task('default', ['dist-dev', 'watch', 'webserver']);
 gulp.task('dev-prod', ['dist', 'watch', 'webserver']);
@@ -271,33 +291,28 @@ gulp.task('dist-metal', function () {
           titleKey: 'name',
           additional: function (file) {
             var image_name = file.urlized_name.replace(/-/g, '_');
-            var base = 'images/data-catalog/' + file.urlized_category + '/' + image_name;
+            var urlizedEntry = file.urlized_category + '/' + image_name;
+            var base = 'images/data-catalog/' + urlizedEntry;
 
             var image_types = [
               {
                 name: 'thumb',
                 suffix: '_th',
-                always: true
               }, {
                 name: 'overview_image',
                 suffix: '_overview',
-                always: true
               }, {
                 name: 'status_map',
                 suffix: '_status',
-                always: false
               }, {
                 name: 'detail_image',
                 suffix: '_detail',
-                always: false
               }, {
                 name: 'urban_image',
                 suffix: '_urban',
-                always: false
               }, {
                 name: 'natural_image',
                 suffix: '_natural',
-                always: false
               }
             ];
 
@@ -309,10 +324,16 @@ gulp.task('dist-metal', function () {
 
               if (exists) {
                 file[image_type.name + '_url'] = filename;
-              } else if (image_type.always) {
-                clog.warn("Could not find required image for data catalog entry - " + staticPath);
               }
             });
+
+            if (!file['thumb_url']) {
+              errors.breaking("Could not find required thumbnail image for data catalog entry: " + urlizedEntry);
+            }
+
+            if (!file['overview_image_url'] && !file['detail_image_url']) {
+              errors.breaking("Could not find overview or detail image for data catalog entry: " + urlizedEntry);
+            }
 
             return file;
           }
@@ -414,13 +435,22 @@ gulp.task('dist-metal', function () {
           hostname: 'http://tnris.org',
           output: 'sitemap-main.xml'
         }))
+        .use(function (files, metalsmith, done) {
+          if (errors.count > 0) {
+            clog.error("There were " + errors.count + " errors with this build. You'll need to fix them before continuing.");
+            process.exit(1);
+          } else {
+            clog.info('Build is clean! Hurray!');
+          }
+          done();
+        })
       )
     .pipe(gulpif(production, gulp.dest(dirs.tmp), gulp.dest(dirs.dist)));
 });
 
 gulp.task('dist-scss', function () {
   return gulp.src(paths.scss)
-    .pipe(gulpif(!production, scsslint()))
+    //.pipe(gulpif(!production, scsslint()))
     .pipe(sass())
     .pipe(gulp.dest(dirs.dist + '/css'))
     .pipe(gulp.dest(dirs.tmp + '/css'));
