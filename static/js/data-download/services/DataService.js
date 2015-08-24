@@ -9,7 +9,7 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
 
     if (!_.isUndefined(name)) {
       // case insensitive pattern match in name
-      filter += ' AND name LIKE ';
+      filter += ' AND name ILIKE ';
 
       // strict matching for datasets, non-strict for search
       if (strict) {
