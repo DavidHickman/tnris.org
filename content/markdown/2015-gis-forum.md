@@ -381,6 +381,8 @@ satellite navigation, autonomous systems, and signal processing.  His recent
 focus has been on secure perception for autonomous systems, including
 navigation, timing, and collision avoidance, and on centimeter-accurate
 location for the mass market.</p>
+
+    <p><i class="glyphicon glyphicon-user"></i> <a href="{{m.link('news/2015-08-24-forum-keynote-ut-professor-todd-humphreys/')}}">Full Bio</a></p>
   </div>
 </div>
 
