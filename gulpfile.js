@@ -291,33 +291,28 @@ gulp.task('dist-metal', function () {
           titleKey: 'name',
           additional: function (file) {
             var image_name = file.urlized_name.replace(/-/g, '_');
-            var base = 'images/data-catalog/' + file.urlized_category + '/' + image_name;
+            var urlizedEntry = file.urlized_category + '/' + image_name;
+            var base = 'images/data-catalog/' + urlizedEntry;
 
             var image_types = [
               {
                 name: 'thumb',
                 suffix: '_th',
-                always: true
               }, {
                 name: 'overview_image',
                 suffix: '_overview',
-                always: true
               }, {
                 name: 'status_map',
                 suffix: '_status',
-                always: false
               }, {
                 name: 'detail_image',
                 suffix: '_detail',
-                always: false
               }, {
                 name: 'urban_image',
                 suffix: '_urban',
-                always: false
               }, {
                 name: 'natural_image',
                 suffix: '_natural',
-                always: false
               }
             ];
 
@@ -329,10 +324,16 @@ gulp.task('dist-metal', function () {
 
               if (exists) {
                 file[image_type.name + '_url'] = filename;
-              } else if (image_type.always) {
-                errors.breaking("Could not find required image for data catalog entry - " + staticPath);
               }
             });
+
+            if (!file['thumb_url']) {
+              errors.breaking("Could not find required thumbnail image for data catalog entry: " + urlizedEntry);
+            }
+
+            if (!file['overview_image_url'] && !file['detail_image_url']) {
+              errors.breaking("Could not find overview or detail image for data catalog entry: " + urlizedEntry);
+            }
 
             return file;
           }
