@@ -22,7 +22,7 @@ The purpose of the poster gallery is to promote and recognize the advances of ma
 
 ### Winners
 
-The top 3 vote earners will be highlighted on the TNRIS website under the '<a href="{{ m.link('spotlights/2014-10-30-morris-sheppard-dam-lidar.md')}}">Data Spotlight</a>'' section following the forum. 
+The top 3 vote earners will be highlighted on the TNRIS website under the '<a href="{{m.link('spotlights/2014-10-30-morris-sheppard-dam-lidar')}}" >Data Spotlight</a>' section following the forum. 
 
 The top vote earner will also receive a small gift.
 
