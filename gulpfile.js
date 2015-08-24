@@ -449,7 +449,7 @@ gulp.task('dist-metal', function () {
 
 gulp.task('dist-scss', function () {
   return gulp.src(paths.scss)
-    .pipe(gulpif(!production, scsslint()))
+    //.pipe(gulpif(!production, scsslint()))
     .pipe(sass())
     .pipe(gulp.dest(dirs.dist + '/css'))
     .pipe(gulp.dest(dirs.tmp + '/css'));
