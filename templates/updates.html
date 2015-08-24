@@ -31,7 +31,7 @@
       {% if pagination %}
         <nav>
           <ul class="pager">
-            {% if pagination.prev %}
+            {% if pagination.prev.path %}
               <li>
                 <a href="{{m.link(pagination.prev.path)}}">
                   <span aria-hidden="true">&larr;</span> Newer
@@ -40,7 +40,7 @@
             {% else %}
               <li class="disabled"><a href="#"><span aria-hidden="true">&larr;</span> Newer</a></li>
             {% endif %}
-            {% if pagination.next %}
+            {% if pagination.next.path %}
               <li>
                 <a href="{{m.link(pagination.next.path)}}">
                   Older <span aria-hidden="true">&rarr;</span>
