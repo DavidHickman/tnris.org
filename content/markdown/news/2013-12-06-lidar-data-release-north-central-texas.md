@@ -1,16 +1,16 @@
 ---
 template: news.html
-title: "LiDAR Data Release For Parts of North & Central Texas"
+title: "Lidar Data Release For Parts of North & Central Texas"
 author: StratMap
 thumbnail: static/images/updates/2013/lidar-data-release-north-central/lidar-release-th.png
 mainimage: static/images/updates/2013/lidar-data-release-north-central/image002.jpg
-imagealt: A sample of collected liDAR data
+imagealt: A sample of collected Lidar data
 abstract: 
-    TNRIS is releasing newly acquired high resolution lidar data for 3,090 square miles of North Texas
+    TNRIS is releasing newly acquired high resolution Lidar data for 3,090 square miles of North Texas
 tags: lidar, data
 ---
 
-The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution lidar data for 3,090 square miles of Johnson, Ellis, Hill, McLennan, Limestone, Navarro and Henderson Counties in North Texas as well as 1,452 square miles of Wilson and Karnes Counties in Central Texas.  Aerial collection took place from January to March 2013 during the leaf-off season.  Gorrondona & Associates teamed with McKim & Creed and Williams Aerial Mapping to perform data acquisition/processing while URS Corporation provided third-party quality assurance and quality control (QA/QC).
+The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution Lidar data for 3,090 square miles of Johnson, Ellis, Hill, McLennan, Limestone, Navarro and Henderson Counties in North Texas as well as 1,452 square miles of Wilson and Karnes Counties in Central Texas.  Aerial collection took place from January to March 2013 during the leaf-off season.  Gorrondona & Associates teamed with McKim & Creed and Williams Aerial Mapping to perform data acquisition/processing while URS Corporation provided third-party quality assurance and quality control (QA/QC).
 
 This project was administered by the TNRIS Strategic Mapping Program (StratMap) and the data were procured through the Council on Competitive Government’s (CCG) High Priority Imagery and Datasets (HPIDS) contract.  Funding was provided by the U.S. Department of Agriculture Natural Resources Conservation Service (NRCS), the Texas Commission on Environmental Quality (TCEQ), the San Antonio River Authority (SARA) and the Texas Water Development Board (TWDB).</p>
 
@@ -35,7 +35,7 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 
 ## Products
 
-- Classified all-return lidar DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format
+- Classified all-return Lidar DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format
 - Bare-earth digital elevation model (DEM) in USGS .dem format (1-meter)
 - Lidar intensity images in GeoTIFF format (1-meter)
 - Hydro-flattening breaklines in SHP
@@ -62,8 +62,8 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 
 ## Sample Images
 
-![A sample of collected liDAR data](static/images/updates/2013/lidar-data-release-north-central/image001.jpg)
+![A sample of collected LiDAR data](static/images/updates/2013/lidar-data-release-north-central/image001.jpg)
 
-![A sample of collected liDAR data](static/images/updates/2013/lidar-data-release-north-central/image003.png)
+![A sample of collected LiDAR data](static/images/updates/2013/lidar-data-release-north-central/image003.png)
 
-![A sample of collected liDAR data](static/images/updates/2013/lidar-data-release-north-central/image004.png)
+![A sample of collected LiDAR data](static/images/updates/2013/lidar-data-release-north-central/image004.png)

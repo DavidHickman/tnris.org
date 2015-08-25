@@ -3,18 +3,18 @@ title: 2014 Central Texas and Fort Bend County LiDAR
 author: Joey Thomas, StratMap
 template: news.html
 thumbnail: static/images/updates/2015/central-tx-lidar/central_tx_lidar_th.jpg
-thumbalt: Thumb for Central Texas LiDAR Article
+thumbalt: Thumb for Central Texas Lidar Article
 mainimage: static/images/updates/2015/central-tx-lidar/house.jpg
-mainimagealt: Houses captured by LiDAR
+mainimagealt: Houses captured by Lidar
 abstract:
-    A collaborative initiative to capture high-quality LiDAR data for parts of Bandera, Fort Bend, Lampasas, Mills and Uvalde County, Texas
+    A collaborative initiative to capture high-quality Lidar data for parts of Bandera, Fort Bend, Lampasas, Mills and Uvalde County, Texas
 ---
 
-The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution lidar data for 3242 square miles of parts of Bandera, Fort Bend, Lampasas, Mills and Uvalde County, Texas. Aerial collection took place from January to March 2013 during the leaf-off season. Fugro performed data acquisition/processing while URS Corporation provided third-party quality assurance and quality control (QA/QC).
+The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired high resolution Lidar data for 3242 square miles of parts of Bandera, Fort Bend, Lampasas, Mills and Uvalde County, Texas. Aerial collection took place from January to March 2013 during the leaf-off season. Fugro performed data acquisition/processing while URS Corporation provided third-party quality assurance and quality control (QA/QC).
 
 This project was administered by the TNRIS Strategic Mapping Program (StratMap) and the data were procured through the Council on Competitive Government’s (CCG) High Priority Imagery and Datasets (HPIDS) contract. Funding was provided by the U.S. Department of Agriculture Natural Resources Conservation Service (NRCS), Texas Parks & Wildlife Department (TPWD), Central Texas Council of Governments (CTCOG) and Bandera County River Authority and Groundwater District (BCRAGD) working in coordination with the San Antonio River Authority (SARA).
 
-<img class="img-responsive" src="{{m.link('static/images/updates/2015/central-tx-lidar/DEM.jpg')}}" alt="A DEM of Central Texas LiDAR">
+<img class="img-responsive" src="{{m.link('static/images/updates/2015/central-tx-lidar/DEM.jpg')}}" alt="A DEM of Central Texas Lidar">
 
 ## Data Access
 <div class="media">
@@ -26,7 +26,7 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
   </div>
 </div>
 
-Please check our [LiDAR status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage. 
+Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage. 
 
 ### Catalog Entries
 {{m.catalog_data_card('elevation-lidar/tnris-2014-50cm-bandera-lampasas')}}
@@ -52,7 +52,7 @@ Please check our [LiDAR status map](http://tnris.maps.arcgis.com/apps/Viewer/ind
   * Class 9. Water
   * Class 13. Bridges and Culverts
   
-<img class="img-responsive" src="{{m.link('static/images/updates/2015/central-tx-lidar/natural.jpg')}}" alt="Some hill features captured by LiDAR">
+<img class="img-responsive" src="{{m.link('static/images/updates/2015/central-tx-lidar/natural.jpg')}}" alt="Some hill features captured by Lidar">
 
 **Bandera and Lampasas AOI’s**
 - Horizontal projection is UTM NAD83 (NSRS 2007) Zones 14
