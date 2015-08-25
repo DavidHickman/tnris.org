@@ -193,7 +193,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       </li>
       <li>
         <strong>Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGIS  Server, WMS &amp; WFS Cross-Platform Compatibility</strong><br>
-        <em>Dale Emrich and Justin Scott Winn, DrillingInfo</em>
+        <em>Dale Emrich, Justin Scott Winn, Cole Howard, DrillingInfo</em>
       </li>
     </ul>
   </div>
