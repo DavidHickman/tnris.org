@@ -137,7 +137,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       </li>
       <li>
         <strong>GIS Lessons: Learning to Query and Code with the CartoDB Academy </strong><br>
-        <em> Aurelia Moser and Andy Esbacher, CartoDB</em>
+        <em> Aurelia Moser and Andy Eschbacher, CartoDB</em>
       </li>
       <li>
         <strong>Open Source Software Education in Texas</strong><br>
