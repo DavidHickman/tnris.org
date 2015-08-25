@@ -3,22 +3,45 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
   'use strict';
   DataService = {};
 
-  DataService.getAreas = function (type, name, strict) {
-    var filter = "type = '" + type + "'";
+  DataService.getArea = function (where) {
+    return DataService.getAreas(where, true)
+      .then(function (areas) {
+        if (areas.length === 1) {
+          return areas[0];
+        } else if (areas.length >= 1) {
+          throw "Multiple areas found for: " + JSON.stringify(where);
+        } else {
+          throw "No area found for: " + JSON.stringify(where);
+        }
+      });
+  };
+
+  DataService.getAreas = function (where, strict) {
+    var clauses = [];
+
+    _.pairs(_.omit(where, 'name')).forEach(function (pair) {
+      var key = pair[0];
+      var value = pair[1];
+
+      clauses.push(key + " = '" + value + "'");
+    });
+
     strict = strict || false;
 
-    if (!_.isUndefined(name)) {
+    if (!_.isUndefined(where.name)) {
       // case insensitive pattern match in name
-      filter += ' AND name ILIKE ';
+      var nameClause = 'name ILIKE ';
 
       // strict matching for datasets, non-strict for search
       if (strict) {
-        filter += "'" + name + "'";
+        nameClause += "'" + where.name + "'";
       } else {
-        filter += "'%" + name + "%'";
+        nameClause += "'%" + where.name + "%'";
       }
+      clauses.push(nameClause);
     }
 
+    var filter = clauses.join(' AND ');
     var promise = $http.get(downloadAPIPre + '/areas', {
       params: {
         filter: filter,
@@ -32,13 +55,28 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
     return promise;
   };
 
-  DataService.getAreaDatasets = function (type, name) {
-    var promise = DataService.getAreas(type, name, true)
-      .then(function (areas) {
-        return areas[0].id;
-      })
-      .then(function(areaID) {
-        var filter = "area_id = '" + areaID + "'";
+  DataService.getAssociatedAreas = function (where) {
+    var type = where.type;
+    var code = where.code;
+
+    if (type !== 'quad') {
+      throw "Associated datasets for things other than quads not currently supported.";
+    }
+
+    var promise = $http.get(downloadAPIPre + '/quad-info/' + code)
+      .then(function (resp) {
+        return resp.data;
+      });
+
+    return promise;
+  }
+
+  DataService.getAreaDatasets = function (where) {
+    var type = where.type;
+
+    var promise = DataService.getArea(where)
+      .then(function(area) {
+        var filter = "area_id = '" + area.id + "'";
         return $http.get(downloadAPIPre + '/resources', {
           params: {
             filter: filter

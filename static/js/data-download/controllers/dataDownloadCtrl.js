@@ -5,9 +5,9 @@ var dataDownloadCtrl = function ($scope, $state, DataService) {
   $scope.counties = [];
   $scope.county = {};
 
-  DataService.getAreas('county')
+  DataService.getAreas({'type': 'county'})
     .then(function (counties) {
-      $scope.counties = _.map(counties, function(county) {
+      $scope.counties = _.map(_.sortBy(counties, 'name'), function(county) {
         return {
           value: county.name,
           text: county.name
@@ -47,7 +47,7 @@ var dataDownloadCtrl = function ($scope, $state, DataService) {
   }
 
   $scope.searchQuads = function(search) {
-    DataService.getAreas('quad', search)
+    DataService.getAreas({'type': 'quad', 'name': search})
       .then(function (quads) {
         $scope.quads = _.map(quads, function(quad) {
           return {

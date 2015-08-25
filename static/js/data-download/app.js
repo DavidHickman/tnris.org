@@ -65,10 +65,10 @@ var dataDownloadApp = function () {
           url: "/statewide",
           templateUrl: resultsTemplate,
           controller: function($scope, $rootScope, DataService) {
-            $scope.category = 'Statewide';
             $rootScope.pageTitle = 'Texas Statewide';
+            $scope.category = 'Statewide';
 
-            DataService.getAreaDatasets('state', 'texas')
+            DataService.getAreaDatasets({'type': 'state', 'name': 'texas'})
               .then(function (resourceGroups) {
 
                 // for splitting statewide resource groups into columns
@@ -98,36 +98,51 @@ var dataDownloadApp = function () {
           url: "/county/:name",
           templateUrl: resultsTemplate,
           controller: function($scope, $rootScope, $stateParams, $filter, DataService, MapService, CountyService, HistoricalAerialsService) {
-            $scope.category = 'County';
             $scope.name = _.clone($stateParams.name);
             $rootScope.pageTitle = $filter('titleize')($scope.name) + ' County';
+            $scope.category = 'County';
+            $scope.code = undefined;
 
-            var fips = CountyService.getFipsForName($scope.name);
-            HistoricalAerialsService.getYearsForCounty(fips)
-              .then(function (years) {
-                $scope.aerialsYears = years;
-                return years;
-              });
+            DataService.getArea({'type': 'county', 'name': $scope.name})
+              .then(function (area) {
+                $scope.code = area.code;
+              })
 
-            DataService.getAreaDatasets('county', $scope.name)
-              .then(function (resourceGroups) {
-                $scope.areaDatasets = [
-                  {
-                    'area': 'county',
-                    'groups': resourceGroups
-                  }
-                ];
-              });
+            $scope.$watch('code', function (code) {
+              if (code) {
+                HistoricalAerialsService.getYearsForCounty(code)
+                  .then(function (years) {
+                    $scope.aerialsYears = years;
+                    return years;
+                  });
+
+                DataService.getAreaDatasets({'type': 'county', 'code': code})
+                  .then(function (resourceGroups) {
+                    $scope.areaDatasets = [
+                      {
+                        'area': 'county',
+                        'groups': resourceGroups
+                      }
+                    ];
+                  });
+              }
+            });
           }
         })
         .state('quad', {
           url: "/quad/:name",
           templateUrl: resultsTemplate,
           controller: function($scope, $rootScope, $stateParams, $collection, $filter, DataService, MapService) {
-            $scope.category = 'Quad';
             $scope.name = $stateParams.name;
-
             $rootScope.pageTitle = $filter('titleize')($scope.name) + ' Quad';
+            $scope.category = 'Quad';
+
+            $scope.code = undefined;
+            DataService.getArea({'type': 'quad', 'name': $scope.name})
+              .then(function (area) {
+                $scope.code = area.code;
+              })
+
 
             $scope.areaDatasets = [{
                 'area': 'quad',
@@ -138,16 +153,40 @@ var dataDownloadApp = function () {
               }
             ];
 
-            DataService.getAreaDatasets('quad', $scope.name)
-              .then(function (resourceGroups) {
-                $scope.areaDatasets[0].groups = resourceGroups;
-              });
+            var mergeGroups = function (original, merge) {
+              var merged = _.clone(original);
 
-            _.map(['NW','NE','SW','SE'], function (corner, index) {
-              return DataService.getAreaDatasets('qquad', $scope.name + '|' + corner)
-                .then(function (resourceGroups) {
-                  $scope.areaDatasets[1].groups[index] = resourceGroups[0];
-                });
+              merge.forEach(function (group) {
+                var found = _.findIndex(merged, function(g) {return g.name === group.name;});
+                if (found >= 0) {
+                  var mergedResources = _.sortBy(merged[found].resources.concat(group.resources), function (resource) {
+                    return resource.dataset.name;
+                  });
+                  merged[found].resources = mergedResources;
+                } else {
+                  merged.push(group);
+                }
+              })
+              return merged;
+            };
+
+            $scope.$watch('code', function (code) {
+              if (code) {
+                DataService.getAssociatedAreas({'type': 'quad', 'code': code})
+                  .then(function (areas) {
+                    areas.forEach(function (area) {
+                      DataService.getAreaDatasets(area)
+                        .then(function (resourceGroups) {
+                          if (area.type === 'qquad') {
+                            var index = parseInt(area.code.slice(-1)) - 1;
+                            $scope.areaDatasets[1].groups[index] = resourceGroups[0];
+                          } else {
+                            $scope.areaDatasets[0].groups = mergeGroups($scope.areaDatasets[0].groups, resourceGroups);
+                          }
+                        });
+                    })
+                  })
+              }
             });
           }
         });
