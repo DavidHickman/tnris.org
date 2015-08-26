@@ -386,7 +386,7 @@
   }
 
   img.ad {
-    margin-bottom: 25px;
+    margin-top: 25px;
 
     @media (max-width: $screen-md) {
       margin: 0 auto;
@@ -479,6 +479,12 @@
     padding: 10px 0;
     text-align: center;
   }
+}
+
+h2.front-header {
+  color: $forum2015blue;
+  font-size: 26px;
+  margin-top: 5px;
 }
 
 .feature {
