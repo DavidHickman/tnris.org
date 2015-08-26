@@ -15,14 +15,40 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community, who comes to stay informed of the latest advancements in the private and public sector and to touch base with long-time colleagues – as well as make new connections.
 </p>
 
-### Bringing the Best, Not Just In GIS
+<div class="row">
+<div class="col-sm-8">
+<h3>Bringing the Best, Not Just In GIS</h3>
 
-<p class="lead-forum">
-  <img class="pull-right" src="{{m.link('static/images/texas-gis-forum/2015/keynote2.jpg')}}">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, reknowned historians, and more.
+<p class="lead-forum">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, reknowned historians, and more.
 </p>
 <p class="lead-forum">
   This year continues that record of exciting thinkers with Digital Humanitarian, <a href="#keynote-meier">Patrick Meier</a>, UCGIS Fellow, <a href="#keynote-cowen')}}">David Cowen</a>, and Aerospace Engineer, <a href="#keynote-humphreys">Todd Humphreys</a>.
 </p>
+</div>
+<div class="col-sm-4">
+          <div class="row keynote-feature">
+            <div class="col-sm-4">
+              <a href="#keynote-meier">
+              <img alt="Patrick Meier Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/patrick_square.jpg')}}">
+              <h3><small>Digital Humanitarian</small><br>Patrick<br>Meier</h3>
+              </a>
+            </div>
+            <div class="col-sm-4">
+            <a href="#keynote-cowen">
+          <img alt="David Cowen Small Headshot"  class="img-responsive img-circle" src="{{m.link('static/images/front-page/cowen_square.jpg')}}">
+
+              <h3><small>UCGIS Fellow</small><br>David<br>Cowen</h>
+            </a>
+            </div>
+            <div class="col-sm-4">
+            <a href="#keynote-humphreys">
+          <img alt="Todd Humphreys Small Headshot"  class="img-responsive img-circle" src="{{m.link('static/images/front-page/humphreys_square.jpg')}}">
+              <h3><small>UT Professor</small><br>Todd<br>Humphreys</h3>
+            </a>
+            </div>
+          </div>
+</div>
+</div>
 
 <div class="container agenda-full">
   <div class="row">
