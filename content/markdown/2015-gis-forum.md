@@ -350,9 +350,15 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 
     <h3><small>Session B (Li'l TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
      <ul class="agenda-track" >
+      <li><strong>Connecting the Dots Between Data and Problem Solving,</strong><br>
+        <em>Leah Casey, Texas Department of Health and Human Services and Jeff Jordan, Institute for Demographic Studies and Socioeconomic Research</em>
+      </li>
       <li>
         <strong>Managing Special Events in Austin, TX with ArcGIS Online</strong><br>
         <em>Jacquie Hrncir and John Clary, City of Austin</em>
+      </li>
+        <li><strong>3 Words to Address the World,</strong><br>
+        <em>Tim Williams, What3Words</em>
       </li>
     </ul>
   </div>
