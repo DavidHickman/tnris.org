@@ -56,7 +56,7 @@
         <span class="glyphicon glyphicon-time"></span> {{time}}
       </div>
       <div class="forum-training-location">
-        <strong>Location:</strong> {{location}}
+        <strong><i class="glyphicon glyphicon-pushpin"></i> Location:</strong> {{location}}
       </div>
       <div class="row training-header">
         <div class="col-xs-6 col-sm-7">
@@ -76,8 +76,11 @@
     </div>
     <div class="col-sm-4">
       {% block sidebarLeft %}
-
+         {% if status == "CLOSED" %}
+         <div class="alert alert-danger" role="alert"><strong>Note:</strong> All available spots in this course have been filled and registration is closed.</div>
+        {% else %}
         <a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1725172" class="btn btn-danger btn-lg btn-block">Register For Forum Training</a>
+        {% endif %}
 
       {% endblock sidebarLeft %}
     </div>

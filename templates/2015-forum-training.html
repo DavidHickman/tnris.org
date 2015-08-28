@@ -64,13 +64,14 @@
     <h2>Day 1 - Monday, October 26th</h2>
   {% for event in forumtraining %}
     {% if event.day == '1' %}
-    <div class="row training-header ">
+    <div class="row forum-training-header ">
       <div class="col-xs-3 col-sm-2">
         <i class="glyphicon glyphicon-time"></i> {{event.time}}
-        <br>
-         <a style="margin-top: 30px;" class="btn btn-danger btn-sm hidden-sm hidden-md hidden-lg" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
+        <span class=" hidden-sm hidden-md hidden-lg"><br>
+         <a style="margin-top: 30px;" class="btn btn-danger btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
           Full Info
         </a>
+      </span>
       </div>
       <div class="col-xs-9 col-sm-6">
         <h3><a href="{{m.link(event.path)}}">{{event.class_title}}</a></h3></div>
@@ -86,6 +87,7 @@
   </div>
   <div class="row course-description forum-course">
       <div class="col-xs-3 col-sm-2">
+        <br>
       </div>
       <div class="col-xs-6 col-sm-6">
         {{event.teaser}}
@@ -93,7 +95,7 @@
       <div class="col-xs-2  col-sm-2">
         <strong>Location:</strong><br>{{event.location}}
       </div>
-      <div class="col-sm-1 hidden-xs">
+      <div class="col-sm-2 hidden-xs">
         <a class="btn btn-danger btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
           Full Info
         </a>
@@ -104,13 +106,14 @@
     <h2>Day 2 - Tuesday, October 27th</h2>
   {% for event in forumtraining %}
     {% if event.day == '2' %}
-    <div class="row training-header ">
+    <div class="row forum-training-header ">
       <div class="col-xs-3 col-sm-2">
         <i class="glyphicon glyphicon-time"></i> {{event.time}}
-        <br>
-         <a style="margin-top: 30px;" class="btn btn-danger btn-sm hidden-sm hidden-md hidden-lg" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
+         <span class=" hidden-sm hidden-md hidden-lg"><br>
+         <a style="margin-top: 30px;" class="btn btn-danger btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
           Full Info
         </a>
+      </span>
       </div>
       <div class="col-xs-9 col-sm-6">
         <h3><a href="{{m.link(event.path)}}">{{event.class_title}}</a></h3></div>
@@ -126,6 +129,7 @@
   </div>
   <div class="row course-description forum-course">
       <div class="col-xs-3 col-sm-2">
+        <br>
       </div>
       <div class="col-xs-6 col-sm-6">
         {{event.teaser}}
@@ -134,7 +138,7 @@
       <div class="col-xs-2  col-sm-2">
         <strong>Location:</strong><br>{{event.location}}
       </div>
-      <div class="col-sm-1 hidden-xs">
+      <div class="col-sm-2 hidden-xs">
         <a class="btn btn-danger btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
           Full Info
         </a>
