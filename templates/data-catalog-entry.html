@@ -157,13 +157,13 @@
           {% if download %}
             <h4>Data Search &amp; Download</h4>
             <p>Use our online tool to specify the geographic area for which you would like to download the <em>{{ name }}</em> data set.  </p>
-            <p><a href="{{m.link('data-download')}}" class="btn btn-tnris btn-lg"><span class="glyphicon glyphicon-search"></span> Launch <span class="hidden-sm hidden-xs hidden-md">Data Search &amp; </span>Download </a></p>
+            <p><a href="{{m.link('data-download')}}" class="btn btn-tnris btn-lg"><span class="glyphicon glyphicon-search"></span> Launch Data Search &amp; Download </a></p>
           {% endif %}
 
           {% if order %}
             <h4>Custom Ordering</h4>
             <p><em>{{ name }}</em> is in the public domain and available from the <a href="{{m.link('maps-and-data/research-and-distribution')}}">Research and Distribution Center</a> for the cost of reproduction.</p>
-            <p><a href="{{m.link('order-data')}}" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-envelope"></span> Order <span class="hidden-sm hidden-xs hidden-md">Data</span></a></p>
+            <p><a href="{{m.link('order-data')}}" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-envelope"></span> Order Data</a></p>
           {% endif %}
 
           {% if wms_link %}
