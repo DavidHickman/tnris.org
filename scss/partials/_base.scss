@@ -525,7 +525,10 @@ ul.news-list {
 
     @media (min-width: 768px) {
      display: block !important;
-     visibility: visible;
+    height: auto!important;
+    overflow: visible!important;
+    visibility: visible;
+
    }
   }
 }
