@@ -138,10 +138,15 @@
     </div>
 
     <div class="container">
+       
       <div class="row">
-        <div id="data-access" class="col-md-4 hidden-sm hidden-xs">
+          
+        <div class="col-sm-4 data-access-container">
           <h2>Data Access</h2>
-
+        <button class="data-access-toggle collapsed hidden-sm hidden-lg hidden-md" type="button" data-toggle="collapse" data-target="#data-access">
+        <span><i class="glyphicon glyphicon-eye-open"></i> Click to View Access Options</span>
+         </button>
+          <div class="collapse" id="data-access">
           {% if download_link %}
             <h4>Direct Download</h4>
             <p>The full <em>{{ name }}</em> data set can be downloaded directly.</p>
@@ -152,13 +157,13 @@
           {% if download %}
             <h4>Data Search &amp; Download</h4>
             <p>Use our online tool to specify the geographic area for which you would like to download the <em>{{ name }}</em> data set.  </p>
-            <p><a href="{{m.link('data-download')}}" class="btn btn-tnris btn-lg"><span class="glyphicon glyphicon-search"></span> Launch <span class="hidden-sm hidden-xs hidden-md">Data Search &amp; </span>Download </a></p>
+            <p><a href="{{m.link('data-download')}}" class="btn btn-tnris btn-lg"><span class="glyphicon glyphicon-search"></span> Launch <span class="hidden-sm">Data Search &amp;</span> Download </a></p>
           {% endif %}
 
           {% if order %}
             <h4>Custom Ordering</h4>
             <p><em>{{ name }}</em> is in the public domain and available from the <a href="{{m.link('maps-and-data/research-and-distribution')}}">Research and Distribution Center</a> for the cost of reproduction.</p>
-            <p><a href="{{m.link('order-data')}}" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-envelope"></span> Order <span class="hidden-sm hidden-xs hidden-md">Data</span></a></p>
+            <p><a href="{{m.link('order-data')}}" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-envelope"></span> Order Data</a></p>
           {% endif %}
 
           {% if wms_link %}
@@ -183,9 +188,9 @@
               <i class="glyphicon glyphicon-new-window"></i> Open Online Preview</span></a>
             </p>
           {% endif %}
-
         </div>
-        <div class="col-md-8 col-sm-12">
+        </div>
+        <div class="col-sm-8">
           <div class="description">
             <h2>Description</h2>
             <p>{{contents|safe}}</p>
