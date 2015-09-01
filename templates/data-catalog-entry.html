@@ -138,10 +138,15 @@
     </div>
 
     <div class="container">
+       
       <div class="row">
-        <div id="data-access" class="col-md-4 hidden-sm hidden-xs">
+          
+        <div class="col-sm-4 data-access-container">
           <h2>Data Access</h2>
-
+        <button class="data-access-toggle collapsed hidden-sm hidden-lg hidden-md" type="button" data-toggle="collapse" data-target="#data-access">
+        <span><i class="glyphicon glyphicon-eye-open"></i> Click to View Access Options</span>
+         </button>
+          <div class="collapse" id="data-access">
           {% if download_link %}
             <h4>Direct Download</h4>
             <p>The full <em>{{ name }}</em> data set can be downloaded directly.</p>
@@ -183,9 +188,9 @@
               <i class="glyphicon glyphicon-new-window"></i> Open Online Preview</span></a>
             </p>
           {% endif %}
-
         </div>
-        <div class="col-md-8 col-sm-12">
+        </div>
+        <div class="col-sm-8">
           <div class="description">
             <h2>Description</h2>
             <p>{{contents|safe}}</p>

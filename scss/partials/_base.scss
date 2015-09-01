@@ -514,3 +514,31 @@ ul.news-list {
   font-style: italic;
   text-align: right;
 }
+
+// data catalog collapse
+
+.data-access-container {
+  h2 {
+    margin-top: 0;
+  }
+   .collapse {
+
+    @media (min-width: 768px) {
+     display: block !important;
+     visibility: visible;
+   }
+  }
+}
+
+button.data-access-toggle {
+  background: 0;
+  border: 0;
+  color: $tnrisblue;
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+  &:hover {
+    color: $darkerblue;
+
+  }
+}
