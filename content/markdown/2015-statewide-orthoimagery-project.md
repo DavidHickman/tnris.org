@@ -10,15 +10,16 @@ status_image_preview: 20150724_base_sm.jpg
 status_image_buyup: 20150724_buyups.jpg
 status_image_buyup_preview: 20150724_buyups_sm.jpg
 latest_report: Weekly_Status_Report_072415.pdf
-status_date: July 24th, 2015
+status_date: August 28th, 2015
 updates:
-- Weather conditions have been unfavorable this past month, as such very little imagery acquisition progress has been made since the last short missions were flown on June 10, 2015 and July 15, 2015. And these had to be shortened due to clouds.
-- Two airplanes with ADS100 digital camera sensors are constantly monitoring the conditions to take advantage of any opportunity to acquire imagery.
-- Due to weather conditions, airspace restrictions, and flood conditions affecting the overall project, the acquisition season end date for the remaining areas of the state, Seasons 2, 3, and 4 was extended to August 15, 2015.
-- Quality Control (QC) data review is underway at TNRIS. QC volunteers outside TNRIS have been trained to review data online. Another training session is expected early August.
+-	The status of the 0.5 meter imagery acquired in Season-1 is 100% complete, 99% in Season-2, 89% in Season-3, 33% in Season-4 and 91% Statewide.
+-	Due to continued unfavorable weather conditions, further acquisition of the remaining areas of Texas (9%) was put on hold on in early August until the next upcoming leaf-off season. 
+-	Surdex aircraft with ADS100 digital camera sensors will return to Texas to finish statewide 0.5-meter acquisition Dec 15, 2015 – Feb 28, 2016.
+-	Quality Control (QC) data review is underway at TNRIS. QC volunteers outside TNRIS have been trained to review data online.
+-	The first set of final DOQQs, in the Season 1 area, are expected at TNRIS in September 2015.
 progress_1: 91
 progress_2: 100
-progress_3: 85 
+progress_3: 91 
 progress_4: 50
 progress_5: 0
 progress_6: 65
