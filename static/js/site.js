@@ -16,6 +16,11 @@
     $('.copy-tip').tooltip({'placement': 'top'});
     $('.wms-tip').tooltip({'placement': 'bottom'});
 
+    // Beta/development alert message
+    if (window.location.hostname !== 'tnris.org') {
+      $('.beta-alert').removeClass('hide')
+    }
+
     //zclip + ZeroClipboard url copy buttons
     $('.copy-url-container').each(function (index, node) {
       var $node = node;
