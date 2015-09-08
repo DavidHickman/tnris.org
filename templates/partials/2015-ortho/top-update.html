@@ -6,6 +6,8 @@
         <li>{{update}}</li>
         {% endfor %}
     </ul>
+    <hr>
+    <a class="btn btn-default btn-lg" href="{{m.link('static/documents/2015-ortho-weekly-reports/' + latest_report)}}"><span class="glyphicon glyphicon-file"></span> Download the latest full vendor report</a>
 
     <h3>Data Progress</h3>
     <ul class="list-clean data-progress">
@@ -47,9 +49,30 @@
             <p>of final orthoimagery received</p>
         </li>
     </ul>
-    <a class="btn btn-default btn-lg" href="{{m.link('static/documents/2015-ortho-weekly-reports/' + latest_report)}}"><span class="glyphicon glyphicon-file"></span> Download the latest full vendor report</a>
 </div>
 <div class="col-sm-4 col-md-3 col-md-offset-1">
+   <h3>Latest Production Status Map</h3>
+    <a href="#production-image" data-toggle="modal">
+        <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + production_image_preview)}}" alt="Latest Production Status Map for the Orthoimagery Project">
+        <figcaption class="text-right hidden-xs"><span class="glyphicon glyphicon-search"></span> Click for larger view</figcaption>
+    </a>
+    <div class="modal fade" id="production-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3>Latest Production Status Map</h3>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + production_image)}}" alt="Latest Production Map and flightlines for the Orthoimagery Project">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <h3>Latest Flightline Status Map</h3>
     <a href="#status-image" data-toggle="modal">
         <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + status_image_preview)}}" alt="Latest Status Image and flightlines for the Orthoimagery Project">

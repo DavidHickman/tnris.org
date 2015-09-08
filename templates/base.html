@@ -31,6 +31,10 @@
       <div id="wrap-inner">
         {% include "./partials/navbar.html" %}
 
+        <div class="alert alert-warning hide beta-alert text-center">
+          <strong>Warning!</strong> You are currently viewing a development version of the TNRIS website. For the official version, go to <a href="http://tnris.org">http://tnris.org</a>.
+        </div>
+
         {% include "./partials/browserwarnings.html" %}
 
         {% block quick_nav %} {% endblock quick_nav %}
