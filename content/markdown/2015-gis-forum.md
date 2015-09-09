@@ -65,21 +65,20 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 <div class="col-sm-5">
           <div class="row keynote-feature">
-            <div class="col-sm-4">
-              <a href="#keynote-meier">
+            <div class="col-xs-4">
+              <a class="smooth-scroll" href="#keynote-meier">
               <img alt="Patrick Meier Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/patrick_square.jpg')}}">
               <h3><small>Digital Humanitarian</small><br>Patrick <br class="hidden-xs">Meier</h3>
               </a>
             </div>
-            <div class="col-sm-4">
-            <a href="#keynote-cowen">
-          <img alt="David Cowen Small Headshot"  class="img-responsive img-circle" src="{{m.link('static/images/front-page/cowen_square.jpg')}}">
-
-              <h3><small>UCGIS Fellow</small><br>David <br class="hidden-xs">Cowen</h>
+            <div class="col-xs-4">
+            <a class="smooth-scroll" href="#keynote-cowen">
+          <img alt="David Cowen Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/cowen_square.jpg')}}">
+          <h3><small>UCGIS Fellow</small><br>David <br class="hidden-xs">Cowen</h>
             </a>
             </div>
-            <div class="col-sm-4">
-            <a href="#keynote-humphreys">
+            <div class="col-xs-4">
+            <a class="smooth-scroll" href="#keynote-humphreys">
           <img alt="Todd Humphreys Small Headshot"  class="img-responsive img-circle" src="{{m.link('static/images/front-page/humphreys_square.jpg')}}">
               <h3><small>UT Professor</small><br>Todd <br class="hidden-xs">Humphreys</h3>
             </a>
