@@ -393,32 +393,17 @@ input.wms-url {
 }
 
 .nav-cat-select {
-  background: $tnrisbluergb;
   display: block;
-  padding: 10px;
   max-width: none;
   width: 100%;
   z-index: 1000;
 
   h4 {
-    color: $white;
     margin-top: 0;
   }
 
   select {
     width: 100%;
 
-  }
-
-  &.affix-top {
-    background: 0;
-
-    h4 {
-      color: $darkgrey;
-    }
-  }
-
-  &.affix {
-    left: 0;
   }
 }

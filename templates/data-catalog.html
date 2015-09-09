@@ -29,7 +29,7 @@
             We currently have <strong>{{catalog.length}}</strong> of our datasets represented in our online data catalog and are continually updating it with new entries. If you don't find what you're looking for, please <a href="{{m.link('contact')}}">contact us</a>.
           </p>
         </div>
-        <div class="hidden-md hidden-lg affix nav-cat nav-cat-select">
+        <div class="hidden-md hidden-lg nav-cat nav-cat-select">
           <h4>Browse by Category</h4>
         <select class="selectpicker" onchange="location = this.options[this.selectedIndex].value;">
           {% for category in catalog|sortBy('category')|groupBy('category') %}
