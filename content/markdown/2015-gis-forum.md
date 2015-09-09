@@ -185,6 +185,9 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
           <small>Platinum Sponsor Demo</small><br>
           Applied Geographics, Inc.
        </h3>
+       <h4>
+          Whooping Cranes over the Laguna Madre: Shared Value, Semantic Shifts, and Collaborative Leadership</h4>
+          <em>Presented by: Rich Grady, President | Jim Scott, Director of Western Operations | Kate Hickey, Vice President</em>
     </div>
   </div>
 
