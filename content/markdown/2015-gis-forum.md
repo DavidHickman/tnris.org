@@ -286,7 +286,14 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     6:00 p.m.
   </div>
   <div class="col-sm-9">
-    <h3>Forum Social</h3>
+    <h3>Forum Social sponsored by <img src="{{m.link('static/images/texas-gis-forum/2015/sponsors/cartodb_logo_sm.png')}}"></h3>
+    <p><a href="http://punchbowlsocial.com/austin/"><img class="pull-right" src="{{m.link('static/images/texas-gis-forum/2015/pbs_social.jpg')}}" alt="Logo for PBs Social"></a> <strong>This year's social is at <a href="http://punchbowlsocial.com/austin/">Punch Bowl Social</a>, located about 1.5 miles from the J.J Pickle Center.</strong> You will need to wear your GIS Forum name badge in order to gain access to the reserved activities:
+    <ul>
+      <li>Each person will get two drink tickets, good for beer &amp; wine.</li>
+    <li>We’ve rented bowling, darts, and ping pong.</li>
+    <li>Bowling shoes will be provided onsite – but don’t forget your socks!</li>
+  </ul>
+    <p>  <strong>Rather than driving, go green and walk!</strong>  The Domain Shuttle will be making round trips from the corner of Dillard’s and Maggiano’s to Punch Bowl Social from 5:30 pm – 6:15 pm.  There are two shuttles that will be running simultaneously, each seat 5 people at a time.  If you haven’t seen the shuttle and have been waiting more than 10 minutes, please call this number to arrange a pick-up: 512-656-5485</p>
   </div>
 </div>
 
