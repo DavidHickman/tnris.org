@@ -64,28 +64,51 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </p>
 </div>
 <div class="col-sm-5">
-          <div class="row keynote-feature">
-            <div class="col-xs-4">
-              <a class="smooth-scroll" href="#keynote-meier">
-              <img alt="Patrick Meier Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/patrick_square.jpg')}}">
-              <h3><small>Digital Humanitarian</small><br>Patrick <br class="hidden-xs">Meier</h3>
-              </a>
-            </div>
-            <div class="col-xs-4">
-            <a class="smooth-scroll" href="#keynote-cowen">
-          <img alt="David Cowen Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/cowen_square.jpg')}}">
-          <h3><small>UCGIS Fellow</small><br>David <br class="hidden-xs">Cowen</h>
-            </a>
-            </div>
-            <div class="col-xs-4">
-            <a class="smooth-scroll" href="#keynote-humphreys">
-          <img alt="Todd Humphreys Small Headshot"  class="img-responsive img-circle" src="{{m.link('static/images/front-page/humphreys_square.jpg')}}">
-              <h3><small>UT Professor</small><br>Todd <br class="hidden-xs">Humphreys</h3>
-            </a>
-            </div>
-          </div>
+  <div class="row keynote-feature">
+    <div class="col-xs-4">
+      <a class="smooth-scroll" href="#keynote-meier">
+      <img alt="Patrick Meier Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/patrick_square.jpg')}}">
+      <h3><small>Digital Humanitarian</small><br>Patrick <br class="hidden-xs">Meier</h3>
+      </a>
+    </div>
+    <div class="col-xs-4">
+    <a class="smooth-scroll" href="#keynote-cowen">
+  <img alt="David Cowen Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/cowen_square.jpg')}}">
+  <h3><small>UCGIS Fellow</small><br>David <br class="hidden-xs">Cowen</h>
+    </a>
+    </div>
+    <div class="col-xs-4">
+    <a class="smooth-scroll" href="#keynote-humphreys">
+  <img alt="Todd Humphreys Small Headshot"  class="img-responsive img-circle" src="{{m.link('static/images/front-page/humphreys_square.jpg')}}">
+      <h3><small>UT Professor</small><br>Todd <br class="hidden-xs">Humphreys</h3>
+    </a>
+    </div>
+  </div>
+  </div>
+</div>
+<hr>
+<h2>2015 FORUM AGENDA</h2>
+<p class="lead-forum">
+   Note: Agenda and speakers subject to change without notice
+</p>
+
+<div class="container">
+<div class="row well well-sm personalize-agenda">
+
+<div class="col-sm-5">
+  <div class="checkbox">
+  <label>
+  <input type="checkbox"> Only Show My Starred Presentations
+  </label>
+  </div>
+</div>
+<div class="col-sm-7">
+  <h4>Personalize Your Agenda</h4>
+  Select the star <i class="glyphicon glyphicon-star"></i> next to the presentations you want to highlight.
 </div>
 </div>
+</div>
+
 
 <div class="container agenda-full">
   <div class="row">
@@ -134,6 +157,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <h3><small>Session A (Big Tex)</small><br>Remote Sensing (I Spy From Up High)</h3>
       <ul class="agenda-track">
         <li>
+          <button><i class="glyphicon glyphicon-star"></i></button>
           <strong>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</strong><br>
           <em>Nicholas Villarreal, Graduate Intern/SMWI Project, Texas State University at San Marcos | Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment</em>
         </li>
