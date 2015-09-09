@@ -362,32 +362,47 @@ input.wms-url {
 
 
 /* seperate right-info code */
-    .right-info {
-      display: block;
-      font-size: 13px;
-      color: $middarkgrey;
-      background: $lightgrey;
-      padding: 5px;
-      margin-bottom: 5px;
-      margin-top: 10px;
+.right-info {
+  display: block;
+  font-size: 13px;
+  color: $middarkgrey;
+  background: $lightgrey;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 10px;
 
-      strong {
-        float: left;
-        margin-right: 5px;
-      }
+  strong {
+    float: left;
+    margin-right: 5px;
+  }
 
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
-        li {
-          display: inline-block;
-          margin-right: 10px;
+    li {
+      display: inline-block;
+      margin-right: 10px;
 
-          &:last-child {
-            margin-right: 0;
-          }
-        }
+      &:last-child {
+        margin-right: 0;
       }
     }
+  }
+}
+
+.nav-cat-select {
+  display: block;
+  max-width: none;
+  width: 100%;
+  z-index: 1000;
+
+  h4 {
+    margin-top: 0;
+  }
+
+  select {
+    width: 100%;
+  }
+}
