@@ -12,7 +12,7 @@ status_image_buyup_preview: 20150724_buyups_sm.jpg
 production_image: 20150828_production.jpg
 production_image_preview: 20150828_production_sm.jpg
 latest_report: Weekly_Status_Report_082815.pdf
-status_date: August 28th, 2015
+status_date: September 4th, 2015
 updates:
 - The status of the 0.5 meter imagery acquired in Season-1 is 100% complete, 99% in Season-2, 89% in Season-3, 33% in Season-4 and 91% Statewide.
 - Due to continued unfavorable weather conditions, further acquisition of the remaining areas of Texas (9%) was put on hold on in early August until the next upcoming leaf-off season. 
