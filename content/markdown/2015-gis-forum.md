@@ -182,7 +182,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <div class="col-sm-9 col-md-10">
       <h3>
           <small>Platinum Sponsor Demo</small><br>
-          Applied Geographics, Inc.
+          <img src="{{ m.link('static/images/texas-gis-forum/2015/sponsors/appgeo_logo_sm.png')}}" alt="AppGeo Logo">
        </h3>
        <h4>
           Whooping Cranes over the Laguna Madre: Shared Value, Semantic Shifts, and Collaborative Leadership</h4>
@@ -392,8 +392,12 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   <div class="col-sm-9 col-md-10">
     <h3>
       <small>Platinum Sponsor Demo</small><br>
-      Esri
+      <img src="{{ m.link('static/images/texas-gis-forum/2015/sponsors/esri_logo_sm.png')}}" alt="Esri Logo">
     </h3>
+    <h4>ArcGIS for your Organization</h4>
+    <em>Christian Carlson – Director, State &amp; Local Government Team | 
+Scott Oppmann – Solution Lead, Local Government | 
+Nikki Golding – Solution Lead, State Government</em>
   </div>
 </div>
 
