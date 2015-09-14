@@ -176,12 +176,11 @@ ul.agenda-track {
     }
   }
   
-  li:before {
-    content: "\f130";
-    font-family: FontAwesome;
-    font-size: 20px;
-    margin-left: -25px;
-    padding-right: 10px;
+  button {
+    background: 0;
+    border: 0;
+    color: $middarkgrey;
+    margin-left: -35px;
   }
 }
 
@@ -247,13 +246,20 @@ ul.agenda-track {
 .well.personalize-agenda {
   background: $bsinfoblue;
 
+  p {
+    color: $forum2015blue;
+  }
+
   h4 {
     margin-top: 0;
   }
   
   .checkbox {
-    margin-left: 0;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
     margin-top: 5px;
+    width: auto;
 
   label {
     font-size: 20px;
