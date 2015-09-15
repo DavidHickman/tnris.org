@@ -1,10 +1,18 @@
 <nav class="navbar navbar-inverse forum-bar">
   <div class="container">
     <ul class="nav navbar-nav">
-        <li><a href="{{ m.link('2015-gis-forum')}}">Welcome &amp; Agenda</a></li>
-        <li><a href="{{ m.link('2015-gis-forum/training')}}">Training</a></li>
-        <li><a href="{{ m.link('2015-gis-forum/poster-gallery')}}">Poster Gallery &amp; Contest</a></li>
-        <li><a href="{{ m.link('2015-gis-forum/sponsors-and-exhibitors')}}">Sponsors &amp; Exhibitors</a></li>
+        <li {% if (path === '2015-gis-forum') %}class="active"{% endif %}>
+          <a href="{{ m.link('2015-gis-forum')}}">Welcome &amp; Agenda</a>
+        </li>
+        <li {% if (path === '2015-gis-forum/training') %}class="active"{% endif %}>
+          <a href="{{ m.link('2015-gis-forum/training')}}">Training</a>
+        </li>
+        <li {% if (path === '2015-gis-forum/poster-gallery') %}class="active"{% endif %}>
+          <a href="{{ m.link('2015-gis-forum/poster-gallery')}}">Poster Gallery &amp; Contest</a>
+        </li>
+        <li {% if (path === '2015-gis-forum/sponsors-and-exhibitors') %}class="active"{% endif %}>
+          <a href="{{ m.link('2015-gis-forum/sponsors-and-exhibitors')}}">Sponsors &amp; Exhibitors</a>
+        </li>
       </ul>
   </div>
 </nav>
