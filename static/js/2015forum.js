@@ -76,6 +76,9 @@
       }
       else {
         removeStar(agendaTrackItem.id);
+        if ($('.show-starred-check').prop('checked')) {
+          $(agendaTrackItem).hide();
+        }
       }
     });
 
