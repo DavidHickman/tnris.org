@@ -38,7 +38,7 @@
 
     .forum-course {
     border-bottom: 1px solid $midlightgrey;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
     padding-bottom: 15px;
 
       &:last-child {
@@ -91,13 +91,13 @@ h2.logo-2015 {
   display: block;
   height: 126px;
   text-indent: -9999px;
-  width: 607px;  
+  width: 607px;
 }
 
 .forum-map {
   background: $forum2015blue;
   color: white;
-  margin-top: 50px; 
+  margin-top: 50px;
 
   h2 {
     color: $midgrey;
@@ -107,6 +107,11 @@ h2.logo-2015 {
 .forum-bar {
   background: $forum2015blue;
   font-size: 20px;
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover {
+    background-color: lighten($forum2015blue, 5%);
+  }
 }
 
 .forum-sponsors {
@@ -162,7 +167,7 @@ img.keynote-portrait {
 
 ul.agenda-track {
   padding-left: 25px;
-  
+
   li {
     border-bottom: 1px solid $midgrey;
     list-style: none;
@@ -175,7 +180,7 @@ ul.agenda-track {
       padding-bottom: 0;
     }
   }
-  
+
   button {
     background: 0;
     border: 0;
@@ -191,7 +196,7 @@ ul.agenda-track {
 .lead-forum {
   font-size: 16px;
   font-weight: 300;
-  
+
   @media (min-width: $screen-sm) {
     font-size: 21px;
   }
@@ -222,7 +227,7 @@ ul.agenda-track {
     }
 
     img {
-      
+
       &:hover {
         box-shadow: 0 0 3px $forum2015blue;
       }
@@ -257,7 +262,7 @@ ul.agenda-track {
   h4 {
     margin-top: 0;
   }
-  
+
   .checkbox {
     float: left;
     margin-bottom: 20px;
