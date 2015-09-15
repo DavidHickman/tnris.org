@@ -82,7 +82,6 @@
     $('.show-starred-check').on('click', function () {
       var $this = $(this);
       var checked = $this.prop('checked');
-      console.log("I'm " + (checked ? " checked" : " not checked"));
 
       if (checked) {
         $('.agenda-track-item:not(.starred)').hide();
