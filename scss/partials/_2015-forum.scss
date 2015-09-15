@@ -181,6 +181,10 @@ ul.agenda-track {
     border: 0;
     color: $middarkgrey;
     margin-left: -35px;
+
+    &:hover {
+      color: $lightblue;
+    }
   }
 }
 
