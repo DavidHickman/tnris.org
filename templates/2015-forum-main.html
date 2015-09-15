@@ -15,44 +15,9 @@
   {{form.scripts()}}
 
   <script src="//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js"></script>
-  <script>
-    (function (_now) {
-      var now = _now || moment();
-
-      var dayOne = moment('2015-10-28');
-      var dayTwo = moment('2015-10-29');
-
-      var dayPrefix;
-      if (now.isSame(dayOne, 'day')) {
-        dayPrefix = 'DayOne_';
-      } else if (now.isSame(dayTwo, 'day')) {
-        dayPrefix = 'DayTwo_';
-      } else {
-        return; //exit if not a conference day 
-      }
-
-      var bestStart;
-      var nowTime = parseInt(now.format('HHmm'), 10);
-      $('.time-block').each(function () {
-        var blockDayStart = $(this).attr('id').split('_');
-        var blockDay = blockDayStart[0];
-        var blockStart = blockDayStart[1];
-        if (blockDay + '_' !== dayPrefix) { 
-          //only look at times for current day
-          return;
-        } 
-        if (!bestStart) {
-          bestStart = blockStart;
-        }
-        if (nowTime >= parseInt(blockStart, 10)) {
-          bestStart = blockStart;
-        }
-      });
-      window.location.hash = '#' + dayPrefix + bestStart;
-    })();
-  </script>
+  <script src="{{m.based('bower_components/jquery.storage/jquery.storage.js')}}"></script>
+  <script src="{{m.based('js/2015forum.js')}}"></script>
 {% endblock scripts %}
-
 
 
 {% block topcontent %}
@@ -63,18 +28,18 @@
         <div class="hidden-sm hidden-xs">
           <img src="{{m.link(mainimage)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
         </div>
-        {% endif %} 
+        {% endif %}
         {% if mainimagesm %}
         <div class="hidden-xs hidden-md hidden-lg">
           <img src="{{m.link(mainimagesm)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
         </div>
-        {% endif %} 
+        {% endif %}
 
         {% if mainimagexs %}
         <div class="hidden-sm hidden-md hidden-lg">
           <img src="{{m.link(mainimagexs)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
         </div>
-        {% endif %} 
+        {% endif %}
       </div>
     </div>
 
@@ -88,7 +53,7 @@
     </div>
 {% endblock topcontent %}
 
-{% block contents %} 
+{% block contents %}
   {% include "./partials/2015-forum/forum-nav-2015.html" %}
   <div class="row">
     <div class="col-md-12">
@@ -101,7 +66,7 @@
   <section class="forum-map">
     <div class="container">
       <div class="row">
-        {% include "./partials/2015-forum/forum-map.html" %}   
+        {% include "./partials/2015-forum/forum-map.html" %}
       </div>
     </div>
   </section>

@@ -179,9 +179,14 @@ ul.agenda-track {
       margin-bottom: 0;
       padding-bottom: 0;
     }
+
+    &.starred button.star-btn {
+      color: gold;
+    }
   }
 
-  button {
+
+  button.star-btn {
     background: 0;
     border: 0;
     color: $middarkgrey;
@@ -191,8 +196,7 @@ ul.agenda-track {
       color: $lightblue;
     }
   }
-}
-
+  
 .lead-forum {
   font-size: 16px;
   font-weight: 300;
@@ -270,9 +274,9 @@ ul.agenda-track {
     margin-top: 5px;
     width: auto;
 
-  label {
-    font-size: 20px;
-    padding-left: 10px;
-  }
+    label {
+      font-size: 20px;
+      padding-left: 10px;
+    }
   }
 }
