@@ -179,6 +179,14 @@ ul.agenda-track {
     padding-left: 0;
     width: 100%;
 
+    &:before {
+      display: table;
+    }
+
+    &:after {
+      display: table;
+    }
+
     &:last-child {
       border-bottom: none;
       margin-bottom: 0;
@@ -198,6 +206,7 @@ ul.agenda-track {
   &.has-stars li:not(.starred) {
     color: $midgrey;
   }
+
   .star-container {
     float: left;
     margin-right: 5px;
