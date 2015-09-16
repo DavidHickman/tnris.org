@@ -185,6 +185,9 @@ ul.agenda-track {
     }
   }
 
+  &.has-stars li:not(.starred) {
+    color: $middarkgrey;
+  }
 
   button.star-btn {
     background: 0;

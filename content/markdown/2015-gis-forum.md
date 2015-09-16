@@ -88,18 +88,17 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 <hr>
 <h2>2015 FORUM AGENDA</h2>
 <div class="row">
-  <div class="well well-sm personalize-agenda col-sm-7">
-    <div class="checkbox">
-      <label>
-        <input class="show-starred-check" type="checkbox"> Only Show My Starred Presentations
-      </label>
-    </div>
-    <p><strong>Personalize your agenda</strong> by clicking the star <i class="glyphicon glyphicon-star"></i> next to the presentation/s you want to highlight.</p>
-  </div>
-  <div class="col-sm-5">
+  <div class="col-sm-12">
     <p class="lead-forum">
-      Note: Agenda and speakers subject to change without notice
+      Note: Agenda and speakers subject to change without notice.
     </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well well-sm personalize-agenda">
+      <p class="lead-forum"><strong>Personalize your agenda</strong> by clicking the star <i class="glyphicon glyphicon-star"></i> next to the presentations you want to highlight.</p>
+    </div>
   </div>
 </div>
 
@@ -159,7 +158,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
           <strong>Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System</strong><br>
           <em>Frank Obusek, Hexagon Geospatial</em>
         </li>
-        <liid="one-A-1030-c" class="agenda-track-item">
+        <li id="one-A-1030-c" class="agenda-track-item">
           <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
           <strong>UAV Solutions Using Remote Sensing and Photogra.m.metry Applications</strong><br>
           <em>Joe Mostowy, Hexagon Geospatial</em>
@@ -207,8 +206,9 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
           Applied Geographics, Inc.
        </h3>
        <h4>
-          Whooping Cranes over the Laguna Madre: Shared Value, Semantic Shifts, and Collaborative Leadership</h4>
-          <em>Presented by: Rich Grady, President | Jim Scott, Director of Western Operations | Kate Hickey, Vice President</em>
+          Whooping Cranes over the Laguna Madre: Shared Value, Semantic Shifts, and Collaborative Leadership
+        </h4>
+        <em>Presented by: Rich Grady, President | Jim Scott, Director of Western Operations | Kate Hickey, Vice President</em>
     </div>
   </div>
 
