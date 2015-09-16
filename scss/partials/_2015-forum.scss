@@ -166,26 +166,13 @@ img.keynote-portrait {
   }
 }
 
-ul.agenda-track {
-  padding-left: 0;
+.agenda-track {
 
-  li {
+  .media {
     border-bottom: 1px solid $midgrey;
-    display: block;
-    list-style: none;
     margin-bottom: 10px;
-    overflow: auto;
     padding-bottom: 10px;
-    padding-left: 0;
     width: 100%;
-
-    &:before {
-      display: table;
-    }
-
-    &:after {
-      display: table;
-    }
 
     &:last-child {
       border-bottom: none;
@@ -196,21 +183,10 @@ ul.agenda-track {
     &.starred button.star-btn {
       color: $gold;
     }
-
-    .agenda-track-info {
-      float: left;
-      width: 85%;
-    }
   }
 
-  &.has-stars li:not(.starred) {
+  &.has-stars .media:not(.starred) {
     color: $midgrey;
-  }
-
-  .star-container {
-    float: left;
-    margin-right: 5px;
-    width: 10%;
   }
 
   button.star-btn {
