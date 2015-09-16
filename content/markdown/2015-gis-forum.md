@@ -315,7 +315,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
          <div class="media-body">
     <h4 class="media-heading">The Texas Water Integrated Information Delivery (WIID) 2.0</h4>
           <em>Ginny Vragel, Texas Water Development Board | Richard Winkelbauer</em></div>
-        </li>
+        </div>
         <div id="one-A-1600-c" class="agenda-track-item media">
           <div class="media-left"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
          <div class="media-body">
@@ -325,7 +325,6 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
         </div>
       </div>
     </div>
-  </div>
     <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
       <h3>
         <small>Session B (Li'l TEX)</small><br>
