@@ -34,25 +34,35 @@
 })();
 
 
-(function() {
-  var STORAGE_KEY = 'forum.agenda_stars'
+$(function() {
+  var STORAGE_KEY = 'forum.agenda_stars';
   if (!$.localStorage(STORAGE_KEY)) {
     $.localStorage(STORAGE_KEY, {});
   }
 
-  var setStar = function (id) {
+  function setStar(id) {
     var starred = $.localStorage(STORAGE_KEY);
     starred[id] = true;
     $.localStorage(STORAGE_KEY, starred);
   }
 
-  var removeStar = function (id) {
+  function removeStar(id) {
     var starred = $.localStorage(STORAGE_KEY);
     delete starred[id];
     $.localStorage(STORAGE_KEY, starred);
   }
 
-  $(function loadStars() {
+  function checkHasAnyStars() {
+    var hasAnyStars = $('.agenda-track-item.starred').length > 0;
+    if (hasAnyStars) {
+      $('.agenda-track').addClass('has-stars');
+    }
+    else {
+      $('.agenda-track').removeClass('has-stars');
+    }
+  }
+
+  function loadStars() {
     var starred = $.localStorage(STORAGE_KEY);
     if (!starred) { return; }
 
@@ -60,11 +70,12 @@
       if (starred[this.id]) {
         $(this).addClass('starred');
       }
-    })
+    });
 
-  });
+    checkHasAnyStars();
+  }
 
-  $(function attachStarBehavior() {
+  function attachStarBehavior() {
     $('button.star-btn').on('click', function () {
       var agendaTrackItem = $(this).parents('.agenda-track-item')[0];
       if (!agendaTrackItem) { return; }
@@ -80,19 +91,11 @@
           $(agendaTrackItem).hide();
         }
       }
+
+      checkHasAnyStars();
     });
+  }
 
-    $('.show-starred-check').on('click', function () {
-      var $this = $(this);
-      var checked = $this.prop('checked');
-
-      if (checked) {
-        $('.agenda-track-item:not(.starred)').hide();
-      }
-      else {
-        $('.agenda-track-item').show();
-      }
-    });
-  });
-
-})();
+  loadStars();
+  attachStarBehavior();
+});
