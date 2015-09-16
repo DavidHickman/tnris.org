@@ -143,21 +143,21 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <h3><small>Session A (Big Tex)</small><br>Remote Sensing (I Spy From Up High)</h3>
       <ul class="agenda-track">
         <li id="one-A-1030-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</strong><br>
           <em>Nicholas Villarreal, Graduate Intern/SMWI Project, Texas State University at San Marcos | Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment</em>
         </div>
         </li>
         <li id="one-A-1030-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System</strong><br>
           <em>Frank Obusek, Hexagon Geospatial</em>
         </div>
         </li>
         <li id="one-A-1030-c" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>UAV Solutions Using Remote Sensing and Photogra.m.metry Applications</strong><br>
           <em>Joe Mostowy, Hexagon Geospatial</em>
@@ -169,20 +169,20 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <h3><small>Session B (Li'l TEX)</small><br>Applied GIS (Putting GIS to Work)</h3>
       <ul class="agenda-track">
         <li id="one-B-1030-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Innovative Public Health Care GIS Applications</strong><br>
           <em>Jack Hill and Amanda Scarborough, Sam Houston State University</em></div>
         </li>
         <li id="one-B-1030-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data Points for Accurate Call Routing</strong><br>
           <em>Kim Paxton, Intrado</em>
         </div>
         </li>
         <li id="one-B-1030-c" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>GIS at the Wimberley Flash Flood Disaster </strong><br>
           <em>Devon Humphrey, Waypoint Mapping</em>
@@ -225,21 +225,21 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <h3><small>Session A (Big Tex)</small><br>Open Source (Something for Everyone)</h3>
       <ul class="agenda-track">
         <li id="one-A-1400-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software</strong><br>
           <em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology | T. Clay Templeton, PhD Student, University of Texas - School of Information</em>
         </div>
         </li>
         <li id="one-A-1400-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>GIS Lessons: Learning to Query and Code with the CartoDB Academy </strong><br>
           <em>Andy Eschbacher, CartoDB</em>
         </div>
         </li>
         <li id="one-A-1400-c" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Open Source Software Education in Texas</strong><br>
           <em>Phillip Davis, GeoAcademy and Richard Smith, Texas A &amp; M University, Corpus Christi</em>
@@ -251,21 +251,21 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <h3><small>Session B (Li'l TEX)</small><br>Innovative Technology (New to You)</h3>
       <ul class="agenda-track" >
         <li id="one-B-1400-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Augmented Reality for Hidden Assets</strong><br>
           <em>Brady Hustad and Ken Hetlinger, Astadia</em>
         </div>
         </li>
         <li id="one-B-1400-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>VOICE - Virtual Online Inspection Checking and Editing</strong><br>
           <em>Anand Iyer, Jeff Simmons, Quantum Spacial</em>
         </div>
         </li>
         <li id="one-B-1400-c" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways</strong><br>
           <em>Adrian Garcia and Ernie Martinez, The City of Fair Oaks Ranch, Texas</em>
@@ -294,20 +294,20 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       </h3>
       <ul class="agenda-track">
         <li id="one-A-1600-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>The History of Texas is Under Your Feet and at Your Fingertips</strong><br>
           <em> Daniel K. Pearson, US Geological Survey</em>
         </div>
         </li>
         <li id="one-A-1600-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>The Texas Water Integrated Information Delivery (WIID) 2.0</strong><br>
           <em>Ginny Vragel, Texas Water Development Board | Richard Winkelbauer</em></div>
         </li>
         <li id="one-A-1600-c" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGIS  Server, WMS &amp; WFS Cross-Platform Compatibility</strong><br>
           <em>Dale Emrich, Justin Scott Winn, Cole Howard, DrillingInfo</em>
@@ -322,14 +322,14 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       </h3>
       <ul class="agenda-track">
         <li id="one-B-1600-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Google's Imagery Program</strong><br>
           <em>Kyle Campbell, Google | Richard Wade, TNRIS</em>
         </div>
         </li>
         <li id="one-B-1600-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide</strong><br>
           <em>Laura Wisdom, General Land Office</em>
@@ -402,21 +402,21 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <h3><small>Session A (Big Tex)</small><br>Lidar (Get to the Points)</h3>
       <ul class="agenda-track">
         <li id="two-A-1030-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection</strong><br>
           <em>Robert Dzur, Bohannan Huston, Inc | Sally Abbe, City of Lubbock</em>
         </div>
         </li>
         <li id="two-A-1030-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User</strong><br>
           <em>Harold Rempel, ESP Associates</em>
         </div>
         </li>
         <li id="two-A-1030-c" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Innovations - Changing the way Lidar is Used</strong><br>
           <em>Jamie Young, Merrick &amp; Company</em>
@@ -428,21 +428,21 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (Apps in the Cloud)</h3>
       <ul class="agenda-track">
         <li id="two-B-1030-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Regional Online Geospatial Services for the Houston-Galveston Region</strong><br>
           <em>Bill Bass, Houston-Galveston Area Council of Governments</em>
         </div>
         </li>
         <li id="two-B-1030-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>The Information Commons: Cloud-Based GIS</strong><br>
           <em> Santiago Giraldo Anduaga, CartoDB</em>
         </div>
         </li>
         <li id="two-B-1030-c" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Modern Web Mapping for Local Governments Delivers Insights into Performance Metrics, Patterns of Change &amp; Distribution of Resources</strong><br>
           <em>Kate Hickey, AppGeo</em>
@@ -484,21 +484,21 @@ Nikki Golding – Solution Lead, State Government</em>
       <h3><small>Session A (Big Tex)</small><br>Applied GIS (Putting GIS to Work)</h3>
       <ul class="agenda-track">
         <li id="two-A-1400-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>3D Modeling of the City of Temple Landfill</strong><br>
           <em>Leah Fasick, City of Temple</em>
         </div>
         </li>
         <li id="two-A-1400-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Examination of the spatial relationship between development and aquatic nutrient loading in the Galveston Bay Estuary</strong><br>
           <em> Helen Walters and Samuel Brody, Texas A&amp;M University, Galveston Campus</em>
         </div>
         </li>
         <li id="two-A-1400-c" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast</strong><br>
           <em> Jeff Scarborough and Chris Sallese, Dannenbaum Engineering Corporation</em>
@@ -510,21 +510,21 @@ Nikki Golding – Solution Lead, State Government</em>
       <h3><small>Session B (Li'l TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
        <ul class="agenda-track" >
         <li id="two-B-1400-a" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Connecting the Dots Between Data and Problem Solving,</strong><br>
           <em>Leah Casey, Texas Department of Health and Human Services and Jeff Jordan, Institute for Demographic Studies and Socioeconomic Research</em>
         </div>
         </li>
         <li id="two-B-1400-b" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>Managing Special Events in Austin, TX with ArcGIS Online</strong><br>
           <em>Jacquie Hrncir and John Clary, City of Austin</em>
         </div>
         </li>
         <li id="two-B-1400-c" class="agenda-track-item">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <div class="star-container"><button class="star-btn"><i class="glyphicon glyphicon-star"></i></button></div>
           <div class="agenda-track-info">
           <strong>3 Words to Address the World</strong><br>
           <em>Tim Williams, What3Words</em>

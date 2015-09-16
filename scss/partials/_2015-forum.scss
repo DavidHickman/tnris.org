@@ -177,6 +177,7 @@ ul.agenda-track {
     overflow: auto;
     padding-bottom: 10px;
     padding-left: 0;
+    width: 100%;
 
     &:last-child {
       border-bottom: none;
@@ -197,14 +198,17 @@ ul.agenda-track {
   &.has-stars li:not(.starred) {
     color: $midgrey;
   }
+  .star-container {
+    float: left;
+    margin-right: 5px;
+    width: 10%;
+  }
 
   button.star-btn {
     background: 0;
     border: 0;
     color: $midgrey;
-    float: left;
     font-size: 25px;
-    width: 15%;
 
     &:hover {
       color: $middarkgrey;
