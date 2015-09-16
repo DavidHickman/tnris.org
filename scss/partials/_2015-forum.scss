@@ -171,8 +171,10 @@ ul.agenda-track {
   li {
     border-bottom: 1px solid $midgrey;
     list-style: none;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
 
     &:last-child {
       border-bottom: none;
@@ -181,7 +183,7 @@ ul.agenda-track {
     }
 
     &.starred button.star-btn {
-      color: gold;
+      color: $gold;
     }
   }
 
@@ -193,7 +195,10 @@ ul.agenda-track {
     background: 0;
     border: 0;
     color: $midgrey;
-    margin-left: -35px;
+    font-size: 25px;
+    left: -10px;
+    top: -5px;
+    position: absolute;
 
     &:hover {
       color: $middarkgrey;

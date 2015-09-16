@@ -13,48 +13,9 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 ---
 <div class="row">
   <div class="col-sm-5">
-    <p class="lead-forum">
-      For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector, and an opportunity to touch base with long-time colleagues – as well as make new connections.
-    </p>
-  </div>
-  <div class="col-sm-7 registration-box">
-    <h3>Registration Fees</h3>
-      <table class="table">
-        <tr>
-          <th></th>
-          <th>Before Sept. 25</th>
-          <th>Sept. 26 - Oct. 16</th>
-          <th>Onsite</th>
-          <th>One Day</th>
-        </tr>
-        <tr>
-          <td><strong>Government</strong></td>
-          <td>$275 (2 for 1)</td>
-          <td>$275</td>
-          <td>$300</td>
-          <td>$185</td>
-        </tr>
-        <tr>
-          <td><strong>Industry</strong></td>
-          <td>$300</td>
-          <td>$325</td>
-          <td>$350</td>
-          <td>$200</td>
-        </tr>
-        <tr>
-          <td><strong> Student</strong></td>
-          <td>$50</td>
-          <td>$50</td>
-          <td>$50</td>
-          <td>$25</td>
-        </tr>
-      </table>
-      <small> NOTE: Those registering as a "Student" MUST present a valid student I.D. upon registration check-in.</small>
-  </div>
-=======
-<p class="lead-forum">
-  For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector, and an opportunity to touch base with long-time colleagues – as well as make new connections.
-</p>
+  <p class="lead-forum">
+    For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector, and an opportunity to touch base with long-time colleagues – as well as make new connections.
+  </p>
 </div>
 <div class="col-sm-7 registration-box">
   <h3>Registration Fees</h3>
