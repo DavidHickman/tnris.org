@@ -186,17 +186,17 @@ ul.agenda-track {
   }
 
   &.has-stars li:not(.starred) {
-    color: $middarkgrey;
+    color: $midgrey;
   }
 
   button.star-btn {
     background: 0;
     border: 0;
-    color: $middarkgrey;
+    color: $midgrey;
     margin-left: -35px;
 
     &:hover {
-      color: $lightblue;
+      color: $middarkgrey;
     }
   }
 }

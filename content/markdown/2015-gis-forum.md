@@ -51,6 +51,47 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       </table>
       <small> NOTE: Those registering as a "Student" MUST present a valid student I.D. upon registration check-in.</small>
   </div>
+=======
+<p class="lead-forum">
+  For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector, and an opportunity to touch base with long-time colleagues – as well as make new connections.
+</p>
+</div>
+<div class="col-sm-7 registration-box">
+  <h3>Registration Fees</h3>
+    <table class="table">
+      <tr>
+        <th></th>
+        <th>Before Sept. 25</th>
+        <th>Sept. 26 - Oct. 16</th>
+        <th>Onsite</th>
+        <th>One Day</th>
+      </tr>
+      <tr>
+        <td><strong>Government</strong></td>
+        <td>$275 (2 for 1)</td>
+        <td>$275</td>
+        <td>$300</td>
+        <td>$185</td>
+      </tr>
+      <tr>
+        <td><strong>Industry</strong></td>
+        <td>$300</td>
+        <td>$325</td>
+        <td>$350</td>
+        <td>$200</td>
+      </tr>
+      <tr>
+        <td><strong> Student</strong></td>
+        <td>$50</td>
+        <td>$50</td>
+        <td>$50</td>
+        <td>$25</td>
+      </tr>
+    </table>
+    <p><strong>Are you a recent GIS graduate or unemployed GIS professional?</strong> Call us at 512-463-8337 to discuss attending the forum at the discounted student rate.</p>
+    <small> NOTE: Those registering as a "Student" MUST present a valid student I.D. upon registration check-in.</small>
+
+</div>
 </div>
 <hr>
 <div class="row">
@@ -203,7 +244,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <div class="col-sm-9 col-md-10">
       <h3>
           <small>Platinum Sponsor Demo</small><br>
-          Applied Geographics, Inc.
+          <img src="{{ m.link('static/images/texas-gis-forum/2015/sponsors/appgeo_logo_sm.png')}}" alt="AppGeo Logo">
        </h3>
        <h4>
           Whooping Cranes over the Laguna Madre: Shared Value, Semantic Shifts, and Collaborative Leadership
@@ -265,9 +306,8 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <div class="col-sm-9 col-md-10">
       <strong>Break &amp; Exhibits</strong>
     </div>
-  </div>
-
-  <div class="row agenda-bg">
+</div>
+<div class="row agenda-bg">
     <div class="col-sm-3 col-md-2 time-block" id="DayOne_1600">
       4:00 - 5:30 p.m.
     </div>
@@ -314,16 +354,23 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </div>
   </div>
 
-  <div class="row forum-social-2015">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1800">
-      6:00 p.m.
-    </div>
-    <div class="col-sm-9">
-      <h3>Forum Social</h3>
-    </div>
-  </div>
 
-  <div class="row">
+<div class="row forum-social-2015">
+  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1800">
+    6:00 p.m.
+  </div>
+  <div class="col-sm-9">
+    <h3>Forum Social sponsored by <img src="{{m.link('static/images/texas-gis-forum/2015/sponsors/cartodb_logo_sm.png')}}"></h3>
+    <p><a href="http://punchbowlsocial.com/austin/"><img class="pull-right" src="{{m.link('static/images/texas-gis-forum/2015/pbs_social.jpg')}}" alt="Logo for PBs Social"></a> <strong>This year's social is at <a href="http://punchbowlsocial.com/austin/">Punch Bowl Social</a>, located about 1.5 miles from the J.J Pickle Center.</strong> You will need to wear your GIS Forum name badge in order to gain access to the reserved activities:
+    <ul>
+      <li>Each person will get two drink tickets, good for beer &amp; wine.</li>
+    <li>We’ve rented bowling, darts, and ping pong.</li>
+    <li>Bowling shoes will be provided onsite – but don’t forget your socks!</li>
+  </ul>
+    <p>  <strong>Rather than driving, go green and walk!</strong>  The Domain Shuttle will be making round trips from the corner of Dillard’s and Maggiano’s to Punch Bowl Social from 5:30 pm – 6:15 pm.  There are two shuttles that will be running simultaneously, each seat 5 people at a time.  If you haven’t seen the shuttle and have been waiting more than 10 minutes, please call this number to arrange a pick-up: 512-656-5485</p>
+  </div>
+</div>
+<div class="row">
     <h2>Day 2: Thursday, October 29th</h2>
     <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0700">
       7:00 - 8:30 a.m.
@@ -406,9 +453,8 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
         </li>
       </ul>
     </div>
-  </div>
-
-  <div class="row agenda-bg">
+</div>
+<div class="row agenda-bg">
     <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1200">
       12:00 - 1:00 p.m.
     </div>
@@ -417,19 +463,23 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1300">
-      1:00 – 2:00 p.m.
-    </div>
-    <div class="col-sm-9 col-md-10">
-      <h3>
-        <small>Platinum Sponsor Demo</small><br>
-        Esri
-      </h3>
-    </div>
-  </div>
 
-  <div class="row agenda-bg">
+<div class="row">
+  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1300">
+    1:00 – 2:00 p.m.
+  </div>
+  <div class="col-sm-9 col-md-10">
+    <h3>
+      <small>Platinum Sponsor Demo</small><br>
+      <img src="{{ m.link('static/images/texas-gis-forum/2015/sponsors/esri_logo_sm.png')}}" alt="Esri Logo">
+    </h3>
+    <h4>ArcGIS for your Organization</h4>
+    <em>Christian Carlson – Director, State &amp; Local Government Team | 
+Scott Oppmann – Solution Lead, Local Government | 
+Nikki Golding – Solution Lead, State Government</em>
+  </div>
+</div>
+<div class="row agenda-bg">
     <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1400">
       2:00 - 3:30 p.m.
     </div>
