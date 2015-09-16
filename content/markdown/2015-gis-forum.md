@@ -16,7 +16,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   <p class="lead-forum">
     For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector, and an opportunity to touch base with long-time colleagues – as well as make new connections.
   </p>
-</div>
+  </div>
 <div class="col-sm-7 registration-box">
   <h3>Registration Fees</h3>
     <table class="table">
@@ -52,7 +52,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <p><strong>Are you a recent GIS graduate or unemployed GIS professional?</strong> Call us at 512-463-8337 to discuss attending the forum at the discounted student rate.</p>
     <small> NOTE: Those registering as a "Student" MUST present a valid student I.D. upon registration check-in.</small>
 
-</div>
+  </div>
 </div>
 <hr>
 <div class="row">
@@ -75,7 +75,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <div class="col-xs-4">
         <a class="smooth-scroll" href="#keynote-cowen">
           <img alt="David Cowen Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/cowen_square.jpg')}}">
-          <h3><small>UCGIS Fellow</small><br>David <br class="hidden-xs">Cowen</h>
+          <h3><small>UCGIS Fellow</small><br>David <br class="hidden-xs">Cowen</h3>
         </a>
       </div>
       <div class="col-xs-4">
@@ -84,27 +84,19 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
         <h3><small>UT Professor</small><br>Todd <br class="hidden-xs">Humphreys</h3>
         </a>
       </div>
-    </div>
   </div>
+</div>
 </div>
 <hr>
 <h2>2015 FORUM AGENDA</h2>
-<div class="row">
-  <div class="col-sm-12">
-    <p class="lead-forum">
-      Note: Agenda and speakers subject to change without notice.
-    </p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-12">
-    <div class="well well-sm personalize-agenda">
-      <p class="lead-forum"><strong>Personalize your agenda</strong> by clicking the star <i class="glyphicon glyphicon-star"></i> next to the presentations you want to highlight.</p>
-    </div>
-  </div>
+  <p class="lead-forum">
+    Note: Agenda and speakers subject to change without notice.
+  </p>
+<div class="well well-sm personalize-agenda">
+  <p class="lead-forum"><strong>Personalize your agenda</strong> by clicking the star <i class="glyphicon glyphicon-star"></i> next to the presentations you want to highlight.</p>
 </div>
 
-<div class="container agenda-full">
+<div class="agenda-full">
   <div class="row">
     <h2>Day 1: Wednesday, October 28th</h2>
     <div class="col-sm-3 col-md-2 time-block" id="DayOne_0700">
