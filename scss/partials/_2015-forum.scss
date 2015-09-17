@@ -147,7 +147,7 @@ img.keynote-portrait {
 .agenda-full {
   .row {
     margin: 0;
-    padding: 15px;
+    padding: 15px 0;
 
     h3 {
       color: $forum2015blue;
@@ -167,6 +167,11 @@ img.keynote-portrait {
 }
 
 .agenda-track {
+  margin-bottom: 15px;
+
+  & + & {
+    margin-bottom: 0;
+  }
 
   .media {
     border-bottom: 1px solid $midgrey;
@@ -181,12 +186,20 @@ img.keynote-portrait {
     }
 
     &.starred button.star-btn {
-      color: $gold;
+      color: $forum2015blue;
+    }
+
+    small {
+    color: $middishgrey;
+    }
+
+    &.starred small {
+      color: $forum2015blue;
     }
   }
 
   &.has-stars .media:not(.starred) {
-    color: $midgrey;
+    color: $middishgrey;
   }
 
   button.star-btn {
@@ -194,6 +207,7 @@ img.keynote-portrait {
     border: 0;
     color: $midgrey;
     font-size: 25px;
+    padding: 0;
 
     &:hover {
       color: $middarkgrey;
@@ -262,6 +276,7 @@ img.keynote-portrait {
 
 .well.personalize-agenda {
   background: $bsinfoblue;
+  overflow: auto;
 
   p {
     color: $forum2015blue;
@@ -272,9 +287,6 @@ img.keynote-portrait {
   }
 
   .checkbox {
-    float: left;
-    margin-bottom: 20px;
-    margin-right: 20px;
     margin-top: 5px;
     width: auto;
 
