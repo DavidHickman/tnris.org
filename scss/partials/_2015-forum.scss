@@ -97,10 +97,23 @@ h2.logo-2015 {
 .forum-map {
   background: $forum2015blue;
   color: white;
-  margin-top: 50px;
+  padding: 20px 0;
 
   h2 {
-    color: $midgrey;
+    margin-top: 0; 
+    color: $midgrey !important;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  iframe {
+    margin: 0;
+
+    @media (min-width: $screen-sm) {
+      margin: -20px 0; 
+    }
   }
 }
 
@@ -122,8 +135,21 @@ h2.logo-2015 {
     margin-right: 30px;
   }
 
-  .sponsors-platinum img {
+  .sponsors-platinum {
+    display: block;
+    width: 100%;
+    
+    @media (min-width: $screen-sm){
+      overflow: auto;
+    }
+
+    img {
     max-width: 300px;
+
+      @media (min-width: $screen-sm){
+        float: left;
+      }
+    }
   }
 
   h3 {

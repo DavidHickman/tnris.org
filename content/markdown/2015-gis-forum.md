@@ -19,7 +19,8 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
 <div class="col-sm-7 registration-box">
   <h3>Registration Fees</h3>
-    <table class="table table-responsive">
+  <div class="table-responsive">
+    <table class="table">
       <tr>
         <th></th>
         <th>Before Sept. 25</th>
@@ -49,6 +50,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
         <td>$25</td>
       </tr>
     </table>
+  </div>
     <p><strong>Are you a recent GIS graduate or unemployed GIS practitioner?</strong> Call us at 512-463-8337 to discuss attending the forum at the discounted student rate.</p>
     <small> NOTE: Those registering as a "Student" MUST present a valid student I.D. upon registration check-in.</small>
 
