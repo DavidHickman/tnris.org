@@ -60,6 +60,8 @@ $(function() {
     else {
       $('.agenda-track').removeClass('has-stars');
     }
+
+    $('.show-starred-check').prop('disabled', !hasAnyStars);
   }
 
   function loadStars() {
@@ -76,23 +78,38 @@ $(function() {
   }
 
   function attachStarBehavior() {
+    var $showStarredCheck = $('.show-starred-check');
+
     $('button.star-btn').on('click', function () {
       var agendaTrackItem = $(this).parents('.agenda-track-item')[0];
+      var $agendaTrackItem = $(agendaTrackItem);
       if (!agendaTrackItem) { return; }
 
-      $(agendaTrackItem).toggleClass('starred');
+      $agendaTrackItem.toggleClass('starred');
 
-      if ($(agendaTrackItem).hasClass('starred')) {
+      if ($agendaTrackItem.hasClass('starred')) {
         setStar(agendaTrackItem.id);
       }
       else {
         removeStar(agendaTrackItem.id);
-        if ($('.show-starred-check').prop('checked')) {
-          $(agendaTrackItem).hide();
+        if ($showStarredCheck.prop('checked')) {
+          $agendaTrackItem.hide();
         }
       }
 
       checkHasAnyStars();
+    });
+
+    $showStarredCheck.on('click', function () {
+      var $this = $(this);
+      var checked = $this.prop('checked');
+
+      if (checked) {
+        $('.agenda-track-item:not(.starred)').hide();
+      }
+      else {
+        $('.agenda-track-item').show();
+      }
     });
   }
 
