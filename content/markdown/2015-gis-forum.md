@@ -400,6 +400,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
       <h3>
         <small>Session B (Li'l TEX)</small><br>
+              <small>4:00 p.m. – 4:30 p.m.</small><br>
         State Initiatives (Cool Enough for Government Work)
       </h3>
       <div class="agenda-track">
@@ -409,6 +410,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
           </div>
           <div class="media-body">
             <h4 class="media-heading">
+              <small>4:30 p.m. – 5:00 p.m.</small><br>
               Google's Imagery Program
             </h4>
             <em>Kyle Campbell, Google | Richard Wade, TNRIS</em>
