@@ -146,6 +146,7 @@ img.keynote-portrait {
 
 .agenda-full {
   .row {
+    margin: 0;
     padding: 15px 0;
 
     h3 {
@@ -165,28 +166,52 @@ img.keynote-portrait {
   }
 }
 
-ul.agenda-track {
-  padding-left: 25px;
+.agenda-track {
+  margin-bottom: 15px;
 
-  li {
+  & + & {
+    margin-bottom: 0;
+  }
+
+  .media {
     border-bottom: 1px solid $midgrey;
-    list-style: none;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 100%;
 
     &:last-child {
       border-bottom: none;
       margin-bottom: 0;
       padding-bottom: 0;
     }
+
+    &.starred button.star-btn {
+      color: $forum2015blue;
+    }
+
+    small {
+    color: $middarkgrey;
+    }
+
+    &.starred small {
+      color: $forum2015blue;
+    }
   }
 
-  li:before {
-    content: "\f130";
-    font-family: FontAwesome;
-    font-size: 20px;
-    margin-left: -25px;
-    padding-right: 10px;
+  &.has-stars .media:not(.starred) {
+    color: $middishgrey;
+  }
+
+  button.star-btn {
+    background: 0;
+    border: 0;
+    color: $midgrey;
+    font-size: 25px;
+    padding: 0;
+
+    &:hover {
+      color: $middarkgrey;
+    }
   }
 }
 
@@ -249,3 +274,29 @@ ul.agenda-track {
   }
 }
 
+.well.personalize-agenda {
+  background: $bsinfoblue;
+  overflow: auto;
+
+  p {
+    color: $forum2015blue;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  .checkbox {
+    margin-top: 5px;
+    width: auto;
+
+    label {
+      font-size: 20px;
+      padding-left: 0;
+    }
+
+    .show-starred-check[disabled]+label {
+      color: $middarkgrey;
+    }
+  }
+}
