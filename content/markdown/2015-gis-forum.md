@@ -49,7 +49,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
         <td>$25</td>
       </tr>
     </table>
-    <p><strong>Are you a recent GIS graduate or unemployed GIS professional?</strong> Call us at 512-463-8337 to discuss attending the forum at the discounted student rate.</p>
+    <p><strong>Are you a recent GIS graduate or unemployed GIS practitioner?</strong> Call us at 512-463-8337 to discuss attending the forum at the discounted student rate.</p>
     <small> NOTE: Those registering as a "Student" MUST present a valid student I.D. upon registration check-in.</small>
 
   </div>
