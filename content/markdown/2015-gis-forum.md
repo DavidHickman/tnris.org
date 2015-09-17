@@ -96,8 +96,8 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   <p class="lead-forum"><strong>Personalize Your Agenda!</strong><br>
   Click the star <i class="glyphicon glyphicon-star"></i> next to the presentations you want to highlight. Unstarred presentations will be greyed out.</p>
   <div class="checkbox">
-    <input type="checkbox" class="show-starred-check">
-    <label>Show Only My Starred Presentations</label>
+    <input type="checkbox" class="show-starred-check" id="show-starred-check">
+    <label for="show-starred-check">Show Only My Starred Presentations</label>
   </div>
 </div>
 

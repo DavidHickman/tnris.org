@@ -35,37 +35,49 @@
 
 
 $(function() {
-  var STORAGE_KEY = 'forum.agenda_stars';
-  if (!$.localStorage(STORAGE_KEY)) {
-    $.localStorage(STORAGE_KEY, {});
+  var STARS_KEY = 'forum.agenda_stars';
+  var CHECK_KEY = 'forum.star_check';
+  if (!$.localStorage(STARS_KEY)) {
+    $.localStorage(STARS_KEY, {});
   }
 
   function setStar(id) {
-    var starred = $.localStorage(STORAGE_KEY);
+    var starred = $.localStorage(STARS_KEY);
     starred[id] = true;
-    $.localStorage(STORAGE_KEY, starred);
+    $.localStorage(STARS_KEY, starred);
   }
 
   function removeStar(id) {
-    var starred = $.localStorage(STORAGE_KEY);
+    var starred = $.localStorage(STARS_KEY);
     delete starred[id];
-    $.localStorage(STORAGE_KEY, starred);
+    $.localStorage(STARS_KEY, starred);
   }
 
   function checkHasAnyStars() {
     var hasAnyStars = $('.agenda-track-item.starred').length > 0;
     if (hasAnyStars) {
       $('.agenda-track').addClass('has-stars');
+      $('.show-starred-check').prop('disabled', false);
     }
     else {
       $('.agenda-track').removeClass('has-stars');
+      $('.show-starred-check').prop('disabled', true)
+        .prop('checked', false);
+      $.localStorage(CHECK_KEY, false);
+      showUnstarred();
     }
+  }
 
-    $('.show-starred-check').prop('disabled', !hasAnyStars);
+  function hideUnstarred() {
+    $('.agenda-track-item:not(.starred)').hide();
+  }
+
+  function showUnstarred() {
+    $('.agenda-track-item').show();
   }
 
   function loadStars() {
-    var starred = $.localStorage(STORAGE_KEY);
+    var starred = $.localStorage(STARS_KEY);
     if (!starred) { return; }
 
     $('.agenda-track-item').each(function () {
@@ -73,6 +85,11 @@ $(function() {
         $(this).addClass('starred');
       }
     });
+
+    if ($.localStorage(CHECK_KEY)) {
+      $('.show-starred-check').prop('checked', true);
+      hideUnstarred();
+    }
 
     checkHasAnyStars();
   }
@@ -101,15 +118,16 @@ $(function() {
     });
 
     $showStarredCheck.on('click', function () {
-      var $this = $(this);
-      var checked = $this.prop('checked');
+      var checked = $(this).prop('checked');
 
       if (checked) {
-        $('.agenda-track-item:not(.starred)').hide();
+        hideUnstarred();
       }
       else {
-        $('.agenda-track-item').show();
+        showUnstarred();
       }
+
+      $.localStorage(CHECK_KEY, checked);
     });
   }
 
