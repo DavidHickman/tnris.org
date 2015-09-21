@@ -37,6 +37,14 @@
 $(function() {
   var STARS_KEY = 'forum.agenda_stars';
   var CHECK_KEY = 'forum.star_check';
+
+  //check if localStorage is supported by browser
+  if (!$.support.localStorage) {
+    $('.personalize-agenda').hide();
+    $('.star-btn').hide();
+    return; //return early
+  }
+
   if (!$.localStorage(STARS_KEY)) {
     $.localStorage(STARS_KEY, {});
   }
