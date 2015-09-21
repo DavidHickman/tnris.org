@@ -100,7 +100,7 @@ h2.logo-2015 {
   padding: 20px 0;
 
   h2 {
-    margin-top: 0; 
+    margin-top: 0;
     color: $midgrey !important;
   }
 
@@ -112,7 +112,7 @@ h2.logo-2015 {
     margin: 0;
 
     @media (min-width: $screen-sm) {
-      margin: -20px 0; 
+      margin: -20px 0;
     }
   }
 }
@@ -138,7 +138,7 @@ h2.logo-2015 {
   .sponsors-platinum {
     display: block;
     width: 100%;
-    
+
     @media (min-width: $screen-sm){
       overflow: auto;
     }
@@ -234,6 +234,7 @@ img.keynote-portrait {
     color: $midgrey;
     font-size: 25px;
     padding: 0;
+    margin: 2px;
 
     &:hover {
       color: $middarkgrey;

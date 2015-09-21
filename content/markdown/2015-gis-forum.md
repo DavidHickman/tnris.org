@@ -86,14 +86,14 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
           <h3><small>UT Professor</small><br>Todd <br class="hidden-xs">Humphreys</h3>
         </a>
       </div>
+    </div>
   </div>
-</div>
 </div>
 <hr>
 <h2>2015 FORUM AGENDA</h2>
-  <p class="lead-forum">
-    Note: Agenda and speakers subject to change without notice.
-  </p>
+<p class="lead-forum">
+  Note: Agenda and speakers subject to change without notice.
+</p>
 <div class="well well-md personalize-agenda">
   <p class="lead-forum"><strong>Personalize Your Agenda!</strong><br>
   Click the star <i class="glyphicon glyphicon-star"></i> next to the presentations you want to highlight. Unstarred presentations will be greyed out.</p>
