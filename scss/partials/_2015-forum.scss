@@ -331,3 +331,11 @@ img.keynote-portrait {
     }
   }
 }
+
+
+.dont-break {
+   @media (max-width: $screen-sm) {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    }
+}

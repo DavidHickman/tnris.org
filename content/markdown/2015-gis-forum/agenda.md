@@ -51,7 +51,7 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 <div class="col-sm-9">
 <h3>Esri GeoDev Meetup</h3>
 <p><a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="pull-right" src="{{m.link('static/images/texas-gis-forum/2015/meetup_logo.png')}}"></a> This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.</p>
-<p>Meetup RSVP: http://www.meetup.com/DevMeetUpTexas/events/225538428</p>
+<p>Meetup RSVP: <a class="dont-break" href="http://www.meetup.com/DevMeetUpTexas/events/225538428">http://www.meetup.com/DevMeetUpTexas/events/225538428</a></p>
 </div>
 </div>
 
