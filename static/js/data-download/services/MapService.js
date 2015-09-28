@@ -37,7 +37,7 @@ var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoServi
       extra = ', closest_county_name ';
     }
 
-    var query = 'SELECT ' + nameField + ', ST_AsGeoJSON(ST_Envelope(the_geom)) as bbox ' + extra + 'from ' + table + ' WHERE ' + nameField + " = '" + name + "'";
+    var query = 'SELECT ' + nameField + ', ST_AsGeoJSON(ST_Envelope(the_geom)) as bbox ' + extra + 'from ' + table + ' WHERE ' + nameField + " LIKE '" + name.replace("'","''") + "'";
 
     return CartoService.sql(query)
       .then(function (data) {
