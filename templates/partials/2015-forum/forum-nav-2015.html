@@ -2,7 +2,10 @@
   <div class="container">
     <ul class="nav navbar-nav">
         <li {% if (path === '2015-gis-forum') %}class="active"{% endif %}>
-          <a href="{{ m.link('2015-gis-forum')}}">Welcome &amp; Agenda</a>
+          <a href="{{ m.link('2015-gis-forum')}}">Welcome</a>
+        </li>
+        <li {% if (path === '2015-gis-forum/agenda') %}class="active"{% endif %}>
+          <a href="{{ m.link('2015-gis-forum/agenda')}}">Agenda</a>
         </li>
         <li {% if (path === '2015-gis-forum/training') %}class="active"{% endif %}>
           <a href="{{ m.link('2015-gis-forum/training')}}">Training</a>
