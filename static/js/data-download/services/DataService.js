@@ -13,9 +13,9 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
 
       // strict matching for datasets, non-strict for search
       if (strict) {
-        filter += "'" + name + "'";
+        filter += '"' + name + '"';
       } else {
-        filter += "'%" + name + "%'";
+        filter += '"%' + name + '%"';
       }
     }
 
@@ -38,7 +38,7 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
         return areas[0].id;
       })
       .then(function(areaID) {
-        var filter = "area_id = '" + areaID + "'";
+        var filter = 'area_id = "' + areaID + '"';
         return $http.get(downloadAPIPre + '/resources', {
           params: {
             filter: filter,
