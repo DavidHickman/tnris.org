@@ -23,28 +23,24 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <table class="table">
       <tr>
         <th></th>
-        <th>Before Sept. 25</th>
         <th>Sept. 26 - Oct. 16</th>
         <th>Onsite</th>
         <th>One Day</th>
       </tr>
       <tr>
         <td><strong>Government</strong></td>
-        <td>$275 (2 for 1)</td>
         <td>$275</td>
         <td>$300</td>
         <td>$185</td>
       </tr>
       <tr>
         <td><strong>Industry</strong></td>
-        <td>$300</td>
         <td>$325</td>
         <td>$350</td>
         <td>$200</td>
       </tr>
       <tr>
         <td><strong> Student</strong></td>
-        <td>$50</td>
         <td>$50</td>
         <td>$50</td>
         <td>$25</td>
