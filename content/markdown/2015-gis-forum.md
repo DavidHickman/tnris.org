@@ -16,6 +16,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   <p class="lead-forum">
     For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector and take the opportunity to touch base with long-time colleagues – as well as make new connections.
   </p>
+  <p><a class="btn btn-lg btn-danger" href="{{m.link('2015-gis-forum/agenda')}}">View the Full Agenda</a></p>
   </div>
 <div class="col-sm-7 registration-box">
   <h3>Registration Fees</h3>
@@ -54,7 +55,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 <div class="row well well-lg">
   <div class="col-sm-7">
-    <h3>Bringing the Best, Not Just In GIS</h3>
+    <h3><small>Forum Keynotes</small><br>Bringing the Best, Not Just In GIS</h3>
     <p class="lead-forum">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, reknowned historians, and more.
     </p>
     <p class="lead-forum">
@@ -84,4 +85,31 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </div>
   </div>
 </div>
+
+<div class="row">
+  <div class="col-sm-4">
+    <a href="{{m.link('2015-gis-forum/agenda#DayOne_1800')}}"><img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2015/punchbowl.jpg')}}" alt="A montage of images from Punch Bowl Social, Bowling, Beer Tap, Sandwich"></a>
+    <h3>Forum Social at Punch Bowl Social<small><br>Sponsored by CartoDB</small></h3>
+    <p>Great Food, Drinks, and Fun! Bring your badge to get two drink tickets and use reserved bowling, darts, and ping-pong! Bring quarters to play classic arcade games!</p>
+    <p><a class="btn btn-md btn-danger" href="{{m.link('2015-gis-forum/agenda#DayOne_1800')}}">More about the Social</a></p>
+  </div>
+
+  <div class="col-sm-4">
+
+    <a href="{{m.link('2015-gis-forum/job-board')}}"><img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2015/sticky_job.jpg')}}" alt="A sticky note with handwritten Now Hiring!"></a>
+    <h3>Forum Job Board</h3>
+    <p>We'll have a job board with GIS job openings from Forum sponsors, exhibitors, and anyone else wanting to tap the talent at the forum. If your organization has an open GIS-related position, <a href="{{m.link('2015-gis-forum/job-board')}}">contact us</a>.</p>
+    <p><a class="btn btn-md btn-danger" href="{{m.link('2015-gis-forum/job-board')}}">Submit a Job Opening</a></p>
+  </div>
+  <div class="col-sm-4">
+    <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2015/meetup.jpg')}}" alt="People holding drinks and smiling with Meetup logo on top"></a>
+    <h3>ESRI GeoDev Meetup</h3>
+    <p>Tuesday night, come to a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.</p>
+    <p><a class="btn btn-md btn-danger" href="http://www.meetup.com/DevMeetUpTexas/events/225538428/">View Meetup Page</a></p>
+  </div>
+<!--   <div class="col-sm-4">
+    <h3>ESRI Hands-On Learning Labs (HOLL)</h3>
+    <p>During the Conference, throughout Wednesday and Thursday, ESRI will be offering <strong>free</strong> tutorials on ESRI software, from the basics to more involved processing and programming. Don't miss the chance to take advantage of this valuable instruction.</p>
+  </div> -->
+  </div>
 
