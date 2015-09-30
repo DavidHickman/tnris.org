@@ -19,20 +19,28 @@
     }, "text", true)}}
 
 
-  {{form.uploadZip(
-    "Site File Upload",
+  {{form.uploadFile(
+    "Job Description Upload",
     {
-      label: "Upload Site File",
-      help: "Select a zipped (.zip) Shapefile to upload. Maximum allowed file size is 20 MB."
+      label: "Upload Job Description",
+      help: "Select a PDF or Word document to upload."
     },
+    ".pdf,.doc,.docx",
     false,
-    has_site_file
+    true
   )}}
+
+  <div class="ie-all-show">
+    <p class="text-info">
+      A TNRIS employee will contact you to get the job opening description.<br/>
+      In order to upload site files directly through this form, please update to a modern browser version. See <a href="http://browsehappy.com/" title="Browser upgrade information">http://browsehappy.com/</a> for assistance.
+    </p>
+  </div>
 
   {{form.textarea(
       "Other Notes",
       "Other Notes",
-      true,
+      false,
       true
   )}}
 
