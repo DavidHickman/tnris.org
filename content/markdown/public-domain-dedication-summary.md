@@ -4,14 +4,14 @@ title: Public Domain Dedication Summary
 ---
 
 
-Datasets hosted in the [data download section](data-download) of this website
+Datasets hosted in the [Data Download section](data-download) of this website
 are dedicated to the public domain via the [CC0 1.0 Universal (CC0 1.0) Public
-Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). Below,
-you will find a human-readable summary of the dedication. It is simply a handy
-reference for understanding the CC0 Legal Code, a human-readable expression of
-some of its key terms. This Deed itself has no legal value, and its contents do
-not appear in CC0.  See [full legal code](public-domain-dedication-full) for
-exact terms.  
+Domain Dedication](public-domain-dedication-full). Below, you will find a
+summary of the dedication. It is simply a handy reference for understanding the
+CC0 Legal Code, a human-readable expression of some of its key terms. This Deed
+itself has no legal value, and its contents do not appear in CC0. See the full
+legal code for exact terms.
+
 
 ## Human-readable Summary
 
