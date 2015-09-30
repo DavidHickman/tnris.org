@@ -85,3 +85,18 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
 </div>
 
+<div class="row">
+  <div class="col-sm-4">
+    <h4>Forum Social at Punch Bowl Social</h4>
+    <p>Great Food, Drinks, and Fun! Bring your badge to get two drink tickets and use reserved bowling, darts, and ping-pong! Classic arcade games!</p>
+  </div>
+  <div class="col-sm-4">
+    <h4>ESRI GeoDev Meetup</h4>
+    <p>This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.</p>
+  </div>
+  <div class="col-sm-4">
+    <h4>ESRI Hands-On Learning Labs (HOLL)</h4>
+    <p>During the Conference, throughout Wednesday and Thursday, ESRI will be offering <strong>free</strong> tutorials on ESRI software, from the basics to more involved processing and programming. Don't miss the chance to take advantage of this valuable instruction.</p>
+  </div>
+  </div>
+
