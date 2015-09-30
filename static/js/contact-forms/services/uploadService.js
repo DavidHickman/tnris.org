@@ -1,10 +1,10 @@
 'use strict';
 
 angular.module('ContactFormApp')
-  .service('UploadService', 
-    ['$http', '$upload', 'ZIP_UPLOAD_POLICY_URL', 'IMAGE_UPLOAD_POLICY_URL', 'CONTACT_UPLOAD_BUCKET',
-    function ($http, $upload, ZIP_UPLOAD_POLICY_URL, IMAGE_UPLOAD_POLICY_URL, CONTACT_UPLOAD_BUCKET) {
-    
+  .service('UploadService',
+    ['$http', '$upload', 'ZIP_UPLOAD_POLICY_URL', 'IMAGE_UPLOAD_POLICY_URL', 'FILE_UPLOAD_POLICY_URL', 'CONTACT_UPLOAD_BUCKET',
+    function ($http, $upload, ZIP_UPLOAD_POLICY_URL, IMAGE_UPLOAD_POLICY_URL, FILE_UPLOAD_POLICY_URL, CONTACT_UPLOAD_BUCKET) {
+
       function getPolicy(policyUrl) {
         return $http.get(policyUrl)
           .then(function (response) {
@@ -28,7 +28,7 @@ angular.module('ContactFormApp')
             'success_action_status': '201',
             'success_action_redirect': ''
           },
-          file: file  
+          file: file
         };
       }
 
@@ -43,6 +43,13 @@ angular.module('ContactFormApp')
 
       service.uploadImage = function uploadImage(file, form_id) {
         return getPolicy(IMAGE_UPLOAD_POLICY_URL)
+          .then(function (s3policy) {
+            return $upload.upload(uploadParams(file, form_id, file.type, s3policy));
+          });
+      };
+
+      service.uploadFile = function uploadFile(file, form_id) {
+        return getPolicy(FILE_UPLOAD_POLICY_URL)
           .then(function (s3policy) {
             return $upload.upload(uploadParams(file, form_id, file.type, s3policy));
           });

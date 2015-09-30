@@ -215,6 +215,31 @@
   </div>
 {%- endmacro -%}
 
+{%- macro uploadFile(name, display, accept, required, show) -%}
+  {% set type="file" %}
+  <div class="ie-all-hide" ng-hide="isUploadUnsupported">
+    {{_item_before(name, display, type, required, show)}}
+      <div ng-hide="isUploading">
+        <input type="file" ng-file-select ng-model="files"
+          ng-multiple="false" name="{{name}}" accept="{{accept}}"
+          ng-file-change="uploadFile($files, $event)"
+          {{requiredAttr(required, show)}}>
+      </div>
+
+      <div class="row" ng-show="isUploading || uploadSuccess">
+        <div class="col-md-12">
+          <div progress-bar value="uploadProgress" type="progressBarType"></div>
+        </div>
+      </div>
+      <p class="text-success" ng-show="uploadSuccess">
+        File successfully uploaded.
+      </p>
+      <p class="text-danger" ng-show="uploadError" ng-bind="uploadErrorMessage">
+      </p>
+    {{_item_after(name, display, type, required)}}
+  </div>
+{%- endmacro -%}
+
 {%- macro uploadImage(name, display, required, show) -%}
   {% set type="file" %}
   <div class="ie-all-hide" ng-hide="isUploadUnsupported">
