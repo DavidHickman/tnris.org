@@ -1,5 +1,5 @@
 ---
-title: "Poster Gallery & Contest"
+title: "Forum Poster Gallery & Contest"
 template: 2015-forum.html
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
 mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
@@ -9,9 +9,11 @@ button: postergallery
 button_link: http://www.tnris.org/2015-gis-forum/poster-gallery#poster-submission
 button_text: Submit to the poster gallery
 body_class: poster-gallery
+sidebar: postersubmission
 ---
+# Forum Poster Gallery & Contest
 
-The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:
+<p class="lead">The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:</p>
 
 - Map design
 - Use of space
@@ -20,11 +22,14 @@ The purpose of the poster gallery is to promote and recognize the advances of ma
 - Creativity
 - Originality
 
-### Winners
+<div class="well well-md">
+  <h3>Winners</h3>
 
-The top 3 vote earners will be highlighted on the TNRIS website under the '<a href="{{m.link('spotlights/2014-10-30-morris-sheppard-dam-lidar')}}" >Data Spotlight</a>' section following the forum. 
+<p>The top 3 vote earners will be highlighted on the TNRIS website under the '<a href="{{m.link('spotlights/2014-10-30-morris-sheppard-dam-lidar')}}" >Data Spotlight</a>' section following the forum. </p>
+<p>The top vote earner will also receive a small gift.</p>
+</div>
 
-The top vote earner will also receive a small gift.
+
 
 ## Physical Guidelines for Poster
 
@@ -36,9 +41,9 @@ The top vote earner will also receive a small gift.
 
 Posters will be displayed in the atrium of the J.J. Pickle Research Center. 
 
-## Mailing Address
+## Info and Mailing Address
 
-Please mail your poster in order to arrive no later than the Oct. 16th deadline, to the following address:
+Send us your basic information in the form on this page and **mail your poster** in order to arrive no later than the Oct. 16th deadline, to the following address:
 
 <address>
 <strong>Texas Natural Resources Information System<br>
@@ -47,7 +52,3 @@ Attn: Erik O'Brian<br>
 Austin, Texas, 78701</strong>
 </address>
 
-## Poster Submission
-Please enter your information below if you plan on submitting a poster to the gallery. This info will be displayed along with your poster.
-
-{% include "./partials/2015-forum/poster-submission.html" %}
