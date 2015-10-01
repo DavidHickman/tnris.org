@@ -8,7 +8,7 @@ Datasets hosted in the [Data Download section](data-download) of this website
 are dedicated to the public domain via the [CC0 1.0 Universal (CC0 1.0) Public
 Domain Dedication](public-domain-dedication-full). This dedication does not
 apply to any datasets for which TNRIS does not have ownership rights (including
-some datasets linked to from other parts of this website). The Summary section
+some datasets linked from other parts of this website). The Summary section
 below contains a handy reference for understanding the CC0 Legal Code. It is a
 human-readable expression of some of its key terms. This Deed itself has no
 legal value, and its contents do not appear in CC0. See the full legal code for
