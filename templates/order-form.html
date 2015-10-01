@@ -140,29 +140,30 @@
               is_lidar
           )}}
 
+          {% set show_upload_aoi = '((' + is_historical_digital + ') || (' + is_lidar + '))' %}
           {{form.checkbox(
-              "LiDAR Site File",
-              "Site File",
-              "I have a file that contains the extent of the data I am requesting.",
+              "Area of Interest Boundary",
+              "Area of Interest Boundary File",
+              "I have a file that contains the extents of the data I am requesting.",
               false,
-              is_lidar
+              show_upload_aoi
           )}}
 
-          {% set has_site_file = "form_model['LiDAR Site File']" %}
-          <div ng-show="{{has_site_file|safe}}" class="ie-all-show">
+          {% set has_aoi_boundary = "form_model['Area of Interest Boundary']" %}
+          <div ng-show="{{has_aoi_boundary|safe}}" class="ie-all-show">
             <p class="text-info">
-              A TNRIS employee will contact you to get your site file.<br/>
-              In order to upload site files directly through this form, please update to a modern browser version. See <a href="http://browsehappy.com/" title="Browser upgrade information">http://browsehappy.com/</a> for assistance.
+              A TNRIS employee will contact you to get your area of interest file.<br/>
+              In order to upload area of interest files directly through this form, please update to a modern browser version. See <a href="http://browsehappy.com/" title="Browser upgrade information">http://browsehappy.com/</a> for assistance.
             </p>
           </div>
           {{form.uploadZip(
-            "Site File Upload",
+            "Area of Interest Upload",
             {
-              label: "Upload Site File",
+              label: "Upload Area of Interest Boundary File",
               help: "Select a zipped (.zip) Shapefile to upload. Maximum allowed file size is 20 MB."
             },
             false,
-            has_site_file
+            show_upload_aoi + ' && ' + has_aoi_boundary
           )}}
 
           {{form.textarea(
