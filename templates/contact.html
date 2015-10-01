@@ -41,36 +41,43 @@
         "Reason for contacting",
         "radio",
           [
-          'General Inquiry',
-          'Data Question',
-          'Education &amp; Training',
-          'Geographic Information Office (GIO)',
-          'Strategic Mapping Program (StratMap)',
-          'Texas GIS Forum',
-          'GEMSS',
-          'Borderland Information Center'
+          'General Question or Comment',
+          'Help with Data',
+          'Order Data or Request Pricing Information',
         ],
         true
       )}}
 
-      {% set show_software = "form_model['Reason'] == 'Data Question'" %}
-        {{form.software_inputs(show_software)}}
+      <div ng-hide="!form_model['Reason']">
+        {% set order_data = "form_model['Reason'] == 'Order Data or Request Pricing Information'" %}
+        <div class="form-group form-callout bg-warning" ng-show="{{order_data}}">
+          <p>
+            Please use our <a href="{{m.link('order-data')}}">order form</a> if you are seeking to purchase or obtain a quote for TNRIS data.
+            Some of our digital datasets are also available for download at no cost from our <a href="{{m.link('data-download')}}">data download page</a>.
+          </p>
+        </div>
 
-      {{form.textarea(
-          "Question or Comments",
-          "Question / Comments",
-          true,
-          true
-      )}}
+        <div ng-hide="{{order_data}}">
+          {% set show_software = "form_model['Reason'] == 'Help with Data'" %}
+            {{form.software_inputs(show_software)}}
 
-      {{form.input("Name", "Name", "text", true)}}
-      {{form.input("Email", "Email address", "email", true)}}
-      {{form.input("Phone", "Phone number", "tel", false)}}
-      {{form.input("Address", "Address", "text", true)}}
-      {{form.input("Organization", "Organization", "text", false)}}
-      {{form.industry()}}
+          {{form.textarea(
+              "Question or Comments",
+              "Question / Comments",
+              true,
+              true
+          )}}
 
-      {{form.submit("Message")}}
+          {{form.input("Name", "Name", "text", true)}}
+          {{form.input("Email", "Email address", "email", true)}}
+          {{form.input("Phone", "Phone number", "tel", false)}}
+          {{form.input("Address", "Address", "text", true)}}
+          {{form.input("Organization", "Organization", "text", false)}}
+          {{form.industry()}}
+
+          {{form.submit("Message")}}
+        </div>
+      </div>
     {{form.after()}}
   </div>
 </div>
