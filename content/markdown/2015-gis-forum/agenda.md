@@ -55,15 +55,38 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 </div>
 </div>
 
-<div class="row">
 <h2><small>Conference</small><br>Wednesday, October 28th</h2>
-<div class="col-sm-3 col-md-2 time-block" id="DayOne_0700">
-7:00 - 8:30 a.m.
+
+<div class="well well-sm well-dark">
+  <div class="row">
+    <div class="col-sm-3 col-md-2">
+      9:00 a.m. - 5:00 p.m.
+    </div>
+    <div class="col-sm-9 col-md-10">
+      <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
+        <p>
+          <button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Wednesday, ESRI will be holding condensed courses on key ESRI software and GIS techniques.</p>
+    </div>
+  </div>
 </div>
-<div class="col-sm-9">
-<strong>Registration</strong>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      {% include "./partials/2015-forum/holl-list.html" %}
+    </div>
+  </div>
 </div>
+
+<div class="row">
+  <div class="col-sm-3 col-md-2 time-block" id="DayOne_0700">
+  7:00 - 8:30 a.m.
+  </div>
+  <div class="col-sm-9">
+  <strong>Registration</strong>
+  </div>
 </div>
+
 <div class="row agenda-bg">
 <div class="col-sm-3 col-md-2 time-block" id="DayOne_0830">
 8:30 - 9:00 a.m.
@@ -403,8 +426,22 @@ TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 </div>
 
 
-<div class="row">
 <h2><small>Conference</small><br>Thursday, October 29th</h2>
+
+<div class="well well-sm well-dark">
+  <div class="row">
+    <div class="col-sm-3 col-md-2">
+      9:00 a.m. - 5:00 p.m.
+    </div>
+    <div class="col-sm-9 col-md-10">
+      <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
+        <p><button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Thursday, ESRI will be holding condensed courses on key ESRI software and GIS techniques.</p>
+
+    </div>
+  </div>
+</div>
+
+<div class="row">
 <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0700">
 7:00 - 8:30 a.m.
 </div>

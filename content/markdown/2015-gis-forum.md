@@ -107,9 +107,5 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <p>Tuesday night, come to a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.</p>
     <p><a class="btn btn-md btn-danger" href="http://www.meetup.com/DevMeetUpTexas/events/225538428/">View Meetup Page</a></p>
   </div>
-<!--   <div class="col-sm-4">
-    <h3>ESRI Hands-On Learning Labs (HOLL)</h3>
-    <p>During the Conference, throughout Wednesday and Thursday, ESRI will be offering <strong>free</strong> tutorials on ESRI software, from the basics to more involved processing and programming. Don't miss the chance to take advantage of this valuable instruction.</p>
-  </div> -->
   </div>
 
