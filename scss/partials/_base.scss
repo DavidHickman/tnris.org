@@ -579,3 +579,11 @@ button.data-access-toggle {
 .neon-green {
   color: $electricgreen
 }
+
+// numbered list list-group-item
+
+.list-group.numbered {
+  .list-group-item {
+    display: list-item;
+  }
+}
