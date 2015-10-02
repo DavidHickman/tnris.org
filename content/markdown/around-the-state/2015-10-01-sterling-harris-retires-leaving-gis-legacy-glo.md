@@ -17,11 +17,11 @@ Sterling Harris, from the [General Land Office (GLO)](http://www.glo.texas.gov/)
 
 Sterling: I grew up in Wimberley Texas, the heartland of the Hill Country.  I grew up ranching and farming family, enjoyed being outside and swimming in the pristine waters of the Blanco River!
 
-**T: Where did you get your education? College, degree…**
+<p><div class="pull-quote right" title="A pulled quote, out of order with text flow"><em>What would you consider to be your greatest acheivement?</em><br>Being able to build an enterpise GIS system that now supports the entire business areas of the GLO.</div><strong>T: Where did you get your education? College, degree...</strong></p>
 
 S: Sul Ross State University, Alpine Texas. I received a BS in Industrial Technology and a minor in Business (1979).
 
-<p><img class="img-responsive pull-right" alt="Sterling Harris, in a cowboy hat, stands in front of the Texas Capitol" src="{{m.link('static/images/around-the-state/sterling/sterling-capitol-sm.jpg')}}"><strong>T: How did you arrive in this industry? What path brought you here?</strong></p>
+**T: How did you arrive in this industry? What path brought you here?**
 
 S: I started working in the Oil business for Clayton Williams mapping Oil and Gas Pipelines. My love of mapping and the oil and gas industry started there.  The downturn in the mid eighties forced me to seek stability with the State of Texas and that is when I start with the Texas General Land Office. I was hired to work in the Surveying and Mapping division in 1987.  
 
@@ -33,7 +33,7 @@ S: In 1991, the GLO started an Oil Spill Response division. Part of the responsi
 
 S: Funding, GIS systems are costly and funding can be hard to achieve.  Luckily we were able to obtain grants for certain mapping projects related to the Oil Spill division.
 
-<p><div class="pull-quote right" title="A pulled quote, out of order with text flow"><em>What would you consider to be your greatest acheivement?</em><br>Being able to build an enterpise GIS system that now supports the entire business areas of the GLO.</div><strong>T: What would you consider to be your greatest acheivement?</strong></p>
+<p><figure class="pull-left" ><a href="http://events.esri.com/conference/sagList/?fa=Detail&SID=2019"><img src="{{m.link('static/images/around-the-state/sterling/glo-sag.jpg')}}" alt="A photo of the GLO's GIS team with Jack Dangermond"><figcaption style="max-width: 400px;"></a>The GLO's GIS team accepts the ESRI SAG award from Jack Dangermond</figcaption></figure><strong>T: What would you consider to be your greatest acheivement?</strong></p>
 
 S: Being able to build an enterpise GIS system that now supports the entire business areas of the GLO.
 
@@ -43,11 +43,11 @@ S: Meeting and working with the GIS professionals across this State.
 
 **T: Where can we find you when you’re not working? What’s your favorite way to spend a weekend or a Sunday afternoon?**
 
-S: Between Hole's number 1 through 18 in Llano Golf Course and working with my new team of border collie's hearding sheep in Ozona.
+S: Between holes number 1 through 18 in Llano Golf Course and working with my new team of border collie's herding sheep in Ozona.
 
 **T: Any awards or medals, or even medallions? Personal okay, too.**
 
-S: The GLO GIS team received the SAG in award at the User Conference this year as well as the GIS hero award from ESRI.
+S: The GLO GIS team received the [SAG (Special Achievement in GIS)](http://events.esri.com/conference/sagList/?fa=Detail&SID=2019) award at the User Conference this year as well as the GIS hero award from ESRI.
 
 **T: What does the next chapter in your life have in store for you?**
 
