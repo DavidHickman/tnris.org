@@ -57,15 +57,14 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 
 <h2><small>Conference</small><br>Wednesday, October 28th</h2>
 
-<div class="well well-sm well-dark">
+<div class="well well-sm well-dark well-holl">
   <div class="row">
     <div class="col-sm-3 col-md-2">
       9:00 a.m. - 5:00 p.m.
     </div>
     <div class="col-sm-9 col-md-10">
       <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
-        <p>
-          <button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Wednesday, ESRI will be holding condensed courses on key ESRI software and GIS techniques.</p>
+        <p><button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Wednesday, ESRI will host self-guided courses in the <strong>Balcones Room</strong> covering ESRI software and key GIS techniques.</p>
     </div>
   </div>
 </div>
@@ -428,14 +427,14 @@ TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 
 <h2><small>Conference</small><br>Thursday, October 29th</h2>
 
-<div class="well well-sm well-dark">
+<div class="well well-sm well-dark well-holl">
   <div class="row">
     <div class="col-sm-3 col-md-2">
       9:00 a.m. - 5:00 p.m.
     </div>
     <div class="col-sm-9 col-md-10">
       <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
-        <p><button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Thursday, ESRI will be holding condensed courses on key ESRI software and GIS techniques.</p>
+        <p><button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Thursday, ESRI will host self-guided courses in the <strong>Balcones Room</strong> covering ESRI software and key GIS techniques.</p>
 
     </div>
   </div>
@@ -697,6 +696,7 @@ Managing Special Events in Austin, TX with ArcGIS Online
 </div>
 <div class="col-sm-9 col-md-10">
 <h3 id="keynote-humphreys"><small>Keynote Presentation</small><br>Todd Humphreys, Aerospace Engineer, UT Austin</h3>
+<h4>Low-Cost Centimeter-Accurate Mobile Positioning</h4>
 <p>
 <img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/humphreys_head.jpg')}}">
 Todd E. Humphreys is an assistant professor in the department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin, and Director of the UT Radionavigation Laboratory. He specializes in the application of optimal detection and estimation techniques to problems in satellite navigation, autonomous systems, and signal processing.His recent focus has been on secure perception for autonomous systems, including navigation, timing, and collision avoidance, and on centimeter-accurate location for the mass market.

@@ -309,7 +309,7 @@
     position: relative;
 
     @media (min-width: $screen-sm) {
-      min-height: 450px;
+      min-height: 350px;
     }
 
     @media (min-width: $screen-md) {
@@ -338,7 +338,7 @@
       position: relative;
       
       @media (min-width: $screen-sm) {
-        min-height: 450px;
+        min-height: 350px;
       }
 
       @media (min-width: $screen-md) {
@@ -356,13 +356,13 @@
         position: absolute;
       }
       h3 {
-        bottom: 0;
+        top: 0;
         left: 0px;
         margin: 0;
         padding: 5%;
         position: absolute;
 
-        @include background-image(linear-gradient(to top, $darkgrey, transparent));
+        @include background-image(linear-gradient(to bottom, $darkgrey, transparent));
 
         a {
           color: white;
