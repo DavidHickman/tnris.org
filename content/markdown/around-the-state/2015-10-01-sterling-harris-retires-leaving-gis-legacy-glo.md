@@ -15,7 +15,7 @@ Sterling Harris, from the [General Land Office (GLO)](http://www.glo.texas.gov/)
 
 **TNRIS: Where did you grow up? Describe yourself as a child and reveal what you remember most about your childhood.**
 
-Sterling: I grew up in Wimberley Texas, the heartland of the Hill Country.  I grew up ranching and farming family, enjoyed being outside and swimming in the pristine waters of the Blanco River!
+Sterling: I grew up in Wimberley Texas, the heartland of the Hill Country.  I grew up in a ranching and farming family, enjoyed being outside and swimming in the pristine waters of the Blanco River!
 
 <p><div class="pull-quote right" title="A pulled quote, out of order with text flow"><em>What would you consider to be your greatest acheivement?</em><br>Being able to build an enterpise GIS system that now supports the entire business areas of the GLO.</div><strong>T: Where did you get your education? College, degree...</strong></p>
 
