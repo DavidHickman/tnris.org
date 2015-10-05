@@ -183,10 +183,11 @@ author {
     margin-bottom: 5px;
   }
 
-  h2.headline {
+  h1.headline, h2.headline {
     margin-top: 0;
-    font-size: 30px;
+    font-size: 35px;
   }
+
   img {
     margin-bottom: 15px;
   }
@@ -454,10 +455,14 @@ ul.news-list {
   font-family: $pragmatica;
   font-size: 25px;
   line-height: normal;
-  margin: 20px;
-  margin-top: 5px;
-  max-width: 40%;
+  margin: 20px 0;
   padding: 30px;
+
+  @media (min-width: $screen-sm) {
+    margin: 20px;
+    margin-top: 5px;
+    max-width: 40%;
+  }
 
   &:before {
     content: open-quote; 
@@ -468,8 +473,11 @@ ul.news-list {
 
   &.right {
     float: right;
-    margin-left: 25px;
     margin-right: 0;
+
+    @media (min-width: $screen-sm) {
+      margin-left: 25px;
+    }
 
     @media (min-width: $screen-lg){
       margin-right: -40px;
