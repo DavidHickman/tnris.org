@@ -9,22 +9,28 @@ status_image: 20150724_base.jpg
 status_image_preview: 20150724_base_sm.jpg
 status_image_buyup: 20150724_buyups.jpg
 status_image_buyup_preview: 20150724_buyups_sm.jpg
-production_image: 20150904_production.jpg
-production_image_preview: 20150904_production_sm.jpg
-latest_report: Weekly_Status_Report_090415_A.pdf
-status_date: September 4th, 2015
+production_image: 20150911_production.jpg
+production_image_preview: 20150911_production_sm.jpg
+doqq_image: 20150911_doqq_availability.jpg
+doqq_image_preview: 20150911_doqq_availability_sm.jpg
+ccm_image: 20150911_ccm_availability.jpg
+ccm_image_preview: 20150911_ccm_availability_sm.jpg
+latest_report: Weekly_Status_Report_091115_A.pdf
+status_date: October 2nd, 2015
 updates:
 - The status of the 0.5 meter imagery acquired in Season-1 is 100% complete, 99% in Season-2, 89% in Season-3, 33% in Season-4 and 91% Statewide.
 - Due to continued unfavorable weather conditions, further acquisition of the remaining areas of Texas (9%) was put on hold on in early August until the next upcoming leaf-off season. 
 - Surdex aircraft with ADS100 digital camera sensors will return to Texas to finish statewide 0.5-meter acquisition Dec 15, 2015 – Feb 28, 2016.
 - Quality Control (QC) data review is underway at TNRIS. QC volunteers outside TNRIS have been trained to review data online.
-- The first set of final DOQQs, in the Season 1 area, are expected at TNRIS in September 2015.
+- The first set of final DOQQs, in the Season 1 area, have arrived at TNRIS. Data availability maps and imagery data download links are coming soon!
+- Final orthoimagery for area of the state acquired so far (91%) are expected to be available by Dec 31, 2015.
 progress_1: 91
 progress_2: 100
 progress_3: 91 
 progress_4: 50
-progress_5: 0
+progress_5: 7
 progress_6: 65
+progress_7: 2
 ---
 
 ## Contributors

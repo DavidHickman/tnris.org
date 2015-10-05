@@ -1,6 +1,6 @@
 ---
 title: Rob Aanstoos – Thank you for an amazing 35 years!
-template: news.html
+template: aroundthestate.html
 author: Richard Wade, TNRIS Director/GIO
 thumbnail: static/images/around-the-state/rob-aanstoos/rob-aanstoos-th.jpg
 thumbalt: A headshot of Rob Aanstoos
