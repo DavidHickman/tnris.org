@@ -29,31 +29,6 @@ High resolution 6-inch aerial imagery are now available from TNRIS for Brazos Co
 - Texas Municipal Power Agency
 
 Surdex Corp. was selected under the High Priority Imagery and Data Sets (HPIDS) state contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program (StratMap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
-=======
-title: "New Brazos County / City of Palestine Aerial Imagery Now Available"
-author: StratMap
-thumbnail: /baseball cocs Brazos 6in 3096_22_4_c_2_20150127 nc 1to900.jpg 
-thumbalt: Sample of new the Brazos County Aerial Imagery
-mainimage:
-abstract:
-    High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for Brazos County and the City of Palestine.
-tags: stratmap, hpids
----
-
-Insert baseball cocs Brazos 6in 3096_22_4_c_2_20150127 nc 1to900.jpg 
-Caption Baseball Fields in College Station, TX  SCALE 1:900
-
-High resolution 6-inch aerial imagery are now available from TNRIS for Brazos County, portions of Burleson and Robertson Counties, and the City of Palestine. Six local entities contributed funds to collect the new imagery.
-
-* Brazos Central Appraisal District
-* City of Bryan
-* City of College Station
-* City of Palestine
-* Texas A&M University
-* Texas Municipal Power Agency
-
-Surdex Corp. was selected under the High Priority Imagery and Data Sets (HPIDS) State contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program (StratMap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
->>>>>>> 2a16f414beced05a1f2ed1d7687c477d48a707ec
 
 The new orthoimagery are used for city engineering and planning, appraisal district valuations, university facilities management, infrastructure mapping, and other applications. 
 
@@ -67,8 +42,9 @@ View more details in the **Data Catalog Entry**:
 {{m.catalog_data_card('aerial-orthoimagery-hpids/hpids-brazos-and-palestine-2015-6in-nc-cir')}}
 
 ### Acquisition Areas
+View coverage areas in the interactive map below:
 
-Insert coverage map from here: http://tnris.org/data-catalog/aerial-orthoimagery-hpids/hpids-brazos-and-palestine-2015-6in-nc-cir/  
+<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/f420e7ee-6612-11e5-bfdc-0e76aec36da9/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ### Products
 
