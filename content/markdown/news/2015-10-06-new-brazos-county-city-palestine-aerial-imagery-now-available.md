@@ -29,6 +29,31 @@ High resolution 6-inch aerial imagery are now available from TNRIS for Brazos Co
 - Texas Municipal Power Agency
 
 Surdex Corp. was selected under the High Priority Imagery and Data Sets (HPIDS) state contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program (StratMap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
+=======
+title: "New Brazos County / City of Palestine Aerial Imagery Now Available"
+author: StratMap
+thumbnail: /baseball cocs Brazos 6in 3096_22_4_c_2_20150127 nc 1to900.jpg 
+thumbalt: Sample of new the Brazos County Aerial Imagery
+mainimage:
+abstract:
+    High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for Brazos County and the City of Palestine.
+tags: stratmap, hpids
+---
+
+Insert baseball cocs Brazos 6in 3096_22_4_c_2_20150127 nc 1to900.jpg 
+Caption Baseball Fields in College Station, TX  SCALE 1:900
+
+High resolution 6-inch aerial imagery are now available from TNRIS for Brazos County, portions of Burleson and Robertson Counties, and the City of Palestine. Six local entities contributed funds to collect the new imagery.
+
+* Brazos Central Appraisal District
+* City of Bryan
+* City of College Station
+* City of Palestine
+* Texas A&M University
+* Texas Municipal Power Agency
+
+Surdex Corp. was selected under the High Priority Imagery and Data Sets (HPIDS) State contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program (StratMap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
+>>>>>>> 2a16f414beced05a1f2ed1d7687c477d48a707ec
 
 The new orthoimagery are used for city engineering and planning, appraisal district valuations, university facilities management, infrastructure mapping, and other applications. 
 
@@ -98,4 +123,5 @@ Insert coverage map from here: http://tnris.org/data-catalog/aerial-orthoimagery
 </div>
 <figcaption>Brazos River, SCALE 1:8000</figcaption>
 </figure>
+
 
