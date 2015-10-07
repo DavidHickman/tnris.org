@@ -40,7 +40,7 @@
           {% endif %} 
       </div>
   </div>
-
+{% if intro == 'true' %}
 <div class="_2015-forum-intro">
     <div class="container">
       <a class="btn btn-lg btn-danger pull-right" href="{{ button_link}}"><i class="glyphicon glyphicon-hand-right"></i> {{ button_text }}</a>
@@ -49,6 +49,7 @@
       </p>
     </div>
 </div>
+{% endif %}
 
 {% endblock topcontent %}
 
@@ -59,6 +60,14 @@
 <div class="row">
     <div class="col-md-8">
         {{contents|safe}}
+    </div>
+    <div class="col-md-4">
+      {% if sidebar == 'postersubmission' %}
+        <h2>Submit Your Info</h2>
+        <p>Please enter your information below if you plan on submitting a poster to the gallery. This info will be displayed along with your poster.</p>
+        {% include "./partials/2015-forum/poster-submission.html" %}
+
+      {% endif %}
     </div>
 </div>
 </div>

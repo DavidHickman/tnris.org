@@ -40,7 +40,10 @@
 {%- macro before(form_id) -%}
 <div id="ng-app" ng-app="ContactFormApp">
   <div ng-controller="FormController">
-    <form name="form" role="form" novalidate ng-cloak>
+    <div ng-show="status == 'success'" class="alert alert-success">
+      Your form has been successfully submitted.
+    </div>
+    <form ng-hide="status == 'success'" name="form" role="form" novalidate ng-cloak>
       {{hidden('form_id', form_id)}}
 {%- endmacro -%}
 
@@ -121,7 +124,7 @@
   {{_item_after(name, display, type, required)}}
 
   {% if add_other_option %}
-    {% set other_name = name + ' (other)' %}
+    {% set other_name = name + '_other' %}
     {% set other_display = display + ' (other)' %}
     {% if show %}
       {% set other_show = "(" + show + ") && form_model['" + name + "'] == 'Other'" %}
@@ -195,6 +198,31 @@
         <input type="file" ng-file-select ng-model="files"
           ng-multiple="false" name="{{name}}" accept=".zip"
           ng-file-change="uploadZipFile($files, $event)"
+          {{requiredAttr(required, show)}}>
+      </div>
+
+      <div class="row" ng-show="isUploading || uploadSuccess">
+        <div class="col-md-12">
+          <div progress-bar value="uploadProgress" type="progressBarType"></div>
+        </div>
+      </div>
+      <p class="text-success" ng-show="uploadSuccess">
+        File successfully uploaded.
+      </p>
+      <p class="text-danger" ng-show="uploadError" ng-bind="uploadErrorMessage">
+      </p>
+    {{_item_after(name, display, type, required)}}
+  </div>
+{%- endmacro -%}
+
+{%- macro uploadFile(name, display, accept, required, show) -%}
+  {% set type="file" %}
+  <div class="ie-all-hide" ng-hide="isUploadUnsupported">
+    {{_item_before(name, display, type, required, show)}}
+      <div ng-hide="isUploading">
+        <input type="file" ng-file-select ng-model="files"
+          ng-multiple="false" name="{{name}}" accept="{{accept}}"
+          ng-file-change="uploadFile($files, $event)"
           {{requiredAttr(required, show)}}>
       </div>
 

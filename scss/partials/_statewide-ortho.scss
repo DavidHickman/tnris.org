@@ -243,6 +243,30 @@ h2.updates-header {
   }
 }
 
+.data-progress-final {
+
+  progress, 
+  progress[role] {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: none;
+    background-size: auto;
+    height: 40px;
+    width: 100%;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+
+  p {
+    margin-left: 10px;
+  }
+}
+
 // bar gradients
 .level-five::-webkit-progress-value {
     background: linear-gradient(to right, $error, #f44, $orange, $yield, $yellowgreen, $successgreen);
@@ -323,12 +347,29 @@ h2.updates-header {
     @media (min-width: $screen-sm) {
       left: 77%;
     }
-  }
+    }
+
+    .fa-check {
+    color: $canary;
+    font-size: 30px;
+    left: 90%;
+    position: absolute;
+    text-shadow: -1px -1px 1px $orange;
+    top: 7px;
+
+      @media (min-width: $screen-sm) {
+        left: 95%;
+        }
+    }
 }
 
 // Color Level Classes //
 .level-zero {
   color: $error;
+
+  &.indent {
+    padding-left: 7%;
+  }
 }
 
 .level-one {
@@ -343,7 +384,7 @@ h2.updates-header {
   padding-bottom: 60px;
 
   @media (min-width: $screen-sm) {
-    background: url(../images/statewide-orthoimagery/pivotpoints_bg.jpg) right bottom no-repeat $darkgrey;
+    background: url(../images/statewide-orthoimagery/pivotpoints_bg.jpg) right bottom repeat-y $darkgrey;
   }
 
   .lead {
@@ -415,7 +456,8 @@ h2.updates-header {
 }
 
 .timeline {
-  position: relative; 
+  position: relative;
+  margin-bottom: 30px; 
 
   @media (min-width: $screen-sm) {
     height: $timelineheight;

@@ -81,7 +81,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
           return;
         }
 
-        if (file.size > 20971520) {
+        if (file.size > 20971520) { //20 MB
           setUploadError("Please ensure the selected file's size is less than 20 MB.");
           return;
         }
@@ -90,6 +90,32 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
         $scope.isUploading = true;
 
         UploadService.uploadZip(file, $scope.form_model.form_id)
+          .then(
+            onUploadSuccess(formFieldName),
+            onUploadError,
+            onUploadProgress
+          )
+          ['finally'](onUploadFinally);
+      };
+
+      $scope.uploadFile = function ($files, $event) {
+        resetUpload();
+
+        if (!$files || !$files.length) {
+          return;
+        }
+
+        var file = $files[0];
+
+        if (file.size > 5242880) { // 5 MB
+          setUploadError("Please ensure the selected file's size is less than 5 MB.");
+          return;
+        }
+
+        var formFieldName = angular.element($event.target).attr('name');
+        $scope.isUploading = true;
+
+        UploadService.uploadFile(file, $scope.form_model.form_id)
           .then(
             onUploadSuccess(formFieldName),
             onUploadError,
