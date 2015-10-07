@@ -41,7 +41,7 @@ The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG200
 View more details in the **Data Catalog Entry**:
 {{m.catalog_data_card('aerial-orthoimagery-hpids/hpids-brazos-and-palestine-2015-6in-nc-cir')}}
 
-### Acquisition Areas
+## Acquisition Areas
 View coverage areas in the interactive map below:
 
 <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/f420e7ee-6612-11e5-bfdc-0e76aec36da9/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
@@ -88,6 +88,15 @@ View coverage areas in the interactive map below:
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/residential-bryan-brazos-6in-3096_22_3_a_2_20150127-nc-1to800.jpg')}}" alt="Natural Color preview of Downtown Bryan, TX">
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/residential-bryan-brazos-6in-3096_22_3_a_2_20150127-cir-1to800.jpg')}}" alt="Infra Red preview of Downtown Bryan, TX">
+</div>
+<figcaption>Residential Neighborhood in Bryan, TX, SCALE 1:800</figcaption>
+</figure>
+
+
+<figure>
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/downtown-bryan-brazos-6in-3096_22_3_a_1_20150127-nc-1to700.jpg')}}" alt="Natural Color preview of Residential Neighborhood in Bryan, TX">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/downtown-bryan-brazos-6in-3096_22_3_a_1_20150127-cir-1to700.jpg')}}" alt="Infra Red preview of Residential Neighborhood Bryan, TX">
 </div>
 <figcaption>Downtown Bryan, TX, SCALE 1:700</figcaption>
 </figure>
