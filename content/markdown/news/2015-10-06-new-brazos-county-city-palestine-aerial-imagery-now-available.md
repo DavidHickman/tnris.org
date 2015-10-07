@@ -34,7 +34,7 @@ The new orthoimagery are used for city engineering and planning, appraisal distr
 
 The new orthoimagery were acquired in late January 2015 during leaf-off conditions. Leaf-off imagery allows the user to identify more on-the-ground features underneath deciduous tree cover than imagery acquired during full leaf-out. The difference between deciduous and evergreen vegetation is more apparent in imagery acquired during the leaf-off period.
 
-### Data Access
+## Data Access
 
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
@@ -46,7 +46,7 @@ View coverage areas in the interactive map below:
 
 <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/f420e7ee-6612-11e5-bfdc-0e76aec36da9/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-### Products
+## Products
 
 - GeoTIFF and JPEG2000 DO4Q (~1 sq. mi.) image tiles
 - JPEG2000 Compressed county mosaic
@@ -54,7 +54,7 @@ View coverage areas in the interactive map below:
 - Seamline SHP
 - Metadata XMLs per image tile
 
-### Product Specification
+## Product Specification
 
 ![USGS Quarter Quad Breakdown](static/images/updates/smith-imagery/usgs_quad.jpg)
 
@@ -64,7 +64,7 @@ View coverage areas in the interactive map below:
 - Units in feet
 - DO4Q (approx. 1 sq. mi.) image tiles, 1/64th USGS 7.5-minute quadrangle
 
-### Imagery Preview
+## Imagery Preview
 
 <figure>
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
