@@ -535,7 +535,7 @@ Innovations - Changing the way Lidar is Used
 <small>10:30 a.m. – 11:00 a.m.</small><br>
 Regional Online Geospatial Services for the Houston-Galveston Region
 </h4>
-<em>Bill Bass, Houston-Galveston Area Council of Governments</em>
+<em>Brooks Andrews, Houston-Galveston Area Council of Governments</em>
 </div>
 </div>
 <div id="two-B-1030-b" class="agenda-track-item media">
