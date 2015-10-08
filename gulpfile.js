@@ -35,6 +35,7 @@ var useref = require('gulp-useref');
 var vinylPaths = require('vinyl-paths');
 var winston = require('winston');
 var webserver = require('gulp-webserver');
+var webpack = require('webpack');
 
 var autodate = require('./metalsmith-autodate');
 var based = require('./metalsmith-based');
@@ -42,6 +43,8 @@ var collector = require('./metalsmith-collector');
 var crossref = require('./metalsmith-crossref');
 var csv = require('./metalsmith-csv');
 var metadata = require('metalsmith-metadata');
+
+var webpackConfig = require('./webpack.config');
 
 var production = false;
 
@@ -526,4 +529,13 @@ gulp.task('clean', ['clean-dist']);
 gulp.task('clean-dist', function() {
   return gulp.src([dirs.dist, dirs.tmp, '.sass-cache/'])
     .pipe(vinylPaths(del));
+});
+
+gulp.task('webpack', function(callback) {
+  webpack(webpackConfig, function(err, stats) {
+    if (err) {
+      errors.breaking('webpack error: ' + stats.toString());
+    }
+  });
+  callback();
 });
