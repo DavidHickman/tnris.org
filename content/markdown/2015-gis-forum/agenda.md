@@ -31,7 +31,7 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 8:00 a.m - 5:00 p.m.
 </div>
 <div class="col-sm-9">
-<strong><a href="{{ m.link('2015-gis-forum/training')}}">Pre-conference Training</a></strong>
+<h3><a href="{{ m.link('2015-gis-forum/training')}}">Pre-conference Training</a></h3>
 </div>
 </div>
 
@@ -41,10 +41,20 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 8:00 a.m - 5:00 p.m.
 </div>
 <div class="col-sm-9">
-<strong><a href="{{ m.link('2015-gis-forum/training')}}">Pre-conference Training</a></strong>
+<h3><a href="{{ m.link('2015-gis-forum/training')}}">Pre-conference Training</a></h3>
 </div>
 </div>
 <div class="row agenda-bg">
+  <div class="col-sm-3 col-md-2">
+10:00 a.m - 12:00 p.m.
+</div>
+<div class="col-sm-9">
+<h3><small>Information Session</small></h3>
+<p><a href="http://www.infogroup.com/"><img class="pull-right" alt="Infogroup geospatial logo and link" src="{{ m.link('static/images/texas-gis-forum/2015/sponsors/infogroup_logo_sm.png')}}"></a>
+<strong>Infogroup</strong> will present on their statewide enterprise license offer to the state of Texas. Attendees will learn about Infogroup business and residential data records and how it would benefit agency business matters. This meeting is open to the public.</p>
+</div>
+</div>
+<div class="row">
 <div class="col-sm-3 col-md-2">
 5:30 p.m
 </div>

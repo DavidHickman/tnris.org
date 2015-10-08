@@ -8,6 +8,7 @@ abstract: As technology moves forward, maps are still at the heart of the GIS fi
 button: postergallery
 button_link: http://www.tnris.org/2015-gis-forum/poster-gallery#poster-submission
 button_text: Submit to the poster gallery
+intro: true
 body_class: poster-gallery
 sidebar: postersubmission
 ---

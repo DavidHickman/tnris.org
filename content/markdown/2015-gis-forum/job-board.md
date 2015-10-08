@@ -9,6 +9,7 @@ button: registration
 button_link: https://www.regonline.com/Register/Checkin.aspx?EventID=1725172
 button_text: Register Now
 intro: false
+abstract: Save the date for the Texas GIS Forum, the state's premier conference for the geospatial professional community.
 ---
 
 {% include "./partials/2015-forum/job-board-upload.html" %}
