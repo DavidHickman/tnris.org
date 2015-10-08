@@ -54,8 +54,9 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
           .pairs()
           .map(function(pair) {
             var subResources = _.sortBy(pair[1], 'name');
+            var category = pair[0];
 
-            if (type === 'qquad') {
+            if (type === 'qquad' || category === 'Compressed County Mosaics') {
               subResources = subResources.reverse();
             }
 
