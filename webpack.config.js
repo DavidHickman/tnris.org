@@ -14,12 +14,14 @@ var config = {
     'vendor': [
       'jquery',
       'bootstrap',
+      'bootstrap/dist/css/bootstrap.min.css',
       'holderjs',
       'jquery-zclip/jquery.zclip.js',
       'lodash',
       'swfobject',
       'twentytwenty/js/jquery.event.move.js',
       'twentytwenty/js/jquery.twentytwenty.js',
+      'twentytwenty/css/twentytwenty.css',
     ]
   },
   output: {
@@ -27,7 +29,7 @@ var config = {
     filename: '[name].bundle.js'
   },
   resolve: {
-      root: [path.join(__dirname, 'static/bower_components')]
+      root: [path.join(__dirname, 'bower_components')]
   },
   module: {
     loaders: [
@@ -41,6 +43,10 @@ var config = {
           'file?hash=sha512&digest=hex&name=[hash].[ext]',
           'image-webpack?{progressive:true, optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}}'
         ]
+      },
+      {
+        test: /\.(eot|ttf|woff2?)$/i,
+        loader: 'file',
       },
       {
         test: /\.scss$/,
