@@ -5,9 +5,11 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var config = {
   entry: {
-    tnris: path.resolve(__dirname, 'static/js/tnris.js'),
+    '2015forum': path.resolve(__dirname, 'static/js/2015forum.js'),
+    'contact': path.resolve(__dirname, 'static/js/contact-forms/app.js'),
     'data-download': path.resolve(__dirname, 'static/js/data-download/app.js'),
-    'contact': path.resolve(__dirname, 'static/js/contact-forms/app.js')
+    'site': path.resolve(__dirname, 'static/js/site.js'),
+    'tnris': path.resolve(__dirname, 'static/js/tnris.js'),
   },
   output: {
     path: path.resolve(__dirname, 'build'),
