@@ -4,9 +4,11 @@ var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var config = {
-  entry: [
-    path.resolve(__dirname, 'static/js/tnris.js')
-  ],
+  entry: {
+    tnris: path.resolve(__dirname, 'static/js/tnris.js'),
+    'data-download': path.resolve(__dirname, 'static/js/data-download/app.js'),
+    'contact': path.resolve(__dirname, 'static/js/contact-forms/app.js')
+  },
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: '[name].bundle.js'

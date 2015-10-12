@@ -1,4 +1,6 @@
 'use strict';
+require('../../../scss/contact.scss');
+
 /* global FileAPI:false */
 
 angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angularFileUpload'])

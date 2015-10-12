@@ -1,3 +1,5 @@
+require('../../../scss/data-download.scss');
+
 /*eslint "no-undef": false*/
 /*global angular*/
 var dataDownloadApp = function () {
