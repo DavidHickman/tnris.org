@@ -11,7 +11,7 @@
   }
 
   ._2015-forum-intro {
-    background: url(../images/texas-gis-forum/2015/forum_fade.jpg) right 0 no-repeat $forum2015blue;
+    background: url(../static/images/texas-gis-forum/2015/forum_fade.jpg) right 0 no-repeat $forum2015blue;
     color: white;
     font-size: 20px;
     min-height: 150px;
@@ -90,7 +90,7 @@
 }
 
 h2.logo-2015 {
-  background: url('../images/texas-gis-forum/2015/logo_white_lg.png')  0 0 no-repeat;
+  background: url('../static/images/texas-gis-forum/2015/logo_white_lg.png')  0 0 no-repeat;
   display: block;
   height: 126px;
   text-indent: -9999px;
@@ -341,5 +341,5 @@ img.keynote-portrait {
 }
 
 .well-holl {
-  background: url(../images/texas-gis-forum/2015/holl-bg.jpg) 0 0;
+  background: url(../static/images/texas-gis-forum/2015/holl-bg.jpg) 0 0;
 }

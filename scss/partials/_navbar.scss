@@ -81,19 +81,19 @@
   &.maps-data-link {
     
     @media (min-width: $screen-md) {
-      background: url(../images/icons/folded-map-white.svg) 0 15px no-repeat;
+      background: url(../static/images/icons/folded-map-white.svg) 0 15px no-repeat;
       background-size: 25px;
       padding-left: 30px;
     }
 
     &:hover {
-      background: url(../images/icons/folded-map-blue.svg) 0 15px no-repeat;
+      background: url(../static/images/icons/folded-map-blue.svg) 0 15px no-repeat;
       background-size: 25px;
     }
   }
 
   &.gio {
-    background: url(../images/icons/tx_icon.svg) 0 13px no-repeat;
+    background: url(../static/images/icons/tx_icon.svg) 0 13px no-repeat;
     background-size: 23px;
     padding-left: 28px;
 
@@ -151,7 +151,7 @@ a.navbar-twdb {
 }
 
 .navbar-brand {
-  background: url(../images/tnris_logo.svg) 0 0 no-repeat;
+  background: url(../static/images/tnris_logo.svg) 0 0 no-repeat;
   height: 36px;
   margin-left: 5px;
   margin-right: 10px;
