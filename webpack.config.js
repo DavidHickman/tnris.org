@@ -1,9 +1,12 @@
 'use strict';
 
 var path = require('path');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var config = {
-  entry: [path.resolve(__dirname, 'static/js/tnris.js')],
+  entry: [
+    path.resolve(__dirname, 'static/js/tnris.js')
+  ],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: '[name].bundle.js'
@@ -12,7 +15,7 @@ var config = {
     loaders: [
       {
         test: /\.css$/,
-        loader: 'style!css'
+        loader: ExtractTextPlugin.extract('style', 'css')
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
@@ -23,10 +26,13 @@ var config = {
       },
       {
         test: /\.scss$/,
-        loader: 'style!css!sass'
+        loader: ExtractTextPlugin.extract('style', 'css!sass')
       },
     ]
-  }
+  },
+  plugins: [
+    new ExtractTextPlugin("[name].css")
+  ]
 };
 
 module.exports = config;
