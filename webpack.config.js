@@ -2,6 +2,7 @@
 
 var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var webpack = require('webpack');
 
 var config = {
   entry: {
@@ -10,10 +11,23 @@ var config = {
     'data-download': path.resolve(__dirname, 'static/js/data-download/app.js'),
     'site': path.resolve(__dirname, 'static/js/site.js'),
     'tnris': path.resolve(__dirname, 'static/js/tnris.js'),
+    'vendor': [
+      'jquery',
+      'bootstrap',
+      'holderjs',
+      'jquery-zclip/jquery.zclip.js',
+      'lodash',
+      'swfobject',
+      'twentytwenty/js/jquery.event.move.js',
+      'twentytwenty/js/jquery.twentytwenty.js',
+    ]
   },
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: '[name].bundle.js'
+  },
+  resolve: {
+      root: [path.join(__dirname, 'static/bower_components')]
   },
   module: {
     loaders: [
@@ -35,7 +49,10 @@ var config = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin("[name].css")
+    new ExtractTextPlugin('[name].css'),
+    new webpack.ResolverPlugin(
+      new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main'])
+    )
   ]
 };
 
