@@ -2,10 +2,22 @@
 
 var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var glob = require('glob');
+var includes = require('lodash.includes');
 var webpack = require('webpack');
+
+
+var staticFiles = glob.sync(
+  'static/**/*', {
+    mark: true
+  }
+).filter(function (path) {
+  return path.slice(-1) !== '/' && !includes(path, '/js/');
+});
 
 var config = {
   entry: {
+    'static': staticFiles,
     '2015forum': path.resolve(__dirname, 'static/js/2015forum.js'),
     'contact': path.resolve(__dirname, 'static/js/contact-forms/app.js'),
     'data-download': path.resolve(__dirname, 'static/js/data-download/app.js'),
@@ -29,24 +41,34 @@ var config = {
     filename: '[name].bundle.js'
   },
   resolve: {
-      root: [path.join(__dirname, 'bower_components')]
+    root: [
+      path.join(__dirname, 'bower_components'),
+    ],
+    alias: {
+      'static': './static'
+    }
   },
   module: {
     loaders: [
       {
-        test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style', 'css')
+        test: /LICENSE/i,
+        loader: 'file?name=[path][name]'
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-          'file?hash=sha512&digest=hex&name=[hash].[ext]',
-          'image-webpack?{progressive:true, optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}}'
-        ]
+        test: /\/static\/(?!js)/i,
+        loader: 'file?name=[path][name].[ext]'
+      },
+      {
+        test: /\/bower_components\/.+\.svg/i,
+        loader: 'file?name=[path][name].[ext]'
       },
       {
         test: /\.(eot|ttf|woff2?)$/i,
         loader: 'file',
+      },
+      {
+        test: /\.css$/,
+        loader: ExtractTextPlugin.extract('style', 'css')
       },
       {
         test: /\.scss$/,
@@ -58,7 +80,7 @@ var config = {
     new ExtractTextPlugin('[name].css'),
     new webpack.ResolverPlugin(
       new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main'])
-    )
+    ),
   ]
 };
 
