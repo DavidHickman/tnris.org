@@ -46,7 +46,7 @@
           [
             'Digital Data',
             'Historical Imagery',
-            'LiDAR',
+            'Lidar',
             'Maps'
           ],
           true
@@ -112,9 +112,9 @@
         {% set is_digital = is_digital_data + " || " + is_historical_digital %}
           {{form.software_inputs(is_digital)}}
 
-        {% set is_lidar = "form_model['Type of Data'] == 'LiDAR'" %}
+        {% set is_lidar = "form_model['Type of Data'] == 'Lidar'" %}
           {{form.multi(
-              "LiDAR Data Format",
+              "Lidar Data Format",
               "Data Format",
               "checkbox",
               [
@@ -128,7 +128,7 @@
 
           <div class="form-group form-callout bg-warning" ng-show="{{is_lidar}}">
             <p>
-              <strong>Note:</strong> LiDAR datasets are often very large, and TNRIS cannot offer digital downloads for datasets larger than 10GB.
+              <strong>Note:</strong> Lidar datasets are often very large, and TNRIS cannot offer digital downloads for datasets larger than 10GB.
               If the ordered dataset is larger than 10GB, you have the option of either providing a factory-sealed external hard drive (or multiple factory-sealed external hard drives) or purchasing them at cost from TNRIS.
             </p>
           </div>
@@ -180,10 +180,10 @@
           )}}
 
           {{form.textarea(
-              "LiDAR Description",
+              "Lidar Description",
               {
-                label: 'LiDAR Description',
-                help: "Description of the LiDAR data you are requesting."
+                label: 'Lidar Description',
+                help: "Description of the Lidar data you are requesting."
               },
               false,
               is_lidar
