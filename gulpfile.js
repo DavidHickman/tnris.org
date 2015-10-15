@@ -534,7 +534,7 @@ gulp.task('clean-dist', function() {
 gulp.task('webpack', function(callback) {
   webpack(webpackConfig, function(err, stats) {
     if (err) {
-      errors.breaking('webpack error: ' + stats.toString());
+      cb(err);
     }
   });
   callback();
