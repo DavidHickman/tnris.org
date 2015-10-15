@@ -267,10 +267,7 @@ gulp.task('set-production', function () {
   production = true;
 });
 
-gulp.task('dist-fonts', function () {
-  return gulp.src(path.join(dirs.static, 'bower_components', 'bootstrap', 'fonts', '*'))
-    .pipe(gulp.dest(path.join(dirs.dist, 'fonts')));
-});
+gulp.task('dist-fonts', ['webpack']);
 
 gulp.task('dist-metal', function () {
   return gulp.src([
@@ -413,8 +410,8 @@ gulp.task('dist-metal', function () {
             'data-download': '/data-download/'
           },
           includeDirs: {
-            'static/documents': 'documents',
-            'static/images': 'images'
+            'static/documents': 'static/documents',
+            'static/images': 'static/images'
           }
         }))
         .use(based())
@@ -451,19 +448,9 @@ gulp.task('dist-metal', function () {
     .pipe(gulpif(production, gulp.dest(dirs.tmp), gulp.dest(dirs.dist)));
 });
 
-gulp.task('dist-scss', function () {
-  return gulp.src(paths.scss)
-    //.pipe(gulpif(!production, scsslint()))
-    .pipe(sass())
-    .pipe(gulp.dest(dirs.dist + '/css'))
-    .pipe(gulp.dest(dirs.tmp + '/css'));
-});
+gulp.task('dist-scss', ['webpack']);
 
-gulp.task('dist-static', function () {
-  return gulp.src(paths.static)
-    .pipe(gulpif(production, gulp.dest(dirs.tmp)))
-    .pipe(gulp.dest(dirs.dist));
-});
+gulp.task('dist-static', ['webpack']);
 
 gulp.task('dist-useref', ['dist-metal', 'dist-scss', 'dist-static'], function () {
   var assets = useref.assets();
