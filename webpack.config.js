@@ -27,7 +27,7 @@ var config = {
       'jquery',
       'bootstrap',
       'bootstrap/dist/css/bootstrap.min.css',
-      'holderjs',
+      'imports?this=>window!holderjs',
       'jquery-zclip/jquery.zclip.js',
       'lodash',
       'swfobject',

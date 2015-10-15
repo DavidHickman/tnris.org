@@ -44,6 +44,7 @@
     "gulpsmith": "^0.5.3",
     "image-webpack-loader": "^1.6.1",
     "imagemin": "^3.2.0",
+    "imports-loader": "^0.6.4",
     "lazypipe": "^0.2.2",
     "lodash": "^2.4.1",
     "lodash.includes": "^3.1.3",
