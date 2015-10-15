@@ -34,7 +34,8 @@ var config = {
       'twentytwenty/js/jquery.event.move.js',
       'twentytwenty/js/jquery.twentytwenty.js',
       'twentytwenty/css/twentytwenty.css',
-    ]
+    ],
+    'webfontloader': ['file?name=webfontloader.js!webfontloader']
   },
   output: {
     path: path.resolve(__dirname, '.dist'),
