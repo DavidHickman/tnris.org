@@ -2,15 +2,15 @@
 title: 2015 Lidar Data Release for Middle Brazos-Palo Pinto FEMA Project
 author: Joey Thomas, StratMap
 template: news.html
-thumbnail: static/images/updates/2015/brazos-lidar/brazos_lidar_th.jpg
-thumbalt: A thumbnail for brazos lidar, showing a 3-D Stadium
-mainimage: static/images/updates/2015/brazos-lidar/brazos_lidar_main.jpg
-mainimagealt: 3-D Lidar rendering of Texas A&M University
+thumbnail: static/images/updates/2015/middle-brazos-palo-lidar/fema_2015_60cm_middle_brazos_palo_pinto_th.jpg
+thumbalt: A thumbnail for Middle Brazos Palo Pinto Lidar
+mainimage: static/images/updates/2015/middle-brazos-palo-lidar/fema_2015_60cm_middle_brazos_palo_pinto_overview.jpg
+mainimagealt: 3-D Lidar rendering of Middle Brazos Palo Pinto
 abstract:
     A FEMA initiative to capture high-quality Lidar data for parts of Palo Pinto, Stephens, Hood, Johnson, Erath, Eastland, and Somervell.  County, Texas
 ---
 
-The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired FEMA high resolution Lidar data for 932 square miles of North Texas. Aerial collection took place during January 03,2015 and February 09, 2015 during the leaf-off season. The Risk Assessment, Mapping, and Planning Partners performed data acquisition/processing  as well as the  quality assurance and quality control (QA/QC).
+The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired FEMA high resolution Lidar data for 932 square miles of North Texas. Aerial collection took place during January 03, 2015 and February 09, 2015 during the leaf-off season. The Risk Assessment, Mapping, and Planning Partners performed data acquisition/processing  as well as the  quality assurance and quality control (QA/QC).
 
 The primary purpose of this project was to develop a consistent and accurate surface elevation dataset derived from high-accuracy Light Detection and Ranging (LiDAR) technology for the FEMA Middle Brazos-Palo Pinto, TX LiDAR Project Area.
 
@@ -47,7 +47,7 @@ View more details in the **Data Catalog Entry**:
 - File-level FGDC metadata in XML
 
 
-<img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-lidar/brazos_lidar_overview.jpg')}}">
+<img class="img-responsive" src="{{m.link('static/images/updates/2015/middle-brazos-palo-lidar/fema_2015_60cm_middle_brazos_palo_pinto_2.jpg')}}">
 
 ## Product Specification
 - Vertical accuracy (RMSEz) tested 9.6 cm in non-vegetation. 
