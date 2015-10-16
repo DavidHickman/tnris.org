@@ -36,7 +36,7 @@
 
 {% endblock topcontent %}
 
-{% block contents %} 
+{% block contents %}
 
 {% include "./partials/2015-forum/forum-nav-2015.html" %}
 
@@ -45,14 +45,14 @@
       <h1 class="training-title">{{class_title}}</h1>
       <div class="training-date">
         <strong>
-          <span class="glyphicon glyphicon-calendar"></span> 
+          <span class="glyphicon glyphicon-calendar"></span>
           {% if day == 1 %}
             Monday, October 26th
           {% endif %}
           {% if day == 2 %}
             Tuesday, October 27th
           {% endif %}
-        </strong>, 
+        </strong>,
         <span class="glyphicon glyphicon-time"></span> {{time}}
       </div>
       <div class="forum-training-location">
@@ -64,7 +64,7 @@
           <span class="glyphicon glyphicon-user"></span> {{instructor}}</div>
         <div class="col-xs-3 col-sm-3">
           Cost:<br>
-          {{cost}}</div>  
+          {{cost}}</div>
         <div class="col-xs-3 col-sm-2">
           Status:<br>
           {{status}}</div>
@@ -94,7 +94,7 @@
 <section class="forum-map">
     <div class="container">
         <div class="row">
-                {% include "./partials/2015-forum/forum-map.html" %}   
+                {% include "./partials/2015-forum/forum-map.html" %}
         </div>
     </div>
 </section>
