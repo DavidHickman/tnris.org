@@ -38,19 +38,6 @@ var config = {
     ],
     'static': staticFiles,
     'site': path.resolve(__dirname, 'static/js/site.js'),
-    'tnris': path.resolve(__dirname, 'static/js/tnris.js'),
-    'vendor': [
-      'jquery',
-      'bootstrap',
-      'bootstrap/dist/css/bootstrap.min.css',
-      'imports?this=>window!holderjs',
-      'jquery-zclip/jquery.zclip.js',
-      'lodash',
-      'swfobject',
-      'twentytwenty/js/jquery.event.move.js',
-      'twentytwenty/js/jquery.twentytwenty.js',
-      'twentytwenty/css/twentytwenty.css',
-    ],
     'webfontloader': ['file?name=webfontloader.js!webfontloader'],
     'xdomain': ['file?name=xdomain.js!xdomain'],
   },
@@ -104,8 +91,9 @@ var config = {
       new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main'])
     ),
     new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jquery"
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery',
     })
   ]
 };

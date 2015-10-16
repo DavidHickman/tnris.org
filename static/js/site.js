@@ -1,3 +1,17 @@
+require('jquery');
+require('bootstrap');
+
+require('imports?this=>window!holderjs');
+require('jquery-zclip/jquery.zclip.js');
+require('lodash');
+require('swfobject');
+require('twentytwenty/js/jquery.event.move.js');
+require('twentytwenty/js/jquery.twentytwenty.js');
+
+require('bootstrap/dist/css/bootstrap.min.css');
+require('twentytwenty/css/twentytwenty.css');
+require('../../scss/tnris.scss');
+
 (function($) {
   'use strict';
 
