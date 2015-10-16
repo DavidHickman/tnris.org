@@ -66,3 +66,5 @@ var dataDownloadCtrl = function ($scope, $state, DataService) {
     $scope.quad.selected = undefined;
   });
 };
+
+module.exports = dataDownloadCtrl;

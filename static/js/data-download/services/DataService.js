@@ -75,3 +75,5 @@ var DataService = ['$collection', '$http', 'DOWNLOAD_API_PRE', function ($collec
 
   return DataService;
 }];
+
+module.exports = DataService;

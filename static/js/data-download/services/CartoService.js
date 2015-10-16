@@ -41,3 +41,5 @@ var CartoService = ['$http', 'BrowserService', 'CARTODB_CONFIG', function ($http
 
   return CartoService;
 }];
+
+module.exports = CartoService;

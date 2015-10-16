@@ -13,3 +13,5 @@ var titleizeFilter = function () {
     });
   };
 };
+
+module.exports = titleizeFilter;

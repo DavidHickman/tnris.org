@@ -130,3 +130,5 @@ var downloadMap = function ($compile, $http, $state, PARTIALS_PATH, BING_API_KEY
     }
   };
 };
+
+module.exports = downloadMap;

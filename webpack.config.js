@@ -35,7 +35,18 @@ var config = {
       'twentytwenty/js/jquery.twentytwenty.js',
       'twentytwenty/css/twentytwenty.css',
     ],
-    'webfontloader': ['file?name=webfontloader.js!webfontloader']
+    'data-download-vendor': [
+      'angular',
+      'angular-collection',
+      'angular-sanitize',
+      'angular-ui-router',
+      'angular-ui-select',
+      'angulartics/dist/angulartics.min.js',
+      'angulartics/dist/angulartics-ga.min.js',
+      'leaflet-plugins/layer/tile/Bing.js'
+    ],
+    'webfontloader': ['file?name=webfontloader.js!webfontloader'],
+    'xdomain': ['file?name=xdomain.js!xdomain'],
   },
   output: {
     path: path.resolve(__dirname, '.dist'),
@@ -61,6 +72,10 @@ var config = {
       },
       {
         test: /\/bower_components\/.+\.svg/i,
+        loader: 'file?name=[path][name].[ext]'
+      },
+      {
+        test: /\/partials\/.+\.html/i,
         loader: 'file?name=[path][name].[ext]'
       },
       {

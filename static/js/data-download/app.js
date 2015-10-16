@@ -1,7 +1,34 @@
-require('../../../scss/data-download.scss');
-
 /*eslint "no-undef": false*/
 /*global angular*/
+
+
+// css
+require('selectize/dist/css/selectize.bootstrap3.css');
+require('angular-ui-select/dist/select.css');
+require('../../../scss/data-download.scss');
+
+// partials
+require('./partials/downloadMap.html');
+require('./partials/mapControl.html');
+require('./partials/resourceGroup.html');
+require('./partials/results.html');
+
+// jabbascripts
+var BrowserService = require('./services/BrowserService');
+var CartoService = require('./services/CartoService');
+var DataService = require('./services/DataService');
+var MapService = require('./services/MapService');
+var CountyService = require('./services/CountyService');
+var HistoricalAerialsService = require('./services/HistoricalAerialsService');
+var mapControl = require('./directives/mapControl');
+var downloadMap = require('./directives/downloadMap');
+var resourceGroup = require('./directives/resourceGroup');
+var titleizeFilter = require('./filters/titleizeFilter');
+var dataDownloadCtrl = require('./controllers/dataDownloadCtrl');
+var _counties = require('./counties');
+
+
+// angularApplicationHonorableDelegateFromMassachussettesCNCFunctionFactory
 var dataDownloadApp = function () {
   'use strict';
 
@@ -30,7 +57,7 @@ var dataDownloadApp = function () {
     .directive('downloadMap', downloadMap)
     .directive('resourceGroup',  resourceGroup)
     .filter('titleize',  titleizeFilter)
-    .constant('PARTIALS_PATH', '../js/data-download/partials/')
+    .constant('PARTIALS_PATH', '../static/js/data-download/partials/')
     .constant('COUNTIES', _counties)
     .controller('dataDownloadCtrl', dataDownloadCtrl)
     .config(function ($analyticsProvider) {
@@ -154,7 +181,6 @@ var dataDownloadApp = function () {
           }
         });
     });
-
 
   return app;
 }();

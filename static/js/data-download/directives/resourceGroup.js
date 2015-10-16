@@ -27,3 +27,5 @@ var resourceGroup = ['$stateParams', 'PARTIALS_PATH', function ($stateParams, PA
     }
   };
 }];
+
+module.exports = resourceGroup;

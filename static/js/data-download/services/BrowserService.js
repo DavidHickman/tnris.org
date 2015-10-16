@@ -17,3 +17,4 @@ var BrowserService = [function () {
   return service;
 }];
 
+module.exports = BrowserService;

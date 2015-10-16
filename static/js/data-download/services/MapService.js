@@ -102,3 +102,5 @@ var MapService = ['$collection', '$http', '$q', 'MAP_IMAGE_URL_PRE', 'CartoServi
 
   return MapService;
 }];
+
+module.exports = MapService;

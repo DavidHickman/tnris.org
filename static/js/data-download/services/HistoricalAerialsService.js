@@ -32,3 +32,5 @@ var HistoricalAerialsService = ['$http', 'HISTORICAL_AERIALS_URL', function ($ht
 
   return service;
 }];
+
+module.exports = HistoricalAerialsService;

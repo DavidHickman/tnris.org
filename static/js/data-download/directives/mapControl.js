@@ -20,3 +20,5 @@ var mapControl = function ($compile, $http, $state, PARTIALS_PATH, MapService, C
   };
 };
 
+
+module.exports = mapControl;

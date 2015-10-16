@@ -1,4 +1,4 @@
-/*global _*/
+//*global _*/
 var CountyService = ['COUNTIES', function (COUNTIES) {
   'use strict';
 
@@ -16,3 +16,5 @@ var CountyService = ['COUNTIES', function (COUNTIES) {
 
   return service;
 }];
+
+module.exports = CountyService;
