@@ -17,10 +17,26 @@ var staticFiles = glob.sync(
 
 var config = {
   entry: {
-    'static': staticFiles,
     '2015forum': path.resolve(__dirname, 'static/js/2015forum.js'),
-    'contact': path.resolve(__dirname, 'static/js/contact-forms/app.js'),
+    'contact-forms': path.resolve(__dirname, 'static/js/contact-forms/app.js'),
+    'contact-forms-vendor': [
+      'angular',
+      'angular-recaptcha',
+      'angular-animate',
+      'ng-file-upload',
+    ],
     'data-download': path.resolve(__dirname, 'static/js/data-download/app.js'),
+    'data-download-vendor': [
+      'angular',
+      'angular-collection',
+      'angular-sanitize',
+      'angular-ui-router',
+      'angular-ui-select',
+      'angulartics/dist/angulartics.min.js',
+      'angulartics/dist/angulartics-ga.min.js',
+      'leaflet-plugins/layer/tile/Bing.js'
+    ],
+    'static': staticFiles,
     'site': path.resolve(__dirname, 'static/js/site.js'),
     'tnris': path.resolve(__dirname, 'static/js/tnris.js'),
     'vendor': [
@@ -34,16 +50,6 @@ var config = {
       'twentytwenty/js/jquery.event.move.js',
       'twentytwenty/js/jquery.twentytwenty.js',
       'twentytwenty/css/twentytwenty.css',
-    ],
-    'data-download-vendor': [
-      'angular',
-      'angular-collection',
-      'angular-sanitize',
-      'angular-ui-router',
-      'angular-ui-select',
-      'angulartics/dist/angulartics.min.js',
-      'angulartics/dist/angulartics-ga.min.js',
-      'leaflet-plugins/layer/tile/Bing.js'
     ],
     'webfontloader': ['file?name=webfontloader.js!webfontloader'],
     'xdomain': ['file?name=xdomain.js!xdomain'],

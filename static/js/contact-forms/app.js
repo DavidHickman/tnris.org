@@ -1,7 +1,7 @@
 'use strict';
+
 require('../../../scss/contact.scss');
 
-/* global FileAPI:false */
 
 angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angularFileUpload'])
   .controller('FormController',
@@ -216,3 +216,9 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
       });
     }
   ]);
+
+
+// note: using the named module pattern, load directives, services etc after
+// module has been instantiated
+require('./services/UploadService');
+require('./directives/progressbar');
