@@ -11,6 +11,7 @@ button_text: Register Now
 intro: true
 abstract: Save the date for the Texas GIS Forum, the state's premier conference for the geospatial professional community.
 ---
+
 <h2>2015 FORUM AGENDA</h2>
 <p class="lead-forum">
 Note: Agenda and speakers subject to change without notice.
@@ -143,7 +144,7 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 <small>10:30 a.m. – 11:00 a.m.</small><br>
 Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System
 </h4>
-<em>Nicholas Villarreal, Graduate Intern/SMWI Project, Texas State University at San Marcos | Jennifer Jensen, Texas State University at San Marcos and Kristina Tolman, The Meadows Center for Water and the Environment</em>
+<em>Nicholas Villarreal, Graduate Intern/SMWI Project - Texas State University at San Marcos | Jennifer Jensen - Texas State University at San Marcos | Kristina Tolman - The Meadows Center for Water and the Environment</em>
 </div>
 </div>
 <div id="one-A-1030-b" class="agenda-track-item media">
@@ -155,7 +156,7 @@ Assessing The Utility Of Pixel-based And Object-based Classification Methods For
 <small>11:00 a.m. – 11:30 a.m.</small><br>
 Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System
 </h4>
-<em>Frank Obusek, Hexagon Geospatial</em>
+<em>Frank Obusek - Hexagon Geospatial</em>
 </div>
 </div>
 <div id="one-A-1030-c" class="agenda-track-item media">
@@ -167,7 +168,7 @@ Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources
 <small>11:30 a.m. – 12:00 p.m.</small><br>
 UAV Solutions Using Remote Sensing and Photogrammetry Applications
 </h4>
-<em>Joe Mostowy, Hexagon Geospatial</em>
+<em>Joe Mostowy - Hexagon Geospatial</em>
 </div>
 </div>
 </div>
@@ -184,7 +185,7 @@ UAV Solutions Using Remote Sensing and Photogrammetry Applications
 <small>10:30 a.m. – 11:00 a.m.</small><br>
 Innovative Public Health Care GIS Applications
 </h4>
-<em>Jack Hill and Amanda Scarborough, Sam Houston State University</em>
+<em>Jack Hill and Amanda Scarborough - Sam Houston State University</em>
 </div>
 </div>
 <div id="one-B-1030-b" class="agenda-track-item media">
@@ -196,7 +197,7 @@ Innovative Public Health Care GIS Applications
 <small>11:00 a.m. – 11:30 a.m.</small><br>
 Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data Points for Accurate Call Routing
 </h4>
-<em>Kim Paxton, Intrado</em>
+<em>Kim Paxton - Intrado</em>
 </div>
 </div>
 <div id="one-B-1030-c" class="agenda-track-item media">
@@ -208,7 +209,7 @@ Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data
 <small>11:30 a.m. – 12:00 p.m.</small><br>
 GIS at the Wimberley Flash Flood Disaster
 </h4>
-<em>Devon Humphrey, Waypoint Mapping</em>
+<em>Devon Humphrey - Waypoint Mapping</em>
 </div>
 </div>
 </div>
@@ -256,7 +257,7 @@ Whooping Cranes over the Laguna Madre: Shared Value, Semantic Shifts, and Collab
 <small>2:00 p.m. – 2:30 p.m.</small><br>
 Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software
 </h4>
-<em>Roger Miranda, University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology | T. Clay Templeton, PhD Student, University of Texas - School of Information</em>
+<em>Roger Miranda - University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology | T. Clay Templeton, PhD Student, University of Texas - School of Information</em>
 </div>
 </div>
 <div id="one-A-1400-b" class="agenda-track-item media">
@@ -268,7 +269,7 @@ Development of a Binational Geospatial Decision Support System to Protect Water 
 <small>2:30 p.m. – 3:00 p.m.</small><br>
 GIS Lessons: Learning to Query and Code with the CartoDB Academy
 </h4>
-<em>Andy Eschbacher, CartoDB</em>
+<em>Andy Eschbacher - CartoDB</em>
 </div>
 </div>
 <div id="one-A-1400-c" class="agenda-track-item media">
@@ -280,7 +281,7 @@ GIS Lessons: Learning to Query and Code with the CartoDB Academy
 <small>3:00 p.m. – 3:30 p.m.</small><br>
 Open Source Software Education in Texas
 </h4>
-<em>Phillip Davis, GeoAcademy and Richard Smith, Texas A &amp; M University, Corpus Christi</em>
+<em>Phillip Davis - GeoAcademy | Richard Smith - Texas A &amp; M University, Corpus Christi</em>
 </div>
 </div>
 </div>
@@ -297,7 +298,7 @@ Open Source Software Education in Texas
 <small>2:00 p.m. – 2:30 p.m.</small><br>
 Augmented Reality for Hidden Assets
 </h4>
-<em>Brady Hustad and Ken Hetlinger, Astadia</em>
+<em>Brady Hustad and Ken Hetlinger - Astadia</em>
 </div>
 </div>
 <div id="one-B-1400-b" class="agenda-track-item media">
@@ -309,7 +310,7 @@ Augmented Reality for Hidden Assets
 <small>2:30 p.m. – 3:00 p.m.</small><br>
 VOICE - Virtual Online Inspection Checking and Editing
 </h4>
-<em>Anand Iyer, Jeff Simmons, Quantum Spacial</em>
+<em>Anand Iyer and Jeff Simmons - Quantum Spacial</em>
 </div>
 </div>
 <div id="one-B-1400-c" class="agenda-track-item media">
@@ -321,7 +322,7 @@ VOICE - Virtual Online Inspection Checking and Editing
 <small>3:00 p.m. – 3:30 p.m.</small><br>
 Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways
 </h4>
-<em>Adrian Garcia and Ernie Martinez, The City of Fair Oaks Ranch, Texas</em>
+<em>Adrian Garcia and Ernie Martinez - The City of Fair Oaks Ranch, Texas</em>
 </div>
 </div>
 </div>
@@ -365,9 +366,9 @@ The History of Texas is Under Your Feet and at Your Fingertips
 <div class="media-body">
 <h4 class="media-heading">
 <small>4:30 p.m. – 5:00 p.m.</small><br>
-The Texas Water Integrated Information Delivery (WIID) 2.0
+Building the Next Generation Water Data Viewer - Water Data Interactive (WDI)
 </h4>
-<em>Ginny Vragel, Texas Water Development Board | Richard Winkelbauer</em>
+<em>Ginny Vragel and Richard Winkelbauer - Texas Water Development Board</em>
 </div>
 </div>
 <div id="one-A-1600-c" class="agenda-track-item media">
@@ -379,7 +380,7 @@ The Texas Water Integrated Information Delivery (WIID) 2.0
 <small>5:00 p.m. – 5:30 p.m.</small><br>
 Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGISServer, WMS &amp; WFS Cross-Platform Compatibility
 </h4>
-<em>Dale Emrich, Justin Scott Winn, Cole Howard, DrillingInfo</em>
+<em>Dale Emrich, Justin Scott Winn, and Cole Howard - DrillingInfo</em>
 </div>
 </div>
 </div>
@@ -399,7 +400,7 @@ State Initiatives (Cool Enough for Government Work)
 <small>4:00 p.m. – 4:30 p.m.</small><br>
 Google's Imagery Program
 </h4>
-<em>Kyle Campbell, Google | Richard Wade, TNRIS</em>
+<em>Kyle Campbell - Google | Chad Lersch - DIR | Richard Wade - TNRIS</em>
 </div>
 </div>
 <div id="one-B-1600-b" class="agenda-track-item media">
@@ -411,7 +412,7 @@ Google's Imagery Program
 <small>4:30 p.m. – 5:00 p.m.</small><br>
 TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 </h4>
-<em>Laura Wisdom, General Land Office</em>
+<em>Laura Wisdom - General Land Office</em>
 </div>
 </div>
 </div>

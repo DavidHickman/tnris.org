@@ -11,10 +11,10 @@ status_image_buyup: 20150724_buyups.jpg
 status_image_buyup_preview: 20150724_buyups_sm.jpg
 production_image: 20150911_production.jpg
 production_image_preview: 20150911_production_sm.jpg
-doqq_image: 20150911_doqq_availability.jpg
-doqq_image_preview: 20150911_doqq_availability_sm.jpg
-ccm_image: 20150911_ccm_availability.jpg
-ccm_image_preview: 20150911_ccm_availability_sm.jpg
+doqq_image: 20151013_doqq_availability.jpg
+doqq_image_preview: 20151013_doqq_availability_sm.jpg
+ccm_image: 20151013_ccm_availability.jpg
+ccm_image_preview: 20151013_ccm_availability_sm.jpg
 latest_report: Weekly_Status_Report_091115_A.pdf
 status_date: October 2nd, 2015
 updates:
@@ -28,9 +28,9 @@ progress_1: 91
 progress_2: 100
 progress_3: 91 
 progress_4: 50
-progress_5: 7
+progress_5: 22
 progress_6: 65
-progress_7: 2
+progress_7: 12
 ---
 
 ## Contributors
