@@ -1,5 +1,10 @@
 'use strict';
 
+require('angular');
+require('angular-recaptcha');
+require('angular-animate');
+require('ng-file-upload');
+
 require('../../../scss/contact.scss');
 
 

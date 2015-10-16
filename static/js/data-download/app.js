@@ -1,6 +1,15 @@
 /*eslint "no-undef": false*/
 /*global angular*/
 
+require('angular');
+require('angular-collection');
+require('angular-sanitize');
+require('angular-ui-router');
+require('angular-ui-select');
+require('angulartics/dist/angulartics.min.js');
+require('angulartics/dist/angulartics-ga.min.js');
+require('leaflet-plugins/layer/tile/Bing.js');
+
 
 // css
 require('selectize/dist/css/selectize.bootstrap3.css');
