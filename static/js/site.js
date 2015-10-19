@@ -4,9 +4,11 @@ require('bootstrap');
 require('imports?this=>window!holderjs');
 require('jquery-zclip/jquery.zclip.js');
 require('lodash');
-require('swfobject');
 require('twentytwenty/js/jquery.event.move.js');
 require('twentytwenty/js/jquery.twentytwenty.js');
+
+var swfobject = require('exports?swfobject!swfobject');
+require('jquery-zclip/ZeroClipboard.swf');
 
 require('bootstrap/dist/css/bootstrap.min.css');
 require('twentytwenty/css/twentytwenty.css');

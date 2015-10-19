@@ -60,6 +60,10 @@ var config = {
         loader: 'file',
       },
       {
+        test: /\.swf$/i,
+        loader: 'file?name=[path][name].[ext]',
+      },
+      {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract('style', 'css')
       },
@@ -78,6 +82,7 @@ var config = {
         $: 'jquery',
         jQuery: 'jquery',
         'window.jQuery': 'jquery',
+        'swfobject': 'swfobject',
     })
   ]
 };
