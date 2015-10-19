@@ -78,11 +78,14 @@
     </div>
     <div class="col-sm-4">
       {% block sidebarLeft %}
-         {% if status == "CLOSED" %}
+       <!--   {% if status == "CLOSED" %}
          <div class="alert alert-danger" role="alert"><strong>Note:</strong> All available spots in this course have been filled and registration is closed.</div>
         {% else %}
         <a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1725172" class="btn btn-danger btn-lg btn-block">Register For Forum Training</a>
-        {% endif %}
+        {% endif %} -->
+
+
+          <p style="font-size: 18px;"><em><strong>Online Registration is now closed.</strong> On-site registration will be available at the Conference starting Wednesday morning.</em></p>
 
       {% endblock sidebarLeft %}
     </div>
