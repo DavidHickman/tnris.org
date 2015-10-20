@@ -33,6 +33,7 @@ var vinylPaths = require('vinyl-paths');
 var winston = require('winston');
 var webserver = require('gulp-webserver');
 var webpack = require('webpack');
+var WebpackDevServer = require("webpack-dev-server");
 
 var autodate = require('./metalsmith-autodate');
 var based = require('./metalsmith-based');
@@ -44,6 +45,7 @@ var metadata = require('metalsmith-metadata');
 var webpackConfig = require('./webpack.config');
 
 var production = false;
+var devServerPort = 8000;
 
 var dirs = {
   dist: './.dist',
@@ -238,23 +240,16 @@ var errors = function () {
 }();
 
 
-gulp.task('default', ['dist-dev', 'watch', 'webserver']);
+gulp.task('default', ['watch', 'webserver']);
 gulp.task('dev-prod', ['dist', 'watch', 'webserver']);
 
 gulp.task('watch', function () {
   gulp.watch(paths.content, ['dist-metal']);
-  gulp.watch(paths.scss, ['dist-scss']);
   gulp.watch(paths.templates, ['dist-metal']);
-  gulp.watch(paths.javascript, ['dist-static']);
   gulp.watch(paths.config, ['dist-config']);
 });
 
-gulp.task('webserver', ['dist-dev'],  function() {
-  gulp.src(dirs.dist)
-    .pipe(webserver({
-      livereload: true
-    }));
-});
+gulp.task('webserver', ['webpack-dev-server']);
 
 gulp.task('dist', ['dist-production']);
 gulp.task('dist-dev', ['dist-config', 'dist-fonts', 'dist-metal', 'dist-scss', 'dist-static', 'dist-sitemap']);
@@ -442,7 +437,7 @@ gulp.task('dist-metal', function () {
           done();
         })
       )
-    .pipe(gulpif(production, gulp.dest(dirs.tmp), gulp.dest(dirs.dist)));
+    .pipe(gulp.dest(dirs.tmp));
 });
 
 gulp.task('dist-scss', ['webpack']);
@@ -501,3 +496,31 @@ gulp.task('webpack', function(callback) {
   });
   callback();
 });
+
+
+gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
+	var myConfig = Object.create(webpackConfig);
+	myConfig.devtool = "eval";
+	myConfig.debug = true;
+  myConfig.unsafeCache = ['.tmp'];
+
+  Object.keys(myConfig.entry).forEach(function (key) {
+    myConfig.entry[key].unshift('webpack-dev-server/client?http://localhost:8080');
+  });
+
+	// Start a webpack-dev-server
+	new WebpackDevServer(webpack(myConfig), {
+		contentBase: myConfig.output.path,
+    watchOptions: {
+      aggregateTimeout: 300,
+      poll: 1000
+    },
+    stats: {
+			colors: true
+		}
+	}).listen(devServerPort, "localhost", function(err) {
+		if(err) throw new gutil.PluginError("webpack-dev-server", err);
+		winston.log("info", "webpack dev server started: http://localhost:8080/webpack-dev-server/index.html");
+	});
+});
+

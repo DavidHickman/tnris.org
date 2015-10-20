@@ -15,13 +15,20 @@ var staticFiles = glob.sync(
   return path.slice(-1) !== '/' && !includes(path, '/js/');
 });
 
+var processedHTML = glob.sync(
+  '.tmp/**/*.html', {
+    mark: true
+  }
+);
+
 var config = {
   entry: {
-    '2015forum': path.resolve(__dirname, 'static/js/2015forum.js'),
-    'contact-forms': path.resolve(__dirname, 'static/js/contact-forms/app.js'),
-    'data-download': path.resolve(__dirname, 'static/js/data-download/app.js'),
+    '2015forum': [path.resolve(__dirname, 'static/js/2015forum.js')],
+    'contact-forms': [path.resolve(__dirname, 'static/js/contact-forms/app.js')],
+    'data-download': [path.resolve(__dirname, 'static/js/data-download/app.js')],
+    'processed': processedHTML,
     'static': staticFiles,
-    'site': path.resolve(__dirname, 'static/js/site.js'),
+    'site': [path.resolve(__dirname, 'static/js/site.js')],
     'webfontloader': ['file?name=webfontloader.js!webfontloader'],
     'xdomain': ['file?name=xdomain.js!xdomain'],
   },
@@ -32,9 +39,11 @@ var config = {
   resolve: {
     root: [
       path.join(__dirname, 'bower_components'),
+      path.join(__dirname, '.tmp'),
     ],
     alias: {
-      'static': './static'
+      'static': './static',
+      '.tmp': './.tmp',
     }
   },
   module: {
@@ -50,6 +59,10 @@ var config = {
       {
         test: /\/bower_components\/.+\.svg/i,
         loader: 'file?name=[path][name].[ext]'
+      },
+      {
+        test: /\/.tmp\/.+\.html/i,
+        loader: 'file?context=.tmp/&name=[path][name].[ext]',
       },
       {
         test: /\/partials\/.+\.html/i,
