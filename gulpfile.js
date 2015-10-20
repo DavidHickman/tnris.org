@@ -23,9 +23,7 @@ var path = require('path');
 var permalinks = require('metalsmith-permalinks');
 var rename = require('gulp-rename');
 var replace = require('metalsmith-replace');
-var sass = require('gulp-ruby-sass');
 var scapegoat = require('scapegoat');
-var scsslint = require('gulp-scss-lint');
 var sitemap = require('metalsmith-sitemap');
 var swig = require('swig');
 var templates = require('metalsmith-templates');
@@ -491,7 +489,7 @@ gulp.task('dist-config', function () {
 gulp.task('clean', ['clean-dist']);
 
 gulp.task('clean-dist', function() {
-  return gulp.src([dirs.dist, dirs.tmp, '.sass-cache/'])
+  return gulp.src([dirs.dist, dirs.tmp])
     .pipe(vinylPaths(del));
 });
 
