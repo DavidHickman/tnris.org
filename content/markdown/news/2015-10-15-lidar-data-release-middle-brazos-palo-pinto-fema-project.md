@@ -12,7 +12,7 @@ abstract:
 
 The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired FEMA high resolution Lidar data for 932 square miles of North Texas. Aerial collection took place during January 03, 2015 and February 09, 2015 during the leaf-off season. The Risk Assessment, Mapping, and Planning Partners performed data acquisition/processing  as well as the  quality assurance and quality control (QA/QC).
 
-The primary purpose of this project was to develop a consistent and accurate surface elevation dataset derived from high-accuracy Light Detection and Ranging (LiDAR) technology for the FEMA Middle Brazos-Palo Pinto, TX LiDAR Project Area.
+The primary purpose of this project was to develop a consistent and accurate surface elevation dataset derived from high-accuracy Light Detection and Ranging (Lidar) technology for the FEMA Middle Brazos-Palo Pinto, TX Lidar Project Area.
 
 <img class="img-responsive" src=>
 
