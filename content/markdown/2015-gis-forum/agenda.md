@@ -307,7 +307,7 @@ Augmented Reality for Hidden Assets
 <small>2:30 p.m. – 3:00 p.m.</small><br>
 VOICE - Virtual Online Inspection Checking and Editing
 </h4>
-<em>Anand Iyer and Jeff Simmons - Quantum Spacial</em>
+<em>Rodney Cope and Bill Walker - Quantum Spatial</em>
 </div>
 </div>
 <div id="one-B-1400-c" class="agenda-track-item media">
