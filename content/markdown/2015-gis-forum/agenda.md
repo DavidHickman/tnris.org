@@ -143,12 +143,9 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System
 </h4>
 <em>Nicholas Villarreal, Graduate Intern/SMWI Project - Texas State University at San Marcos | Jennifer Jensen - Texas State University at San Marcos | Kristina Tolman - The Meadows Center for Water and the Environment</em>
-<<<<<<< HEAD
 <p><a href="#" data-toggle="modal" data-target=".modal-01"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a>
 </p>
 </div>
-=======
->>>>>>> master
 </div>
 
 <div class="modal fade modal-01" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -592,7 +589,7 @@ VOICE - Virtual Online Inspection Checking and Editing
 Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways
 </h4>
 <em>Adrian Garcia and Ernie Martinez - The City of Fair Oaks Ranch, Texas</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-12"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-12"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
 
@@ -601,10 +598,14 @@ Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways
     <div class="modal-content">
      <div class="modal-body">
      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4></h4>
-        <p></p>
-
-<p><strong>Presenter Bio:</strong><br><em></em></p>
+        <h4>Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways</h4>
+        <p>With an approximate population of 6,500 people and 50 miles of roadway, the City of Fair Oaks Ranch is a rapidly growing community situated in the Texas Hill Country. The City has been running a Roadway Maintenance and Repair Program since 1998. All of the City roads are treated with a Chip Seal procedure on an eight (8) year cycle making proper planning and record keeping critical. This program was largely operated from a spreadsheet and blank maps with highlighted roads to communicate project areas to contractors.</p>
+        <p>In 2015, the City incorporated AutoCAD and GIS in order to accurately convey this year's project area to the Chip Seal contractor. Furthermore, a program to catalog manhole covers in the project area was implemented to protect them from an inadvertent seal. A Trimble Geolocation Device was utilized to collect data on each manhole cover to be uploaded into the City's GIS system. With the utilization of these technologies, a more accurate estimation of material requirements was completed, resulting in a savings of over $16,000 for the City. This work flow process will continually be implemented for many years of Roadway Maintenance to come.</p>
+<hr>
+<p><strong>Presenter Bios:</strong><br><em>Adrian Garcia</em> has been an employee at the City of Fair Oaks Ranch since July 2014. He holds the inaugural office of Engineer in Training for the City. He received his Bachelor of Science in Mechanical Engineering at the University of Texas - Pan American in Edinburg, TX. He strives to introduce new technologies in the City to protect the quality of life for the residents.</p> 
+<hr>
+<p><em>Ernie Martinez</em> has been an employee at the City of Fair Oaks Ranch since December 2008. He began his career at the City as a Water/Wastewater operator. He began immersing himself in GIS in 2013 with zero background experience. He continues to raise GIS awareness within the City which is now a far cry from the program’s fledgling beginnings. He is interested in incorporating new technologies for innovative data acquisition and analysis for efficient work flow and decision making within the City.
+</p>
 
 </div>
 
@@ -648,11 +649,28 @@ Online Map Applications (You Can Do THAT On the Web?)
 The History of Texas is Under Your Feet and at Your Fingertips
 </h4>
 <em>Daniel K. Pearson, US Geological Survey</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-13"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<!-- <p><a href="#" data-toggle="modal" data-target=".modal-13"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p> -->
 </div>
 </div>
 
+<div class="modal fade modal-13" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4></h4>
+        <p></p>
 
+<p><strong>Presenter Bio:</strong><br><em></em></p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="one-A-1600-b" class="agenda-track-item media">
 <div class="media-left">
@@ -668,7 +686,29 @@ Building the Next Generation Water Data Viewer - Water Data Interactive (WDI)
 </div>
 </div>
 
+<div class="modal fade modal-14" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Building the Next Generation Water Data Viewer - Water Data Interactive (WDI)</h4>
+        <p>Our new application hosted on Amazon EC2 makes use of ArcGIS server to surface restful endpoints using query layers that point to data hosted on SQL Server 2012 in spatially enabled views.  The new user interface takes advantage of Bootstrap to provide a user interface that is responsively designed and works on devices of any form factor.
+        <p>Great care was taken to build an application that is light on the wire. This has been achieved by optimizing the data that is downloaded within the application and also optimizing our code using ESRI’s Javascript Web  Optimizer.   The presentation will highlight how we addressed the pain points we experienced in our development of this application.</p>
 
+<p><strong>Presenter Bios:</strong><br>Born in New York City, <em>Richard Winkelbauer</em> has a masters degree in Geographic Information systems. He spent the majority of his career as a GIS Analyst before transitioning to software development and was a key developer on LCRA’s Hydromet Data website.
+He enjoys running, mountain biking, skiing and has traveled extensively including having been to all 50 states.</p>
+<hr>
+<p><em>Ginny Vragel</em> has a bachelors degree in Computer Science and has worked at State Agencies for almost 25 years with the majority of her time spent in the GIS field. She is currently the Application Services Manager in the IT Division of the Texas Water Development Board and was the primary technical support for the old ArcIMS WIID site.
+</p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="one-A-1600-c" class="agenda-track-item media">
 <div class="media-left">
@@ -684,7 +724,29 @@ Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGISServer
 </div>
 </div>
 
+<div class="modal fade modal-15" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGIS Server, WMS &apm; WFS Cross-Platform Compatibility</h4>
+        <p>The technology group at Drillinginfo, Inc. which includes GIS, Data Dev and IT/CM, has undertaken an effort to provide its customers with a rich set of map and geoprocessing services.  The big opportunity and also the great challenge lies in supporting a variety of O&G industry-standard applications with varying spatial service connection capabilities. This effort dictates that Drillinginfo support both ESRI proprietary protocols as well as Open Source (OGC) protocols within this diverse set of applications.</em>
+        <p>Additionally, each application has its own set of challenges with regard to various supported modes of authentication. This presentation will dive into some of the technical hurdles and architecture decisions made to support such a diverse offering. Additionally, this presentation will speak to how the company has partnered with application vendors and clients to achieve successful technical integration. As the GIS industry increasingly ventures into the new managed API economy, this talk will provide valuable insight about hosting spatial web services for integration into non-ESRI-based applications.</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br>
+<em>Dale Emrich</em> currently serves as the Director of Products for Geospatial &amp; Web Services. In this role, he is responsible for the DI GeoData Services Product - WMS/WFS/ESRI Modules as well as Drillinginfo's Managed APIs and 3rd Party &amp; Customer Direct Integration. He obtained his degree in Business Administration - Petroleum Land Management from the University of Texas at Austin in 1992.</p>
+<hr>
+<p><em>Justin Scott Winn</em> is the GIS Specialist at Drillinginfo. He graduated from Texas A&amp;M University and began his GIS/Cartography career at A&amp;M’s Forest Science department, where he helped develop a GIS for reservoirs under the Fort Worth jurisdiction of the U.S. Army Corps of Engineers. At Drillinginfo, he has researched leasing and unitization agreements in courthouses and at the RRC, developed models for in-house and custom client applications and overseen GIS customer service requests. He manages client connections and data interoperability for our Geodata Web Services.</p>
+<br>
+<p><em>Cole Howard</em> is the GIS Systems Analyst at DrillingInfo.  He graduated from Lamar University with a B.S. in Political Science and earned his GIS Certification from Austin Community College. His experience with ArcGIS &amp; Open-Source software, programming languages, and relational database management systems is used to align and integrate DrillingInfo’s GIS department with our Information Technology and Configuration Management teams. He is responsible for the architecture and administration of our GIS Systems and Geospatial Web Services.</p>
+</div>
 
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 </div>
 </div>
@@ -709,7 +771,24 @@ Google's Imagery Program
 </div>
 </div>
 
+<div class="modal fade modal-16" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Google's Imagery Program</h4>
+        <p>Attendee's will learn about Google's Ortho Imagery program, proposed refresh schedules, technologies used to deliver and future enhancements.  In addition to this we will cover SkyBox and the exciting capabilities it will bring to our customers.</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br><em>Kyle Campbell</em> has spent the last 20 years as a Technology Consultant specializing in Mobility, Wireless, Security and Geospatial Solutions.  During is career he has held positions at AT&T, Motorola, Internet Security Systems and Google.  Kyle has spent most of his career has been interfacing with State and Local customers.  Currently Kyle is the US Sales Lead for Google's Imagery Products for the US Public Sector.</p>
 
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="one-B-1600-b" class="agenda-track-item media">
 <div class="media-left">
@@ -721,10 +800,28 @@ Google's Imagery Program
 TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 </h4>
 <em>Laura Wisdom - General Land Office</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-16"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<!-- <p><a href="#" data-toggle="modal" data-target=".modal-17"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p> -->
 </div>
 </div>
 
+<div class="modal fade modal-17" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4></h4>
+        <p></p>
+
+<p><strong>Presenter Bio:</strong><br><em></em></p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 </div>
 </div>
@@ -807,6 +904,7 @@ TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 <div class="col-sm-9 col-md-5">
 <h3><small>Session A (Big Tex)</small><br>Lidar (Get to the Points)</h3>
 <div class="agenda-track">
+
 <div id="two-A-1030-a" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -817,11 +915,32 @@ TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection
 </h4>
 <em>Robert Dzur - Bohannan Huston, Inc | Sally Abbe - City of Lubbock</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-17"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-18"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
 
+<div class="modal fade modal-18" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection</h4>
+        <p>Large scale mapping data across the City of Lubbock are enabling rapid semi-automated analysis and determination of likely areas of change in urban development for the purposes of quantifying and updating building footprints.</p>
+        <p>This paper/presentation outlines the City-wide approach used to generate change detection features for targeted feature data update of the City’s vector building feature coverage.  In this change detection application, vast amounts of point cloud data were ingested, created, and processed to apply change detection techniques.  Change detection analysis relied on modelling differences in elevation between existing LiDAR (2010) and new aerial imagery (2015).</p>
+        <p>The project demonstrates the utility of leveraging existing data in combination with new and diverse image-derived terrain sources such as extremely dense point clouds generated from aerial imagery.</p>
+<hr>
+<p><strong>Presenter Bios:</strong><br><em>Robert Dzur</em> joined Bohannan Huston, Inc. (BHI) in 2004 and serves the company as a project manager responsible for the execution of a wide variety of GIS, remote sensing, and photogrammetric mapping projects.  Prior to coming to Albuquerque, NM, Mr. Dzur spent nearly 4 years working in Bolivia as an international technical consultant managing cadastral mapping development projects.  Mr. Dzur has a Bachelor's degree from the University of Arkansas where he completed a double major in Geography and Spanish. He also completed his Master's degree in Geography at the University of Arkansas and holds a current GISP certification.</p>
+<hr>  
+<p><em>Sally Abbe</em> is the Director of the GIS and Data Services Department of the City of Lubbock, serving in this position since 2011. Her experience with the City of Lubbock also spans more than 30 years in both GIS and Planning-working in the fields of land use, urban design and historic preservation.  She also currently serves as a situation unit leader and GIS support liaison for emergency response on the South Plains Incident Management Team.  Ms. Abbe has written extensively on the topic of historic preservation, preparing research for numerous nominations to the National Park Service National Register of Historic Places.  She earned a Bachelor of Arts degree in History and a Master of Arts degree in interdisciplinary studies (historic preservation emphasis) from Texas Tech University.</p>
 
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="two-A-1030-b" class="agenda-track-item media">
 <div class="media-left">
@@ -833,10 +952,29 @@ Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in 
 Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User
 </h4>
 <em>Harold Rempel - ESP Associates</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-18"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-19"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
 
+
+<div class="modal fade modal-19" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User</h4>
+        <p>Mr. Rempel began his mapping career in the Marine Corps as an intelligence analyst working with multiple, remote sensing technologies and developing data fusion products to provide critical and effective intelligence. After joining the private industry in 1997, Mr. Rempel became experienced in all phases of photogrammetric mapping, to include: aerial data acquisition, control surveys, aerial triangulation, stereo map compilation, orthophotography, IFSAR, and LiDAR acquisition and processing.  He has extensive project management and production experience with </p>
+        <hr>
+        <p><strong>Presenter Bios:</strong><br><em>Harold Rempel</em> began his mapping career in the Marine Corps as an intelligence analyst working with multiple, remote sensing technologies and developing data fusion products to provide critical and effective intelligence. After joining the private industry in 1997, Mr. Rempel became experienced in all phases of photogrammetric mapping, to include: aerial data acquisition, control surveys, aerial triangulation, stereo map compilation, orthophotography, IFSAR, and LiDAR acquisition and processing.  He has extensive project management and production experience with various state, federal, and local government projects as well as multi-year statewide and federal agency programs.</p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="two-A-1030-c" class="agenda-track-item media">
 <div class="media-left">
@@ -848,11 +986,30 @@ Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to 
 Innovations - Changing the way Lidar is Used
 </h4>
 <em>Jamie Young - Merrick &amp; Company</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-19"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-20"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
 
+<div class="modal fade modal-20" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Innovations - Changing the way Lidar is Used</h4>
+        
+        <p>Lidar innovation continues even with twenty years of proven results and wide acceptance. Recently, the introduction of Photon lidar including single photon lidar (SPL) and Geiger Mode lidar, multi-spectral lidar sensors and advances in coupled sensor continue to provide an innovative evolution to this ever changing technology. The presentation will discuss the new introduced technologies, the uses of the changing data types as it relates to innovations in software.</p> 
+        <p>The coupling of lidar sensors with other remote sensor provide additional benefits to consumers of lidar data and these sensors and the results the data will be presented. lastly,Methods of calibration, processing and extraction will also be discussed as they relate to the end users will be presented.</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br><em>James Wilder Young C.P.(Jamie)</em> is currently a Sensor Geomatics Technologist for Merrick &amp; Co. located in Greenwood Village, Colorado. His experience includes all aspects of LiDAR including sensor development, applications development, data acquisition, data processing and project management.</p>
 
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 </div>
 </div>
@@ -870,12 +1027,32 @@ Innovations - Changing the way Lidar is Used
 Regional Online Geospatial Services for the Houston-Galveston Region
 </h4>
 <em>Brooks Andrews - Houston-Galveston Area Council of Governments</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-20"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
-<em>Brooks Andrews, Houston-Galveston Area Council of Governments</em>
->>>>>>> master
+<!-- <p><a href="#" data-toggle="modal" data-target=".modal-21"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p> -->
 </div>
 </div>
 
+
+<div class="modal fade modal-21" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Regional Online Geospatial Services for the Houston-Galveston Region</h4>
+        <p>With the emergence and rapidly evolving nature of easily accessible web-based GIS technology, there is world-wide phenomena of cartographic "commoning" occurring. In our information-driven world, the traditional notion of "the commons" as a public spaces and shared resources has evolved in many ways away from the analog world.</p> 
+<p>Maps, and emerging technologies that put maps in the hands of people, has become the bridge between physical space and technology-driven discourse. Amateur map makers and professionals in non-GIS related fields are breaking the boundaries of conventional GIS practice and creating a movement of people-generated information visualization and data sharing with the capacity to move beyond conventional understandings of geographic information systems while creating large resources of crowd-generated knowledge. </p>
+<p>While some may argue that this notion of a popular mapping culture in some ways dilutes the integrity of geographic science, in reality, fully featured GIS platforms such as CartoDB allow for the once fortified barriers of communication between the science community and people to be softened in ways that rethink how all aspects of data and information science are projected on the mainstream stage. The new geographic paradigm that emerges from this discourse blurs the boundaries between siloed professions such as science and mainstream data uses and communication. Moving forward, we must illuminate the possibilities of a vibrant information commons built on access to maps and information.</p>
+</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br><em>Santiago Giraldo Anduaga</em> is a Map Scientist for web-based GIS platform CartoDB. With professional training in urban design, information science, and environmental science, Santiago's notable achievements have included research and design projects for the Environmental Protection Agency, The Museum of Modern Art's Uneven Growth: Tactical Urbanism for Rapidly Expanding mega Cities Exhibit, and international intensive workshops in partnership with Docile Spaces Collective in Naples and Stalker Labs in Rome among many others. Published and recognized internationally for his investigations of public spaces and design, Santiago has sought to be a leader in working within and co-creating new ways of using and understanding geographic information systems for a broad range of professions and project applications.</p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="two-B-1030-b" class="agenda-track-item media">
 <div class="media-left">
@@ -887,11 +1064,28 @@ Regional Online Geospatial Services for the Houston-Galveston Region
 The Information Commons: Cloud-Based GIS
 </h4>
 <em> Santiago Giraldo Anduaga, CartoDB</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-21"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-22"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
 
+<div class="modal fade modal-22" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4></h4>
+        <p></p>
 
+<p><strong>Presenter Bio:</strong><br><em></em></p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="two-B-1030-c" class="agenda-track-item media">
 <div class="media-left">
@@ -904,8 +1098,28 @@ Modern Web Mapping for Local Governments Delivers Insights into Performance Metr
 </h4>
 <em>Kate Hickey - AppGeo</em>
 
-<p><a href="#" data-toggle="modal" data-target=".modal-22"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-23"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
+</div>
+
+<div class="modal fade modal-23" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Modern Web Mapping for Local Governments Delivers Insights into Performance Metrics, Patterns of Change &amp; Distribution of Resources</h4>
+        <p>Local governments are faced with increasing citizen demands for transparency and accountability. The challenge lies in effectively distributing and presenting diverse information on the services, resources, events and decisions that are shaping the local landscape. While publicly accessible, such information is often scattered across multiple sources and disconnected web pages.</p>
+        <p>This presentation will demonstrate how mapping applications can coalesce these disparate sources, providing new views and insights into performance metrics, patterns of change and distribution of resources. The results are higher engagement of residents and visitors, promotion and greater efficiency of government services, and resources for business investment and development decisions.</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br><em>Kate Hickey</em> a Vice President and the Director of Local Government Services at Applied Geographics (www.appgeo.com) where she has devoted more than a decade to managing GIS planning and application development projects and to expanding the uses of geospatial technology in county and municipal government.</p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
 </div>
 
 
@@ -957,11 +1171,30 @@ Nikki Golding – Solution Lead, State Government
 3D Modeling of the City of Temple Landfill
 </h4>
 <em>Leah Fasick - City of Temple</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-23"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-24"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
 
+<div class="modal fade modal-24" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4></h4>
+        <p>The primary program I used to create the 3D Model was ESRI's ArcScene 10.0. The Engineering Department at Waste Management provided a number of CAD files showing the topography of the landfill's liner (the bottom), the current level (as of Feb 2014), and the finished grade once the landfill is full. I exported the data into a file geodatabase so I could edit the shapes. Because the CAD files included the topography for the entire property, I had to clip out the areas not relevant to the landfill cell boundaries itself. I then converted each feature into a TIN and using the Delineate TIN Data Area tool, I was able to remove areas along the perimeter with edge lengths that were too long along the outside edges of the landfill area.</p> 
+<p>Using the Polygon Volume tool within the 3D Analyst Tool Set, I was able to calculate the volume each feature was in order to determine total capacity. By adding together the liner and current level volumes and the liner and finished grade volumes and then subtracting the two totals, I was able to determine the how full the landfill was as of Feb 2014 by percentage. As the years move forward, I can use this process to calculate how much per year the landfill grows and potentially how many years it will take to completely fill it.
+</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br><em>Kate Hickey</em> is originally from Norwich, Vermont and came to Texas to attend Texas A&amp;M University in College Station. She graduated from A&amp;M in May of 2013 with a BS degree in Geography, with a concentration in GIS. She began working for the City of Temple shortly after graduation and has been with the City for just over two years. She works in the Mapping Dept. in Public Works assisting all other departments with their mapping needs.</p>
 
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="two-A-1400-b" class="agenda-track-item media">
 <div class="media-left">
@@ -973,11 +1206,33 @@ Nikki Golding – Solution Lead, State Government
 Examination of the spatial relationship between development and aquatic nutrient loading in the Galveston Bay Estuary
 </h4>
 <em>Helen Walters and Samuel Brody - Texas A&amp;M University, Galveston Campus</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-24"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-25"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
 
+<div class="modal fade modal-25" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4></h4>
+        <p>Houston-Galveston is one of the fastest growing regions in the United States. With this rapid growth comes increased development and associated impervious surfaces. The Texas Coast, and particularly Galveston Bay, is important economically due to its fisheries and petrochemical industry, as well as for its leisure and tourism industry. Given that the Galveston Bay Estuary (as defined by the National Estuary Program) contains an ecologically unique and diverse ecosystem, and that land use is directly correlated with water quality, understanding how this increase in impervious surface area affects water quality is crucial.</p>    
+<p>This study examines the degree to which specific development patterns impact water quality within rivers in the Galveston Bay Estuary. The focus will be on several development metrics such as patch size, density, and proximity to a river evaluated through an analysis using FRAGSTATS and ArcGIS.</p>  
+<p>Using GIS and landscape metrics to evaluate the spatial extent of development patterns across the Houston-Galveston region on a watershed level is a relatively new approach and is important for understanding the implications of certain development patterns. The results of this study will provide planners and stakeholders with a better understanding of the effects of development on water quality.
+</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br><em>Helen Walters</em> - Graduate Merit Fellow; Center for Texas Beaches and Shores, Texas A&amp;M University Galveston, Marine Sciences. Research focus: GIS and spatial analysis.</p>
+<hr>
+<p><em>Dr. Samuel Brody</em> - Professor; Director for Center for Texas Beaches and Shores, Texas A&amp;M University Galveston, Marine Sciences. Research focus: hazard mitigation and spatial statistics.</p>
 
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="two-A-1400-c" class="agenda-track-item media">
 <div class="media-left">
@@ -989,11 +1244,32 @@ Examination of the spatial relationship between development and aquatic nutrient
 The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast
 </h4>
 <em>Jeff Scarborough and Chris Sallese - Dannenbaum Engineering Corporation</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-25"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-27"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
 
+<div class="modal fade modal-27" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast</h4>
+        <p>The Texas General Land Office (GLO) administers the federal Community Development Block Grant Disaster Recovery Program for the State of Texas. In 2013, the GLO entered into an agreement with the Gulf Coast Community Preservation and Recovery District (GCCPRD), who hired Dannenbaum Engineering Corporation to lead a multidiscipline team to conduct a Storm Surge Suppression Study, which includes a technical, scientific based effort to investigate opportunities to alleviate the vulnerability of the upper Texas coast to storm surge and flooding in Brazoria, Harris, Galveston, Chambers, Jefferson and Orange counties.</p> 
+<p>This study provides the GCCPRD opportunity to work collaboratively with federal, state, local, and public and private institutions to develop a plan that meets the needs of the region and the nation. The team utilizes geospatial technologies to model and analyze protective alternatives and the results are presented to the public through an HTML5 and JavaScript application utilizing a GitHub project called “CMV – The Configurable Map Viewer”. The CMV is built on an Esri ArcGIS Server and SQL Server platform utilizing Esri Basemaps and was chosen as the map viewer template due to its modular design that allows easy custom tailoring to meet the specific needs of the study.</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br><em>Jeff Scarborough</em> is Dannenbaum Engineering Corporation's Special Projects Division Manager. The Special Projects Division is responsible for the firm's Coastal, Federal and Applied Technology practices. Mr. Scarborough has over 19 years of industry experience and has led many federal, state and local government programs and projects throughout the region.</p>
+<hr>
+<p><em>Chris Sallese, PMP</em> is Dannenbaum Engineering Corporation's Coastal Program Manager responsible for overseeing the GCCPRD Storm Surge Suppression Study. Prior to joining Dannenbaum, Mr. Sallese served 27 years in the U.S. Army retiring with the rank of Colonel and final duty assignment as District Commander of the U.S. Army Corps of Engineers, Galveston District.
+</p>
 
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 </div>
 </div>
@@ -1011,10 +1287,32 @@ The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast
 Connecting the Dots Between Data and Problem Solving
 </h4>
 <em>Leah Casey - Texas Department of Health and Human Services | Jeff Jordan -  Institute for Demographic Studies and Socioeconomic Research</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-26"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-28"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
 
+<div class="modal fade modal-28" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Connecting the Dots Between Data and Problem Solving</h4>
+        <p>Our agency is tasked with reviewing for approval or denial, nursing facility waiver applications.  The challenge in reviewing data for decision making for nursing facility waiver applications is that the information submitted can be from any source and may not be verifiable and can take several months for a proper review.
+        Integrating demographic information, agency information, accurate proximity relationships using geographic information systems resulted in a better tool.</p>
+          <p>Decision making was made faster and clearer by integrating relevant data in one place. As a result, there is more clarity and evidence to back up the decision that is made. This tool allows the agency to identify areas of growth and population density in respect to needed nursing facilities</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br><em>Leah Casey</em> has served as the Research Analyst for Licensing and Credentialing under Regulatory Services at the Department of Aging and Disability Services since December 2010. In that role she has helped her division transform their operations through business process efficiencies and the introduction of new technologies. Ms. Casey received a bachelor’s degree in Collaborative Health Human Services and Public Policy with concentration in Public Health and Social Work from California State University Monterey Bay and is a certified Project Management Professional.<p>
+  <hr>
+  <p><em>Dr. Jeff Jordan</em> is a Senior Research Associate at the Institute for Demographic and Socioeconomic Research.  He has been involved in numerous research projects that investigate the relationship between demography and various other socioeconomic issues in Texas including transportation, energy, education, criminal justice, and social services.  Dr. Jordan received a Ph.D. in cognitive psychology in 1997 from Texas A&amp;M University.</p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="two-B-1400-b" class="agenda-track-item media">
 <div class="media-left">
@@ -1026,11 +1324,30 @@ Connecting the Dots Between Data and Problem Solving
 Managing Special Events in Austin, TX with ArcGIS Online
 </h4>
 <em>Jacquie Hrncir and John Clary - City of Austin</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-27"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-29"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
 
+<div class="modal fade modal-29" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>Managing Special Events in Austin, TX with ArcGIS Online</h4>
+        <p>With large events like SXSW and the US Grand Prix, City officials need a way to track activities around the city and communicate across departments.  Esri’s Collector App and Operations Dashboard gives them the tools to visualize where activities occur, dispatch personnel, and view statistics in real time.  The findings will help plan future events, mitigate issues, and run analysis.  This session can help you learn how to use these apps to manage your field collection needs.</p>
 
+<p><strong>Presenter Bio:</strong><br><em>Jacquie Hrncir</em> works for the Austin Transportation Department and the Austin Center for Events where she focuses on increasing efficiency and assisting in cross-department coordination.</p>
+<hr>
+<p><em>John Clary</em> is a geospatial analyst with the Austin Code Department. He specializes in web mapping, data visualization, and process automation.</p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 <div id="two-B-1400-c" class="agenda-track-item media">
 <div class="media-left">
@@ -1042,10 +1359,34 @@ Managing Special Events in Austin, TX with ArcGIS Online
 3 Words to Address the World
 </h4>
 <em>Tim Williams - What3Words</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-28"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-30"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
 
+<div class="modal fade modal-30" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+     <div class="modal-body">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h4>3 Words to Address the World</h4>
+        <p>75% of countries in the world have inadequate or no address system at all. In the remaining 25%, national addressing systems are plagued with problems that cause widespread inefficiency.</p>
+<p>Poor addressing is costly &amp; annoying in some developed countries, and around the world it hampers the growth and development of nations, ultimately costing lives.</p>
+<p>The geospatial industry is worth an estimated $150bn annually yet there is no precise yet simple global address or location reference system.
+The only real option is complicated latitude and longitude coordinate pairs, which are great for machines but ineffective for everyday people.</p>
+<p>what3words have divided the world into 57 trillion 3mx3m squares and given each one a simple and easy to remember 3 word address. Find out the story behind the idea, how it works &amp; who is using it.</p>
+<p>3 word addresses can help delivery, asset management, lone workers, aid delivery and anyone working in developing nations of rural areas.
+</p>
+<hr>
+<p><strong>Presenter Bio:</strong><br><em>Tim Williams</em> is a seasoned technology veteran, with a broad spectrum of experience ranging from designing chips at IBM, to a 5-year stint on video compression in Silicon Valley, to turning around Flytxt, a mobile marketing enterprise software solutions provider in India. Prior to what3words he headed business development at Shutl culminating in its sale to eBay at the end of 2013. Tim is a keen road cyclist and has more navigation apps than shirts. Tim is responsible for business development at what3words, working with businesses and large organisations to deliver the benefits of what3words’ universal addressing solution.</p>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+    </div>
+  </div>
+</div>
 
 </div>
 </div>
