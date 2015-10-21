@@ -132,7 +132,6 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 <div class="col-sm-9 col-md-5">
 <h3><small>Session A (Big Tex)</small><br>Remote Sensing (I Spy From Up High)</h3>
 <div class="agenda-track">
-
 <div id="one-A-1030-a" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -143,31 +142,8 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System
 </h4>
 <em>Nicholas Villarreal, Graduate Intern/SMWI Project - Texas State University at San Marcos | Jennifer Jensen - Texas State University at San Marcos | Kristina Tolman - The Meadows Center for Water and the Environment</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-01"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a>
-</p>
 </div>
 </div>
-
-<div class="modal fade modal-01" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</h4>
-         <p>Wetlands maintain critical ecological processes that enhance water quality, support diverse habitat, and provide several other environmental services. Constructed and restored wetlands attempt to mitigate the loss of natural wetlands, improve water quality, meet water supply demands, and support wildlife habitat. </p>
-        <p>The 5,762 ha Richland Creek Wildlife Management Area located near Palestine, Texas, features a constructed wetland that covers nearly 900 ha and supports a variety of amphibians, invertebrates, migratory birds, and waterfowl. The wetland system incorporates five sediment basins and 20 inundated cells. As 95% effluent water from the Trinity River flows cell-to-cell, clay substrate and vegetation absorb phosphorus, nitrogen, and other nutrients, which improves water quality before it is returned to the Trinity River. The importance of annual areal vegetation coverage estimates are indicated by the cell-to-cell spatial diversity of vegetation, which fluctuate by abundance, age, and species. Mapping vegetation is essential to evaluate the biodiversity, overall health, and success of the restored wetland system. </p>
-       <p>In Fall 2014, Meadows Center for Water and the Environment used an unmanned aerial vehicle to collect high-resolution imagery (18 cm) of the wetland cells. Ground truth data, including species composition denoted by point, transect, and polygon units, were collected using Trimble Geo XH units to ensure accurate geo-location. Imagery was processed with Agisoft’s Photoscan and ArcGIS software. Using ground truth data, estimated vegetation cover was classified using two approaches: a supervised pixel-based method completed with ERDAS Imagine and an object-based classification using eCognition Developer. </p>
-       <p>Initial results show that pixel-based classification produces patchy, non-contiguous results known as the ‘salt-and-pepper effect’, whereas object-based classification does not.  Overall, the products derived from object-based image classification offers increased potential to reduce the ‘salt-and-pepper effect’, improve classification accuracy, and enhance visual interpretability. Ultimately, the classification products will contribute to establishment of vegetation response to different restoration practices, geographic patterns of annual growth rates for specific vegetation species, and habitat suitability.</p>
-     </div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
-
 <div id="one-A-1030-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -178,31 +154,8 @@ Assessing The Utility Of Pixel-based And Object-based Classification Methods For
 Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System
 </h4>
 <em>Frank Obusek - Hexagon Geospatial</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-02"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-02" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4>Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System</h4>
-        <p>In the world of oil and gas exploration the land surface is subjected to change with the addition of new roads and drilling rigs that dot the landscape.  The rapid change can negatively affect the environment and ground water resources as well as have an impact on land and mineral ownership issues.  Updating a GIS database to reflect the latest changes in an area of resource exploration can be challenging using manual methods. </p> 
-
-        <p>Remote sensing using multiple dates of NAIP imagery from the Texas Natural Resources Information System allows for accurate change detection to help monitor the new additions of roads and drilling sites.  This presentation describes a workflow used to prepare image data, detect new change, and output update features as a vector data set.  By monitoring change in this way, GIS databases can be kept up to date in areas where there is rapid change.</p>
-
-<p><strong>Presenter Bio:</strong><br><em>Frank Obusek</em> is an Applications Engineer with Hexagon Geospatial.  He has a Master’s degree in Geology from Bowling Green State University in Ohio. Frank has worked in the field of remote sensing since the mid-90s.  He has worked with all sectors of government and many private industry vendors, including owning his own small business.  Frank’s expertise includes photogrammetry, image processing, feature extraction, landcover classification and 3D visualization.</p>
-
-     </div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
 <div id="one-A-1030-c" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -213,38 +166,13 @@ Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources
 UAV Solutions Using Remote Sensing and Photogrammetry Applications
 </h4>
 <em>Joe Mostowy - Hexagon Geospatial</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-03"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-03" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4>UAV Solutions Using Remote Sensing and Photogrammetry Applications</h4>
-        <p>The Unmanned Aerial Vehicles (UAV) market is blowing up in the North America, especially with more lenient US FAA regulations already undergoing comment, which means positive changes are imminent. The need exists for a UAV solution to process the image data using Remote Sensing and Photogrammetry applications with possible service to a web client.  Hexagon Geospatial has the technology to put together the complete solution from hardware to the internet from one single vendor.</p> 
-        <p>In this session we will discuss some of the problems to overcome with these UAV solutions and show many different ways of producing value added data from these UAV’s. Currently in the US you need a pilot license and a certificate of Authorization or 333 to fly in accordance to the FAA.  With basic rules in the US being flying under 400 feet, 5 miles from any airspace and line of sight of the UAV must be less than 1 mile. Attend this session and become more equipped to handle the UAV solution explosion.</p>
-
-<p><strong>Presenter Bio:</strong><br><em>Joe Mostowy</em> has been with Hexagon Geospatial (formerly ERDAS Inc.) for over fifteen years working in various positions in technical sales, marketing and product management roles.  He is currently a Senior Software Consultant for geospatial products specializing in UAV and Photogrammetry. Joe has been a technical liaison across departments engineering solutions to support sales efforts, for clients and ensuring engineering is receiving the proper requirements.  Joe holds a Bachelor of Arts in Geography and Psychology from Lakehead University in Thunder Bay Ontario along with an Advanced Diploma in Remote Sensing/GIS from COGS in Lawrencetown, Nova Scotia, Canada.</p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
-
-
 </div>
 </div>
 <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
 <h3><small>Session B (Li'l TEX)</small><br>Applied GIS (Putting GIS to Work)</h3>
 <div class="agenda-track">
-
 <div id="one-B-1030-a" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -255,36 +183,8 @@ UAV Solutions Using Remote Sensing and Photogrammetry Applications
 Innovative Public Health Care GIS Applications
 </h4>
 <em>Jack Hill and Amanda Scarborough - Sam Houston State University</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-04"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-04" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4>Innovative Public Health Care GIS Applications</h4>
-        <p>The potential to apply Geographic Information System (GIS) technologies across the public health care field is enormous and just beginning to reap significant benefits.  Health care focused GIS applications require the integration and analysis of diverse, updated, and (at times) proprietary data from such fields as: health, finance, education, sociology, environment, geography, and informatics.</p> 
-
-       <p>There is a genuine need to define and map the accessibility to community health resources or assets (i.e., health facilities, education, recreation, transportation, and shopping [i.e., food, medicine, etc.]) and conduct associated spatial gap analyses and ranking. In support of these gap analyses, GIS has also recently been effectively applied to map and expose such community health related disparities as food, medicine, and play “deserts”. </p>
-
-       <p>Sam Houston State University’s (SHSU) Office of Research and Sponsored Program’s (ORSP) new GIS Center and College of Health Sciences are actively working on projects with university (SHSU and Universidad de Iberoamérica [UNIBE]), county (e.g., Montgomery County United Way), regional, and country (Costa Rica) level not-for-profit health care focused organizations. The purpose is to provide the capacity and tools to more systematically and quantitatively generate the necessary metrics and maps to measure, visualize, communicate, and enhance the impact of their various programs in the context of community health outcomes.</p>
-       <p>Furthermore, the relationship between existing assets and of social determinants of health are also being emphasized. Through a more quantitative and systematic understanding of existing community resources and needs, as well as funding effectiveness that is directly associated with measurable impacts on community outcomes, these not-for-profits will be able to more strategically create improved partnerships between existing community based organizations with the objective of creating healthy communities.</p>
-       <p>This presentation describes the specific tasks, deliverables, and outcomes for each health care not-for-profit’s GIS project that SHSU is working presently on.</p>
-
-<p><strong>Presenter Bio:</strong><br><em>Jack Hill, Ph.D., Director,</em> Innovative Collaborative Programs, Office of Research and Sponsored Programs, Sam Houston State University (SHSU), Huntsville, Texas, joined SHSU in 2011.  Dr. Hill is nationally and internationally recognized for his work in the integration and application of remote sensing (RS) and geographic information system (GIS) technology generated data to help analyze and solve natural resource, environmental, sustainable development, and most recently public health care problems.<p>
-  <p>He previously served as Vice President and Director of the Environmental Program at the Houston Advanced Research Center (HARC). He also served on the faculty of the Department of Civil Engineering at Louisiana State University where he was Associate Professor and Associate Director of the Remote Sensing and Image Processing Laboratory.</p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
 <div id="one-B-1030-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -295,29 +195,8 @@ Innovative Public Health Care GIS Applications
 Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data Points for Accurate Call Routing
 </h4>
 <em>Kim Paxton - Intrado</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-05"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-05" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4>Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data Points for Accurate Call Routing</h4>
-        <p>This session presents an overview of address point creation and enhancement projects, with a focus on NG9-1-1 data development.  The session will cover NG9-1-1 GIS data model compliancy, point placement and best practices for address point management.  An overview of the New York Street Address Mapping (SAM) project will also provide 9-1-1 agencies with the information they should know before beginning an address point project. Topics include: NG 9-1-1 GIS Data Model Compliancy; Address Point Creation Best Practices; Planning ahead for a large scale address point project; Address Points use in Geospatial routing</p>
-        <p><strong>Presenter Bio:</strong><br><em>Kim Paxton</em>, GISP and Support Engineer for Intrado, has been actively involved with the Public Safety 9-1-1 community for the past eight years.  With over 28 years experience in mapping and GIS, Kim is also a past 9-1-1 Coordinator, State of Florida E9-1-1 Board Member and Treasurer for the Florida NENA Executive Board.  She has been instrumental in implementing numerous Enterprise GIS Solutions, Geospatial Mapping, and 9-1-1 applications. Her expertise brings a broad perspective to the application of GIS solutions exclusively for 9-1-1 agencies.</p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
-
 <div id="one-B-1030-c" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -328,32 +207,8 @@ Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data
 GIS at the Wimberley Flash Flood Disaster
 </h4>
 <em>Devon Humphrey - Waypoint Mapping</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-06"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-06" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4>GIS at the Wimberley Flash Flood Disaster</h4>
-        <p>GIS has become an essential element of all types of emergency response at all levels of government (and the private sector): Federal, State and Local. Through a Common Operating Picture (COP), a GIS-based status display is shown through a web map viewer, where a variety of relevant information can be tracked, displayed and queried in real time, from any location.     
-          <p>In addition, information that is collected in the field by Search &amp; Rescue teams can be instantly integrated into the COP, allowing for those in the Incident Command Post to evaluate the information and dispatch resources such as K9 or helicopter crews to a specific location. </p>
-
-          <p>The evolution of GIS for the Wimberley response from paper maps, to simple web map viewer (COP), to field Collector app and eventually to an Operations Dashboard showing all relevant response information and metrics will be discussed.     (TNRIS provided valuable support to the response by creating a river system layer that was used to create SAR search zones.)</p>
-
-<p><strong>Presenter Bio:</strong><br><em>Devon Humphrey</em> has worked with emerging technologies for GIS for over 25 years. This includes State &amp; Local Government at both Lee County and Texas General Land Office, ESRI, ESRI Partner Company Geowarehouse, and now Waypoint Mapping. Waypoint is focused on GIS consulting for emergency management and critical infrastructure organizations. Devon has also taught GIS for Emergency Response at Texas A&amp;M University Corpus Christi for the past 21 years.</p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
 </div>
 </div>
 </div>
@@ -390,8 +245,6 @@ Whooping Cranes over the Laguna Madre: Shared Value, Semantic Shifts, and Collab
 <div class="col-sm-9 col-md-5">
 <h3><small>Session A (Big Tex)</small><br>Open Source (Something for Everyone)</h3>
 <div class="agenda-track">
-
-
 <div id="one-A-1400-a" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -402,35 +255,8 @@ Whooping Cranes over the Laguna Madre: Shared Value, Semantic Shifts, and Collab
 Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software
 </h4>
 <em>Roger Miranda - University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology | T. Clay Templeton, PhD Student, University of Texas - School of Information</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-07"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-07" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4>Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software</h4>
-        <p>Assessments of water quality in the Lower Rio Grande downstream of Falcon Reservoir have identified a number of persistent water quality problems in this important transboundary river, including high levels of fecal bacteria and increasing salinity levels.</p>
-        <p>In 2013, realizing the need to address water quality concerns in the river in an integrated fashion, the governments of the US and Mexico created a binational forum for cooperation and information exchange under the auspices of the International Boundary and Water Commission.  The effort, known as the Lower Rio Grande/Río Bravo Water Quality Initiative (LRGWQI), is a pilot project designed to establish binational mechanisms to protect water quality in the river.</p>
-        <p>Among the technical goals of the LRGWQI is the modeling of pollutant loadings and instream water quality in the river, including simulation of scenarios associated with changing population, infrastructure and management practices.</p>
-        <p>In order to facilitate binational decision making associated with this cooperative technical effort, UT’s Bureau of Economic Geology, in collaboration with the UT’s LBJ School of Public Affairs, developed a geospatial decision support system in Python. The GIS functionalities are enabled using the Python-based Application Programming Interface of QGIS, an open source GIS software. SQLite, a serverless, self-contained database system is used for managing user-specified and system configuration data.</p> 
-        <p>We present the principal capabilities and features of the LRGWQI DSS, discuss some of the challenges we encountered using the QGIS software to develop the application and present some of the modifications and additions we are currently incorporating into the system.</p>
-
-<p><strong>Presenter Bios:</strong><br><em>Roger Miranda</em> is a PhD Candidate at the LBJ School of Public Affairs of the University of Texas at Austin. He is a licensed professional geoscientist with over 20 years of experience in water resource management and water quality planning. Mr. Miranda earned his M.S. in Geosciences from the University of Texas at Dallas and his B.S. in Geology from the University of Texas at Arlington. Much of Mr. Miranda's work has been on water bodies located in the US-Mexico Border Region.</p>
-<hr>
-<p><em>Alex Sun </em>is a computational hydrologist with the Bureau of Economic Geology at University of Texas at Austin. He received his Ph.D and MS in civil and environmental engineering from the University of California at Berkeley. He has extensive experience and strong interests in developing decision support systems using open-source technologies.</p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
 <div id="one-A-1400-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -441,30 +267,8 @@ Development of a Binational Geospatial Decision Support System to Protect Water 
 GIS Lessons: Learning to Query and Code with the CartoDB Academy
 </h4>
 <em>Andy Eschbacher - CartoDB</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-08"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-08" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4>GIS Lessons: Learning to Query and Code with the CartoDB Academy</h4>
-        <p>Maps provide us with some of the most intuitive ways to represent data visually, principally because they provide a way to rectify our physical locality with some digital and data-dense topography; they help us build narrative with relevant geolocation and let us tell trends with data on a geospatial-sensitive canvas. Learning how to make compelling maps with your own data is a a non-trivial endeavor, involving a concatenation of expertise and technical aptitudes with specialty tools that might be obscure to new mappers, and limits the community as a result.</p> 
-        <p>At CartoDB (http://cartodb.com/), we have a series of open source projects to augment the GIS learning experience, with Academy (http://academy.cartodb.com/), our "code academy" for GIS, or our Trainings repository (http://cartodb.github.io/training/), a place to share lessons and workshops and submit events to a collaborative calendar.    We'll talk about the future of education for digital geographers, and how partnering with curriculum producers has fostered a supportive community of stellar mappers across domains. Join us to learn about how we do it, and how you can help!</p>
-
-<p><strong>Presenter Bio:</strong><br><em>Andy Eschbacher</em> is a physicist turned educator turned map scientist. At CartoDB he wears many hats. From finding out how to make web maps more scientific with hacks on open source software, to developing educational content, to sharing and learning from the diverse online mapping community, he and his colleagues keep very busy.</p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
 <div id="one-A-1400-c" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -475,36 +279,13 @@ GIS Lessons: Learning to Query and Code with the CartoDB Academy
 Open Source Software Education in Texas
 </h4>
 <em>Phillip Davis - GeoAcademy | Richard Smith - Texas A &amp; M University, Corpus Christi</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-09"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-09" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4></h4>
-        <p></p>
-
-<p><strong>Presenter Bio:</strong><br><em></em></p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
 </div>
 </div>
 <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
 <h3><small>Session B (Li'l TEX)</small><br>Innovative Technology (New to You)</h3>
 <div class="agenda-track">
-
-
 <div id="one-B-1400-a" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -515,30 +296,8 @@ Open Source Software Education in Texas
 Augmented Reality for Hidden Assets
 </h4>
 <em>Brady Hustad and Ken Hetlinger - Astadia</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-10"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-10" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4></h4>
-        <p></p>
-
-<p><strong>Presenter Bio:</strong><br><em></em></p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
-
 <div id="one-B-1400-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -549,29 +308,8 @@ Augmented Reality for Hidden Assets
 VOICE - Virtual Online Inspection Checking and Editing
 </h4>
 <em>Anand Iyer and Jeff Simmons - Quantum Spacial</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-11"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-11" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4></h4>
-        <p></p>
-
-<p><strong>Presenter Bio:</strong><br><em></em></p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
 <div id="one-B-1400-c" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -582,29 +320,8 @@ VOICE - Virtual Online Inspection Checking and Editing
 Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways
 </h4>
 <em>Adrian Garcia and Ernie Martinez - The City of Fair Oaks Ranch, Texas</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-12"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-<div class="modal fade modal-12" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-     <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4></h4>
-        <p></p>
-
-<p><strong>Presenter Bio:</strong><br><em></em></p>
-
-</div>
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-    </div>
-  </div>
-</div>
-
 </div>
 </div>
 </div>
@@ -627,7 +344,6 @@ Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways
 Online Map Applications (You Can Do THAT On the Web?)
 </h3>
 <div class="agenda-track">
-
 <div id="one-A-1600-a" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -638,12 +354,8 @@ Online Map Applications (You Can Do THAT On the Web?)
 The History of Texas is Under Your Feet and at Your Fingertips
 </h4>
 <em>Daniel K. Pearson, US Geological Survey</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-13"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-
-
 <div id="one-A-1600-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -654,12 +366,8 @@ The History of Texas is Under Your Feet and at Your Fingertips
 Building the Next Generation Water Data Viewer - Water Data Interactive (WDI)
 </h4>
 <em>Ginny Vragel and Richard Winkelbauer - Texas Water Development Board</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-14"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
-
-
-
 <div id="one-A-1600-c" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -670,12 +378,8 @@ Building the Next Generation Water Data Viewer - Water Data Interactive (WDI)
 Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGISServer, WMS &amp; WFS Cross-Platform Compatibility
 </h4>
 <em>Dale Emrich, Justin Scott Winn, and Cole Howard - DrillingInfo</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-15"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
-
-
-
 </div>
 </div>
 <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
@@ -684,7 +388,6 @@ Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGISServer
 State Initiatives (Cool Enough for Government Work)
 </h3>
 <div class="agenda-track">
-
 <div id="one-B-1600-a" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -695,12 +398,8 @@ State Initiatives (Cool Enough for Government Work)
 Google's Imagery Program
 </h4>
 <em>Kyle Campbell - Google | Chad Lersch - DIR | Richard Wade - TNRIS</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-16"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
 </div>
-
-
-
 <div id="one-B-1600-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -711,11 +410,8 @@ Google's Imagery Program
 TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 </h4>
 <em>Laura Wisdom - General Land Office</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-16"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-
 </div>
 </div>
 </div>
@@ -806,13 +502,9 @@ TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 <small>10:30 a.m. – 11:00 a.m.</small><br>
 Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection
 </h4>
-<em>Robert Dzur - Bohannan Huston, Inc | Sally Abbe - City of Lubbock</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-17"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<em>Robert Dzur, Bohannan Huston, Inc | Sally Abbe, City of Lubbock</em>
 </div>
 </div>
-
-
-
 <div id="two-A-1030-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -822,12 +514,9 @@ Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in 
 <small>11:00 a.m. – 11:30 a.m.</small><br>
 Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User
 </h4>
-<em>Harold Rempel - ESP Associates</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-18"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<em>Harold Rempel, ESP Associates</em>
 </div>
 </div>
-
-
 <div id="two-A-1030-c" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -837,19 +526,14 @@ Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to 
 <small>11:30 a.m. – 12:00 p.m.</small><br>
 Innovations - Changing the way Lidar is Used
 </h4>
-<em>Jamie Young - Merrick &amp; Company</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-19"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<em>Jamie Young, Merrick &amp; Company</em>
 </div>
 </div>
-
-
-
 </div>
 </div>
 <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
 <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (Apps in the Cloud)</h3>
 <div class="agenda-track">
-
 <div id="two-B-1030-a" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -859,12 +543,9 @@ Innovations - Changing the way Lidar is Used
 <small>10:30 a.m. – 11:00 a.m.</small><br>
 Regional Online Geospatial Services for the Houston-Galveston Region
 </h4>
-<em>Brooks Andrews - Houston-Galveston Area Council of Governments</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-20"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<em>Brooks Andrews, Houston-Galveston Area Council of Governments</em>
 </div>
 </div>
-
-
 <div id="two-B-1030-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -875,12 +556,8 @@ Regional Online Geospatial Services for the Houston-Galveston Region
 The Information Commons: Cloud-Based GIS
 </h4>
 <em> Santiago Giraldo Anduaga, CartoDB</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-21"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
 </div>
-
-
-
 <div id="two-B-1030-c" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -890,13 +567,9 @@ The Information Commons: Cloud-Based GIS
 <small>11:30 a.m. – 12:00 p.m.</small><br>
 Modern Web Mapping for Local Governments Delivers Insights into Performance Metrics, Patterns of Change &amp; Distribution of Resources
 </h4>
-<em>Kate Hickey - AppGeo</em>
-
-<p><a href="#" data-toggle="modal" data-target=".modal-22"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<em>Kate Hickey, AppGeo</em>
 </div>
 </div>
-
-
 </div>
 </div>
 </div>
@@ -944,13 +617,9 @@ Nikki Golding – Solution Lead, State Government
 <small>2:00 p.m. – 2:30 p.m.</small><br>
 3D Modeling of the City of Temple Landfill
 </h4>
-<em>Leah Fasick - City of Temple</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-23"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<em>Leah Fasick, City of Temple</em>
 </div>
 </div>
-
-
-
 <div id="two-A-1400-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -960,13 +629,9 @@ Nikki Golding – Solution Lead, State Government
 <small>2:30 p.m. – 3:00 p.m.</small><br>
 Examination of the spatial relationship between development and aquatic nutrient loading in the Galveston Bay Estuary
 </h4>
-<em>Helen Walters and Samuel Brody - Texas A&amp;M University, Galveston Campus</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-24"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<em>Helen Walters and Samuel Brody, Texas A&amp;M University, Galveston Campus</em>
 </div>
 </div>
-
-
-
 <div id="two-A-1400-c" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -976,19 +641,14 @@ Examination of the spatial relationship between development and aquatic nutrient
 <small>3:00 p.m. – 3:30 p.m.</small><br>
 The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast
 </h4>
-<em>Jeff Scarborough and Chris Sallese - Dannenbaum Engineering Corporation</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-25"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<em>Jeff Scarborough and Chris Sallese, Dannenbaum Engineering Corporation</em>
 </div>
 </div>
-
-
-
 </div>
 </div>
 <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
 <h3><small>Session B (Li'l TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
 <div class="agenda-track">
-
 <div id="two-B-1400-a" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -998,12 +658,9 @@ The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast
 <small>2:00 p.m. – 2:30 p.m.</small><br>
 Connecting the Dots Between Data and Problem Solving
 </h4>
-<em>Leah Casey - Texas Department of Health and Human Services | Jeff Jordan -  Institute for Demographic Studies and Socioeconomic Research</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-26"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<em>Leah Casey, Texas Department of Health and Human Services and Jeff Jordan, Institute for Demographic Studies and Socioeconomic Research</em>
 </div>
 </div>
-
-
 <div id="two-B-1400-b" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -1013,13 +670,9 @@ Connecting the Dots Between Data and Problem Solving
 <small>2:30 p.m. – 3:00 p.m.</small><br>
 Managing Special Events in Austin, TX with ArcGIS Online
 </h4>
-<em>Jacquie Hrncir and John Clary - City of Austin</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-27"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+<em>Jacquie Hrncir and John Clary, City of Austin</em>
 </div>
 </div>
-
-
-
 <div id="two-B-1400-c" class="agenda-track-item media">
 <div class="media-left">
 <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
@@ -1029,12 +682,9 @@ Managing Special Events in Austin, TX with ArcGIS Online
 <small>3:00 p.m. – 3:30 p.m.</small><br>
 3 Words to Address the World
 </h4>
-<em>Tim Williams - What3Words</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-28"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<em>Tim Williams, What3Words</em>
 </div>
 </div>
-
-
 </div>
 </div>
 </div>
