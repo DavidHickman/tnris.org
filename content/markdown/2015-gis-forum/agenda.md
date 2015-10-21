@@ -191,6 +191,7 @@ Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources
         <p>In the world of oil and gas exploration the land surface is subjected to change with the addition of new roads and drilling rigs that dot the landscape.  The rapid change can negatively affect the environment and ground water resources as well as have an impact on land and mineral ownership issues.  Updating a GIS database to reflect the latest changes in an area of resource exploration can be challenging using manual methods. </p> 
 
         <p>Remote sensing using multiple dates of NAIP imagery from the Texas Natural Resources Information System allows for accurate change detection to help monitor the new additions of roads and drilling sites.  This presentation describes a workflow used to prepare image data, detect new change, and output update features as a vector data set.  By monitoring change in this way, GIS databases can be kept up to date in areas where there is rapid change.</p>
+        <hr>
 
 <p><strong>Presenter Bio:</strong><br><em>Frank Obusek</em> is an Applications Engineer with Hexagon Geospatial.  He has a Master’s degree in Geology from Bowling Green State University in Ohio. Frank has worked in the field of remote sensing since the mid-90s.  He has worked with all sectors of government and many private industry vendors, including owning his own small business.  Frank’s expertise includes photogrammetry, image processing, feature extraction, landcover classification and 3D visualization.</p>
 
@@ -225,7 +226,7 @@ UAV Solutions Using Remote Sensing and Photogrammetry Applications
         <h4>UAV Solutions Using Remote Sensing and Photogrammetry Applications</h4>
         <p>The Unmanned Aerial Vehicles (UAV) market is blowing up in the North America, especially with more lenient US FAA regulations already undergoing comment, which means positive changes are imminent. The need exists for a UAV solution to process the image data using Remote Sensing and Photogrammetry applications with possible service to a web client.  Hexagon Geospatial has the technology to put together the complete solution from hardware to the internet from one single vendor.</p> 
         <p>In this session we will discuss some of the problems to overcome with these UAV solutions and show many different ways of producing value added data from these UAV’s. Currently in the US you need a pilot license and a certificate of Authorization or 333 to fly in accordance to the FAA.  With basic rules in the US being flying under 400 feet, 5 miles from any airspace and line of sight of the UAV must be less than 1 mile. Attend this session and become more equipped to handle the UAV solution explosion.</p>
-
+        <hr>
 <p><strong>Presenter Bio:</strong><br><em>Joe Mostowy</em> has been with Hexagon Geospatial (formerly ERDAS Inc.) for over fifteen years working in various positions in technical sales, marketing and product management roles.  He is currently a Senior Software Consultant for geospatial products specializing in UAV and Photogrammetry. Joe has been a technical liaison across departments engineering solutions to support sales efforts, for clients and ensuring engineering is receiving the proper requirements.  Joe holds a Bachelor of Arts in Geography and Psychology from Lakehead University in Thunder Bay Ontario along with an Advanced Diploma in Remote Sensing/GIS from COGS in Lawrencetown, Nova Scotia, Canada.</p>
 
 </div>
@@ -272,7 +273,7 @@ Innovative Public Health Care GIS Applications
        <p>Sam Houston State University’s (SHSU) Office of Research and Sponsored Program’s (ORSP) new GIS Center and College of Health Sciences are actively working on projects with university (SHSU and Universidad de Iberoamérica [UNIBE]), county (e.g., Montgomery County United Way), regional, and country (Costa Rica) level not-for-profit health care focused organizations. The purpose is to provide the capacity and tools to more systematically and quantitatively generate the necessary metrics and maps to measure, visualize, communicate, and enhance the impact of their various programs in the context of community health outcomes.</p>
        <p>Furthermore, the relationship between existing assets and of social determinants of health are also being emphasized. Through a more quantitative and systematic understanding of existing community resources and needs, as well as funding effectiveness that is directly associated with measurable impacts on community outcomes, these not-for-profits will be able to more strategically create improved partnerships between existing community based organizations with the objective of creating healthy communities.</p>
        <p>This presentation describes the specific tasks, deliverables, and outcomes for each health care not-for-profit’s GIS project that SHSU is working presently on.</p>
-
+        <hr>
 <p><strong>Presenter Bio:</strong><br><em>Jack Hill, Ph.D., Director,</em> Innovative Collaborative Programs, Office of Research and Sponsored Programs, Sam Houston State University (SHSU), Huntsville, Texas, joined SHSU in 2011.  Dr. Hill is nationally and internationally recognized for his work in the integration and application of remote sensing (RS) and geographic information system (GIS) technology generated data to help analyze and solve natural resource, environmental, sustainable development, and most recently public health care problems.<p>
   <p>He previously served as Vice President and Director of the Environmental Program at the Houston Advanced Research Center (HARC). He also served on the faculty of the Department of Civil Engineering at Louisiana State University where he was Associate Professor and Associate Director of the Remote Sensing and Image Processing Laboratory.</p>
 
@@ -306,6 +307,7 @@ Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data
      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
         <h4>Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data Points for Accurate Call Routing</h4>
         <p>This session presents an overview of address point creation and enhancement projects, with a focus on NG9-1-1 data development.  The session will cover NG9-1-1 GIS data model compliancy, point placement and best practices for address point management.  An overview of the New York Street Address Mapping (SAM) project will also provide 9-1-1 agencies with the information they should know before beginning an address point project. Topics include: NG 9-1-1 GIS Data Model Compliancy; Address Point Creation Best Practices; Planning ahead for a large scale address point project; Address Points use in Geospatial routing</p>
+        <hr>
         <p><strong>Presenter Bio:</strong><br><em>Kim Paxton</em>, GISP and Support Engineer for Intrado, has been actively involved with the Public Safety 9-1-1 community for the past eight years.  With over 28 years experience in mapping and GIS, Kim is also a past 9-1-1 Coordinator, State of Florida E9-1-1 Board Member and Treasurer for the Florida NENA Executive Board.  She has been instrumental in implementing numerous Enterprise GIS Solutions, Geospatial Mapping, and 9-1-1 applications. Her expertise brings a broad perspective to the application of GIS solutions exclusively for 9-1-1 agencies.</p>
 
 </div>
@@ -343,6 +345,7 @@ GIS at the Wimberley Flash Flood Disaster
 
           <p>The evolution of GIS for the Wimberley response from paper maps, to simple web map viewer (COP), to field Collector app and eventually to an Operations Dashboard showing all relevant response information and metrics will be discussed.     (TNRIS provided valuable support to the response by creating a river system layer that was used to create SAR search zones.)</p>
 
+        <hr>
 <p><strong>Presenter Bio:</strong><br><em>Devon Humphrey</em> has worked with emerging technologies for GIS for over 25 years. This includes State &amp; Local Government at both Lee County and Texas General Land Office, ESRI, ESRI Partner Company Geowarehouse, and now Waypoint Mapping. Waypoint is focused on GIS consulting for emergency management and critical infrastructure organizations. Devon has also taught GIS for Emergency Response at Texas A&amp;M University Corpus Christi for the past 21 years.</p>
 
 </div>
@@ -418,6 +421,7 @@ Development of a Binational Geospatial Decision Support System to Protect Water 
         <p>In order to facilitate binational decision making associated with this cooperative technical effort, UT’s Bureau of Economic Geology, in collaboration with the UT’s LBJ School of Public Affairs, developed a geospatial decision support system in Python. The GIS functionalities are enabled using the Python-based Application Programming Interface of QGIS, an open source GIS software. SQLite, a serverless, self-contained database system is used for managing user-specified and system configuration data.</p> 
         <p>We present the principal capabilities and features of the LRGWQI DSS, discuss some of the challenges we encountered using the QGIS software to develop the application and present some of the modifications and additions we are currently incorporating into the system.</p>
 
+        <hr>
 <p><strong>Presenter Bios:</strong><br><em>Roger Miranda</em> is a PhD Candidate at the LBJ School of Public Affairs of the University of Texas at Austin. He is a licensed professional geoscientist with over 20 years of experience in water resource management and water quality planning. Mr. Miranda earned his M.S. in Geosciences from the University of Texas at Dallas and his B.S. in Geology from the University of Texas at Arlington. Much of Mr. Miranda's work has been on water bodies located in the US-Mexico Border Region.</p>
 <hr>
 <p><em>Alex Sun </em>is a computational hydrologist with the Bureau of Economic Geology at University of Texas at Austin. He received his Ph.D and MS in civil and environmental engineering from the University of California at Berkeley. He has extensive experience and strong interests in developing decision support systems using open-source technologies.</p>
@@ -453,6 +457,7 @@ GIS Lessons: Learning to Query and Code with the CartoDB Academy
         <h4>GIS Lessons: Learning to Query and Code with the CartoDB Academy</h4>
         <p>Maps provide us with some of the most intuitive ways to represent data visually, principally because they provide a way to rectify our physical locality with some digital and data-dense topography; they help us build narrative with relevant geolocation and let us tell trends with data on a geospatial-sensitive canvas. Learning how to make compelling maps with your own data is a a non-trivial endeavor, involving a concatenation of expertise and technical aptitudes with specialty tools that might be obscure to new mappers, and limits the community as a result.</p> 
         <p>At CartoDB (http://cartodb.com/), we have a series of open source projects to augment the GIS learning experience, with Academy (http://academy.cartodb.com/), our "code academy" for GIS, or our Trainings repository (http://cartodb.github.io/training/), a place to share lessons and workshops and submit events to a collaborative calendar.    We'll talk about the future of education for digital geographers, and how partnering with curriculum producers has fostered a supportive community of stellar mappers across domains. Join us to learn about how we do it, and how you can help!</p>
+        <hr>
         <p><strong>Presenter Bio:</strong><br><em>Andy Eschbacher</em> is a physicist turned educator turned map scientist. At CartoDB he wears many hats. From finding out how to make web maps more scientific with hacks on open source software, to developing educational content, to sharing and learning from the diverse online mapping community, he and his colleagues keep very busy.</p>
 
 </div>
@@ -483,10 +488,12 @@ Open Source Software Education in Texas
     <div class="modal-content">
      <div class="modal-body">
      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4></h4>
-        <p></p>
-
-<p><strong>Presenter Bio:</strong><br><em></em></p>
+        <h4>Open Source Software Education in Texas</h4>
+        <p>There is a growing movement in the Texas GIS community to use open source application software, such as QGIS, to implement spatial solutions for governments and businesses.  Until recently, there were only a few rare options available for learning FOSS4G in an educational setting. As the result of a recent Department of Labor TAACCCT grant, there now exists an entire 5 course curriculum available to learners anywhere via the Internet to learn the latest version of QGIS.  This session will explore this curriculum and examine learning opportunities for professionals seeking knowledge and training in FOSS4G.</p>
+        <hr>
+<p><strong>Presenter Bios:</strong><br><em>Richard Smith, Ph.D.,</em> is an Assistant Professor of Geographic Information Science in the School of Engineering and Computing Sciences at Texas A&amp;M University – Corpus Christi.  Richard is currently researching methods to partially automate the cartographic design process and is also building a multi-user multi-touch collaborative mapping application for use in time-sensitive situations.</p>
+<hr>
+<p> <em>Phillip Davis, EdD</em> serves as project manager for the GIS program at Del Mar College.  He recently served as Director of the GeoTech Center (2008-2013) and is currently serving as the Project Manager for the National Information, Security and Geospatial Technology Consortium at Del Mar College.  In this role he is responsible for the creation of this GST 101 course and four others that make the Model GIS Curriculum now used in colleges nationwide.  His research interest is in the use and promotion of open source software solutions for GIS and higher education.</p>
 
 </div>
 
@@ -523,10 +530,12 @@ Augmented Reality for Hidden Assets
     <div class="modal-content">
      <div class="modal-body">
      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4></h4>
-        <p></p>
+        <h4>Augmented Reality for Hidden Assets</h4>
+        <p>Every utility and government has millions invested in buried and/or hidden assets.  With the advancement of GIS we have more accurate location and information on these assets than ever before.  However, still in the field, the assets can be hidden by snow, vegetation, or even purposely in people’s property for aesthetics.  Additionally, despite accurate data, helping the field workers to find the right asset can be challenging, causing repairs and replacements to happen on the wrong assets.</p>
+        <p>Technology has made another leap that can help, Augmented Reality.  We will introduce you to a new technology solution that can empower your field workers ‘in the last mile’ to find the correct hidden asset, plan their job, and effectively save time and effort.  We will also discuss how you can implement this into your organization.  Additionally, we will discuss the rapidly changing field of augmented reality and what the future might hold.  Augmented Reality is no longer a subject of science fiction and superhero movies.  It is here and available to improve all of our day to day jobs!</p>
 
-<p><strong>Presenter Bio:</strong><br><em></em></p>
+<p><strong>Presenter Bios:</strong><br><em>Ken Hetlinger</em> is Director of Sales for the Application and Support Solutions practice at Astadia.  A sales executive for over 20 years, Ken has focused for the past 15 years on bringing technology solutions to SMB companies up to the Fortune 100.  A trusted advisor, known for his professionalism and personable nature, Ken remains current in an ever-changing field as a member of the Association of Information Technology Professionals and the Technology Executives Network.</p>      <br>
+<p><em>Brady Hustad</em> is Director of Product and Business Development at Astadia, working to identify the full extent of solutions we can offer our customers by leveraging the technologies and products of our partners.  Brady has 20 years of experience in application and web development, architecture and software development with expertise ranging from cryptography to expert systems.  For the past 15 years, Brady has focused on spatial mapping systems, working with Esri, MapInfo, Google and Bing Maps and others.  With over 400 successful mapping applications delivered, Brady now helps guide Astadia to find and deliver innovative solutions to our customers across numerous industries.</p>
 
 </div>
 
@@ -548,7 +557,7 @@ Augmented Reality for Hidden Assets
 VOICE - Virtual Online Inspection Checking and Editing
 </h4>
 <em>Rodney Cope and Bill Walker - Quantum Spatial</em>
-<p><a href="#" data-toggle="modal" data-target=".modal-11"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<p><a href="#" data-toggle="modal" data-target=".modal-11"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a></p>
 </div>
 </div>
 
@@ -557,10 +566,9 @@ VOICE - Virtual Online Inspection Checking and Editing
     <div class="modal-content">
      <div class="modal-body">
      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
-        <h4></h4>
-        <p></p>
-
-<p><strong>Presenter Bio:</strong><br><em></em></p>
+        <h4>VOICE - Virtual Online Inspection Checking and Editing</h4>
+        <p>There are many situations in which users, who may be vastly distributed geographically, require fast interactive access to large geospatial datasets.  These datasets are often comprised of high resolution imagery and LiDAR data.  A traditional approach for providing these products to users involves shipping hard drives which often results in long wait times.  This method is less than ideal since it exposes users to the potential risk of data versioning conflicts.</p>
+        <p>Now, there have been several advances in cloud computing and new research in algorithms for managing large volumes of data.  Fusing these two enhancements together provides a practical, reliable and convenient alternative to the distribution of these datasets, while reducing the process friction of the traditional approach.  In this talk, we will outline how such solutions are developed using real-life examples drawn from the need to collaboratively and interactively assess the quality of both imagery and LiDAR data.</p>
 
 </div>
 
