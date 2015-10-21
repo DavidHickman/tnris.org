@@ -457,6 +457,17 @@ gulp.task('clean-dist', function() {
     .pipe(vinylPaths(del));
 });
 
+
+function checkWebpackErrors (err, stats) {
+  if (err) {
+    errors.breaking(err);
+    process.exit(1);
+  } else if (stats.hasErrors) {
+    errors.breaking(stats.toJson().errors);
+    process.exit(1);
+  }
+}
+
 gulp.task('webpack-production', ['dist-metal'], function(callback) {
   process.env.NODE_ENV = 'production';
 
@@ -469,9 +480,7 @@ gulp.task('webpack-production', ['dist-metal'], function(callback) {
 	);
 
   webpack(prodWebpackConfig, function(err, stats) {
-    if (err) {
-      callback(err);
-    }
+    checkWebpackErrors(err, stats);
     callback();
   });
 });
@@ -485,9 +494,7 @@ gulp.task('webpack-dev', ['dist-metal'], function(callback) {
   devWebpackConfig.debug = true;
 
   webpack(devWebpackConfig, function(err, stats) {
-    if (err) {
-      callback(err);
-    }
+    checkWebpackErrors(err, stats);
     callback();
   });
 });
@@ -501,7 +508,7 @@ gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
   devWebpackConfig.unsafeCache = ['.tmp'];
 
   Object.keys(devWebpackConfig.entry).forEach(function (key) {
-    devWebpackConfig.entry[key].unshift('webpack-dev-server/client?http://localhost:8080');
+    devWebpackConfig.entry[key].unshift('webpack-dev-server/client?http://localhost:' + devServerPort);
   });
 
 	// Start a webpack-dev-server
@@ -515,7 +522,10 @@ gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
 			colors: true
 		}
 	}).listen(devServerPort, "localhost", function(err) {
-		if(err) throw new gutil.PluginError("webpack-dev-server", err);
-		winston.log("info", "webpack dev server started: http://localhost:8080/webpack-dev-server/index.html");
+		if(err) {
+      errors.breaking(err);
+      throw new gutil.PluginError("webpack-dev-server", err)
+    };
+		clog.info("webpack dev server started: http://localhost:" + devServerPort + "/");
 	});
 });
