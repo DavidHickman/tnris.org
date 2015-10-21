@@ -484,14 +484,13 @@ gulp.task('clean-dist', function() {
     .pipe(vinylPaths(del));
 });
 
-gulp.task('webpack-production', function(callback) {
+gulp.task('webpack-production', ['dist-metal'], function(callback) {
   var prodWebpackConfig = Object.create(webpackConfig);
   prodWebpackConfig.debug = false;
 
 	prodWebpackConfig.plugins = prodWebpackConfig.plugins.concat(
 		new webpack.DefinePlugin({
 			"process.env": {
-				// This has effect on the react lib size
 				"NODE_ENV": JSON.stringify("production")
 			}
 		}),
@@ -503,8 +502,8 @@ gulp.task('webpack-production', function(callback) {
     if (err) {
       callback(err);
     }
+    callback();
   });
-  callback();
 });
 
 
@@ -517,8 +516,8 @@ gulp.task('webpack-dev', function(callback) {
     if (err) {
       callback(err);
     }
+    callback();
   });
-  callback();
 });
 
 gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
