@@ -7,7 +7,7 @@ var includes = require('lodash.includes');
 var webpack = require('webpack');
 
 
-function generate() {
+function generate(env) {
   var staticFiles = glob.sync(
     'static/**/*', {
       mark: true
@@ -97,7 +97,12 @@ function generate() {
           jQuery: 'jquery',
           'window.jQuery': 'jquery',
           'swfobject': 'swfobject',
-      })
+      }),
+      new webpack.DefinePlugin({
+        "process.env": {
+          "NODE_ENV": JSON.stringify(process.env.NODE_ENV)
+        }
+      }),
     ]
   };
 

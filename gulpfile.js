@@ -55,7 +55,6 @@ var dirs = {
   tmp: './.tmp',
   templates: './templates',
   sitemap: './sitemap',
-  config: './config'
 };
 
 dirs.markdown = path.join(dirs.content, 'markdown');
@@ -69,7 +68,6 @@ var paths = {
   scss: dirs.scss + '/**/*.scss',
   static: [dirs.static + '/**/*', '!' + path.join(dirs.bower, 'bootstrap-sass-official/**'), '!' + path.join(dirs.bower, 'bourbon/**')],
   templates: dirs.templates + '/**/*',
-  config: dirs.config + '/**/*',
   variables: dirs.content + '/variables.yaml'
 };
 
@@ -246,18 +244,13 @@ gulp.task('dev-prod', ['dist', 'watch', 'webserver']);
 gulp.task('watch', function () {
   gulp.watch(paths.content, ['dist-metal']);
   gulp.watch(paths.templates, ['dist-metal']);
-  gulp.watch(paths.config, ['dist-config']);
 });
 
 gulp.task('webserver', ['webpack-dev-server']);
 
 gulp.task('dist', ['dist-production']);
-gulp.task('dist-dev', ['dist-config', 'webpack-dev', 'dist-metal', 'dist-sitemap']);
-gulp.task('dist-production', ['set-production', 'webpack-production', 'dist-sitemap']);
-
-gulp.task('set-production', function () {
-  production = true;
-});
+gulp.task('dist-dev', ['webpack-dev', 'dist-metal', 'dist-sitemap']);
+gulp.task('dist-production', ['webpack-production', 'dist-sitemap']);
 
 gulp.task('dist-fonts', ['webpack']);
 
@@ -463,20 +456,6 @@ gulp.task('sitemap-index', function() {
     .pipe(gulp.dest(dirs.tmp));
 });
 
-gulp.task('dist-config', function () {
-  var path;
-  if (production) {
-    path = dirs.config + '/config-production.js';
-  }
-  else {
-    path = dirs.config + '/config-development.js';
-  }
-
-  return gulp.src(path)
-    .pipe(rename('configApp.js'))
-    .pipe(gulp.dest(dirs.dist + '/js'));
-});
-
 gulp.task('clean', ['clean-dist']);
 
 gulp.task('clean-dist', function() {
@@ -485,15 +464,12 @@ gulp.task('clean-dist', function() {
 });
 
 gulp.task('webpack-production', ['dist-metal'], function(callback) {
+  process.env.NODE_ENV = 'production';
+
   var prodWebpackConfig = generateWebpackConfig();
   prodWebpackConfig.debug = false;
 
 	prodWebpackConfig.plugins = prodWebpackConfig.plugins.concat(
-		new webpack.DefinePlugin({
-			"process.env": {
-				"NODE_ENV": JSON.stringify("production")
-			}
-		}),
 		new webpack.optimize.DedupePlugin(),
 		new webpack.optimize.UglifyJsPlugin()
 	);
@@ -508,6 +484,8 @@ gulp.task('webpack-production', ['dist-metal'], function(callback) {
 
 
 gulp.task('webpack-dev', function(callback) {
+  process.env.NODE_ENV = 'development';
+
   var devWebpackConfig = generateWebpackConfig();
   devWebpackConfig.devtool = "sourcemap";
   devWebpackConfig.debug = true;
@@ -521,6 +499,8 @@ gulp.task('webpack-dev', function(callback) {
 });
 
 gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
+  process.env.NODE_ENV = 'development';
+
   var devWebpackConfig = generateWebpackConfig();
 	devWebpackConfig.devtool = "eval";
   devWebpackConfig.debug = true;

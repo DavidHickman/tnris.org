@@ -36,6 +36,8 @@ var titleizeFilter = require('./filters/titleizeFilter');
 var dataDownloadCtrl = require('./controllers/dataDownloadCtrl');
 var _counties = require('./counties');
 
+require('../config');
+
 
 // angularApplicationHonorableDelegateFromMassachussettesCNCFunctionFactory
 var dataDownloadApp = function () {

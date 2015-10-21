@@ -7,6 +7,7 @@ require('ng-file-upload');
 
 require('../../../scss/contact.scss');
 
+require('../config');
 
 angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angularFileUpload'])
   .controller('FormController',

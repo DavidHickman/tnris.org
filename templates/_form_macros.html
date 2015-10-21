@@ -20,7 +20,6 @@
 {%- macro scripts() -%}
     <script src="//www.google.com/recaptcha/api.js?render=explicit&onload=vcRecaptchaApiLoaded" async defer></script>
     <script src="{{m.based('contact-forms.bundle.js')}}"></script>
-    <script src="{{m.based('js/configApp.js')}}"></script>
 {%- endmacro -%}
 
 {%- macro before(form_id) -%}
