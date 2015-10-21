@@ -249,7 +249,7 @@ gulp.task('watch', function () {
 gulp.task('webserver', ['webpack-dev-server']);
 
 gulp.task('dist', ['dist-production']);
-gulp.task('dist-dev', ['webpack-dev', 'dist-metal', 'dist-sitemap']);
+gulp.task('dist-dev', ['webpack-dev', 'dist-sitemap']);
 gulp.task('dist-production', ['webpack-production', 'dist-sitemap']);
 
 gulp.task('dist-fonts', ['webpack']);
@@ -483,7 +483,7 @@ gulp.task('webpack-production', ['dist-metal'], function(callback) {
 });
 
 
-gulp.task('webpack-dev', function(callback) {
+gulp.task('webpack-dev', ['dist-metal'], function(callback) {
   process.env.NODE_ENV = 'development';
 
   var devWebpackConfig = generateWebpackConfig();
