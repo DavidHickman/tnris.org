@@ -42,7 +42,7 @@ var crossref = require('./metalsmith-crossref');
 var csv = require('./metalsmith-csv');
 var metadata = require('metalsmith-metadata');
 
-var webpackConfig = require('./webpack.config');
+var generateWebpackConfig = require('./generate-webpack-config');
 
 var production = false;
 var devServerPort = 8000;
@@ -485,7 +485,7 @@ gulp.task('clean-dist', function() {
 });
 
 gulp.task('webpack-production', ['dist-metal'], function(callback) {
-  var prodWebpackConfig = Object.create(webpackConfig);
+  var prodWebpackConfig = generateWebpackConfig();
   prodWebpackConfig.debug = false;
 
 	prodWebpackConfig.plugins = prodWebpackConfig.plugins.concat(
@@ -508,7 +508,7 @@ gulp.task('webpack-production', ['dist-metal'], function(callback) {
 
 
 gulp.task('webpack-dev', function(callback) {
-  var devWebpackConfig = Object.create(webpackConfig);
+  var devWebpackConfig = generateWebpackConfig();
   devWebpackConfig.devtool = "sourcemap";
   devWebpackConfig.debug = true;
 
@@ -521,7 +521,7 @@ gulp.task('webpack-dev', function(callback) {
 });
 
 gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
-  var devWebpackConfig = Object.create(webpackConfig);
+  var devWebpackConfig = generateWebpackConfig();
 	devConfig.devtool = "eval";
   devWebpackConfig.debug = true;
   devConfig.unsafeCache = ['.tmp'];
@@ -545,4 +545,3 @@ gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
 		winston.log("info", "webpack dev server started: http://localhost:8080/webpack-dev-server/index.html");
 	});
 });
-
