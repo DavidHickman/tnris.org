@@ -58,6 +58,10 @@ function generate(env) {
           loader: 'file?name=[path][name].[ext]'
         },
         {
+          test: /\/static\/js/i,
+          loader: 'ng-annotate'
+        },
+        {
           test: /\/bower_components\/.+\.svg/i,
           loader: 'file?name=[path][name].[ext]'
         },
