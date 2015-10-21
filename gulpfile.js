@@ -522,17 +522,17 @@ gulp.task('webpack-dev', function(callback) {
 
 gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
   var devWebpackConfig = generateWebpackConfig();
-	devConfig.devtool = "eval";
+	devWebpackConfig.devtool = "eval";
   devWebpackConfig.debug = true;
-  devConfig.unsafeCache = ['.tmp'];
+  devWebpackConfig.unsafeCache = ['.tmp'];
 
-  Object.keys(devConfig.entry).forEach(function (key) {
-    devConfig.entry[key].unshift('webpack-dev-server/client?http://localhost:8080');
+  Object.keys(devWebpackConfig.entry).forEach(function (key) {
+    devWebpackConfig.entry[key].unshift('webpack-dev-server/client?http://localhost:8080');
   });
 
 	// Start a webpack-dev-server
-	new WebpackDevServer(webpack(devConfig), {
-		contentBase: devConfig.output.path,
+	new WebpackDevServer(webpack(devWebpackConfig), {
+		contentBase: devWebpackConfig.output.path,
     watchOptions: {
       aggregateTimeout: 300,
       poll: 1000
