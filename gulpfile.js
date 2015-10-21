@@ -252,8 +252,8 @@ gulp.task('watch', function () {
 gulp.task('webserver', ['webpack-dev-server']);
 
 gulp.task('dist', ['dist-production']);
-gulp.task('dist-dev', ['dist-config', 'dist-fonts', 'dist-metal', 'dist-scss', 'dist-static', 'dist-sitemap']);
-gulp.task('dist-production', ['set-production', 'dist-dev', 'dist-sitemap']);
+gulp.task('dist-dev', ['dist-config', 'webpack-dev', 'dist-metal', 'dist-sitemap']);
+gulp.task('dist-production', ['set-production', 'webpack-production', 'dist-sitemap']);
 
 gulp.task('set-production', function () {
   production = true;
@@ -440,10 +440,6 @@ gulp.task('dist-metal', function () {
     .pipe(gulp.dest(dirs.tmp));
 });
 
-gulp.task('dist-scss', ['webpack']);
-
-gulp.task('dist-static', ['webpack']);
-
 gulp.task('dist-sitemap', ['dist-metal', 'sitemap-datadownload', 'sitemap-index'], function () {
   var sitemap_file = path.join(dirs.tmp, 'sitemap*.xml');
   return gulp.src(sitemap_file)
@@ -488,8 +484,22 @@ gulp.task('clean-dist', function() {
     .pipe(vinylPaths(del));
 });
 
-gulp.task('webpack', function(callback) {
-  webpack(webpackConfig, function(err, stats) {
+gulp.task('webpack-production', function(callback) {
+  var prodWebpackConfig = Object.create(webpackConfig);
+  prodWebpackConfig.debug = false;
+
+	prodWebpackConfig.plugins = prodWebpackConfig.plugins.concat(
+		new webpack.DefinePlugin({
+			"process.env": {
+				// This has effect on the react lib size
+				"NODE_ENV": JSON.stringify("production")
+			}
+		}),
+		new webpack.optimize.DedupePlugin(),
+		new webpack.optimize.UglifyJsPlugin()
+	);
+
+  webpack(prodWebpackConfig, function(err, stats) {
     if (err) {
       callback(err);
     }
@@ -498,19 +508,32 @@ gulp.task('webpack', function(callback) {
 });
 
 
-gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
-	var myConfig = Object.create(webpackConfig);
-	myConfig.devtool = "eval";
-	myConfig.debug = true;
-  myConfig.unsafeCache = ['.tmp'];
+gulp.task('webpack-dev', function(callback) {
+  var devWebpackConfig = Object.create(webpackConfig);
+  devWebpackConfig.devtool = "sourcemap";
+  devWebpackConfig.debug = true;
 
-  Object.keys(myConfig.entry).forEach(function (key) {
-    myConfig.entry[key].unshift('webpack-dev-server/client?http://localhost:8080');
+  webpack(devWebpackConfig, function(err, stats) {
+    if (err) {
+      callback(err);
+    }
+  });
+  callback();
+});
+
+gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
+  var devWebpackConfig = Object.create(webpackConfig);
+	devConfig.devtool = "eval";
+  devWebpackConfig.debug = true;
+  devConfig.unsafeCache = ['.tmp'];
+
+  Object.keys(devConfig.entry).forEach(function (key) {
+    devConfig.entry[key].unshift('webpack-dev-server/client?http://localhost:8080');
   });
 
 	// Start a webpack-dev-server
-	new WebpackDevServer(webpack(myConfig), {
-		contentBase: myConfig.output.path,
+	new WebpackDevServer(webpack(devConfig), {
+		contentBase: devConfig.output.path,
     watchOptions: {
       aggregateTimeout: 300,
       poll: 1000
