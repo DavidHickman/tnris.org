@@ -49,7 +49,7 @@ var Clipboard = require('clipboard/dist/clipboard.js');
       return actionMsg;
     }
 
-    var clipboard = new Clipboard('.btn', {
+    var clipboard = new Clipboard('.copy-url-btn', {
       target: function(trigger) {
         return trigger.parentElement.nextElementSibling;
       }
