@@ -1,17 +1,16 @@
 ---
 title: "Forum Poster Gallery & Contest"
-template: 2015-forum.html
+template: partials/2015-forum/2015-poster.html
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
 mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
 mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
 abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
-button: postergallery
-button_link: http://www.tnris.org/2015-gis-forum/poster-gallery#poster-submission
-button_text: Submit to the poster gallery
+intro: true
 body_class: poster-gallery
-sidebar: postersubmission
 ---
 # Forum Poster Gallery & Contest
+
+<div class="alert alert-warning" role="alert">The deadline for poster submissions has passed.</div>
 
 <p class="lead">The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:</p>
 

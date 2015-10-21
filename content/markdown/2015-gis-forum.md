@@ -5,9 +5,6 @@ subtitle: At the Intersection of Geography and Technology
 mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
 mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
 mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
-button: registration
-button_link: https://www.regonline.com/Register/Checkin.aspx?EventID=1725172
-button_text: Register Now
 intro: true
 abstract: Save the date for the Texas GIS Forum, the state's premier conference for the geospatial professional community.
 ---
@@ -24,25 +21,21 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <table class="table">
       <tr>
         <th></th>
-        <th>Sept. 26 - Oct. 16</th>
         <th>Onsite</th>
         <th>One Day</th>
       </tr>
       <tr>
         <td><strong>Government</strong></td>
-        <td>$275</td>
         <td>$300</td>
         <td>$185</td>
       </tr>
       <tr>
         <td><strong>Industry</strong></td>
-        <td>$325</td>
         <td>$350</td>
         <td>$200</td>
       </tr>
       <tr>
         <td><strong> Student</strong></td>
-        <td>$50</td>
         <td>$50</td>
         <td>$25</td>
       </tr>

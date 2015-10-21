@@ -1,6 +1,6 @@
 ---
 title: "3D Elevation Program (3DEP) for Fiscal Year 2016"
-template: news.html
+template: aroundthestate.html
 author: Joey Thomas, StratMap
 mainimage: static/images/updates/2015/3dep/3dep_main.jpg
 mainimagealt: Desired areas for 2016 3DEP acquisition

@@ -16,7 +16,20 @@
 
 <div class="row">
   <div class="col-xs-12">
-    {{contents|safe}}
+    <p>
+      This form is used to request pricing information and order data. The cost
+      will be based on the amount staff time and reproduction cost.
+    </p>
+    <p>
+      Please fill out all the information below and TNRIS staff will begin
+      processing your request. You will be sent a quote before any work begins.
+      After receiving the quote, you can proceed or cancel the order. Orders are
+      completed in 3-10 business days.
+    </p>
+    <p>
+      For other inquiries please use the <a href="{{m.link('contact')}}">general
+      contact form</a>.
+    </p>
   </div>
 </div>
 
@@ -33,7 +46,7 @@
           [
             'Digital Data',
             'Historical Imagery',
-            'LiDAR',
+            'Lidar',
             'Maps'
           ],
           true
@@ -99,9 +112,9 @@
         {% set is_digital = is_digital_data + " || " + is_historical_digital %}
           {{form.software_inputs(is_digital)}}
 
-        {% set is_lidar = "form_model['Type of Data'] == 'LiDAR'" %}
+        {% set is_lidar = "form_model['Type of Data'] == 'Lidar'" %}
           {{form.multi(
-              "LiDAR Data Format",
+              "Lidar Data Format",
               "Data Format",
               "checkbox",
               [
@@ -115,8 +128,8 @@
 
           <div class="form-group form-callout bg-warning" ng-show="{{is_lidar}}">
             <p>
-              <strong>Note:</strong> LiDAR data is often very large, and TNRIS can not offer digital downloads for datasets larger than 10GB. If the ordered dataset is larger than 10GB, you have the option of either providing a
-              factory-sealed hard drive (or multiple factory-sealed hard drives) or purchasing them at cost from TNRIS.
+              <strong>Note:</strong> Lidar datasets are often very large, and TNRIS cannot offer digital downloads for datasets larger than 10GB.
+              If the ordered dataset is larger than 10GB, you have the option of either providing a factory-sealed external hard drive (or multiple factory-sealed external hard drives) or purchasing them at cost from TNRIS.
             </p>
           </div>
 
@@ -129,7 +142,7 @@
           )}}
 
           {{form.multi(
-              "Data Delivery Hard Drive Option (if digital download is unavailable)",
+              "Data Delivery Hard Drive Option",
               "Data Delivery Hard Drive Option",
               "radio",
               [
@@ -140,36 +153,37 @@
               is_lidar
           )}}
 
+          {% set show_upload_aoi = '((' + is_historical_digital + ') || (' + is_lidar + '))' %}
           {{form.checkbox(
-              "LiDAR Site File",
-              "Site File",
-              "I have a file that contains the extent of the data I am requesting.",
+              "Area of Interest Boundary",
+              "Area of Interest Boundary File",
+              "I have a file that contains the extents of the data I am requesting.",
               false,
-              is_lidar
+              show_upload_aoi
           )}}
 
-          {% set has_site_file = "form_model['LiDAR Site File']" %}
-          <div ng-show="{{has_site_file|safe}}" class="ie-all-show">
+          {% set has_aoi_boundary = "form_model['Area of Interest Boundary']" %}
+          <div ng-show="{{has_aoi_boundary|safe}}" class="ie-all-show">
             <p class="text-info">
-              A TNRIS employee will contact you to get your site file.<br/>
-              In order to upload site files directly through this form, please update to a modern browser version. See <a href="http://browsehappy.com/" title="Browser upgrade information">http://browsehappy.com/</a> for assistance.
+              A TNRIS employee will contact you to get your area of interest file.<br/>
+              In order to upload area of interest files directly through this form, please update to a modern browser version. See <a href="http://browsehappy.com/" title="Browser upgrade information">http://browsehappy.com/</a> for assistance.
             </p>
           </div>
           {{form.uploadZip(
-            "Site File Upload",
+            "Area of Interest Upload",
             {
-              label: "Upload Site File",
+              label: "Upload Area of Interest Boundary File",
               help: "Select a zipped (.zip) Shapefile to upload. Maximum allowed file size is 20 MB."
             },
             false,
-            has_site_file
+            show_upload_aoi + ' && ' + has_aoi_boundary
           )}}
 
           {{form.textarea(
-              "LiDAR Description",
+              "Lidar Description",
               {
-                label: 'LiDAR Description',
-                help: "Description of the LiDAR data you are requesting."
+                label: 'Lidar Description',
+                help: "Description of the Lidar data you are requesting."
               },
               false,
               is_lidar

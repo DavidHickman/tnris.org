@@ -1,0 +1,202 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+html, body {
+font-family: 'Open Sans', sans-serif;
+height: 100%;
+width: 100%;
+min-width: 900px;
+}
+
+
+body.home {
+background: rgb(250,250,250);}
+
+#pageContainer {
+width: 960px;
+margin: 0 auto;
+height: 100%;
+background: white;
+padding: 20px;
+}
+
+#pageContainer.full {
+margin: 0;
+width: 100%;
+min-width: 100%;
+float: left;
+padding: 0;
+}
+
+ul {
+padding-left: 30px;
+list-style: disc;
+margin-bottom: 30px;
+}
+
+li {margin-bottom:  10px;}
+
+a {
+text-decoration: none;
+color: #3399cc;
+cursor: pointer;
+}
+
+p a {
+text-decoration: underline;}
+a:hover {
+color: #33ccff;
+}
+
+h1 {
+margin-bottom: 20px;
+font-weight}
+
+.home h1 {
+float: left;
+width: 600px;
+}
+
+#getStarted {
+float: right;
+width: 300px;
+background: #f2f2f2;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+}
+
+#getStarted a {
+width: 200px;
+background: #336600;
+padding: 20px;
+border-radius: 20px;
+clear: both;
+float: left;
+color: white;
+font-size: 20px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+#getStarted a:first-child {
+margin-bottom: 20px;}
+
+.home #logoContainer {
+float: left;
+}
+
+#logoContainer {
+padding-left: 20px;
+margin-bottom: 20px;}
+
+
+#logoContainer strong {
+text-transform: uppercase;
+font-size: 16px;
+}
+
+#leftContainer {
+font-size: 14px;
+width: 300px;
+padding: 20px 0;
+float: left;
+background: rgb(250,250,250);
+font-weight: bold;
+padding-bottom: 40px;
+border-right: 1px solid #f2f2f2;
+box-shadow: 2px 4px 7px #ccc;}
+
+#leftContainer h2 {
+padding: 0 20px;
+font-size: 16px;
+}
+
+#leftContainer ul {
+padding: 0;
+display: block;}
+
+#leftContainer li {
+border-bottom: 1px solid #ccc;
+border-top: 1px solid #fff;
+list-style: none;
+margin-bottom: 0;
+}
+
+#leftContainer li:last-child {
+border-bottom:  none;}
+
+#leftContainer li a {
+padding: 10px 20px;
+display: block;
+}
+
+#leftContainer li a:hover {
+background: rgb(220,220,220);
+color: #666}
+
+#leftContainer li a.current {
+background: rgb(220,220,220);
+color: #333;
+cursor: default
+}
+
+#mainContainer {
+margin-left: 330px;
+padding-right: 50px;}
+
+#mainContainer img {
+display: block;}
+
+#agencies, #acronyms, .legendImage {
+float: left;}
+
+
+
+#topBar {
+border-radius: 10px;
+padding: 10px;
+text-transform: uppercase;
+font-size: 24px;
+margin: 20px 0;
+float: left;
+display: block;
+width: 100%;	
+border: 1px solid #a8d3ff;
+background: #b5f0ff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #ffffff 39%, #b5f0ff 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(39%,#ffffff), color-stop(100%,#b5f0ff)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, #ffffff 39%,#b5f0ff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, #ffffff 39%,#b5f0ff 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, #ffffff 39%,#b5f0ff 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, #ffffff 39%,#b5f0ff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b5f0ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#pageNavButtons {
+float: right;
+width: 350px;
+font-size: 20px;
+font-weight: bold;
+text-transform:  none;
+line-height: 30px;
+}
+
+#pageNavButtons a {
+color: #006699;
+background: url(images/forwardback.png) 0 0 no-repeat;
+}
+
+a#back {
+float: left;
+background-position: 0 -30px;
+padding-left: 35px;
+
+}
+
+a#forward {
+float: right;
+background-position: right 0;
+padding-right: 35px;}

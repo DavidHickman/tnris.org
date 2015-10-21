@@ -143,9 +143,12 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System
 </h4>
 <em>Nicholas Villarreal, Graduate Intern/SMWI Project - Texas State University at San Marcos | Jennifer Jensen - Texas State University at San Marcos | Kristina Tolman - The Meadows Center for Water and the Environment</em>
+<<<<<<< HEAD
 <p><a href="#" data-toggle="modal" data-target=".modal-01"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a>
 </p>
 </div>
+=======
+>>>>>>> master
 </div>
 
 <div class="modal fade modal-01" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -868,6 +871,8 @@ Regional Online Geospatial Services for the Houston-Galveston Region
 </h4>
 <em>Brooks Andrews - Houston-Galveston Area Council of Governments</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-20"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+<em>Brooks Andrews, Houston-Galveston Area Council of Governments</em>
+>>>>>>> master
 </div>
 </div>
 
