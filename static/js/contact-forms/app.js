@@ -226,5 +226,5 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'vcRecaptcha', 'angu
 
 // note: using the named module pattern, load directives, services etc after
 // module has been instantiated
-require('./services/UploadService');
+require('./services/uploadService');
 require('./directives/progressbar');
