@@ -1,3 +1,5 @@
+require('jquery.storage/jquery.storage.js');
+
 (function goToConferenceTimeBlock(_now) {
   var now = _now || moment();
 

@@ -2,7 +2,7 @@
 
 
 {% block htmltag %}
- {% parent %} ng-app="dataDownloadApp"
+ {% parent %} ng-app="dataDownloadApp" ng-strict-di
 {% endblock htmltag %}
 
 {% block header %}
@@ -20,14 +20,10 @@
 {% block styles %}
   {% parent %}
 
-  <!-- build:css {{m.based('css/data-download.min.css')}} -->
-    <link rel="stylesheet" href="{{m.based('bower_components/selectize/dist/css/selectize.bootstrap3.css')}}"/>
-    <link rel="stylesheet" href="{{m.based('bower_components/angular-ui-select/dist/select.css')}}"/>
-    <link rel="stylesheet" href="{{m.based('css/data-download.css')}}">
-  <!-- endbuild -->
+  <link rel="stylesheet" href="{{m.based('data-download.css')}}"/>
 
   <!--[if lte IE 9]>
-    <script src="{{m.based('bower_components/xdomain/dist/xdomain.min.js')}}"
+    <script src="{{m.based('xdomain.js')}}"
               slave="//s3.amazonaws.com/tnris-datadownload/xdomain-proxy.html"></script>
   <![endif]-->
 
@@ -110,34 +106,7 @@
 
   <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.12/cartodb.js"></script>
 
-  <!-- build:js {{m.based('js/data-download-vendor.js')}} -->
-    <script type="text/javascript" src="{{m.based('bower_components/angular/angular.min.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('bower_components/angular-collection/angular-collection.min.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('bower_components/angular-sanitize/angular-sanitize.min.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('bower_components/angular-ui-router/release/angular-ui-router.min.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('bower_components/angular-ui-select/dist/select.min.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('bower_components/angulartics/dist/angulartics.min.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('bower_components/angulartics/dist/angulartics-ga.min.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('bower_components/leaflet-plugins/layer/tile/Bing.js')}}"></script>
-  <!-- endbuild -->
-
-  <!-- build:js {{m.based('js/data-download.min.js')}} -->
-    <script type="text/javascript" src="{{m.based('js/configApp.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/services/BrowserService.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/services/CartoService.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/services/DataService.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/services/MapService.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/services/CountyService.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/services/HistoricalAerialsService.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/directives/downloadMap.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/directives/mapControl.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/directives/resourceGroup.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/filters/titleizeFilter.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/controllers/dataDownloadCtrl.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/counties.js')}}"></script>
-    <script type="text/javascript" src="{{m.based('js/data-download/app.js')}}"></script>
-  <!-- endbuild -->
-
+  <script type="text/javascript" src="{{m.based('data-download.bundle.js')}}"></script>
 {% endblock scripts %}
 
 

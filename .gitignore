@@ -1,8 +1,8 @@
-.build/
 .dist/
 .tmp/
 .DS_Store
 .sass-cache/
-static/bower_components
+bower_components/
+build/
 node_modules
 npm-debug.log

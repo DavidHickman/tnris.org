@@ -384,7 +384,7 @@ h2.updates-header {
   padding-bottom: 60px;
 
   @media (min-width: $screen-sm) {
-    background: url(../images/statewide-orthoimagery/pivotpoints_bg.jpg) right bottom repeat-y $darkgrey;
+    background: url(../static/images/statewide-orthoimagery/pivotpoints_bg.jpg) right bottom repeat-y $darkgrey;
   }
 
   .lead {
@@ -757,7 +757,7 @@ h2.updates-header {
 }
 
 .qc-box {
-  background: url(../images/statewide-orthoimagery/qc_bg.jpg) 0 0 no-repeat $darkgrey;
+  background: url(../static/images/statewide-orthoimagery/qc_bg.jpg) 0 0 no-repeat $darkgrey;
   border-radius: 10px;
   color: white;
   margin-top: 20px;

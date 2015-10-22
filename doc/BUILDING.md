@@ -7,9 +7,6 @@ you're in the right place.
 
 First, make sure these things are installed:
 
- - ruby
- - sass (`gem install sass`)
- - scss-lint (`gem install scss-lint`)
  - nodejs
  - gulp (`npm install -g gulp`)
  - bower (`npm install -g bower`)
