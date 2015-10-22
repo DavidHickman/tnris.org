@@ -209,6 +209,8 @@ img.keynote-portrait {
     padding-bottom: 10px;
     width: 100%;
 
+
+
     &:last-child {
       border-bottom: none;
       margin-bottom: 0;
@@ -230,6 +232,11 @@ img.keynote-portrait {
 
   &.has-stars .media:not(.starred) {
     color: $middishgrey;
+
+    a {
+      color: $fadedblue;
+    }
+
   }
 
   button.star-btn {
@@ -342,4 +349,19 @@ img.keynote-portrait {
 
 .well-holl {
   background: url(../images/texas-gis-forum/2015/holl-bg.jpg) 0 0;
+}
+
+.modal-header.abstract {
+  background: $forum2015blue;
+  color: white;
+  padding-top: 10px;
+  
+  h4 {
+    font-size: 22px;
+  }
+
+  .close {
+    color: $white;    
+    opacity: .5;
+  }
 }
