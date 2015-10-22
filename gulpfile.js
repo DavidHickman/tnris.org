@@ -462,7 +462,7 @@ function checkWebpackErrors (err, stats) {
   if (err) {
     errors.breaking(err);
     process.exit(1);
-  } else if (stats.hasErrors) {
+  } else if (stats.hasErrors()) {
     errors.breaking(stats.toJson().errors);
     process.exit(1);
   }
