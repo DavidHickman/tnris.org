@@ -365,3 +365,51 @@ img.keynote-portrait {
     opacity: .5;
   }
 }
+
+.forum-thin-promo {
+  border-bottom: 5px solid $darkgrey;
+  display: block;
+  margin-top: -5px;
+  max-width: 100%;
+  min-height: 150px;
+  overflow: hidden;
+
+  img {
+    min-height: 150px;
+    position: relative;
+    min-width: 100%;
+
+    @media (min-width: $screen-sm) {
+      margin-left: -40%;
+    }
+    @media (min-width: $screen-md) {
+      margin-left: -25%;
+    }
+    @media (min-width: $screen-lg) {
+      margin-left: -20%;
+    }
+    @media (min-width: 1700px) {
+      margin-left: 0;
+    }
+  }
+}
+
+#index .forum-thin-promo, 
+#_2015-gis-forum .forum-thin-promo, 
+#_2015-gis-forum-agenda .forum-thin-promo,
+#_2015-gis-forum-training .forum-thin-promo,
+#_2015-gis-forum-poster-gallery .forum-thin-promo,
+#_2015-gis-forum-sponsors-and-exhibitors .forum-thin-promo,
+#_2015-gis-forum-job-board .forum-thin-promo {
+  display: none;
+}
+
+.closed-reg {
+  float: right; 
+  font-size: 14px;
+  width: 30%; 
+
+  @media (min-width: $screen-sm) {
+    font-size: 18px;
+  }
+}
