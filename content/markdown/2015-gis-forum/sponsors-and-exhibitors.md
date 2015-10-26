@@ -6,9 +6,6 @@ mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
 mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
 mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
 intro: true
-button: sponsors
-button_link: https://www.regonline.com/Register/Checkin.aspx?EventID=1717125
-button_text: Become a Forum Sponsor
 abstract: Partner with Texas's Premiere gathering for the Geospatial Professionals to reach your customers and your community.
 ---
 

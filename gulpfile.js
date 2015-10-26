@@ -333,7 +333,7 @@ gulp.task('dist-metal', function () {
           contentsKey: 'description',
           titleKey: 'class_title',
           additional: function (file) {
-            file.bodyClass = '2015-forum-training';
+            file.bodyClass = '_2015-forum-training';
             return file;
           }
         }))
