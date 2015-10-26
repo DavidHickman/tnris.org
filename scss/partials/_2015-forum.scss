@@ -367,9 +367,10 @@ img.keynote-portrait {
 }
 
 .forum-thin-promo {
-  border-bottom: 5px solid $darkgrey;
+  border-bottom: 5px solid $forum2015blue;
   display: block;
   margin-top: -5px;
+  margin-bottom: 15px;
   max-width: 100%;
   min-height: 150px;
   overflow: hidden;
@@ -394,13 +395,20 @@ img.keynote-portrait {
   }
 }
 
+#stratmap .forum-thin-promo,
+#training .forum-thin-promo,
+.data-spotlight .forum-thin-promo {
+  margin-bottom: 5px;
+}
+
 #index .forum-thin-promo, 
 #_2015-gis-forum .forum-thin-promo, 
 #_2015-gis-forum-agenda .forum-thin-promo,
 #_2015-gis-forum-training .forum-thin-promo,
 #_2015-gis-forum-poster-gallery .forum-thin-promo,
 #_2015-gis-forum-sponsors-and-exhibitors .forum-thin-promo,
-#_2015-gis-forum-job-board .forum-thin-promo {
+#_2015-gis-forum-job-board .forum-thin-promo, 
+._2015-forum-training .forum-thin-promo {
   display: none;
 }
 

@@ -22,7 +22,7 @@
     {% endblock styles %}
   </head>
 
-  <body {% if id %}id="{{id}}"{% endif %}>
+  <body {% if id %}id="{{id}}"{% endif %} {% if bodyClass %}class="{{bodyClass}}"{% endif %} >
     {% block fontload %}
       {% include "./partials/font-load.html" %}
     {% endblock fontload %}

@@ -6,6 +6,7 @@ author_division: Research & Distribution
 thumb: static/images/data-spotlights/morris-sheppard-dam-lidar-th.jpg
 mainimage: static/images/data-spotlights/morris-sheppard-dam-lidar-horiz.jpg
 fullimage: static/images/data-spotlights/morris-sheppard-dam-lidar.jpg
+bodyClass: data-spotlight
 ---
 
 ## What Are We Looking At?

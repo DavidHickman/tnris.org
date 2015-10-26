@@ -6,6 +6,7 @@ author_division: RDC
 thumb: static/images/data-spotlights/historical_year_final_th.jpg
 mainimage: static/images/data-spotlights/historical_year_final_horiz.jpg
 fullimage: static/images/data-spotlights/historical_year_final.jpg
+bodyClass: data-spotlight
 ---
 ## What are we Looking At?
 
