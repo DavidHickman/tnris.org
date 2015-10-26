@@ -331,7 +331,11 @@ gulp.task('dist-metal', function () {
           template: '2015-forum-training-entry.html',
           filenameKeys: ['class_title'],
           contentsKey: 'description',
-          titleKey: 'class_title'
+          titleKey: 'class_title',
+          additional: function (file) {
+            file.bodyClass = '2015-forum-training';
+            return file;
+          }
         }))
         .use(metadata({
           variables: 'variables.yaml'
