@@ -254,3 +254,5 @@ var _counties = {
   48505: 'Zapata',
   48507: 'Zavala'
 };
+
+module.exports = _counties;

@@ -15,8 +15,7 @@
   {{form.scripts()}}
 
   <script src="//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js"></script>
-  <script src="{{m.based('bower_components/jquery.storage/jquery.storage.js')}}"></script>
-  <script src="{{m.based('js/2015forum.js')}}"></script>
+  <script src="{{m.based('2015forum.bundle.js')}}"></script>
 {% endblock scripts %}
 
 
@@ -48,7 +47,7 @@
         {% if button %}
         <a class="btn btn-lg btn-danger pull-right" href="{{ button_link}}"><i class="glyphicon glyphicon-hand-right"></i> {{ button_text }}</a>
         {% else %}
-          <p style="float: right; width: 30%; font-size: 18px;"><em><strong>Online Registration is now closed.</strong> On-site registration will be available at the Conference starting Wednesday morning.</em></p>
+          <p class="closed-reg"><em><strong>Online Registration is now closed.</strong> On-site registration is available at the Conference starting Wednesday morning.</em></p>
         {% endif %}
         <p class="lead">
           {{ abstract }}

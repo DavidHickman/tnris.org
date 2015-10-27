@@ -6,6 +6,7 @@ author_division: Information Services
 thumb: static/images/data-spotlights/bexar-38-downtown-th.jpg
 mainimage: static/images/data-spotlights/bexar-38-downtown-horiz.jpg
 fullimage: static/images/data-spotlights/bexar-38-downtown.jpg
+bodyClass: data-spotlight
 ---
 ## What are we Looking At?
 </p>This is an aerial photo taken in 1938 of downtown San Antonio, and is part of the Bexar County 1938 Historical Imagery aerial photos.</p>
