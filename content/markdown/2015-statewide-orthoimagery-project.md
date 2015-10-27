@@ -9,13 +9,13 @@ status_image: 20150724_base.jpg
 status_image_preview: 20150724_base_sm.jpg
 status_image_buyup: 20150724_buyups.jpg
 status_image_buyup_preview: 20150724_buyups_sm.jpg
-production_image: 20150911_production.jpg
-production_image_preview: 20150911_production_sm.jpg
+production_image: 20151016_production.jpg
+production_image_preview: 20151016_production_sm.jpg
 doqq_image: 20151013_doqq_availability.jpg
 doqq_image_preview: 20151013_doqq_availability_sm.jpg
 ccm_image: 20151013_ccm_availability.jpg
 ccm_image_preview: 20151013_ccm_availability_sm.jpg
-latest_report: Weekly_Status_Report_091115_A.pdf
+latest_report: Weekly_Status_Report_101615_A.pdf
 status_date: October 16th, 2015
 updates:
 - The status of the 0.5 meter imagery acquired in Season-1 is 100% complete, 99% in Season-2, 89% in Season-3, 33% in Season-4 and 91% Statewide.
