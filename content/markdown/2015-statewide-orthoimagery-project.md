@@ -9,8 +9,8 @@ status_image: 20150724_base.jpg
 status_image_preview: 20150724_base_sm.jpg
 status_image_buyup: 20150724_buyups.jpg
 status_image_buyup_preview: 20150724_buyups_sm.jpg
-production_image: 20150911_production.jpg
-production_image_preview: 20150911_production_sm.jpg
+production_image: 20151016_production.jpg
+production_image_preview: 20151016_production_sm.jpg
 doqq_image: 20151013_doqq_availability.jpg
 doqq_image_preview: 20151013_doqq_availability_sm.jpg
 ccm_image: 20151013_ccm_availability.jpg
