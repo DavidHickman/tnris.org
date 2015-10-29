@@ -1422,7 +1422,7 @@ The only real option is complicated latitude and longitude coordinate pairs, whi
 </div>
 
 <div class="row">
-<div class="col-sm-3 col-md-2 time-block" id="DayTwo_1330">
+<div class="col-sm-3 col-md-2 time-block" id="DayTwo_1530">
 3:30 - 4:00 p.m.
 </div>
 <div class="col-sm-9 col-md-10">
