@@ -13,14 +13,6 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 <p class="lead-forum">
 Note: Agenda and speakers subject to change without notice.
 </p>
-<div class="well well-md personalize-agenda">
-<p class="lead-forum"><strong>Personalize Your Agenda!</strong><br>
-Click the star <i class="glyphicon glyphicon-star"></i> next to the presentations you want to highlight. Unstarred presentations will be greyed out.</p>
-<div class="checkbox">
-<input type="checkbox" class="show-starred-check" id="show-starred-check">
-<label for="show-starred-check">Show Only My Starred Presentations</label>
-</div>
-</div>
 
 <div class="agenda-full">
 <div class="row">
@@ -154,7 +146,7 @@ Assessing The Utility Of Pixel-based And Object-based Classification Methods For
      <div class="modal-header abstract">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4>Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System</h4>
         </div>
-       <div class="modal-body"> 
+       <div class="modal-body">
          <p>Wetlands maintain critical ecological processes that enhance water quality, support diverse habitat, and provide several other environmental services. Constructed and restored wetlands attempt to mitigate the loss of natural wetlands, improve water quality, meet water supply demands, and support wildlife habitat. </p>
         <p>The 5,762 ha Richland Creek Wildlife Management Area located near Palestine, Texas, features a constructed wetland that covers nearly 900 ha and supports a variety of amphibians, invertebrates, migratory birds, and waterfowl. The wetland system incorporates five sediment basins and 20 inundated cells. As 95% effluent water from the Trinity River flows cell-to-cell, clay substrate and vegetation absorb phosphorus, nitrogen, and other nutrients, which improves water quality before it is returned to the Trinity River. The importance of annual areal vegetation coverage estimates are indicated by the cell-to-cell spatial diversity of vegetation, which fluctuate by abundance, age, and species. Mapping vegetation is essential to evaluate the biodiversity, overall health, and success of the restored wetland system. </p>
        <p>In Fall 2014, Meadows Center for Water and the Environment used an unmanned aerial vehicle to collect high-resolution imagery (18 cm) of the wetland cells. Ground truth data, including species composition denoted by point, transect, and polygon units, were collected using Trimble Geo XH units to ensure accurate geo-location. Imagery was processed with Agisoft’s Photoscan and ArcGIS software. Using ground truth data, estimated vegetation cover was classified using two approaches: a supervised pixel-based method completed with ERDAS Imagine and an object-based classification using eCognition Developer. </p>
@@ -186,13 +178,13 @@ Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources
 <div class="modal fade modal-02" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System</h4>
       </div>
         <div class="modal-body">
-        <p>In the world of oil and gas exploration the land surface is subjected to change with the addition of new roads and drilling rigs that dot the landscape.  The rapid change can negatively affect the environment and ground water resources as well as have an impact on land and mineral ownership issues.  Updating a GIS database to reflect the latest changes in an area of resource exploration can be challenging using manual methods. </p> 
+        <p>In the world of oil and gas exploration the land surface is subjected to change with the addition of new roads and drilling rigs that dot the landscape.  The rapid change can negatively affect the environment and ground water resources as well as have an impact on land and mineral ownership issues.  Updating a GIS database to reflect the latest changes in an area of resource exploration can be challenging using manual methods. </p>
 
         <p>Remote sensing using multiple dates of NAIP imagery from the Texas Natural Resources Information System allows for accurate change detection to help monitor the new additions of roads and drilling sites.  This presentation describes a workflow used to prepare image data, detect new change, and output update features as a vector data set.  By monitoring change in this way, GIS databases can be kept up to date in areas where there is rapid change.</p>
         <hr>
@@ -225,12 +217,12 @@ UAV Solutions Using Remote Sensing and Photogrammetry Applications
 <div class="modal fade modal-03" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>UAV Solutions Using Remote Sensing and Photogrammetry Applications</h4></div>
         <div class="modal-body">
-          <p>The Unmanned Aerial Vehicles (UAV) market is blowing up in the North America, especially with more lenient US FAA regulations already undergoing comment, which means positive changes are imminent. The need exists for a UAV solution to process the image data using Remote Sensing and Photogrammetry applications with possible service to a web client.  Hexagon Geospatial has the technology to put together the complete solution from hardware to the internet from one single vendor.</p> 
+          <p>The Unmanned Aerial Vehicles (UAV) market is blowing up in the North America, especially with more lenient US FAA regulations already undergoing comment, which means positive changes are imminent. The need exists for a UAV solution to process the image data using Remote Sensing and Photogrammetry applications with possible service to a web client.  Hexagon Geospatial has the technology to put together the complete solution from hardware to the internet from one single vendor.</p>
         <p>In this session we will discuss some of the problems to overcome with these UAV solutions and show many different ways of producing value added data from these UAV’s. Currently in the US you need a pilot license and a certificate of Authorization or 333 to fly in accordance to the FAA.  With basic rules in the US being flying under 400 feet, 5 miles from any airspace and line of sight of the UAV must be less than 1 mile. Attend this session and become more equipped to handle the UAV solution explosion.</p>
         <hr>
 <p><strong>Presenter Bio:</strong><br><em>Joe Mostowy</em> has been with Hexagon Geospatial (formerly ERDAS Inc.) for over fifteen years working in various positions in technical sales, marketing and product management roles.  He is currently a Senior Software Consultant for geospatial products specializing in UAV and Photogrammetry. Joe has been a technical liaison across departments engineering solutions to support sales efforts, for clients and ensuring engineering is receiving the proper requirements.  Joe holds a Bachelor of Arts in Geography and Psychology from Lakehead University in Thunder Bay Ontario along with an Advanced Diploma in Remote Sensing/GIS from COGS in Lawrencetown, Nova Scotia, Canada.</p>
@@ -271,10 +263,10 @@ Innovative Public Health Care GIS Applications
     <div class="modal-content">
 
      <div class="modal-header abstract">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Innovative Public Health Care GIS Applications</h4></div>
         <div class="modal-body">
-<p>The potential to apply Geographic Information System (GIS) technologies across the public health care field is enormous and just beginning to reap significant benefits.  Health care focused GIS applications require the integration and analysis of diverse, updated, and (at times) proprietary data from such fields as: health, finance, education, sociology, environment, geography, and informatics.</p> 
+<p>The potential to apply Geographic Information System (GIS) technologies across the public health care field is enormous and just beginning to reap significant benefits.  Health care focused GIS applications require the integration and analysis of diverse, updated, and (at times) proprietary data from such fields as: health, finance, education, sociology, environment, geography, and informatics.</p>
 
        <p>There is a genuine need to define and map the accessibility to community health resources or assets (i.e., health facilities, education, recreation, transportation, and shopping [i.e., food, medicine, etc.]) and conduct associated spatial gap analyses and ranking. In support of these gap analyses, GIS has also recently been effectively applied to map and expose such community health related disparities as food, medicine, and play “deserts”. </p>
 
@@ -311,9 +303,9 @@ Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data
 <div class="modal fade modal-05" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data Points for Accurate Call Routing</h4>
       </div>
         <div class="modal-body"><p>This session presents an overview of address point creation and enhancement projects, with a focus on NG9-1-1 data development.  The session will cover NG9-1-1 GIS data model compliancy, point placement and best practices for address point management.  An overview of the New York Street Address Mapping (SAM) project will also provide 9-1-1 agencies with the information they should know before beginning an address point project. Topics include: NG 9-1-1 GIS Data Model Compliancy; Address Point Creation Best Practices; Planning ahead for a large scale address point project; Address Points use in Geospatial routing</p>
@@ -347,12 +339,12 @@ GIS at the Wimberley Flash Flood Disaster
 <div class="modal fade modal-06" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>GIS at the Wimberley Flash Flood Disaster</h4>
       </div>
-        <div class="modal-body"><p>GIS has become an essential element of all types of emergency response at all levels of government (and the private sector): Federal, State and Local. Through a Common Operating Picture (COP), a GIS-based status display is shown through a web map viewer, where a variety of relevant information can be tracked, displayed and queried in real time, from any location.     
+        <div class="modal-body"><p>GIS has become an essential element of all types of emergency response at all levels of government (and the private sector): Federal, State and Local. Through a Common Operating Picture (COP), a GIS-based status display is shown through a web map viewer, where a variety of relevant information can be tracked, displayed and queried in real time, from any location.
           <p>In addition, information that is collected in the field by Search &amp; Rescue teams can be instantly integrated into the COP, allowing for those in the Incident Command Post to evaluate the information and dispatch resources such as K9 or helicopter crews to a specific location. </p>
 
           <p>The evolution of GIS for the Wimberley response from paper maps, to simple web map viewer (COP), to field Collector app and eventually to an Operations Dashboard showing all relevant response information and metrics will be discussed.     (TNRIS provided valuable support to the response by creating a river system layer that was used to create SAR search zones.)</p>
@@ -427,11 +419,11 @@ Development of a Binational Geospatial Decision Support System to Protect Water 
       <div class="modal-header abstract"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software</h4>
       </div>
-     <div class="modal-body">     
+     <div class="modal-body">
         <p>Assessments of water quality in the Lower Rio Grande downstream of Falcon Reservoir have identified a number of persistent water quality problems in this important transboundary river, including high levels of fecal bacteria and increasing salinity levels.</p>
         <p>In 2013, realizing the need to address water quality concerns in the river in an integrated fashion, the governments of the US and Mexico created a binational forum for cooperation and information exchange under the auspices of the International Boundary and Water Commission.  The effort, known as the Lower Rio Grande/Río Bravo Water Quality Initiative (LRGWQI), is a pilot project designed to establish binational mechanisms to protect water quality in the river.</p>
         <p>Among the technical goals of the LRGWQI is the modeling of pollutant loadings and instream water quality in the river, including simulation of scenarios associated with changing population, infrastructure and management practices.</p>
-        <p>In order to facilitate binational decision making associated with this cooperative technical effort, UT’s Bureau of Economic Geology, in collaboration with the UT’s LBJ School of Public Affairs, developed a geospatial decision support system in Python. The GIS functionalities are enabled using the Python-based Application Programming Interface of QGIS, an open source GIS software. SQLite, a serverless, self-contained database system is used for managing user-specified and system configuration data.</p> 
+        <p>In order to facilitate binational decision making associated with this cooperative technical effort, UT’s Bureau of Economic Geology, in collaboration with the UT’s LBJ School of Public Affairs, developed a geospatial decision support system in Python. The GIS functionalities are enabled using the Python-based Application Programming Interface of QGIS, an open source GIS software. SQLite, a serverless, self-contained database system is used for managing user-specified and system configuration data.</p>
         <p>We present the principal capabilities and features of the LRGWQI DSS, discuss some of the challenges we encountered using the QGIS software to develop the application and present some of the modifications and additions we are currently incorporating into the system.</p>
 
         <hr>
@@ -465,11 +457,11 @@ GIS Lessons: Learning to Query and Code with the CartoDB Academy
 <div class="modal fade modal-08" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>GIS Lessons: Learning to Query and Code with the CartoDB Academy</h4></div>
-        <div class="modal-body"><p>Maps provide us with some of the most intuitive ways to represent data visually, principally because they provide a way to rectify our physical locality with some digital and data-dense topography; they help us build narrative with relevant geolocation and let us tell trends with data on a geospatial-sensitive canvas. Learning how to make compelling maps with your own data is a a non-trivial endeavor, involving a concatenation of expertise and technical aptitudes with specialty tools that might be obscure to new mappers, and limits the community as a result.</p> 
+        <div class="modal-body"><p>Maps provide us with some of the most intuitive ways to represent data visually, principally because they provide a way to rectify our physical locality with some digital and data-dense topography; they help us build narrative with relevant geolocation and let us tell trends with data on a geospatial-sensitive canvas. Learning how to make compelling maps with your own data is a a non-trivial endeavor, involving a concatenation of expertise and technical aptitudes with specialty tools that might be obscure to new mappers, and limits the community as a result.</p>
         <p>At CartoDB (http://cartodb.com/), we have a series of open source projects to augment the GIS learning experience, with Academy (http://academy.cartodb.com/), our "code academy" for GIS, or our Trainings repository (http://cartodb.github.io/training/), a place to share lessons and workshops and submit events to a collaborative calendar.    We'll talk about the future of education for digital geographers, and how partnering with curriculum producers has fostered a supportive community of stellar mappers across domains. Join us to learn about how we do it, and how you can help!</p>
         <hr>
         <p><strong>Presenter Bio:</strong><br><em>Andy Eschbacher</em> is a physicist turned educator turned map scientist. At CartoDB he wears many hats. From finding out how to make web maps more scientific with hacks on open source software, to developing educational content, to sharing and learning from the diverse online mapping community, he and his colleagues keep very busy.</p>
@@ -500,9 +492,9 @@ Open Source Software Education in Texas
 <div class="modal fade modal-09" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Open Source Software Education in Texas</h4></div>
         <div class="modal-body"><p>There is a growing movement in the Texas GIS community to use open source application software, such as QGIS, to implement spatial solutions for governments and businesses.  Until recently, there were only a few rare options available for learning FOSS4G in an educational setting. As the result of a recent Department of Labor TAACCCT grant, there now exists an entire 5 course curriculum available to learners anywhere via the Internet to learn the latest version of QGIS.  This session will explore this curriculum and examine learning opportunities for professionals seeking knowledge and training in FOSS4G.</p>
         <hr>
@@ -543,9 +535,9 @@ Augmented Reality for Hidden Assets
 <div class="modal fade modal-10" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Augmented Reality for Hidden Assets</h4></div>
         <div class="modal-body"><p>Every utility and government has millions invested in buried and/or hidden assets.  With the advancement of GIS we have more accurate location and information on these assets than ever before.  However, still in the field, the assets can be hidden by snow, vegetation, or even purposely in people’s property for aesthetics.  Additionally, despite accurate data, helping the field workers to find the right asset can be challenging, causing repairs and replacements to happen on the wrong assets.</p>
         <p>Technology has made another leap that can help, Augmented Reality.  We will introduce you to a new technology solution that can empower your field workers ‘in the last mile’ to find the correct hidden asset, plan their job, and effectively save time and effort.  We will also discuss how you can implement this into your organization.  Additionally, we will discuss the rapidly changing field of augmented reality and what the future might hold.  Augmented Reality is no longer a subject of science fiction and superhero movies.  It is here and available to improve all of our day to day jobs!</p>
@@ -580,9 +572,9 @@ VOICE - Virtual Online Inspection Checking and Editing
 <div class="modal fade modal-11" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>VOICE - Virtual Online Inspection Checking and Editing</h4></div>
         <div class="modal-body"><p>There are many situations in which users, who may be vastly distributed geographically, require fast interactive access to large geospatial datasets.  These datasets are often comprised of high resolution imagery and LiDAR data.  A traditional approach for providing these products to users involves shipping hard drives which often results in long wait times.  This method is less than ideal since it exposes users to the potential risk of data versioning conflicts.</p>
         <p>Now, there have been several advances in cloud computing and new research in algorithms for managing large volumes of data.  Fusing these two enhancements together provides a practical, reliable and convenient alternative to the distribution of these datasets, while reducing the process friction of the traditional approach.  In this talk, we will outline how such solutions are developed using real-life examples drawn from the need to collaboratively and interactively assess the quality of both imagery and LiDAR data.</p>
@@ -613,14 +605,14 @@ Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways
 <div class="modal fade modal-12" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways</h4></div>
         <div class="modal-body"><p>With an approximate population of 6,500 people and 50 miles of roadway, the City of Fair Oaks Ranch is a rapidly growing community situated in the Texas Hill Country. The City has been running a Roadway Maintenance and Repair Program since 1998. All of the City roads are treated with a Chip Seal procedure on an eight (8) year cycle making proper planning and record keeping critical. This program was largely operated from a spreadsheet and blank maps with highlighted roads to communicate project areas to contractors.</p>
         <p>In 2015, the City incorporated AutoCAD and GIS in order to accurately convey this year's project area to the Chip Seal contractor. Furthermore, a program to catalog manhole covers in the project area was implemented to protect them from an inadvertent seal. A Trimble Geolocation Device was utilized to collect data on each manhole cover to be uploaded into the City's GIS system. With the utilization of these technologies, a more accurate estimation of material requirements was completed, resulting in a savings of over $16,000 for the City. This work flow process will continually be implemented for many years of Roadway Maintenance to come.</p>
 <hr>
-<p><strong>Presenter Bios:</strong><br><em>Adrian Garcia</em> has been an employee at the City of Fair Oaks Ranch since July 2014. He holds the inaugural office of Engineer in Training for the City. He received his Bachelor of Science in Mechanical Engineering at the University of Texas - Pan American in Edinburg, TX. He strives to introduce new technologies in the City to protect the quality of life for the residents.</p> 
+<p><strong>Presenter Bios:</strong><br><em>Adrian Garcia</em> has been an employee at the City of Fair Oaks Ranch since July 2014. He holds the inaugural office of Engineer in Training for the City. He received his Bachelor of Science in Mechanical Engineering at the University of Texas - Pan American in Edinburg, TX. He strives to introduce new technologies in the City to protect the quality of life for the residents.</p>
 <hr>
 <p><em>Ernie Martinez</em> has been an employee at the City of Fair Oaks Ranch since December 2008. He began his career at the City as a Water/Wastewater operator. He began immersing himself in GIS in 2013 with zero background experience. He continues to raise GIS awareness within the City which is now a far cry from the program’s fledgling beginnings. He is interested in incorporating new technologies for innovative data acquisition and analysis for efficient work flow and decision making within the City.
 </p>
@@ -674,9 +666,9 @@ The History of Texas is Under Your Feet and at Your Fingertips
 <div class="modal fade modal-13" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>The History of Texas is Under Your Feet and at Your Fingertips</h4></div>
         <div class="modal-body"><p>On June 2nd, the USGS Texas Water Science Center released the new Texas Geology Web Map Viewer.  The map viewer is an interactive web-based tool that allows a broad range of users to explore the geology of the Lone Star State at a scale of 1:250,000. Users can navigate the map with a simple click-and-point tool, or by using the location search tool to find common geographic place names, latitude/longitude coordinates and other areas of interest. The interactive map viewer allows users to turn data layers on or off, identify layers of interest and retrieve detailed information about each geologic formation, such as the feature name, geologic age and feature description. The web map viewer is the third generation in this series of Texas geologic mapping products, which is intended to provide data to a broad range of users interested in exploring the geology of Texas.</p>
         <p>In October 2002, the USGS Texas Water Science Center, in cooperation with the Texas Natural Resources Information System, embarked on a project to digitize all 38 Geologic Atlas of Texas hardcopy map sheets (UT-Bureau of Economic Geology) and compile them into a single, stand-alone database. Completed in 2007, the project resulted in a rich, digital dataset containing more than 145,000 geologic features in Texas and portions of neighboring states.  The presentation will cover the entire life cycle of the project from data production, to application development and the use of social media outreach tools, as well as the public response</p>
@@ -707,9 +699,9 @@ Building the Next Generation Water Data Viewer - Water Data Interactive (WDI)
 <div class="modal fade modal-14" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-    
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Building the Next Generation Water Data Viewer - Water Data Interactive (WDI)</h4></div>
          <div class="modal-body"><p>Our new application hosted on Amazon EC2 makes use of ArcGIS server to surface restful endpoints using query layers that point to data hosted on SQL Server 2012 in spatially enabled views.  The new user interface takes advantage of Bootstrap to provide a user interface that is responsively designed and works on devices of any form factor.
         <p>Great care was taken to build an application that is light on the wire. This has been achieved by optimizing the data that is downloaded within the application and also optimizing our code using ESRI’s Javascript Web  Optimizer.   The presentation will highlight how we addressed the pain points we experienced in our development of this application.</p>
@@ -746,9 +738,9 @@ Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGISServer
 <div class="modal fade modal-15" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGIS Server, WMS &amp; WFS Cross-Platform Compatibility</h4></div>
         <div class="modal-body"><p>The technology group at Drillinginfo, Inc. which includes GIS, Data Dev and IT/CM, has undertaken an effort to provide its customers with a rich set of map and geoprocessing services.  The big opportunity and also the great challenge lies in supporting a variety of O&G industry-standard applications with varying spatial service connection capabilities. This effort dictates that Drillinginfo support both ESRI proprietary protocols as well as Open Source (OGC) protocols within this diverse set of applications.</em>
         <p>Additionally, each application has its own set of challenges with regard to various supported modes of authentication. This presentation will dive into some of the technical hurdles and architecture decisions made to support such a diverse offering. Additionally, this presentation will speak to how the company has partnered with application vendors and clients to achieve successful technical integration. As the GIS industry increasingly ventures into the new managed API economy, this talk will provide valuable insight about hosting spatial web services for integration into non-ESRI-based applications.</p>
@@ -794,9 +786,9 @@ Google's Imagery Program
 <div class="modal fade modal-16" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Google's Imagery Program</h4></div>
         <div class="modal-body"><p>Attendee's will learn about Google's Ortho Imagery program, proposed refresh schedules, technologies used to deliver and future enhancements.  In addition to this we will cover SkyBox and the exciting capabilities it will bring to our customers.</p>
 <hr>
@@ -828,9 +820,9 @@ TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 <div class="modal fade modal-17" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide</h4></div>
         <div class="modal-body"><p>In developing TxCoasts.com, we utilized existing in-house expertise and tools to create a self-contained, dynamic, interactive, and platform-agnostic Web application. We faced numerous decision points during development that shaped the overall project.  This presentation will highlight some of the challenges and the team that worked on the project.</p>
 
@@ -942,9 +934,9 @@ Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in 
 <div class="modal fade modal-18" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection</h4></div>
         <div class="modal-body"><p>Large scale mapping data across the City of Lubbock are enabling rapid semi-automated analysis and determination of likely areas of change in urban development for the purposes of quantifying and updating building footprints.</p>
         <p>This paper/presentation outlines the City-wide approach used to generate change detection features for targeted feature data update of the City’s vector building feature coverage.  In this change detection application, vast amounts of point cloud data were ingested, created, and processed to apply change detection techniques.  Change detection analysis relied on modelling differences in elevation between existing LiDAR (2010) and new aerial imagery (2015).</p>
@@ -979,9 +971,9 @@ Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to 
 <div class="modal fade modal-19" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User</h4></div>
         <div class="modal-body"><p>Recently commercialized, Geiger Mode Avalanche Photodiode (GmAPD) technology provides significant gains in efficiency for airborne LiDAR mapping over the linear mode sensors available on the market today. Along with this dramatic leap in technology comes the need to educate end-users on what to expect from data collected with this new sensor and the impact on current LiDAR workflows.</p>
         <p>This presentation will compare data from GmAPD LiDAR against “traditional” linear mode LiDAR data in the same geographic area and discuss the potential impact of this technology on the user community. Topics to be covered include 1) Overview of the test data 2) Visual comparisons of data in the same geographic area using both “traditional” and GmAPD LiDAR 3) Data quality and accuracy test results 4) Workflow modifications necessary to adapt to GmAPD technology.</p>
@@ -1014,12 +1006,12 @@ Innovations - Changing the way Lidar is Used
 <div class="modal fade modal-20" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Innovations - Changing the way Lidar is Used</h4>
         </div>
-        <div class="modal-body"><p>Lidar innovation continues even with twenty years of proven results and wide acceptance. Recently, the introduction of Photon lidar including single photon lidar (SPL) and Geiger Mode lidar, multi-spectral lidar sensors and advances in coupled sensor continue to provide an innovative evolution to this ever changing technology. The presentation will discuss the new introduced technologies, the uses of the changing data types as it relates to innovations in software.</p> 
+        <div class="modal-body"><p>Lidar innovation continues even with twenty years of proven results and wide acceptance. Recently, the introduction of Photon lidar including single photon lidar (SPL) and Geiger Mode lidar, multi-spectral lidar sensors and advances in coupled sensor continue to provide an innovative evolution to this ever changing technology. The presentation will discuss the new introduced technologies, the uses of the changing data types as it relates to innovations in software.</p>
         <p>The coupling of lidar sensors with other remote sensor provide additional benefits to consumers of lidar data and these sensors and the results the data will be presented. lastly,Methods of calibration, processing and extraction will also be discussed as they relate to the end users will be presented.</p>
 <hr>
 <p><strong>Presenter Bio:</strong><br><em>James Wilder Young C.P.(Jamie)</em> is currently a Sensor Geomatics Technologist for Merrick &amp; Co. located in Greenwood Village, Colorado. His experience includes all aspects of LiDAR including sensor development, applications development, data acquisition, data processing and project management.</p>
@@ -1058,7 +1050,7 @@ Regional Online Geospatial Services for the Houston-Galveston Region
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
      <div class="modal-body">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Regional Online Geospatial Services for the Houston-Galveston Region</h4>
       </p>
 </p>
@@ -1091,11 +1083,11 @@ The Information Commons: Cloud-Based GIS
 <div class="modal fade modal-22" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-    
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>The Information Commons: Cloud-Based GIS</h4></div>
-         <div class="modal-body"><p>With the emergence and rapidly evolving nature of easily accessible web-based GIS technology, there is world-wide phenomena of cartographic "commoning" occurring. In our information-driven world, the traditional notion of "the commons" as a public spaces and shared resources has evolved in many ways away from the analog world.</p> 
+         <div class="modal-body"><p>With the emergence and rapidly evolving nature of easily accessible web-based GIS technology, there is world-wide phenomena of cartographic "commoning" occurring. In our information-driven world, the traditional notion of "the commons" as a public spaces and shared resources has evolved in many ways away from the analog world.</p>
 <p>Maps, and emerging technologies that put maps in the hands of people, has become the bridge between physical space and technology-driven discourse. Amateur map makers and professionals in non-GIS related fields are breaking the boundaries of conventional GIS practice and creating a movement of people-generated information visualization and data sharing with the capacity to move beyond conventional understandings of geographic information systems while creating large resources of crowd-generated knowledge. </p>
 <p>While some may argue that this notion of a popular mapping culture in some ways dilutes the integrity of geographic science, in reality, fully featured GIS platforms such as CartoDB allow for the once fortified barriers of communication between the science community and people to be softened in ways that rethink how all aspects of data and information science are projected on the mainstream stage. The new geographic paradigm that emerges from this discourse blurs the boundaries between siloed professions such as science and mainstream data uses and communication. Moving forward, we must illuminate the possibilities of a vibrant information commons built on access to maps and information.</p>
 
@@ -1128,9 +1120,9 @@ Modern Web Mapping for Local Governments Delivers Insights into Performance Metr
 <div class="modal fade modal-23" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Modern Web Mapping for Local Governments Delivers Insights into Performance Metrics, Patterns of Change &amp; Distribution of Resources</h4></div>
         <div class="modal-body"><p>Local governments are faced with increasing citizen demands for transparency and accountability. The challenge lies in effectively distributing and presenting diverse information on the services, resources, events and decisions that are shaping the local landscape. While publicly accessible, such information is often scattered across multiple sources and disconnected web pages.</p>
         <p>This presentation will demonstrate how mapping applications can coalesce these disparate sources, providing new views and insights into performance metrics, patterns of change and distribution of resources. The results are higher engagement of residents and visitors, promotion and greater efficiency of government services, and resources for business investment and development decisions.</p>
@@ -1202,11 +1194,11 @@ Nikki Golding – Solution Lead, State Government
 <div class="modal fade modal-24" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>3D Modeling of the City of Temple Landfill</h4></div>
-        <div class="modal-body"><p>The primary program I used to create the 3D Model was ESRI's ArcScene 10.0. The Engineering Department at Waste Management provided a number of CAD files showing the topography of the landfill's liner (the bottom), the current level (as of Feb 2014), and the finished grade once the landfill is full. I exported the data into a file geodatabase so I could edit the shapes. Because the CAD files included the topography for the entire property, I had to clip out the areas not relevant to the landfill cell boundaries itself. I then converted each feature into a TIN and using the Delineate TIN Data Area tool, I was able to remove areas along the perimeter with edge lengths that were too long along the outside edges of the landfill area.</p> 
+        <div class="modal-body"><p>The primary program I used to create the 3D Model was ESRI's ArcScene 10.0. The Engineering Department at Waste Management provided a number of CAD files showing the topography of the landfill's liner (the bottom), the current level (as of Feb 2014), and the finished grade once the landfill is full. I exported the data into a file geodatabase so I could edit the shapes. Because the CAD files included the topography for the entire property, I had to clip out the areas not relevant to the landfill cell boundaries itself. I then converted each feature into a TIN and using the Delineate TIN Data Area tool, I was able to remove areas along the perimeter with edge lengths that were too long along the outside edges of the landfill area.</p>
 <p>Using the Polygon Volume tool within the 3D Analyst Tool Set, I was able to calculate the volume each feature was in order to determine total capacity. By adding together the liner and current level volumes and the liner and finished grade volumes and then subtracting the two totals, I was able to determine the how full the landfill was as of Feb 2014 by percentage. As the years move forward, I can use this process to calculate how much per year the landfill grows and potentially how many years it will take to completely fill it.
 </p>
 <hr>
@@ -1238,12 +1230,12 @@ Examination of the spatial relationship between development and aquatic nutrient
 <div class="modal fade modal-25" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-     
+
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Examination of the spatial relationship between development and aquatic nutrient loading in the Galveston Bay Estuary</h4></div>
-        <div class="modal-body"><p>Houston-Galveston is one of the fastest growing regions in the United States. With this rapid growth comes increased development and associated impervious surfaces. The Texas Coast, and particularly Galveston Bay, is important economically due to its fisheries and petrochemical industry, as well as for its leisure and tourism industry. Given that the Galveston Bay Estuary (as defined by the National Estuary Program) contains an ecologically unique and diverse ecosystem, and that land use is directly correlated with water quality, understanding how this increase in impervious surface area affects water quality is crucial.</p>    
-<p>This study examines the degree to which specific development patterns impact water quality within rivers in the Galveston Bay Estuary. The focus will be on several development metrics such as patch size, density, and proximity to a river evaluated through an analysis using FRAGSTATS and ArcGIS.</p>  
+        <div class="modal-body"><p>Houston-Galveston is one of the fastest growing regions in the United States. With this rapid growth comes increased development and associated impervious surfaces. The Texas Coast, and particularly Galveston Bay, is important economically due to its fisheries and petrochemical industry, as well as for its leisure and tourism industry. Given that the Galveston Bay Estuary (as defined by the National Estuary Program) contains an ecologically unique and diverse ecosystem, and that land use is directly correlated with water quality, understanding how this increase in impervious surface area affects water quality is crucial.</p>
+<p>This study examines the degree to which specific development patterns impact water quality within rivers in the Galveston Bay Estuary. The focus will be on several development metrics such as patch size, density, and proximity to a river evaluated through an analysis using FRAGSTATS and ArcGIS.</p>
 <p>Using GIS and landscape metrics to evaluate the spatial extent of development patterns across the Houston-Galveston region on a watershed level is a relatively new approach and is important for understanding the implications of certain development patterns. The results of this study will provide planners and stakeholders with a better understanding of the effects of development on water quality.
 </p>
 <hr>
@@ -1278,9 +1270,9 @@ The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast</h4></div>
-        <div class="modal-body"><p>The Texas General Land Office (GLO) administers the federal Community Development Block Grant Disaster Recovery Program for the State of Texas. In 2013, the GLO entered into an agreement with the Gulf Coast Community Preservation and Recovery District (GCCPRD), who hired Dannenbaum Engineering Corporation to lead a multidiscipline team to conduct a Storm Surge Suppression Study, which includes a technical, scientific based effort to investigate opportunities to alleviate the vulnerability of the upper Texas coast to storm surge and flooding in Brazoria, Harris, Galveston, Chambers, Jefferson and Orange counties.</p> 
+        <div class="modal-body"><p>The Texas General Land Office (GLO) administers the federal Community Development Block Grant Disaster Recovery Program for the State of Texas. In 2013, the GLO entered into an agreement with the Gulf Coast Community Preservation and Recovery District (GCCPRD), who hired Dannenbaum Engineering Corporation to lead a multidiscipline team to conduct a Storm Surge Suppression Study, which includes a technical, scientific based effort to investigate opportunities to alleviate the vulnerability of the upper Texas coast to storm surge and flooding in Brazoria, Harris, Galveston, Chambers, Jefferson and Orange counties.</p>
 <p>This study provides the GCCPRD opportunity to work collaboratively with federal, state, local, and public and private institutions to develop a plan that meets the needs of the region and the nation. The team utilizes geospatial technologies to model and analyze protective alternatives and the results are presented to the public through an HTML5 and JavaScript application utilizing a GitHub project called “CMV – The Configurable Map Viewer”. The CMV is built on an Esri ArcGIS Server and SQL Server platform utilizing Esri Basemaps and was chosen as the map viewer template due to its modular design that allows easy custom tailoring to meet the specific needs of the study.</p>
 <hr>
 <p><strong>Presenter Bio:</strong><br><em>Jeff Scarborough</em> is Dannenbaum Engineering Corporation's Special Projects Division Manager. The Special Projects Division is responsible for the firm's Coastal, Federal and Applied Technology practices. Mr. Scarborough has over 19 years of industry experience and has led many federal, state and local government programs and projects throughout the region.</p>
@@ -1321,7 +1313,7 @@ Connecting the Dots Between Data and Problem Solving
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>Connecting the Dots Between Data and Problem Solving</h4></div>
         <div class="modal-body"><p>Our agency is tasked with reviewing for approval or denial, nursing facility waiver applications.  The challenge in reviewing data for decision making for nursing facility waiver applications is that the information submitted can be from any source and may not be verifiable and can take several months for a proper review.
         Integrating demographic information, agency information, accurate proximity relationships using geographic information systems resulted in a better tool.</p>
@@ -1358,11 +1350,11 @@ Managing Special Events in Austin, TX with ArcGIS Online
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
      <div class="modal-header abstract">
-     
+
      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> <h4>Managing Special Events in Austin, TX with ArcGIS Online</h4>
    </div>
         <div class="modal-body">
-        
+
         <p>With large events like SXSW and the US Grand Prix, City officials need a way to track activities around the city and communicate across departments.  Esri’s Collector App and Operations Dashboard gives them the tools to visualize where activities occur, dispatch personnel, and view statistics in real time.  The findings will help plan future events, mitigate issues, and run analysis.  This session can help you learn how to use these apps to manage your field collection needs.</p>
 
 <p><strong>Presenter Bio:</strong><br><em>Jacquie Hrncir</em> works for the Austin Transportation Department and the Austin Center for Events where she focuses on increasing efficiency and assisting in cross-department coordination.</p>
@@ -1396,7 +1388,7 @@ Managing Special Events in Austin, TX with ArcGIS Online
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
      <div class="modal-header abstract">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4>3 Words to Address the World</h4></div>
         <div class="modal-body"><p>75% of countries in the world have inadequate or no address system at all. In the remaining 25%, national addressing systems are plagued with problems that cause widespread inefficiency.</p>
 <p>Poor addressing is costly &amp; annoying in some developed countries, and around the world it hampers the growth and development of nations, ultimately costing lives.</p>

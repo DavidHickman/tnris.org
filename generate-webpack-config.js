@@ -24,7 +24,6 @@ function generate(env) {
 
   var config = {
     entry: {
-      '2015forum': [path.resolve(__dirname, 'static/js/2015forum.js')],
       'contact-forms': [path.resolve(__dirname, 'static/js/contact-forms/app.js')],
       'data-download': [path.resolve(__dirname, 'static/js/data-download/app.js')],
       'processed': processedHTML,
