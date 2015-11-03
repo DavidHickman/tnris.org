@@ -142,6 +142,7 @@ Click the star <i class="glyphicon glyphicon-star"></i> next to the presentation
 <small>10:30 a.m. – 11:00 a.m.</small><br>
 Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/assessing-the-utility-of-pixel-based-and-object-based-classfication-methods-for-surveying-wetland-vegetation-with-an-unmanned-aerial-system"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Nicholas Villarreal, Graduate Intern/SMWI Project - Texas State University at San Marcos | Jennifer Jensen - Texas State University at San Marcos | Kristina Tolman - The Meadows Center for Water and the Environment</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-01"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a>
 </p>
@@ -178,6 +179,7 @@ Assessing The Utility Of Pixel-based And Object-based Classification Methods For
 <small>11:00 a.m. – 11:30 a.m.</small><br>
 Monitoring Change in West TX using NAIP Imagery from the Texas Natural Resources Information System
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/monitoring-change-in-west-tx-using-naip-imagery-from-the-texas-natural-resources-information-system"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Frank Obusek - Hexagon Geospatial</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-02"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
@@ -261,6 +263,7 @@ UAV Solutions Using Remote Sensing and Photogrammetry Applications
 <small>10:30 a.m. – 11:00 a.m.</small><br>
 Innovative Public Health Care GIS Applications
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/innovative-public-health-care-gis-applications"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Jack Hill and Amanda Scarborough - Sam Houston State University</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-04"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
@@ -492,6 +495,7 @@ GIS Lessons: Learning to Query and Code with the CartoDB Academy
 <small>3:00 p.m. – 3:30 p.m.</small><br>
 Open Source Software Education in Texas
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/open-source-software-education-in-texas"><i class="fa fa-play-circle"></i>  View Slides</a></p>
 <em>Phillip Davis - GeoAcademy | Richard Smith - Texas A &amp; M University, Corpus Christi</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-09"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
@@ -535,6 +539,7 @@ Open Source Software Education in Texas
 <small>2:00 p.m. – 2:30 p.m.</small><br>
 Augmented Reality for Hidden Assets
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/augmented-reality-for-hidden-assets"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Brady Hustad and Ken Hetlinger - Astadia</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-10"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
@@ -572,6 +577,7 @@ Augmented Reality for Hidden Assets
 <small>2:30 p.m. – 3:00 p.m.</small><br>
 VOICE - Virtual Online Inspection Checking and Editing
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/voice-virtual-online-inspection-checking-and-editing"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Rodney Cope and Bill Walker - Quantum Spatial</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-11"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a></p>
 </div>
@@ -605,6 +611,7 @@ VOICE - Virtual Online Inspection Checking and Editing
 <small>3:00 p.m. – 3:30 p.m.</small><br>
 Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/integrating-autocad-and-gis-into-a-preventative-maintenance-plan-for-roadways"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Adrian Garcia and Ernie Martinez - The City of Fair Oaks Ranch, Texas</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-12"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
@@ -666,6 +673,7 @@ Online Map Applications (You Can Do THAT On the Web?)
 <small>4:00 p.m. – 4:30 p.m.</small><br>
 The History of Texas is Under Your Feet and at Your Fingertips
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/the-history-of-texas-is-under-your-feet-and-at-your-fingertips"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Daniel K. Pearson, US Geological Survey</em><br>
 <a href="#" data-toggle="modal" data-target=".modal-13"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a></p>
 </div>
@@ -699,6 +707,7 @@ The History of Texas is Under Your Feet and at Your Fingertips
 <small>4:30 p.m. – 5:00 p.m.</small><br>
 Building the Next Generation Water Data Viewer - Water Data Interactive (WDI)
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/building-the-next-generation-water-data-viewer-water-data-interactive-wdi"><i class="fa fa-play-circle"></i>  View Slides</a></p>
 <em>Ginny Vragel and Richard Winkelbauer - Texas Water Development Board</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-14"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
@@ -738,6 +747,7 @@ He enjoys running, mountain biking, skiing and has traveled extensively includin
 <small>5:00 p.m. – 5:30 p.m.</small><br>
 Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGISServer, WMS &amp; WFS Cross-Platform Compatibility
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/hosting-spatial-web-services-in-support-of-oil-and-gas-analytics-arcgisserver-wms-and-wfs-cross-platform-compatibility"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Dale Emrich, Justin Scott Winn, and Cole Howard - DrillingInfo</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-15"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
@@ -820,6 +830,7 @@ Google's Imagery Program
 <small>4:30 p.m. – 5:00 p.m.</small><br>
 TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/txcoasts-dot-com-updating-and-re-imaging-the-texas-beach-and-bay-access-guide"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Laura Wisdom - General Land Office</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-17"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a></p>
 </div>
@@ -903,6 +914,7 @@ TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 </div>
 <div class="col-sm-9 col-md-10">
 <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-david-cowen-the-changing-geospatial-landscape"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
 <p><i class="glyphicon glyphicon-user"></i> <a href="{{m.link('news/2015-07-16-ucgis-fellow-david-cowen-keynote-forum')}}">Full Bio</a></p>
 </div>
@@ -970,6 +982,7 @@ Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in 
 <small>11:00 a.m. – 11:30 a.m.</small><br>
 Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/geiger-mode-lidar-the-leap-from-single-pulse-to-avalanche-and-what-it-means-to-the-end-user"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Harold Rempel - ESP Associates</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-19"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
@@ -1119,6 +1132,7 @@ The Information Commons: Cloud-Based GIS
 <small>11:30 a.m. – 12:00 p.m.</small><br>
 Modern Web Mapping for Local Governments Delivers Insights into Performance Metrics, Patterns of Change &amp; Distribution of Resources
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/appgeo-platinum-demo-whooping-cranes-over-the-laguna-madre-shared-value-semantic-shifts-and-collaborative-leadership"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Kate Hickey - AppGeo</em>
 
 <p><a href="#" data-toggle="modal" data-target=".modal-23"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
@@ -1194,6 +1208,7 @@ Nikki Golding – Solution Lead, State Government
 <small>2:00 p.m. – 2:30 p.m.</small><br>
 3D Modeling of the City of Temple Landfill
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/3d-modeling-of-the-city-of-temple-landfill"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Leah Fasick - City of Temple</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-24"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
 </div>
@@ -1230,6 +1245,7 @@ Nikki Golding – Solution Lead, State Government
 <small>2:30 p.m. – 3:00 p.m.</small><br>
 Examination of the spatial relationship between development and aquatic nutrient loading in the Galveston Bay Estuary
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/examination-of-the-spatial-relationship-between-development-and-aquatic-nutrient-loading-in-the-galveston-bay-estuary"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Helen Walters and Samuel Brody - Texas A&amp;M University, Galveston Campus</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-25"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
@@ -1269,6 +1285,7 @@ Examination of the spatial relationship between development and aquatic nutrient
 <small>3:00 p.m. – 3:30 p.m.</small><br>
 The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/the-gccprd-storm-surge-suppression-study-of-the-upper-texas-coast"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Jeff Scarborough and Chris Sallese - Dannenbaum Engineering Corporation</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-27"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
@@ -1312,6 +1329,7 @@ The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast
 <small>2:00 p.m. – 2:30 p.m.</small><br>
 Connecting the Dots Between Data and Problem Solving
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/connecting-the-dots-between-data-and-problem-solving"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <em>Leah Casey - Texas Department of Health and Human Services | Jeff Jordan -  Institute for Demographic Studies and Socioeconomic Research</em>
 <p><a href="#" data-toggle="modal" data-target=".modal-28"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
 </div>
@@ -1437,6 +1455,7 @@ The only real option is complicated latitude and longitude coordinate pairs, whi
 <div class="col-sm-9 col-md-10">
 <h3 id="keynote-humphreys"><small>Keynote Presentation</small><br>Todd Humphreys, Aerospace Engineer, UT Austin</h3>
 <h4>Low-Cost Centimeter-Accurate Mobile Positioning</h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-todd-humphreys-low-cost-centimer-accurate-mobile-positioning"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <p>
 <img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/humphreys_head.jpg')}}">
 Todd E. Humphreys is an assistant professor in the department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin, and Director of the UT Radionavigation Laboratory. He specializes in the application of optimal detection and estimation techniques to problems in satellite navigation, autonomous systems, and signal processing.His recent focus has been on secure perception for autonomous systems, including navigation, timing, and collision avoidance, and on centimeter-accurate location for the mass market.

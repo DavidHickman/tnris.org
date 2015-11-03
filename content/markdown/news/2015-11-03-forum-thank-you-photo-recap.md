@@ -8,24 +8,23 @@ abstract:
     Thank you for making the 2015 Texas GIS Forum another great one.
 tags: forum
 ---
-Thank you to all the attendees, presenters and sponsors who made the 2015 another successful event! We were proud to host all of you and make this important gathering happen again for the 28th year in a row.
+Thank you to all the attendees, presenters and sponsors who made the 2015 another successful event! TNRIS was proud to host all of you and make this important gathering happen again for the 28th year in a row.
  
 Your support contributed to a record number of sponsors and overall attendance. Participation in the workshops, general sessions, and social event reached an all-time high of over 800 registrations.  Clearly the GIS Community in Texas is very much alive and well! 
 
 Whether digging into the Augmented Reality sandbox, tossing darts at the CartoDB social, or taking in innovative presentations and keynotes, we hope you enjoyed it all.
  
-We’re reviewing the evaluations that so many of you completed. Your feedback is important to us and will be added to the planning for the 2016 Texas GIS Forum. See you next year!
+We’re reviewing the evaluations that so many of you completed. Your feedback is important to us and will be added to the planning for the 2016 Texas GIS Forum. 
+
+Visit the [agenda](2015-gis-forum/agenda) to view links to available presentations, and check back soon as we post video from the Keynotes in the coming weeks. See you next year!
 
 ---
 
-The Forum kicked off with a video highlighting the infamous TNRIS employee, **G**eoff **I**saac **S**tewart.
+The Forum kicked off with a video highlighting the infamous TNRIS employee and GIS Ideologist, **G**eoff **I**saac **S**tewart.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/9X_Ypw0F0hc" frameborder="0" allowfullscreen></iframe>
 
 ---
-
-![A picture of the Big Tex Auditorium, with a photo of Patricia Raimundo on the screen](static/images/texas-gis-forum/2015/forum-recap/01_web.jpg)
-Richard Wade made opening remarks, dedicating this year's Forum to the memory of Patricia Raimondo.
 
 ![Wednesday's Keynote, Patrick Meier, discussed the Digital Humanitarian movement.](static/images/texas-gis-forum/2015/forum-recap/02_web.jpg)
 Wednesday's Keynote, Patrick Meier, discussed the Digital Humanitarian movement, who have made huge contributions to disaster response, primarily on a volunteer basis, from Haiti to Nepal.
@@ -37,7 +36,7 @@ Meier compares the work of digital humanitarians to a superhero team.
 Attendees mingled in the atrium during the breaks.
 
 ![The Augmented Reality Sandbox was a popular hang-out this year.](static/images/texas-gis-forum/2015/forum-recap/05_web.jpg)
-The Augmented Reality Sandbox was a hit at this year's forum.
+The Augmented Reality Sandbox was a hit at this year's forum. [View the page](http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/) of original creator of the sandbox to find the software and specs to build your own!
 
 ![TNRIS showcased 3-D Lidar at our booth.](static/images/texas-gis-forum/2015/forum-recap/08_web.jpg)
 TNRIS showcased flythroughs of 3-D Lidar at our booth.
@@ -48,12 +47,11 @@ TNRIS employees stand with Texas Water Development Board Member Kathleen Jackson
 ![evon Humphrey from Waypoint Mapping presents GIS at the Wimberley Flash Flood Disaster](static/images/texas-gis-forum/2015/forum-recap/06_web.jpg)
 Devon Humphrey from Waypoint Mapping presents *GIS at the Wimberley Flash Flood Disaster*.
 
-
 ![Kate Hickey, VP of AppGeo, presents during their Platinum Sponsor Demo.](static/images/texas-gis-forum/2015/forum-recap/10_web.jpg)
 Kate Hickey, VP of AppGeo, presents during their Platinum Sponsor Demo.
 
 ![Impressive High-Resolution Aerial imagery from silver sponsor, Fugro.](static/images/texas-gis-forum/2015/forum-recap/12_web.jpg)
-Impressive High-Resolution Aerial imagery from silver sponsor, Fugro.
+Impressive High-Resolution Aerial imagery from Fugro, a silver sponsor.
 
 ![Lots of activity at ESRI's booth, a platinum sponsor.](static/images/texas-gis-forum/2015/forum-recap/13_web.jpg)
 Lots of activity at ESRI's booth, a platinum sponsor.
@@ -104,7 +102,7 @@ Keynote Dr. David Cowen is presented with a map of his hometown of Columbia, Sou
 Attendees looking over poster gallery submissions and determining their favorite.
 
 ![A mini reunion of former TNRIS employee, Blake Matejowsky, now at Austin energy, and Tom Roehrig, current manager of the RDC at TNRIS.](static/images/texas-gis-forum/2015/forum-recap/30_web.jpg)
-A mini-reunion between former TNRIS employee, Blake Matejowsky, now at Austin energy, and Tom Roehrig, Senior Environmental Researcher at TNRIS's [Research and Distribution Center (RDC)](maps-and-data/research-and-distribution).
+A mini-reunion between former TNRIS employee, Blake Matejowsky, now at Austin energy, and Tom Roehrig, Senior Research Specialis at TNRIS's [Research and Distribution Center (RDC)](maps-and-data/research-and-distribution).
 
 ![Jurassic era beachfront property in the Sandbox.](static/images/texas-gis-forum/2015/forum-recap/32_web.jpg)
 Jurassic beachfront property in the Sandbox.
@@ -113,7 +111,7 @@ Jurassic beachfront property in the Sandbox.
 Santiago Giraldo Anduaga, from CartoDB discusses *The Information Commons: Cloud-Based GIS*.
 
 ![Accessibility is Key - a simple message from Santiago Giraldo Anduaga's presentation.](static/images/texas-gis-forum/2015/forum-recap/34_web.jpg)
-Accessibility is Key - a simple message from Santiago Giraldo Anduaga's presentation.
+Accessibility is Key - a simple message from Santiago's presentation.
 
 ![People sitting at laptops, headphones on, taking ESRI lessons](static/images/texas-gis-forum/2015/forum-recap/35_web.jpg)
 ESRI's Hands-On Learning Lab (HOLL) was a popular way for attendees to break up their day while learning key GIS skills.
@@ -137,7 +135,7 @@ Helen Walters from Texas A&M Galveston discusses the relationship between develo
 Jacquie Hrncir and John Clary from the City of Austin discuss the management of special events using ArcGIS Online.
 
 ![Plotter Pro, a Gold Sponsor, shows off their high-quality prints to a forum attendee.](static/images/texas-gis-forum/2015/forum-recap/43_web.jpg)
-Plotter Pro, a Gold Sponsor, shows off their high-quality prints to a forum attendee.
+Plotter Pro, a Gold Sponsor, shows off their high-quality prints to Harold Rogers from the Bureau of Economic Geology (BEG).
 
 ![Two men look over a printout of a photo of themselves](static/images/texas-gis-forum/2015/forum-recap/37_web.jpg)
 Into the looking glass...We were officially having too much fun.
