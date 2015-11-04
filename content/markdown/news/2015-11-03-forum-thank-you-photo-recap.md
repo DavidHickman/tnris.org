@@ -8,7 +8,7 @@ abstract:
     Thank you for making the 2015 Texas GIS Forum another great one.
 tags: forum
 ---
-Thank you to all the attendees, presenters and sponsors who made the 2015 another successful event! TNRIS was proud to host all of you and make this important gathering happen again for the 28th year in a row.
+Thank you to all the attendees, presenters and sponsors who made the [2015 Texas GIS Forum](2015-gis-forum) another successful event! TNRIS was proud to host all of you and make this important gathering happen again for the 28th year in a row.
  
 Your support contributed to a record number of sponsors and overall attendance. Participation in the workshops, general sessions, and social event reached an all-time high of over 800 registrations.  Clearly the GIS Community in Texas is very much alive and well! 
 
@@ -25,6 +25,9 @@ The Forum kicked off with a video highlighting the infamous TNRIS employee and G
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/9X_Ypw0F0hc" frameborder="0" allowfullscreen></iframe>
 
 ---
+
+![A picture of the Big Tex Auditorium, with a photo of Patricia Raimundo on the screen](static/images/texas-gis-forum/2015/forum-recap/01_web.jpg)
+TNRIS director, Richard Wade, made opening remarks, dedicating this year's Forum to the memory of Patricia Raimondo.
 
 ![Wednesday's Keynote, Patrick Meier, discussed the Digital Humanitarian movement.](static/images/texas-gis-forum/2015/forum-recap/02_web.jpg)
 Wednesday's Keynote, Patrick Meier, discussed the Digital Humanitarian movement, who have made huge contributions to disaster response, primarily on a volunteer basis, from Haiti to Nepal.

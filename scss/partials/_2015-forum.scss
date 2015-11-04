@@ -11,7 +11,7 @@
   }
 
   ._2015-forum-intro {
-    background: url(../static/images/texas-gis-forum/2015/forum_fade.jpg) right 0 no-repeat $forum2015blue;
+    background: url(../static/images/texas-gis-forum/2015/recap_bg.jpg) right 0 no-repeat $forum2015blue;
     color: white;
     font-size: 20px;
     min-height: 150px;
@@ -21,6 +21,7 @@
       font-size: 24px;
       margin-bottom: 0;
       text-shadow: 1px 1px 1px $darkgrey;
+      max-width: 300px;
     }
 
     .btn-lg {
