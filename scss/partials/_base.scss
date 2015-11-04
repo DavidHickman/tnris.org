@@ -519,7 +519,11 @@ ul.news-list {
   }
 }
 
-// Figcaption for articles
+// Figures for articles
+
+.article figure {
+  margin-bottom: 20px;
+}
 
 .article figcaption {
   color: $middarkgrey;

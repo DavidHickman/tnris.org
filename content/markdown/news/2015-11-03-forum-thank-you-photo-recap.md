@@ -3,7 +3,7 @@ template: news.html
 title: "Forum Thank You and Photo Recap"
 author: Texas GIS Forum
 thumbnail: static/images/updates/2015/forumrecap_th.jpg
-thumbalt: DIR Logo
+thumbalt: A thumb for the Forum Photo Recap
 abstract:
     Thank you for making the 2015 Texas GIS Forum another great one.
 tags: forum
