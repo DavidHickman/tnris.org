@@ -28,13 +28,20 @@
 </div>
 
 <div class="row">
-  <div class="col-xs-12">
-    {{contents|safe}}
-  </div>
-</div>
+  <div class="col-xs-12 col-md-7">
+          
+          <div class="hidden-lg hidden-md">
+           <strong>TNRIS Offices</strong>
+            <address>
+          1700 N. Congress, Room B-40<br>
+          Austin, Texas, 78701 
+        </address>
+        <p><i class="glyphicon glyphicon-earphone"></i> <a href="tel:5124638337">512-463-8337</a></p>
+      </div>
 
-<div class="row">
-  <div class="col-xs-12 col-sm-10 col-md-7">
+    {{contents|safe}}
+
+    <section>  
     {{form.before("contact")}}
       {{form.multi(
         "Reason",
@@ -78,6 +85,16 @@
         </div>
       </div>
     {{form.after()}}
+ </section>
+</div>
+<div class="col-xs-12 col-md-5 hidden-sm hidden-xs">
+    <h3>TNRIS Offices</h3>
+          <address>
+          1700 N. Congress, Room B-40<br>
+          Austin, Texas, 78701 
+        </address>
+          <p><i class="glyphicon glyphicon-earphone"></i> <a href="tel:5124638337">512-463-8337</a></p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3445.515787791419!2d-97.7394352!3d30.2793748!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b59e514137ff%3A0x1e7784247042ad06!2s1700+Congress+Ave%2C+Austin%2C+TX+78701!5e0!3m2!1sen!2sus!4v1446758554339" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>
 
