@@ -25,16 +25,16 @@ The resulting augmented reality (AR) sandbox allows users to create topography m
 <figcaption>Forum Attendees gathered at the sandbox during breaks between presentation sessions.</figcaption>
 </figure>
 
-But, aside from all that educational stuff, no matter how old you get, no one can resist the urge to play with sand.
+But, aside from all that educational stuff, no matter how old you get, no one can resist the urge to play in the sand.
 
 ## Make Your Own
 <img class="img-responsive pull-right" src="{{m.link('static/images/updates/2015/sandbox_structure.jpg')}}" alt="A view of the Full Structure">
 
-All the software and techniques for building the Augmented Reality Sandbox are free and open source. The only costs to you are the components, materials and your time.
+All the software and techniques for building the Augmented Reality Sandbox are free and open source. The primary costs to you are the components, materials and your time.
 
 <a class="btn btn-md btn-danger btn-center" href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/" >Visit the AR Sandbox Instructional Page</a>
 
-In order to assist do-it-yourself efforts, Mr. Kreylos recently created a series of videos illustrating the core steps necessary to add the AR component to an already existing sandbox. There are three main steps: two include calibrating the Kinect 3D camera with respect to the sandbox, and one to calibrate the data projector with respect to the Kinect 3D camera (and, by extension, the sandbox). These videos elaborate on steps described in the AR Sandbox software’s README file, but sometimes videos can be worth more than than a 1000 READMEs.
+In order to assist do-it-yourself efforts, Mr. Kreylos recently created a series of videos illustrating the core steps necessary to add the AR component to an already existing sandbox. There are three main steps: two include calibrating the Kinect 3D camera with respect to the sandbox, and one to calibrate the data projector with respect to the Kinect 3D camera (and, by extension, the sandbox). These videos elaborate on steps described in the AR Sandbox software’s README file, but sometimes videos can be worth more than words, especially setting up such a v
 
 <figure>
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/sandbox_guts.jpg')}}" alt="The components on the top of the sandbox, labels for the PC, Projector, and Kinect">
@@ -50,9 +50,9 @@ In order, these calibration steps are:
 
 <img class="img-responsive pull-right" style="max-width: 350px;" src="{{m.link('static/images/texas-gis-forum/2015/forum-recap/15_web.jpg')}}" alt="A smiling woman drops sand on top of a small pile of sand with topography projected">Basically, if you already own a fairly recent PC, a Kinect, a data projector, and some initiative, give it a try ! It should be possible to put together a working system in a matter of hours (add 30 minutes if you need to install Linux first).
 
-We installed the sandbox as a mostly unsupervised hands-on exhibit at the Forum, and allowed visitors to informally learn about geographical, geological, and hydrological principles by playing with sand. We provided hand tools like shovels and rakes as an alternative for people who didn't want to get sand under their fingernails.
+We installed the sandbox as a mostly unsupervised hands-on exhibit at the Forum, allowing visitors to informally learn about geographical, geological, and hydrological principles by playing with sand. We provided hand tools like shovels and rakes as an alternative for people who didn't want to get sand under their fingernails.
 
-We hope this has been interesting and informative, especially to encourage you to build you own augmented reality sandbox. But if you're not the crafty type, don't fret, the AR sandbox will be waiting for you at TNRIS and will likely make a reappearance at the 2016 GIS Forum. We'll see you then!
+We hope this has been interesting and informative, especially to encourage you to build you own augmented reality sandbox. But if you're not the crafty type, don't fret, the AR sandbox we'll be permanently installing it at TNRIS and will likely bring it back next fall at the 2016 GIS Forum. We'll see you then!
 
 
 
