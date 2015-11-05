@@ -12,7 +12,9 @@ abstract:
 tags: forum
 ---
 
-After the success of the [Google Liquid Galaxy](http://www.google.com/earth/explore/showcase/liquidgalaxy.html) display at the [2014 Texas GIS Forum](2014-gis-forum), it was clear to Richard Wade, Director of TNRIS, how much more interactive exhibits enriched the forum experience. After discovering the Augmented Reality Sandbox though online sources, he knew that that this visually dynamic and tactile exhibit was exactly what we wanted to bring to the [2015 Texas GIS Forum](2015-gis-forum). With this goal, plans were set in to motion to develop our own Virtual Sandbox, made possible by the open source community who brought the original idea to life.
+After the success of the [Google Liquid Galaxy](http://www.google.com/earth/explore/showcase/liquidgalaxy.html) display at the [2014 Texas GIS Forum](2014-gis-forum), it was clear to Richard Wade, Director of TNRIS, how much more interactive exhibits enriched the forum experience. After discovering the **Augmented Reality Sandbox** though online sources, he knew that that this visually dynamic and tactile exhibit was exactly what we wanted to bring to the [2015 Texas GIS Forum](2015-gis-forum). With this goal, plans were set in to motion to develop our own Virtual Sandbox, made possible by the open source community who brought the original idea to life.
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/UTB1roPJ4mc" frameborder="0" allowfullscreen></iframe>
 
 I started to research by watching a couple of videos of how the AR sandbox works, and reading documentation from [University of California Davis’ Oliver Kreylos](http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/) on how to build it. A kinect sensor, projector and desktop were pulled together and the first proof-of-concept prototype was built at the TNRIS offices, mapping a cone of paper taped to the wall of my office.
 
