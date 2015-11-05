@@ -12,7 +12,7 @@ abstract:
 tags: forum
 ---
 
-When Richard Wade, director of TNRIS, returned from the ESRI Users Conference in July of 2015, he came back with a mission in mind. Richard had seen a version of an Augmented Reality Sandbox that impressed him and wanted to emulate it at the Annual Texas GIS Forum in October. That left us with only 3 months to research, plan and execute it.
+When Richard Wade, director of TNRIS, returned from the ESRI Users Conference in July of 2015, he came back with a mission in mind. Richard had seen a version of an Augmented Reality Sandbox that impressed him and wanted to emulate it at the [Annual Texas GIS Forum](2015-gis-forum) in October. That left us with only 3 months to research, plan and execute it.
 
 I started to research by watching a couple of videos of how the AR sandbox works, and reading documentation from [University of California Davis’ Oliver Kreylos](http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/) on how to build it. A kinect sensor, projector and desktop were pulled together and the first proof-of-concept prototype was built at the TNRIS offices, mapping a cone of paper taped to the wall of my office.
 
@@ -34,7 +34,11 @@ All the software and techniques for building the Augmented Reality Sandbox are f
 
 <a class="btn btn-md btn-danger btn-center" href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/" >Visit the AR Sandbox Instructional Page</a>
 
-In order to assist do-it-yourself efforts, Mr. Kreylos recently created a series of videos illustrating the core steps necessary to add the AR component to an already existing sandbox. There are three main steps: two include calibrating the Kinect 3D camera with respect to the sandbox, and one to calibrate the data projector with respect to the Kinect 3D camera (and, by extension, the sandbox). These videos elaborate on steps described in the AR Sandbox software’s README file, but sometimes videos can be worth more than than a 1000 READMEs.
+In order to assist do-it-yourself efforts, Mr. Kreylos recently created a series of videos illustrating the core steps necessary to add the AR component to an already existing sandbox. There are three main steps: 
+- Two include calibrating the Kinect 3D camera with respect to the sandbox
+- Another one is needed to calibrate the data projector with respect to the Kinect 3D camera (and, by extension, the sandbox). 
+
+These videos elaborate on steps described in the AR Sandbox software’s README file, but sometimes videos can be worth more than words.
 
 <figure>
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/sandbox_guts.jpg')}}" alt="The components on the top of the sandbox, labels for the PC, Projector, and Kinect">
