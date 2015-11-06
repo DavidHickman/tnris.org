@@ -17,6 +17,17 @@
       }
     }
   }
+
+  .bs-callout {
+    .btn {
+      margin-bottom: 24px;
+
+      .glyphicon {
+        top: 2px;
+        margin-right: 5px;
+      }
+    }
+  }
 }
 
 /* tag styling */
