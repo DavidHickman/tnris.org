@@ -6,7 +6,7 @@ abstract: The RDC offers a variety of additional products, support and services 
 
 ### Some of our services include:
 
-* Statewide collection, duplication and distribution of maps from government partners such as USGS Topography, USFWS Wetlands, and the FEMA Flood Insurance Rate program
+* Statewide collection, duplication, and distribution of maps from government partners such as USGS Topography, USFWS Wetlands, and the FEMA Flood Insurance Rate program
 * Reproductions of historical maps and aerial imagery
 * Custom mapping using TNRIS datasets
 * Digital data distribution including high resolution orthoimagery and Lidar data on DVDs, thumb drives, external hard drives and via FTP
