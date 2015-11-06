@@ -12,7 +12,7 @@ Thank you to all the attendees, presenters and sponsors who made the [2015 Texas
  
 Your support contributed to a record number of sponsors and overall attendance. Participation in the workshops, general sessions, and social event reached an all-time high of over 800 registrations.  Clearly the GIS Community in Texas is very much alive and well! 
 
-Whether digging into the Augmented Reality sandbox, tossing darts at the CartoDB social, or taking in innovative presentations and keynotes, we hope you enjoyed it all.
+Whether digging into the [Augmented Reality sandbox](news/2015-11-05-digging-into-augmented-reality-sandbox), tossing darts at the CartoDB social, or taking in innovative presentations and keynotes, we hope you enjoyed it all.
  
 We’re reviewing the evaluations that so many of you completed. Your feedback is important to us and will be added to the planning for the 2016 Texas GIS Forum. 
 
@@ -39,7 +39,7 @@ Meier compares the work of digital humanitarians to a superhero team.
 Attendees mingled in the atrium during the breaks.
 
 ![The Augmented Reality Sandbox was a popular hang-out this year.](static/images/texas-gis-forum/2015/forum-recap/05_web.jpg)
-The Augmented Reality Sandbox was a hit at this year's forum. [View the page](http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/) of original creator of the sandbox to find the software and specs to build your own!
+The [Augmented Reality sandbox](news/2015-11-05-digging-into-augmented-reality-sandbox) was a hit at this year's forum. [View the page](http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/) of original creator of the sandbox to find the software and specs to build your own!
 
 ![TNRIS showcased 3-D Lidar at our booth.](static/images/texas-gis-forum/2015/forum-recap/08_web.jpg)
 TNRIS showcased flythroughs of 3-D Lidar at our booth.

@@ -22,7 +22,7 @@ Just fill out a custom map order form at (link) and include all available datase
 
 ## Map Examples
 
-###Custom Fishing Map
+### Custom Fishing Map
 >  Included Layers: bathymetry, fish attractors, Orthoimagery and transportation for Lake Buchanan
 > 
 > Printed Dimensions:
@@ -30,13 +30,13 @@ Just fill out a custom map order form at (link) and include all available datase
 <img src="{{m.link('static/images/maps-and-data/custom_fishing_map.jpg')}}" class="img-responsive" alt="Custom Fishing produced by RDC">
 
 
-###Ranch Map
+### Ranch Map
 > Included Layers: OTLS, NHD, StratMap hypsography, county boundary, transportation and contour custom map
 > 
 > Printed Dimensions:
 
 <img src="{{m.link('static/images/maps-and-data/custom_ranch_map.jpg')}}" class="img-responsive" alt="Custom Ranch produced by RDC">
 
-###Custom County Map
+### Custom County Map
 <img src="{{m.link('static/images/maps-and-data/custom_county_map.jpg')}}" class="img-responsive" alt="Custom County produced by RDC">
 
