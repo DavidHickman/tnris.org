@@ -24,7 +24,7 @@ map we are creating for you.
 
 <div class="bs-callout bs-callout-danger"><strong>Important Note:</strong> All maps must be Texas and TNRIS data related. </div>
 
-## Examples of previous work
+## Examples of Previous Work
 
 ### Fishing Map
 
