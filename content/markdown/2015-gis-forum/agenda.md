@@ -1053,6 +1053,8 @@ Innovations - Changing the way Lidar is Used
 <small>10:30 a.m. – 11:00 a.m.</small><br>
 Regional Online Geospatial Services for the Houston-Galveston Region
 </h4>
+<p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/regional-online-geospatial-services-for-the-houston-galveston-region"><i class="fa fa-play-circle"></i> View Slides</a></p>
+
 <em>Brooks Andrews - Houston-Galveston Area Council of Governments</em>
 <!-- <p><a href="#" data-toggle="modal" data-target=".modal-21"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p> -->
 </div>
