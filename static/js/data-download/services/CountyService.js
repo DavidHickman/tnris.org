@@ -1,18 +1,19 @@
-/*global _*/
-var CountyService = ['COUNTIES', function (COUNTIES) {
-  'use strict';
+//*global _*/
+angular.module('dataDownloadApp')
+  .service('CountyService', ['COUNTIES', function (COUNTIES) {
+    'use strict';
 
-  var service = {};
+    var service = {};
 
-  service.getNameForFips = function (fips) {
-    return COUNTIES[fips];
-  };
+    service.getNameForFips = function (fips) {
+      return COUNTIES[fips];
+    };
 
-  service.getFipsForName = function (name) {
-    return _.findKey(COUNTIES, function (c) {
-      return c.toLowerCase() === name.toLowerCase();
-    });
-  };
+    service.getFipsForName = function (name) {
+      return _.findKey(COUNTIES, function (c) {
+        return c.toLowerCase() === name.toLowerCase();
+      });
+    };
 
-  return service;
-}];
+    return service;
+  }]);

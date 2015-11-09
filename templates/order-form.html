@@ -17,8 +17,9 @@
 <div class="row">
   <div class="col-xs-12">
     <p>
-      This form is used to request pricing information and order data. The cost
-      will be based on the amount staff time and reproduction cost.
+      This form is used to initiate an order or request pricing information for
+      data and maps. The total price will be based on the amount staff time and
+      reproduction costs.
     </p>
     <p>
       Please fill out all the information below and TNRIS staff will begin
@@ -46,7 +47,7 @@
           [
             'Digital Data',
             'Historical Imagery',
-            'LiDAR',
+            'Lidar',
             'Maps'
           ],
           true
@@ -112,9 +113,9 @@
         {% set is_digital = is_digital_data + " || " + is_historical_digital %}
           {{form.software_inputs(is_digital)}}
 
-        {% set is_lidar = "form_model['Type of Data'] == 'LiDAR'" %}
+        {% set is_lidar = "form_model['Type of Data'] == 'Lidar'" %}
           {{form.multi(
-              "LiDAR Data Format",
+              "Lidar Data Format",
               "Data Format",
               "checkbox",
               [
@@ -128,8 +129,8 @@
 
           <div class="form-group form-callout bg-warning" ng-show="{{is_lidar}}">
             <p>
-              <strong>Note:</strong> LiDAR data is often very large, and TNRIS can not offer digital downloads for datasets larger than 10GB. If the ordered dataset is larger than 10GB, you have the option of either providing a
-              factory-sealed hard drive (or multiple factory-sealed hard drives) or purchasing them at cost from TNRIS.
+              <strong>Note:</strong> Lidar datasets are often very large, and TNRIS cannot offer digital downloads for datasets larger than 10GB.
+              If the ordered dataset is larger than 10GB, you have the option of either providing a factory-sealed external hard drive (or multiple factory-sealed external hard drives) or purchasing them at cost from TNRIS.
             </p>
           </div>
 
@@ -180,10 +181,10 @@
           )}}
 
           {{form.textarea(
-              "LiDAR Description",
+              "Lidar Description",
               {
-                label: 'LiDAR Description',
-                help: "Description of the LiDAR data you are requesting."
+                label: 'Lidar Description',
+                help: "Description of the Lidar data you are requesting."
               },
               false,
               is_lidar

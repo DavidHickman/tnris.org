@@ -14,9 +14,6 @@
 
   {{form.scripts()}}
 
-  <script src="//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js"></script>
-  <script src="{{m.based('bower_components/jquery.storage/jquery.storage.js')}}"></script>
-  <script src="{{m.based('js/2015forum.js')}}"></script>
 {% endblock scripts %}
 
 
@@ -45,10 +42,10 @@
 
     <div class="_2015-forum-intro">
       <div class="container">
-        <a class="btn btn-lg btn-danger pull-right" href="{{ button_link}}"><i class="glyphicon glyphicon-hand-right"></i> {{ button_text }}</a>
         <p class="lead">
-          {{ abstract }}
-        </p>
+          Revisit the 2015 Forum.
+      </p>
+      <a class="btn btn-lg btn-danger" href="{{m.link('news/2015-11-03-forum-thank-you-photo-recap')}}"><i class="glyphicon glyphicon-camera"></i> View the Photo Recap</a>
       </div>
     </div>
 {% endblock topcontent %}

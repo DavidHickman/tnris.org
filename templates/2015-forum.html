@@ -26,32 +26,32 @@
           <div class="hidden-sm hidden-xs">
             <img src="{{m.link(mainimage)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
           </div>
-          {% endif %} 
+          {% endif %}
           {% if mainimagesm %}
           <div class="hidden-xs hidden-md hidden-lg">
             <img src="{{m.link(mainimagesm)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
           </div>
-          {% endif %} 
+          {% endif %}
 
           {% if mainimagexs %}
           <div class="hidden-sm hidden-md hidden-lg">
             <img src="{{m.link(mainimagexs)}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
           </div>
-          {% endif %} 
+          {% endif %}
       </div>
   </div>
 <div class="_2015-forum-intro">
     <div class="container">
-      <a class="btn btn-lg btn-danger pull-right" href="{{ button_link}}"><i class="glyphicon glyphicon-hand-right"></i> {{ button_text }}</a>
       <p class="lead">
-        {{ abstract }}
+          Revisit the 2015 Forum. 
       </p>
+      <a class="btn btn-lg btn-danger" href="{{m.link('news/2015-11-03-forum-thank-you-photo-recap')}}"><i class="glyphicon glyphicon-camera"></i> View the Photo Recap</a>
     </div>
 </div>
 
 {% endblock topcontent %}
 
-{% block contents %} 
+{% block contents %}
 
 {% include "./partials/2015-forum/forum-nav-2015.html" %}
 
@@ -75,7 +75,7 @@
 <section class="forum-map">
     <div class="container">
         <div class="row">
-                {% include "./partials/2015-forum/forum-map.html" %}   
+                {% include "./partials/2015-forum/forum-map.html" %}
         </div>
     </div>
 </section>

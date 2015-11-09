@@ -1,14 +1,23 @@
+require('jquery');
+require('bootstrap');
+
+require('imports?this=>window!holderjs');
+require('lodash');
+require('twentytwenty/js/jquery.event.move.js');
+require('twentytwenty/js/jquery.twentytwenty.js');
+
+require('bootstrap/dist/css/bootstrap.min.css');
+require('twentytwenty/css/twentytwenty.css');
+require('../../scss/tnris.scss');
+
+// tmp workaround while clipboard build settings get fixed
+//   see: https://github.com/zenorocha/clipboard.js/issues/27
+var Clipboard = require('clipboard/dist/clipboard.js');
+
 (function($) {
   'use strict';
 
   $(function() {
-    //check for flash
-    //if flash is available, the html tag will have 'flash' as a class
-    // if not, the html tag will have 'no-flash' as a class
-    $('html').addClass(typeof swfobject !== 'undefined' &&
-      swfobject.getFlashPlayerVersion().major !== 0 ? 'flash' : 'no-flash'
-    );
-
     // Nav scroll spy
     $('body').scrollspy({ target: '.wms-nav-container', offset: 130 });
 
@@ -21,34 +30,48 @@
       $('.beta-alert').removeClass('hide')
     }
 
-    //zclip + ZeroClipboard url copy buttons
-    $('.copy-url-container').each(function (index, node) {
-      var $node = node;
-      var $btn = $('.copy-url-btn', $node);
-      var origInner = $btn.html();
-      var $input = $('.copy-url-input', $node);
-      var val = $input.val();
+    // from http://zenorocha.github.io/clipboard.js/assets/scripts/tooltips.js
+    // not flawless, but close enough
+    function fallbackMessage(action) {
+      var actionMsg = '';
+      var actionKey = (action === 'cut' ? 'X' : 'C');
 
-      $input.focus(function () {
-        $input.select();
-      });
-
-      if ($('html').hasClass('no-flash')) {
-        $btn.hide();
-        return;
+      if(/iPhone|iPad/i.test(navigator.userAgent)) {
+        actionMsg = 'Copy manually';
       }
-      //else
-      $btn.zclip({
-        path: '/bower_components/jquery-zclip/ZeroClipboard.swf',
-        copy: val,
-        afterCopy: function () {
-          $btn.html('Copied!');
-          window.setTimeout(function () {
-            $btn.html(origInner);
-          }, 4000);
-        }
-      });
+      else if (/Mac/i.test(navigator.userAgent)) {
+        actionMsg = 'Press ⌘-' + actionKey + ' to ' + action;
+      }
+      else {
+        actionMsg = 'Press Ctrl-' + actionKey + ' to ' + action;
+      }
 
+      return actionMsg;
+    }
+
+    var clipboard = new Clipboard('.copy-url-btn', {
+      target: function(trigger) {
+        return trigger.parentElement.nextElementSibling;
+      }
+    });
+
+    clipboard.on('success', function(e) {
+      var $btn = $(e.trigger);
+      var origInner = $btn.html();
+      $btn.html('Copied!');
+      setTimeout(function () {
+        $btn.html(origInner)
+      }, 4000);
+      e.clearSelection();
+    });
+
+    clipboard.on('error', function(e) {
+      var $btn = $(e.trigger);
+      var origInner = $btn.html();
+      $btn.html(fallbackMessage(e.action));
+      setTimeout(function () {
+        $btn.html(origInner)
+      }, 4000);
     });
 
     $('.nav-cat').affix({

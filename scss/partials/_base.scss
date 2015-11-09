@@ -498,8 +498,7 @@ ul.news-list {
 // Custom Lead for articles //
 .blog-main {
   .lead {
-    font-style: italic;
-    padding: 10px;
+    padding: 20px;
   }
 }
 
@@ -519,12 +518,21 @@ ul.news-list {
   }
 }
 
-// Figcaption for articles
+// Figures for articles
 
-.article figcaption {
-  color: $middarkgrey;
-  font-style: italic;
-  text-align: right;
+.article figure {
+  margin-bottom: 15px;
+  max-width: 100%;
+  
+  img {
+    margin-bottom: 5px;
+  }
+
+  figcaption {
+    color: $middarkgrey;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
 }
 
 // data catalog collapse
@@ -597,5 +605,25 @@ button.data-access-toggle {
 .list-group.numbered {
   .list-group-item {
     display: list-item;
+  }
+}
+
+.clearfix {
+  clear: both;
+  display: block;
+}
+
+// indented article images
+figure.right-indent {
+
+  @media (min-width: $screen-sm) {
+    float: right;
+    margin-left: 30px;
+    max-width: 300px;
+  }
+
+  @media (min-width: $screen-md) {
+    margin-right: -150px; 
+    max-width: 400px; 
   }
 }
