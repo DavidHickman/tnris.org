@@ -7,7 +7,7 @@ thumbalt: A thumbnail for Middle Brazos Palo Pinto Lidar
 mainimage: static/images/updates/2015/middle-brazos-palo-lidar/fema_2015_60cm_middle_brazos_palo_pinto_overview.jpg
 mainimagealt: 3-D Lidar rendering of Middle Brazos Palo Pinto
 abstract:
-    A FEMA initiative to capture high-quality Lidar data for parts of Palo Pinto, Stephens, Hood, Johnson, Erath, Eastland, and Somervell.  County, Texas
+    A FEMA initiative to capture high-quality Lidar data for parts of Palo Pinto, Stephens, Hood, Johnson, Erath, Eastland, and Somervell Counties
 ---
 
 The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of newly acquired FEMA high resolution Lidar data for 932 square miles of North Texas. Aerial collection took place during January 03, 2015 and February 09, 2015 during the leaf-off season. The Risk Assessment, Mapping, and Planning Partners performed data acquisition/processing  as well as the  quality assurance and quality control (QA/QC).
@@ -37,7 +37,8 @@ Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/ind
 ## Catalog Entry
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('elevation-lidar/tnris-2015-50cm-brazos-county/')}}
+
+{{m.catalog_data_card('elevation-lidar/fema-2015-70-cm/')}}
 
 ## Products
 - Classified all-return lidar tiles (US Grid)) in LAS 1.2 format
