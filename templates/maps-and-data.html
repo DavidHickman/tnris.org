@@ -14,13 +14,10 @@
         <div class="col-sm-5 col-lg-4">
           <div class="bs-callout bs-callout-info">
             <div class="panel-body">
-              <a href="{{m.link('order-data')}}" class="btn btn-success btn-block"><span class="glyphicon glyphicon-envelope"></span> Custom Data Order Form</a>
-              <p>
-                This is a direct link to our Custom Data Order form to obtain customer service through the <a href="{{m.link('maps-and-data/research-and-distribution')}}"><abbr title="Research & Distribution">RDC</abbr></a>
-              <p>
+              <a href="{{m.link('order-data')}}" class="btn btn-success btn-block"><span class="glyphicon glyphicon-envelope"></span> Data Order Form</a>
               <h4>Important Note</h4>
-              <p> <strong>Many datasets are available online and don't require custom ordering</strong></p>
-              <p>We recommend exploring our <a href="{{m.link('data-catalog')}}">data catalog</a> if you are unfamiliar with TNRIS data or require more information.</p>
+              <p> <strong>Many datasets are available online and don't require a custom order.</strong></p>
+              <p>We recommend exploring our <a href="{{m.link('data-catalog')}}">data catalog</a> if you are not familiar with the datasets available from TNRIS.</p>
             </div>
           </div>
         </div>
@@ -32,7 +29,7 @@
     {% set content_items = [
       {
         name: 'Data Catalog',
-        description: 'Browse through available TNRIS datasets and map products, whether available online or through ordering.',
+        description: 'Browse through the TNRIS datasets and map products to find out what is hosted online or available for order.',
         image: 'static/images/maps-and-data/oldphoto.jpg',
         alt_text: 'An black and white aerial photo sticking out of a folder',
         link: 'data-catalog',
@@ -46,14 +43,14 @@
         button_text: 'Order Data'
       }, {
         name: 'Data Download',
-        description: 'The quickest way to search and download TNRIS data that is available online.',
+        description: 'The quickest way to search and download online TNRIS data.',
         image: 'static/images/maps-and-data/download_grid.jpg',
         alt_text: 'Some sample datasets in a grid',
         link: crossref['data-download'],
         button_text: 'Start Downloading'
       }, {
         name: 'Online Mapping Services',
-        description: 'Data sets optimized for access through WMS.',
+        description: 'Data sets optimized for access through Web Mapping Services (WMS).',
         image: 'static/images/maps-and-data/online-services-transmitter.jpg',
         alt_text: 'Picture symbolizing datasets being used as online services',
         link: 'maps-and-data/online-mapping-services',
@@ -67,7 +64,7 @@
         button_text: 'More about Custom Maps'
       }, {
         name: 'Data &amp; Mapping Solutions',
-        description: 'Applying design, communication, and technology skills to provide data solutions and cartographic products for internal geospatial development.',
+        description: 'Applying design, communication, and technology to provide custom data solutions and cartographic products.',
         image: 'static/images/highlights/custom_maps.jpg',
         alt_text: 'Staff assisting a customer with a paper map',
         link: 'maps-and-data/data-and-mapping-solutions',

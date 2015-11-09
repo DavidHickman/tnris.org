@@ -11,16 +11,17 @@
   }
 
   ._2015-forum-intro {
-    background: url(../images/texas-gis-forum/2015/forum_fade.jpg) right 0 no-repeat $forum2015blue;
+    background: url(../static/images/texas-gis-forum/2015/recap_bg.jpg) right 0 no-repeat $forum2015blue;
     color: white;
     font-size: 20px;
     min-height: 150px;
     padding: 30px 0;
 
     .lead {
-      font-size: 24px;
+      font-size: 28px;
       margin-bottom: 0;
       text-shadow: 1px 1px 1px $darkgrey;
+      max-width: 300px;
     }
 
     .btn-lg {
@@ -90,7 +91,7 @@
 }
 
 h2.logo-2015 {
-  background: url('../images/texas-gis-forum/2015/logo_white_lg.png')  0 0 no-repeat;
+  background: url('../static/images/texas-gis-forum/2015/logo_white_lg.png')  0 0 no-repeat;
   display: block;
   height: 126px;
   text-indent: -9999px;
@@ -209,6 +210,8 @@ img.keynote-portrait {
     padding-bottom: 10px;
     width: 100%;
 
+
+
     &:last-child {
       border-bottom: none;
       margin-bottom: 0;
@@ -230,6 +233,11 @@ img.keynote-portrait {
 
   &.has-stars .media:not(.starred) {
     color: $middishgrey;
+
+    a {
+      color: $fadedblue;
+    }
+
   }
 
   button.star-btn {
@@ -341,5 +349,88 @@ img.keynote-portrait {
 }
 
 .well-holl {
-  background: url(../images/texas-gis-forum/2015/holl-bg.jpg) 0 0;
+  background: url(../static/images/texas-gis-forum/2015/holl-bg.jpg) 0 0;
+}
+
+.modal-header.abstract {
+  background: $forum2015blue;
+  color: white;
+  padding-top: 10px;
+  
+  h4 {
+    font-size: 22px;
+  }
+
+  .close {
+    color: $white;    
+    opacity: .5;
+  }
+}
+
+.forum-thin-promo {
+  border-bottom: 5px solid $forum2015blue;
+  display: block;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  min-height: 150px;
+  overflow: hidden;
+
+  img {
+    min-height: 150px;
+    position: relative;
+    min-width: 100%;
+
+    @media (min-width: $screen-sm) {
+      margin-left: -40%;
+    }
+    @media (min-width: $screen-md) {
+      margin-left: -25%;
+    }
+    @media (min-width: $screen-lg) {
+      margin-left: -20%;
+    }
+    @media (min-width: 1700px) {
+      margin-left: 0;
+    }
+  }
+}
+
+#stratmap .forum-thin-promo,
+#training .forum-thin-promo,
+.data-spotlight .forum-thin-promo, 
+#_2015-statewide-orthoimagery-project .forum-thin-promo {
+  margin-bottom: 5px;
+}
+
+#index .forum-thin-promo, 
+#_2015-gis-forum .forum-thin-promo, 
+#_2015-gis-forum-agenda .forum-thin-promo,
+#_2015-gis-forum-training .forum-thin-promo,
+#_2015-gis-forum-poster-gallery .forum-thin-promo,
+#_2015-gis-forum-sponsors-and-exhibitors .forum-thin-promo,
+#_2015-gis-forum-job-board .forum-thin-promo, 
+._2015-forum-training .forum-thin-promo {
+  display: none;
+}
+
+.closed-reg {
+  float: right; 
+  font-size: 14px;
+  width: 30%; 
+
+  @media (min-width: $screen-sm) {
+    font-size: 18px;
+  }
+}
+
+#news-2015-11-03-forum-thank-you-photo-recap .blog-main {
+  p {
+    margin-bottom: 10px;
+  }
+
+  img {
+    margin-top: 15px;
+    max-width: 100%;
+  }
 }

@@ -69,43 +69,36 @@
 
                 <div class="col-xs-12 col-sm-8 col-md-12 training-front">
                     <h2><a href="{{m.link('training')}}">GIS Training &amp; Education</a> <i class="fa fa-graduation-cap"></i> </h2>
+                    <h3>Announcing the 2016 Training Calendar</h3>
+                    <p>You’ll see the always-in-demand basic courses as well as more advanced topics.</p>
 
-                    <h3>Expand Your Professional Skills with TNRIS training</h3>
-                   
                     <img class="img-responsive" src="{{ m.link('static/images/front-page/training_promo.jpg')}}" alt="Books and Screenshots from training">
-                     <p>The 2015 training season is coming to a close. Check back soon for the release of next year's classes and more opportunities to learn from the best -- for the best value.</p>
-                    <p class="text-center"><a class="btn btn-tnris" href="{{m.link('training')}}" role="button">View 2015 Courses <span class="glyphicon glyphicon-chevron-right"></a>
+                    <ul class="list-clean">
+                        <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                            <div>
+                                <time>Dec. 3rd</time>
+                                <h4><a href="{{m.link('training/building-arcgis-applications-with-web-appbuilder-no-coding-required-/december-2015')}}">Building ArcGIS Applications with Web AppBuilder - No Coding Required!</a></h4>
+                            </div>
+                        </li>
+                      <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                            <div>
+                                <time>Feb. 18th – 19th</time>
+                                <h4><a href="{{m.link('training/programming-arcgis-with-python-introduction/february-2016')}}">Programming ArcGIS with Python - Introduction</a></h4>
+                            </div>
+                        </li>
+                    </ul>
+                     <p>Let us know if you have suggestions for courses that will help expand your skills!</p>
+                    <p class="text-center"><a class="btn btn-tnris" href="{{m.link('training')}}" role="button">View 2016 Courses <span class="glyphicon glyphicon-chevron-right"></a>
                     </p>
                 </div>
             </div>
         </div>
 
         <div id="front-right" class="col-sm-12 col-md-4">
-          <img alt="Texas GIS Forum Logo - Keynote Speakers" src="{{m.link('static/images/front-page/keynote-chyron.jpg')}}">
-          <h2 class="front-header">Bringing the Best, Not Just in GIS</h2>
-          <div class="row keynote-feature">
-            <div class="col-xs-4">
-              <a href="{{m.link('news/2015-07-23-forum-keynote-digital-humanitarian-patrick-meier')}}">
-              <img alt="Patrick Meier Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/patrick_square.jpg')}}">
-              <h3><small>Digital Humanitarian</small><br>Patrick<br>Meier</h3>
-              </a>
-            </div>
-            <div class="col-xs-4">
-            <a href="{{m.link('news/2015-07-16-ucgis-fellow-david-cowen-keynote-forum')}}">
-          <img alt="David Cowen Small Headshot"  class="img-responsive img-circle" src="{{m.link('static/images/front-page/cowen_square.jpg')}}">
-
-              <h3><small>UCGIS Fellow</small><br>David<br>Cowen</h3>
-            </a>
-            </div>
-            <div class="col-xs-4">
-            <a href="{{m.link('news/2015-08-24-forum-keynote-ut-professor-todd-humphreys')}}">
-          <img alt="Todd Humphreys Small Headshot"  class="img-responsive img-circle" src="{{m.link('static/images/front-page/humphreys_square.jpg')}}">
-              <h3><small>UT Professor</small><br>Todd<br>Humphreys</h3>
-            </a>
-            </div>
-            <div class="col-xs-12"><a class="btn btn-md btn-danger pull-right" href="{{m.link('2015-gis-forum')}}">2015 Forum Home</a> Learn more about the Forum and <strong>Register Today</strong>! </div>
-          </div>
-
+          
+         <a href="{{ m.link('2015-statewide-orthoimagery-project')}}"><img class="img-responsive ad" src="{{ m.link('static/images/front-page/statewide_ad_2.jpg')}}" alt="2015 Statewide Orthoimagery Project link"></a>
             <div id="dataSpot">
                 <div class="spotText">
                   <i class="glyphicon glyphicon-eye-open"></i> A closer look at featured data and maps from our own catalog and other sources.
@@ -141,7 +134,6 @@
             </div>
         </div>
 
-         <a href="{{ m.link('2015-statewide-orthoimagery-project')}}"><img class="img-responsive ad" src="{{ m.link('static/images/front-page/statewide_ad_2.jpg')}}" alt="2015 Statewide Orthoimagery Project link"></a>
         
       </div>
   </div>

@@ -9,32 +9,25 @@ var extend = require('extend');
 var fs = require('fs');
 var gulp = require('gulp');
 var gulp_front_matter = require('gulp-front-matter');
-var gulpif = require('gulp-if');
 var gulpsmith = require('gulpsmith');
 var gulpSwig = require('gulp-swig');
-var lazypipe = require('lazypipe');
 var markdown = require('metalsmith-markdown');
 var marked = require('marked');
 var metadata = require('metalsmith-metadata');
-var minifyCss = require('gulp-minify-css');
-var ngAnnotate = require('gulp-ng-annotate');
 var paginate = require('metalsmith-paginate');
 var path = require('path');
 var permalinks = require('metalsmith-permalinks');
 var rename = require('gulp-rename');
 var replace = require('metalsmith-replace');
-var sass = require('gulp-ruby-sass');
 var scapegoat = require('scapegoat');
-var scsslint = require('gulp-scss-lint');
 var sitemap = require('metalsmith-sitemap');
 var swig = require('swig');
 var templates = require('metalsmith-templates');
 var trim = require('lodash.trim');
-var uglify = require('gulp-uglify');
-var useref = require('gulp-useref');
 var vinylPaths = require('vinyl-paths');
 var winston = require('winston');
-var webserver = require('gulp-webserver');
+var webpack = require('webpack');
+var WebpackDevServer = require("webpack-dev-server");
 
 var autodate = require('./metalsmith-autodate');
 var based = require('./metalsmith-based');
@@ -43,7 +36,10 @@ var crossref = require('./metalsmith-crossref');
 var csv = require('./metalsmith-csv');
 var metadata = require('metalsmith-metadata');
 
+var generateWebpackConfig = require('./generate-webpack-config');
+
 var production = false;
+var devServerPort = 8000;
 
 var dirs = {
   dist: './.dist',
@@ -53,7 +49,6 @@ var dirs = {
   tmp: './.tmp',
   templates: './templates',
   sitemap: './sitemap',
-  config: './config'
 };
 
 dirs.markdown = path.join(dirs.content, 'markdown');
@@ -67,7 +62,6 @@ var paths = {
   scss: dirs.scss + '/**/*.scss',
   static: [dirs.static + '/**/*', '!' + path.join(dirs.bower, 'bootstrap-sass-official/**'), '!' + path.join(dirs.bower, 'bourbon/**')],
   templates: dirs.templates + '/**/*',
-  config: dirs.config + '/**/*',
   variables: dirs.content + '/variables.yaml'
 };
 
@@ -238,36 +232,21 @@ var errors = function () {
 }();
 
 
-gulp.task('default', ['dist-dev', 'watch', 'webserver']);
+gulp.task('default', ['watch', 'webserver']);
 gulp.task('dev-prod', ['dist', 'watch', 'webserver']);
 
 gulp.task('watch', function () {
   gulp.watch(paths.content, ['dist-metal']);
-  gulp.watch(paths.scss, ['dist-scss']);
   gulp.watch(paths.templates, ['dist-metal']);
-  gulp.watch(paths.javascript, ['dist-static']);
-  gulp.watch(paths.config, ['dist-config']);
 });
 
-gulp.task('webserver', ['dist-dev'],  function() {
-  gulp.src(dirs.dist)
-    .pipe(webserver({
-      livereload: true
-    }));
-});
+gulp.task('webserver', ['webpack-dev-server']);
 
 gulp.task('dist', ['dist-production']);
-gulp.task('dist-dev', ['dist-config', 'dist-fonts', 'dist-metal', 'dist-scss', 'dist-static', 'dist-sitemap']);
-gulp.task('dist-production', ['set-production', 'dist-dev', 'dist-useref', 'dist-sitemap']);
+gulp.task('dist-dev', ['webpack-dev', 'dist-sitemap']);
+gulp.task('dist-production', ['webpack-production', 'dist-sitemap']);
 
-gulp.task('set-production', function () {
-  production = true;
-});
-
-gulp.task('dist-fonts', function () {
-  return gulp.src(path.join(dirs.static, 'bower_components', 'bootstrap', 'fonts', '*'))
-    .pipe(gulp.dest(path.join(dirs.dist, 'fonts')));
-});
+gulp.task('dist-fonts', ['webpack']);
 
 gulp.task('dist-metal', function () {
   return gulp.src([
@@ -352,7 +331,11 @@ gulp.task('dist-metal', function () {
           template: '2015-forum-training-entry.html',
           filenameKeys: ['class_title'],
           contentsKey: 'description',
-          titleKey: 'class_title'
+          titleKey: 'class_title',
+          additional: function (file) {
+            file.bodyClass = '_2015-forum-training';
+            return file;
+          }
         }))
         .use(metadata({
           variables: 'variables.yaml'
@@ -410,8 +393,8 @@ gulp.task('dist-metal', function () {
             'data-download': '/data-download/'
           },
           includeDirs: {
-            'static/documents': 'documents',
-            'static/images': 'images'
+            'static/documents': 'static/documents',
+            'static/images': 'static/images'
           }
         }))
         .use(based())
@@ -445,43 +428,7 @@ gulp.task('dist-metal', function () {
           done();
         })
       )
-    .pipe(gulpif(production, gulp.dest(dirs.tmp), gulp.dest(dirs.dist)));
-});
-
-gulp.task('dist-scss', function () {
-  return gulp.src(paths.scss)
-    //.pipe(gulpif(!production, scsslint()))
-    .pipe(sass())
-    .pipe(gulp.dest(dirs.dist + '/css'))
-    .pipe(gulp.dest(dirs.tmp + '/css'));
-});
-
-gulp.task('dist-static', function () {
-  return gulp.src(paths.static)
-    .pipe(gulpif(production, gulp.dest(dirs.tmp)))
-    .pipe(gulp.dest(dirs.dist));
-});
-
-gulp.task('dist-useref', ['dist-metal', 'dist-scss', 'dist-static'], function () {
-  var assets = useref.assets();
-
-  var jsCompress = lazypipe()
-    .pipe(ngAnnotate)
-    .pipe(uglify);
-
-  // WARNING: Currently broken, proceed with caution!
-  // see: https://github.com/jonkemp/gulp-useref/issues/87
-  //return gulp.src(dirs.tmp + '/**/index.html')
-      //.pipe(assets)
-      //.pipe(gulpif('*.min.js', jsCompress()))
-      //.pipe(gulpif('*.min.css', minifyCss()))
-      //.pipe(assets.restore())
-      //.pipe(useref())
-      //.pipe(gulp.dest(dirs.dist));
-
-  // instead, just pipe to dist
-  return gulp.src(dirs.tmp + '/**/index.html')
-      .pipe(gulp.dest(dirs.dist));
+    .pipe(gulp.dest(dirs.tmp));
 });
 
 gulp.task('dist-sitemap', ['dist-metal', 'sitemap-datadownload', 'sitemap-index'], function () {
@@ -507,23 +454,82 @@ gulp.task('sitemap-index', function() {
     .pipe(gulp.dest(dirs.tmp));
 });
 
-gulp.task('dist-config', function () {
-  var path;
-  if (production) {
-    path = dirs.config + '/config-production.js';
-  }
-  else {
-    path = dirs.config + '/config-development.js';
-  }
-
-  return gulp.src(path)
-    .pipe(rename('configApp.js'))
-    .pipe(gulp.dest(dirs.dist + '/js'));
-});
-
 gulp.task('clean', ['clean-dist']);
 
 gulp.task('clean-dist', function() {
-  return gulp.src([dirs.dist, dirs.tmp, '.sass-cache/'])
+  return gulp.src([dirs.dist, dirs.tmp])
     .pipe(vinylPaths(del));
+});
+
+
+function checkWebpackErrors (err, stats) {
+  if (err) {
+    errors.breaking(err);
+    process.exit(1);
+  } else if (stats.hasErrors()) {
+    errors.breaking(stats.toJson().errors);
+    process.exit(1);
+  }
+}
+
+gulp.task('webpack-production', ['dist-metal'], function(callback) {
+  process.env.NODE_ENV = 'production';
+
+  var prodWebpackConfig = generateWebpackConfig();
+  prodWebpackConfig.debug = false;
+
+	prodWebpackConfig.plugins = prodWebpackConfig.plugins.concat(
+		new webpack.optimize.DedupePlugin(),
+		new webpack.optimize.UglifyJsPlugin()
+	);
+
+  webpack(prodWebpackConfig, function(err, stats) {
+    checkWebpackErrors(err, stats);
+    callback();
+  });
+});
+
+
+gulp.task('webpack-dev', ['dist-metal'], function(callback) {
+  process.env.NODE_ENV = 'development';
+
+  var devWebpackConfig = generateWebpackConfig();
+  devWebpackConfig.devtool = "sourcemap";
+  devWebpackConfig.debug = true;
+
+  webpack(devWebpackConfig, function(err, stats) {
+    checkWebpackErrors(err, stats);
+    callback();
+  });
+});
+
+gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
+  process.env.NODE_ENV = 'development';
+
+  var devWebpackConfig = generateWebpackConfig();
+	devWebpackConfig.devtool = "eval";
+  devWebpackConfig.debug = true;
+  devWebpackConfig.unsafeCache = ['.tmp'];
+
+  Object.keys(devWebpackConfig.entry).forEach(function (key) {
+    devWebpackConfig.entry[key].unshift('webpack-dev-server/client?http://localhost:' + devServerPort);
+  });
+
+	// Start a webpack-dev-server
+	new WebpackDevServer(webpack(devWebpackConfig), {
+		contentBase: devWebpackConfig.output.path,
+    watchOptions: {
+      aggregateTimeout: 300,
+      poll: 1000
+    },
+    stats: {
+			colors: true
+		}
+	}).listen(devServerPort, "localhost", function(err) {
+		if(err) {
+      errors.breaking(err);
+      throw new gutil.PluginError("webpack-dev-server", err)
+    };
+		clog.info("webpack dev server started: http://localhost:" + devServerPort + "/");
+	});
 });
