@@ -1,5 +1,5 @@
 ---
-template: news.html
+template: aroundthestate.html
 title: "DIR Releases StratMap Contract, Successor to HPIDS"
 author: StratMap
 thumbnail: static/images/updates/2015/dir/dir_texas_th.jpg
@@ -17,6 +17,9 @@ The DIR contract will be signed by companies who have been evaluated and pre-qua
  
 Respondents will have thirty (30) days to submit proposals and a non-mandatory meeting is expected to occur on October 30, 2015.  
  
-**To access the solicitation, visit the link below.**
+<p class="lead"><a class="btn btn-lg btn-danger pull-right" href="http://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx">View DIR's Contract Page</a> To access the solicitation, visit the DIR contract page.</p>
 
-<a class="btn btn-lg btn-danger" href="http://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx">View DIR's Contract Page</a>
+<div class="alert alert-warning"><strong>Note:</strong> The contract is labeled as "​<strong>Geographic Information Systems (GIS) Hardware, Software, and Services RFO</strong>" on the DIR page. See image below.</div>
+
+<a href="http://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx"><img class="img-responsive" alt="A screenshot of the DIR contract page, highlighting the StratMap contract" src="{{m.link('static/images/around-the-state/dir/dir_highlight.jpg')}}"></a>
+
