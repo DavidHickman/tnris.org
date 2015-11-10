@@ -225,7 +225,7 @@ var errors = function () {
   return {
     breaking: function log (message) {
       winston.log('error', message);
-      this.count++;
+      //this.count++;
     },
     count: count
   }
@@ -262,18 +262,19 @@ gulp.task('dist-metal', function () {
         .use(parseCSV({
           name: 'catalog',
           path: 'content/data-catalog.csv',
-          urlDir: 'data-catalog',
+          urlDir: 'data-catalog/entry',
           template: 'data-catalog-entry.html',
-          filenameKeys: ['category', 'name'],
+          filenameKeys: ['name'],
           splitKeys: ['tags'],
           contentsKey: 'description',
           titleKey: 'name',
           additional: function (file) {
-            var image_name = file.urlized_name.replace(/-/g, '_');
-            var urlizedEntry = file.urlized_category + '/' + image_name;
-            var base = 'images/data-catalog/' + urlizedEntry;
+            var imageName = file.urlized_name.replace(/-/g, '_');
+            var base = 'images/data-catalog/entry/' + imageName;
 
-            var image_types = [
+            file['urlized_category'] = urlize(file.category);
+
+            var imageTypes = [
               {
                 name: 'thumb',
                 suffix: '_th',
@@ -295,23 +296,23 @@ gulp.task('dist-metal', function () {
               }
             ];
 
-            _.each(image_types, function (image_type) {
-              var filename = base + image_type.suffix + '.jpg';
+            _.each(imageTypes, function (imageType) {
+              var filename = base + imageType.suffix + '.jpg';
 
               var staticPath = dirs.static + '/' + filename;
               var exists = fs.existsSync(staticPath);
 
               if (exists) {
-                file[image_type.name + '_url'] = filename;
+                file[imageType.name + '_url'] = filename;
               }
             });
 
             if (!file['thumb_url']) {
-              errors.breaking("Could not find required thumbnail image for data catalog entry: " + urlizedEntry);
+              errors.breaking("Could not find required thumbnail image for data catalog entry: " + imageName);
             }
 
             if (!file['overview_image_url'] && !file['detail_image_url']) {
-              errors.breaking("Could not find overview or detail image for data catalog entry: " + urlizedEntry);
+              errors.breaking("Could not find overview or detail image for data catalog entry: " + imageName);
             }
 
             return file;

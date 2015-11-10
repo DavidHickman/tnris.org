@@ -5,9 +5,8 @@
 {%- endmacro -%}
 
 {%- macro catalog_data_card_entry(search) -%}
-  {%- set category = search['urlized_category'] || search.split('/')[0] -%}
   {%- set name = search['urlized_name'] || search.split('/')[1] -%}
-  {%- set item = catalog|find({'urlized_category': category, 'urlized_name':name}) -%}
+  {%- set item = catalog|find({'urlized_name':name}) -%}
   {%- if !item %}
     {# run validateLink to generate a usable build warning #}
     {%- set throwaway = validateLink(search, crossref, filename) -%}
