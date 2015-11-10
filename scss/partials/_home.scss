@@ -235,8 +235,12 @@
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 0;
+
+    @media (min-width: $screen-lg) {
+      font-size: 22px;
+    }
     
     a {
         color: $auburn;
@@ -334,7 +338,7 @@
 
     figure {
       margin-bottom: 15px;
-      min-height: 285px;
+      min-height: 350px;
       position: relative;
       
       @media (min-width: $screen-sm) {
@@ -355,6 +359,7 @@
         max-width: 100%;
         position: absolute;
       }
+      
       h3 {
         top: 0;
         left: 0px;
