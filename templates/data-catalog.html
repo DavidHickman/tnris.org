@@ -29,28 +29,28 @@
             We currently have <strong>{{catalog.length}}</strong> of our datasets represented in our online data catalog and are continually updating it with new entries. If you don't find what you're looking for, please <a href="{{m.link('contact')}}">contact us</a>.
           </p>
         </div>
+
         <div class="hidden-md hidden-lg nav-cat-select">
           <h4>Browse by Category</h4>
-        <select class="selectpicker" onchange="location = this.options[this.selectedIndex].value;">
-          {% for category in catalog|sortBy('category')|groupBy('category') %}
+          <select class="selectpicker" onchange="location = this.options[this.selectedIndex].value;">
+            {% for category in catalog|sortBy('category')|groupBy('category') %}
               <option value="#{{category|first['urlized_category']}}">
                 {{loop.key}} ({{Object.keys(category).length}})
               </option>
             {% endfor %}
-        </select>
-      </div>
+          </select>
+        </div>
 
-          <div class="section">
-        {% for category in catalog|sortBy(['category', 'name'])|groupBy('category') %}
+        <div class="section">
+          {% for category in catalog|sortBy(['category', 'name'])|groupBy('category') %}
             <h2 id="{{category|first['urlized_category']}}">{{loop.key}}</h2>
             <ul class="data-cards media-list list-group">
               {% for item in category %}
                 {{m.catalog_data_card_entry(item)}}
               {% endfor %}
             </ul>
-        {% endfor %}
-
-          </div>
+          {% endfor %}
+        </div>
       {% endblock catalog_content %}
     </div>
   </div>
