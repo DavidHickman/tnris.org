@@ -20,6 +20,6 @@ The dam was completed in 1942 as a project of the Brazos River Authority and the
 
 ## Where Did the Data Come From?
 
-This LiDAR data is from the [FEMA 2013 60cm Middle Brazos-Palo Pinto](data-catalog/elevation-lidar/fema-2013-60cm-middle-brazos-palo-pinto) dataset.
+This LiDAR data is from the [FEMA 2013 60cm Middle Brazos-Palo Pinto](data-catalog/entry/fema-2013-60cm-middle-brazos-palo-pinto) dataset.
 
-{{m.catalog_data_card('elevation-lidar/fema-2013-60cm-middle-brazos-palo-pinto')}}
+{{m.catalog_data_card('fema-2013-60cm-middle-brazos-palo-pinto')}}

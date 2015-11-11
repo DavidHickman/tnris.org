@@ -5,7 +5,7 @@
 {%- endmacro -%}
 
 {%- macro catalog_data_card_entry(search) -%}
-  {%- set name = search['urlized_name'] || search.split('/')[1] -%}
+  {%- set name = search['urlized_name'] || search -%}
   {%- set item = catalog|find({'urlized_name':name}) -%}
   {%- if !item %}
     {# run validateLink to generate a usable build warning #}

@@ -13,15 +13,15 @@ bodyClass: data-spotlight
 
 ## Where Did the Data Come From?
 
-The watershed is represented by the [USGS Water Shed Boundaries Dataset (WBD)](data-catalog/hydrography/watershed-boundaries) Upper Devil’s River Huc 8 sub-basin.
+The watershed is represented by the [USGS Water Shed Boundaries Dataset (WBD)](data-catalog/entry/watershed-boundaries) Upper Devil’s River Huc 8 sub-basin.
 
-{{m.catalog_data_card('hydrography/watershed-boundaries')}}
+{{m.catalog_data_card('watershed-boundaries')}}
 
 
-The extensive water network seen is represented in blue by the [National Hydrography Dataset (NHD)](data-catalog/hydrography/national-hydrography-dataset-nhd).
+The extensive water network seen is represented in blue by the [National Hydrography Dataset (NHD)](data-catalog/entry/national-hydrography-dataset-nhd).
 
-{{m.catalog_data_card('hydrography/national-hydrography-dataset-nhd')}}
+{{m.catalog_data_card('national-hydrography-dataset-nhd')}}
 
-The [National Elevation Dataset (NED)](data-catalog/elevation-image/national-elevation-dataset-ned-2013) was used for elevations and is represented by the color ramp showing low areas in red with higher elevations in green.
+The [National Elevation Dataset (NED)](data-catalog/entry/national-elevation-dataset-ned-2013) was used for elevations and is represented by the color ramp showing low areas in red with higher elevations in green.
 
-{{m.catalog_data_card('elevation-image/national-elevation-dataset-ned-2013')}}
+{{m.catalog_data_card('national-elevation-dataset-ned-2013')}}

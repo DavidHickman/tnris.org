@@ -32,12 +32,12 @@ View coverage areas in the interactive map below:
 
 <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/9214a5fa-63b4-11e5-9475-0e73ffd62169/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage. 
+Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage.
 
 ## Catalog Entry
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('elevation-lidar/tnris-2015-50cm-brazos-county/')}}
+{{m.catalog_data_card('tnris-2015-50cm-brazos-county')}}
 
 ## Products
 - Classified all-return lidar DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format
@@ -50,7 +50,7 @@ View more details in the **Data Catalog Entry**:
 <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-lidar/brazos_lidar_overview.jpg')}}">
 
 ## Product Specification
-- Vertical accuracy (RMSEz) tested 4.4 cm in non-vegetation. 
+- Vertical accuracy (RMSEz) tested 4.4 cm in non-vegetation.
 - Average first-return point density is slightly over 4 points per square meter (ppsm)
 - Point data are classified according to the following American Society for Photogrammetry and Remote Sensing (ASPRS) class schema:
   * Class 1: Unclassified
@@ -61,7 +61,7 @@ View more details in the **Data Catalog Entry**:
   * Class 6: Buildings
   * Class 7: Low Point (noise)
   * Class 9: Water
-  * Class 13: Bridges 
+  * Class 13: Bridges
   * Class 14: Culverts
 - **Projection Specifications**
   + Horizontal projection is UTM NAD83 (NSRS 2007) Zones 14

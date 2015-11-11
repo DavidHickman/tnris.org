@@ -24,7 +24,7 @@ Each dataset has a clear template and samples of what data will look like, with 
 Included on each page are also all the ways the data can be accessed. You'll be able to tell right away if you can search and [download online](data-download) via our website; custom order through our [Research and Distribution](maps-and-data/research-and-distribution) services; or load the data as an [online map service](maps-and-data/online-mapping-services).
 
 Across the site, you'll also run into **data cards** that link to data sets when they are referenced in articles or on other pages, so you'll know right away where to find the data that is being referred to.
-{{m.catalog_data_card('elevation-lidar/capcog-2007-140cm')}}
+{{m.catalog_data_card('capcog-2007-140cm')}}
 
 In the near future, stay posted as we roll out more robust search functionality that will make exploring our data even easier.
 
