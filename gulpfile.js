@@ -7,6 +7,7 @@ var del = require('del');
 var each = require('metalsmith-each');
 var extend = require('extend');
 var fs = require('fs');
+var glob = require('glob');
 var gulp = require('gulp');
 var gulp_front_matter = require('gulp-front-matter');
 var gulpsmith = require('gulpsmith');
@@ -244,7 +245,7 @@ gulp.task('webserver', ['webpack-dev-server']);
 
 gulp.task('dist', ['dist-production']);
 gulp.task('dist-dev', ['webpack-dev', 'dist-sitemap']);
-gulp.task('dist-production', ['webpack-production', 'dist-sitemap']);
+gulp.task('dist-production', ['webpack-production', 'dist-sitemap', 'static-to-root']);
 
 gulp.task('dist-fonts', ['webpack']);
 
@@ -453,6 +454,13 @@ gulp.task('sitemap-index', function() {
     .pipe(gulpSwig(opts))
     .pipe(rename('sitemap-index.xml'))
     .pipe(gulp.dest(dirs.tmp));
+});
+
+gulp.task('static-to-root', ['webpack-production'], function() {
+  var files = glob.sync(path.join(dirs.dist, 'static/*'), {nodir: true});
+
+  return gulp.src(files)
+    .pipe(gulp.dest(dirs.dist));
 });
 
 gulp.task('clean', ['clean-dist']);
