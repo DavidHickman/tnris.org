@@ -32,18 +32,18 @@ View coverage areas in the interactive map below:
 
 <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/d698a32c-87b6-11e5-9eed-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage. 
+Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage.
 
 ## Catalog Entry
 
 View more details in the **Data Catalog Entry**:
 
-{{m.catalog_data_card('elevation-lidar/fema-2015-70-cm/')}}
+{{m.catalog_data_card('fema-2015-70-cm')}}
 
 ## Products
 - Classified all-return lidar tiles (US Grid)) in LAS 1.2 format
 - Bare-earth digital elevation model (.img format)
-- Lidar intensity images in GeoTIFF format 
+- Lidar intensity images in GeoTIFF format
 - Hydro-flattening breaklines (File GDB)
 - File-level FGDC metadata in XML
 
@@ -51,14 +51,14 @@ View more details in the **Data Catalog Entry**:
 <img class="img-responsive" src="{{m.link('static/images/updates/2015/middle-brazos-palo-lidar/fema_2015_60cm_middle_brazos_palo_pinto_2.jpg')}}">
 
 ## Product Specification
-- Vertical accuracy (RMSEz) tested 9.6 cm in non-vegetation. 
+- Vertical accuracy (RMSEz) tested 9.6 cm in non-vegetation.
 - Average first-return point density is  2.2 points per square meter (ppsm)
   * Class 1: Unclassified
   * Class 2: Ground
   * Class 7: Low Point (noise)
   * Class 9: Water
   * Class 10: Ignored Ground due to breakline proximity
-  * Class 11: Withheld, Points, with scan angles exceeding +/- 20 degrees	
+  * Class 11: Withheld, Points, with scan angles exceeding +/- 20 degrees
 - **Projection Specifications**
   + Horizontal projection is UTM NAD83  Zones 14
   + Vertical projection is NAVD88 Geoid 12A

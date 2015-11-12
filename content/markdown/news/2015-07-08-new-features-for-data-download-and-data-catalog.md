@@ -31,9 +31,9 @@ New datasets include authoritative source data from the [Texas Water Development
 
 ### Some new datasets include:
 
-{{m.catalog_data_card('hydrography/twdb-existing-reservoirs')}}
+{{m.catalog_data_card('twdb-existing-reservoirs')}}
 
-{{m.catalog_data_card('boundary/twdb-regional-water-planning-areas-rwpa')}}
+{{m.catalog_data_card('twdb-regional-water-planning-areas-rwpa')}}
 
 [Contact Us](contact) to add your agency data to the TNRIS Data Catalog now.
 

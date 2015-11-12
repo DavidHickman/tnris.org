@@ -29,7 +29,7 @@ The Texas Natural Resources Information System (TNRIS) is pleased to announce th
 </div>
 
 ### Catalog Entry
-{{m.catalog_data_card('elevation-lidar/city-of-georgetown-2015-50-cm')}}
+{{m.catalog_data_card('city-of-georgetown-2015-50-cm')}}
 
 ## Interactive AOI (Area of Interest) Map
 <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/a3cf9e14-3a1d-11e5-9323-0e0c41326911/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
