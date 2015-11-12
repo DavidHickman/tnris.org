@@ -11,14 +11,14 @@
   }
 
   h1 {
-    font-size: 40px; 
+    font-size: 36px; 
     
     @media (min-width: $screen-sm){
       font-size: 50px;
     }
 
     @media (min-width: $screen-md){
-      font-size: 60px;
+      font-size: 45px;
     }
   }
 
@@ -47,7 +47,11 @@
       }
     }
 
-    img {
+    img.logo {
+      min-width: 0 !important;
+    }
+
+    img.orthobanner {
       max-height: 300px;
       margin-left: -250px;
 
@@ -191,6 +195,10 @@ ul.dash {
   background: $lightgrey;
   padding-bottom: 20px;
 
+  h3 {
+    font-size: 22px;
+  }
+
   date {
     text-transform: uppercase;
   }
@@ -210,11 +218,11 @@ ul.dash {
 // }
 
 h2.updates-header {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 100;
 
   strong { 
-    font-size: 35px;
+    font-size: 40px;
   }
 }
 
@@ -398,6 +406,10 @@ h2.updates-header {
     text-shadow: 0 0 1px solid $darkgrey;
   }
 
+  h3 {
+    margin-top: 20px;
+  }
+
   a {
     color: $orange;
 
@@ -409,6 +421,7 @@ h2.updates-header {
   figure {
     margin-left: 10px;
     margin-bottom: 10px;
+
     img {
       border: 1px solid $midgrey;
       max-height: 250px;
@@ -416,7 +429,6 @@ h2.updates-header {
 
     h3 {
       font-weight: 300;
-      margin-top: 0;
       margin-bottom: 5px;
     }
   }
