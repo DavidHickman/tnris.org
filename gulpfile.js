@@ -225,7 +225,7 @@ var errors = function () {
   return {
     breaking: function log (message) {
       winston.log('error', message);
-      //this.count++;
+      this.count++;
     },
     count: count
   }
