@@ -20,15 +20,32 @@
 
     <div class="top-container">
         {% if mainimage %}
-          <img src="{{m.link(mainimage)}}" alt="Main Image for Statewide Ortho project, a Texas Flag composed of imagery">
+          <img class="orthobanner" src="{{m.link(mainimage)}}" alt="Main Image for Statewide Ortho project, a Texas Flag composed of imagery">
         {% endif %}
 
         <div class="top-header center-block">
             <div class="container">
+              <section class="row">
+                <div class="col-md-9">
                 <h1>{{title}}</h1> {% if abstract %}
-                <div class="lead">{{abstract}}</div>
+        <div class="lead hidden-xs">
+          <figure class="pull-right">       
+        <a href="http://www.surdex.com">
+          <img class="logo" src="{{m.link('static/images/statewide-orthoimagery/surdex_white.png')}}" alt="Surdex logo and link to their website">
+        </a>
+        <figcaption class="text-right"><em>Project Vendor</em></figcaption>
+        </figure>
+          {{abstract}}</div>
                 {% endif %}
                 <a href="#intro" class="btn btn-danger btn-lg smooth-scroll">More background about the project <i class="glyphicon glyphicon-chevron-right"></i></a>
+              </div>
+              <div class="col-md-3 hidden-xs hidden-sm">
+                <h3>Questions or Comments?</h3>
+        <a class="btn btn-default btn-md btn-block smooth-scroll" href="#contact-pm">
+          <i class="glyphicon glyphicon-comment"></i> Contact the Project Manager
+        </a>
+              </div>
+              </section>
             </div>
         </div>
     </div>

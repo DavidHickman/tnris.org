@@ -1,29 +1,36 @@
-<div class="col-sm-8">
+<section class="row">
+  <div class="col-sm-8">
     <h2 class="updates-header">Project Activity for the week ending<br><strong>{{status_date}}</strong></h2>
     <h3>Update Summary</h3>
+    <a class="btn btn-default btn-lg pull-right" href="{{m.link('static/documents/2015-ortho-weekly-reports/' + latest_report)}}"><span class="glyphicon glyphicon-file"></span> Download the latest full vendor report</a>
     <ul class="dash list-clean">
         {% for update in updates %}
         <li>{{update}}</li>
         {% endfor %}
     </ul>
-    <hr>
-    <a class="btn btn-default btn-lg" href="{{m.link('static/documents/2015-ortho-weekly-reports/' + latest_report)}}"><span class="glyphicon glyphicon-file"></span> Download the latest full vendor report</a>
 
-    <h3>Final Orthoimagery Status</h3>
-    <div class="row list-clean data-progress-final">
+    <h3>Full Statewide Dataset Access</h3>
+    {{m.catalog_data_card('texas-orthoimagery-program-top-2015-50cm-nc-cir')}}
 
-        <div class="col-md-6">
-        <div class="status">
-            <progress class="level-one" max="100" value="{{progress_5}}">
+    <h3>Regional 6-Inch/1-Foot Dataset Access</h3>
+
+   {{m.catalog_data_card('hpids-georgetown-2015-6in-nc-cir')}}
+</div>
+<div class="col-sm-4 col-md-3 col-md-offset-1">
+   
+   <h3>Full Statewide Orthoimagery Status</h3>
+   <div class="list-clean data-progress-final">
+    
+          <a href="#doqq-image" data-toggle="modal"><img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + doqq_image_preview)}}" alt="Latest DOQQ availability preview image">
+          <p class="text-right"><span class="glyphicon glyphicon-search"></span> Click for larger view</p>
+          </a>
+<div class="status">
+            <progress class="level-two" max="100" value="{{progress_5}}">
             </progress>
             <h3 class="amount level-one">{{progress_5}}%</h3>
-            <p>of final Digital Orthophoto Quarter-Quads (DOQQs) received</p>
+            <p>of final Digital Orthophoto Quarter-Quads (DOQQs) Available</p>
         </div>
-
-          <a href="#doqq-image" data-toggle="modal"><img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + doqq_image_preview)}}" alt="Latest DOQQ availability preview image">
-          <p><span class="glyphicon glyphicon-search"></span> Click for larger view</p>
-          </a>
-
+</div>
 
           <div class="modal fade" id="doqq-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -41,20 +48,19 @@
                   </div>
               </div>
           </div>
-      </div>
-        <div class="col-md-6">
-          
-          <div class="status">
+   <div class="list-clean data-progress-final">
+ 
+          <a href="#ccm-image" data-toggle="modal"><img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + ccm_image_preview)}}" alt="Latest CCM availability preview image">
+          <p class="text-right"><span class="glyphicon glyphicon-search"></span> Click for larger view</p>
+            </a>
+  <div class="status">
 
             <progress class="level-one" max="100" value="{{progress_7}}">
             </progress>
             <h3 class="amount level-one">{{progress_7}}%</h3>
-            <p>of final Compressed County Mosaics (CCMs) received</p>
+            <p>of final Compressed County Mosaics (CCMs) Available</p>
           </div>
-          <a href="#ccm-image" data-toggle="modal"><img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + ccm_image_preview)}}" alt="Latest CCM availability preview image">
-          <p><span class="glyphicon glyphicon-search"></span> Click for larger view</p>
-            </a>
-
+        </div>
               <div class="modal fade" id="ccm-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                   <div class="modal-content">
@@ -71,17 +77,21 @@
                   </div>
               </div>
               </div>
-        </div>
+</div>
+</section>
 
-    </div>
-    <h3>Data Progress</h3>
+<hr>
+<div class="row">
+<div class="col-md-8">
+    <h3>Data Acquisition and Processing Progress</h3>
+    <p class="lead">Note: Due to unfavorable weather conditions, it wasn't possible to acquire the remaining areas of Texas (9%) within the original timeframe. Flights were put on hold on in early August until the next upcoming leaf-off season, pushing the estimated project completion date to Spring 2016.</p>
     <ul class="list-clean data-progress">
         <li class="status">
             <progress class="level-four" max="100" value="{{progress_1}}">
             </progress>
             <h3 class="amount level-one">{{progress_1}}%</h3>
             <i class="fa fa-plane"></i>
-            <p>of the state has been flown for 0.5-meter imagery (see the <a href="#timeline_note">*note under 'Project Timeline')</a></p>
+            <p>of the state has been flown for 0.5-meter imagery (see the note above)</a></p>
         </li>
         <li class="status">
             <progress class="level-five" max="100" value="{{progress_2}}">
@@ -110,8 +120,12 @@
         </li>
     </ul>
 </div>
-<div class="col-sm-4 col-md-3 col-md-offset-1">
-   <h3>Latest Production Status Map</h3>
+
+
+<div class="col-md-3 col-md-offset-1">
+
+
+<h3>Latest Production Status</h3>
     <a href="#production-image" data-toggle="modal">
         <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + production_image_preview)}}" alt="Latest Production Status Map for the Orthoimagery Project">
         <figcaption class="text-right hidden-xs"><span class="glyphicon glyphicon-search"></span> Click for larger view</figcaption>
@@ -122,7 +136,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                     </button>
-                    <h3>Latest Production Status Map</h3>
+                    <h3>Latest Production Status</h3>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + production_image)}}" alt="Latest Production Map and flightlines for the Orthoimagery Project">
@@ -133,7 +147,7 @@
             </div>
         </div>
     </div>
-    <h3>Latest Flightline Status Map</h3>
+    <h3>Latest Flightline Status</h3>
     <a href="#status-image" data-toggle="modal">
         <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + status_image_preview)}}" alt="Latest Status Image and flightlines for the Orthoimagery Project">
         <figcaption class="text-right hidden-xs"><span class="glyphicon glyphicon-search"></span> Click for larger view</figcaption>
@@ -144,7 +158,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                     </button>
-                    <h3>Latest Flightline Status Map</h3>
+                    <h3>Latest Flightline Status</h3>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + status_image)}}" alt="Latest Status Image and flightlines for the Orthoimagery Project">
@@ -155,15 +169,5 @@
             </div>
         </div>
     </div>
-
-
-       
-        <h3>Questions or Comments?</h3>
-        <a class="btn btn-default btn-md btn-block smooth-scroll" href="#contact-pm">
-          <i class="glyphicon glyphicon-comment"></i> Contact the Project Manager
-        </a>
-        <h3>Project Vendor</h3>
-        <a href="http://www.surdex.com">
-          <img class="img-responsive center-block" src="{{m.link('static/images/vendors/surdex_logo.png')}}" alt="Surdex logo and link to their website">
-        </a>
+  </div>
 </div>

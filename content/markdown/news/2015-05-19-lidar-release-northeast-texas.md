@@ -28,7 +28,7 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 </div>
 
 ### Catalog Entry
-{{m.catalog_data_card('elevation-lidar/tnris-2014-50cm-henderson-smith-van-zandt-trinity-river')}}
+{{m.catalog_data_card('tnris-2014-50cm-henderson-smith-van-zandt-trinity-river')}}
 
 ## Products
 -	Classified all-return Lidar DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format

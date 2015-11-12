@@ -7,6 +7,7 @@ var del = require('del');
 var each = require('metalsmith-each');
 var extend = require('extend');
 var fs = require('fs');
+var glob = require('glob');
 var gulp = require('gulp');
 var gulp_front_matter = require('gulp-front-matter');
 var gulpsmith = require('gulpsmith');
@@ -244,7 +245,7 @@ gulp.task('webserver', ['webpack-dev-server']);
 
 gulp.task('dist', ['dist-production']);
 gulp.task('dist-dev', ['webpack-dev', 'dist-sitemap']);
-gulp.task('dist-production', ['webpack-production', 'dist-sitemap']);
+gulp.task('dist-production', ['webpack-production', 'dist-sitemap', 'static-to-root']);
 
 gulp.task('dist-fonts', ['webpack']);
 
@@ -262,18 +263,19 @@ gulp.task('dist-metal', function () {
         .use(parseCSV({
           name: 'catalog',
           path: 'content/data-catalog.csv',
-          urlDir: 'data-catalog',
+          urlDir: 'data-catalog/entry',
           template: 'data-catalog-entry.html',
-          filenameKeys: ['category', 'name'],
+          filenameKeys: ['name'],
           splitKeys: ['tags'],
           contentsKey: 'description',
           titleKey: 'name',
           additional: function (file) {
-            var image_name = file.urlized_name.replace(/-/g, '_');
-            var urlizedEntry = file.urlized_category + '/' + image_name;
-            var base = 'images/data-catalog/' + urlizedEntry;
+            var imageName = file.urlized_name.replace(/-/g, '_');
+            var base = 'images/data-catalog/entry/' + imageName;
 
-            var image_types = [
+            file['urlized_category'] = urlize(file.category);
+
+            var imageTypes = [
               {
                 name: 'thumb',
                 suffix: '_th',
@@ -295,23 +297,23 @@ gulp.task('dist-metal', function () {
               }
             ];
 
-            _.each(image_types, function (image_type) {
-              var filename = base + image_type.suffix + '.jpg';
+            _.each(imageTypes, function (imageType) {
+              var filename = base + imageType.suffix + '.jpg';
 
               var staticPath = dirs.static + '/' + filename;
               var exists = fs.existsSync(staticPath);
 
               if (exists) {
-                file[image_type.name + '_url'] = filename;
+                file[imageType.name + '_url'] = filename;
               }
             });
 
             if (!file['thumb_url']) {
-              errors.breaking("Could not find required thumbnail image for data catalog entry: " + urlizedEntry);
+              errors.breaking("Could not find required thumbnail image for data catalog entry: " + imageName);
             }
 
             if (!file['overview_image_url'] && !file['detail_image_url']) {
-              errors.breaking("Could not find overview or detail image for data catalog entry: " + urlizedEntry);
+              errors.breaking("Could not find overview or detail image for data catalog entry: " + imageName);
             }
 
             return file;
@@ -452,6 +454,13 @@ gulp.task('sitemap-index', function() {
     .pipe(gulpSwig(opts))
     .pipe(rename('sitemap-index.xml'))
     .pipe(gulp.dest(dirs.tmp));
+});
+
+gulp.task('static-to-root', ['webpack-production'], function() {
+  var files = glob.sync(path.join(dirs.dist, 'static/*'), {nodir: true});
+
+  return gulp.src(files)
+    .pipe(gulp.dest(dirs.dist));
 });
 
 gulp.task('clean', ['clean-dist']);

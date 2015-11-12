@@ -25,7 +25,7 @@ The Texas Natural Resources Information System (TNRIS) is pleased to announce th
 </div>
 
 ### Catalog Entry
-{{m.catalog_data_card('elevation-lidar/capcog-2012-140cm')}}
+{{m.catalog_data_card('capcog-2012-140cm')}}
 
 ## Interactive AOI (Area of Interest) Map
 <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/01a1b8ba-3abe-11e5-bfd3-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

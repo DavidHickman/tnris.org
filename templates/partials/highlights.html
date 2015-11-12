@@ -41,7 +41,7 @@
                   <strong>{{item.acronym}}</strong><br>
                 {% endif %} 
                 {{item.name|safe}}</h2>
-              <img class="img-responsive" src="{{m.link(item.image)}}" alt="{{item.alt_text}}">
+              <a href="{{m.link(item.link)}}"><img class="img-responsive" src="{{m.link(item.image)}}" alt="{{item.alt_text}}"></a>
             </div>
             <p>{{item.description}}</p>
             <a class="btn btn-default" href="{{m.link(item.link)}}" role="button">{{item.button_text|safe}} <span class="glyphicon glyphicon-chevron-right"></a>

@@ -39,7 +39,7 @@ The new orthoimagery were acquired in late January 2015 during leaf-off conditio
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('aerial-orthoimagery-hpids/hpids-brazos-and-palestine-2015-6in-nc-cir')}}
+{{m.catalog_data_card('hpids-brazos-and-palestine-2015-6in-nc-cir')}}
 
 ## Acquisition Areas
 View coverage areas in the interactive map below:

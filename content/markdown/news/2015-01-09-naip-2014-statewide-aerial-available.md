@@ -18,7 +18,7 @@ NAIP is a nationwide program administered by the USDA-Farm Service Agency-Aerial
 ## Data Access
 ** View this data set in our data catalog **
 
-{{m.catalog_data_card('aerial-orthoimagery-statewide/national-agriculture-imagery-program-naip-2014-1m-nc-cir')}}
+{{m.catalog_data_card('national-agriculture-imagery-program-naip-2014-1m-nc-cir')}}
 
 The NAIP 2014 is available on our Data Search & Download. Search for your area to find the available orthoimagery.
 
