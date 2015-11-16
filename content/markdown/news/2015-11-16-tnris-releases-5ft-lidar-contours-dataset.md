@@ -25,7 +25,7 @@ All 5ft Contours can be downloaded at quadrangle level on the data download page
 Large requests can be delivered through the RDC. 
  
 ### Catalog Entry
-{{m.catalog_data_card('elevation-contours/tnris-5ft-contours')}}
+{{m.catalog_data_card('tnris-5ft-contours')}}
 
 ## Interactive AOI (Area of Interest) Map
 <iframe width="100%" height="520" frameborder="0" src="//tnris.cartodb.com/viz/e75c7f6c-6c2c-11e5-bfbf-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
