@@ -190,7 +190,7 @@ function parseCSV(options) {
 }
 
 function urlize(str) {
-  return str.trim().toLowerCase().replace(/[\(\)]/g, '').replace(/\W/g, '-').replace(/-+/g, '-');
+  return str.trim().toLowerCase().replace(/[\(\)\']/g, '').replace(/\W/g, '-').replace(/-+/g, '-');
 }
 
 function urlPath(str) {
