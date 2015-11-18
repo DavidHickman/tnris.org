@@ -23,7 +23,6 @@ var Clipboard = require('clipboard/dist/clipboard.js');
 
     // Tool Tip
     $('.copy-tip').tooltip({'placement': 'top'});
-    $('.wms-tip').tooltip({'placement': 'bottom'});
 
     // Beta/development alert message
     if (window.location.hostname !== 'tnris.org') {
