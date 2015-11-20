@@ -150,7 +150,13 @@
           {% if download_link %}
             <h4>Direct Download</h4>
             <p>The full <em>{{ name }}</em> data set can be downloaded directly.</p>
-            <p>Download the <strong>{{ download_size }}</strong> file here</p>
+            <p>Download the 
+              {% if download_size == "Varies" %}
+              <strong>variably sized</strong>
+              {% elseif download_size %}
+              <strong>{{ download_size }}</strong> 
+              {% endif %}
+              file here</p>
             <p><a href="{{download_link}}" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-download-alt"></span> Download <span class="hidden-sm hidden-xs hidden-md">Data Set</span></a></p>
           {% endif %}
 
@@ -218,15 +224,18 @@
                     <td>{{ footprint }}</td>
                   </tr>
 
-                      {% if download_size %}
+                      
                   <tr>
 
-                    <td><strong>Dataset Size:</strong></td>
+                    <td><strong>Download Size:</strong></td>
                     <td>
+                      {% if download_size %}
                         {{ download_size }}
-                      {% else %}<em>N/A - Not Available for Download</em></td>
+                          {% else %}
+                          <em>N/A - Varies</em>
+                        {% endif %}
                   </tr>
-                  {% endif %}
+                  </td>
                   <tr>
                     <td><strong>Recommended Use:</strong></td>
                     <td>{{ recommended_use }}</td>
