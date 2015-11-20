@@ -39,7 +39,7 @@
       {% block sidebarLeft %}
         {% if status == "CLOSED" %}
         {% else %}
-          <a href="https://www.regonline.com/register/checkin.aspx?EventId=1643373&MethodId=0&EventSessionId=&startnewreg=1" class="btn btn-success btn-block">Register Online Today</a>
+          <a href="{{reg_link}}" class="btn btn-success btn-block">Register Online Today</a>
         {% endif %}
 
         {% include "./partials/course-cancellation.html" %}
