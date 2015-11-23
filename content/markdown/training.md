@@ -2,13 +2,14 @@
 title: Education and Training
 template: training.html
 mainimage: static/images/training/training-mast.jpg
+reglink: https://www.regonline.com/Register/Checkin.aspx?EventID=1782761
 abstract: Technical training courses bring the latest GIS technologies and skills to a range of professional skill levels in the workplace.
 ---
 Courses offered range from basic introductions to software use and application, to intermediate skill enhancement and refinement, to more advanced skill development for increased efficiency and effective use of GIS.
 
 Our experienced instructors possess technical and teaching skills which are combined with industry knowledge and practical applications of GIS. Courses are offered at a lower price compared to commercial training organizations.
 
-<a href="https://www.regonline.com/register/checkin.aspx?EventId=1643373&MethodId=0&EventSessionId=&startnewreg=1" class="btn btn-success btn-lg pull-right">Register Online Today</a>
+<a href="{{reglink}}" class="btn btn-success btn-lg pull-right">Register Online Today</a>
 
 ### GIS training is offered for employees of
 
