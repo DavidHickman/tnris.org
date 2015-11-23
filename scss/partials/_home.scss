@@ -48,6 +48,18 @@
 }
 
 
+h2.forum-title-front {
+    background: url(../static/images/front-page/2015-forum-title-front-white.png) 0 0 no-repeat;
+    height: 90px;
+    left: 10px;
+    margin: 0;
+    position: absolute;
+    text-indent: -9999px;
+    bottom: 15px;
+    width: 358px;
+}
+
+
 
 .main-image-front {
   position: relative;
@@ -72,17 +84,6 @@
     position: absolute;
   }
 
-
-  h2.forum-title-front {
-    background: url(../static/images/front-page/2015-forum-title-front-white.png) 0 0 no-repeat;
-    height: 90px;
-    left: 10px;
-    margin: 0;
-    position: absolute;
-    text-indent: -9999px;
-    bottom: 15px;
-    width: 358px;
-  }
 
   p {
       bottom: 160px;
