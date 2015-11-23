@@ -221,6 +221,28 @@ function validateLink(str, crossref, filename) {
   return url;
 }
 
+var markedOptions = {
+  renderer: (function () {
+    var renderer = new marked.Renderer();
+    var re = /^(.*:.*|\/\/)/;
+
+    function macroifyLink (originalFunc) {
+      return function (href, title, text) {
+        if (!href.match(re)) {
+          href = "{{m.link('" + href + "', path + '.md')}}";
+        }
+        return originalFunc.apply(renderer, [href, title, text]);
+      };
+    }
+
+    renderer.link = macroifyLink(renderer.link);
+    renderer.image = macroifyLink(renderer.image);
+
+    return renderer;
+  }()),
+  smartypants: false
+};
+
 var errors = function () {
   var count = 0;
   return {
@@ -270,6 +292,15 @@ gulp.task('dist-metal', function () {
           contentsKey: 'description',
           titleKey: 'name',
           additional: function (file) {
+            var markdownFields = [
+              'description',
+              'short_description',
+            ];
+
+            _.each(markdownFields, function(markdownField) {
+              file[markdownField] = marked(file[markdownField], markedOptions);
+            });
+
             var imageName = file.urlized_name.replace(/-/g, '_');
             var base = 'images/data-catalog/entry/' + imageName;
 
@@ -362,27 +393,7 @@ gulp.task('dist-metal', function () {
         .use(each(function(file) {
           file.contents = '{%- import "_macros.html" as m -%}\n' + file.contents;
         }))
-        .use(markdown({
-          renderer: (function () {
-              var renderer = new marked.Renderer();
-              var re = /^(.*:.*|\/\/)/;
-
-              function macroifyLink (originalFunc) {
-                return function (href, title, text) {
-                  if (!href.match(re)) {
-                    href = "{{m.link('" + href + "', path + '.md')}}";
-                  }
-                  return originalFunc.apply(renderer, [href, title, text]);
-                };
-              }
-
-              renderer.link = macroifyLink(renderer.link);
-              renderer.image = macroifyLink(renderer.image);
-
-              return renderer;
-            }()),
-          smartypants: false
-        }))
+        .use(markdown(markedOptions))
         .use(each(function(file) {
           file.urlEnd = file.withoutDate || file.preserved;
         }))
