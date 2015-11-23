@@ -41,6 +41,9 @@ Below, we've highlighted a few of the datasets from each agency that have been a
 
 {{m.catalog_data_card('tpwd-state-park-trails')}}
 
+<p class="lead">Keep watching for new datasets and upcoming improvements to the catalog that will make finding your desired data even easier. Don't hesitate to [contact us](contact) with your own ideas and recommendations for making the data catalog the most effective tool for your needs.</a>
+<a class="btn btn-danger btn-lg" href="{{m.link('data-catalog')}}">Open the Data Catalog</a>
+
 
 
 
