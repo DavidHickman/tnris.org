@@ -8,31 +8,22 @@ thumbalt: A thumbnail for the 3dep announcement
 abstract:
    The TNRIS Data Catalog has been updated with entries for GLO, TCEQ, and TPWD datasets.
 ---
-As part of our efforts to create the most comprehensive and easy to use
-clearinghouse for publicly available data for the State of Texas, TNRIS has
-added many data catalog entries for the [Texas General Land Office
-(GLO)](http://www.glo.texas.gov), [Texas Commission on Environmental Quality
-(TCEQ)](http://www.tceq.state.tx.us), and [Texas Parks & Wildlife
-(TPWD)](http://tpwd.texas.gov).
+The [TNRIS data catalog](data-catalog) now includes 53 new datasets that are
+published by some of our partners at the State of Texas: the [Texas General Land
+Office (GLO)](http://www.glo.texas.gov), the [Texas Commission on Environmental
+Quality (TCEQ)](http://www.tceq.state.tx.us), and the [Texas Parks & Wildlife
+Department (TPWD)](http://tpwd.texas.gov).
 
-In total, 53 datasets have been added in this push. Visit the [data
-catalog](data-catalog) to start exploring.
+With these additions, we are expanding the catalog to include important datasets
+published and hosted outside of TNRIS as part of our ongoing efforts to help
+people find and use publicly available data. The [data catalog](data-catalog)
+previously only included datasets available from TNRIS on the web or by order
+from our archives.
 
-While we create some datasets in collaboration with these agencies and host them
-on TNRIS servers - for example the [TPWD 2015 Galveston State
-Park](data-catalog/entry/tpwd-2015-galveston-state-park) dataset - the recently
-added datasets are not hosted on TNRIS servers, but hosted at each agency's
-respective site. We provide basic information about each dataset and links to
-directly download the data or preview it where available.
-
-Their entry in the TNRIS data catalog works towards consolidating geospatial
-data for the State of Texas and make it easier for all those seeking publicly
-data.
-
-Below, we've highlighted a few of the datasets from each agency that have been
-added. For all the new datasets, visit the TNRIS [data catalog](data-catalog).
+Here are just a few of the datasets from each agency that have been added.
 
 ## Texas General Land Office (GLO)
+
 {{m.catalog_data_card('glo-beach-access-points')}}
 
 {{m.catalog_data_card('glo-priority-protection-habitat-areas')}}
@@ -55,13 +46,9 @@ added. For all the new datasets, visit the TNRIS [data catalog](data-catalog).
 
 {{m.catalog_data_card('tpwd-state-park-trails')}}
 
-<p class="lead">Keep watching for new datasets and upcoming improvements to the
-catalog that will make finding your desired data even easier. Don't hesitate to
-[contact us](contact) with your own ideas and recommendations for making the
-ata catalog the most effective tool for your needs.</a></p>
+<p class="lead">We will continue working on the catalog to make it easier to
+discover and access data, so keep watching for new datasets and improvements.
+Please don't hesitate to [contact us](contact) with your own ideas and
+recommendations.</a></p>
 
 <a class="btn btn-danger btn-lg" href="{{m.link('data-catalog')}}">Open the Data Catalog</a>
-
-
-
-
