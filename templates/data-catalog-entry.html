@@ -194,6 +194,7 @@
               <i class="glyphicon glyphicon-new-window"></i> Open Online Preview</span></a>
             </p>
           {% endif %}
+      
         </div>
         </div>
         <div class="col-sm-8">
@@ -252,15 +253,23 @@
                     <td><strong>Derivative Data:</strong></td>
                     <td>{% if derivative_data %}{{ derivative_data }}{% else %}<em>None Available</em>{% endif %}</td>
                   </tr>
+                  <tr>
+                    <td><strong>License:</strong></td>
+                    <td>
+                      <img class="pull-left public-domain-mark" src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/publicdomain.png" alt="Public Domain Logo">
+                    <p>
+                      Imagery and GIS datasets hosted by TNRIS in the Data Catalog have been dedicated to the Public Domain via the
+                      <a href="{{m.link('public-domain-dedication-summary')}}">Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain
+                      Dedication</a>.
+                    </p>
+                    </td>
+                  </tr>
                 </tbody>
               </table>
        
             </div>
           </div>
 
-             <!--  <section class="data-disclaimer">
-              </section> -->
-        </div>
       </div>
     </div>
   </div>
