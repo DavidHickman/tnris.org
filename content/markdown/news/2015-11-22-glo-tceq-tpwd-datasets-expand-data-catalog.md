@@ -16,9 +16,9 @@ Department (TPWD)](http://tpwd.texas.gov).
 
 With these additions, we are expanding the catalog to include important datasets
 published and hosted outside of TNRIS as part of our ongoing efforts to help
-people find and use publicly available data. The [data catalog](data-catalog)
-previously only included datasets available from TNRIS on the web or by order
-from our archives.
+people find and use public data. The [data catalog](data-catalog) previously
+only included datasets hosted by TNRIS on the web or available by order from
+our archives.
 
 Here are just a few of the datasets from each agency that have been added.
 
