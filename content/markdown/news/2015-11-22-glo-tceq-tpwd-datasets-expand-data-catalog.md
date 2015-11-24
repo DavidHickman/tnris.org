@@ -14,9 +14,10 @@ Office (GLO)](http://www.glo.texas.gov), the [Texas Commission on Environmental
 Quality (TCEQ)](http://www.tceq.state.tx.us), and the [Texas Parks & Wildlife
 Department (TPWD)](http://tpwd.texas.gov).
 
-With these additions, we are continuing to expand the catalog to include important datasets
-published and hosted outside of TNRIS as part of our ongoing efforts to help
-people find and use public data for the State of Texas.
+The [data catalog](data-catalog) primarily
+includes datasets hosted by TNRIS on the web or available by order from our archives. With these additions, we are continuing to expand the catalog to include important datasets
+published and hosted outside of TNRIS, as part of our ongoing efforts to help
+people find and use public data for Texas.
 
 Here are just a few of the datasets from each agency that have been added.
 
