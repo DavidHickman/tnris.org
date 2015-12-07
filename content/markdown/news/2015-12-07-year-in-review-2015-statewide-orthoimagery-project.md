@@ -9,7 +9,7 @@ abstract:
 tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands, surdex
 ---
 
-The [2015 Statewide Orthoimagery Project](2015-statewide-orthoimagery-project), undertaken in collaboration with other state agency partners, is one of the major data projects underway at TNRIS. It meets the crucial need for new high-quality, leaf-off imagery for the entire state and, as part of TNRIS's primary mission, all of the data produced through the project will be in the public domain and available through our [data download](data-download) page.
+<p class="lead">The [2015 Statewide Orthoimagery Project](2015-statewide-orthoimagery-project), undertaken in collaboration with other state agency partners, is one of the major data projects underway at TNRIS. It meets the crucial need for new high-quality, leaf-off imagery for the entire state. As part of TNRIS's key mission to acquire data and distribute it to the public, all of the data produced through the project will be in the public domain and available through our [data download](data-download) page.</p>
 
 We wanted to take this opportunity as 2015 comes to a close to fill you in on where the project has been and what's expected in 2016. We've accomplished a lot - we've started to release finalized data - but have also encountered some setbacks. Even with a delay to the original completion date, the project has gone exceptionally well, especially in the hands of the selected data acquisition vendor [Surdex Corp](https://www.surdex.net).
 
@@ -47,9 +47,9 @@ Our BUY-UP 6-inch and 1-foot areas were parts of the state sponsored by stakehol
 
 {{m.catalog_data_card('hpids-university-lands-2015-6in-nc-cir')}}
 
-Stay posted for upcoming Buy-Up data releases, including NGA/USGS areas in Amarillo, Dallas-Ft. Worth, El Paso, Lubbock, and the completion of remaining San Antonio River Authority areas in Refugio and Aransas Counties.
+Stay posted for upcoming Buy-Up data releases, including NGA/USGS areas in **Amarillo**, **Dallas-Ft. Worth**, **El Paso**, **Lubbock**, and the completion of remaining San Antonio River Authority areas in **Refugio** and **Aransas Counties**.
 
-## Acquisition Progress and Challenges
+## Acquisition Progress and Challenges - Clouds and Borders
 
 The project has gone smoothly, in no small part thanks to the expertise and high quality service of the project vendor, Surdex. We've flown 91% of the state and been able to process and release 36% of the dataset as of December.
 
@@ -63,9 +63,9 @@ Surdex will fly the remaining areas in the next leaf-off season, starting now in
 
 -- Insert map of border acquisition plan
 
-On the other hand, a more human-created issue has held up other parts of the state, namely, the border regions. In order to meet the image coverage requirements along the international border, Surdex must fly 15-20 miles into Mexican territory. This requires a thorough permitting process in coordination with Mexican Government authorities.
+In other parts of the state, namely, the border regions, primarily logistical issues have held up flight progress. In order to meet the image coverage requirements along the international border, Surdex must fly 15-20 miles into Mexican territory. This requires a thorough permitting process in coordination with Mexican Government authorities.
 
-## Focusing on Quality Control
+## A Focus on Quality
 
 The new natural color and color infrared orthoimagery are QC’d (Quality Controlled) by TNRIS staff and volunteers to ensure a nearly flawless quality product to accommodate a wide variety of mapping applications for public and private users throughout the state. 
 
