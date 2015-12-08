@@ -17,7 +17,7 @@ Read on to learn about the current dataset availability, the causes for data acq
 
 ## Latest Data Access Status
 
-We have created a primary dataset entry for the **2015 Texas Orthoimagery Program (TOP)** in our [data catalog](data-catalog) for the imagery we've QC'ed and finalized so far, which as of early December, is around 36% of the state, which primarily consists of West Texas and the Panhandle. On about a monthly basis, we are adding to this and incorporating the latest final data as it is QC'ed and processed.
+We have created a primary dataset entry for the **2015 Texas Orthoimagery Program (TOP)** in our [data catalog](data-catalog) for the imagery we've QC'd (Quality Controlled) and finalized so far, which as of early December, is around 36% of the state, which primarily consists of West Texas and the Panhandle. On about a monthly basis, we are adding to this and incorporating the latest final data as it is QC'd and processed.
 
 {{m.catalog_data_card('texas-orthoimagery-program-top-2015-50cm-nc-cir')}}
 
@@ -77,7 +77,7 @@ In other parts of the state, namely, the border regions, primarily logistical is
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/curved-bridge-redline-before.jpg')}}" alt="Before QCing image of curved bridge, gap">
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/curved-bridge-redline-after.jpg')}}" alt="After QC bridge is straightened">
 </div>
-<figcaption>Smear identified in area of high relief during QC by TNRIS, fixed in final product by Surdex.</figcaption>
+<figcaption>Smear identified in an area of high relief during QC by TNRIS, fixed in final product by Surdex.</figcaption>
 </figure>
 
 The new natural color and color infrared orthoimagery are QC’d (Quality Controlled) by TNRIS staff and volunteers to ensure a nearly flawless quality product to accommodate a wide variety of mapping applications for public and private users throughout the state. 
