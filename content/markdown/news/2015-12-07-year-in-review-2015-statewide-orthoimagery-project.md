@@ -17,7 +17,7 @@ Read on to learn about the current dataset availability, the causes for data acq
 
 ## Latest Data Access Status
 
-We have created a primary dataset entry for the **2015 Texas Orthoimagery Program (TOP)** in our [data catalog](data-catalog) for the imagery we've QC'ed and finalized so far, which as of early December, is around 36% of the state. On about a monthly basis, we are adding to this and incorporating the latest final data as it is QC'ed and processed.
+We have created a primary dataset entry for the **2015 Texas Orthoimagery Program (TOP)** in our [data catalog](data-catalog) for the imagery we've QC'ed and finalized so far, which as of early December, is around 36% of the state, which primarily consists of West Texas and the Panhandle. On about a monthly basis, we are adding to this and incorporating the latest final data as it is QC'ed and processed.
 
 {{m.catalog_data_card('texas-orthoimagery-program-top-2015-50cm-nc-cir')}}
 
@@ -31,14 +31,6 @@ In the maps below, you can view the most recent DOQQ and CCM (Compressed County 
 
 Our BUY-UP 6-inch and 1-foot areas were parts of the state sponsored by stakeholders seeking higher resolution imagery for their areas. 
 
-<figure>
-<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/georgetown-buyup/georgetown_lampasas_nc.jpg')}}" alt="Natural Color preview of Lampasas River near  Georgetown">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/georgetown-buyup/georgetown_lampasas_cir.jpg')}}" alt="Infra Red preview of Lampasas River near Georgetown">
-</div>
-<figcaption>Lampasas River in Bell County from the [HPIDS Georgetown 2015 6in NC\CIR](data-catalog/entry/hpids-georgetown-2015-6in-nc-cir) dataset, SCALE 1:3000</figcaption>
-</figure>
-
 6,930 total square miles of 6-inch natural color and color infrared orthoimagery were independently QC’d and are now available for download for these areas:
 
 {{m.catalog_data_card('hpids-georgetown-2015-6in-nc-cir')}}
@@ -47,13 +39,26 @@ Our BUY-UP 6-inch and 1-foot areas were parts of the state sponsored by stakehol
 
 {{m.catalog_data_card('hpids-university-lands-2015-6in-nc-cir')}}
 
+<figure>
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/georgetown-buyup/georgetown_lampasas_nc.jpg')}}" alt="Natural Color preview of Lampasas River near  Georgetown">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/georgetown-buyup/georgetown_lampasas_cir.jpg')}}" alt="Infra Red preview of Lampasas River near Georgetown">
+</div>
+<figcaption>Lampasas River in Bell County from the [HPIDS Georgetown 2015 6in NC\CIR](data-catalog/entry/hpids-georgetown-2015-6in-nc-cir) dataset, SCALE 1:3000</figcaption>
+</figure>
+
+
 Stay posted for upcoming Buy-Up data releases, including NGA/USGS areas in **Amarillo**, **Dallas-Ft. Worth**, **El Paso**, **Lubbock**, and the completion of remaining San Antonio River Authority areas in **Refugio** and **Aransas Counties**.
 
 ## Acquisition Progress and Challenges - Clouds and Borders
 
 The project has gone smoothly, in no small part thanks to the expertise and high quality service of the project vendor, Surdex. We've flown 91% of the state and been able to process and release 36% of the dataset as of December.
 
--- Insert graphics of cloudy Modis images
+
+<figure style="margin-right: -200px; max-width: none !important;">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/modis_clouds.jpg')}}">
+  <figcaption>Modis images captured between January and March 2015</figcaption>
+</figure>
 
 But due to significant rainfall and cloudy weather (as El Niño revved up in 2014), we were not able to meet the original stated completion date of September 2015, pushing us to a revised full statewide data completion date in Spring 2016.
 
@@ -67,9 +72,23 @@ In other parts of the state, namely, the border regions, primarily logistical is
 
 ## A Focus on Quality
 
+<figure>
+<div id="imageCompare1" class='twentytwenty-container before-after-qc'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/curved-bridge-redline-before.jpg')}}" alt="Before QCing image of curved bridge, gap">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/curved-bridge-redline-after.jpg')}}" alt="After QC bridge is straightened">
+</div>
+<figcaption>Smear identified in area of high relief during QC by TNRIS, fixed in final product by Surdex.</figcaption>
+</figure>
+
 The new natural color and color infrared orthoimagery are QC’d (Quality Controlled) by TNRIS staff and volunteers to ensure a nearly flawless quality product to accommodate a wide variety of mapping applications for public and private users throughout the state. 
 
--- Insert example of pre- and post-image redline
+<figure>
+<div id="imageCompare1" class='twentytwenty-container before-after-qc'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/railroad-offset-redline-before.jpg')}}" alt="Before QCing image of curved bridge, gap">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/railroad-offset-redline-after.jpg')}}" alt="After QC bridge is straightened">
+</div>
+<figcaption>Railroad identified as offset during QC by TNRIS, fixed in final product by Surdex.</figcaption>
+</figure>
 
 ## What’s next for 2016
 

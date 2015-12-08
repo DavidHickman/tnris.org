@@ -18,6 +18,17 @@
   }
 }
 
+.before-after-qc {
+  .twentytwenty-before-label:before {
+    content: 'Before QC';
+  }
+
+  .twentytwenty-after-label:before {
+    content: 'After QC';
+  }
+}
+
+
 
 .twentytwenty-before-label, 
 .twentytwenty-after-label {
