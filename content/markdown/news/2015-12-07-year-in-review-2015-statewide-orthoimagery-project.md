@@ -40,7 +40,7 @@ tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands
 <div class="container">
 <div class="row">
 <div class="col-md-8">
-<p>We have created a primary dataset entry for the **2015 Texas Orthoimagery Program (TOP)** in our [data catalog](data-catalog) for the imagery we've QC'ed and finalized so far, which as of early December, is around **36% of the state**. This imagery primarily consists of **West Texas** and the **Panhandle**. **El Paso** is the most prominent urban center available in this round of data. On about a monthly basis, we are incorporating the latest finalized data into this dataset as it is QC'ed and processed.</p>
+<p>We have created a primary dataset entry for the **2015 Texas Orthoimagery Program (TOP)** in our [data catalog](data-catalog) for the imagery we've QC'ed (Quality Controlled) and finalized so far, which as of early December, is around **36% of the state**. This imagery primarily consists of **West Texas** and the **Panhandle**. **El Paso** is the most prominent urban center available in this round of data. On about a monthly basis, we are incorporating the latest finalized data into this dataset as it is QC'd and processed.</p>
 
 {{m.catalog_data_card('texas-orthoimagery-program-top-2015-50cm-nc-cir')}}
 
@@ -127,6 +127,7 @@ tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands
 </div>
 </div>
 
+<div class="row">
 <div class="col-md-8">
 <h2>Ensuring Quality Control</h2>
 
@@ -138,9 +139,9 @@ tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands
 <figcaption>Smear identified in an area of high relief during QC by TNRIS, fixed in final product by Surdex.</figcaption>
 </figure>
 
-<p style="margin: 30px 0">The new natural color and color infrared orthoimagery are QC’d (Quality Controlled) by TNRIS staff and volunteers to ensure a nearly flawless quality product to accommodate a wide variety of mapping applications for public and private users throughout the state. </p>
+<p style="margin: 30px 0">The new natural color and color infrared orthoimagery are QC’d by TNRIS staff and volunteers to ensure a nearly flawless quality product to accommodate a wide variety of mapping applications for public and private users throughout the state. </p>
 
-<figure>
+<figure >
 <div id="imageCompare1" class='twentytwenty-container twentytwenty-2 before-after-qc'>
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/railroad-offset-redline-before.jpg')}}" alt="Before QCing image of curved bridge, gap">
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/railroad-offset-redline-after.jpg')}}" alt="After QC bridge is straightened">

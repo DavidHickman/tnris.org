@@ -22,6 +22,10 @@
     }
   }
 
+  .twentytwenty, .twenty-twenty-container, .twentytwenty-wrapper {
+    min-height: 511px;
+  }
+
 // Image expand //
 // .img-responsive.img-expand {
 //   @media (min-width: $screen-md) {
