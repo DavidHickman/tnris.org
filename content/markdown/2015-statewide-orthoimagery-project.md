@@ -155,7 +155,7 @@ progress_7: 26
 
 *Grab the Image Slider to compare between Leaf-Off imagery **(left; Feb 16, 2010)** and Leaf-On imagery **(right, Nov. 9, 2011)**.*
 
-<figure>
+<figure class="twentytwenty">
 <div id="imageCompare7" class='twentytwenty-container leaf-off-on'>
   <img src="{{m.link('static/images/statewide-orthoimagery/leaf_off.jpg')}}" alt="Preview of Leaf-on imagery">
   <img src="{{m.link('static/images/statewide-orthoimagery/leaf_on.jpg')}}" alt="Preview of Leaf-Off Imagery">
@@ -186,7 +186,7 @@ Select BUY-UP areas will be acquired and processed at either 1-foot or 6-inch pi
 These may may be displayed as natural color (Red, Green, Blue) or color infrared (Near Infrared, Red, Green) composites, as seen in the examples below.
 
 *Grab the Image Slider to compare between Natural Color and Color Infrared*
-<figure>
+<figure class="twentytwenty">
 <div id="imageCompare7" class='twentytwenty-container natural-color-infrared'>
   <img src="{{m.link('static/images/statewide-orthoimagery/4_band_nc.jpg')}}" alt="Preview of natural color imagery">
   <img src="{{m.link('static/images/statewide-orthoimagery/4_band_ir.jpg')}}" alt="Preview of Color Infra Red Imagery">

@@ -308,6 +308,12 @@ blockquote {
 
       h1 {
         margin-bottom: 0;
+
+        @media (min-width: $screen-md){
+          font-size: 50px;
+
+        }
+
       }
 
     }
@@ -624,5 +630,46 @@ figure.right-indent {
   @media (min-width: $screen-md) {
     margin-right: -150px; 
     max-width: 400px; 
+  }
+}
+
+// full article figure
+
+.full-article-figure {
+  position: relative;
+
+  figcaption {
+    background: rgba(0, 0, 0, .75);
+    bottom: 0;
+    color: $white;
+    padding: 15px 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .twentytwenty-container {
+    @media (max-width: $screen-md) {
+      margin: 0 -25%;
+      min-height: 250px;
+
+      img {
+        min-height: 250px;
+      }
+    }
+  }
+}
+
+// Full Screen Modal 
+.modal-expand {
+  .modal-dialog {
+
+    @media (min-width: $screen-md) {
+    width: 800px;
+    }
+
+    img {
+      margin: 0 auto;
+    }
   }
 }

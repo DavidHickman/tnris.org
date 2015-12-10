@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 {% block topcontent %}
 <div class="container-fluid full">
-
-      <div class="top-container">
+  <div class="top-container">
       {% if mainimage %}
-        <img class="img-responsive center-block" src="{{m.link(mainimage)}}" alt="main image for {{ title }}">
+        <img class="img-responsive center-block hidden-xs hidden-sm" src="{{m.link(mainimage)}}" alt="main image for {{ title }}">
+        <img class="img-responsive center-block hidden-lg hidden-md" src="{{m.link(mainimagemobile)}}" alt="main image for {{ title }}">
       {% endif %}
+
 
       <div class="top-header center-block">
           <div class="container">
@@ -19,24 +20,15 @@
 </div>
 {% endblock topcontent %}
 
-{% block contents %}
-<div class="row">
-	<div class="col-md-8">
-		
-		{{ contents|safe }}
-</div>
+{% block contents-two %}
 
-    {% block rightContent %}
-      <div class="col-sm-4 blog-sidebar">
-        
-      </div>
-    {% endblock rightContent %}
-  </div>
+{{ contents|safe }} 
+
+{% endblock contents-two %}
 
 
 </div>
 
-{% endblock contents %}
 
 
 

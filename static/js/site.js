@@ -94,6 +94,7 @@ var Clipboard = require('clipboard/dist/clipboard.js');
   $(window).load(function() {
     // Image Slider
     $(".twentytwenty-container").twentytwenty({default_offset_pct: .5});
+    $(".twentytwenty-2").twentytwenty({default_offset_pct: .75});
   });
 
   $('a.smooth-scroll').click(function() {
