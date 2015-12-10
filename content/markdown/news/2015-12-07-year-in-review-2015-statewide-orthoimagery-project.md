@@ -135,7 +135,7 @@ tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/smear-redline-before.jpg')}}" alt="Smear in high relief area before QC">
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/smear-redline-after.jpg')}}" alt="Smear fixed after QC">
 </div>
-<figcaption><em>Left: Smear identified in area of high relief during QC by TNRIS | Right: Fixed in final product by Surdex. Use slider to compare images</em></figcaption>
+<figcaption>Smear identified in an area of high relief during QC by TNRIS, fixed in final product by Surdex.</figcaption>
 </figure>
 
 <p style="margin: 30px 0">The new natural color and color infrared orthoimagery are QC’d (Quality Controlled) by TNRIS staff and volunteers to ensure a nearly flawless quality product to accommodate a wide variety of mapping applications for public and private users throughout the state. </p>
