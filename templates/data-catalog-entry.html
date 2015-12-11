@@ -138,9 +138,9 @@
     </div>
 
     <div class="container">
-       
+
       <div class="row">
-          
+
         <div class="col-sm-4 data-access-container">
           <h2>Data Access</h2>
         <button class="data-access-toggle collapsed hidden-sm hidden-lg hidden-md" type="button" data-toggle="collapse" data-target="#data-access">
@@ -150,11 +150,11 @@
           {% if download_link %}
             <h4>Direct Download</h4>
             <p>The full <em>{{ name }}</em> data set can be downloaded directly.</p>
-            <p>Download the 
+            <p>Download the
               {% if download_size == "Varies" %}
               <strong>variably sized</strong>
               {% elseif download_size %}
-              <strong>{{ download_size }}</strong> 
+              <strong>{{ download_size }}</strong>
               {% endif %}
               file here</p>
             <p><a href="{{download_link}}" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-download-alt"></span> Download <span class="hidden-sm hidden-xs hidden-md">Data Set</span></a></p>
@@ -181,16 +181,15 @@
           {% endif %}
           {% if pop_link %}
             <h4>Online Preview</h4>
-            <p>Preview  
+            <p>Preview
               {% if category == "Elevation - LiDAR" %}
               the coverage area of this dataset using an ArcGIS online service.
-              {% else %} 
+              {% else %}
               this dataset as an ArcGIS online service
               {% endif %}
-              
-            </p>   
+            </p>
             <p>
-              <a href="http://{{ pop_link }}" class="btn btn-info btn-lg">
+              <a href="{{ pop_link }}" class="btn btn-info btn-lg">
               <i class="glyphicon glyphicon-new-window"></i> Open Online Preview</span></a>
             </p>
           {% endif %}
@@ -224,7 +223,7 @@
                     <td>{{ footprint }}</td>
                   </tr>
 
-                      
+
                   <tr>
 
                     <td><strong>Download Size:</strong></td>
@@ -254,7 +253,7 @@
                   </tr>
                 </tbody>
               </table>
-       
+
             </div>
           </div>
 
