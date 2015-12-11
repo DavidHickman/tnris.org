@@ -258,14 +258,14 @@ Political Boundaries,"The political boundaries Texas dataset contains the most u
 
 Within the download you will receive.
 
-StratMap County Polygon
-StratMap County Seats
-StratMap Cultural
-StratMap Parks
-TxDOT City Point (End of Year)
-TxDOT City Polygon (End of Year)
-TxDOT County Detailed Polygon
-TxDOT County Generalized Polygon","Point, Polygon",Shapefile,"Federal (US Census), State (TxDOT, TPWD), Regional (COGs), Local (County, Municipalities)",Statewide coverage - Actual boundaries of polygons,state,,"County, City, Park, Cultural boundaries",All boundaries - 14.3 MB (zipped),"Basemap, cartographic representation, planning, etc.",Last update was April 2012,"Political jurisdictions, City, County, Park, Landmark, Boundaries, City Limits, County seats","Not actual legal representations of boundaries, Multi-sourced, update frequency","TxDOT county and city boundaries, TWPD State Parks, GNIS",None,,Boundary,,https://tnris-datadownload.s3.amazonaws.com/d/political-bnd/state/tx/political-bnd_tx.zip,,,,,d5084e86-dec9-11e4-afda-0e0c41326911,,,,2015-12-16,CC0,,
+- StratMap County Polygon
+- StratMap County Seats
+- StratMap Cultural
+- StratMap Parks
+- TxDOT City Point (End of Year)
+- TxDOT City Polygon (End of Year)
+- TxDOT County Detailed Polygon
+- TxDOT County Generalized Polygon","Point, Polygon",Shapefile,"Federal (US Census), State (TxDOT, TPWD), Regional (COGs), Local (County, Municipalities)",Statewide coverage - Actual boundaries of polygons,state,,"County, City, Park, Cultural boundaries",All boundaries - 14.3 MB (zipped),"Basemap, cartographic representation, planning, etc.",Last update was April 2012,"Political jurisdictions, City, County, Park, Landmark, Boundaries, City Limits, County seats","Not actual legal representations of boundaries, Multi-sourced, update frequency","TxDOT county and city boundaries, TWPD State Parks, GNIS",None,,Boundary,,https://tnris-datadownload.s3.amazonaws.com/d/political-bnd/state/tx/political-bnd_tx.zip,,,,,d5084e86-dec9-11e4-afda-0e0c41326911,,,,2015-12-16,CC0,,
 Precipitation,Display and/or analyses requiring spatially distributed monthly or annual precipitation for the climatological period 1961-90.,"Display and/or analyses requiring spatially distributed monthly or annual precipitation for the climatological period 1961-90. Vector and polygon coverages of average monthly and annual precipitation for the climatological period 1961-90. 
 
 Parameter-elevation Regressions on Independent Slopes Model (PRISM) derived raster data is the underlying data set from which the polygons and vectors were created. PRISM is an analytical model that uses point data and a digital elevation model (DEM) to generate gridded estimates of annual, monthly and event-based climatic parameters. Detailed descriptions of the PRISM raster data can be found with the accompanying raster data sets.",Vector,Shapefile,NOAA,Texas,state,,Statewide,10.05 MB,Basemap,,"National Oceanic and Atmospheric Administration, noaa_2007, Texas, Statewide, Precipitation, Rainfall, Weather",Age,None,None,,Weather,,https://tnris-datadownload.s3.amazonaws.com/d/noaa-climate/state/tx/noaa-climate_tx.zip,,,,,d5084e86-dec9-11e4-afda-0e0c41326911,,,,2014-02-01,CC0,,
