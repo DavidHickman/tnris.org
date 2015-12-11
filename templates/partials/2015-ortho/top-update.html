@@ -1,7 +1,9 @@
+{% import '_macros.html' as m %}
+
 <section class="row">
   <div class="col-sm-8">
     <br>
-    <div class="alert alert-info">
+    <div class="alert alert-warning">
       Read our <a href="{{m.link('news/2015-12-10-year-in-review-2015-statewide-orthoimagery-project')}}">2015 Year in Review</a> for the Statewide Orthoimagey Project.
     </div>
     <h2 class="updates-header">Project Activity for the week ending<br><strong>{{status_date}}</strong></h2>
@@ -16,7 +18,19 @@
     <h3>Full Statewide Dataset Access</h3>
     {{m.catalog_data_card('texas-orthoimagery-program-top-2015-50cm-nc-cir')}}
 
-    <h3>Regional 6-Inch/1-Foot Dataset Access</h3>
+
+<h4>TOP 2015 Online Mapping Service</h4>
+<p>To use WMS services in your CAD or GIS software package, please consult the software help or support information.</p>
+<div class="input-group copy-url-container">
+      <span class="input-group-btn">
+    <button class="btn btn-tnris copy-url-btn" type="button">
+      <i class="fa fa-clipboard"></i> Copy URL
+    </button>
+  </span>
+  <input class="wms-url copy-url-input form-control" type="text" readonly value="http://r.tnris.org/arcgis/services/TOP/TOP_2015_50CM_NC/ImageServer/WMSServer">
+</div>
+
+  <h3>Regional 6-Inch/1-Foot Dataset Access</h3>
 
    {{m.catalog_data_card('hpids-georgetown-2015-6in-nc-cir')}}
 

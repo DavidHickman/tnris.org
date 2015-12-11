@@ -636,6 +636,8 @@ figure.right-indent {
 // full article figure
 
 .full-article-figure {
+  display: block;
+  margin: 35px 0;
   position: relative;
 
   figcaption {

@@ -45,7 +45,7 @@ All LiDAR datasets are available for purchase by filling out an order form*
 
 <p class="lead">Boundary lines are not meant to divide but to give context and meaning to the land.</p>
 
-{{m.catalog_data_card('stratmap-boundaries')}}
+{{m.catalog_data_card('political-boundaries')}}
 
 The StratMap Boundaries were originally created as a common political dataset delineating county, city, parks, and various “landmark” boundaries such as airports, universities, wildlife refuges, and military bases. They are derived from various sources such as Texas Department of Transportation, Texas Parks and Wildlife, and local jurisdictions. StratMap Boundaries are primarily used for cartographic display but are also useful in preliminary right-of-way determination, highway planning and maintenance, real estate, public services, jurisdiction maintenance, and other administrative assessments.
 

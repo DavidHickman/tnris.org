@@ -9,22 +9,21 @@ status_image: 20150724_base.jpg
 status_image_preview: 20150724_base_sm.jpg
 status_image_buyup: 20150724_buyups.jpg
 status_image_buyup_preview: 20150724_buyups_sm.jpg
-production_image: 20151113_production.jpg
-production_image_preview: 20151113_production_sm.jpg
+production_image: 20151204_production.jpg
+production_image_preview: 20151204_production_sm.jpg
 doqq_image: 20151113_doqq_availability.jpg
 doqq_image_preview: 20151113_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
 latest_report: Weekly_Status_Report_110615_A.pdf
-status_date: November 13th, 2015
+status_date: December 11th, 2015
 updates:
+- TNRIS launches the web mapping service (WMS) for the 2015 TOP. Access the url below under Full Statewide Dataset Access.
+- TNRIS loaded final DOQQs we have so far (36%) and shipped them to Esri for integration into their Basemap Imagery Service.
 - Quality Control (QC) data review is underway at TNRIS.
-- The third set of final DOQQs in the Season 1 area have arrived at TNRIS. Data availability maps and download option are shown below. 
-- TNRIS is loading final DOQQs to ship to Esri for integration into their Basemap Imagery Service.
-- Final orthoimagery for area of the state acquired so far (91%) are expected to be available by Dec 31, 2015.
+- Final orthoimagery for the entire state is expected to be available by Spring 2016.
 - The status of the 0.5 meter imagery acquired in Season-1 is 100% complete, 99% in Season-2, 89% in Season-3, 33% in Season-4 and 91% Statewide.
-- Due to continued unfavorable weather conditions, further acquisition of the remaining areas of Texas (9%) was put on hold on in early August until the next upcoming leaf-off season. 
-- Surdex aircraft with ADS100 digital camera sensors will return to Texas to finish statewide 0.5-meter acquisition Dec 15, 2015 – Feb 28, 2016.
+- Surdex aircraft with ADS100 digital camera sensors are returning to Texas in December to finish the statewide 0.5-meter acquisition Dec 15, 2015 – Feb 28, 2016.
 progress_1: 91
 progress_2: 100
 progress_3: 91 
