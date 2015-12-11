@@ -45,6 +45,20 @@ tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands
 {{m.catalog_data_card('texas-orthoimagery-program-top-2015-50cm-nc-cir')}}
 
 <p>In the map thumbnails (click to expand) to the right, you can view the most recent DOQQ and CCM (Compressed County Mosaic) availability. These maps are updated with each round of data additions on the [project page](2015-statewide-orthoimagery-project).</p>
+
+<h3>TOP 2015 Online Mapping Service</h3>
+<p>In addition, we have launched a Web Mapping Service (WMS) for the 2015 TOP. You'll be able to access the imagery without downloading and have immediate access to the most current version as the dataset is updated.</p>
+<p>To use WMS services in your CAD or GIS software package, please consult the software help or support information.</p>
+
+<div class="input-group copy-url-container">
+      <span class="input-group-btn">
+    <button class="btn btn-tnris copy-url-btn" type="button">
+      <i class="fa fa-clipboard"></i> Copy URL
+    </button>
+  </span>
+  <input class="wms-url copy-url-input form-control" type="text" readonly value="http://r.tnris.org/arcgis/services/TOP/TOP_2015_50CM_NC/ImageServer/WMSServer">
+</div>
+<br>
 </div>
 <div class="col-md-4">
   {% include "./partials/2015-ortho/statewide-preview.html" %}
@@ -77,6 +91,8 @@ tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands
 {{m.catalog_data_card('hpids-sara-2015-6in-nc-cir')}}
 
 {{m.catalog_data_card('hpids-university-lands-2015-6in-nc-cir')}}
+
+<br>
 </div>
 </div>
 </div>
