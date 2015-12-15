@@ -391,6 +391,24 @@ gulp.task('dist-metal', function () {
           path: 'updates'
         }))
         .use(each(function(file) {
+          // run metadata fields through markdown renderer for link processing
+          var markdownFields = [
+            'updates',
+          ];
+
+          _.each(markdownFields, function(markdownField) {
+            if (file[markdownField]) {
+              if(Array.isArray(file[markdownField])) {
+                file[markdownField] = file[markdownField].map(function (str) {
+                  return marked(str, markedOptions);
+                });
+              } else {
+                file[markdownField] = marked(file[markdownField], markedOptions);
+              }
+            }
+          });
+        }))
+        .use(each(function(file) {
           file.contents = '{%- import "_macros.html" as m -%}\n' + file.contents;
         }))
         .use(markdown(markedOptions))
