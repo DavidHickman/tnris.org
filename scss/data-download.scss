@@ -135,11 +135,15 @@ h2 {
 .public-domain-note {
   .public-domain-col {
     margin-bottom: -25px;
-    margin-top: 4px;
+    margin-top: 10px;
   }
 }
 
-.public-domain-mark {
-  height: 45px;
-  margin-right: 20px;
+// clear site.scss pull-left margins
+img.pull-left.public-domain-logo {
+  margin: 0 10px 0 0;
+}
+
+.public-domain-logo {
+  width: 42px;
 }
