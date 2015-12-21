@@ -15,7 +15,7 @@ doqq_image: 20151113_doqq_availability.jpg
 doqq_image_preview: 20151113_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
-latest_report: Weekly_Status_Report_110615_A.pdf
+latest_report: Weekly_Status_Report_120415_A.pdf
 status_date: December 11th, 2015
 updates:
 - TNRIS launches the web mapping service (WMS) for the 2015 TOP. Access the url below under Full Statewide Dataset Access.
