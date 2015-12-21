@@ -11,7 +11,7 @@
     <a class="btn btn-default btn-lg pull-right" href="{{m.link('static/documents/2015-ortho-weekly-reports/' + latest_report)}}"><span class="glyphicon glyphicon-file"></span> Download the latest full vendor report</a>
     <ul class="dash list-clean">
         {% for update in updates %}
-        <li>{{update}}</li>
+        <li>{{update | safe}}</li>
         {% endfor %}
     </ul>
 
@@ -39,10 +39,10 @@
     {{m.catalog_data_card('hpids-university-lands-2015-6in-nc-cir')}}
 </div>
 <div class="col-sm-4 col-md-3 col-md-offset-1">
-   
+
    <h3>Full Statewide Orthoimagery Status</h3>
    <div class="list-clean data-progress-final">
-    
+
           <a href="#doqq-image" data-toggle="modal"><img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + doqq_image_preview)}}" alt="Latest DOQQ availability preview image">
           <p class="text-right"><span class="glyphicon glyphicon-search"></span> Click for larger view</p>
           </a>
@@ -71,7 +71,7 @@
               </div>
           </div>
    <div class="list-clean data-progress-final">
- 
+
           <a href="#ccm-image" data-toggle="modal"><img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + ccm_image_preview)}}" alt="Latest CCM availability preview image">
           <p class="text-right"><span class="glyphicon glyphicon-search"></span> Click for larger view</p>
             </a>
