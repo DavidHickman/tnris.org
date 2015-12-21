@@ -2,7 +2,7 @@
 title: 2015 Statewide Orthoimagery Project
 template: 2015-ortho-page.html
 mainimage: static/images/statewide-orthoimagery/ortho_flag_lg.jpg
-abstract: 
+abstract:
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
 status_image: 20150724_base.jpg
@@ -26,7 +26,7 @@ updates:
 - Surdex aircraft with ADS100 digital camera sensors are returning to Texas in December to finish the statewide 0.5-meter acquisition Dec 15, 2015 – Feb 28, 2016.
 progress_1: 91
 progress_2: 100
-progress_3: 91 
+progress_3: 91
 progress_4: 50
 progress_5: 36
 progress_6: 75
@@ -161,7 +161,7 @@ progress_7: 26
 </div>
 </figure>
 
-## Pixel Resolution 
+## Pixel Resolution
 <p class="lead">The BASE statewide orthoimagery will be acquired and processed at <strong>0.5-meter pixel resolution</strong>.</p>
 
 Select BUY-UP areas will be acquired and processed at either 1-foot or 6-inch pixel resolution. The following are example features identifiable in each resolution.
@@ -196,6 +196,6 @@ These may may be displayed as natural color (Red, Green, Blue) or color infrared
 
 ## High Priority Imagery and Data Sets Contract
 
-The [High Priority Imagery and Data Sets](high-priority-imagery-data-sets) (HPIDS) Contract was used to select the orthoimagery provider, [Surdex Corp](http://www.surdex.com)., from a pool of prequalified geospatial data providers. 
+The [High Priority Imagery and Data Sets](high-priority-imagery-data-sets) (HPIDS) Contract was used to select the orthoimagery provider, [Surdex Corp](http://www.surdex.com)., from a pool of prequalified geospatial data providers.
 
 The contract is held by the [Council on Competitive Government](http://www.ccg.state.tx.us) and administered by TWDB/TNRIS.

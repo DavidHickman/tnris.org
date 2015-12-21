@@ -398,7 +398,7 @@ gulp.task('dist-metal', function () {
 
           _.each(markdownFields, function(markdownField) {
             if (file[markdownField]) {
-              if(Array.isArray(file[markdownField])) {
+              if (Array.isArray(file[markdownField])) {
                 file[markdownField] = file[markdownField].map(function (str) {
                   return marked(str, markedOptions);
                 });
