@@ -16,14 +16,14 @@ doqq_image_preview: 20151113_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
 latest_report: Weekly_Status_Report_120415_A.pdf
-status_date: December 11th, 2015
+status_date: January 1st, 2016
 updates:
-- TNRIS launches the web mapping service (WMS) for the 2015 TOP. Access the url below under Full Statewide Dataset Access.
+- Surdex aircraft with ADS100 digital camera sensors have returned to Texas to finish the statewide 0.5-meter acquisition (mainly S. TX) Dec 15, 2015 – Feb 28, 2016.
+- The status of the 0.5-meter imagery acquired in Season-1 is 100% complete, 100% in Season-2, 89% in Season-3, 33% in Season-4 and 91% Statewide.
+- TNRIS launched the web mapping service (WMS) for the 2015 0.5-meter orthoimagery. Access the url below under Full Statewide Dataset Access through your software and avoid downloading the data.
 - TNRIS loaded final DOQQs we have so far (36%) and shipped them to Esri for integration into their Basemap Imagery Service.
-- Quality Control (QC) data review is underway at TNRIS.
+- Continued Quality Control (QC) data review is underway at TNRIS.
 - Final orthoimagery for the entire state is expected to be available by Spring 2016.
-- The status of the 0.5 meter imagery acquired in Season-1 is 100% complete, 99% in Season-2, 89% in Season-3, 33% in Season-4 and 91% Statewide.
-- Surdex aircraft with ADS100 digital camera sensors are returning to Texas in December to finish the statewide 0.5-meter acquisition Dec 15, 2015 – Feb 28, 2016.
 progress_1: 91
 progress_2: 100
 progress_3: 91
