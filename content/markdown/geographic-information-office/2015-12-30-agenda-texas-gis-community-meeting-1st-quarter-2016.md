@@ -20,6 +20,9 @@ tags: Agenda, GIO Meeting
 
 * Project Page: [tnris.org/2015-statewide-orthoimagery-project](2015-statewide-orthoimagery-project)
 
+### StratMap Contract Update
+#### Gayla Mullins
+
 ### South Central Texas Lidar
 
 #### Joey Thomas 
