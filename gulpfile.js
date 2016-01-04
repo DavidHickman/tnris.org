@@ -446,7 +446,7 @@ gulp.task('dist-metal', function () {
           engine: 'swig'
         }))
         .use(sitemap({
-          hostname: 'http://tnris.org',
+          hostname: 'https://tnris.org',
           output: 'sitemap-main.xml'
         }))
         .use(function (files, metalsmith, done) {

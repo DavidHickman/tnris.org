@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* 
+/*
   Generates sitemap of DataDownload county and quad pages
   Relies on data-download-areas.json, which is created in tnris/data-download
 */
@@ -14,7 +14,7 @@ var templatePath = path.join(__dirname, 'sitemap-datadownload.xml.swig');
 var template = swig.compileFile(templatePath);
 
 var defaults = {
-  baseUrl: "http://tnris.org/data-download/#!",
+  baseUrl: "https://tnris.org/data-download/#!",
   output: path.join(__dirname, 'sitemap-datadownload.xml')
 };
 
