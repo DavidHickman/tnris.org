@@ -5,17 +5,17 @@ mainimage: static/images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract:
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
-status_image: 20150724_base.jpg
-status_image_preview: 20150724_base_sm.jpg
-status_image_buyup: 20150724_buyups.jpg
-status_image_buyup_preview: 20150724_buyups_sm.jpg
-production_image: 20151204_production.jpg
-production_image_preview: 20151204_production_sm.jpg
+status_image: 20160101_base.jpg
+status_image_preview: 20160101_base_sm.jpg
+status_image_buyup: 20160101_buyups.jpg
+status_image_buyup_preview: 20160101_buyups_sm.jpg
+production_image: 20160101_production.jpg
+production_image_preview: 20160101_production_sm.jpg
 doqq_image: 20151113_doqq_availability.jpg
 doqq_image_preview: 20151113_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
-latest_report: Weekly_Status_Report_120415_A.pdf
+latest_report: Weekly_Status_Report_010116_A.pdf
 status_date: January 1st, 2016
 updates:
 - Surdex aircraft with ADS100 digital camera sensors have returned to Texas to finish the statewide 0.5-meter acquisition (mainly S. TX) Dec 15, 2015 – Feb 28, 2016.
