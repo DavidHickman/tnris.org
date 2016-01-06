@@ -105,6 +105,10 @@ Note: Agenda and speakers subject to change without notice.
 <p>He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the [iRevolutions](http://irevolution.net) blog, and tweets at [@patrickmeier](https://twitter.com/patrickmeier).</p>
 <p><i class="glyphicon glyphicon-user"></i> [Full Bio](http://irevolution.net/bio)
 </p>
+
+<p><strong>Watch Video:</strong>
+  <iframe width="100%" height=400" src="https://www.youtube.com/embed/vx8gyiyo6-M" frameborder="0" allowfullscreen></iframe>
+</p>
 </div>
 </div>
 
@@ -909,6 +913,10 @@ TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
 <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-david-cowen-the-changing-geospatial-landscape"><i class="fa fa-play-circle"></i> View Slides</a></p>
 <p><img class="pull-right img-circle keynote-portrait" src="{{ m.link('static/images/texas-gis-forum/2015/david_cowen.jpg')}}"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
 <p><i class="glyphicon glyphicon-user"></i> <a href="{{m.link('news/2015-07-16-ucgis-fellow-david-cowen-keynote-forum')}}">Full Bio</a></p>
+
+<p><strong>Watch Video:</strong>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/FXp4RiZ34TA" frameborder="0" allowfullscreen></iframe>
+</p>
 </div>
 </div>
 
