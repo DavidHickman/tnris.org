@@ -28,6 +28,16 @@
   }
 }
 
+.lidar-compare {
+  .twentytwenty-before-label:before {
+    content: 'Ground Elevation Data - DEM';
+  }
+
+  .twentytwenty-after-label:before {
+    content: '3-D rendered point cloud';
+  }
+}
+
 
 
 .twentytwenty-before-label, 
