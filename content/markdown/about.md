@@ -29,7 +29,7 @@ Our staff includes individuals trained in the natural, computer and library scie
 
 ## Texas Water Development Board
 
-TNRIS is a part of the [Texas Water Development Board (TWDB)](http://www.twdb.texas.gov) under the Operations and Administration division.
+TNRIS is a division of the [Texas Water Development Board (TWDB)](http://www.twdb.texas.gov).
 
 ## Texas Geographic Names Committee
 
