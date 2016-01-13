@@ -52,7 +52,7 @@ If you feel that an unauthorized party has compromised your links, please contac
 
 Click on the button for your GIS software to learn how to add the imagery service.
 
-<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//00sp0000000s000000" class="btn btn-default btn-lg">ArcMap</a>
+<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-default btn-lg">ArcMap</a>
 
 <a href="{{m.link('static/documents/google/WMS2Pro.pdf')}}" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
 
