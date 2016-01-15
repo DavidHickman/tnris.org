@@ -2,10 +2,12 @@
 {% block topcontent %}
 <div class="container-fluid full">
   <div class="top-container">
-      {% if mainimage %}
-        <img class="img-responsive center-block hidden-xs hidden-sm" src="{{m.link(mainimage)}}" alt="main image for {{ title }}">
-        <img class="img-responsive center-block hidden-lg hidden-md" src="{{m.link(mainimagemobile)}}" alt="main image for {{ title }}">
-      {% endif %}
+     <video id="demvideo" width="100%" loop autoplay="autoplay">
+        
+        <source src="{{m.link('static/images/video/2016-lidar/slider2_dem.webm')}}" type="video/webm">
+          <source src="{{m.link('static/images/video/2016-lidar/slider2_dem.mp4')}}" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
 
 
       <div class="top-header center-block">
