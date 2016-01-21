@@ -165,9 +165,6 @@ function parseCSV(options) {
       });
     }
 
-    if (options.additional) {
-      file = options.additional(file);
-    }
     if (options.contentsKey) {
       file.contents = file[options.contentsKey];
     }
@@ -179,6 +176,18 @@ function parseCSV(options) {
     //the stats objects are used by the sitemap plugin
     file.stats = fs.statSync(path);
     debug(file.stats);
+
+    // trim trailing '\r' off of keys or values - this seems to be some
+    // intermittent issue with Google Docs
+    Object.keys(file).forEach(function (key) {
+      if(typeof file[key] === 'string') {
+        file[key.trim('\r')] = file[key].trim('\r');
+      }
+    });
+
+    if (options.additional) {
+      file = options.additional(file);
+    }
 
     if (files[data.filename]) {
       errors.breaking("Page '" + data.filename + "' generated from " + options.path + ", but it already exists. This indicates a likely url collision and/or overwriting an existing page.");
