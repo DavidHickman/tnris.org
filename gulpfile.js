@@ -164,7 +164,7 @@ function parseCSV(options) {
         contents: new Buffer('')
       });
     }
-
+ 
     if (options.contentsKey) {
       file.contents = file[options.contentsKey];
     }
@@ -351,6 +351,15 @@ gulp.task('dist-metal', function () {
             if (file.supplemental_report === 'T') {
               var supplemental_report_file = imageName + '_supplementalreports.zip';
               file.supplemental_report_url = 'https://tnris-datadownload.s3.amazonaws.com/datacatalog/supplemental_reports/' + supplemental_report_file;
+            }
+
+            if (file.tile_index) {
+              if (file.tile_index === 'T') {
+                var tile_index_file = imageName + '_tileindex.zip';
+                file.tile_index_url = 'https://tnris-datadownload.s3.amazonaws.com/datacatalog/tile_index/' + tile_index_file;
+              } else if (file.tile_index.toLowerCase() === 'lidar') {
+                file.tile_index_url = 'https://tnris-datadownload.s3.amazonaws.com/d/tnris-lidar/state/tx/tnris-lidar_tx.zip';
+              }
             }
 
             if (!file['thumb_url']) {
