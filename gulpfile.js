@@ -164,10 +164,7 @@ function parseCSV(options) {
         contents: new Buffer('')
       });
     }
-
-    if (options.additional) {
-      file = options.additional(file);
-    }
+ 
     if (options.contentsKey) {
       file.contents = file[options.contentsKey];
     }
@@ -179,6 +176,18 @@ function parseCSV(options) {
     //the stats objects are used by the sitemap plugin
     file.stats = fs.statSync(path);
     debug(file.stats);
+
+    // trim trailing '\r' off of keys or values - this seems to be some
+    // intermittent issue with Google Docs
+    Object.keys(file).forEach(function (key) {
+      if(typeof file[key] === 'string') {
+        file[key.trim('\r')] = file[key].trim('\r');
+      }
+    });
+
+    if (options.additional) {
+      file = options.additional(file);
+    }
 
     if (files[data.filename]) {
       errors.breaking("Page '" + data.filename + "' generated from " + options.path + ", but it already exists. This indicates a likely url collision and/or overwriting an existing page.");
@@ -338,6 +347,20 @@ gulp.task('dist-metal', function () {
                 file[imageType.name + '_url'] = filename;
               }
             });
+
+            if (file.supplemental_report === 'T') {
+              var supplemental_report_file = imageName + '_supplementalreports.zip';
+              file.supplemental_report_url = 'https://tnris-datadownload.s3.amazonaws.com/datacatalog/supplemental_reports/' + supplemental_report_file;
+            }
+
+            if (file.tile_index) {
+              if (file.tile_index === 'T') {
+                var tile_index_file = imageName + '_tileindex.zip';
+                file.tile_index_url = 'https://tnris-datadownload.s3.amazonaws.com/datacatalog/tile_index/' + tile_index_file;
+              } else if (file.tile_index.toLowerCase() === 'lidar') {
+                file.tile_index_url = 'https://tnris-datadownload.s3.amazonaws.com/d/tnris-lidar/state/tx/tnris-lidar_tx.zip';
+              }
+            }
 
             if (!file['thumb_url']) {
               errors.breaking("Could not find required thumbnail image for data catalog entry: " + imageName);
