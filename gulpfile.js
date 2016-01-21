@@ -348,6 +348,11 @@ gulp.task('dist-metal', function () {
               }
             });
 
+            if (file.supplemental_report === 'T') {
+              var supplemental_report_file = imageName + '_supplementalreports.zip';
+              file.supplemental_report_url = 'https://tnris-datadownload.s3.amazonaws.com/datacatalog/supplemental_reports/' + supplemental_report_file;
+            }
+
             if (!file['thumb_url']) {
               errors.breaking("Could not find required thumbnail image for data catalog entry: " + imageName);
             }

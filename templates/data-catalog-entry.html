@@ -239,6 +239,12 @@
                     <td><strong>Derivative Data:</strong></td>
                     <td>{% if derivative_data %}{{ derivative_data }}{% else %}<em>None Available</em>{% endif %}</td>
                   </tr>
+                 {% if supplemental_report_url %}
+                  <tr>
+                    <td><strong>Supplemental Report:</strong></td>
+                    <td><a href="{{supplemental_report_url}}">Download</a></td>
+                  </tr>
+                 {% endif %}
                 </tbody>
               </table>
             </div>
