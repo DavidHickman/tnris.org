@@ -364,7 +364,7 @@ gulp.task('dist-metal', function () {
 
             if (file.license) {
               if (file.license === 'CC0') {
-                file.license_text = 'Public Domain (under Creative Commons CC0)';
+                file.license_text = 'Public Domain (Creative Commons CC0)';
                 file.license_url = 'https://creativecommons.org/publicdomain/zero/1.0/';
               } else if (file.license !== 'NA') {
                 file.license_text = file.license;
