@@ -236,6 +236,20 @@
                   </tr>
                  {% endif %}
                   <tr>
+                    <td><strong>Data License:</strong></td>
+                    <td>
+                      {%- if license_text -%}
+                        {%- if license_url -%}
+                          <a href="{{license_url}}">{{license_text}}</a>
+                         {%- else  -%}
+                          {{ license_text }}
+                        {%- endif -%}
+                       {%- else  -%}
+                         None
+                      {%- endif -%}
+                     </td>
+                  </tr>
+                  <tr>
                     <td><strong>Recommended Use:</strong></td>
                     <td>{{ recommended_use }}</td>
                   </tr>
