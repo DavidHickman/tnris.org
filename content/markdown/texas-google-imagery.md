@@ -12,6 +12,33 @@ It provides state organizations with a current and consistent data source while 
  
 Google hosts the Google imagery service through the Google Maps Engine.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving terabytes of data.
 
+## I can now see multiple layers available in the Google Imagery Service. What does this mean?
+There are now four layers in the WMS and WMTS Google Imagery GCP Service. The “texas” layer contains the most current imagery available for Texas. All other layers are populated with corresponding year collected as the imagery is replaced by newer imagery.
+
+Layer Descriptions:
+
+Texas – Statewide mosaic of latest available imagery in the Google Imagery Service. This layer includes years 2015, 2014, 2013, 2012, and a small portion from 2011. To determine date of imagery, please refer to the instructions received with your unique link or request access. 
+
+texas_2014 – This layer contains imagery captured by Google in 2014 that is now archived to the texas_2014 layer after new imagery became available. This layer will eventually contain all imagery collected in 2014. 
+
+texas_2013 – This layer contains imagery captured by Google in 2013 that is now archived to the texas_2013 layer after new imagery became available. This layer will eventually contain all imagery collected in 2013.
+
+texas_2012 – This layer contains imagery captured by Google in 2012 that is now archived to the texas_2012 layer after new imagery became available. This layer will eventually contain all imagery collected in 2012.
+
+texas_2011 – This layer contains imagery captured by Google in 2011 that is now archived to the texas_2011 layer after new imagery became available. This layer will eventually contain all imagery collected in 2011.
+
+## Should I use the WMS service link or the WMTS service link?
+If your GIS/CAD software can ingest a WMTS, discontinue using the WMS link and begin using the WMTS link throughout your organization. WMTS is optimized for efficient web delivery and map printing. 
+
+If your GIS/CAD software cannot ingest a WMTS, continue to use the WMS link.
+
+Both of your WMS and WMTS links will continue to serve the Texas Google imagery to your organization under the pilot program.
+
+## The WMTS link does not work in ArcGIS Online. Can this be fixed?
+Esri is aware of this issue and has temporarily resolved it until it can be fixed in the next release. Add the following text to the end of your unique WMTS link - /wmts?service=wmts&VERSION=1.0.0&request=GetCapabilities
+
+Ex. https://txgi.tnris.org/login/path/xxxx-xxxxxx-xxx-xxxx/wmts?service=wmts&VERSION=1.0.0&request=GetCapabilities
+
 ## How is the Google Imagery Service different from the imagery seen in Google Earth and Google Maps?
 The Google Imagery Service has a higher level of positional accuracy (~0.5m) because it has been reprocessed using existing ground control points where available (mostly in high density urban areas). Imagery can be downloaded for on-premise use and archiving (coming soon). The Google Imagery Service can be used in all state and local government web applications without an API key, including those applications that are not public facing or require a login. The Google Imagery Service can be used to derive data and the imagery can be incorporated into base map tiles, etc without restriction.
 
