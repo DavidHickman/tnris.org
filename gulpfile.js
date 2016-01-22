@@ -461,6 +461,12 @@ gulp.task('dist-metal', function () {
             return new Buffer(str);
           }
         }))
+        .use(function (files, metalsmith, done) {
+          // combine news and geographic information office into an updates stream
+          var updates = metalsmith.data.news.concat(metalsmith.data.geographic_information_office);
+          metalsmith.data.updates = _.sortBy(updates, 'date').reverse();
+          done();
+        })
         .use(templates({
           engine: 'swig',
           inPlace: true
