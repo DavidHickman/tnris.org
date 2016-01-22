@@ -9,7 +9,7 @@
 
       <ul class="news-list list-clean">
         {% set pagination_end = pagination.end + 1 %}
-        {% for news_item in news.slice(pagination.start, pagination_end) %}
+        {% for news_item in updates.slice(pagination.start, pagination_end) %}
           <li class="media">
             <a class="pull-left" href="{{m.link(news_item.preserved)}}"><img class="media-object" src="{{m.link(news_item.thumbnail)}}" alt="{{news_item.thumbalt}}">
             </a>
