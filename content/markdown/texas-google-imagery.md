@@ -12,12 +12,15 @@ It provides state organizations with a current and consistent data source while 
  
 Google hosts the Google imagery service through the Google Maps Engine.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving terabytes of data.
 
-## I can now see multiple layers available in the Google Imagery Service. What does this mean?
-There are now four layers in the WMS and WMTS Google Imagery GCP Service. The “texas” layer contains the most current imagery available for Texas. All other layers are populated with corresponding year collected as the imagery is replaced by newer imagery.
+## The Google Imagery Service now contains layers by year. What are these new layers?
+
+<p><figure class="pull-right"><img alt="A view of the layers in ArcMap" src="{{m.link('static/images/google/googlelayers_arcmap.jpg')}}">
+  <figcaption>A view of the layers in ArcMap</figcaption>
+</figure>There are now four layers in the WMS and WMTS Google Imagery GCP Service. The “texas” layer contains the most current imagery available for Texas. All other layers are populated with corresponding year collected as the imagery is replaced by newer imagery.</p>
 
 Layer Descriptions:
 
-### Texas
+### texas
 Statewide mosaic of latest available imagery in the Google Imagery Service. This layer includes years 2015, 2014, 2013, 2012, and a small portion from 2011. To determine date of imagery, please refer to the instructions received with your unique link or request access. 
 
 ### texas_2014 
