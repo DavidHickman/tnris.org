@@ -5,31 +5,31 @@ mainimage: static/images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract:
     A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
 author: Gayla Mullins
-status_image: 20160101_base.jpg
-status_image_preview: 20160101_base_sm.jpg
-status_image_buyup: 20160101_buyups.jpg
-status_image_buyup_preview: 20160101_buyups_sm.jpg
-production_image: 20160101_production.jpg
-production_image_preview: 20160101_production_sm.jpg
+status_image: 20161516_base.jpg
+status_image_preview: 20161516_base_sm.jpg
+status_image_buyup: 20161516_buyups.jpg
+status_image_buyup_preview: 20161516_buyups_sm.jpg
+production_image: 20161516_production.jpg
+production_image_preview: 20161516_production_sm.jpg
 doqq_image: 20151113_doqq_availability.jpg
 doqq_image_preview: 20151113_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
-latest_report: Weekly_Status_Report_010116_A.pdf
-status_date: January 1st, 2016
+latest_report: Weekly_Status_Report_011516_A.pdf
+status_date: January 15th, 2016
 updates:
-- Surdex aircraft with ADS100 digital camera sensors have returned to Texas to finish the statewide 0.5-meter acquisition (mainly S. TX) Dec 15, 2015 – Feb 28, 2016.
-- The status of the 0.5-meter imagery acquired in Season-1 is 100% complete, 100% in Season-2, 89% in Season-3, 33% in Season-4 and 91% Statewide.
-- TNRIS launched the web mapping service (WMS) for the 2015 0.5-meter orthoimagery. Access the url below under Full Statewide Dataset Access through your software and avoid downloading the data.
-- TNRIS loaded final DOQQs we have so far (36%) and shipped them to Esri for integration into their Basemap Imagery Service.
+- Surdex aircraft with ADS100 digital camera sensors are completing the remaining areas for the statewide 0.5-meter acquisition (mainly S. TX) Dec 15, 2015 – Feb 28, 2016.
+- The status of the 0.5-meter imagery acquired in Season-1 is 100% complete, 100% in Season-2, 99% in Season-3, 33% in Season-4 and 93% Statewide.
+- TNRIS launched the web mapping service (WMS) for the 2015 TOP. Access the url below under Full Statewide Dataset Access and avoid downloading the data.
+- TNRIS loaded final DOQQs we have so far (36%) and shipped them to Esri for integration into their Basemap Imagery Service – available to the public through Esri products in February.
 - Continued Quality Control (QC) data review is underway at TNRIS.
 - Final orthoimagery for the entire state is expected to be available by Spring 2016.
-progress_1: 91
+progress_1: 93
 progress_2: 100
 progress_3: 91
 progress_4: 50
 progress_5: 36
-progress_6: 75
+progress_6: 80
 progress_7: 26
 ---
 
