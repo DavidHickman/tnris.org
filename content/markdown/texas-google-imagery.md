@@ -17,15 +17,20 @@ There are now four layers in the WMS and WMTS Google Imagery GCP Service. The �
 
 Layer Descriptions:
 
-Texas – Statewide mosaic of latest available imagery in the Google Imagery Service. This layer includes years 2015, 2014, 2013, 2012, and a small portion from 2011. To determine date of imagery, please refer to the instructions received with your unique link or request access. 
+### Texas
+Statewide mosaic of latest available imagery in the Google Imagery Service. This layer includes years 2015, 2014, 2013, 2012, and a small portion from 2011. To determine date of imagery, please refer to the instructions received with your unique link or request access. 
 
-texas_2014 – This layer contains imagery captured by Google in 2014 that is now archived to the texas_2014 layer after new imagery became available. This layer will eventually contain all imagery collected in 2014. 
+### texas_2014 
+This layer contains imagery captured by Google in 2014 that is now archived to the texas_2014 layer after new imagery became available. This layer will eventually contain all imagery collected in 2014. 
 
-texas_2013 – This layer contains imagery captured by Google in 2013 that is now archived to the texas_2013 layer after new imagery became available. This layer will eventually contain all imagery collected in 2013.
+### texas_2013 
+This layer contains imagery captured by Google in 2013 that is now archived to the texas_2013 layer after new imagery became available. This layer will eventually contain all imagery collected in 2013.
 
-texas_2012 – This layer contains imagery captured by Google in 2012 that is now archived to the texas_2012 layer after new imagery became available. This layer will eventually contain all imagery collected in 2012.
+### texas_2012 
+This layer contains imagery captured by Google in 2012 that is now archived to the texas_2012 layer after new imagery became available. This layer will eventually contain all imagery collected in 2012.
 
-texas_2011 – This layer contains imagery captured by Google in 2011 that is now archived to the texas_2011 layer after new imagery became available. This layer will eventually contain all imagery collected in 2011.
+### texas_2011 
+This layer contains imagery captured by Google in 2011 that is now archived to the texas_2011 layer after new imagery became available. This layer will eventually contain all imagery collected in 2011.
 
 ## Should I use the WMS service link or the WMTS service link?
 If your GIS/CAD software can ingest a WMTS, discontinue using the WMS link and begin using the WMTS link throughout your organization. WMTS is optimized for efficient web delivery and map printing. 
