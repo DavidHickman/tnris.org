@@ -90,11 +90,13 @@
 
   .data-callout {
     position: absolute;
+
     @media (max-width: $screen-sm-max) {
       position: relative;
     }
 
     bottom: 0px;
+    box-shadow: 0 -10px 5px rgba(0, 0, 0, 0.35);
     @include alpha-attribute("background-color", rgba($tnrisblue, 0.85), white);
     color: white;
     padding: 0 20px;
@@ -102,7 +104,7 @@
     left: 0px;
     width: 100%;
     height: auto;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
 
     th {
@@ -230,7 +232,11 @@
     text-transform: uppercase;
   }
   .btn {
-    margin-bottom: 40px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .input-group-btn .btn {
+    box-shadow: none;
   }
 }
 
@@ -416,4 +422,17 @@ input.wms-url {
   select {
     width: 100%;
   }
+}
+
+.catalog-text-em {
+  font-size: 22px;
+
+  strong {
+    font-style: italic;
+    font-weight: 700;
+  }
+}
+
+.data-access-meta {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }

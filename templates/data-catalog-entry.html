@@ -68,7 +68,7 @@
     </ol>
   </div>
   <div id="catalogEntryContent" class="row">
-    <h1>{{ name }}</h1>
+    <h1><small><a href="{{m.link('data-catalog')}}/#{{urlized_category}}">{{ category }}</a></small><br>{{ name }}</h1>
     <div id="catalog-main-image">
       <div class="btn-container">
         <div class="btn-group center-block" data-toggle="buttons">
@@ -107,22 +107,19 @@
           <table>
             <thead>
               <tr>
-                <th class="col-sm-2">Category:</th>
-                <th class="col-sm-6"><span class="glyphicon glyphicon-tags"></span> Tags:</th>
                 <th class="col-sm-1">Date(s):</th>
+                <th class="col-sm-4">Coverage Availability/Geographic Extent:</th>
+                <th class="col-sm-2">Footprint:</th>
                 <th class="col-sm-3">Source(s):</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="col-sm-2"><a href="{{m.link('data-catalog')}}/#{{urlized_category}}">{{ category }}</a></td>
-                <td class="col-sm-6">
-                  <ul class="tags">
-                    {% for tag in tags %}
-                      <li><span class="tag">{{tag}}</a></li>
-                    {% endfor %}
-                  </ul>
                 <td class="col-sm-1">{{ date_created }}</td>
+                <td class="col-sm-4">
+                    {{ coverage_extent }}
+                </td>
+                <td class="col-sm-2">{{ footprint }}</td>
                 <td class="col-sm-3">{{ source }}</td>
               </tr>
             </tbody>
@@ -139,8 +136,23 @@
         <span><i class="glyphicon glyphicon-eye-open"></i> Click to View Access Options</span>
          </button>
           <div class="collapse" id="data-access">
+            <div class="well well-sm data-access-meta"> 
+            <ul class="list-clean">
+            <li><strong>Available Formats:</strong> {{ available_formats }}</li>
+           {% if alternative_data %} 
+            <li><strong>Alternative Data:</strong> {{ alternative_data }}<li>
+           {% endif %}
+            {% if derivative_data %}
+            <li><strong>Derivative Data:</strong> {{ derivative_data }}</li>
+            {% endif %}
+            <li><strong>Known Issues:</strong> {% if known_issues %}{{ known_issues }}{% else %} None {% endif %}</li>
+            <li><strong>Recommended Uses:</strong> {{ recommended_use }}</li>
+          </ul>
+          </div>
           {% if download_link %}
-            <h4>Direct Download</h4>
+            <h3>Direct Download</h3>
+
+            <p><a href="{{download_link}}" class="btn btn-danger btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Download <span class="hidden-sm hidden-xs hidden-md">Data Set</span></a></p>
             <p>The full <em>{{ name }}</em> data set can be downloaded directly.</p>
             <p>Download the
               {% if download_size == "Varies" %}
@@ -149,30 +161,38 @@
               <strong>{{ download_size }}</strong>
               {% endif %}
               file here</p>
-            <p><a href="{{download_link}}" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-download-alt"></span> Download <span class="hidden-sm hidden-xs hidden-md">Data Set</span></a></p>
+              <hr>
           {% endif %}
 
           {% if download %}
-            <h4>Data Search &amp; Download</h4>
+            <h3>Data Search &amp; Download</h3>
+            <p><a href="{{m.link('data-download')}}" class="btn btn-tnris btn-lg btn-block"><span class="glyphicon glyphicon-search"></span> Launch <span class="hidden-sm">Data Search &amp;</span> Download </a></p>
             <p>Use our online tool to specify the geographic area for which you would like to download the <em>{{ name }}</em> data set.  </p>
-            <p><a href="{{m.link('data-download')}}" class="btn btn-tnris btn-lg"><span class="glyphicon glyphicon-search"></span> Launch <span class="hidden-sm">Data Search &amp;</span> Download </a></p>
+              <hr>
           {% endif %}
 
           {% if order %}
-            <h4>Custom Ordering</h4>
+            <h3>Custom Ordering</h3>
+            <p><a href="{{m.link('order-data')}}" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-envelope"></span> Order Data</a></p>
             <p><em>{{ name }}</em> is in the public domain and available from the <a href="{{m.link('maps-and-data/research-and-distribution')}}">Research and Distribution Center</a> for the cost of reproduction.</p>
-            <p><a href="{{m.link('order-data')}}" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-envelope"></span> Order Data</a></p>
+              <hr>
           {% endif %}
 
           {% if wms_link %}
-            <h4>Online Mapping Service</h4>
-            <p><em>{{ name }}</em> is available as an online mapping service.</p>
-            <p>Copy the URL below and enter it into your program to access.</p>
+            <h3>Online Mapping Service</h3>
             {{m.wms_link(wms_link)}}
+            <p><em>{{ name }}</em> is available as an online mapping service.</p>
+            <p>Copy the URL above and enter it into your program to access.</p>
+            
+              <hr>
           {% endif %}
 
           {% if pop_link %}
-            <h4>Online Preview</h4>
+            <h3>Online Preview</h3>
+            <p>
+              <a href="{{ pop_link }}" class="btn btn-info btn-lg btn-block">
+              <i class="glyphicon glyphicon-new-window"></i> Open Online Preview</span></a>
+            </p>
             <p>Preview
               {% if category == "Elevation - LiDAR" %}
               the coverage area of this dataset using an ArcGIS online service.
@@ -180,49 +200,18 @@
               this dataset as an ArcGIS online service
               {% endif %}
             </p>
-            <p>
-              <a href="{{ pop_link }}" class="btn btn-info btn-lg">
-              <i class="glyphicon glyphicon-new-window"></i> Open Online Preview</span></a>
-            </p>
           {% endif %}
         </div>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-7">
           <div class="description">
             <h2>Description</h2>
             <p>{{contents|safe}}</p>
           </div>
-
-          <div id="metadata" class="panel panel-info">
-            <div class="panel-heading">
+          <div id="metadata">
               <h3>More Details</h3>
-            </div>
-
-            <div class="panel-body">
               <table>
                 <tbody>
-                  <tr>
-                    <td><strong>Available Formats:</strong></td>
-                    <td>{{ available_formats }}</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Coverage Availability <br>/Geographic Extent:</strong></td>
-                    <td>{{ coverage_extent }}</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Footprint:</strong></td>
-                    <td>{{ footprint }}</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Download Size:</strong></td>
-                    <td>
-                      {% if download_size %}
-                        {{ download_size }}
-                          {% else %}
-                          <em>N/A - Varies</em>
-                        {% endif %}
-                    </td>
-                  </tr>
                  {% if tile_index_url %}
                   <tr>
                     <td><strong>Tile Index:</strong></td>
@@ -234,30 +223,10 @@
                     <td><strong>Supplemental Information:</strong></td>
                     <td><a href="{{supplemental_report_url}}">Download</a></td>
                   </tr>
-                 {% endif %}
-                  <tr>
-                    <td><strong>Recommended Use:</strong></td>
-                    <td>{{ recommended_use }}</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Known Issues:</strong></td>
-                    <td>{% if known_issues %}{{ known_issues }}{% else %}<em>None</em>{% endif %}</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Alternative Data:</strong></td>
-                    <td>{% if alternative_data %}{{ alternative_data }}{% else %}<em>None Available</em>{% endif %}</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Derivative Data:</strong></td>
-                    <td>{% if derivative_data %}{{ derivative_data }}{% else %}<em>None Available</em>{% endif %}</td>
-                  </tr>
+                 {% endif %}      
                 </tbody>
               </table>
-            </div>
           </div>
-             <!--  <section class="data-disclaimer">
-              </section> -->
-        </div>
       </div>
     </div>
   </div>
