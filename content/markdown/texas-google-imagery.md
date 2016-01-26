@@ -4,6 +4,7 @@ title: Texas Google Imagery Service Pilot Project
 mainimage: static/images/google/google-imagery-full-2.jpg
 abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, Utilize and Incorporate into the Work you do for the Public.
 ---
+### GENERAL FAQ
 
 ## How can Google Imagery help my organization?
 The Texas Google Imagery Service serves 6-inch, natural color imagery for the State of Texas.
@@ -12,6 +13,64 @@ It provides state organizations with a current and consistent data source while 
  
 Google hosts the Google imagery service through the Google Maps Engine.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving terabytes of data.
 
+## How is the Google Imagery Service different from the imagery seen in Google Earth and Google Maps?
+The Google Imagery Service has a higher level of positional accuracy (~0.5m) because it has been reprocessed using existing ground control points where available (mostly in high density urban areas). Imagery can be downloaded for on-premise use and archiving (coming soon). The Google Imagery Service can be used in all state and local government web applications without an API key, including those applications that are not public facing or require a login. The Google Imagery Service can be used to derive data and the imagery can be incorporated into base map tiles, etc without restriction.
+
+## How will this project initiative be impacted in light of Google’s recent announcement that Google Maps Engine (GME) will be turned off early next year?
+A GME-based WMS service is how the most current imagery service is being delivered to Texas for acceptance testing. That service is expected to be replaced with a WMS and WMTS (tile service) hosted on the Google Cloud Platform (GCP) in the coming months. The GIS Solutions Group will select a software application to serve the imagery from GCP from among the existing commercial and open-source choices such as ArcGIS Server, MapProxy, or Geoserver.
+
+At this point we see the GCP option as being superior to the GME platform as it gives us more control, flexibility, and potential cost-savings. Initial access to the service will be via a temporary WMS URL. In a few months, the temporary URL would be need to be replaced with links that use the new GCP-based service.
+
+## Who can use the Google Imagery Services?
+The Texas Google Imagery Service is a restricted license and is only for use by public organizations in the State of Texas (ie. state, regional and local governments).  Contractors for any public organization are permitted to use the imagery as long as the project or program being performed directly supports the public organization. 
+
+Rights to use the imagery terminate upon completion of work by the outside entities. The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
+
+## How will maintenance and imagery update costs be covered in the future?
+During the pilot year, which extends through March 2016, the GIS Solutions Group will review options for a fair and reasonable cost-recovery model using usage metrics and other factors. The more that play the less we all pay.
+ 
+## I don’t use the Google Maps API, how can I incorporate the services into my tools and applications?
+Google Maps API provides access to the rich mapping content services from Google. Maps API is a commercial product that requires licensing based on quantities of use but is not required to access the Google Imagery Service.
+
+The Texas Google Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS software and web mapping applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.
+ 
+Check with your IT Department or software provider to determine if an OGC compliant Web Service is supported by your applications.
+ 
+
+## How is the Texas Google Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?
+The Texas Google Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 1/2-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than the 1-meter National Agriculture Imagery Program (NAIP) imagery.   
+ 
+The imagery represented by the Texas Google Imagery Service is not in the public domain and is restricted under license.
+ 
+## Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Agriculture Imagery Program (NAIP) partnerships?
+
+Yes, TNRIS will continue to work in coordination with partners to determine the need for orthoimagery. Persisting situations will call for new statewide leaf-off (TOP) or leaf-on (NAIP) acquisition projects to meet higher specific requirements (resolution, positioning) or even greater currency than Google’s update cycle goals (targeted for a 3 year refresh cycle around the State). Additionally, at the federal level, we currently expect the statewide 1 meter 2-year NAIP updates, contracted by the USDA, and the high resolution NGA 133 Cities imagery programs to continue. These products are different enough from the Google imagery, in terms of acquisition schedule and specs, that they should be complementary data resources.
+
+## What do I do if I suspect that my link has been compromised or is being used by someone or an organization that is not authorized to use it?
+If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately.  We will disable your current links and re-establish new links for you to use.
+
+------
+
+### TECHNICAL FAQ
+
+## How do I add the Google Imagery services to my software?
+
+Click on the button for your GIS software to learn how to add the imagery service.
+
+<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-default btn-lg">ArcMap</a>
+
+<a href="{{m.link('static/documents/google/WMS2Pro.pdf')}}" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
+
+<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">ArcGIS Online</a>
+
+<a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" class="btn btn-default btn-lg">GlobalMapper</a>
+
+<a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" class="btn btn-default btn-lg">AutoCAD MAP 3D</a>
+
+<a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" class="btn btn-default btn-lg">AutoCAD CIVIL 3D 2013</a>
+
+<a href="{{m.link('static/documents/google/MicroStationGoogleWMSDemo.pdf')}}" class="btn btn-default btn-lg">MicroStation</a>
+ 
 ## The Google Imagery Service now contains layers by year. What are these new layers?
 
 <p><figure class="pull-right"><img alt="A view of the layers in ArcMap" src="{{m.link('static/images/google/googlelayers_arcmap.jpg')}}">
@@ -51,60 +110,6 @@ Ex. https://txgi.tnris.org/login/path/xxxx-xxxxxx-xxx-xxxx/wmts?service=wmts&VER
 
 The WMS link is compatible in ArcGIS Online.
 
-## How is the Google Imagery Service different from the imagery seen in Google Earth and Google Maps?
-The Google Imagery Service has a higher level of positional accuracy (~0.5m) because it has been reprocessed using existing ground control points where available (mostly in high density urban areas). Imagery can be downloaded for on-premise use and archiving (coming soon). The Google Imagery Service can be used in all state and local government web applications without an API key, including those applications that are not public facing or require a login. The Google Imagery Service can be used to derive data and the imagery can be incorporated into base map tiles, etc without restriction.
-
-## How will this project initiative be impacted in light of Google’s recent announcement that Google Maps Engine (GME) will be turned off early next year?
-A GME-based WMS service is how the most current imagery service is being delivered to Texas for acceptance testing. That service is expected to be replaced with a WMS and WMTS (tile service) hosted on the Google Cloud Platform (GCP) in the coming months. The GIS Solutions Group will select a software application to serve the imagery from GCP from among the existing commercial and open-source choices such as ArcGIS Server, MapProxy, or Geoserver.
-
-At this point we see the GCP option as being superior to the GME platform as it gives us more control, flexibility, and potential cost-savings. Initial access to the service will be via a temporary WMS URL. In a few months, the temporary URL would be need to be replaced with links that use the new GCP-based service.
-
-## Who can use the Google Imagery Services?
-The Texas Google Imagery Service is a restricted license and is only for use by public organizations in the State of Texas (ie. state, regional and local governments).  Contractors for any public organization are permitted to use the imagery as long as the project or program being performed directly supports the public organization. 
-
-Rights to use the imagery terminate upon completion of work by the outside entities. The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
-
-## How will maintenance and imagery update costs be covered in the future?
-During the pilot year, which extends through March 2016, the GIS Solutions Group will review options for a fair and reasonable cost-recovery model using usage metrics and other factors. The more that play the less we all pay.
- 
-## I don’t use the Google Maps API, how can I incorporate the services into my tools and applications?
-Google Maps API provides access to the rich mapping content services from Google. Maps API is a commercial product that requires licensing based on quantities of use but is not required to access the Google Imagery Service.
-
-The Texas Google Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS software and web mapping applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.
- 
-Check with your IT Department or software provider to determine if an OGC compliant Web Service is supported by your applications.
- 
-
-## How is the Texas Google Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?
-The Texas Google Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 1/2-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than the 1-meter National Agriculture Imagery Program (NAIP) imagery.   
- 
-The imagery represented by the Texas Google Imagery Service is not in the public domain and is restricted under license.
- 
-## Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Agriculture Imagery Program (NAIP) partnerships?
-
-Yes, TNRIS will continue to work in coordination with partners to determine the need for orthoimagery. Persisting situations will call for new statewide leaf-off (TOP) or leaf-on (NAIP) acquisition projects to meet higher specific requirements (resolution, positioning) or even greater currency than Google’s update cycle goals (targeted for a 3 year refresh cycle around the State). Additionally, at the federal level, we currently expect the statewide 1 meter 2-year NAIP updates, contracted by the USDA, and the high resolution NGA 133 Cities imagery programs to continue. These products are different enough from the Google imagery, in terms of acquisition schedule and specs, that they should be complementary data resources.
-
-## What do I do if I suspect that my link has been compromised or is being used by someone or an organization that is not authorized to use it?
-If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately.  We will disable your current links and re-establish new links for you to use.
-
-## How do I add the Google Imagery services to my software?
-
-Click on the button for your GIS software to learn how to add the imagery service.
-
-<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-default btn-lg">ArcMap</a>
-
-<a href="{{m.link('static/documents/google/WMS2Pro.pdf')}}" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
-
-<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">ArcGIS Online</a>
-
-<a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" class="btn btn-default btn-lg">GlobalMapper</a>
-
-<a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" class="btn btn-default btn-lg">AutoCAD MAP 3D</a>
-
-<a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" class="btn btn-default btn-lg">AutoCAD CIVIL 3D 2013</a>
-
-<a href="{{m.link('static/documents/google/MicroStationGoogleWMSDemo.pdf')}}" class="btn btn-default btn-lg">MicroStation</a>
- 
 ## Why does my downloaded tile imagery look blocky/patchy when displayed in ArcGIS? 
 
 If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “**Apply Gamma Stretch**:” option and to set the “**Stretch**” type to None. 
