@@ -136,19 +136,17 @@
         <span><i class="glyphicon glyphicon-eye-open"></i> Click to View Access Options</span>
          </button>
           <div class="collapse" id="data-access">
-            <div class="well well-sm data-access-meta"> 
-            <ul class="list-clean">
-            <li><strong>Available Formats:</strong> {{ available_formats }}</li>
+            <ul class="list-group">
+            <li class="list-group-item"><strong>Available Formats:</strong> {{ available_formats }}</li>
            {% if alternative_data %} 
-            <li><strong>Alternative Data:</strong> {{ alternative_data }}<li>
+            <li class="list-group-item"><strong>Alternative Data:</strong> {{ alternative_data }}</li>
            {% endif %}
             {% if derivative_data %}
-            <li><strong>Derivative Data:</strong> {{ derivative_data }}</li>
+            <li class="list-group-item"><strong>Derivative Data:</strong> {{ derivative_data }}</li>
             {% endif %}
-            <li><strong>Known Issues:</strong> {% if known_issues %}{{ known_issues }}{% else %} None {% endif %}</li>
-            <li><strong>Recommended Uses:</strong> {{ recommended_use }}</li>
+            <li class="list-group-item"><strong>Known Issues:</strong> {% if known_issues %}{{ known_issues }}{% else %} None {% endif %}</li>
+            <li class="list-group-item"><strong>Recommended Uses:</strong> {{ recommended_use }}</li>
           </ul>
-          </div>
           {% if download_link %}
             <h3>Direct Download</h3>
 
@@ -207,6 +205,18 @@
           <div class="description">
             <h2>Description</h2>
             <p>{{contents|safe}}</p>
+          </div>
+          <div>
+            <h2>Data License</h2>
+          {%- if license_text -%}
+                     {%- if license_url -%}
+                        <a href="{{license_url}}">{{license_text}}</a>
+                       {%- else  -%}
+                        {{ license_text }}
+                      {%- endif -%}
+                     {%- else  -%}
+                       <em>Unknown</em>
+                    {%- endif -%}
           </div>
           <div id="metadata">
               <h3>More Details</h3>
