@@ -10,14 +10,18 @@
     </ol>
   </div>
   <div class="row">
+
+     <div class="col-xs-12"> 
+      <h1 class="training-title">{{class_title}}</h1>
+           <div class="training-date">
+             <strong>
+               <span class="glyphicon glyphicon-calendar"></span> {{date_full}}
+             </strong>, 
+             <span class="glyphicon glyphicon-time"></span> {{time}}
+           </div></div>
+    </div>
+  <div class="row">
     <div class="col-sm-8">
-  		<h1 class="training-title">{{class_title}}</h1>
-      <div class="training-date">
-        <strong>
-          <span class="glyphicon glyphicon-calendar"></span> {{date_full}}
-        </strong>, 
-        <span class="glyphicon glyphicon-time"></span> {{time}}
-      </div>
     	<div class="row training-header">
 		    <div class="col-xs-6 col-sm-7">
           Taught by:<br>
@@ -35,11 +39,11 @@
         {{contents|safe}}
       </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4 training-sidebar">
       {% block sidebarLeft %}
         {% if status == "CLOSED" %}
         {% else %}
-          <a href="{{reg_link}}" class="btn btn-success btn-block">Register Online Today</a>
+          <a href="{{reg_link}}" class="btn btn-success btn-lg btn-block"><i class="glyphicon glyphicon-pencil"></i> Register Online Today</a>
         {% endif %}
 
         {% include "./partials/course-cancellation.html" %}
