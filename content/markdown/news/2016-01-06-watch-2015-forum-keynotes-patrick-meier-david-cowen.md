@@ -13,6 +13,8 @@ If you didn't make it to the [Texas GIS Forum](2015-gis-forum), or attended and 
 
 We hope that you enjoy learning from these important leaders in their respective fields. Join us again this year and save the date for 2016 Texas GIS Forum, taking place from **October 24 to October 27th**. See you there!
 
+**NOTE: All videos are closed captioned according to TWDB [accessibility policy](site-policies#accessibility-policy).**
+
 ## Patrick Meier
 
 **Bio:** [news/2015-07-23/forum-keynote-digital-humanitarian-patrick-meier](news/2015-07-23-forum-keynote-digital-humanitarian-patrick-meier)
