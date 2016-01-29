@@ -1,21 +1,25 @@
+
+{% import "_form_macros.html" as form %}
+
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-10">
             <p class="lead">TNRIS has managed more Lidar projects than all other sources combined for the State. In addition to TNRIS-managed projects, we have had a hand in the guidance, specifications and technical expertise for many of the regional and local projects. With the proposed areas of interest (AOI) for 2016-2017, we are committed to providing all state entities a high quality, technically advanced elevation dataset acquisitions with great cost saving and professional management.</p>
 
-            <p>The project will be under the umbrella of the the StratMap contract, in cooperation with the Department of Information Resources (DIR). This Stratmap contract, replacing the High Priority Imagery and Data Sets - HPIDS contract, is the second generation of geographic data contracts at TNRIS. Under the HPIDS contract TNRIS managed 19 Lidar acquisitions covering over 50,000 square miles.</p>
+            <p class="lead">The project will be under the umbrella of the the StratMap contract, in cooperation with the Department of Information Resources (DIR). This Stratmap contract, replacing the High Priority Imagery and Data Sets - HPIDS contract, is the second generation of geographic data contracts at TNRIS. Under the HPIDS contract TNRIS managed 19 Lidar acquisitions covering over 50,000 square miles.</p>
         </div>
     </div>
 </div>
 
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
-          <h2><small>Area of Interest - AOI</small><br>Statewide Overview</h2>
-          <p>This map represents prospective areas of interest by entities throughout the state. The contract vehicle for these acquisitions will be the StratMap(link)  contract residing with DIR. In addition TNRIS plans to participate in grant proposals to the USGS for the 3D Elevation program (3DEP) for areas of interest that qualify for the program.</p>
+        <div class="col-xs-12">
+          <iframe width="100%" height="600" frameborder="0" src="https://tnris.cartodb.com/viz/0447c616-bee6-11e5-bf8f-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
         </div>
-        <div class="col-md-9">
-          <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/7db10e2c-6b8f-11e5-bd52-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+        <div class="col-md-8">
+          <h2><small>Area of Interest - AOI</small><br>Statewide Overview</h2>
+          <p>The map above represents prospective areas of interest by entities throughout the state. The contract vehicle for these acquisitions will be the <a href="stratmap">StratMap</a> contract residing with DIR. In addition TNRIS plans to participate in grant proposals to the USGS for the 3D Elevation program (3DEP) for areas of interest that qualify for the program.</p>
         </div>
     </div>
 </div>
@@ -23,25 +27,26 @@
 <section class="container-fluid full">
     <figure class="full-article-figure">
         <div id="imageCompare1" class='twentytwenty-container lidar-compare'>
-            <img class="img-responsive" src="{{m.link('static/images/2016-lidar/slider1_dem.jpg')}}" alt="Natural Color preview of El Paso Residential Area">
-            <img class="img-responsive" src="{{m.link('static/images/2016-lidar/slider1_pointcloud.jpg')}}" alt="Infra Red preview of El Paso Residential Area">
+            <img class="img-responsive" src="{{m.link('static/images/2016-lidar/slider2_dem.jpg')}}" alt="Natural Color preview of El Paso Residential Area">
+            <img class="img-responsive" src="{{m.link('static/images/2016-lidar/slider2_pointcloud.jpg')}}" alt="Infra Red preview of El Paso Residential Area">
         </div>
-        <figcaption class="text-center">College Station, Texas - Left: DEM | Right: 3-D Point Cloud</figcaption>
+        <figcaption class="text-center">Lidar sample: College Station, Texas - Left: DEM | Right: 3-D Point Cloud</figcaption>
     </figure>
 </section>
 <div class="container">
     <div class="row">
         <div class="col-md-5">
-          <h2><small>Area of Interest - AOI</small><br>TWDB - Texas Water Development Board</h2>
-          <ul>
-            <li>Funding Status: Committed</li>
-            <li>Area of Interest status: Preliminary</li>
+          <h2><small>Area of Interest - AOI</small><br>Texas Water Development Board - TWDB</h2>
+          <ul class="list-group">
+            <li class="list-group-item"><strong>Funding Status:</strong> Committed</li>
+            <li class="list-group-item"><strong>Area of Interest Status:</strong> Preliminary</li>
           </ul>
-           <p><img class="pull-left img-responsive" src="{{m.link('static/images/logos/twdb_web.jpg')}}">The Texas water development board has committed $900,000.00 to acquiring high resolution Lidar data for regions of central Texas without existing data in an effort to support floodplain management and planning.  These two Areas if interest are the main focus areas for utilization of these funds. Most likely only one of these AOIs will be chosen for acquisition.  The deciding factor in supporting one area of interest over the other will hinge on support from local and regional entities to contribute to the acquisition.</p>
+           <p><a href="http://www.twdb.texas.gov"><img class="pull-right img-responsive" src="{{m.link('static/images/logos/twdb_web_med.jpg')}}" alt="TWDB logo and link to site"></a>The <a href="http://www.twdb.texas.gov">Texas Water Development Board</a> has committed $900,000.00 to acquiring high resolution Lidar data for regions of central Texas in an effort to support floodplain management and planning.</p>
+            <p>These two Areas if interest are the main focus areas for utilization of these funds. Most likely only one of these AOIs will be chosen for acquisition. The deciding factor in supporting one area of interest over the other will hinge on support from local and regional entities to contribute to the acquisition.</p>
 
         </div>
         <div class="col-md-7">
-          <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/7db10e2c-6b8f-11e5-bd52-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/fc611896-becf-11e5-b71a-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -49,15 +54,15 @@
 <div class="container">
     <div class="row">
         <div class="col-md-5">
-          <h2><small>Area of Interest - AOI</small><br>SARA - San Antonio River Authority</h2>
-          <ul>
-            <li>Funding Status: Committed</li>
-            <li>Area of Interest status: Preliminary</li>
+          <h2><small>Area of Interest - AOI</small><br>San Antonio River Authority - SARA</h2>
+          <ul class="list-group">
+            <li class="list-group-item"><strong>Funding Status:</strong> Not committed, in need of partners</li>
+            <li class="list-group-item"><strong>Area of Interest Status:</strong> Preliminary</li>
           </ul>
-          <p><img class="pull-left" src="{{m.link('static/images/statewide-orthoimagery/logos/sara_logo.jpg')}}">Yuccie hammock normcore taxidermy wolf stumptown. Ugh single-origin coffee brunch 3 wolf moon leggings, pour-over put a bird on it church-key actually williamsburg. Waistcoat stumptown fixie, cray fanny pack cold-pressed single-origin coffee XOXO +1 vice fashion axe kogi literally. YOLO chillwave hammock roof party messenger bag wolf.</p>
+          <p><a href="https://www.sara-tx.org/"><img class="pull-right" src="{{m.link('static/images/logos/sara_web_med.jpg')}}" alt="SARA Logo and link to site"></a><a href="https://www.sara-tx.org/">SARA</a> is interested in exploring an acquisition covering parts of their jurisdiction to support activities related to FEMA flood modeling and mapping, feature data extraction, water quality modeling, stream restoration potential analysis, and change detection. Additional local and regional partners are needed to secure funding and to expand the area of interest. This AOI will also seek additional funding from the USGS through the 3DEP program. </p>
         </div>
         <div class="col-md-7">
-          <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/7db10e2c-6b8f-11e5-bd52-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/f3fc4f30-bee4-11e5-9369-0e787de82d45/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -67,14 +72,23 @@
     <div class="row">
         <div class="col-md-5">
           <h2><small>Area of Interest - AOI</small><br>Williamson County</h2>
-          <ul>
-            <li>Funding Status: Committed</li>
-            <li>Area of Interest status: Preliminary</li>
+          <ul class="list-group">
+            <li class="list-group-item"><strong>Funding Status:</strong> Pending approval</li>
+            <li class="list-group-item"><strong>Area of Interest Status:</strong> Preliminary</li>
           </ul>
-          Yuccie hammock normcore taxidermy wolf stumptown. Ugh single-origin coffee brunch 3 wolf moon leggings, pour-over put a bird on it church-key actually williamsburg. Waistcoat stumptown fixie, cray fanny pack cold-pressed single-origin coffee XOXO +1 vice fashion axe kogi literally. YOLO chillwave hammock roof party messenger bag wolf.
+        <p><a href="http://www.wilco.org/"><img class="pull-right" src="{{m.link('static/images/gio-stories/logos/wilco_logo.png')}}" alt="Williamson County Logo and Link to site"></a><a href="http://www.wilco.org/">Williamson County</a> is interested in acquiring high resolution Lidar data to be used in flood management as well as to assist in transportation planning.</p>
+        <p>Williamson County is looking for partners to expand the Area of interest in an effort to create a regional dataset consisting of one data specification to improve regional elevation models.  This acquisition will match the specification flown for the city of Georgetown to create a seamless dataset using the state Lidar specification.</p> 
         </div>
         <div class="col-md-7">
-          <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/7db10e2c-6b8f-11e5-bd52-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/53e075be-bedd-11e5-8a29-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
         </div>
     </div>
 </div>
+
+<section class="ortho-top">
+      <div class="container">
+          <div class="row">
+             {% include "./partials/2016-lidar/lidar-2016-contact.html" %}
+           </div>
+         </div>
+</section>
