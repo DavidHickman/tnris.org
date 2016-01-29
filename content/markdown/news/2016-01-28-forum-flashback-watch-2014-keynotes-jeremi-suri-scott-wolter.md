@@ -9,9 +9,9 @@ abstract:
 tags: texas gis forum, keynote, jeremi suri, scott wolter
 ---
 
-We hope you enjoy looking back to the [2014 Texas GIS Forum](2014-gis-forum) and revisiting the fascinating keynotes given by UT Historian Jeremi Suri and Forensic Geologist Scott Wolter, host of *America Unearthed*. 
+We hope you enjoy looking back to the [2014 Texas GIS Forum](2014-gis-forum) and revisiting the fascinating keynotes given by UT Historian Jeremi Suri and Forensic Geologist Scott Wolter, host of *[America Unearthed](http://www.history.com/shows/america-unearthed)*. 
 
-Just a reminder to save the date for this year's forum, taking place from **October 24 to October 27th**.
+Just a reminder to save the date for this year's forum, taking place from **October 24th to October 27th**.
 
 **NOTE: All videos are closed captioned according to TWDB [accessibility policy](site-policies#accessibility-policy).**
 
