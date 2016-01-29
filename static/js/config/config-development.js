@@ -27,5 +27,5 @@ angular.module('ConfigApp', [])
   .constant('DOWNLOAD_URL_PRE', '//tg-twdb-gemss.s3.amazonaws.com')
   //.constant('DOWNLOAD_API_PRE', '//tnris.org/data-download/api/v1')
   .constant('DOWNLOAD_API_PRE', 'http://localhost:6414/v1')
-  .constant('HISTORICAL_AERIALS_URL', '//tnris.org/historical-aerials/api/v1')
+  .constant('HISTORICAL_AERIALS_URL', 'https://tnris.org/historical-aerials/api/v1')
   ;

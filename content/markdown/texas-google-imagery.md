@@ -4,6 +4,7 @@ title: Texas Google Imagery Service Pilot Project
 mainimage: static/images/google/google-imagery-full-2.jpg
 abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, Utilize and Incorporate into the Work you do for the Public.
 ---
+### GENERAL FAQ
 
 ## How can Google Imagery help my organization?
 The Texas Google Imagery Service serves 6-inch, natural color imagery for the State of Texas.
@@ -48,11 +49,15 @@ Yes, TNRIS will continue to work in coordination with partners to determine the 
 ## What do I do if I suspect that my link has been compromised or is being used by someone or an organization that is not authorized to use it?
 If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately.  We will disable your current links and re-establish new links for you to use.
 
+------
+
+### TECHNICAL FAQ
+
 ## How do I add the Google Imagery services to my software?
 
 Click on the button for your GIS software to learn how to add the imagery service.
 
-<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//00sp0000000s000000" class="btn btn-default btn-lg">ArcMap</a>
+<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-default btn-lg">ArcMap</a>
 
 <a href="{{m.link('static/documents/google/WMS2Pro.pdf')}}" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
 
@@ -66,6 +71,45 @@ Click on the button for your GIS software to learn how to add the imagery servic
 
 <a href="{{m.link('static/documents/google/MicroStationGoogleWMSDemo.pdf')}}" class="btn btn-default btn-lg">MicroStation</a>
  
+## The Google Imagery Service now contains layers by year. What are these new layers?
+
+<p><figure class="pull-right"><img alt="A view of the layers in ArcMap" src="{{m.link('static/images/google/googlelayers_arcmap.jpg')}}">
+  <figcaption>A view of the layers in ArcMap</figcaption>
+</figure>There are now four layers in the WMS and WMTS Google Imagery GCP Service. The “Texas” layer contains the most current imagery available for Texas. As new imagery become available for 'block' areas in Texas (Ex. Dallas, Houston, etc), the older imagery are placed into the yearly layers depending on the year the imagery was flown. For example, the Austin block is shown in ‘texas-2014’ as 2014 flown imagery because this block was updated with 2015 flown imagery represented in the ‘Texas’ image catalog.</p>
+
+Layer Descriptions:
+
+### Texas
+Statewide mosaic of latest available imagery in the Google Imagery Service. This layer includes years 2015, 2014, 2013, 2012, and a small portion from 2011. To determine date of imagery, please refer to the instructions received with your unique link or request access. 
+
+### texas-2014 
+This layer contains imagery captured by Google in 2014 that is now archived to the texas-2014 layer after new imagery became available. This layer will eventually contain all imagery collected in 2014. 
+
+### texas-2013 
+This layer contains imagery captured by Google in 2013 that is now archived to the texas-2013 layer after new imagery became available. This layer will eventually contain all imagery collected in 2013.
+
+### texas-2012 
+This layer contains imagery captured by Google in 2012 that is now archived to the texas-2012 layer after new imagery became available. This layer will eventually contain all imagery collected in 2012.
+
+### texas-2011 
+This layer contains imagery captured by Google in 2011 that is now archived to the texas-2011 layer after new imagery became available. This layer will eventually contain all imagery collected in 2011.
+
+## Should I use the WMS service link or the WMTS service link?
+If your GIS/CAD software can ingest a WMTS, discontinue using the WMS link and begin using the WMTS link throughout your organization. WMTS is optimized for efficient web delivery and map printing. 
+
+If your GIS/CAD software cannot ingest a WMTS, continue to use the WMS link.
+
+Both of your unique WMS and WMTS links will continue to serve the Texas Google imagery to your organization under the pilot program.
+
+Known issue: The WMTS may present offset imagery in ArcGIS version 10.1. The offset is not an issue in 10.3.
+
+## The WMTS link does not work in ArcGIS Online. Can this be fixed?
+Esri is aware of this issue and has temporarily resolved it until it can be fixed in the next release. Add the following text to the end of your unique WMTS link - /wmts?service=wmts&VERSION=1.0.0&request=GetCapabilities
+
+Ex. https://txgi.tnris.org/login/path/xxxx-xxxxxx-xxx-xxxx/wmts?service=wmts&VERSION=1.0.0&request=GetCapabilities
+
+The WMS link is compatible in ArcGIS Online.
+
 ## Why does my downloaded tile imagery look blocky/patchy when displayed in ArcGIS? 
 
 If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “**Apply Gamma Stretch**:” option and to set the “**Stretch**” type to None. 
@@ -97,7 +141,7 @@ Contractors or any individual working on behalf of a public organization are per
  
 
  
-## How do I know if and when new imagery has come on line?
+## How do I know if and when new imagery has come online?
 To learn about new imagery or any updates to the Google imagery service, please visit the status section at the top of this page. 
 
 <a href="#project-updates" class="smooth-scroll"><i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a> 
@@ -116,16 +160,19 @@ Use the button below to go to the Questions and Feedback form located on this pa
 TNRIS will log these issues and work with Google staff to find solutions to correct them in future releases. 
 
 ## What projection is the Google Imagery Service using?
-The map service tiles are webmercator EPSG:3857. 
+The map service tiles are  Web Mercator EPSG:3857. 
  
 ## Can I download or get a physical copy of the original image that is in the service?
-Yes however, downloading imagery is limited to the financial stakeholders.  To learn more about downloading imagery, please contact TNRIS (Add form here).
+Yes.  Individual agencies may download the imagery for use within the agency only. To learn more about downloading imagery, please contact TNRIS.
+<a class="btn btn-default btn-lg smooth-scroll" href="#contact-pm">
+<i class="glyphicon glyphicon-question-sign"></i> General Questions or Feedback
+</a>
 
-## What projection are the downloaded Jpeg2000 (jp2) tiles using? 
-The downloaded Jpeg2000 tiles are Platte Carre Geographic EPSG:4326.
+## What projection are the downloaded JPEG2000 (jp2) tiles using? 
+The downloaded JPEG2000 tiles are Platte Carre Geographic EPSG:4326.
 
 ## Is it possible to get a Color Infrared (CIR) version of the imagery as a service?
-Not at this time.  Google Imagery Service will only be serving out the natural color imagery for now.  The CIR version of the imagery is available for download in the pilot year.
+Not at this time.  The Google Imagery Service will only be serving out the natural color imagery for now.  The CIR version of the imagery is not available for download in the pilot year.
  
 After the pilot year, the CIR image download may be done at an additional cost.  These details are still pending.  TNRIS is still working with the Texas GIS Solutions Group, DIR and Google to determine the process and costs for downloading imagery after the pilot year is over.
  
@@ -139,7 +186,7 @@ This section will provide the information about the upcoming scheduled flights f
 Please note that information in the Google flight schedules are used as general guidelines and may have several overriding factors such as weather conditions and conflicting schedules.  This information can change at any time.
  
 ## How do I know how much my organization has used the Google imagery service?
-TNRIS will post a report at the beginning of each month on the google imagery project website to show usage by agency or group.
+Contact TNRIS for a usage report.
 
 ## Request a Unique Link
 If you feel all your questions have been answered, and are ready to get connected, please use the button below to request a unique link for your organization.
