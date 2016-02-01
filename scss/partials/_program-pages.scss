@@ -20,6 +20,8 @@
   }
 }
 
+
+// Lidar Acquisition Project
 #_2016-lidar-acquisition-project .list-group-item {
   color: white;
   background: $orange;
@@ -34,5 +36,30 @@
 
   h2 {
     margin-top: 0;
+  }
+}
+
+.btn.lidar-front-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: auto;
+}
+
+.lidar-project-main {
+  
+  @media (max-width: $screen-md) {
+    video {
+      display: none;
+      }
+  }
+
+  @media (max-width: $screen-md) {
+    background: url(../static/images/2016-lidar/lidar_project_bg.jpg) 0 0 no-repeat;
+    min-height: 400px; 
+
+    .top-container {
+    min-height: 400px !important; 
+    }
   }
 }

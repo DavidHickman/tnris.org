@@ -1,16 +1,11 @@
 {% import '_macros.html' as m %}
 
-<div class="main-image-front hidden-xs">
+<div class="main-image-front">
 	<a href="{{m.link('2016-lidar-acquisition-project')}}">
-    <img class="img-responsive" src="{{m.link('static/images/front-page/lidar_acquisition_title.jpg')}}" alt="Texas GIS Forum Graphic, a view of technology intersecting geography">
+    <img class="img-responsive hidden-xs" src="{{m.link('static/images/front-page/lidar_acquisition_title.jpg')}}" alt="Sample Lidar background for project page">
+    <img class="img-responsive hidden-sm hidden-md hidden-lg" src="{{m.link('static/images/front-page/lidar_acquisition_title_sm.jpg')}}" alt="Sample Lidar background for project page">
     <h2 class="lidar-title-front">2016-17 Lidar Acquisition Project</h2>
     <p class="lidar-front-caption">Facilitating efforts to maximize funding, coordination, and visibility of Lidar Acquisition for the State of Texas.</p>
-  </a>
-</div>
-
-<div class="hidden-sm hidden-md hidden-lg">
-  <a href="{{m.link('2016-lidar-acquisition-project')}}">
-    <img class="img-responsive" src="{{m.link('static/images/front-page/ortho-review-front-sm.jpg')}}" alt="Texas GIS Forum Graphic, a view of technology intersecting geography">
-    <h2 class="statewide-title-front">2016-17 Lidar Acquisition Project</h2>
+    <a class="btn btn-lg btn-success lidar-front-btn" href="{{m.link('2016-lidar-acquisition-project')}}">View Project Page</a>
   </a>
 </div>
