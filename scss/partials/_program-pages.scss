@@ -19,3 +19,20 @@
     position: absolute;
   }
 }
+
+#_2016-lidar-acquisition-project .list-group-item {
+  color: white;
+  background: $orange;
+
+  &.committed {
+    background: $successgreen
+  }
+}
+
+.lidar-project-section {
+  padding: 15px 0;
+
+  h2 {
+    margin-top: 0;
+  }
+}

@@ -585,3 +585,47 @@ h2.front-header {
   }
 }
 
+// feature titles
+
+
+h2.lidar-title-front {
+  bottom: 70px;
+  color: $white;
+  margin: 0;
+  left: 20px;
+  padding: 0;
+  position: absolute;
+  text-shadow: 0 0 4px black;
+  width: 100%;
+
+  @media (min-width: $screen-md) {
+    font-size: 60px;
+  }
+
+  small {
+    clear: both;
+    color: $white;
+    display: block;
+    font-family: $adelle;
+    font-weight: normal;
+  }
+}
+
+p.lidar-front-caption {
+  bottom: 5px;
+  color: $white;
+  font-size: 18px;
+  left: 20px;
+  position: absolute;
+  width: 75%;
+}
+
+h2.big-title {
+  color: $middarkgrey;
+    font-family: $pragmatica;
+   font-size: 50px;
+   margin: 0;
+   margin-bottom: 30px;
+   padding: 0;
+   text-align: center;
+  }
