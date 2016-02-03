@@ -1,5 +1,5 @@
 ---
-template: partials/georodeo/georodeo-sponsors.html
+template: events/georodeo-2016/georodeo-sponsors.html
 title: Become a GeoRodeo sponsor
 mainimage: static/images/georodeo/georodeo_full_banner.jpg
 abstract: Help Sponsor the GeoRodeo
