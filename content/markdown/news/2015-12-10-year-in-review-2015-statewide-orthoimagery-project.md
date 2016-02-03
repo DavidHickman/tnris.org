@@ -5,7 +5,7 @@ author: StratMap
 mainimage: static/images/updates/2015/ortho-review/orthoreview_main.jpg
 mainimagemobile: static/images/updates/2015/ortho-review/orthoreview_mobile.jpg
 thumbnail: static/images/updates/2015/ortho-review/orthoreview_th.jpg
-thumbalt: Sample of the new City of Georgetown Aerial Imagery
+thumbalt: A small mosaic of aerial imagery from the project
 abstract:
     A look at available data, acquisition progress and what to expect in the coming year for this important statewide data initiative.
 tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands, surdex

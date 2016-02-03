@@ -1,0 +1,144 @@
+{% extends "custom/full-width-sections.html" %}
+
+{% import "_form_macros.html" as form %}
+
+
+{% block styles %}
+  {% parent %}
+
+  {{ form.styles() }}
+{% endblock styles %}
+
+{% block scripts %}
+  {% parent %}
+
+  {{ form.scripts() }}
+{% endblock scripts %}
+
+
+{% block contents-two %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <p class="lead">TNRIS has a long history of successfully managing Lidar data acquisition projects. We have also helped guide data specifications for many other regional and local Lidar projects. TNRIS is now coordinating the acquistion of new, high quality elevation data for the 2016-17 winter season. This project supports regional and local governments by providing the opportunity to acquire these Lidar data products at significant cost savings.</p>
+        <p class="lead">This project will fall under the umbrella of the new Texas Strategic Mapping (StratMap) Contract, a GIS data and services contract held at the Department of Information Resources (DIR) and administered by TNRIS. The StratMap Contract is the second generation of geographic data contracts administered by TNRIS. It replaces the previous High Priority Imagery and Data Sets (HPIDS) Contract. Under the HPIDS Contract, TNRIS managed 19 Lidar acquisitions from 2009 to 2015 covering over 50,000 square miles in Texas.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+       <div class="col-md-8">
+        <h2><small>Area of Interest - AOI</small><br>Statewide Overview</h2>
+        <p> The map below represents prospective areas of interest defined by our partners throughout the state and compares them with the areas of existing Lidar data. The contract vehicle for these acquisitions will be the Texas StratMap Contract. In addition, TNRIS plans to participate in grant proposals to the USGS 3D Elevation Program (3DEP) for areas of interest that qualify for the program.  </p>
+      </div>
+      <div class="col-xs-12">
+        <iframe width="100%" height="600" frameborder="0" src="https://tnris.cartodb.com/viz/0447c616-bee6-11e5-bf8f-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <section class="container-fluid full">
+    <figure class="full-article-figure">
+      <div id="imageCompare1" class='twentytwenty-container lidar-compare'>
+        <img class="img-responsive" src="{{m.link('static/images/2016-lidar/slider2_dem.jpg')}}" alt="Natural Color preview of El Paso Residential Area">
+        <img class="img-responsive" src="{{m.link('static/images/2016-lidar/slider2_pointcloud.jpg')}}" alt="Infra Red preview of El Paso Residential Area">
+      </div>
+      <figcaption class="text-center">Lidar sample: College Station, Texas - Left: DEM | Right: 3-D Point Cloud</figcaption>
+    </figure>
+  </section>
+  <div class="container lidar-project-section">
+    <h2 class="big-title">Projects Developing Around the State</h2>
+    <div class="row">
+      <div class="col-md-5">
+        <h2><small>Area of Interest - AOI</small><br>Texas Water Development Board - TWDB</h2>
+        <ul class="list-group">
+          <li class="list-group-item committed"><strong>Funding Status:</strong> Committed</li>
+          <li class="list-group-item"><strong>Area of Interest Status:</strong> Preliminary</li>
+        </ul>
+        <p><a href="http://www.twdb.texas.gov"><img class="pull-right img-responsive" src="{{m.link('static/images/logos/twdb_web_med.jpg')}}" alt="TWDB logo and link to site"></a>The <a href="http://www.twdb.texas.gov">Texas Water Development Board</a> has committed $900,000 to the acquisition of high resolution Lidar data for regions of central Texas in an effort to support floodplain management and planning.</p>
+        <p>These are the two main areas of interest for these funds, but only one of these areas is likely to be chosen for acquisition. Final AOI decisions will hinge on support and contribution from local and regional entities.</p>
+      </div>
+      <div class="col-md-7">
+        <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/fc611896-becf-11e5-b71a-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <hr class="clearfix">
+
+  <div class="container lidar-project-section">
+    <div class="row">
+      <div class="col-md-5">
+        <h2><small>Area of Interest - AOI</small><br>San Antonio River Authority - SARA</h2>
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Funding Status:</strong> Not committed, in need of partners</li>
+          <li class="list-group-item"><strong>Area of Interest Status:</strong> Preliminary</li>
+        </ul>
+        <p>
+          <a href="https://www.sara-tx.org/"><img class="pull-right" src="{{m.link('static/images/logos/sara_web_med.jpg')}}" alt="SARA Logo and link to site"></a>
+          <a href="https://www.sara-tx.org/">SARA</a> is interested in an acquisition that would cover parts of their jurisdiction to support activities related to FEMA flood modeling and mapping, feature data extraction, water quality modeling, stream restoration potential analysis, and change detection. Additional local and regional partners are needed to secure funding and expand the area of interest. This AOI will also seek funding from the USGS through the 3DEP program.
+        </p>
+      </div>
+      <div class="col-md-7">
+        <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/f3fc4f30-bee4-11e5-9369-0e787de82d45/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <hr class="clearfix">
+  <div class="container lidar-project-section">
+    <div class="row">
+      <div class="col-md-5">
+        <h2><small>Area of Interest - AOI</small><br>Williamson County</h2>
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Funding Status:</strong> Pending approval</li>
+          <li class="list-group-item"><strong>Area of Interest Status:</strong> Preliminary</li>
+        </ul>
+        <p><a href="http://www.wilco.org/"><img class="pull-right" src="{{m.link('static/images/gio-stories/logos/wilco_logo.png')}}" alt="Williamson County Logo and Link to site"></a><a href="http://www.wilco.org/">Williamson County</a> is interested in acquiring high resolution Lidar data to be used in flood management as well as to assist in transportation planning.</p>
+        <p>Williamson County is looking for partners to expand the area of interest in an effort to create a regional dataset consisting of one data specification to improve regional elevation models. This acquisition will match the specification flown for the City of Georgetown in 2015 to create a seamless dataset using the State Lidar specification.</p>
+      </div>
+
+      <div class="col-md-7">
+        <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/53e075be-bedd-11e5-8a29-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <section class="ortho-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 id="contact-pm">Want to Know More?</h2>
+
+          <p class="lead">For further information or questions regarding this important initiative, contact the project manager using the form below.</p>
+
+          {{form.before("lidar-project")}}
+            {{form.input("Name", "Name", "text", true)}}
+            {{form.input("Email", {
+                label: "Email",
+                placeholder: "Enter email address"
+              }, "email", true)}}
+            {{form.input("Phone", {
+                label: "Phone",
+                placeholder: "Enter your phone number"
+              }, "tel", true)}}
+            {{form.input("Organization", {
+                label: "Organization",
+                placeholder: "Who are you affiliated with?"
+              }, "text", true)}}
+
+            {{form.textarea(
+                "Questions or Comments",
+                "Questions/Comments",
+                true,
+                true
+            )}}
+
+            {{form.submit("message")}}
+          {{form.after()}}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock contents-two %}
