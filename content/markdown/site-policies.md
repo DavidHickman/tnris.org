@@ -192,8 +192,7 @@ content.
 
 #### Video
 
-Agency video is not available at this time in a format that can be used by the
-hearing impaired.
+TNRIS and the Texas Water Development Board prioritize closed-captioning for videos posted to agency pages. All videos produced by our agency will not be posted without closed-captioning.
 
 #### To Learn More
 

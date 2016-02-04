@@ -39,9 +39,9 @@
   }
 
   img {
-    border: 2px solid white;
 
     @media (min-width: $screen-md) {
+       border: 2px solid white;
       min-height: 315px;
     }
   }
@@ -65,7 +65,8 @@ h2.forum-title-front {
   position: relative;
 
   @media (max-width: $screen-sm) {
-    min-height: 325px;
+    min-height: 360px;
+    background: $darkgrey;
   }
   
   @media (min-width: $screen-sm) {
@@ -102,24 +103,24 @@ h2.forum-title-front {
   }
 
 
-  a.btn {
-      background: $darkgrey;
-      bottom: 28px;
-      color: $white;
-      left: 20px;
-      position: absolute;
+  // a.btn {
+  //     background: $darkgrey;
+  //     bottom: 28px;
+  //     color: $white;
+  //     left: 20px;
+  //     position: absolute;
 
-      @media (min-width: $screen-lg) {
-      bottom: 28px;
-      left: 20px;
-      }
+  //     @media (min-width: $screen-lg) {
+  //     bottom: 28px;
+  //     left: 20px;
+  //     }
 
-      @media (min-width: $screen-sm) {
-        margin-right: 5%;
-        padding: 10px 15px;
-        font-size: 18px;
-    }
-  }
+  //     @media (min-width: $screen-sm) {
+  //       margin-right: 5%;
+  //       padding: 10px 15px;
+  //       font-size: 18px;
+  //   }
+  // }
 }
 
 
@@ -282,6 +283,10 @@ h2.forum-title-front {
 
     a {
       font-family: $pragmatica;
+
+      &.btn {
+        font-family: $opensans;
+      }
     }
 
     time {
@@ -585,3 +590,76 @@ h2.front-header {
   }
 }
 
+// feature titles
+
+
+h2.lidar-title-front {
+  bottom: 110px;
+  color: $white;
+  font-size: 40px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-shadow: 0 0 4px black;
+  width: 100%;
+
+  @media (min-width: $screen-sm) {
+    bottom: 65px;
+    font-size: 50px;
+  }
+
+   @media (min-width: $screen-md) {
+    bottom: 70px;
+    font-size: 50px;
+  }
+
+  @media (min-width: $screen-lg) {
+    font-size: 60px;
+  }
+
+  small {
+    clear: both;
+    color: $white;
+    display: block;
+    font-family: $adelle;
+    font-weight: normal;
+  }
+}
+
+p.lidar-front-caption {
+  bottom: 5px;
+  color: $white;
+  font-size: 14px;
+  left: 20px;
+  position: absolute;
+  width: 50%;
+
+   @media (min-width: $screen-sm) {
+  font-size: 18px;
+  width: 65%;
+  }
+
+  @media (min-width: $screen-lg) {
+  width: 75%;
+  }
+}
+
+h2.big-title {
+  color: $middarkgrey;
+    font-family: $pragmatica;
+   font-size: 50px;
+   margin: 0;
+   margin-bottom: 30px;
+   padding: 0;
+   text-align: center;
+  }
+
+// beta alert
+.alert.beta-alert {
+  border-left: 0;
+  border-radius: 0;
+  border-right: 0;
+  margin-bottom: 0;
+  margin-top: -5px;
+}
