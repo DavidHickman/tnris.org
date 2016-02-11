@@ -1,19 +1,19 @@
 ---
 template: events/georodeo-2016/georodeo-sponsors.html
 title: Become a GeoRodeo sponsor
-mainimage: static/images/georodeo/georodeo_full_banner.jpg
+mainimage: static/images/georodeo/2016/cowsay_pasture_web_first.jpg
 abstract: Help Sponsor the GeoRodeo
 ---
 
 The GeoRodeo is a gathering of some of Texas's most forward-thinking Geospatial developers and other professionals seeking to incorporate new techniques and ideas into their work.
 
-We’re asking for your support to improve and upgrade the event for the Texas Geospatial community. 
+We’re asking for your support to help cover some of the costs of this free event for the Texas Geospatial community. 
 
-By becoming a sponsor, you will help us bring speakers from across the country and feed hungry code wranglers. 
-
-For a **$500 contribution**, you'll receive:
-- Recognition on the GeoRodeo website,
-- Acknowledgements during the event,
-- Distribution of your organization’s literature or information.
+**For a $500 contribution, you receive:**
+- Logo on the GeoRodeo website
+- Sign with Logo at the event
+- Verbal recognition during introductory remarks
 
 Thanks for supporting the GeoRodeo!
+
+

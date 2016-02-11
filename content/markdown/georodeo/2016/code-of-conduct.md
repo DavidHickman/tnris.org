@@ -1,11 +1,9 @@
 ---
-template: events/georodeo-2016/georodeo-2016.html
+template: events/georodeo-2016/georodeo-sub.html
 title: Conference Code of Conduct
 mainimage: static/images/georodeo/2016/cowsay_pasture_web_first.jpg
-abstract: Annual Texas GeoDeveloper Round-Up, May 22nd, Austin, Texas
---__
-
-All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
+abstract: All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
+---
 
 ## The Quick Version
 

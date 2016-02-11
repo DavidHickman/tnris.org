@@ -56,9 +56,9 @@
 
 
 .georodeo-intro {
-  padding-top: 40px;
+  padding-top: 20px;
   background: $canary;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 
   a.orange {
   color: $orange;
@@ -77,6 +77,11 @@
   }
 
   .lead {
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 10px;
   }
 
   h2 {
@@ -184,5 +189,25 @@
 
   tr:nth-child(even) td {
     background: $lightgrey;
+  }
+}
+
+.georodeo-2016-date-bar {
+    background: $darkgrey;
+    color: $white;
+    font-family: $lucida;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 0;
+    text-align: center;
+
+  @media (min-width: $screen-md) {
+    font-size: 30px;
+  }
+}
+
+.intro-side {
+  @media (min-width: $screen-md) {
+  padding-top: 35px;
   }
 }
