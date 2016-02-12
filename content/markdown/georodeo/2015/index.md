@@ -1,5 +1,5 @@
 ---
-template: georodeo.html
+template: events/georodeo-2015/georodeo-2015.html
 title: 2015 GeoRodeo
 mainimage: static/images/georodeo/georodeo_full_banner.jpg
 abstract: Annual Texas GeoDeveloper Round-Up, May 22nd, Austin, Texas

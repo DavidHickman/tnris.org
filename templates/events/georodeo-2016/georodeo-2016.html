@@ -22,14 +22,20 @@
             {{abstract}}
         </div>
         <img class="main hidden-xs" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}">
-        <img class="img-responsive hidden-lg hidden-md hidden-sm" src="{{m.link('static/images/georodeo/small_georodeo.jpg')}}" alt="A banner for the 2015 GeoRodeo, Cowboy Nerd in front of Chisos Mountains">
+        <img class="img-responsive hidden-lg hidden-md hidden-sm" src="{{m.link('static/images/georodeo/2016/cowsay_pasture_sm.jpg')}}" alt="Small Masthead for {{title}}">
+
+
+        <div class="georodeo-2016-date-bar">
+          <div class="container">The Annual Texas GeoDeveloper Roundup<br>
+                    May 20, 2016 * Commons Learning Center * Austin, TX</div>
+        </div>
     </div>
 </div>
 
 <div id="intro" class="georodeo-intro">
     <div class="container">
         <div class="row">
-            {% include "./partials/georodeo/georodeo-intro.html" %}
+            {% include "./events/georodeo-2016/georodeo-intro.html" %}
         </div>
     </div>
 </div>
@@ -40,7 +46,7 @@
     <div class="col-md-4 col-md-push-8">
         {% block sidebarLeft %}
             <div class="georodeo-side">
-                {% include "./partials/georodeo/georodeo-side.html" %}
+                {% include "./events/georodeo-2016/georodeo-side.html" %}
             </div>
         {% endblock sidebarLeft %}
     </div>
@@ -55,7 +61,7 @@
 <section class="georodeo-bottom">
     <div class="container">
         <div class="row">
-            {% include "./partials/georodeo/georodeo-map.html" %}   
+            {% include "./events/georodeo-2016/georodeo-map.html" %}   
         </div>
     </div>
 </section>
