@@ -15,7 +15,7 @@ Harassment includes offensive verbal comments related to gender, gender identity
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
-Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material. 
+Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material.
 
 If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
 
@@ -24,3 +24,9 @@ If you are being harassed, notice that someone else is being harassed, or have a
 TNRIS staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
 
 We expect participants to follow these rules at conference and workshop venues and conference-related social events.
+
+### Credits
+
+This Code of Conduct is based on the [Conference Code of Conduct](http://confcodeofconduct.com/).
+
+This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US).
