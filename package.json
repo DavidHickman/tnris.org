@@ -1,8 +1,9 @@
 {
-  "name": "site-mockup",
+  "name": "tnris.org",
   "version": "0.0.0",
-  "description": "",
+  "description": "Website for the Texas Natural Resources Information System, a division of the Texas Water Development Board",
   "main": "gulpfile.js",
+  "private": true,
   "scripts": {
     "dev": "gulp",
     "dist": "gulp clean && gulp dist",
