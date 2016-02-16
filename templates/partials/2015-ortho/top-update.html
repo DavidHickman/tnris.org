@@ -42,17 +42,18 @@
 
    <h3>Full Statewide Orthoimagery Status</h3>
    <div class="list-clean data-progress-final">
+    <div class="status">
+            <progress class="level-two" max="100" value="{{progress_5}}">
+            </progress>
+            <h3 class="amount level-one">{{progress_5}}%</h3>
+            <p>of final Digital Orthophoto Quarter-Quads (DOQQs) Available. <em>See Map Below.</em></p>
+        </div>
+</div>
 
           <a href="#doqq-image" data-toggle="modal"><img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + doqq_image_preview)}}" alt="Latest DOQQ availability preview image">
           <p class="text-right"><span class="glyphicon glyphicon-search"></span> Click for larger view</p>
           </a>
-<div class="status">
-            <progress class="level-two" max="100" value="{{progress_5}}">
-            </progress>
-            <h3 class="amount level-one">{{progress_5}}%</h3>
-            <p>of final Digital Orthophoto Quarter-Quads (DOQQs) Available</p>
-        </div>
-</div>
+
 
           <div class="modal fade" id="doqq-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -72,16 +73,20 @@
           </div>
    <div class="list-clean data-progress-final">
 
-          <a href="#ccm-image" data-toggle="modal"><img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + ccm_image_preview)}}" alt="Latest CCM availability preview image">
-          <p class="text-right"><span class="glyphicon glyphicon-search"></span> Click for larger view</p>
-            </a>
+          <!-- <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + ccm_image_preview)}}" alt="Latest CCM availability preview image"> -->
   <div class="status">
 
             <progress class="level-one" max="100" value="{{progress_7}}">
             </progress>
             <h3 class="amount level-one">{{progress_7}}%</h3>
-            <p>of final Compressed County Mosaics (CCMs) Available</p>
+            <p>of final Compressed County Mosaics (CCMs) Available. <em>See Map Below.</em></p>
           </div>
+        <iframe width="100%" height="300" frameborder="0" src="https://tnris-twdb.cartodb.com/u/tnris/viz/e87e0e1a-d4e1-11e5-a78f-0e787de82d45/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+          <a href="#ccm-image" data-toggle="modal"><p class="text-right"><span class="glyphicon glyphicon-search"></span> Click for larger view</p>
+            </a>
+
         </div>
               <div class="modal fade" id="ccm-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -91,7 +96,8 @@
                           </button>
                       </div>
                       <div class="modal-body">
-                          <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + ccm_image)}}" alt="Latest CCM Availability Map">
+                        <!--   <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + ccm_image)}}" alt="Latest CCM Availability Map"> -->
+                        <iframe width="100%" height="700" frameborder="0" src="https://tnris.cartodb.com/viz/1d62d64c-729f-11e5-bd02-0ecd1babdde5/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
                       </div>
                       <div class="modal-footer">
                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -106,10 +112,11 @@
 <div class="row">
 <div class="col-md-8">
     <h3>Data Acquisition and Processing Progress</h3>
-    <p class="lead">Note: Due to unfavorable weather conditions, it wasn't possible to acquire the remaining areas of Texas (9%) within the original timeframe. Flights were put on hold on in early August until the next upcoming leaf-off season, pushing the estimated project completion date to Spring 2016.</p>
+    <p class="lead"><strong>We're excited to announce that all acquisition flights have been completed!</strong></p>
+    <p>Note: Due to unfavorable weather conditions, it wasn't possible to acquire the remaining areas of Texas (9%) within the original timeframe. Flights were put on hold on in early August 2015 until the next upcoming leaf-off season, pushing the estimated project completion date to Spring 2016.</p>
     <ul class="list-clean data-progress">
         <li class="status">
-            <progress class="level-four" max="100" value="{{progress_1}}">
+            <progress class="level-five" max="100" value="{{progress_1}}">
             </progress>
             <h3 class="amount level-one">{{progress_1}}%</h3>
             <i class="fa fa-plane"></i>
