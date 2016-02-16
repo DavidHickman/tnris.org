@@ -3,34 +3,34 @@ title: 2015 Statewide Orthoimagery Project
 template: 2015-ortho-page.html
 mainimage: static/images/statewide-orthoimagery/ortho_flag_lg.jpg
 abstract:
-    A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Winter 2015.
+    A collaborative initiative to capture high-quality, leaf-off imagery for the entire state, slated for public release in Spring 2016.
 author: Gayla Mullins
-status_image: 20161516_base.jpg
-status_image_preview: 20161516_base_sm.jpg
+status_image: 20160205_base.jpg
+status_image_preview: 20160205_base_sm.jpg
 status_image_buyup: 20161516_buyups.jpg
 status_image_buyup_preview: 20161516_buyups_sm.jpg
 production_image: 20161516_production.jpg
 production_image_preview: 20161516_production_sm.jpg
-doqq_image: 20151113_doqq_availability.jpg
-doqq_image_preview: 20151113_doqq_availability_sm.jpg
+doqq_image: 20160205_doqq_availability.jpg
+doqq_image_preview: 20160205_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
 latest_report: Weekly_Status_Report_011516_A.pdf
-status_date: January 15th, 2016
+status_date: February 19th, 2016
 updates:
-- Surdex aircraft with ADS100 digital camera sensors are completing the remaining areas for the statewide 0.5-meter acquisition (mainly S. TX) Dec 15, 2015 – Feb 28, 2016.
-- The status of the 0.5-meter imagery acquired in Season-1 is 100% complete, 100% in Season-2, 99% in Season-3, 33% in Season-4 and 93% Statewide.
+- As of 2/5/16, imagery acquisition is 100% complete for the entire project. This includes Statewide 0.5-meter and all 6-inch and 1-foot BUY-UP areas.
+- The North TX section is now available. See Data Availability maps to the right and data access below.
+- TNRIS loaded final DOQQs (36% of the state – West TX and Panhandle) and shipped them to Esri for integration into their Basemap Imagery Service – available to the public through Esri products NOW. North TX 0.5-meter, Georgetown 6-inch, SARA 6-inch, and Ulands 6-inch were also sent to Esri and will come online through the service next.
 - TNRIS launched the web mapping service (WMS) for the 2015 TOP. Access the url below under Full Statewide Dataset Access and avoid downloading the data.
-- TNRIS loaded final DOQQs we have so far (36%) and shipped them to Esri for integration into their Basemap Imagery Service – available to the public through Esri products in February.
 - Continued Quality Control (QC) data review is underway at TNRIS.
-- Final orthoimagery for the entire state is expected to be available by Spring 2016.
-progress_1: 93
+- Final orthoimagery for the entire state is expected to be available by late Spring 2016.
+progress_1: 100
 progress_2: 100
 progress_3: 91
 progress_4: 50
-progress_5: 36
+progress_5: 60
 progress_6: 80
-progress_7: 26
+progress_7: 54
 ---
 
 ## Contributors
