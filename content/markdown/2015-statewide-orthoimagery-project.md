@@ -9,13 +9,13 @@ status_image: 20160205_base.jpg
 status_image_preview: 20160205_base_sm.jpg
 status_image_buyup: 20161516_buyups.jpg
 status_image_buyup_preview: 20161516_buyups_sm.jpg
-production_image: 20161516_production.jpg
-production_image_preview: 20161516_production_sm.jpg
-doqq_image: 20160205_doqq_availability.jpg
-doqq_image_preview: 20160205_doqq_availability_sm.jpg
+production_image: 20160212_production.jpg
+production_image_preview: 20160212_production_sm.jpg
+doqq_image: 20160212_doqq_availability.jpg
+doqq_image_preview: 20160212_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
-latest_report: Weekly_Status_Report_011516_A.pdf
+latest_report: Weekly_Status_Report_021216_A.pdf
 status_date: February 19th, 2016
 updates:
 - As of 2/5/16, imagery acquisition is 100% complete for the entire project. This includes Statewide 0.5-meter and all 6-inch and 1-foot BUY-UP areas.
@@ -26,10 +26,10 @@ updates:
 - Final orthoimagery for the entire state is expected to be available by late Spring 2016.
 progress_1: 100
 progress_2: 100
-progress_3: 91
+progress_3: 100
 progress_4: 50
-progress_5: 60
-progress_6: 80
+progress_5: 63
+progress_6: 85
 progress_7: 54
 ---
 
