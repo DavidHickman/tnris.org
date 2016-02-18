@@ -26,10 +26,10 @@ updates:
 - Final orthoimagery for the entire state is expected to be available by late Spring 2016.
 progress_1: 100
 progress_2: 100
-progress_3: 91
+progress_3: 100
 progress_4: 50
-progress_5: 60
-progress_6: 80
+progress_5: 63
+progress_6: 85
 progress_7: 54
 ---
 
