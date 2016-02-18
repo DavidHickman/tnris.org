@@ -5,6 +5,8 @@ mainimage: static/images/georodeo/2016/cowsay_pasture_web_first.jpg
 abstract: Annual Texas GeoDeveloper Round-Up, May 22nd, Austin, Texas
 ---
 
+<p class="lead"><strong>Note:</strong> Preliminary agenda only. Check back for updates as times and presenters are confirmed.</p>
+
 ## 8:00AM to 8:45AM
 ### Breakfast – Social
 
