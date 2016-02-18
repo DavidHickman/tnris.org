@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% import "_form_macros.html" as form %}
+
+
+{% block styles %}
+  {% parent %}
+
+  {{form.styles()}}
+{% endblock styles %}
+
+{% block scripts %}
+  {% parent %}
+
+  {{form.scripts()}}
+{% endblock scripts %}
+
+{% block topcontent %}
+<div class="georodeo-masthead container-fluid full">
+    <div class="top-container">
+        <div class="sr-only">
+            <h1>{{title}}</h1> 
+            {{abstract}}
+        </div>
+          <a href="{{m.link('georodeo/2016/index')}}"><img class="main hidden-xs" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}">
+          <img class="img-responsive hidden-lg hidden-md hidden-sm" src="{{m.link('static/images/georodeo/2016/cowsay_pasture_sm.jpg')}}" alt="Small Masthead for {{title}}">
+        </a>
+        <div class="georodeo-2016-date-bar">
+          <div class="container">The Annual Texas GeoDeveloper Roundup<br>
+                    May 20, 2016 * Commons Learning Center * Austin, TX</div>
+        </div>
+    </div>
+</div>
+
+<div id="intro" class="georodeo-intro">
+    <div class="container">
+        <div class="row">
+          <div class="lead col-sm-8">
+            <h2>{{title}}</h2>
+            {{ contents|safe }} 
+          </div>
+          <div class="col-sm-4">
+              <a class="btn btn-danger btn-lg btn-block" href="https://www.regonline.com/Register/Checkin.aspx?EventID=1814545"><i class="glyphicon glyphicon-edit"></i> Become a Sponsor</a>
+          </div>
+        </div>
+    </div>
+</div>
+{% endblock topcontent %}

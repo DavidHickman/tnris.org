@@ -14,6 +14,8 @@ require('../../scss/tnris.scss');
 //   see: https://github.com/zenorocha/clipboard.js/issues/27
 var Clipboard = require('clipboard/dist/clipboard.js');
 
+
+
 (function($) {
   'use strict';
 
@@ -111,5 +113,6 @@ var Clipboard = require('clipboard/dist/clipboard.js');
   });
 
   $('.carousel-inner div:first').addClass('active');
+
 
 })(jQuery);
