@@ -19,6 +19,7 @@ abstract: Annual Texas GeoDeveloper Round-Up, May 22nd, Austin, Texas
 
 ## 9:00AM to 10:00AM
 ### Keynote Address
+Waldo Jacquith, U.S. Open Data
 
 *****
 

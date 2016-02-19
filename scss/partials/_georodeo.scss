@@ -68,9 +68,10 @@
   img.img-circle {
     border: 5px solid $auburn;
     display: block;
+    float: right;
     margin: 0 auto;
     margin-bottom: 10px;
-    width: 60%;
+    max-width: 210px;
   }
 
   .lead {
