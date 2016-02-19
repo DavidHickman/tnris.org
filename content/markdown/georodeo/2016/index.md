@@ -19,7 +19,7 @@ abstract: Annual Texas GeoDeveloper Round-Up, May 22nd, Austin, Texas
 
 ## 9:00AM to 10:00AM
 ### Keynote Address
-Waldo Jacquith, U.S. Open Data
+Waldo Jaquith, U.S. Open Data
 
 *****
 
@@ -34,7 +34,7 @@ Waldo Jacquith, U.S. Open Data
 
 ****
 
-## 11:45AM to 1:30PM 
+## 11:45AM to 1:30PM
 
 ### Chow Time
 
@@ -62,7 +62,7 @@ Lunch on your own. Here's a map of nearby lunch spots:
 
 ****
 
-## 4:30PM to 5:15PM 
+## 4:30PM to 5:15PM
 ### Lightning Talks
 
 If you have something quick to share, come prepared with an idea of what you could present within a short 5-minute time slot and sign up for a lightning talk on-site at the event.
@@ -74,7 +74,7 @@ If you have something quick to share, come prepared with an idea of what you cou
 
 ****
 
-## 5:15PM to 5:20PM 
+## 5:15PM to 5:20PM
 
 ### Closing Remarks
 
