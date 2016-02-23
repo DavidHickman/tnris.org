@@ -8,7 +8,7 @@ thumbalt: A headshot of Waldo Jaquith
 abstract:
   Waldo Jaquith, open government technologist and the director of U.S. Open Data, will be keynote speaker for the 2016 GeoRodeo. 
 ---
-<p class="lead"><a class="btn btn-lg btn-success pull-right" href="{{ m.link('georodeo/2016/index')}}"><i class="glyphicon glyphicon-home"></i> 2016 GeoRodeo Home</a> TNRIS is pleased to announce that Waldo Jaquith will Keynote the <a href="{{ m.link('georodeo/2016/index')}}">2016 GeoRodeo</a>. Read more about his strong and accomplished advocacy for open data.</p>
+<p class="lead"><a class="btn btn-lg btn-success pull-right" href="{{ m.link('georodeo/2016/index')}}"><i class="glyphicon glyphicon-home"></i> 2016 GeoRodeo Home</a> TNRIS is pleased to announce that Waldo Jaquith will Keynote the <a href="{{ m.link('georodeo/2016/index')}}">2016 GeoRodeo</a>, happening in Austin on Friday, May 20th. Read more about his strong and accomplished advocacy for open data.</p>
 
 <p><strong>Waldo Jaquith</strong> is an open government technologist and the director of <a href="https://usopendata.org/">U.S. Open Data</a>. He serves as the senior technology advisor to the Sunlight Foundation. He's been a website developer for over two decades.</p>
 
