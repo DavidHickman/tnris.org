@@ -66,12 +66,24 @@
   }
 
   img.img-circle {
+    
     border: 5px solid $auburn;
+
+    &.keynote-circle {
     display: block;
     float: right;
     margin: 0 auto;
     margin-bottom: 10px;
+    }
+
+    &.med-circle {
     max-width: 210px;
+
+    }
+
+    &.sm-circle {
+      max-width: 100%;
+    }
   }
 
   .lead {
