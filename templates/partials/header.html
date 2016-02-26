@@ -2,13 +2,25 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@tnris" />
+
+{% if author %}
+  <meta name="twitter:creator" name="author" content="{{author}}">
+{% endif %}
+
+<meta property="og:url" content="{{ permalink }}" />
+<meta property="og:title" content="{{ title }}" />
+
 {% if description %}
   <meta name="description" content="{{description}}">
  {% elseif abstract %}
-  <meta name="description" content="{{abstract}}">
+  <meta property="og:description" name="description" content="{{abstract}}">
 {% endif %}
-{% if author %}
-  <meta name="author" content="{{author}}">
+
+{% if mainimage %}
+<meta property="og:image" content="{{ mainimage }}" />
 {% endif %}
 
 <link rel="shortcut icon" href="{{m.based('favicon.ico')}}">
