@@ -1,5 +1,5 @@
 ---
-title: "Department of Homeland Security goes Open Data"
+title: "Department of Homeland Security Goes Open Data"
 template: news.html
 author: Felicia Retiz, Deputy GIO
 mainimage: static/images/gio-stories/hifld_screengrab.jpg
@@ -11,11 +11,11 @@ abstract:
   The Department of Homeland Security (DHS) has taken an open data approach to its Homeland Infrastructure Foundation-Level Data collection.
 ---
 
-The Department of Homeland Security (DHS) recently published 275 geospatial datasets from its [Homeland Infrastructure Foundation-Level Data (HIFLD) collection](https://hifld-dhs-gii.opendata.arcgis.com/). Once available by DVD only, HIFLD uses advanced technology to give users direct access through quick visualization tools embedded in a web page, published map services, or simple file download. 
+The Department of Homeland Security (DHS) recently published 275 geospatial datasets from its [Homeland Infrastructure Foundation-Level Data (HIFLD) collection](https://hifld-dhs-gii.opendata.arcgis.com). Once available by DVD only, HIFLD uses advanced technology to give users direct access through quick visualization tools embedded in a web page, published map services, or simple file download. 
 
 Texas emergency support personnel have long known of the existence of the data, but maintaining a current copy proved challenging. Having access to the latest datasets is beneficial not only to emergency management and response teams, but also to the general public and private entities. The decision to grant greater access to federal geospatial data was largely made due to changing ideals regarding open data. By sharing this information with the public, HIFLD will also benefit from local community feedback on data errors or new information.
 
-HIFLD data contains location information for over a dozen asset categories ranging from water supply to retail shipping facilities across the nation.
+HIFLD data contains location information for two dozen asset categories ranging from water supply to retail shipping facilities across the nation.
 
 <figure>
   <img class="img-responsive" src="{{m.link('static/images/gio-stories/dhs_choices.jpg')}}" alt="Some of the categories under the HIFLD collection."
