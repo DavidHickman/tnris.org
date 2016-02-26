@@ -20,16 +20,13 @@
   }
 
     img.main {
-      height: 300px;
-      margin-left: -25%;
-      width: auto;
-
-      @media (min-width: $screen-sm) {
-      }
+      max-height: 400px;
+      width: 100%;
 
       @media (min-width: $screen-md) {
         height: auto;
         margin-left: 0;
+       max-height: none;
         width: 100%;
       }
     }
@@ -69,11 +66,24 @@
   }
 
   img.img-circle {
+    
     border: 5px solid $auburn;
+
+    &.keynote-circle {
     display: block;
+    float: right;
     margin: 0 auto;
     margin-bottom: 10px;
-    width: 60%;
+    }
+
+    &.med-circle {
+    max-width: 210px;
+
+    }
+
+    &.sm-circle {
+      max-width: 100%;
+    }
   }
 
   .lead {
