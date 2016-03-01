@@ -13,10 +13,10 @@ tags: stratmap, orthoimagery, smith county
 
 <figure>
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/baseball-cocs-brazos-6in-3096_22_4_c_2_20150127-nc-1to900.jpg')}}" alt="Natural Color preview of baseball fields in Brazos County">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/baseball-cocs-brazos-6in-3096_22_4_c_2_20150127-cir-1to900.jpg')}}" alt="Infra Red preview of baseball fields in Brazos County">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/baseball-cocs-brazos-6in-3096_22_4_c_2_20150127-nc-1to900.jpg')}}" alt="Natural Color preview of downtown Tyler, TX">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/baseball-cocs-brazos-6in-3096_22_4_c_2_20150127-cir-1to900.jpg')}}" alt="Color infrared preview of downtown Tyler, TX">
 </div>
-<figcaption>Baseball Fields in College Station, TX, SCALE 1:900</figcaption>
+<figcaption>Downtown Tyler, TX, SCALE 1:700</figcaption>
 </figure>
 
 High resolution 6-inch aerial imagery are now available from TNRIS for Smith County, including Lake Palestine. Four local entities contributed funds to collect the new imagery.
@@ -62,49 +62,53 @@ View coverage areas in the interactive map below:
 - Units in feet
 - DO4Q (approx. 1 sq. mi.) image tiles, 1/64th USGS 7.5-minute quadrangle
 
+## Preview of Change 2014 - 2016
+
+<figure>
+<figcaption>Sabine River in flood stage in 2016 vs. normal conditions in 2014, SCALE 1:13000</figcaption>
+<figure>
+
+<figure>
+<figcaption>School redevelopment 2016 vs. 2014, SCALE 1:1500</figcaption>
+<figure>
+
 ## Imagery Preview
 
 <figure>
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/kyle-field-brazos-6in-3096_30_1_b_1_20150128-nc-1to1000.jpg')}}" alt="Natural Color preview of Kyle Field under construction at Texas A&M">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/kyle-field-brazos-6in-3096_30_1_b_1_20150128-cir-1to1000.jpg')}}" alt="Infra Red preview of Kyle Field under construction at Texas A&M">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/kyle-field-brazos-6in-3096_30_1_b_1_20150128-nc-1to1000.jpg')}}" alt="Natural Color preview of Hide-A-Way Lakes in Hideaway, TX">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/kyle-field-brazos-6in-3096_30_1_b_1_20150128-cir-1to1000.jpg')}}" alt="Color Infrared preview of Hide-A-Way Lakes in Hideaway, TX">
 </div>
-<figcaption>Kyle Field in College Station, TX, SCALE 1:1000</figcaption>
+<figcaption>Hide-A-Way Lakes in Hideaway, TX, SCALE 1:2000</figcaption>
 </figure>
 
 
 <figure>
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/nasa-balloon-palestine-6in-3195_11_3_a_4_20150126-nc-1to2500.jpg')}}" alt="Natural Color preview of NASA Columbia Scientific Balloon Facility">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/nasa-balloon-palestine-6in-3195_11_3_a_4_20150126-cir-1to2500.jpg')}}" alt="Infra Red preview of NASA Columbia Scientific Balloon Facility">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/residential-bryan-brazos-6in-3096_22_3_a_2_20150127-nc-1to800.jpg')}}" alt="Natural Color preview of Tyler Rose Garden">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/residential-bryan-brazos-6in-3096_22_3_a_2_20150127-cir-1to800.jpg')}}" alt="Color Infrared preview of Tyler Rose Garden">
 </div>
-<figcaption> NASA Columbia Scientific Balloon Facility, SCALE 1:2500</figcaption>
+<figcaption>Tyler Rose Garden in Tyler, TX, SCALE 1:800</figcaption>
 </figure>
 
 
 <figure>
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/residential-bryan-brazos-6in-3096_22_3_a_2_20150127-nc-1to800.jpg')}}" alt="Natural Color preview of Downtown Bryan, TX">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/residential-bryan-brazos-6in-3096_22_3_a_2_20150127-cir-1to800.jpg')}}" alt="Infra Red preview of Downtown Bryan, TX">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/nasa-balloon-palestine-6in-3195_11_3_a_4_20150126-nc-1to2500.jpg')}}" alt="Natural Color preview of pine plantation">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/nasa-balloon-palestine-6in-3195_11_3_a_4_20150126-cir-1to2500.jpg')}}" alt="Color Infrared preview of pine plantation">
 </div>
-<figcaption>Residential Neighborhood in Bryan, TX, SCALE 1:800</figcaption>
+<figcaption>Pine plantation in Smith County, SCALE 1:1800</figcaption>
 </figure>
 
 
 <figure>
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/downtown-bryan-brazos-6in-3096_22_3_a_1_20150127-nc-1to700.jpg')}}" alt="Natural Color preview of Residential Neighborhood in Bryan, TX">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/downtown-bryan-brazos-6in-3096_22_3_a_1_20150127-cir-1to700.jpg')}}" alt="Infra Red preview of Residential Neighborhood Bryan, TX">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/downtown-bryan-brazos-6in-3096_22_3_a_1_20150127-nc-1to700.jpg')}}" alt="Natural Color preview of The Village shopping center">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/downtown-bryan-brazos-6in-3096_22_3_a_1_20150127-cir-1to700.jpg')}}" alt="Color Infrared preview of The Village shopping center">
 </div>
-<figcaption>Downtown Bryan, TX, SCALE 1:700</figcaption>
+<figcaption>The Village shopping center in Tyler, TX, SCALE 1:2300</figcaption>
 </figure>
 
-<figure>
-<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/brazos-river-brazos-6in-3096_29_4_b_4_20150127-nc-1to8000.jpg')}}" alt="Natural Color preview of Brazos River">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2015/brazos-ortho/brazos-river-brazos-6in-3096_29_4_b_4_20150127-cir-1to8000.jpg')}}" alt="Infra Red preview of Brazos River">
-</div>
-<figcaption>Brazos River, SCALE 1:8000</figcaption>
-</figure>
+
 
 
