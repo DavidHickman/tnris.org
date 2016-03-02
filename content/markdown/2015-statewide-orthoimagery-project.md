@@ -16,14 +16,15 @@ doqq_image_preview: 20160212_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
 latest_report: Weekly_Status_Report_021216_A.pdf
-status_date: February 19th, 2016
+status_date: March 4th, 2016
 updates:
-- As of 2/5/16, imagery acquisition is 100% complete for the entire project. This includes Statewide 0.5-meter and all 6-inch and 1-foot BUY-UP areas.
-- The North TX section is now available. See Data Availability maps to the right and data access below.
-- TNRIS loaded final DOQQs (36% of the state – West TX and Panhandle) and shipped them to Esri for integration into their Basemap Imagery Service – available to the public through Esri products NOW. North TX 0.5-meter, Georgetown 6-inch, SARA 6-inch, and Ulands 6-inch were also sent to Esri and will come online through the service next.
-- TNRIS launched the web mapping service (WMS) for the 2015 TOP. Access the url below under Full Statewide Dataset Access and avoid downloading the data.
-- Continued Quality Control (QC) data review is underway at TNRIS.
-- Final orthoimagery for the entire state is expected to be available by late Spring 2016.
+- Final orthoimagery for the entire state is expected to be available by **LATE Spring 2016**. 
+**Central and East Texas** will be delivered to TNRIS next. 
+- **Download** the imagery we have so far (63% of the state DOQQs) under **Data Access** below.
+- Imagery acquisition is **100% complete** for the entire project. This includes Statewide 0.5-meter and all BUY-UP 6-inch and 1-foot areas.
+- TNRIS loaded final DOQQs (36% of the state – West TX and Panhandle) and shipped them to Esri for integration into their Basemap Imagery Service – **publicly available through Esri products NOW**. North TX 0.5-meter, Georgetown 6-inch, SARA 6-inch, and Ulands 6-inch were also sent to Esri and will come online through the service in March.
+- TNRIS launched the web mapping service (WMS) for the 2015 TOP. Access the url below under Full Statewide Dataset Access and **avoid downloading the data**.
+- TNRIS continues Quality Control (QC) data review as imagery are made available to us.
 progress_1: 100
 progress_2: 100
 progress_3: 100
