@@ -18,12 +18,12 @@ ccm_image_preview: 20151113_ccm_availability_sm.jpg
 latest_report: Weekly_Status_Report_021216_A.pdf
 status_date: March 4th, 2016
 updates:
-- Final orthoimagery for the entire state is expected to be available by **LATE Spring 2016**. 
-**Central and East Texas** will be delivered to TNRIS next. 
-- **Download** the imagery we have so far (63% of the state DOQQs) under **Data Access** below.
-- Imagery acquisition is **100% complete** for the entire project. This includes Statewide 0.5-meter and all BUY-UP 6-inch and 1-foot areas.
-- TNRIS loaded final DOQQs (36% of the state – West TX and Panhandle) and shipped them to Esri for integration into their Basemap Imagery Service – **publicly available through Esri products NOW**. North TX 0.5-meter, Georgetown 6-inch, SARA 6-inch, and Ulands 6-inch were also sent to Esri and will come online through the service in March.
-- TNRIS launched the web mapping service (WMS) for the 2015 TOP. Access the url below under Full Statewide Dataset Access and **avoid downloading the data**.
+- Final orthoimagery for the entire state is expected to be available by LATE Spring 2016.
+- Central and East Texas will be delivered to TNRIS next. 
+- Download the imagery we have so far (63% of the state DOQQs) under Data Access below.
+- Imagery acquisition is 100% complete for the entire project. This includes Statewide 0.5-meter and all BUY-UP 6-inch and 1-foot areas.
+- TNRIS loaded final DOQQs (36% of the state – West TX and Panhandle) and shipped them to Esri for integration into their Basemap Imagery Service – publicly available through Esri products NOW. North TX 0.5-meter, Georgetown 6-inch, SARA 6-inch, and Ulands 6-inch were also sent to Esri and will come online through the service in March.
+- TNRIS launched the web mapping service (WMS) for the 2015 TOP. Access the url below under Full Statewide Dataset Access and avoid downloading the data.
 - TNRIS continues Quality Control (QC) data review as imagery are made available to us.
 progress_1: 100
 progress_2: 100
