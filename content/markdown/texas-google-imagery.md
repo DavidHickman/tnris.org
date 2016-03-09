@@ -74,7 +74,10 @@ Click on the button for your GIS software to learn how to add the imagery servic
 ## How do I add the Google WMTS link to my web application using Esri JavaScript API?
 
 A special thanks to the Texas Department of Transportation (TxDOT) for solving this problem. TxDOT reports that since replacing the WMS link with WMTS link, response times have significantly improved.
-<insert link to PDF slide deck>
+
+Download a slideshow tutorial for this process below:
+
+<a class="btn btn-lg btn-success" href="{{ m.link('static/documents/google/google-wmts-with-esri-javascript-api.pdf')}}"><i class="glyphicon glyphicon-file"></i> Download Tutorial</a>
  
 ## The Google Imagery Service now contains layers by year. What are these new layers?
 
