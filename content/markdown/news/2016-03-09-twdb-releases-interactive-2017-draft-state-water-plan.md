@@ -4,9 +4,9 @@ template: news.html
 author: Information Services
 mainimage: static/images/updates/2016/draftplan_screenshot.jpg
 thumbnail: static/images/updates/2016/waterplan_th.jpg
-thumbalt: A headshot of Waldo Jaquith
+thumbalt: A small screenshot of the Interactive Water Plan
 abstract:
-  Waldo Jaquith, open government technologist and the director of U.S. Open Data, will be keynote speaker for the 2016 GeoRodeo.
+  TNRIS developers, alongside other TWDB agency staff, played a vital role in the development of the Interactive Draft Water Plan.
 ---
 <a class="btn btn-success btn-lg pull-right" href="https://2017.texasstatewaterplan.org/statewide"> <i class="glyphicon glyphicon-new-window"></i> Launch the Interactive <br> Draft 2017 State Water Plan</a>
 
