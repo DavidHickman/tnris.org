@@ -1,6 +1,6 @@
 ---
 template: news.html
-title: "New Smith County Aerial Imagery Now Available"
+title: "New 2016 Smith County Aerial Imagery Now Available"
 author: StratMap
 thumbnail: static/images/updates/2015/brazos-ortho/brazos_release_th.jpg
 thumbalt: Sample of new the Smith County Aerial Imagery
