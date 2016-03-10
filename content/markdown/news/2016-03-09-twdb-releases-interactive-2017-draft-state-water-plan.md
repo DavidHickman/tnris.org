@@ -10,7 +10,7 @@ abstract:
 ---
 <a class="btn btn-success btn-lg pull-right" href="https://2017.texasstatewaterplan.org/statewide"> <i class="glyphicon glyphicon-new-window"></i> Launch the Interactive <br> Draft 2017 State Water Plan</a>
 
-The Texas Water Development Board, the parent agency of TNRIS, has released the **DRAFT version of the 2017 State Water Plan**. The public comment period for the plan is open until 5:00 p.m. on Monday, April 25, 2016.
+The [Texas Water Development Board](http://www.twdb.texas.gov/), the parent agency of TNRIS, has released the **DRAFT version of the 2017 State Water Plan**. The public comment period for the plan is open until 5:00 p.m. on Monday, April 25, 2016.
 
 For the first time, there is an online interactive version of the draft plan, increasing the reach and access of the DRAFT Water Plan to the public more than ever. TNRIS developers, alongside other TWDB agency staff, played a vital role in the development of the online version, employing the latest techniques to present the data in clear and understandable online maps and information tables.
 
