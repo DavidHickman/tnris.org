@@ -26,7 +26,7 @@ High resolution 6-inch aerial imagery are now available from TNRIS for Smith Cou
 - Smith County 9-1-1 District
 - Smith County Appraisal District
 
-Surdex Corp. was selected under the High Priority Imagery and Data Sets (HPIDS) state contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program (StratMap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
+[Surdex Corp.](https://www.surdex.net) was selected under the High Priority Imagery and Data Sets (HPIDS) state contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program (StratMap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
 
 The new orthoimagery are used for city engineering and planning, 9-1-1 database updates and general mapping, appraisal district valuations, infrastructure mapping, and other applications. 
 
@@ -37,7 +37,7 @@ The new orthoimagery were acquired in early January 2016 during leaf-off conditi
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('hpids-smith-county-2016-6in-nc-cir')}}
+{{m.catalog_data_card('hpids-smith-2016-6in-nc-cir')}}
 
 ## Acquisition Areas
 View coverage areas in the interactive map below:
