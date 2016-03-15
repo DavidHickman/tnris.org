@@ -9,7 +9,7 @@ date_full,url_date,class_title,time,instructor,cost,status,instructor_bio,descri
 - Defining Attributes
 - Previewing Applications
 - Creating and Using Templates.","Do you want to learn how to build web and mobile ArcGIS applications without writing a single line of JavaScript, HTML, or CSS code? This class is for you!  ","This course is for those who want to learn how to build web and mobile ArcGIS applications without writing a single line of JavaScript, HTML, or CSS code.",,https://www.regonline.com/Register/Checkin.aspx?EventID=1782761
-"February 18-19, 2016",february-2016,Programming ArcGIS with Python - Introduction,8:00 - 5:00,"Eric Pimpler, GISP",$635.00,OPEN,,"**Seven modules guide you through the basics:** 
+"February 18-19, 2016",february-2016,Programming ArcGIS with Python - Introduction,8:00 - 5:00,"Eric Pimpler, GISP",$635.00,CLOSED,,"**Seven modules guide you through the basics:** 
 - Introduction to Arcpy
 - ArcPy Mapping, and ArcPy Data Access 
 - Managing Map Documents and Layers
@@ -29,7 +29,7 @@ date_full,url_date,class_title,time,instructor,cost,status,instructor_bio,descri
 - Setting a definition expression on a layer, 
 
 **...and so much more!**","Are you interested in learning introductory level programming ArcGIS with Python skills? This class is is for you.  It's based on the book Programming ArcGIS with Python Cookbook (2nd Edition), written by our owner, Eric Pimpler. ",This course is for those who want to learn introductory level programming ArcGIS with Python skills.,,https://www.regonline.com/Register/Checkin.aspx?EventID=1782761
-"March 3-4, 2016",march-2016,Programming ArcGIS with Python - Intermediate,8:00 - 5:00,"Eric Pimpler, GISP",$635.00,OPEN,,"**Six modules guide you through the course:** 
+"March 3-4, 2016",march-2016,Programming ArcGIS with Python - Intermediate,8:00 - 5:00,"Eric Pimpler, GISP",$635.00,CLOSED,,"**Six modules guide you through the course:** 
 - Using the ArcPy Data Access Module with Feature Classses and Tables
 - Listing and Describing GIS Data
 - Customizing the ArcGIS Desktop Interface with Addins
@@ -43,7 +43,7 @@ date_full,url_date,class_title,time,instructor,cost,status,instructor_bio,descri
 - Improving cursor performance with geometry tokens 
 
 **...and so much more!**","Are you familiar with Python and ready to advance?  This class will teach you intermediate level programming ArcGIS with Python skills. This class is based on the book Programming ArcGIS with Python Cookbook (2nd Edition), written by our owner, Eric Pimpler. ",This course is for those who want to learn intermediate level programming ArcGIS with Python skills.,,https://www.regonline.com/Register/Checkin.aspx?EventID=1782761
-"March 8-9, 2016",march-2016,Fundamentals of ArcGIS,8:00 - 5:00,TeachMeGIS Instructor,$825.00,OPEN,,"GIS gives you an easy way to get access to the tremendous amounts of data available. At first glance, ArcGIS lets you see this data on a map. But underneath, the software has powerful tools for analyzing the data. With ArcGIS, you can quickly print a bubble map showing crime rates, evaluate parcel values across a city, plan a location to open a new branch of your business, or explore a site for potential environmental issues. 
+"March 8-9, 2016",march-2016,Fundamentals of ArcGIS,8:00 - 5:00,TeachMeGIS Instructor,$825.00,CLOSED,,"GIS gives you an easy way to get access to the tremendous amounts of data available. At first glance, ArcGIS lets you see this data on a map. But underneath, the software has powerful tools for analyzing the data. With ArcGIS, you can quickly print a bubble map showing crime rates, evaluate parcel values across a city, plan a location to open a new branch of your business, or explore a site for potential environmental issues. 
 
 This course helps you understand the types of data that ArcGIS supports, and how to manipulate the data. For example, you will learn how to connect to an Excel spreadsheet that has GPS location data in it. 
 

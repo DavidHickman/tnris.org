@@ -301,6 +301,10 @@ h2.forum-title-front {
       height: 30px;
       margin-right: 5px;
       padding-top: 5px;
+
+      &.extended {
+      margin-bottom: 40px;
+      }
     }
 
     li {
