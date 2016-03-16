@@ -70,9 +70,9 @@ Lunch on your own. Here's a map of nearby lunch spots:
 If you have something quick to share, come prepared with an idea of what you could present within a short 5-minute time slot and sign up for a lightning talk on-site at the event.
 
 **Lightning Talk Rules**
-- 5 minutes Max – We will tightly enforce this.
-- No external computer laptops or tablets - only browser based access to materials and links
-- Tips: Understand your topic – make your point at the beginning. You don't have to use all 5 minutes
+- 5 minutes max – We will tightly enforce this.
+- No external computer laptops or tablets - only browser based access to materials and links.
+- Tips: Understand your topic – make your point at the beginning. You don't have to use all 5 minutes.
 
 ****
 
