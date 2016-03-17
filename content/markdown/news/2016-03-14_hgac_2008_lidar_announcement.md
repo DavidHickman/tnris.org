@@ -37,7 +37,7 @@ This project was administered by the Houston-Galveston Area Council as part of t
 
 - Classified all-return Lidar DOQQ tiles (1/4th of USGS Quad) in LAS 1.1 format
 - Bare-earth digital elevation model (DEM) in USGS .dem format (1-meter)
-- Hydro-flattening and transportation breaklines in SHP
+- Hydro-flattening  breaklines in SHP
 - File-level FGDC metadata in XML
 
 ## Product Specification
