@@ -43,7 +43,7 @@ This project was administered by the Houston-Galveston Area Council as part of t
 ## Product Specification
 
 - Vertical accuracy: RMSEz tested ~ 0.22 feet.
-- Point density is 1 points per square meter (ppsm) 
+- Point density is 1 point per square meter (ppsm) 
 - Point data are classified according to the following American Society for Photogrammetry and Remote Sensing (ASPRS) class schema:
 	- Class 1: Unclassified
 	- Class 2: Ground			
