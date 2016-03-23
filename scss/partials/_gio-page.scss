@@ -54,3 +54,72 @@
     display: block;
   }
 }
+
+.gio-agency-collection {
+  margin-bottom: 30px;
+  width: 100%;
+
+  .glyphicon {
+    display: block;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-top: -1px;
+    width: 40px;
+    text-shadow: 2px 2px 2px $middarkgrey;
+
+    &.member {
+      color: $boltblue;
+    }
+
+    &.associate {
+      color: $fadedblue
+    }
+  }
+
+  .member-box {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px $middarkgrey;
+    color: $white;
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+
+    &.member {
+      background: $boltblue;
+    }
+
+    &.associate {
+      background: $fadedblue;
+      margin-top: 20px;
+    }
+  }
+}
+
+.gio-agency {
+  border: 1px solid $midgrey;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $screen-md) {
+  }
+
+  &:hover {
+    border-color: $tnrisblue;
+  }
+
+  @media (min-width: $screen-sm){
+    min-height: 125px;
+  }
+}
