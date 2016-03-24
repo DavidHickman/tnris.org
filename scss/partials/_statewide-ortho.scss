@@ -203,6 +203,10 @@ ul.dash {
     font-size: 22px;
   }
 
+  hr {
+    background-color: $white;
+  }
+
   date {
     text-transform: uppercase;
   }
@@ -847,7 +851,25 @@ h2.statewide-title-front {
 
   .container-fluid.full .top-container .top-header {
     background: 0;
-    
     @include background-image(linear-gradient(to top, $darkgrey, transparent));
   }
+}
+
+// esri logo
+.esri-replace-md {
+    background: url(../static/images/logos/esri_web_md.png) 0 0 no-repeat;
+  display: inline-block;
+  height: 74px;
+  text-indent: -9999px;
+  vertical-align: text-bottom;
+  width: 150px;
+}
+
+.esri-replace-sm {
+  background: url(../static/images/logos/esri_logo_sm.png) 0 0 no-repeat;
+  display: inline-block;
+  height: 38px;
+  text-indent: -9999px;
+  vertical-align: text-bottom;
+  width: 100px;
 }
