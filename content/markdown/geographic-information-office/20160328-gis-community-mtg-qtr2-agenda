@@ -1,0 +1,52 @@
+template: gio-news.html
+title: "Agenda: Texas GIS Community Meeting 2nd Quarter 2016"
+author: Felicia Retiz, Deputy GIO
+thumbnail: static/images/gio-stories/gio_jan_12_th.jpg
+abstract:
+    Meeting Agenda for the 2nd Quarter GIS community meeting of 2016.
+tags: Agenda, GIO Meeting
+---
+<img class="pull-right" src="{{m.link('static/images/gio-stories/gio_meeting_jan12.jpg')}}" alt="a word cloud of phrases about community and gis in texas">
+
+## Welcoming Remarks
+
+### Richard Wade, State GIO, Director of TNRIS
+
+## Project Updates
+
+### Statewide Orthoimagery Project
+#### Gayla Mullins
+
+* Project Page: [tnris.org/2015-statewide-orthoimagery-project](2015-statewide-orthoimagery-project)
+
+### StratMap Contract Status
+#### Gayla Mullins
+
+### South Central Texas Lidar Status
+
+#### Joey Thomas 
+
+****
+
+## Agency Roll Call
+
+* Bring your agency project updates to share. 
+
+****
+
+## Presentations
+
+### TxDOT Open Data Portal
+#### Travis Scruggs, Chris Bardash - TxDOT
+
+* Data produced by TxDOT is made available through their Open Data Portal. Come learn about the technology used and the availability of data from TxDOT.
+
+### Digital Globe
+#### Travis Schindler – Digital Globe
+
+* High resolution imagery, basemaps, DEMs and Big Data – Using satellites to collect and create products from 16 years of archive imagery.
+
+### Texas GIO Report 2016
+#### Felicia Retiz, TNRIS
+
+* Several state agencies have been interviewed, surveys have been collected, and data is now compiling for the upcoming 2016 report. 
