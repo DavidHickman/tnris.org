@@ -1,0 +1,88 @@
+---
+template: news.html
+title: "2015 Texas Parks and Wildlife Aerial Imagery Now Available"
+author: StratMap
+thumbnail: static/images/updates/2016/smith-2016/hpids_smith_county_2016_6in_nc_cir_th.jpg
+thumbalt: Sample of new the Texas Parks and Wildlife Aerial Imagery
+abstract:
+    High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for three Texas Parks and Wildlife areas.
+tags: stratmap, orthoimagery, tpwd, el paso, bastrop, port o'connor, hidden pines, hueco tanks, powderhorn ranch
+---
+
+{% import '_macros.html' as m %}
+
+<figure>
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_hideaway_lakes_nc_1to2000_20160104.jpg')}}" alt="Natural Color preview of hideaway lakes">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_hideaway_lakes_cir_1to2000_20160104.jpg')}}" alt="Color infra red of Hideaway Lakes">
+</div>
+<figcaption>Hidden Pines Fire Burn Scar  SCALE 1:21,000</figcaption>
+</figure>
+
+High resolution 6-inch/12-inch aerial imagery are now available from TNRIS for three areas: Bastrop State Park/Hidden Pines fire, Powderhorn Ranch, and Hueco Tanks State Park & Historic Site. Texas Parks and Wildlife contributed funds to collect the new imagery as part of the [2015 Statewide Orthoimagery Project](https://tnris.org/2015-statewide-orthoimagery-project/) BUY-UP option to increase pixel resolution beyond 0.5-meter.
+
+[Surdex Corp.](https://www.surdex.net) was selected under the High Priority Imagery and Data Sets (HPIDS) state contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program (StratMap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
+
+The new orthoimagery are used by Texas Parks and Wildlife for park planning and development, general mapping, and other applications. 
+
+The new orthoimagery were acquired in 2015 on April 25 over Hueco Tanks, October 28 over Powderhorn Ranch, and November 19 over Bastrop/Hidden Pines during leaf-on conditions.
+
+## Data Access
+
+The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
+
+View more details in the **Data Catalog Entry**:
+{{m.catalog_data_card('hpids-smith-2016-6in-nc-cir')}}
+
+## Acquisition Areas
+View coverage areas in the interactive map below:
+
+<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/f0086f04-dafe-11e5-b1d2-0e674067d321/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+## Products
+
+- GeoTIFF and JPEG2000 DO4Q (~1 sq. mi.) image tiles
+- JPEG2000 compressed county mosaic
+- Tile index shp
+- Seamline shp
+- Metadata xmls per image tile
+
+## Product Specification
+
+![USGS Quarter Quad Breakdown](static/images/updates/smith-imagery/usgs_quad.jpg)
+
+- 6-inch pixel resolution for Bastrop/Hidden Pines
+- 12-inch pixel resolution for Hueco Tanks and Powderhorn Ranch
+- 4-band, natural color and color infrared
+- StatePlane TX Central 4203 NAD83 coordinate system for Bastrop/Hidden Pines and Hueco Tanks
+- StatePlane TX S Central 4204 NAD83 coordinate system for Powederhorn Ranch
+- Units in feet
+- DO4Q (approx. 1 sq. mi.) image tiles, 1/64th USGS 7.5-minute quadrangle
+
+## Imagery Preview
+
+<figure class="data-preview">
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_tylerrose_nc_1to800_20160104.jpg')}}" alt="Natural Color preview of Tyler Rose Garden">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_tylerrose_cir_1to800_20160104.jpg')}}" alt="Color Infrared preview of Tyler Rose Garden">
+</div>
+<figcaption>Hidden Pines Fire structure and tree damage near Bastrop, TX  SCALE 1:800</figcaption>
+</figure>
+
+
+<figure class="data-preview">
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_pineplantation_nc_1to1800_20160104.jpg')}}" alt="Natural Color preview of pine plantation">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_pineplantation_cir_1to1800_20160104.jpg')}}" alt="Color Infrared preview of pine plantation">
+</div>
+<figcaption>Hueco Tanks State Park & Historic Site near El Paso, TX  SCALE 1:10000</figcaption>
+</figure>
+
+
+<figure class="data-preview">
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_thevillage_nc_1to2300_20160104.jpg')}}" alt="Natural Color preview of The Village shopping center">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_thevillage_cir_1to2300_20160104.jpg')}}" alt="Color Infrared preview of The Village shopping center">
+</div>
+<figcaption>Powderhorn Ranch near Port O'Connor, TX  SCALE 1:18000</figcaption>
+</figure>
