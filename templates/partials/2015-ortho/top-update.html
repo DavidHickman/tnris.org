@@ -8,17 +8,14 @@
     </div>
     <h2 class="updates-header">Project Activity for the week ending<br><strong>{{status_date}}</strong></h2>
     <h3>Update Summary</h3>
-    <a class="btn btn-default btn-lg pull-right" href="{{m.link('static/documents/2015-ortho-weekly-reports/' + latest_report)}}"><span class="glyphicon glyphicon-file"></span> Download the latest full vendor report</a>
-    <ul class="dash list-clean">
-        {% for update in updates %}
-        <li>{{update | safe}}</li>
-        {% endfor %}
-    </ul>
+      {{contents|safe}}
+      
+      <a class="btn btn-default btn-lg" href="{{m.link('static/documents/2015-ortho-weekly-reports/' + latest_report)}}"><span class="glyphicon glyphicon-file"></span> Download the most recent full vendor report</a>
 
     <h3>Full Statewide Dataset Access</h3>
     {{m.catalog_data_card('texas-orthoimagery-program-top-2015-50cm-nc-cir')}}
 
-
+<hr>
 <h4>TOP 2015 Online Mapping Service</h4>
 <p>To use WMS services in your CAD or GIS software package, please consult the software help or support information.</p>
 <div class="input-group copy-url-container">
@@ -29,7 +26,38 @@
   </span>
   <input class="wms-url copy-url-input form-control" type="text" readonly value="http://r.tnris.org/arcgis/services/TOP/TOP_2015_50CM_NC/ImageServer/WMSServer">
 </div>
-
+<hr>
+<h4><span class="esri-replace-sm">Esri</span> Basemap Imagery Service</h4>
+<p>Access the new 0.5-meter imagery through the Esri Basemap Imagery service:</p>
+<a class="btn btn-lg btn-success" href="#basemap-tutorial" data-toggle="modal"><i class="glyphicon glyphicon-new-window"></i> View ArcMap basemap tutorial</a>
+    <div class="modal fade" id="basemap-tutorial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3>Add TOP Imagery as <span class="esri-replace-sm">Esri</span> Basemap in ArcMap</h3>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <ol>
+                      <li><h4>Click on the '<em>Add Data</em>' dropdown in ArcMap and select '<em>Add Basemap</em>'</h4><br>
+                        <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/add_basemap.jpg')}}" alt="A screenshot from ArcMap, showing 'add data' dropdown"></li>
+                      <li><h4>Select '<em>Imagery</em>' and click '<em>Add</em>'</h4><br>
+                        <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/add_basemap2.jpg')}}" alt="A screenshot of the add basemap options, with the imagery highlighted"></li>
+                      <li><h4>Results show data source</h4><br>
+                        <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/add_basemap3.jpg')}}" alt="a pop-up menu shows the data source as the TOP in ArcMap">
+                      </li>
+                    </ol>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<hr>
   <h3>Regional 6-Inch/1-Foot Dataset Access</h3>
 
    {{m.catalog_data_card('hpids-georgetown-2015-6in-nc-cir')}}
@@ -43,10 +71,10 @@
    <h3>Full Statewide Orthoimagery Status</h3>
    <div class="list-clean data-progress-final">
     <div class="status">
-            <progress class="level-two" max="100" value="{{progress_5}}">
+            <progress class="level-four" max="100" value="{{progress_5}}">
             </progress>
             <h3 class="amount level-one">{{progress_5}}%</h3>
-            <p>of final Digital Orthophoto Quarter-Quads (DOQQs) Available. <em>See Map Below.</em></p>
+            <p>of final <strong>Digital Orthophoto Quarter-Quads (DOQQs)</strong> Available. <em>See Map Below.</em></p>
         </div>
 </div>
 
@@ -61,6 +89,7 @@
                       <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                           </button>
+                          <h3>Final DOQQ Availability</h3>
                       </div>
                       <div class="modal-body">
                           <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + doqq_image)}}" alt="Latest DOQQ Availability Map">
@@ -71,15 +100,16 @@
                   </div>
               </div>
           </div>
+          <hr>
    <div class="list-clean data-progress-final">
 
           <!-- <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + ccm_image_preview)}}" alt="Latest CCM availability preview image"> -->
   <div class="status">
 
-            <progress class="level-one" max="100" value="{{progress_7}}">
+            <progress class="level-four" max="100" value="{{progress_7}}">
             </progress>
             <h3 class="amount level-one">{{progress_7}}%</h3>
-            <p>of final Compressed County Mosaics (CCMs) Available. <em>See Map Below.</em></p>
+            <p>of final <strong>Compressed County Mosaics (CCMs)</strong> Available. <em>See Map Below.</em></p>
           </div>
         <iframe width="100%" height="300" frameborder="0" src="https://tnris-twdb.cartodb.com/u/tnris/viz/e87e0e1a-d4e1-11e5-a78f-0e787de82d45/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
@@ -94,6 +124,7 @@
                       <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                           </button>
+                          <h3>Final Compressed County Mosaics (CCMs) Availability</h3>
                       </div>
                       <div class="modal-body">
                         <!--   <img class="img-responsive" src="{{m.link('static/images/statewide-orthoimagery/weekly-updates/' + ccm_image)}}" alt="Latest CCM Availability Map"> -->
@@ -137,15 +168,16 @@
             <p>of the state has been begun initial image processing</p>
         </li>
         <li class="status">
-            <progress class="level-three" max="100" value="{{progress_6}}">
+            <progress class="level-four" max="100" value="{{progress_6}}">
             </progress>
             <h3 class="amount level-one">{{progress_6}}%</h3>
             <p>of the state has been processed through aerotriangulation</p>
         </li>
         <li class="status">
-            <progress class="level-two" max="100" value="{{progress_4}}">
+            <progress class="level-five" max="100" value="{{progress_4}}">
             </progress>
             <h3 class="amount level-one">{{progress_4}}%</h3>
+            <i class="fa fa-check"></i>
             <p>of pilot data received</p>
         </li>
     </ul>

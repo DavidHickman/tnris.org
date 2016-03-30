@@ -1,5 +1,5 @@
 ---
-template: partials/gio-sub.html
+template: partials/gio-sub-dcs.html
 title: "Data Center Services (DCS) GIS Solutions Group"
 author: Felicia Retiz, Deputy GIO
 mainimage: static/images/gio/gis_button_web.jpg

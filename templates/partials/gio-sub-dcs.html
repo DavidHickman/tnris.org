@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% import '_macros.html' as m %}
+
+
+{% block topcontent %}
+<div class="container-fluid full">
+
+      <div class="top-container">
+      {% if mainimage %}
+        <img class="img-responsive center-block" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}">
+      {% endif %}
+
+      <div class="top-header center-block">
+          <div class="container">
+            <h1>{{title}}</h1>
+          </div>
+      </div>
+      </div>
+</div>
+{% endblock topcontent %}
+
+{% block contents %}
+
+ <div class="row">
+    <ol class="breadcrumb">
+      <li>
+        <a href="{{m.link('index')}}"><span class="glyphicon glyphicon-home"></span></a>
+      </li>
+      <li>
+        <a href="{{m.link('geographic-information-office')}}">Geographic Information Office</a>
+      </li>
+      <li class="active">{{title}}</li>
+    </ol>
+  </div>
+  <div class="row article">
+    <div class="col-sm-12 col-md-8 blog-main">
+      <div class="gio-news-content">
+        {{ contents|safe }}
+      </div>
+    </div>
+
+    {% block rightContent %}
+      <div class="col-sm-12 col-md-4 blog-sidebar">
+
+        <h3>More GIO News</h3>
+        <ul class="news-list list-clean">
+        {% set count = 1 %}
+         {% for gio_item in geographic_information_office %}
+        {% if (gio_item.id !== id) && count <= 3 %}
+            {% set count += 1 %}
+          <li class="media">
+            <div class="media-left">
+              <a href="{{m.link(gio_item.preserved)}}"><img src="{{m.link(gio_item.thumbnail)}}" alt="Thumbnail image for {{gio_item.title}}"></a>
+            </div>
+            <div class="media-body">
+              <time>{{ gio_item.date|date('F jS, Y') }}</time>
+              <h3 class="media-heading">
+              <a href="{{m.link(gio_item.preserved)}}">{{ gio_item.title }}</a></h3>
+              <p>
+                {{ gio_item.abstract }}
+              </p>
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+      </div>
+    {% endblock rightContent %}
+  </div>
+{% endblock contents %}
