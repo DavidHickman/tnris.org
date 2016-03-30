@@ -1,5 +1,5 @@
 template: gio-news.html
-title: "Agenda: Texas GIS Community Meeting 2nd Quarter 2016"
+title: "Agenda: 2016 2nd Quarter Texas GIS Community Meeting"
 author: Felicia Retiz, Deputy GIO
 thumbnail: static/images/gio-stories/gio_jan_12_th.jpg
 abstract:
