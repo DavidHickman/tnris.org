@@ -19,7 +19,12 @@ tags: stratmap, orthoimagery, tpwd, el paso, bastrop, port o'connor, hidden pine
 <figcaption>Hidden Pines Fire Burn Scar  SCALE 1:21,000</figcaption>
 </figure>
 
-High resolution 6-inch/12-inch aerial imagery are now available from TNRIS for three areas: Bastrop State Park/Hidden Pines fire, Powderhorn Ranch, and Hueco Tanks State Park & Historic Site. Texas Parks and Wildlife contributed funds to collect the new imagery as part of the [2015 Statewide Orthoimagery Project](https://tnris.org/2015-statewide-orthoimagery-project/) BUY-UP option to increase pixel resolution beyond 0.5-meter.
+High resolution 6-inch/12-inch aerial imagery are now available from TNRIS for three areas of interest commissioned by [Texas Parks & Wildlife](https://www.tpwd.texas.gov): 
+- Bastrop State Park/Hidden Pines fire
+- Powderhorn Ranch
+- Hueco Tanks State Park & Historic Site. 
+
+Texas Parks and Wildlife contributed funds to collect the new imagery as part of the [2015 Statewide Orthoimagery Project](https://tnris.org/2015-statewide-orthoimagery-project/) BUY-UP option to increase pixel resolution beyond 0.5-meter.
 
 [Surdex Corp.](https://www.surdex.net) was selected under the High Priority Imagery and Data Sets (HPIDS) state contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program (StratMap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
 
