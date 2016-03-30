@@ -41,29 +41,8 @@
 
     {% block rightContent %}
       <div class="col-sm-12 col-md-4 blog-sidebar">
+          {% include "./partials/gis-solutions-meeting.html" %}
 
-        <h3>More GIO News</h3>
-        <ul class="news-list list-clean">
-        {% set count = 1 %}
-         {% for gio_item in geographic_information_office %}
-        {% if (gio_item.id !== id) && count <= 3 %}
-            {% set count += 1 %}
-          <li class="media">
-            <div class="media-left">
-              <a href="{{m.link(gio_item.preserved)}}"><img src="{{m.link(gio_item.thumbnail)}}" alt="Thumbnail image for {{gio_item.title}}"></a>
-            </div>
-            <div class="media-body">
-              <time>{{ gio_item.date|date('F jS, Y') }}</time>
-              <h3 class="media-heading">
-              <a href="{{m.link(gio_item.preserved)}}">{{ gio_item.title }}</a></h3>
-              <p>
-                {{ gio_item.abstract }}
-              </p>
-            </div>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
       </div>
     {% endblock rightContent %}
   </div>

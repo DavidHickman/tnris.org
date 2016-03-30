@@ -8,16 +8,9 @@ abstract:
 tags: GIO, Data Sharing, GIS, Geospatial, DIR, DCS
 ---
 
-<p class="lead">The Texas Natural Resources Information System, along with the [Texas Department of Information Resources](http://dir.texas.gov/View-About-DIR/Data-Center/Landing.aspx), established the <strong>Data Center Services (DCS) GIS Solutions Group</strong> to help address the complexities of geographic information systems in the state. The Solutions Group provides a platform for sharing information and making unified decisions that will better serve geographic information departments at state agencies. The DCS GIS Solutions Group meets monthly.
+<p class="lead">The Texas Natural Resources Information System, along with the [Texas Department of Information Resources](http://dir.texas.gov/View-About-DIR/Data-Center/Landing.aspx), established the <strong>Data Center Services (DCS) GIS Solutions Group</strong> to help address the complexities of geographic information systems in the state. The Solutions Group provides a platform for sharing information and making unified decisions that will better serve geographic information departments at state agencies. The DCS GIS Solutions Group meets monthly.</p>
 
-<div class="well">
-  <h3><em>Next GIS Solutions Group Meeting</em></h3>
-
-<h3>April 19, 1:30 PM – 3 PM</h3>
-</div>
-</p>
-
-## Data Center Services Solutions Groups
+## Data Governance Model
 <figure>
 <img class="img-responsive" src="{{ m.link('static/images/gio/dcs_groups.jpg')}}" alt="A flowchart of the DCS solutions groups structure">
 <figcaption class="right-align">The DCS solutions groups structure</figcaption>
@@ -132,18 +125,6 @@ Visit the [Google Imagery Project Page](texas-google-imagery)
 
 ****
 
-## Notes from Last Meeting
-
-<p class="lead">February 2016 - <em>Coming Soon</em></p>
-
-****
-
 ## Group Charter
-
-*Coming Soon*
-
-****
-
-## Archive
 
 *Coming Soon*
