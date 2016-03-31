@@ -127,4 +127,4 @@ Visit the [Google Imagery Project Page](texas-google-imagery)
 
 ## Group Charter
 
-*Coming Soon*
+<a href="{{m.link('static/documents/gis-solutions-meeting/gis-solution-group-charter-final.pdf')}}"><i class="glyphicon glyphicon-file"></i> View the DCS GIS Solutions Group Charter</a>
