@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% import '_macros.html' as m %}
+
+
+{% block topcontent %}
+<div class="container-fluid full">
+
+      <div class="top-container">
+      {% if mainimage %}
+        <img class="img-responsive center-block" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}">
+      {% endif %}
+
+      <div class="top-header center-block">
+          <div class="container">
+            <h1>{{title}}</h1>
+          </div>
+      </div>
+      </div>
+</div>
+{% endblock topcontent %}
+
+{% block contents %}
+
+ <div class="row">
+    <ol class="breadcrumb">
+      <li>
+        <a href="{{m.link('index')}}"><span class="glyphicon glyphicon-home"></span></a>
+      </li>
+      <li>
+        <a href="{{m.link('geographic-information-office')}}">Geographic Information Office</a>
+      </li>
+      <li class="dcs-link"> <a href="{{m.link('geographic-information-office/gis-solutions-group/index')}}">Data Center Services (DCS) GIS Solutions Group</a> </li>
+      <li class="active">{{title}}</li>
+    </ol>
+  </div>
+  <div class="row article">
+    <div class="col-sm-12 col-md-8 blog-main">
+      <div class="gio-news-content">
+        {{ contents|safe }}
+      </div>
+    </div>
+
+    {% block rightContent %}
+      <div class="col-sm-12 col-md-4 blog-sidebar">
+          {% include "./partials/gis-solutions-meeting.html" %}
+
+      </div>
+    {% endblock rightContent %}
+  </div>
+{% endblock contents %}

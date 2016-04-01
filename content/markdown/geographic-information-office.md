@@ -16,3 +16,7 @@ The State Geographic Information Officer (GIO) is designated by statute ([Texas 
 ### GIO Report - 1st Edition
 
 A report containing policy and funding recommendations is to be submitted to the Governor, Lieutenant Governor, and Speaker of the House, **no later than December 1, 2016** and at the end of each successive 5 year period thereafter.
+
+### Data Center Services GIS Solutions Group
+
+<p><a class="btn btn-lg btn-success pull-right" href="{{m.link('geographic-information-office/gis-solutions-group/index')}}">Learn More about the GIS Solutions Group</a> <a href="{{m.link('geographic-information-office/gis-solutions-group/index')}}">The GIS Solutions Group</a>, established spring 2015, meets monthly to discuss projects and solutions related to GIS services procured through the Data Services Center.</p>
