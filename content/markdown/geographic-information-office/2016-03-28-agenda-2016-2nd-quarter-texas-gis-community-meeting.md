@@ -1,3 +1,4 @@
+---
 template: gio-news.html
 title: "Agenda: 2016 2nd Quarter Texas GIS Community Meeting"
 author: Felicia Retiz, Deputy GIO
@@ -17,7 +18,7 @@ tags: Agenda, GIO Meeting
 ### Statewide Orthoimagery Project
 #### Gayla Mullins
 
-* Project Page: [tnris.org/2015-statewide-orthoimagery-project](2015-statewide-orthoimagery-project)
+* Project Page: [2015-statewide-orthoimagery-project](2015-statewide-orthoimagery-project)
 
 ### StratMap Contract Status
 #### Gayla Mullins
