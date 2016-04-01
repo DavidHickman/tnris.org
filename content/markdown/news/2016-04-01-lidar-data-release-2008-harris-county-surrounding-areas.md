@@ -1,6 +1,6 @@
 ---
 template: news.html
-title: "Lidar Data Release For Harris County and Surrounding Areas"
+title: "Lidar Data Release For 2008 Harris County and Surrounding Areas"
 author: Joey Thomas
 thumbnail: static/images/data-catalog/entry/houston_galveston_area_council_h_gac_2008_lidar_th.jpg
 mainimage: static/images/updates/2016/hgac_2008_main.jpg
@@ -10,7 +10,7 @@ abstract:
 tags: lidar, data
 ---
 
-The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of recently acquired high resolution Lidar data for 3,700 square miles of Harris County, Texas and surronding areas. Aerial collection took place from February 1, 2008 through March 4, 2008 during the leaf-off season.  Merrick & company performed data acquisition/processing on behalf of the Houston-Galveston Area Councit(HGAC).
+The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of recently acquired high resolution Lidar data for 3,700 square miles of Harris County, Texas and surrounding areas. Aerial collection took place from February 1, 2008 through March 4, 2008 during the leaf-off season.  Merrick & company performed data acquisition/processing on behalf of the Houston-Galveston Area Councit(HGAC).
 
 This project was administered by the Houston-Galveston Area Council as part of ther Lidar Cost-Share Acquisition of 2008.
 
@@ -51,4 +51,4 @@ View more details in the **Data Catalog Entry**:
 
 ## Sample Images
 
-![A sample of collected LiDAR data](static/images/updates/2013/lidar-data-release-north-central/image001.jpg)
+<img src="{{m.link('static/images/data-catalog/entry/houston_galveston_area_council_h_gac_2008_lidar_detail.jpg')}}" alt="A sample of collected LiDAR data" class="img-responsive">
