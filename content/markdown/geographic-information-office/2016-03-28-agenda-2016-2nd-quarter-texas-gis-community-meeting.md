@@ -36,10 +36,10 @@ tags: Agenda, GIO Meeting
 
 ## Presentations
 
-### TxDOT Open Data Portal
-#### Travis Scruggs, Chris Bardash - TxDOT
+### Implementing TxDOT's Open Data
+#### Adam Breznicky, Chris Bardash, and Mike Zugelder - TxDOT
 
-* Data produced by TxDOT is made available through their Open Data Portal. Come learn about the technology used and the availability of data from TxDOT.
+* Over the last year, TxDOTs Transportation Planning and Programming Division has moved much of its data to ArcGIS Online, improved metadata and developed an Open Data Site to share its geospatial data with the public.
 
 ### Digital Globe
 #### Travis Schindler – Digital Globe
