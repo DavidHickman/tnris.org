@@ -108,7 +108,7 @@ The DCS GIS Solutions Group gathers each month. Topics of discussion include:
 
 ### Google Imagery Pilot
 
-Visit the [Google Imagery Project Page](texas-google-imagery)
+The DCS GIS Solutions Group is tasked with monitoring, managing, and marketing the Google Imagery Service, including imagery update approval and procurement. The following is a list of specific tasks the DCS GIS Solutions group is charged to consider and make decisions on. For more information regarding project participation, please visit the [Google Imagery Project Page](texas-google-imagery)
 
 - Software and application access experience
 - Usage metrics and cost model
@@ -116,12 +116,18 @@ Visit the [Google Imagery Project Page](texas-google-imagery)
 - Prioritization of new imagery purchases
 - Progress updates from Google
 
-### Geospatial Data
+### Geographic Data
 
-- Authoritative Sources
-- Barriers to sharing
-- Statewide Address/Parcel Data
-- Enterprise data storage and access
+The DCS GIS Solutions Group discussions include distribution and access to geographic data. Current topics and issues include the following:
+
+- Authoritative Sources – geographic data produced by trusted and reliable sources that are documented and managed by a credible designated authoritative source (state or local agency).
+
+- Barriers to sharing – understanding existing barriers and resolving the challenges of data sharing through collaboration.
+
+- Statewide Address/Parcel Data – discussions center on the need for a statewide address and/or parcel dataset. The need is present but funding lacks. The DCS GIS Solutions Group is addressing the pros and cons of commercially licensed data vs. maintenance of a public domain dataset.
+
+- Enterprise data storage and access – a work in progress to determine the most cost-effective way to create an enterprise system that would allow storage and access to centrally stored geographic data ready to display in an OGC-compliant geographic information.
+
 
 ****
 
