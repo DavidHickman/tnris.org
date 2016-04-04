@@ -18,7 +18,7 @@ tags: Agenda, GIO Meeting
 ### Statewide Orthoimagery Project
 #### Gayla Mullins
 
-* Project Page: [2015-statewide-orthoimagery-project](2015-statewide-orthoimagery-project)
+* Project Page: [2015 Statewide Orthoimagery Project](2015-statewide-orthoimagery-project)
 
 ### StratMap Contract Status
 #### Gayla Mullins
