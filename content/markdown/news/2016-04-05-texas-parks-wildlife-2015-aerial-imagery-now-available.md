@@ -30,7 +30,7 @@ The new orthoimagery were acquired in 2015 on April 25 over Hueco Tanks, October
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('hpids-smith-2016-6in-nc-cir')}}
+{{m.catalog_data_card('hpids-tpwd-2015-6in-1ft-nc-cir')}}
 
 ## Acquisition Areas
 View coverage areas in the interactive map below:

@@ -417,3 +417,37 @@ input.wms-url {
     width: 100%;
   }
 }
+
+// TPWD 2015
+
+#data-catalog-entry-hpids-tpwd-2015-6in-1ft-nc-cir {
+  label.btn-urban {
+    .label-text {
+      display: none;
+    }
+
+    &:after {
+      content: "Bastrop Burn Scars";
+    }
+  }
+
+  label.btn-detail {
+    .label-text {
+      display: none;
+    }
+
+    &:after {
+      content: "Powderhorn Ranch";
+    }
+  }
+
+  label.btn-natural {
+    .label-text {
+      display: none;
+    }
+
+    &:after {
+    content: "Hueco Tanks";
+  }
+}
+}

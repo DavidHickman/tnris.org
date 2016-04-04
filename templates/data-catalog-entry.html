@@ -16,6 +16,7 @@
       'alt': 'Image preview of urban features in ' + name + ' data',
       'button': {
         'class': 'btn-tnris',
+        'customclass': 'btn-urban',
         'icon': 'glyphicon glyphicon-camera',
         'label': 'urban'
       },
@@ -25,6 +26,7 @@
       'alt': 'Image preview of detailed features in ' + name + ' data',
       'button': {
         'class': 'btn-tnris',
+        'customclass': 'btn-detail',
         'icon': 'glyphicon glyphicon-camera',
         'label': 'detail'
       },
@@ -33,6 +35,7 @@
       'alt': 'Image preview of natural features in ' + name + ' data',
       'button': {
         'class': 'btn-tnris',
+        'customclass': 'btn-natural',
         'icon': 'glyphicon glyphicon-camera',
         'label': 'natural <span class="hidden-xs">features</span>'
       },
@@ -75,9 +78,9 @@
           {% set i = 0 %}
           {% for image in images %}
             {% if image.url %}
-              <label class="btn btn-primary {{image.button.class}}{% if i==0 %} active{% endif %}" data-target="#carousel-data-catalog" data-slide-to="{{i}}">
+              <label class="btn btn-primary {{image.button.class}} {{image.button.customclass}} {% if i==0 %} active{% endif %}" data-target="#carousel-data-catalog" data-slide-to="{{i}}">
                 <input type="radio" name="options" id="option{{i}}" autocomplete="off" {% if i==0 %}checked{% endif %}>
-                <span class="{{image.button.icon}}"></span> {{image.button.label|safe}}
+                <span class="{{image.button.icon}}"></span> <span class="label-text">{{image.button.label|safe}}</span>
               </label>
               {% set i += 1 %}
             {% endif %}
