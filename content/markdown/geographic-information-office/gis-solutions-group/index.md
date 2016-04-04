@@ -8,7 +8,9 @@ abstract:
 tags: GIO, Data Sharing, GIS, Geospatial, DIR, DCS
 ---
 
-<p class="lead">The Texas Natural Resources Information System, along with the [Texas Department of Information Resources](http://dir.texas.gov/View-About-DIR/Data-Center/Landing.aspx), established the <strong>Data Center Services (DCS) GIS Solutions Group</strong> to help address the complexities of geographic information systems in the state. The Solutions Group provides a platform for sharing information and making unified decisions that will better serve geographic information departments at state agencies. The DCS GIS Solutions Group meets monthly.</p>
+
+<p class="lead"><a href="http://dir.texas.gov/"><img class="pull-right" src="{{ m.link('static/images/logos/dir_logo_med.jpg')}}" alt="DIR Logo and link to website"></a>
+The Texas Natural Resources Information System, along with the <a href="http://dir.texas.gov/View-About-DIR/Data-Center/Landing.aspx">Texas Department of Information Resources</a>, established the <strong>Data Center Services (DCS) GIS Solutions Group</strong> to help address the complexities of geographic information systems in the state. The Solutions Group provides a platform for sharing information and making unified decisions that will better serve geographic information departments at state agencies. The DCS GIS Solutions Group meets monthly.</p>
 
 ## Data Governance Model
 <figure>
