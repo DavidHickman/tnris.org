@@ -50,4 +50,4 @@ tags: Agenda, GIO Meeting
 ### Texas GIO Report 2016
 #### Felicia Retiz, TNRIS
 
-* Several state agencies have been interviewed, surveys have been collected, and data is now compiling for the upcoming 2016 report. 
+* Several state agencies have been interviewed, surveys have been collected, and we are now compiling data for the upcoming 2016 report. 
