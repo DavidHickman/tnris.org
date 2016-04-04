@@ -1,8 +1,9 @@
 ---
 template: news.html
-title: "2015 Texas Parks and Wildlife Aerial Imagery Now Available"
+title: "Texas Parks and Wildlife 2015 Aerial Imagery Now Available"
 author: StratMap
-thumbnail: static/images/updates/2016/smith-2016/hpids_smith_county_2016_6in_nc_cir_th.jpg
+mainimage: static/images/updates/2016/tpwd-2015/tpwd_2015_main.jpg
+thumbnail: static/images/updates/2016/tpwd-2015/tpwd_2015_th.jpg
 thumbalt: Sample of new the Texas Parks and Wildlife Aerial Imagery
 abstract:
     High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for three Texas Parks and Wildlife areas.
@@ -10,14 +11,6 @@ tags: stratmap, orthoimagery, tpwd, el paso, bastrop, port o'connor, hidden pine
 ---
 
 {% import '_macros.html' as m %}
-
-<figure>
-<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_hideaway_lakes_nc_1to2000_20160104.jpg')}}" alt="Natural Color preview of hideaway lakes">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_hideaway_lakes_cir_1to2000_20160104.jpg')}}" alt="Color infra red of Hideaway Lakes">
-</div>
-<figcaption>Hidden Pines Fire Burn Scar  SCALE 1:21,000</figcaption>
-</figure>
 
 High resolution 6-inch/12-inch aerial imagery are now available from TNRIS for three areas of interest commissioned by [Texas Parks & Wildlife](https://www.tpwd.texas.gov): 
 - Bastrop State Park/Hidden Pines fire
@@ -65,6 +58,14 @@ View coverage areas in the interactive map below:
 - DO4Q (approx. 1 sq. mi.) image tiles, 1/64th USGS 7.5-minute quadrangle
 
 ## Imagery Preview
+
+<figure>
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_hideaway_lakes_nc_1to2000_20160104.jpg')}}" alt="Natural Color preview of hideaway lakes">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_hideaway_lakes_cir_1to2000_20160104.jpg')}}" alt="Color infra red of Hideaway Lakes">
+</div>
+<figcaption>Hidden Pines Fire Burn Scar  SCALE 1:21,000</figcaption>
+</figure>
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
