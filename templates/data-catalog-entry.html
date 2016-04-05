@@ -213,6 +213,7 @@
             <p>{{contents|safe}}</p>
           </div>
           <div id="metadata">
+              {% if tile_index_url or supplemental_report_url  %}
               <h2>Supplemental Information</h2>
 
               <table>
@@ -231,7 +232,7 @@
                  {% endif %}      
                 </tbody>
               </table>
-
+              {% endif %}
               <div>
             <h2>Data License</h2>
           <p class="lead">{%- if license_text -%}
