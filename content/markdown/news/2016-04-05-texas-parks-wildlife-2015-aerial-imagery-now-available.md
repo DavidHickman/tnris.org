@@ -14,8 +14,8 @@ tags: stratmap, orthoimagery, tpwd, el paso, bastrop, port o'connor, hidden pine
 
 High resolution 6-inch/12-inch aerial imagery are now available from TNRIS for three areas of interest commissioned by [Texas Parks & Wildlife](https://www.tpwd.texas.gov): 
 - Bastrop State Park/Hidden Pines fire
-- Powderhorn Ranch
-- Hueco Tanks State Park & Historic Site. 
+- [Powderhorn Ranch](http://tpwd.texas.gov/newsmedia/releases/?req=20140821a)
+- [Hueco Tanks State Park & Historic Site](http://tpwd.texas.gov/state-parks/hueco-tanks). 
 
 Texas Parks and Wildlife contributed funds to collect the new imagery as part of the [2015 Statewide Orthoimagery Project](https://tnris.org/2015-statewide-orthoimagery-project/) BUY-UP option to increase pixel resolution beyond 0.5-meter.
 
@@ -59,36 +59,26 @@ View coverage areas in the interactive map below:
 
 ## Imagery Preview
 
-<figure>
+<figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_hideaway_lakes_nc_1to2000_20160104.jpg')}}" alt="Natural Color preview of hideaway lakes">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_hideaway_lakes_cir_1to2000_20160104.jpg')}}" alt="Color infra red of Hideaway Lakes">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_burnscar_nc_1to21000_20151119.jpg')}}" alt="Natural Color preview of Hidden Pins Fire Burn Scar">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_burnscar_cir_1to21000_20151119.jpg')}}" alt="Color infra red of Hidden Pins Fire Burn Scar">
 </div>
-<figcaption>Hidden Pines Fire Burn Scar  SCALE 1:21,000</figcaption>
+<figcaption>Hidden Pines Fire Burn Scar  SCALE 1:21000</figcaption>
 </figure>
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_tylerrose_nc_1to800_20160104.jpg')}}" alt="Natural Color preview of Tyler Rose Garden">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_tylerrose_cir_1to800_20160104.jpg')}}" alt="Color Infrared preview of Tyler Rose Garden">
-</div>
-<figcaption>Hidden Pines Fire structure and tree damage near Bastrop, TX  SCALE 1:800</figcaption>
-</figure>
-
-
-<figure class="data-preview">
-<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_pineplantation_nc_1to1800_20160104.jpg')}}" alt="Natural Color preview of pine plantation">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_pineplantation_cir_1to1800_20160104.jpg')}}" alt="Color Infrared preview of pine plantation">
-</div>
-<figcaption>Hueco Tanks State Park & Historic Site near El Paso, TX  SCALE 1:10000</figcaption>
-</figure>
-
-
-<figure class="data-preview">
-<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_thevillage_nc_1to2300_20160104.jpg')}}" alt="Natural Color preview of The Village shopping center">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/smith-2016/smith16_thevillage_cir_1to2300_20160104.jpg')}}" alt="Color Infrared preview of The Village shopping center">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_powderhornranch_nc_1to18000_20151028.jpg')}}" alt="Natural Color preview of Powderhorn Ranch">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_powderhornranch_cir_1to18000_20151028.jpg')}}" alt="Color Infrared preview of Powderhorn Ranch">
 </div>
 <figcaption>Powderhorn Ranch near Port O'Connor, TX  SCALE 1:18000</figcaption>
+</figure>
+
+<figure class="data-preview">
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_nc_1to10000_20150425.jpg')}}" alt="Natural Color preview of Hueco Tanks">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_cir_1to10000_20150425.jpg')}}" alt="Color Infrared preview of Hueco Tanks">
+</div>
+<figcaption>Hueco Tanks State Park & Historic Site near El Paso, TX  SCALE 1:10000</figcaption>
 </figure>
