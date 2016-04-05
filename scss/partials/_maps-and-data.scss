@@ -43,13 +43,35 @@
 }
 
 .description {
-  font-weight: 300;
-  font-size: 20px;
   margin-bottom: 30px;
 
   h2 {
     margin-top: 0;
   }
+
+  p {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  table {
+    width: 100%;
+    tr {
+      &:nth-child(odd) {}
+      &:nth-child(even) {
+        background-color: $lightgrey;
+      }
+      td {
+        padding: 10px;
+        vertical-align: top;
+
+        &:first-child {
+          width: 30%;
+        }
+      }
+    }
+  }
+
 }
 
 #catalog-main-image {
@@ -99,13 +121,14 @@
     box-shadow: 0 -10px 5px rgba(0, 0, 0, 0.35);
     @include alpha-attribute("background-color", rgba($tnrisblue, 0.85), white);
     color: white;
-    padding: 0 20px;
-    padding-top: 0;
-    left: 0px;
-    width: 100%;
-    height: auto;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
+    height: auto;
+    left: 0px;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
 
     th {
       font-weight: 600;
@@ -252,7 +275,7 @@
         padding: 10px;
         vertical-align: top;
         &:first-child {
-          width: 50%;
+          width: 30%;
         }
       }
     }
@@ -434,8 +457,12 @@ input.wms-url {
   }
 }
 
-.data-access-meta {
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+.data-deets {
+  li {
+    background: $lightgrey;
+  }
+}
+
 // TPWD 2015
 
 #data-catalog-entry-hpids-tpwd-2015-6in-1ft-nc-cir {
@@ -464,8 +491,14 @@ input.wms-url {
       display: none;
     }
 
-    &:after {
-    content: "Hueco Tanks";
+      &:after {
+      content: "Hueco Tanks";
+    }
   }
 }
+
+// breadcrumb
+.breadcrumb.cleanmargin {
+  margin-bottom: 0;
 }
+

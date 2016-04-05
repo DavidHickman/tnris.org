@@ -62,16 +62,15 @@
 
 
   <div class="row">
-    <ol class="breadcrumb">
+    <ol class="breadcrumb cleanmargin">
       <li><a href="{{m.link('index')}}"><span class="glyphicon glyphicon-home"></span></a></li>
       <li><a href="{{m.link('maps-and-data')}}">Maps &amp; Data</a></li>
       <li><a href="{{m.link('data-catalog')}}">Data Catalog</a></li>
-      <li><a href="{{m.link('data-catalog')}}/#{{urlized_category}}">{{ category }}</a></li>
       <li class="active">{{ name }}</li>
     </ol>
   </div>
   <div id="catalogEntryContent" class="row">
-    <h1><small><a href="{{m.link('data-catalog')}}/#{{urlized_category}}">{{ category }}</a></small><br>{{ name }}</h1>
+    <div class="container"><h1><small><a href="{{m.link('data-catalog')}}/#{{urlized_category}}">{{ category }}</a></small><br>{{ name }}</h1></div>
     <div id="catalog-main-image">
       <div class="btn-container">
         <div class="btn-group center-block" data-toggle="buttons">
@@ -110,7 +109,7 @@
           <table>
             <thead>
               <tr>
-                <th class="col-sm-1">Date(s):</th>
+                <th class="col-sm-1"><i class="glyphicon glyphicon-calendar"></i> Date(s):</th>
                 <th class="col-sm-4">Coverage Availability/Geographic Extent:</th>
                 <th class="col-sm-2">Footprint:</th>
                 <th class="col-sm-3">Source(s):</th>
@@ -134,22 +133,11 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4 data-access-container">
-          <h2>Data Access</h2>
         <button class="data-access-toggle collapsed hidden-sm hidden-lg hidden-md" type="button" data-toggle="collapse" data-target="#data-access">
         <span><i class="glyphicon glyphicon-eye-open"></i> Click to View Access Options</span>
          </button>
           <div class="collapse" id="data-access">
-            <ul class="list-group">
-            <li class="list-group-item"><strong>Available Formats:</strong> {{ available_formats }}</li>
-           {% if alternative_data %} 
-            <li class="list-group-item"><strong>Alternative Data:</strong> {{ alternative_data }}</li>
-           {% endif %}
-            {% if derivative_data %}
-            <li class="list-group-item"><strong>Derivative Data:</strong> {{ derivative_data }}</li>
-            {% endif %}
-            <li class="list-group-item"><strong>Known Issues:</strong> {% if known_issues %}{{ known_issues }}{% else %} None {% endif %}</li>
-            <li class="list-group-item"><strong>Recommended Uses:</strong> {{ recommended_use }}</li>
-          </ul>
+          <h2>Data Access</h2>
           {% if download_link %}
             <h3>Direct Download</h3>
 
@@ -206,39 +194,56 @@
         </div>
         <div class="col-sm-7">
           <div class="description">
+          <h2>Data Details</h2>
+          <table>
+                <tbody>
+            <tr><td><strong>Available Formats:</strong></td><td>  {{ available_formats }}</td></tr>
+           {% if alternative_data %} 
+            <tr><td><strong>Alternative Data:</strong></td><td>  {{ alternative_data }}</td></tr>
+           {% endif %}
+            {% if derivative_data %}
+            <tr><td><strong>Derivative Data:</strong></td><td>  {{ derivative_data }}</td></tr>
+            {% endif %}
+            <tr><td><strong>Known Issues:</strong></td><td> {% if known_issues %}{{ known_issues }}{% else %} None {% endif %}</td></tr>
+            <tr><td><strong>Recommended Uses:</strong></td><td>  {{ recommended_use }}</td></tr>
+          </tbody>
+        </table>
+
             <h2>Description</h2>
             <p>{{contents|safe}}</p>
           </div>
-          <div>
-            <h2>Data License</h2>
-          {%- if license_text -%}
-                     {%- if license_url -%}
-                        <a href="{{license_url}}">{{license_text}}</a>
-                       {%- else  -%}
-                        {{ license_text }}
-                      {%- endif -%}
-                     {%- else  -%}
-                       <em>Unknown</em>
-                    {%- endif -%}
-          </div>
           <div id="metadata">
-              <h3>More Details</h3>
+              <h2>Supplemental Information</h2>
+
               <table>
                 <tbody>
                  {% if tile_index_url %}
                   <tr>
                     <td><strong>Tile Index:</strong></td>
-                    <td><a href="{{tile_index_url}}">Download</a></td>
+                    <td><a href="{{tile_index_url}}"><i class="glyphicon glyphicon-file"></i> Download File</a></td>
                   </tr>
                  {% endif %}
                  {% if supplemental_report_url %}
                   <tr>
-                    <td><strong>Supplemental Information:</strong></td>
-                    <td><a href="{{supplemental_report_url}}">Download</a></td>
+                    <td><strong>Project Report(s):</strong></td>
+                    <td><a href="{{supplemental_report_url}}"><i class="glyphicon glyphicon-file"></i> Download File</a></td>
                   </tr>
                  {% endif %}      
                 </tbody>
               </table>
+
+              <div>
+            <h2>Data License</h2>
+          <p class="lead">{%- if license_text -%}
+                               {%- if license_url -%}
+                                  <a href="{{license_url}}">{{license_text}}</a>
+                                 {%- else  -%}
+                                  {{ license_text }}
+                                {%- endif -%}
+                               {%- else  -%}
+                                 <em>Unknown</em>
+                              {%- endif -%}</p>
+          </div>
           </div>
       </div>
     </div>
