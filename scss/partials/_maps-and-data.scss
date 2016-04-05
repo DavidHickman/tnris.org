@@ -424,6 +424,7 @@ input.wms-url {
   }
 }
 
+
 .catalog-text-em {
   font-size: 22px;
 
@@ -435,4 +436,36 @@ input.wms-url {
 
 .data-access-meta {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+// TPWD 2015
+
+#data-catalog-entry-hpids-tpwd-2015-6in-1ft-nc-cir {
+  label.btn-urban {
+    .label-text {
+      display: none;
+    }
+
+    &:after {
+      content: "2015 Bastrop Burn Scars";
+    }
+  }
+
+  label.btn-detail {
+    .label-text {
+      display: none;
+    }
+
+    &:after {
+      content: "Powderhorn Ranch";
+    }
+  }
+
+  label.btn-natural {
+    .label-text {
+      display: none;
+    }
+
+    &:after {
+    content: "Hueco Tanks";
+  }
+}
 }
