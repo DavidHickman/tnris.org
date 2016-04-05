@@ -122,13 +122,13 @@ The DCS GIS Solutions Group is tasked with monitoring, managing, and marketing t
 
 The DCS GIS Solutions Group discussions include distribution and access to geographic data. Current topics and issues include the following:
 
-- Authoritative Sources – geographic data produced by trusted and reliable sources that are documented and managed by a credible designated authoritative source (state or local agency).
+- **Authoritative Sources** – geographic data produced by trusted and reliable sources that are documented and managed by a credible designated authoritative source (state or local agency).
 
-- Barriers to sharing – understanding existing barriers and resolving the challenges of data sharing through collaboration.
+- **Barriers to Sharing** – understanding existing barriers and resolving the challenges of data sharing through collaboration.
 
-- Statewide Address/Parcel Data – discussions center on the need for a statewide address and/or parcel dataset. The need is present but funding lacks. The DCS GIS Solutions Group is addressing the pros and cons of commercially licensed data vs. maintenance of a public domain dataset.
+- **Statewide Address/Parcel Data** – discussions center on the need for a statewide address and/or parcel dataset. The need is present but funding lacks. The DCS GIS Solutions Group is addressing the pros and cons of commercially licensed data vs. maintenance of a public domain dataset.
 
-- Enterprise data storage and access – a work in progress to determine the most cost-effective way to create an enterprise system that would allow storage and access to centrally stored geographic data ready to display in an OGC-compliant geographic information.
+- **Enterprise Data Storage and Access** – a work in progress to determine the most cost-effective way to create an enterprise system that would allow storage and access to centrally stored geographic data ready to display in an OGC-compliant geographic information.
 
 
 ****
