@@ -362,6 +362,15 @@ gulp.task('dist-metal', function () {
               }
             }
 
+            if (file.license) {
+              if (file.license === 'CC0') {
+                file.license_text = 'Public Domain (Creative Commons CC0)';
+                file.license_url = 'https://creativecommons.org/publicdomain/zero/1.0/';
+              } else if (file.license !== 'NA') {
+                file.license_text = file.license;
+              }
+            }
+
             if (!file['thumb_url']) {
               errors.breaking("Could not find required thumbnail image for data catalog entry: " + imageName);
             }
@@ -545,10 +554,10 @@ gulp.task('webpack-production', ['dist-metal'], function(callback) {
   var prodWebpackConfig = generateWebpackConfig();
   prodWebpackConfig.debug = false;
 
-	prodWebpackConfig.plugins = prodWebpackConfig.plugins.concat(
-		new webpack.optimize.DedupePlugin(),
-		new webpack.optimize.UglifyJsPlugin()
-	);
+  prodWebpackConfig.plugins = prodWebpackConfig.plugins.concat(
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.UglifyJsPlugin()
+  );
 
   webpack(prodWebpackConfig, function(err, stats) {
     checkWebpackErrors(err, stats);
@@ -574,7 +583,7 @@ gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
   process.env.NODE_ENV = 'development';
 
   var devWebpackConfig = generateWebpackConfig();
-	devWebpackConfig.devtool = "eval";
+  devWebpackConfig.devtool = "eval";
   devWebpackConfig.debug = true;
   devWebpackConfig.unsafeCache = ['.tmp'];
 
@@ -582,21 +591,21 @@ gulp.task('webpack-dev-server', ['dist-metal'], function(callback) {
     devWebpackConfig.entry[key].unshift('webpack-dev-server/client?http://localhost:' + devServerPort);
   });
 
-	// Start a webpack-dev-server
-	new WebpackDevServer(webpack(devWebpackConfig), {
-		contentBase: devWebpackConfig.output.path,
+  // Start a webpack-dev-server
+  new WebpackDevServer(webpack(devWebpackConfig), {
+    contentBase: devWebpackConfig.output.path,
     watchOptions: {
       aggregateTimeout: 300,
       poll: 1000
     },
     stats: {
-			colors: true
-		}
-	}).listen(devServerPort, "localhost", function(err) {
-		if(err) {
+      colors: true
+    }
+  }).listen(devServerPort, "localhost", function(err) {
+    if(err) {
       errors.breaking(err);
       throw new gutil.PluginError("webpack-dev-server", err)
     };
-		clog.info("webpack dev server started: http://localhost:" + devServerPort + "/");
-	});
+    clog.info("webpack dev server started: http://localhost:" + devServerPort + "/");
+  });
 });

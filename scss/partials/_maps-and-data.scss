@@ -43,13 +43,35 @@
 }
 
 .description {
-  font-weight: 300;
-  font-size: 20px;
   margin-bottom: 30px;
 
   h2 {
     margin-top: 0;
   }
+
+  p {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  table {
+    width: 100%;
+    tr {
+      &:nth-child(odd) {}
+      &:nth-child(even) {
+        background-color: $lightgrey;
+      }
+      td {
+        padding: 10px;
+        vertical-align: top;
+
+        &:first-child {
+          width: 30%;
+        }
+      }
+    }
+  }
+
 }
 
 #catalog-main-image {
@@ -90,20 +112,23 @@
 
   .data-callout {
     position: absolute;
+
     @media (max-width: $screen-sm-max) {
       position: relative;
     }
 
     bottom: 0px;
+    box-shadow: 0 -10px 5px rgba(0, 0, 0, 0.35);
     @include alpha-attribute("background-color", rgba($tnrisblue, 0.85), white);
     color: white;
-    padding: 0 20px;
-    padding-top: 0;
-    left: 0px;
-    width: 100%;
-    height: auto;
     font-size: 16px;
     font-weight: 300;
+    height: auto;
+    left: 0px;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
 
     th {
       font-weight: 600;
@@ -230,7 +255,11 @@
     text-transform: uppercase;
   }
   .btn {
-    margin-bottom: 40px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .input-group-btn .btn {
+    box-shadow: none;
   }
 }
 
@@ -246,7 +275,7 @@
         padding: 10px;
         vertical-align: top;
         &:first-child {
-          width: 50%;
+          width: 30%;
         }
       }
     }
@@ -418,6 +447,22 @@ input.wms-url {
   }
 }
 
+
+.catalog-text-em {
+  font-size: 22px;
+
+  strong {
+    font-style: italic;
+    font-weight: 700;
+  }
+}
+
+.data-deets {
+  li {
+    background: $lightgrey;
+  }
+}
+
 // TPWD 2015
 
 #data-catalog-entry-hpids-tpwd-2015-6in-1ft-nc-cir {
@@ -446,8 +491,14 @@ input.wms-url {
       display: none;
     }
 
-    &:after {
-    content: "Hueco Tanks";
+      &:after {
+      content: "Hueco Tanks";
+    }
   }
 }
+
+// breadcrumb
+.breadcrumb.cleanmargin {
+  margin-bottom: 0;
 }
+
