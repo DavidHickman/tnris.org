@@ -13,7 +13,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   <p class="lead-forum">
     For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector and take the opportunity to touch base with long-time colleagues – as well as make new connections.
   </p>
-  <p><a class="btn btn-lg btn-danger" href="{{m.link('2015-gis-forum/agenda')}}">View the Full Agenda</a></p>
+  <p><a class="btn btn-lg btn-danger" href="{{m.link('texas-gis-forum/2015/agenda')}}">View the Full Agenda</a></p>
   </div>
 <div class="col-sm-7 registration-box">
   <h3>Registration Fees</h3>
@@ -52,25 +52,25 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <p class="lead-forum">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, reknowned historians, and more.
     </p>
     <p class="lead-forum">
-      This year continues that record of exciting thinkers with Digital Humanitarian, <a href="{{m.link('2015-gis-forum/agenda#keynote-meier')}}">Patrick Meier</a>, UCGIS Fellow, <a href="{{m.link('2015-gis-forum/agenda#keynote-humphreys')}}">David Cowen</a>, and Aerospace Engineer, <a href="{{m.link('static/images/front-page/humphreys_square.jpg')}}">Todd Humphreys</a>.
+      This year continues that record of exciting thinkers with Digital Humanitarian, <a href="{{m.link('texas-gis-forum/2015/agenda#keynote-meier')}}">Patrick Meier</a>, UCGIS Fellow, <a href="{{m.link('texas-gis-forum/2015/agenda#keynote-humphreys')}}">David Cowen</a>, and Aerospace Engineer, <a href="{{m.link('static/images/front-page/humphreys_square.jpg')}}">Todd Humphreys</a>.
     </p>
   </div>
   <div class="col-sm-5">
     <div class="row keynote-feature">
       <div class="col-xs-4">
-        <a href="{{m.link('2015-gis-forum/agenda#keynote-meier')}}">
+        <a href="{{m.link('texas-gis-forum/2015/agenda#keynote-meier')}}">
           <img alt="Patrick Meier Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/patrick_square.jpg')}}">
           <h3><small>Digital Humanitarian</small><br>Patrick <br class="hidden-xs">Meier</h3>
         </a>
       </div>
       <div class="col-xs-4">
-        <a href="{{m.link('2015-gis-forum/agenda#keynote-cowen')}}">
+        <a href="{{m.link('texas-gis-forum/2015/agenda#keynote-cowen')}}">
           <img alt="David Cowen Small Headshot" class="img-responsive img-circle" src="{{m.link('static/images/front-page/cowen_square.jpg')}}">
           <h3><small>UCGIS Fellow</small><br>David <br class="hidden-xs">Cowen</h3>
         </a>
       </div>
       <div class="col-xs-4">
-        <a href="{{m.link('2015-gis-forum/agenda#keynote-humphreys')}}">
+        <a href="{{m.link('texas-gis-forum/2015/agenda#keynote-humphreys')}}">
           <img alt="Todd Humphreys Small Headshot"  class="img-responsive img-circle" src="{{m.link('static/images/front-page/humphreys_square.jpg')}}">
           <h3><small>UT Professor</small><br>Todd <br class="hidden-xs">Humphreys</h3>
         </a>
@@ -81,18 +81,18 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 
 <div class="row">
   <div class="col-sm-4">
-    <a href="{{m.link('2015-gis-forum/agenda#DayOne_1800')}}"><img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2015/punchbowl.jpg')}}" alt="A montage of images from Punch Bowl Social, Bowling, Beer Tap, Sandwich"></a>
+    <a href="{{m.link('texas-gis-forum/2015/agenda#DayOne_1800')}}"><img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2015/punchbowl.jpg')}}" alt="A montage of images from Punch Bowl Social, Bowling, Beer Tap, Sandwich"></a>
     <h3>Forum Social at Punch Bowl Social<small><br>Sponsored by CartoDB</small></h3>
     <p>Great Food, Drinks, and Fun! Bring your badge to get two drink tickets and use reserved bowling, darts, and ping-pong! Bring quarters to play classic arcade games!</p>
-    <p><a class="btn btn-md btn-danger" href="{{m.link('2015-gis-forum/agenda#DayOne_1800')}}">More about the Social</a></p>
+    <p><a class="btn btn-md btn-danger" href="{{m.link('texas-gis-forum/2015/agenda#DayOne_1800')}}">More about the Social</a></p>
   </div>
 
   <div class="col-sm-4">
 
-    <a href="{{m.link('2015-gis-forum/job-board')}}"><img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2015/sticky_job.jpg')}}" alt="A sticky note with handwritten Now Hiring!"></a>
+    <a href="{{m.link('texas-gis-forum/2015/job-board')}}"><img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2015/sticky_job.jpg')}}" alt="A sticky note with handwritten Now Hiring!"></a>
     <h3>Forum Job Board</h3>
-    <p>We'll have a job board with GIS job openings from Forum sponsors, exhibitors, and anyone else wanting to tap the talent at the forum. If your organization has an open GIS-related position, <a href="{{m.link('2015-gis-forum/job-board')}}">contact us</a>.</p>
-    <p><a class="btn btn-md btn-danger" href="{{m.link('2015-gis-forum/job-board')}}">Submit a Job Opening</a></p>
+    <p>We'll have a job board with GIS job openings from Forum sponsors, exhibitors, and anyone else wanting to tap the talent at the forum. If your organization has an open GIS-related position, <a href="{{m.link('texas-gis-forum/2015/job-board')}}">contact us</a>.</p>
+    <p><a class="btn btn-md btn-danger" href="{{m.link('texas-gis-forum/2015/job-board')}}">Submit a Job Opening</a></p>
   </div>
   <div class="col-sm-4">
     <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2015/meetup.jpg')}}" alt="People holding drinks and smiling with Meetup logo on top"></a>

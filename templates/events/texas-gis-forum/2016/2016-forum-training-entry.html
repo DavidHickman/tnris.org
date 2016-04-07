@@ -1,0 +1,110 @@
+
+{% extends "base.html" %}
+{% import "_form_macros.html" as form %}
+
+
+{% block styles %}
+  {% parent %}
+
+  {{form.styles()}}
+{% endblock styles %}
+
+{% block scripts %}
+  {% parent %}
+
+  {{form.scripts()}}
+{% endblock scripts %}
+
+
+
+{% block topcontent %}
+<div id="_2015-forum-container">
+  <div class="container-fluid full">
+
+      <div class="top-container">
+          <div class="hidden-sm hidden-xs">
+            <img src="{{m.link('static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg')}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
+          <div class="hidden-xs hidden-md hidden-lg">
+            <img src="{{m.link('static/images/texas-gis-forum/2015/small-web-banner.jpg')}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
+          <div class="hidden-sm hidden-md hidden-lg">
+            <img src="{{m.link('static/images/texas-gis-forum/2015/xs-banner.jpg')}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
+      </div>
+  </div>
+
+{% endblock topcontent %}
+
+{% block contents %}
+
+{% include "./partials/2015-forum/forum-nav-2015.html" %}
+
+  <div class="row">
+    <div class="col-sm-8">
+      <h1 class="training-title">{{class_title}}</h1>
+      <div class="training-date">
+        <strong>
+          <span class="glyphicon glyphicon-calendar"></span>
+          {% if day == 1 %}
+            Monday, October 26th
+          {% endif %}
+          {% if day == 2 %}
+            Tuesday, October 27th
+          {% endif %}
+        </strong>,
+        <span class="glyphicon glyphicon-time"></span> {{time}}
+      </div>
+      <div class="forum-training-location">
+        <strong><i class="glyphicon glyphicon-pushpin"></i> Location:</strong> {{location}}
+      </div>
+      <div class="row training-header">
+        <div class="col-xs-6 col-sm-7">
+          Taught by:<br>
+          <span class="glyphicon glyphicon-user"></span> {{instructor}}</div>
+        <div class="col-xs-3 col-sm-3">
+          Cost:<br>
+          {{cost}}</div>
+        <div class="col-xs-3 col-sm-2">
+          Status:<br>
+          {{status}}</div>
+      </div>
+      <div class="lead">
+        {% if course_image %}
+          <img class="course-image pull-right" src="{{m.link('static/images/training/course-images/' + course_image)}}" alt="courseimagealt">
+        {% endif %}
+        {{contents|safe}}
+      </div>
+    </div>
+    <div class="col-sm-4">
+      {% block sidebarLeft %}
+       <!--   {% if status == "CLOSED" %}
+         <div class="alert alert-danger" role="alert"><strong>Note:</strong> All available spots in this course have been filled and registration is closed.</div>
+        {% else %}
+        <a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1725172" class="btn btn-danger btn-lg btn-block">Register For Forum Training</a>
+        {% endif %} -->
+
+
+          <p style="font-size: 18px;"><em><strong>Online Registration is now closed.</strong> On-site registration will be available at the Conference starting Wednesday morning.</em></p>
+
+      {% endblock sidebarLeft %}
+    </div>
+  </div>
+</div>
+{% endblock contents %}
+
+{% block contents-two %}
+<section class="forum-map">
+    <div class="container">
+        <div class="row">
+                {% include "./partials/2015-forum/forum-map.html" %}
+        </div>
+    </div>
+</section>
+<section class="forum-sponsors">
+  {% include "./partials/2015-forum/2015-forum-sponsors.html" %}
+</section>
+
+{% endblock contents-two %}
+
+

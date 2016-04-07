@@ -1,0 +1,125 @@
+@import "variables";
+
+#_2016-forum-container {
+  position: relative;
+
+  img {
+    position: relative;
+  }
+
+  .well {
+    margin-top: 30px;
+  }
+
+  .keynote-feature {
+    margin-top: 55px;
+  }
+
+  ._2015-forum-intro {
+    color: white;
+    font-size: 20px;
+    min-height: 150px;
+    padding: 30px 0;
+
+    .lead {
+      font-size: 28px;
+      margin-bottom: 0;
+      text-shadow: 1px 1px 1px $darkgrey;
+      max-width: 300px;
+    }
+
+    .btn-lg {
+      font-size: 16px;
+
+      @media (min-width: $screen-sm) {
+        font-size: 20px;
+         min-width: 300px;
+      }
+    }
+  }
+
+  h2 {
+    color: $forum2015blue;
+  }
+
+  .training-list {
+
+    .forum-course {
+    border-bottom: 1px solid $midlightgrey;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+  .forum-training-header {
+    background: $white;
+    margin-bottom: 10px;
+
+      i {
+        float: left;
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+      }
+
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+
+ .container-fluid.full {
+    margin-bottom: 0;
+
+      img.banner {
+        min-width: 100%;
+        display: block;
+      }
+
+      .forum-logo-container {
+        position: relative;
+        top: 0;
+    }
+
+     .top-container {
+       margin-bottom: 0;
+       position: relative;
+
+        .top-header h2 {
+          color: $white;
+        }
+     }
+  }
+}
+
+.forum-2016-brand-container {
+  background: $darkergreyrbga;
+  color: $white;
+  font-size: 30px;
+  font-weight: 300;
+  height: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  vertical-align: middle;
+  z-index: 1000;
+
+  img {
+    min-width: auto !important;
+  }
+
+  .forum-brand {
+    background: url('../static/images/texas-gis-forum/2016/logo_lg.png');
+    display: inline-block;
+    height: 52px;
+    margin-right: 40px;
+    text-indent: -9999px;
+    width: 400px;
+  }
+}

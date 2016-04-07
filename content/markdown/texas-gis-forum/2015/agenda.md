@@ -21,7 +21,7 @@ Note: Agenda and speakers subject to change without notice.
 8:00 a.m - 5:00 p.m.
 </div>
 <div class="col-sm-9">
-<h3><a href="{{ m.link('2015-gis-forum/training')}}">Pre-conference Training</a></h3>
+<h3><a href="{{ m.link('texas-gis-forum/2015/training')}}">Pre-conference Training</a></h3>
 </div>
 </div>
 
@@ -31,7 +31,7 @@ Note: Agenda and speakers subject to change without notice.
 8:00 a.m - 5:00 p.m.
 </div>
 <div class="col-sm-9">
-<h3><a href="{{ m.link('2015-gis-forum/training')}}">Pre-conference Training</a></h3>
+<h3><a href="{{ m.link('texas-gis-forum/2015/training')}}">Pre-conference Training</a></h3>
 </div>
 </div>
 <div class="row agenda-bg">

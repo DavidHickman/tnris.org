@@ -8,7 +8,7 @@ abstract:
     Thank you for making the 2015 Texas GIS Forum another great one.
 tags: forum
 ---
-Thank you to all the attendees, presenters and sponsors who made the [2015 Texas GIS Forum](2015-gis-forum) another successful event! TNRIS was proud to host all of you and make this important gathering happen again for the 28th year in a row.
+Thank you to all the attendees, presenters and sponsors who made the [2015 Texas GIS Forum](texas-gis-forum/2015/index) another successful event! TNRIS was proud to host all of you and make this important gathering happen again for the 28th year in a row.
  
 Your support contributed to a record number of sponsors and overall attendance. Participation in the workshops, general sessions, and social event reached an all-time high of over 800 registrations.  Clearly the GIS Community in Texas is very much alive and well! 
 
@@ -16,7 +16,7 @@ Whether digging into the [Augmented Reality sandbox](news/2015-11-05-digging-int
  
 We’re reviewing the evaluations that so many of you completed. Your feedback is important to us and will be added to the planning for the 2016 Texas GIS Forum. 
 
-Visit the [agenda](2015-gis-forum/agenda) to view links to available presentations, and check back soon as we post video from the Keynotes in the coming weeks. See you next year!
+Visit the [agenda](texas-gis-forum/2015/agenda) to view links to available presentations, and check back soon as we post video from the Keynotes in the coming weeks. See you next year!
 
 ---
 
