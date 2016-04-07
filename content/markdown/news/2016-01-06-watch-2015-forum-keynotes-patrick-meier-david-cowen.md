@@ -9,7 +9,7 @@ abstract:
 tags: texas gis forum, keynote, patrick meier, david cowen
 ---
 
-If you didn't make it to the [Texas GIS Forum](2015-gis-forum), or attended and want to revisit the ideas and stories shared by our engaging keynote speakers, video is now available of Patrick Meier and David Cowen's exciting talks.
+If you didn't make it to the [Texas GIS Forum](texas-gis-forum/2015/index), or attended and want to revisit the ideas and stories shared by our engaging keynote speakers, video is now available of Patrick Meier and David Cowen's exciting talks.
 
 We hope that you enjoy learning from these important leaders in their respective fields. Join us again this year and save the date for 2016 Texas GIS Forum, taking place from **October 24 to October 27th**. See you there!
 

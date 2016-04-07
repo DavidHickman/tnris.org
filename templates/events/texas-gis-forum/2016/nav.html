@@ -1,0 +1,24 @@
+<nav class="navbar navbar-inverse forum-bar">
+  <div class="container">
+    <ul class="nav navbar-nav">
+        <li {% if (path === 'texas-gis-forum/2016/index') %}class="active"{% endif %}>
+          <a href="{{ m.link('texas-gis-forum/2016/index')}}">Welcome</a>
+        </li>
+        <!-- <li {% if (path === 'texas-gis-forum/2016/index') %}class="active"{% endif %}>
+          <a href="{{ m.link('texas-gis-forum/2016/agenda')}}">Agenda</a>
+        </li> -->
+       <!--  <li {% if (path === 'texas-gis-forum/2016/training') %}class="active"{% endif %}>
+          <a href="{{ m.link('texas-gis-forum/2016/training')}}">Training</a>
+        </li> -->
+        <li {% if (path === 'texas-gis-forum/2016/call-for-papers') %}class="active"{% endif %}>
+          <a href="{{ m.link('texas-gis-forum/2016/call-for-papers')}}">Call For Papers</a>
+        </li>
+        <li {% if (path === 'texas-gis-forum/2016/poster-gallery') %}class="active"{% endif %}>
+          <a href="{{ m.link('texas-gis-forum/2016/poster-gallery')}}">Poster Gallery &amp; Contest</a>
+        </li>
+        <!-- <li {% if (path === 'texas-gis-forum/2016/sponsors-and-exhibitors') %}class="active"{% endif %}>
+          <a href="{{ m.link('texas-gis-forum/2016/sponsors-and-exhibitors')}}">Sponsors &amp; Exhibitors</a>
+        </li> -->
+      </ul>
+  </div>
+</nav>

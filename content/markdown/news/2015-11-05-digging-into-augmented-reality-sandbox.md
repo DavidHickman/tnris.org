@@ -12,7 +12,7 @@ abstract:
 tags: forum
 ---
 
-After the success of the [Google Liquid Galaxy](http://www.google.com/earth/explore/showcase/liquidgalaxy.html) display at the [2014 Texas GIS Forum](2014-gis-forum), it was clear to Richard Wade, Director of TNRIS, how much interactive exhibits enriched the forum experience. After discovering the **Augmented Reality Sandbox** though online sources, he knew that that this visually dynamic and tactile exhibit was exactly what we wanted to bring to the [**2015 Texas GIS Forum**](2015-gis-forum). With this goal, plans were set in to motion to develop our own Virtual Sandbox, made possible by the open source community who brought the original idea to life.
+After the success of the [Google Liquid Galaxy](http://www.google.com/earth/explore/showcase/liquidgalaxy.html) display at the [2014 Texas GIS Forum](texas-gis-forum/2014/index), it was clear to Richard Wade, Director of TNRIS, how much interactive exhibits enriched the forum experience. After discovering the **Augmented Reality Sandbox** though online sources, he knew that that this visually dynamic and tactile exhibit was exactly what we wanted to bring to the [**2015 Texas GIS Forum**](texas-gis-forum/2015/index). With this goal, plans were set in to motion to develop our own Virtual Sandbox, made possible by the open source community who brought the original idea to life.
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/UTB1roPJ4mc" frameborder="0" allowfullscreen></iframe>
 
