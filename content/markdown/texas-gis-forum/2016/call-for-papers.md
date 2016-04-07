@@ -3,8 +3,8 @@ template: events/texas-gis-forum/2016/sub.html
 title: Call for Papers
 subtitle: Call for Presentations
 mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
-mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
-mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
+mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
+mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
 abstract: Share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry. 
 button: callforpapers
 button_link: https://www.surveymonkey.com/r/PXZJBDP
