@@ -2,8 +2,8 @@
 title: "Forum Poster Gallery & Contest"
 template: events/texas-gis-forum/2016/sub.html
 mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
-mainimagesm: static/images/texas-gis-forum/2015/small-web-banner.jpg
-mainimagexs: static/images/texas-gis-forum/2015/xs-banner.jpg
+mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
+mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
 abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
 intro: true
 body_class: poster-gallery
