@@ -81,6 +81,30 @@ h2 {
   }
 }
 
+.btn-treegreen {
+  color: white;
+  background-color: $treegreen;
+  border-color: $forestgreen;
+  box-shadow: inset $forestgreen 0 0 7px;
+
+  &:hover {
+    background: $forestgreen;
+    color: white;
+  }
+}
+
+.btn-purpblue {
+  color: white;
+  background-color: $facebook;
+  border-color: $purpblue;
+  box-shadow: inset $purpblue 0 0 7px;
+
+  &:hover {
+    background: $purpblue;
+    color: white;
+  }
+}
+
 .btn {
   &.active {
     pointer-events: none;

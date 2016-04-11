@@ -1,8 +1,8 @@
 ---
-template: 2015-forum.html
+template: events/texas-gis-forum/2016/sub.html
 title: Sponsors & Exhibitors
-subtitle: Texas GIS Forum | October 26th – 29th, 2015
-mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
+subtitle: Texas GIS Forum | October 24th-27th, 2016
+mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
 mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
 mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
 intro: true
@@ -11,7 +11,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 
 ## Sponsors & Exhibitors
 
-<p class="lead"> TNRIS is pleased to invite you to participate in our 2015 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
+<p class="lead"> TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
 
 ### Participating as a Sponsor and Exhibitor will:
 
@@ -29,18 +29,9 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - On-site promotions
 - Technical demos
 
-<!-- <div class="panel panel-danger">
-	<div class="panel-heading">
-		<h3 class="panel-title">Important Note</h3>
-	</div>
-	<div class="panel-body">
-		This information is for reference purposes only. Note that these prices and promotions are only valid for the 2014 forum and are liable to change for current or upcoming forums.
-	</div>
-</div> -->
-
 <a href="{{m.link('static/documents/2015-forum/Rules-and-Regulations-2015.pdf')}}" class="btn btn-danger btn-lg"><i class="glyphicon glyphicon-chevron-right"></i> Download the Sponsor Rules &amp; Regulations</a>
 
-## Platinum Sponsor/Exhibitor ($4,000 - limit 3)
+## Platinum Sponsor/Exhibitor ($5,000 - limit 3)
 
 ### Includes:
 
@@ -61,7 +52,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - Prominently placed Logo printed on the Forum program given to all attendees
 - Your corporate print marketing materials added to the forum packet for all attendees
 
-## Gold Sponsor/Exhibitor ($2,500)
+## Gold Sponsor/Exhibitor ($3,000)
 
 ### Includes:
 
@@ -77,7 +68,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - Color Logo printed on the Forum agenda program given to all attendees.
 - Your corporate marketing materials added to the forum packet for all attendees.
 
-## Silver Sponsor/Exhibitor ($1500)
+## Silver Sponsor/Exhibitor ($2000)
 ### Includes:
 
 - Desirable location 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
