@@ -46,4 +46,4 @@ The deadline for abstracts is May 27th, 2016.
 
 Applicants will be notified of abstract acceptance and will receive additional instructions by email no later than June 24th, 2016.
 
-For inquiries, please contact **Kathy Wilson at [kwilson@cmpmanagement.com](mailto:kwilson@cmpmanagement.com) or 512-258-7474**.
+For inquiries, please contact **Kathy Wilson at [kwilson@cmpmanagement.com](mailto:kwilson@cmpmanagement.com)** or **512-314-8080**.
