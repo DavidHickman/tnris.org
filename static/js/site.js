@@ -28,7 +28,8 @@ var Clipboard = require('clipboard/dist/clipboard.js');
 
     // Beta/development alert message
     if (window.location.hostname !== 'tnris.org') {
-      $('.beta-alert').removeClass('hide')
+      $('.alert-holder')
+        .html('<div class="alert alert-warning beta-alert text-center"><strong>Warning!</strong> You are currently viewing a development version of the TNRIS website. For the official version, go to <a href="http://tnris.org">http://tnris.org</a>.</div>');
     }
 
     // from http://zenorocha.github.io/clipboard.js/assets/scripts/tooltips.js
