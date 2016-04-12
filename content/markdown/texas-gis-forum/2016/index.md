@@ -30,8 +30,9 @@ abstract: Save the date for the Texas GIS Forum, the state's premiere conference
 <div class="col-sm-4">
   <h3>Forum Keynote</h3>
     <img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2016/ballard_feature.jpg')}}" alt="headshot of Robert Ballard">
-    <h2>Robert Ballard, Oceanographer</h2>
+    <h2><a href="{{m.link('/news/2016-04-11-robert-ballard-discoverer-titanic-wreck-keynote-2016-gis-forum')}}">Robert Ballard, Oceanographer</a></h2>
     <p>Professor of Oceanography, Robert Ballard, who discovered the final resting place of the Titanic and many other shipwrecks, will be a keynote at this year's GIS Forum.</p>
+    <p><a href="{{m.link('/news/2016-04-11-robert-ballard-discoverer-titanic-wreck-keynote-2016-gis-forum')}}">Read More</a></p>
   </div>
 </div>
 
