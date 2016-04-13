@@ -10,7 +10,7 @@ tags: stratmap, hpids, dir
 ---
 <figure class="pull-right">
 <img src="{{m.link('static/images/updates/2016/eastaustin_topo_sample.jpg')}}" alt="a sample of the new topo maps, east austin with imagery">
-<figcaption></figcaption>
+<figcaption>2015 East Austin Quad topo map with aerial imagery underneath.</figcaption>
 </figure>
 <p class="lead">
  The United States Geological Survey (USGS) released the third generation of US Topo topographic maps for Texas, complete with TIGER road data. US Topo maps are the modern successor to the original USGS 7.5 – minute quadrangle maps once distributed by print only from 1947 to 1992. The US Topo maps have been produced by the USGS National Geospatial Program since 2012. All 4,442 maps covering the state of Texas are available at no charge from the [USGS Map Locator & Downloader](http://store.usgs.gov/b2c_usgs/usgs/maplocator/(ctype=areaDetails&xcm=r3standardpitrex_prd&carea=%24ROOT&layout=6_1_61_48&uiarea=2) or [The National Map website](http://nationalmap.gov/).</p>

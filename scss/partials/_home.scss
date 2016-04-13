@@ -62,7 +62,8 @@ h2.forum-title-front {
 
 
 .main-image-front {
-  position: relative;
+  overflow: hidden;
+  width: 100%;
 
   @media (max-width: $screen-sm) {
     min-height: 360px;
@@ -603,17 +604,18 @@ h2.keynote-title-front {
   padding: 0;
   position: absolute;
   text-shadow: 0 0 4px black;
-  width: 100%;
 
   @media (min-width: $screen-sm) {
-    bottom: 65px;
+    bottom: 30%;
     font-size: 50px;
+    padding-left: 25%;
   }
 
    @media (min-width: $screen-md) {
     bottom: 100px;
     font-size: 50px;
     left: 200px;
+    padding-left: 0;
   }
 
   @media (min-width: $screen-lg) {
