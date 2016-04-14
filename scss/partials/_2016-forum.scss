@@ -123,3 +123,18 @@
     width: 400px;
   }
 }
+
+.media.keynote-speaker {
+  h3 {
+    font-size: 30px;
+
+    small {
+      font-size: 20px;
+    }
+  }
+
+  img {
+  border: 5px solid $forum2015blue;
+  max-width: 200px;
+  }
+}
