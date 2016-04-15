@@ -6,7 +6,10 @@ mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
 mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
 mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
 intro: true
-abstract: Partner with Texas's Premiere gathering for the Geospatial Professionals to reach your customers and your community.
+button: sponsors
+button_link: https://www.surveymonkey.com/s/HZQZM8D
+button_text: Become a Sponsor
+abstract: Partner with premiere gathering in Texas for the Geospatial Professionals to reach your customers and your community.
 ---
 
 TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.
@@ -29,47 +32,51 @@ TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Aus
 
 <a href="{{m.link('static/documents/2016-forum/2016-gis-forum-sponsor-rules-and-regulations.pdf')}}" class="btn btn-danger btn-lg"><i class="glyphicon glyphicon-chevron-file"></i> Download the Sponsor Rules &amp; Regulations</a>
 
+*****
+
 ## Platinum Sponsor/Exhibitor ($5,000 - limit 3)
 
 ### Includes:
 
-- Premium location of a 10x20 exhibit space (with carpet, electricity), 1 draped table, 2 chairs, trash receptacle and wireless internet access. Note: 10x10 booth space available upon request
+Premium location of a 10x20 exhibit space (with carpet, electricity), 1 draped table, 2 chairs, trash receptacle and wireless internet access. Note: 10x10 booth space available upon request
 
 ### Promotions Include:
 
-- Optional **5-minute on-stage welcoming** or **opening statement** prior to keynote address.
+- **5-minute on-stage welcoming** or **opening statement** prior to keynote address (Optional).
 - **Verbal and visual recognition of sponsorship** during opening remarks and throughout the Forum
-- Up to **five (5) free registrations** for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
-- Option of a **1-hour uncontested presentation slot to demonstrate products** and services (2 available) or Exclusive Sponsorship of the Social Event.
+- **Five (5) free registrations** for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
+- **1-hour uncontested presentation slot to demonstrate products** and services (2 available) or **Exclusive Sponsorship of the Social Event**. The choice of one of these three options is on a first-come first-serve basis and is optional.
 - **Large Logo on Forum sponsorship banner** prominently displayed in the Exhibit Hall.
 - **Prominent placement of the corporate logo** on the front page of the TNRIS web site.
-- **Prominent placement of the corporate logo** (with Links to corporate website) on the front page of the FORUM website.
+- **Prominent placement of the corporate logo** (with Links to corporate website) on the front page of the Forum website.
 - **Promotional article** announcing your sponsorship on the front page of the Forum website.
 - **Logo featured prominently** on stage, general signage, and all promotional materials.
 - **Prominently placed Logo** printed on the Forum program given to all attendees.
-- Your corporate print **marketing materials added to the forum packet** for all attendees
+- **Your corporate print marketing materials added** to the forum packet for all attendees
 
+*****
 
 ## Gold Sponsor/Exhibitor ($3,500)
 
 ### Includes:
 
-- Highly desirable location of a 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
+Highly desirable location of a 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
 
 ### Promotions Include:
 
 - **Verbal and Visual recognition** of your sponsorship during opening remarks at the Forum. 
-- Up to **Three (3) free registrations** for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
+- **Three (3) free registrations** for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
 - **Large Logo on Forum sponsorship banner** prominently displayed in the Exhibit Hall.
 - **Placement of the corporate logo** (with links to corporate website) on the FORUM website.
-- Color **Logo printed on the Forum agenda program** given to all attendees.
-- Your corporate **marketing materials added to the forum packet** for all attendees.
+- **Logo printed on the Forum agenda program** given to all attendees.
+- **Your corporate marketing materials added** to the forum packet for all attendees.
 
+*****
 
 ## Silver Sponsor/Exhibitor ($2,500)
 ### Includes:
 
--  Desirable location 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
+Desirable location 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
 
 ### Promotions Include:
 
@@ -78,27 +85,34 @@ TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Aus
 - **Logo on Forum sponsorship banner** displayed in the Exhibit Hall.
 - **Logo on Forum website**
 
+*****
+
 ## Exhibitor Only ($1,500 – Limit 10)
 
 **Note: Some Conditions do apply**
 
 ### Includes:
 
-- 10x10 exhibit space (with electricity), draped table, 2 chairs, and trash receptacle.
+10x10 exhibit space (with electricity), draped table, 2 chairs, and trash receptacle.
+
+### Promotions Include:
 - **One (1) free registration** to all forum functions including presentations, breaks, lunches, and social events.
 - **Name printed on the Forum agenda** program given to all attendees
 - **Listing on Forum website**
 
 *Exhibitor Only option is reserved for small businesses or start-up companies with less than 25 employees, $2 million in annual revenue, or have been in existence for less than two years.*
 
-## Additional Sponsor Options
+*****
+
+<h2><small>New This Year!</small><br>Additional Sponsor Options</h2>
+
 <p class="lead">Exclusive sponsorship of any of the options below include your logo printed and posted during the event timeframe. You also receive honorable mention in the conference program as well as verbal recognition.  </p>
 
 **Note:** Companies do not need to be a selected sponsor level (Platinum, Gold, or Silver) in order to sponsor any of the options below. Sponsoring an option below by itself does not qualify you for a designated sponsor level. Platinum, Gold & Silver level sponsors can purchase the additional options below.    
 
  
 ### Sponsor a Breakfast
-<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/breakfast.jpg')}}">Breakfast sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
+<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/breakfast.jpg')}}">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
 
 - Wednesday - $750
 - Thursday - $750
@@ -107,7 +121,7 @@ TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Aus
 
 ### Sponsor a Coffee Break
 
-<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/coffee.jpg')}}"> Coffee break sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
+<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/coffee.jpg')}}"> During the Coffee break, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
 
 - Wednesday AM - $500
 - Wednesday PM - $500
@@ -117,7 +131,7 @@ TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Aus
 ****
  
 ### Sponsor a Lunch
-<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/lunch.jpg')}}">Lunch sponsor has the opportunity to place giveaway items on the lunch tables.</p>
+<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/lunch.jpg')}}">During Lunch, sponsors will be recognized with prominently displayed posters. Sponsor has the opportunity to place giveaway items on the lunch tables.</p>
 
 - Wednesday - $750
 - Thursday - $750
@@ -127,7 +141,7 @@ TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Aus
 ### Sponsor a Keynote  
 <p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/podium.jpg')}}">Keynote sponsor has the opportunity to introduce the speaker.</p>
 
-- Wednesday - Robert Ballard, Oceanographer - $2500
+- Wednesday - Robert Ballard - $2500
 - Thursday Morning - $1500
 - Thursday Afternoon - $1500
 
