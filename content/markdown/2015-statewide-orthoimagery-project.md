@@ -11,8 +11,8 @@ status_image_buyup: 20161516_buyups.jpg
 status_image_buyup_preview: 20161516_buyups_sm.jpg
 production_image: 20160212_production.jpg
 production_image_preview: 20160212_production_sm.jpg
-doqq_image: 20160411_doqq_availability.jpg
-doqq_image_preview: 20160411_doqq_availability_sm.jpg
+doqq_image: 20160418_doqq_availability.jpg
+doqq_image_preview: 20160418_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
 latest_report: Weekly_Status_Report_021216_A.pdf
