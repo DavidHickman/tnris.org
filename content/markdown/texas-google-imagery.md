@@ -9,17 +9,12 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 ## How can Google Imagery help my organization?
 The Texas Google Imagery Service serves 6-inch, natural color imagery for the State of Texas.
  
-It provides state organizations with a current and consistent data source while offering the highest resolution imagery available for any statewide program through an OGC compliant Web Mapping Service (WMS).
+It provides state organizations with a current and consistent data source while offering the highest resolution imagery available for any statewide program through an OGC compliant Web Map Service (WMS) and Web Map Tile Service (WMTS).
  
-Google hosts the Google imagery service through the Google Maps Engine.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving terabytes of data.
+Google hosts the Google imagery service through its latest Google Cloud Platform technology.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving terabytes of data.
 
 ## How is the Google Imagery Service different from the imagery seen in Google Earth and Google Maps?
-The Google Imagery Service has a higher level of positional accuracy (~0.5m) because it has been reprocessed using existing ground control points where available (mostly in high density urban areas). Imagery can be downloaded for on-premise use and archiving (coming soon). The Google Imagery Service can be used in all state and local government web applications without an API key, including those applications that are not public facing or require a login. The Google Imagery Service can be used to derive data and the imagery can be incorporated into base map tiles, etc without restriction.
-
-## How will this project initiative be impacted in light of Google’s recent announcement that Google Maps Engine (GME) will be turned off early next year?
-A GME-based WMS service is how the most current imagery service is being delivered to Texas for acceptance testing. That service is expected to be replaced with a WMS and WMTS (tile service) hosted on the Google Cloud Platform (GCP) in the coming months. The GIS Solutions Group will select a software application to serve the imagery from GCP from among the existing commercial and open-source choices such as ArcGIS Server, MapProxy, or Geoserver.
-
-At this point we see the GCP option as being superior to the GME platform as it gives us more control, flexibility, and potential cost-savings. Initial access to the service will be via a temporary WMS URL. In a few months, the temporary URL would be need to be replaced with links that use the new GCP-based service.
+The Google Imagery Service has a higher level of positional accuracy (~0.5m) because it has been reprocessed using existing ground control points where available (mostly in high density urban areas). Imagery can be downloaded for on-premise use and archiving under a perpetual license agreement. The Google Imagery Service can be used in all state and local government web applications without an API key, including those applications that are not public facing or require a login. The Google Imagery Service can be used to derive data and the imagery can be incorporated into base map services, etc., without restriction.
 
 ## Who can use the Google Imagery Services?
 The Texas Google Imagery Service is a restricted license and is only for use by public organizations in the State of Texas (ie. state, regional and local governments).  Contractors for any public organization are permitted to use the imagery as long as the project or program being performed directly supports the public organization. 
@@ -28,6 +23,7 @@ Rights to use the imagery terminate upon completion of work by the outside entit
 
 ## How will maintenance and imagery update costs be covered in the future?
 During the pilot year, which extends through March 2016, the GIS Solutions Group will review options for a fair and reasonable cost-recovery model using usage metrics and other factors. The more that play the less we all pay.
+UPDATE - The Google Imagery Pilot project has been extended through August 21, 2017.
  
 ## I don’t use the Google Maps API, how can I incorporate the services into my tools and applications?
 Google Maps API provides access to the rich mapping content services from Google. Maps API is a commercial product that requires licensing based on quantities of use but is not required to access the Google Imagery Service.
