@@ -23,7 +23,8 @@ Rights to use the imagery terminate upon completion of work by the outside entit
 
 ## How will maintenance and imagery update costs be covered in the future?
 During the pilot year, which extends through March 2016, the GIS Solutions Group will review options for a fair and reasonable cost-recovery model using usage metrics and other factors. The more that play the less we all pay.
-UPDATE - The Google Imagery Pilot project has been extended through August 21, 2017.
+
+**UPDATE** - The Google Imagery Pilot project has been extended through August 21, 2017.
  
 ## I don’t use the Google Maps API, how can I incorporate the services into my tools and applications?
 Google Maps API provides access to the rich mapping content services from Google. Maps API is a commercial product that requires licensing based on quantities of use but is not required to access the Google Imagery Service.
