@@ -6,7 +6,7 @@ abstract: The RDC offers a variety of additional products, support and services 
 
 ### TNRIS Research and Distribution Center
 
-  The Research and Distribution Center(RDC) was established to facilitate the public's need to access datasets not readily available through our website. The RDC is the physical repository of historical imagery, maps, reports and publications.   Historical imgagery within the archive dates back to 1927(.
+  The Research and Distribution Center(RDC) was established to facilitate the public's need to access datasets not readily available through our website.  The RDC is the physical repository of historical imagery, maps, reports and publications.   Historical imgagery within the archive dates back to 1927 with historical topo and planning maps dating back to 1890. 
 
 ##RDC services include: 
 * Reproductions, digital conversion, and spatial referencing of historical maps and aerial imagery
