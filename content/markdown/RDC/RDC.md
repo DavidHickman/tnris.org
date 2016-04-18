@@ -6,14 +6,13 @@ abstract: The RDC offers a variety of additional products, support and services 
 
 ### TNRIS Research and Distribution Center
 
-  The Research and Distribution Center(RDC) was established to facilitate the public need to access datasets not readily available through other means. The RDC is the physical repository of historical imagery, maps, reports and publications.   
+  The Research and Distribution Center(RDC) was established to facilitate the public's need to access datasets not readily available through our website. The RDC is the physical repository of historical imagery, maps, reports and publications.   Historical imgagery within the archive dates back to 1927(.
 
-* Statewide collection, duplication, and distribution of maps from government partners such as USGS Topography, USFWS Wetlands, and the FEMA Flood Insurance Rate program
-* Reproductions of historical maps and aerial imagery
+##RDC services include: 
+* Reproductions, digital conversion, and spatial referencing of historical maps and aerial imagery
 * Custom mapping using TNRIS datasets
-* Digital data distribution including high resolution orthoimagery and Lidar data on DVDs, thumb drives, external hard drives and via FTP
-* Staff assistance in locating natural resource information and related data or information provided through other agencies
-* Staff assistance in accessing bulk data acquisitions
+* Digital data reproduction and distribution of orthoimagery, Lidar, and other bulk datasets on thumb drives, external hard drives and via digital download
+* Staff assistance in locating geospatial information and related data or information provided through other agencies
 * Data support for TNRIS datasets
 * Reproduction of Texas Water Development Board (TWDB) publications and maps
 
