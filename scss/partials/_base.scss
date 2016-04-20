@@ -106,10 +106,7 @@ h2 {
 }
 
 .btn {
-  &.active {
-    pointer-events: none;
-    cursor: not-allowed;
-  }
+  cursor: pointer !important;
 }
 
 /* push footer to bottom of page */

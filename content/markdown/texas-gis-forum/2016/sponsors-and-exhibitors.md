@@ -6,13 +6,22 @@ mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
 mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
 mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
 intro: true
+sidebar: sponsors
 button: sponsors
 button_link: https://www.surveymonkey.com/s/HZQZM8D
 button_text: Become a Sponsor
-abstract: Partner with premiere gathering in Texas for the Geospatial Professionals to reach your customers and your community.
+abstract: Partner with the premiere gathering in Texas for the Geospatial Professionals to reach your customers and your community.
 ---
 
-TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.
+<p>
+<div class="sponsor-box pull-right well">
+<a href="{{m.link('static/documents/2016-forum/2016-gis-forum-sponsor-rules-and-regulations.pdf')}}" class="btn btn-danger btn-md btn-block"><i class="glyphicon glyphicon-file"></i> Download the Sponsor<br> Rules &amp; Regulations</a>
+<p>After you've looked over the <strong>sponsor rules and regulations</strong> above, visit the link below to register as a sponsor.</p>
+<a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1837776" class="btn btn-success btn-lg btn-block"><i class="glyphicon glyphicon-chevron-right"></i> Become a Sponsor</a>
+</div>
+TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
+
+<p>Be sure to take a look at the <a href="#additional-sponsors"><strong>A la Carte Sponsorship</strong> options</a>, which are new this year and offer a way for organizations to support with selecting a full sponsor level, or expand the reach of their selected sponsor package.</p>
 
 ### Participating as a Sponsor and Exhibitor will:
 
@@ -30,9 +39,7 @@ TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Aus
 - On-site promotions
 - Technical demos
 
-<a href="{{m.link('static/documents/2016-forum/2016-gis-forum-sponsor-rules-and-regulations.pdf')}}" class="btn btn-danger btn-lg"><i class="glyphicon glyphicon-chevron-file"></i> Download the Sponsor Rules &amp; Regulations</a>
-
-*****
+<br>
 
 ## Platinum Sponsor/Exhibitor ($5,000 - limit 3)
 
@@ -54,7 +61,7 @@ Premium location of a 10x20 exhibit space (with carpet, electricity), 1 draped t
 - **Prominently placed Logo** printed on the Forum program given to all attendees.
 - **Your corporate print marketing materials added** to the forum packet for all attendees
 
-*****
+<br>
 
 ## Gold Sponsor/Exhibitor ($3,500)
 
@@ -71,7 +78,7 @@ Highly desirable location of a 10x10 exhibit space (with electricity), draped ta
 - **Logo printed on the Forum agenda program** given to all attendees.
 - **Your corporate marketing materials added** to the forum packet for all attendees.
 
-*****
+<br>
 
 ## Silver Sponsor/Exhibitor ($2,500)
 ### Includes:
@@ -85,7 +92,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 - **Logo on Forum sponsorship banner** displayed in the Exhibit Hall.
 - **Logo on Forum website**
 
-*****
+<br>
 
 ## Exhibitor Only ($1,500 – Limit 10)
 
@@ -104,7 +111,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
 *****
 
-<h2><small>New This Year!</small><br>Additional Sponsor Options</h2>
+<h2 id="additional-sponsors"><small>New This Year!</small><br>Additional Sponsor Options</h2>
 
 <p class="lead">Exclusive sponsorship of any of the options below include your logo printed and posted during the event timeframe. You also receive honorable mention in the conference program as well as verbal recognition.  </p>
 
