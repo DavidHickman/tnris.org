@@ -1,14 +1,12 @@
 ---
 title: Elevation – Lidar
-template: full-top-page.html
+template: stratmap/main.html
 mainimage: static/images/stratmap/stratmap-banner.jpg
-abstract: Lidar stuff
+abstract: Light Detection and Ranging (LiDAR) is a technology that utilizes lasers to measure the distance from an airborne sensor (such as an airplane) to points on the ground.
 ---
 {% import "_macros.html" as m %}
 
-<p class="lead">Light Detection and Ranging (LiDAR) is a technology that utilizes lasers to measure the distance from an airborne sensor (such as an airplane) to points on the ground. </p>
-
-This creates an accurate 3-dimensional representation of the earth’s surface. LiDAR goes beyond traditional bare earth digital elevation models (DEMs) by producing point cloud information that can be classified into existing features such as vegetation and man-made structures.
+<p class="lead">Lidar technology creates an accurate 3-dimensional representation of the earth’s surface. LiDAR goes beyond traditional bare earth digital elevation models (DEMs) by producing point cloud information that can be classified into existing features such as vegetation and man-made structures.</p>
 
 {{m.catalog_data_card('lidar-availability-index')}}
 

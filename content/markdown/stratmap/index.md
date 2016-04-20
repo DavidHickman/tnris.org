@@ -1,6 +1,6 @@
 ---
 title: StratMap - Strategic Mapping Program
-template: full-top-page.html
+template: stratmap/main.html
 mainimage: static/images/stratmap/stratmap-banner.jpg
 abstract: The Strategic Mapping Program (StratMap) was established in 1997 by Senate Bill 1 to develop consistent statewide digital data layers.
 ---
@@ -15,7 +15,7 @@ How does this work? The StratMap team communicates regularly with State, Federal
 
 ## Current Projects
 
-# New Initiatives
+### New Initiatives
 
 2016-17 Lidar Acquisition Project
 
@@ -23,11 +23,11 @@ Texas Strategic Mapping Contract
 
 The new contracting vehicle for StratMap and any Texas government agency is almost available for 17 total pre-approved vendors available for GIS products, services, and software.
 
-# Ongoing
+### Ongoing
 
 2015 Statewide Orthoimagery Project
 
-# Latest Data Releases
+### Latest Data Releases
 
 TPWD 2015 Aerial
 2016 Smith County Aerial
@@ -43,31 +43,10 @@ City of Georgetown 2015 Aerial
 
 StratMap Program direct funding over time
 
-
-
-
 ## Hydrography
 {{m.catalog_data_card('national-hydrography-dataset-nhd')}}
 
-## History
 
-In the mid-1990s, the Strategic Mapping Program was established at TNRIS and funded by the Texas Legislature and other partners (state agencies, federal agencies, local entities) to include statewide GIS layers for seven specific data types: <strong>Orthoimagery</strong>, <strong>Elevation</strong>, <strong>Hydrography</strong>, <strong>Political Boundaries</strong>, <strong>Transportation</strong>, <strong>Soils</strong>.
-
-https://tnris.org/data-catalog/entry/texas-orthoimagery-program-top-1996-cir-bw-1m/
-
-https://tnris.org/data-catalog/entry/national-elevation-dataset-ned-2004/ 
-
-https://tnris.org/data-catalog/entry/stratmap-hypso/ 
-
-https://tnris.org/data-catalog/entry/national-hydrography-dataset-nhd/ 
-
-StratMap Boundaries??
-
-https://tnris.org/data-catalog/entry/stratmap-transportation/ 
-
-https://tnris.org/data-catalog/entry/soils/ 
-
-While the StratMap Program is active in acquiring new Orthoimagery, Elevation, and Hydrography data today, relevant Political Boundaries, Transportation, and Soils layers are maintained by outside agencies but still available through the TNRIS Data Catalog.
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: StratMap Contracts
-template: full-top-page.html
+title: StratMap Contract
+template: stratmap/main.html
 mainimage: static/images/stratmap/stratmap-banner.jpg
 abstract: The Strategic Mapping Program (StratMap) was established in 1997 by Senate Bill 1 to develop consistent statewide digital data layers.
 ---
