@@ -4,42 +4,36 @@
 {% block extracontent %}
 <h2>2016 Course Schedule</h2>
 <div class="training-list">
-	<div class="row head hidden-xs">
-		<div class="col-xs-2">Date and Time</div>
-		<div class="col-xs-6">Course Title</div>
-		<div class="col-xs-2">Instructor</div>
-		<div class="col-xs-1">Cost</div>
-		<div class="col-xs-1">Status</div>
-	</div>
   {% for event in training %}
   	<div class="row training-header">
-	  	<div class="col-xs-3 col-sm-2">
+	  	<div class="col-xs-12 col-sm-3">
 	  		<strong><span class="glyphicon glyphicon-calendar"></span> {{event.date_full}}</strong><br> <i class="glyphicon glyphicon-time"></i> {{event.time}}
 	  	</div>
-	  	<div class="col-xs-9 col-sm-6">
-	  		<h3><a href="{{m.link(event.path)}}">{{event.class_title}}</a></h3></div>
-	    <div class="col-xs-3 col-sm-2 course-info">
-	    	<strong>Taught by:</strong> <br>{{event.instructor}}
-	    </div>
-	    <div class="col-xs-3 col-sm-1 course-info">
-	    	{{event.cost}}
-	    </div>
-	    <div class="col-xs-3 col-sm-1 course-info">
-	    	{{event.status}}
-	    </div>
+	  	<div class="col-xs-12 col-sm-9">
+        <div class="row">
+
+        <div class="col-xs-12"><h3><a href="{{m.link(event.path)}}">{{event.class_title}}</a></h3></div>
+        <div class="col-xs-4 course-info">
+          <strong>Taught by:</strong> <br>{{event.instructor}}
+        </div>
+        <div class="col-xs-4 course-info">
+          <strong>Cost:</strong><br>{{event.cost}}
+        </div>
+        <div class="col-xs-4 course-info">
+          <strong>Status:</strong><br>{{event.status}}
+        </div>
+        </div>
+      </div>
 	</div>
 	<div class="row course-description">
-    	<div class="col-xs-3 col-sm-2">
+    	<div class="col-xs-3">
     	</div>
-    	<div class="col-xs-9 col-sm-8">
-    		{{event.teaser}}
-    	</div>
-    	<div class="col-sm-1">
-    		<a class="btn btn-default btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
-    			Full Info
-    		</a>
-    	</div>
-    	<div class="col-sm-1">
+    	<div class="col-xs-9">
+    		<p>{{event.teaser}}</p>
+
+        <a class="btn btn-default btn-sm" href="{{m.link(event.path)}}"><span class="glyphicon glyphicon-info-sign"></span>
+          Full Info
+        </a>
     	</div>
     </div>
   {% endfor %}

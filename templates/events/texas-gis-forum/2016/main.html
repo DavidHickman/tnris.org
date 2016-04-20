@@ -1,0 +1,74 @@
+
+{% extends "base.html" %}
+{% import "_form_macros.html" as form %}
+
+
+{% block styles %}
+  {% parent %}
+
+  {{form.styles()}}
+{% endblock styles %}
+
+{% block scripts %}
+  {% parent %}
+
+  {{form.scripts()}}
+
+{% endblock scripts %}
+
+
+{% block topcontent %}
+  <div id="_2016-forum-container">
+    <div class="container-fluid full">
+      <div class="top-container">
+
+      <div class="container forum-2016-brand-container">
+        <span class="forum-brand">Texas GIS Forum</span> October 24th – 27th, 2016 | Austin, Texas
+      </div>
+        {% if mainimage %}
+          <img src="{{m.link(mainimage)}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+        {% endif %}
+        {% if mainimagesm %}
+          <img src="{{m.link(mainimagesm)}}" class="banner img-responsive hidden-xs hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+        {% endif %}
+
+        {% if mainimagexs %}
+          <img src="{{m.link(mainimagexs)}}" class="banner img-responsive hidden-sm hidden-md hidden-lg"  alt="Texas GIS Forum Main Image">
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="_2016-forum-intro">
+      <div class="container">        
+        {% include "events/texas-gis-forum/2016/nav.html" %}
+        <h1>{{title}}</h1>
+        <p class="lead">
+          {{abstract}}
+        </p>
+    </div>
+  </div>
+{% endblock topcontent %}
+
+
+{% block contents %}
+  <div class="row">
+    <div class="col-md-12">
+      {{contents|safe}}
+    </div>
+  </div>
+{% endblock contents %}
+
+{% block contents-two %}
+  <section class="forum-map">
+    <div class="container">
+      <div class="row">
+        {% include "events/texas-gis-forum/2016/map.html" %}
+      </div>
+    </div>
+  </section>
+<!--   <section class="forum-sponsors">
+    {% include "events/texas-gis-forum/2016/sponsors.html" %}
+  </section> -->
+{% endblock contents-two %}
+
+

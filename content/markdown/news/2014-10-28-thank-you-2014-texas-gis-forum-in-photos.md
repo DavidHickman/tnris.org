@@ -12,7 +12,7 @@ imagealt: A view of the Forum in the Commons Center Atrium
 
 By all accounts, the 2014 Texas GIS Forum was the best yet! Your participation and enthusiasm generated an unprecedented level of energy. We couldn’t be more pleased.
 
-Enjoy photos from the event below, and [visit the Agenda page](2014-gis-forum) to view available presentations from this year's forum.
+Enjoy photos from the event below, and [visit the Agenda page](texas-gis-forum/2014/index) to view available presentations from this year's forum.
 
 We hope you had an ah-ha moment because you learned about a new idea or concept. Ideally you’ll take your projects to the next level as a result.
 

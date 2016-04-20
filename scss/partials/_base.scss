@@ -81,11 +81,32 @@ h2 {
   }
 }
 
-.btn {
-  &.active {
-    pointer-events: none;
-    cursor: not-allowed;
+.btn-treegreen {
+  color: white;
+  background-color: $treegreen;
+  border-color: $forestgreen;
+  box-shadow: inset $forestgreen 0 0 7px;
+
+  &:hover {
+    background: $forestgreen;
+    color: white;
   }
+}
+
+.btn-purpblue {
+  color: white;
+  background-color: $facebook;
+  border-color: $purpblue;
+  box-shadow: inset $purpblue 0 0 7px;
+
+  &:hover {
+    background: $purpblue;
+    color: white;
+  }
+}
+
+.btn {
+  cursor: pointer !important;
 }
 
 /* push footer to bottom of page */
@@ -268,8 +289,24 @@ img {
   }
 }
 
-figure.pull-left {
-    margin: 0 30px 30px 0;
+.btn {
+  &.pull-left {
+    margin: 0 20px 20px 0;
+  }
+
+   &.pull-right {
+    margin: 0 0px 20px 20px;
+  }
+}
+
+figure {
+  &.pull-left {
+    margin: 0 20px 20px 0;
+  }
+
+   &.pull-right {
+    margin: 0 0px 20px 20px;
+  }
 }
 
 blockquote {

@@ -141,6 +141,6 @@ USGS is administering grants through the 3D Elevation Program to update the Nati
 ****
 
 ## Next Meeting 
-### 4th quarter meeting will not be held due to coincidence with [2015 Texas GIS Forum](2015-gis-forum)
+### 4th quarter meeting will not be held due to coincidence with [2015 Texas GIS Forum](texas-gis-forum/2015/index)
 
 

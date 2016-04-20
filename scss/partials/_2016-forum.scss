@@ -1,0 +1,184 @@
+@import "variables";
+
+#_2016-forum-container {
+  position: relative;
+
+  img {
+    position: relative;
+  }
+
+  .well {
+    margin-top: 30px;
+  }
+
+  .keynote-feature {
+    margin-top: 55px;
+  }
+
+  ._2015-forum-intro {
+    color: white;
+    font-size: 20px;
+    min-height: 150px;
+    padding: 30px 0;
+
+    .lead {
+      font-size: 28px;
+      margin-bottom: 0;
+      text-shadow: 1px 1px 1px $darkgrey;
+      max-width: 300px;
+    }
+
+    .btn-lg {
+      font-size: 16px;
+
+      @media (min-width: $screen-sm) {
+        font-size: 20px;
+         min-width: 300px;
+      }
+    }
+  }
+
+  h2 {
+    color: $forum2015blue;
+  }
+
+  .training-list {
+
+    .forum-course {
+    border-bottom: 1px solid $midlightgrey;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+  .forum-training-header {
+    background: $white;
+    margin-bottom: 10px;
+
+      i {
+        float: left;
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+      }
+
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+
+ .container-fluid.full {
+    margin-bottom: 0;
+
+      img.banner {
+        min-width: 100%;
+        display: block;
+      }
+
+      .forum-logo-container {
+        position: relative;
+        top: 0;
+    }
+
+     .top-container {
+       margin-bottom: 0;
+       position: relative;
+
+        .top-header h2 {
+          color: $white;
+        }
+     }
+  }
+}
+
+.forum-2016-brand-container {
+  background: $darkergreyrbga;
+  color: $white;
+  font-size: 30px;
+  font-weight: 300;
+  height: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  vertical-align: middle;
+  z-index: 1000;
+
+  img {
+    min-width: auto !important;
+  }
+
+  .forum-brand {
+    background: url('../static/images/texas-gis-forum/2016/logo_lg.png');
+    display: inline-block;
+    height: 52px;
+    margin-right: 40px;
+    text-indent: -9999px;
+    width: 400px;
+  }
+}
+
+.media.keynote-speaker {
+  h3 {
+    font-size: 30px;
+
+    small {
+      font-size: 20px;
+    }
+  }
+
+  img {
+  border: 5px solid $forum2015blue;
+  max-width: 200px;
+  }
+}
+
+// Forum list
+
+#texas-gis-forum-2016-sponsors-and-exhibitors #contentMain li {
+  margin-bottom: 12px;
+
+  strong {
+    font-size: 18px;
+  }
+}
+
+h2#platinum-sponsor-exhibitor-5-000-limit-3- {
+  border-bottom: 5px solid #d2c2c2;
+}
+
+
+h2#gold-sponsor-exhibitor-3-500- {
+  border-bottom: 5px solid #f4b93b;
+}
+
+h2#silver-sponsor-exhibitor-2-500- {
+  border-bottom: 5px solid $midgrey;
+}
+
+h2#exhibitor-only-1-500-limit-10- {
+  border-bottom: 5px solid $forum2015blue;
+}
+
+.well.sponsor-box {
+  margin-top: 0 !important;
+
+  @media (min-width: $screen-sm) {
+    margin: 0 0 20px 20px !important;
+    max-width: 45%;
+  }
+
+  .btn-success {
+    margin-top: 20px;
+  }
+
+  .btn-danger {
+    margin-bottom: 20px;
+  }
+}
