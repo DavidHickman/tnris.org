@@ -43,32 +43,8 @@ City of Georgetown 2015 Aerial
 
 StratMap Program direct funding over time
 
-## Orthoimagery
 
-<p class="lead">Orthoimagery is digital aerial photography that has been geometrically corrected (orthorectified) to remove distortion caused by camera optics, aircraft tilt, and differences in ground elevation. 
-</p>
 
-This data layer at 1-meter and 0.5-meter pixel resolution is used to identify current conditions, features, and changes on the ground serving as a base of reference for other map information. 
-
-Leveraging State funds from multiple agencies, the StratMap Program coordinated statewide orthoimagery acquisitions starting in the mid-1990s. Since then, the state has been refreshed with new orthoimagery in 2004, 2008/09, and 2010, all in conjunction with the National Agriculture Imagery Program (NAIP) administered by the USDA-Farm Service Agency-Aerial Photography Field Office. NAIP continues to refresh Texas statewide with new orthoimagery every two years (2012, 2014) during the leaf-on growing season (April – October acquisitions). Pooling State funds again in 2014, StratMap coordinated a new statewide leaf-off acquisition to occur during the 2014/15 winter season.
-
-{{m.catalog_data_card('national-agriculture-imagery-program-naip-2012-1m-nc-cir')}}
-
-Since 2009, using the [High Priority Imagery and Data Sets (HPIDS)](high-priority-imagery-data-sets) contract, StratMap has coordinated numerous higher resolution (6-inch/1-foot) orthoimagery regional acquisition projects within Texas.
-
-{{m.catalog_data_card('hpids-smith-2014-6in-nc-cir')}}
-	
-## Elevation (LiDAR)
-
-<p class="lead">Light Detection and Ranging (LiDAR) is a technology that utilizes lasers to measure the distance from an airborne sensor (such as an airplane) to points on the ground. </p>
-
-This creates an accurate 3-dimensional representation of the earth’s surface. LiDAR goes beyond traditional bare earth digital elevation models (DEMs) by producing point cloud information that can be classified into existing features such as vegetation and man-made structures.
-
-{{m.catalog_data_card('lidar-availability-index')}}
-
-TNRIS acquires LiDAR data through partnerships with other federal and state agencies as well as through our high priority imagery and data sets(HPIDS) contract to make this data available to the public. LiDAR coverage varies across the state. LiDAR coverage and project details (date, nps, vendor, etc.) can be found on the LiDAR Status Map . All details about each dataset in our collection can be found in the QAQC for each project (see below).
-
-All LiDAR datasets are available for purchase by filling out an order form*
 
 ## Hydrography
 {{m.catalog_data_card('national-hydrography-dataset-nhd')}}
