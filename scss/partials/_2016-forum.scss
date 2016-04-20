@@ -123,3 +123,62 @@
     width: 400px;
   }
 }
+
+.media.keynote-speaker {
+  h3 {
+    font-size: 30px;
+
+    small {
+      font-size: 20px;
+    }
+  }
+
+  img {
+  border: 5px solid $forum2015blue;
+  max-width: 200px;
+  }
+}
+
+// Forum list
+
+#texas-gis-forum-2016-sponsors-and-exhibitors #contentMain li {
+  margin-bottom: 12px;
+
+  strong {
+    font-size: 18px;
+  }
+}
+
+h2#platinum-sponsor-exhibitor-5-000-limit-3- {
+  border-bottom: 5px solid #d2c2c2;
+}
+
+
+h2#gold-sponsor-exhibitor-3-500- {
+  border-bottom: 5px solid #f4b93b;
+}
+
+h2#silver-sponsor-exhibitor-2-500- {
+  border-bottom: 5px solid $midgrey;
+}
+
+h2#exhibitor-only-1-500-limit-10- {
+  border-bottom: 5px solid $forum2015blue;
+}
+
+.well.sponsor-box {
+  margin-top: 0 !important;
+
+  @media (min-width: $screen-sm) {
+    margin: 0 0 20px 20px !important;
+    max-width: 45%;
+  }
+
+  .btn-success {
+    margin-top: 20px;
+  }
+
+  .btn-danger {
+    margin-bottom: 20px;
+  }
+}

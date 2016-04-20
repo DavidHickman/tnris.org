@@ -1,17 +1,27 @@
 ---
-template: 2015-forum.html
+template: events/texas-gis-forum/2016/sub.html
 title: Sponsors & Exhibitors
-subtitle: Texas GIS Forum | October 26th – 29th, 2015
-mainimage: static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg
+subtitle: Texas GIS Forum | October 24th-27th, 2016
+mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
 mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
 mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
 intro: true
-abstract: Partner with Texas's Premiere gathering for the Geospatial Professionals to reach your customers and your community.
+sidebar: sponsors
+button: sponsors
+button_link: https://www.surveymonkey.com/s/HZQZM8D
+button_text: Become a Sponsor
+abstract: Partner with the premiere gathering in Texas for the Geospatial Professionals to reach your customers and your community.
 ---
 
-## Sponsors & Exhibitors
+<p>
+<div class="sponsor-box pull-right well">
+<a href="{{m.link('static/documents/2016-forum/2016-gis-forum-sponsor-rules-and-regulations.pdf')}}" class="btn btn-danger btn-md btn-block"><i class="glyphicon glyphicon-file"></i> Download the Sponsor<br> Rules &amp; Regulations</a>
+<p>After you've looked over the <strong>sponsor rules and regulations</strong> above, visit the link below to register as a sponsor.</p>
+<a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1837776" class="btn btn-success btn-lg btn-block"><i class="glyphicon glyphicon-chevron-right"></i> Become a Sponsor</a>
+</div>
+TNRIS is pleased to invite you to participate in our 2016 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
 
-<p class="lead"> TNRIS is pleased to invite you to participate in our 2015 Texas GIS Forum in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
+<p>Be sure to take a look at the <a href="#additional-sponsors"><strong>A la Carte Sponsorship</strong> options</a>, which are new this year and offer a way for organizations to support with selecting a full sponsor level, or expand the reach of their selected sponsor package.</p>
 
 ### Participating as a Sponsor and Exhibitor will:
 
@@ -29,76 +39,118 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - On-site promotions
 - Technical demos
 
-<!-- <div class="panel panel-danger">
-	<div class="panel-heading">
-		<h3 class="panel-title">Important Note</h3>
-	</div>
-	<div class="panel-body">
-		This information is for reference purposes only. Note that these prices and promotions are only valid for the 2014 forum and are liable to change for current or upcoming forums.
-	</div>
-</div> -->
+<br>
 
-<a href="{{m.link('static/documents/2015-forum/Rules-and-Regulations-2015.pdf')}}" class="btn btn-danger btn-lg"><i class="glyphicon glyphicon-chevron-right"></i> Download the Sponsor Rules &amp; Regulations</a>
-
-## Platinum Sponsor/Exhibitor ($4,000 - limit 3)
+## Platinum Sponsor/Exhibitor ($5,000 - limit 3)
 
 ### Includes:
 
-- Premium location of a 10x20 exhibit space (with carpet, electricity), 1 draped table, 2 chairs, trash receptacle and wireless internet access. Note: 10x10 booth space available upon request
+Premium location of a 10x20 exhibit space (with carpet, electricity), 1 draped table, 2 chairs, trash receptacle and wireless internet access. Note: 10x10 booth space available upon request
 
 ### Promotions Include:
 
--  Choice of recognition of sponsorship of a Wednesday or Thursday Keynote Speaker, or recognition of sponsorship of the Wednesday evening Social Event
-- Optional 5-minute on-stage welcoming or opening statement prior to keynote address.
-- Verbal and visual recognition of sponsorship during opening remarks and throughout the Forum
-- Up to five (5) free registrations for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
-- Option of a 1-hour uncontested presentation slot to demonstrate products and services (2 available) or Exclusive Sponsorship of the Social Event.
-- Exclusive customized banner at the main entrance to each auditorium.
-- Prominent placement of the corporate logo on the front page of the TNRIS web site
-- Prominent placement of the corporate logo (with Links to corporate website) on the front page of the FORUM website
-- Promotional article announcing your sponsorship on the front page of the Forum website.
-- Logo featured prominently on stage, general signage, and all promotional materials
-- Prominently placed Logo printed on the Forum program given to all attendees
-- Your corporate print marketing materials added to the forum packet for all attendees
+- **5-minute on-stage welcoming** or **opening statement** prior to keynote address (Optional).
+- **Verbal and visual recognition of sponsorship** during opening remarks and throughout the Forum
+- **Five (5) free registrations** for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
+- **1-hour uncontested presentation slot to demonstrate products** and services (2 available) or **Exclusive Sponsorship of the Social Event**. The choice of one of these three options is on a first-come first-serve basis and is optional.
+- **Large Logo on Forum sponsorship banner** prominently displayed in the Exhibit Hall.
+- **Prominent placement of the corporate logo** on the front page of the TNRIS web site.
+- **Prominent placement of the corporate logo** (with Links to corporate website) on the front page of the Forum website.
+- **Promotional article** announcing your sponsorship on the front page of the Forum website.
+- **Logo featured prominently** on stage, general signage, and all promotional materials.
+- **Prominently placed Logo** printed on the Forum program given to all attendees.
+- **Your corporate print marketing materials added** to the forum packet for all attendees
 
-## Gold Sponsor/Exhibitor ($2,500)
+<br>
+
+## Gold Sponsor/Exhibitor ($3,500)
 
 ### Includes:
 
-- Highly desirable location of a 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
+Highly desirable location of a 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
 
 ### Promotions Include:
 
-- Verbal and Visual recognition of your sponsorship during opening remarks at the Forum.
-- Sponsorship recognition of the Forum breakfasts and lunches.
-- Up to Three (3) free registrations for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
-- Large Logo on Forum sponsorship banner prominently displayed in the Exhibit Hall.
-- Placement of the corporate logo (with links to corporate website) on the FORUM website.
-- Color Logo printed on the Forum agenda program given to all attendees.
-- Your corporate marketing materials added to the forum packet for all attendees.
+- **Verbal and Visual recognition** of your sponsorship during opening remarks at the Forum. 
+- **Three (3) free registrations** for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
+- **Large Logo on Forum sponsorship banner** prominently displayed in the Exhibit Hall.
+- **Placement of the corporate logo** (with links to corporate website) on the FORUM website.
+- **Logo printed on the Forum agenda program** given to all attendees.
+- **Your corporate marketing materials added** to the forum packet for all attendees.
 
-## Silver Sponsor/Exhibitor ($1500)
+<br>
+
+## Silver Sponsor/Exhibitor ($2,500)
 ### Includes:
 
-- Desirable location 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
+Desirable location 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
 
 ### Promotions Include:
 
-- Co-Sponsorship of Coffee Break Social
-- Two (2) free registrations for staff and guest to all forum functions including presentations, breaks, lunches, and social events.
-- Logo printed on the Forum agenda program given to all attendees.
-- Logo on Forum sponsorship banner displayed in the Exhibit Hall.
-- Logo on Forum website
+- **Two (2) free registrations** for staff and guest to all forum functions including presentations, breaks, lunches, and social events.
+- **Logo printed on the Forum agenda** program given to all attendees.
+- **Logo on Forum sponsorship banner** displayed in the Exhibit Hall.
+- **Logo on Forum website**
 
-## Exhibitor Only ($1000 – Limit 10)
+<br>
+
+## Exhibitor Only ($1,500 – Limit 10)
 
 **Note: Some Conditions do apply**
 
 ### Includes:
 
-- 10x10 exhibit space (with electricity), draped table, 2 chairs, and trash receptacle.
-- One (1) free registration to all forum functions including presentations, breaks, lunches, and social events.
-- Name printed on the Forum agenda program given to all attendees
-- Listing on Forum website
+10x10 exhibit space (with electricity), draped table, 2 chairs, and trash receptacle.
 
-* Exhibitor Only option is reserved for small businesses or start-up companies with less than 25 employees, $2 million in annual revenue, or have been in existence for less than two years.
+### Promotions Include:
+- **One (1) free registration** to all forum functions including presentations, breaks, lunches, and social events.
+- **Name printed on the Forum agenda** program given to all attendees
+- **Listing on Forum website**
+
+*Exhibitor Only option is reserved for small businesses or start-up companies with less than 25 employees, $2 million in annual revenue, or have been in existence for less than two years.*
+
+*****
+
+<h2 id="additional-sponsors"><small>New This Year!</small><br>Additional Sponsor Options</h2>
+
+<p class="lead">Exclusive sponsorship of any of the options below include your logo printed and posted during the event timeframe. You also receive honorable mention in the conference program as well as verbal recognition.  </p>
+
+**Note:** Companies do not need to be a selected sponsor level (Platinum, Gold, or Silver) in order to sponsor any of the options below. Sponsoring an option below by itself does not qualify you for a designated sponsor level. Platinum, Gold & Silver level sponsors can purchase the additional options below.    
+
+ 
+### Sponsor a Breakfast
+<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/breakfast.jpg')}}">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
+
+- Wednesday - $750
+- Thursday - $750
+
+****
+
+### Sponsor a Coffee Break
+
+<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/coffee.jpg')}}"> During the Coffee break, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
+
+- Wednesday AM - $500
+- Wednesday PM - $500
+- Thursday AM - $500
+- Thursday PM - $500
+
+****
+ 
+### Sponsor a Lunch
+<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/lunch.jpg')}}">During Lunch, sponsors will be recognized with prominently displayed posters. Sponsor has the opportunity to place giveaway items on the lunch tables.</p>
+
+- Wednesday - $750
+- Thursday - $750
+
+****
+
+### Sponsor a Keynote  
+<p><img class="img-responsive pull-right" src="{{m.link('static/images/texas-gis-forum/2016/podium.jpg')}}">Keynote sponsor has the opportunity to introduce the speaker.</p>
+
+- Wednesday - Robert Ballard - $2500
+- Thursday Morning - $1500
+- Thursday Afternoon - $1500
+
+
+
