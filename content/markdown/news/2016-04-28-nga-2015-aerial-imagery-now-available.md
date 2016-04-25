@@ -12,10 +12,11 @@ tags: stratmap, orthoimagery, nga, el paso, dallas, fort worth, amarillo, lubboc
 
 {% import '_macros.html' as m %}
 
-High resolution 12-inch aerial imagery are now available from TNRIS for four areas of interest commissioned by the [National Geospatial-Intelligence Agency](https://www.nga.mil/Pages/Default.aspx): 
-- Bastrop State Park/Hidden Pines fire
-- [Powderhorn Ranch](http://tpwd.texas.gov/newsmedia/releases/?req=20140821a)
-- [Hueco Tanks State Park & Historic Site](http://tpwd.texas.gov/state-parks/hueco-tanks). 
+High resolution 12-inch aerial imagery are now available from TNRIS for four urban areas of interest commissioned by the [National Geospatial-Intelligence Agency](https://www.nga.mil/Pages/Default.aspx): 
+- Amarillo
+- Dallas-Fort Worth
+- El Paso
+- Lubbock
 
 The National Geospatial-Intelligence Agency contributed funds to collect the new imagery as part of the [2015 Statewide Orthoimagery Project](https://tnris.org/2015-statewide-orthoimagery-project/) BUY-UP option to increase pixel resolution beyond 0.5-meter.
 
