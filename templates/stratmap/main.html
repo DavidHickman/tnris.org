@@ -10,12 +10,22 @@
 
       <div class="top-header center-block">
           <div class="container">
-            <h1>{{title}}</h1>
+            <h1>
+            {% if title == 'StratMap - Strategic Mapping Program' || title == 'StratMap Contract' %}
+
+            {% else %}
+              <small>StratMap</small><br>
+            {% endif %}
+
+              {{title}}</h1>
+          </div>
+      </div>
+      </div>
+      <div class="container">
+
             {% if abstract %}
               <div class="lead">{{abstract}}</div>
             {% endif %}
-          </div>
-      </div>
       </div>
 </div>
 {% endblock topcontent %}

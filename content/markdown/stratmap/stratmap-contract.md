@@ -7,7 +7,7 @@ abstract: The Strategic Mapping Program (StratMap) was established in 1997 by Se
 
 <img class="pull-right" src="{{m.link('static/images/updates/2015/dir/dir_logo.jpg')}}">
 
-<p class="lead">The <a href="http://dir.texas.gov/">Department of Information Resources (DIR)</a> with assistance from the <a href="http://www.twdb.texas.gov/">Texas Water Development Board (TWDB</a>, released a solicitation for the Texas Strategic Mapping (StratMap) Contract, the successor contract to the High Priority Imagery and Data Sets (HPIDS) Contract.</p>
+<pThe <a href="http://dir.texas.gov/">Department of Information Resources (DIR)</a> with assistance from the <a href="http://www.twdb.texas.gov/">Texas Water Development Board (TWDB</a>, released a solicitation for the Texas Strategic Mapping (StratMap) Contract, the successor contract to the High Priority Imagery and Data Sets (HPIDS) Contract.</p>
  
 The DIR contract will be signed by companies who have been evaluated and pre-qualified by a team of GIS professionals to provide quality geographic data products, services, and GIS software to public agencies in Texas. It has been developed to streamline the procurement process for future acquisition of geographic data, software, and services and provide beneficial competition among the best companies in the industry.
  

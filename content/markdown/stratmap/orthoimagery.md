@@ -1,13 +1,12 @@
 ---
 title: Orthoimagery
 template: stratmap/main.html
-mainimage: static/images/stratmap/stratmap-banner.jpg
+mainimage: static/images/stratmap/ortho_banner.jpg
 abstract: Orthoimagery is digital aerial photography that has been geometrically corrected (orthorectified) to remove distortion caused by camera optics, aircraft tilt, and differences in ground elevation. 
 ---
 {% import "_macros.html" as m %}
 
-<p class="lead">An orthoimagery data layer at 1-meter and 0.5-meter pixel resolution is used to identify current conditions, features, and changes on the ground serving as a base of reference for other map information. 
-</p>
+An orthoimagery data layer at 1-meter and 0.5-meter pixel resolution is used to identify current conditions, features, and changes on the ground serving as a base of reference for other map information. 
 
 Leveraging State funds from multiple agencies, the StratMap Program coordinated statewide orthoimagery acquisitions starting in the mid-1990s. Since then, the state has been refreshed with new orthoimagery in 2004, 2008/09, and 2010, all in conjunction with the [National Agriculture Imagery Program (NAIP)](http://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/) administered by the USDA-Farm Service Agency-Aerial Photography Field Office. 
 

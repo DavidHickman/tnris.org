@@ -7,7 +7,7 @@ abstract: The Strategic Mapping Program (StratMap) was established in 1997 by Se
 
 {% import "_macros.html" as m %}
 
-<p class="lead">StratMap's primary goal is to acquire and improve digital geographic data for statewide mapping applications. StratMap also maintains comprehensive data standard specifications to ensure consistent, high quality data products across the State.</p>
+StratMap's primary goal is to acquire and improve digital geographic data for statewide mapping applications. StratMap also maintains comprehensive data standard specifications to ensure consistent, high quality data products across the State.
 
 StratMap personnel at TNRIS work with multiple agencies on cost-share initiatives in order to provide the State of Texas with best value data products. 
 
