@@ -29,7 +29,7 @@ The new orthoimagery were acquired in 2015 on March 13 over Amarillo, October 28
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('hpids-tpwd-2015-6in-1ft-nc-cir')}}
+{{m.catalog_data_card('hpids-nga-usgs-2015-1ft-nc-cir')}}
 
 ## Acquisition Areas
 View coverage areas in the interactive map below:
