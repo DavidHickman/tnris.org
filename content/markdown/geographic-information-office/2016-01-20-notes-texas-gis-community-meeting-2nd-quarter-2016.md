@@ -34,14 +34,19 @@ tags: GIO, Data Sharing, GIS, Geospatial
 ### Imagery for Texas	
 #### Gayla Mullins
 
-Texas Orthoimagery (TOP) captured at 0.5 meter resolution in 2015 and 2016 is near completion and delivery. The southernmost tip of Texas is at TNRIS and will be made available for download from the TNRIS website in about 2 weeks. The TOP imagery is also being shared with the Esri Community Imagery Program. Imagery is gradually appearing in the Esri imagery basemap available in Arc products starting now. Check the [project website] (https://tnris.org/2015-statewide-orthoimagery-project/) for updates. 
+Final data from the 2015 Texas Orthoimagery Project (TOP) captured at 0.5-meter resolution during the 2014/2015 and 2015/2016 winter seasons is near completion and has been delivered in full to TNRIS. The southernmost tip of Texas is the most recent delivery to TNRIS and will be made available for download from the TNRIS website in about two weeks along with the exisiting data for the rest of the state. The TOP imagery is also being shared with the Esri Community Imagery Program. Imagery is gradually appearing in the Esri imagery basemap available in Arc products starting now. Check the [project website] (https://tnris.org/2015-statewide-orthoimagery-project/) for additional updates and data download and WMS connection information.
+The Buy-Up areas at 6-inch/1-foot resolution are also complete and available and in various stages of download and WMS access. See chart on slide 10 of the QtrlyMtg2_2016.pdf
+All products from the 2015 TOP project are 4-band and in the public domain.
 
-Google has flown new imagery in December 2015 for certain areas in the states The imagery will be available in the Google Imagery Service by the end of the month. New imagery locations for December 2015 will be posted to the project website when the imagery is finalized and published to the service.
+### NAIP 2016
+#### Gayla Mullins
+
+The National Agriculture Imagery Program will fly Texas during the 2016 growing season (May - October) at 1-meter resolution. The final product will be 4-band and in the public domain. NAIP is managed by the USDA-Aerial Photography Field Office.
 
 ### StratMap Contract Update	
 #### Gayla Mullins
 
-Contracts have been signed by a few companies and are ready for use by state agencies and other public entities. TNRIS is working on a dedicated web page that will contain information regarding use of the contract, list of contractors, and links to contractor sites.
+Contracts have been signed by a few of the 17 companies currently under negotiation and are ready for use by state agencies and other public entities for GIS products, services, and software. TNRIS is working on a dedicated StratMap Contract web page that will contain information regarding use of the contract, list of contractors, and links to contractor sites. The contracts are held at the Department of Information Resources (DIR).
 
 ### South Central Texas Lidar	
 #### Joey Thomas
@@ -53,7 +58,7 @@ Still on track to collect lidar in south central Texas this next leaf-off season
 
 ## Agency Roll Call
 
-<p class="lead">Many representatives of government agencies and city governments from across the state were in attendance, and shared updates on key projects and initiatives their organizations are working on. We'd love to see you or your organization at the next meeting.</p>
+<p class="lead">Many representatives of government agencies and city governments from across the state were in attendance and shared updates on key projects and initiatives their organizations are working on. We'd love to see you or your organization at the next meeting.</p>
 
 <h3><a href="http://www.glo.texas.gov/"><img class="pull-right" alt="Texas General Land Office Logo and Link to website" src="{{m.link('static/images/gio-stories/logos/tx_glo_logo.jpg')}}"></a> Texas General Land Office</h3>
 
