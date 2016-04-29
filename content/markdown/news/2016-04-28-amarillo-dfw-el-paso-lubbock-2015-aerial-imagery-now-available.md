@@ -2,8 +2,8 @@
 template: news.html
 title: "Amarillo-DFW-El Paso-Lubbock 2015 Aerial Imagery Now Available"
 author: StratMap
-mainimage: static/images/updates/2016/tpwd-2015/tpwd_2015_main.jpg
-thumbnail: static/images/updates/2016/tpwd-2015/tpwd_2015_th.jpg
+mainimage: static/images/updates/2016/nga-2015/main_comp.jpg
+thumbnail: static/images/updates/2016/nga-2015/nga_2015_th.jpg
 thumbalt: Sample of new the Texas Parks and Wildlife Aerial Imagery
 abstract:
     High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for four urban areas.
@@ -34,7 +34,7 @@ View more details in the **Data Catalog Entry**:
 ## Acquisition Areas
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/dd5ba2c6-df05-11e5-90a3-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/3eeb0c6e-df08-11e5-be12-0e787de82d45/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ## Products
 
@@ -54,18 +54,18 @@ View coverage areas in the interactive map below:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_burnscar_nc_1to21000_20151119.jpg')}}" alt="Natural Color preview of Hidden Pins Fire Burn Scar">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_burnscar_cir_1to21000_20151119.jpg')}}" alt="Color infra red of Hidden Pins Fire Burn Scar">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15amarillo_cornfieldmaze_nc_1to1300_20150313.jpg')}}" alt="Natural Color preview of Amarillo Cornfield Maze">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15amarillo_cornfieldmaze_cir_1to1300_20150313.jpg')}}" alt="Color infra red of Amarillo Cornfield Maze">
 </div>
-<figcaption>Hidden Pines Fire Burn Scar  SCALE 1:21000</figcaption>
+<figcaption>Amarillo Cornfield Maze, SCALE 1:1300</figcaption>
 </figure>
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_powderhornranch_nc_1to18000_20151028.jpg')}}" alt="Natural Color preview of Powderhorn Ranch">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_powderhornranch_cir_1to18000_20151028.jpg')}}" alt="Color Infrared preview of Powderhorn Ranch">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15dfw_dfwairport_nc_1to980_20151029.jpg')}}" alt="Natural Color preview of DFW airport">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15dfw_dfwairport_cir_1to980_20151029.jpg')}}" alt="Color Infrared preview of DFW airport">
 </div>
-<figcaption>Powderhorn Ranch near Port O'Connor, TX  SCALE 1:18000</figcaption>
+<figcaption>DFW Airport, SCALE 1:980</figcaption>
 </figure>
 
 <figure class="data-preview">
