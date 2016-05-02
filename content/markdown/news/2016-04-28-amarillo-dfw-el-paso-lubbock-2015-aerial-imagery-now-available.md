@@ -70,8 +70,32 @@ View coverage areas in the interactive map below:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_nc_1to10000_20150425.jpg')}}" alt="Natural Color preview of Hueco Tanks">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_cir_1to10000_20150425.jpg')}}" alt="Color Infrared preview of Hueco Tanks">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15dfw_fwexchange_nc_1to1500_20151029.jpg')}}" alt="Natural Color preview of highways in DFW">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15dfw_fwexchange_cir_1to1500_20151029.jpg')}}" alt="Color Infrared preview of highways in DFW">
 </div>
-<figcaption>Hueco Tanks State Park & Historic Site near El Paso, TX  SCALE 1:10000</figcaption>
+<figcaption>Highway Interchange in DFW, SCALE 1:1500</figcaption>
+</figure>
+
+<figure class="data-preview">
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15elpaso_franklinmts_nc_1to12000_20151025.jpg')}}" alt="Natural Color preview of Franklin Mountains">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15elpaso_franklinmts_cir_1to12000_20151025.jpg')}}" alt="Color Infrared preview of Franklin Mountains">
+</div>
+<figcaption>Franklin Mountains, SCALE 1:12000</figcaption>
+</figure>
+
+<figure class="data-preview">
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15elpaso_autosalvageyard_nc_1to800_20151025.jpg')}}" alt="Natural Color preview of Auto Salvage Yard in El Paso">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15elpaso_autosalvageyard_cir_1to800_20151025.jpg')}}" alt="Color Infrared preview of Auto Salvage Yard in El Paso">
+</div>
+<figcaption>Auto Salvage Yard in El Paso, SCALE 1:800</figcaption>
+</figure>
+
+<figure class="data-preview">
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15lubbock_mobilehomepark_nc_1to1000_20150322.jpg')}}" alt="Natural Color preview of Mobile Home Park in Lubbock">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/nga-2015/nga15lubbock_mobilehomepark_cir_1to1000_20150322.jpg')}}" alt="Color Infrared preview of Mobile Home Park in Lubbock">
+</div>
+<figcaption>Mobile Home Park in Lubbock, SCALE 1:1000</figcaption>
 </figure>
