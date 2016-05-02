@@ -16,7 +16,7 @@ doqq_image_preview: 20160418_doqq_availability_sm.jpg
 ccm_image: 20151113_ccm_availability.jpg
 ccm_image_preview: 20151113_ccm_availability_sm.jpg
 latest_report: Weekly_Status_Report_021216_A.pdf
-status_date: May 6ht, 2016
+status_date: May 6th, 2016
 progress_1: 100
 progress_2: 100
 progress_3: 100
