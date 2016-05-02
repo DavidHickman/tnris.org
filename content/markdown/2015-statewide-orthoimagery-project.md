@@ -26,6 +26,6 @@ progress_6: 100
 progress_7: 100
 ---
 
-- **The entire statewide orthoimagery dataset at 0.5-meter pixel resolution is now available for download from TNRIS!**. DOQQs in Mexico are not downloadable (yet) but available per request from [TNRIS](https://tnris.org/contact/).
+- **The entire statewide orthoimagery dataset at 0.5-meter pixel resolution is now available for download from TNRIS!** DOQQs in Mexico are not downloadable (yet) but available per request from [TNRIS](https://tnris.org/contact/).
 - **TNRIS launched the web mapping service** (WMS) for the 2015 TOP and Buy-Up datasets. Access the urls below under TOP 2015 Online Mapping Services and avoid downloading the data.
 - TNRIS **continues to ship final 0.5-meter DOQQs to Esri** for integration into their Basemap Imagery Service, publicly available through Esri products NOW: West TX, Panhandle, and North TX 0.5-meter. Avoid downloading the data. See access instructions below under TOP 2015 Online Mapping Services. Buy-Up 6-inch/1-foot orthoimagery will also be available. 
