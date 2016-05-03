@@ -45,7 +45,7 @@ View coverage areas in the interactive map below:
 
 ## Product Specification
 
-- 12-inch pixel resolution for Hueco Tanks and Powderhorn Ranch
+- 12-inch pixel resolution
 - 4-band, natural color and color infrared
 - UTM WGS84 coordinate system 
 - Units in meters
