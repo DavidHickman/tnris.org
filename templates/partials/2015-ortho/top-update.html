@@ -3,9 +3,6 @@
 <section class="row">
   <div class="col-sm-8">
     <br>
-    <div class="alert alert-warning">
-      Read our <a href="{{m.link('news/2015-12-10-year-in-review-2015-statewide-orthoimagery-project')}}">2015 Year in Review</a> for the Statewide Orthoimagery Project.
-    </div>
     <h2 class="updates-header">Project Activity for the week ending<br><strong>{{status_date}}</strong></h2>
     <h3>Update Summary</h3>
       {{contents|safe}}
@@ -17,6 +14,9 @@
 
 <hr>
 <h4>TOP 2015 Online Mapping Service</h4>
+<div class="alert alert-info" role="alert">
+  <strong>The TOP 2015 Online Mapping Service</strong> will not reflect the full statewide data immediately. Estimated completion is Early Summer 2016.
+</div>
 <p>To use WMS services in your CAD or GIS software package, please consult the software help or support information.</p>
 <div class="input-group copy-url-container">
       <span class="input-group-btn">
@@ -28,6 +28,10 @@
 </div>
 <hr>
 <h4><span class="esri-replace-sm">Esri</span> Basemap Imagery Service</h4>
+<div class="alert alert-info" role="alert">
+  <strong>ESRI Map Services</strong> will not reflect the full statewide data immediately. Estimated completion is Early Summer 2016.
+</div>
+
 <p>Access the new 0.5-meter imagery through the Esri Basemap Imagery service:</p>
 <a class="btn btn-lg btn-success" href="#basemap-tutorial" data-toggle="modal"><i class="glyphicon glyphicon-new-window"></i> View ArcMap basemap tutorial</a>
     <div class="modal fade" id="basemap-tutorial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -62,11 +66,46 @@
 
    {{m.catalog_data_card('hpids-georgetown-2015-6in-nc-cir')}}
 
+<h4>Online Mapping Service: HPIDS Georgetown 2015 6in NC\CIR</h4>
+   <div class="input-group copy-url-container">
+      <span class="input-group-btn">
+    <button class="btn btn-tnris copy-url-btn" type="button">
+      <i class="fa fa-clipboard"></i> Copy URL
+    </button>
+  </span>
+  <input class="wms-url copy-url-input form-control" type="text" readonly value="http://r.tnris.org/arcgis/services/HPIDS/HPIDS_Georgetown_2015_NC/ImageServer/WMSServer">
+</div>
+<hr>
    {{m.catalog_data_card('hpids-sara-2015-6in-nc-cir')}}
 
+<h4>Online Mapping Service: HPIDS SARA 2015 6in NC\CIR</h4>
+   <div class="input-group copy-url-container">
+      <span class="input-group-btn">
+    <button class="btn btn-tnris copy-url-btn" type="button">
+      <i class="fa fa-clipboard"></i> Copy URL
+    </button>
+  </span>
+  <input class="wms-url copy-url-input form-control" type="text" readonly value="http://r.tnris.org/arcgis/services/HPIDS/HPIDS_SARA_2015_NC/ImageServer/WMSServer">
+</div>
+<hr>
     {{m.catalog_data_card('hpids-university-lands-2015-6in-nc-cir')}}
 
+<h4>Online Mapping Service: HPIDS University Lands 2015 6in NC\CIR</h4>
+   <div class="input-group copy-url-container">
+      <span class="input-group-btn">
+    <button class="btn btn-tnris copy-url-btn" type="button">
+      <i class="fa fa-clipboard"></i> Copy URL
+    </button>
+  </span>
+  <input class="wms-url copy-url-input form-control" type="text" readonly value="http://r.tnris.org/arcgis/services/HPIDS/HPIDS_University_Lands_2015_NC/ImageServer/WMSServer">
+</div>
+
+<hr>
     {{m.catalog_data_card('hpids-tpwd-2015-6in-1ft-nc-cir')}}
+    
+<hr>
+    {{m.catalog_data_card('hpids-nga-usgs-2015-1ft-nc-cir')}}
+
 </div>
 <div class="col-sm-4 col-md-3 col-md-offset-1">
 
