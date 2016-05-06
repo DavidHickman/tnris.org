@@ -8,7 +8,7 @@ abstract:
 tags: GIO, Data Sharing, GIS, Geospatial
 ---
 
-<script async class="speakerdeck-embed" data-id="94774cd3ca724dae9e8d9162e813f26d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="4184008e4c9b4254a3d5d2bd2407453a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 <p class="lead">The 2nd quarter Texas GIS Community meeting of 2016 was held on Tuesday, April 12th, 2016.</p>
 
@@ -19,9 +19,9 @@ tags: GIO, Data Sharing, GIS, Geospatial
 ### Since we last met
 #### Richard Wade, State Geographic Information Officer
 
--	New GIS Solutions Group Page– a web page dedicated to the activities of the [GIS Solutions Group] (https://tnris.org/geographic-information-office/gis-solutions-group/).
+-	New GIS Solutions Group Page– a web page dedicated to the activities of the [GIS Solutions Group](https://tnris.org/geographic-information-office/gis-solutions-group/).
 
--	New [Lidar 2016-2017 Project Page] (https://tnris.org/2016-lidar-acquisition-project/) – a web page created for project visibility and to attract additional partners for new Lidar in central Texas.
+-	New [Lidar 2016-2017 Project Page](https://tnris.org/2016-lidar-acquisition-project/) – a web page created for project visibility and to attract additional partners for new Lidar in central Texas.
 
 -	Google Pilot – renewed for 18 additional months to continue analysis and build out processes for receiving new imagery and balancing shared costs for continuation after 9/1/2017. 
 
@@ -34,7 +34,7 @@ tags: GIO, Data Sharing, GIS, Geospatial
 ### Imagery for Texas	
 #### Gayla Mullins
 
-Final data from the 2015 Texas Orthoimagery Project (TOP) captured at 0.5-meter resolution during the 2014/2015 and 2015/2016 winter seasons is near completion and has been delivered in full to TNRIS. The southernmost tip of Texas is the most recent delivery to TNRIS and will be made available for download from the TNRIS website in about two weeks along with the exisiting data for the rest of the state. The TOP imagery is also being shared with the Esri Community Imagery Program. Imagery is gradually appearing in the Esri imagery basemap available in Arc products starting now. Check the [project website] (https://tnris.org/2015-statewide-orthoimagery-project/) for additional updates and data download and WMS connection information.
+Final data from the 2015 Texas Orthoimagery Project (TOP) captured at 0.5-meter resolution during the 2014/2015 and 2015/2016 winter seasons is near completion and has been delivered in full to TNRIS. The southernmost tip of Texas is the most recent delivery to TNRIS and will be made available for download from the TNRIS website in about two weeks along with the exisiting data for the rest of the state. The TOP imagery is also being shared with the Esri Community Imagery Program. Imagery is gradually appearing in the Esri imagery basemap available in Arc products starting now. Check the [project website](https://tnris.org/2015-statewide-orthoimagery-project/) for additional updates and data download and WMS connection information.
 The Buy-Up areas at 6-inch/1-foot resolution are also complete and available and in various stages of download and WMS access. See chart on slide 10 of the QtrlyMtg2_2016.pdf
 All products from the 2015 TOP project are 4-band and in the public domain.
 
@@ -91,7 +91,7 @@ Will give presentation on new TxDOT Open Data Portal in a few minutes. TxDOT is 
 
 #### Traci Tracey
 
-Free [GeoDev Meetup] (http://www.meetup.com/DevMeetUpTexas/events/229771773/) at NXNW coming up Tuesday, May 24.
+Free [GeoDev Meetup](http://www.meetup.com/DevMeetUpTexas/events/229771773/) at NXNW coming up Tuesday, May 24.
 
 #### Renae Seely
 
@@ -105,20 +105,20 @@ Sunsetting DARS and dividing between TWC and HHSC which means splitting up mappi
 
 - Over the last year, TxDOTs Transportation Planning and Programming Division has moved much of its data to ArcGIS Online, improved metadata and developed an Open Data Site to share its geospatial data with the public.
 
-<Add Speaker Deck link here>
+<script async class="speakerdeck-embed" data-id="3b89f49a24244a39a4159c861fabd0b5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### Digital Globe
 #### Travis Schindler – Digital Globe
 
 - High resolution imagery, basemaps, DEMs and Big Data – Using satellites to collect and create products from 16 years of archive imagery.
 
-<Add Speaker Deck link here>
+<script async class="speakerdeck-embed" data-id="032b53105c7c429cb4b0441139530481" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### Texas GIO Report 2016
 #### Felicia Retiz – Deputy GIO, TNRIS
 
 - Several state agencies have been interviewed, surveys have been collected, and we are now compiling data for the upcoming 2016 report.
 
-<Add Speaker Deck link here>
+<script async class="speakerdeck-embed" data-id="36393f2141da4d39ba884e90f6426c7f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-##3rd Quarter Meeting - July 12, 2016
+## 3rd Quarter Meeting - July 12, 2016
