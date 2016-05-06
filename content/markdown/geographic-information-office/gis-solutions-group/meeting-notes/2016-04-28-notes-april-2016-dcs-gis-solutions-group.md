@@ -59,7 +59,7 @@ Richard Wade opened the meeting with introductions around the room.
   - Heat map being created to show where users are using the data. Still TBD as to who will have access to the heat map
   - Kara will look into changing the static usernames. Limiting factor is that reports are coming from Google Big Data and it has a basic premise of put data in and don’t change it.  Not sure how to link to historical data.
 
-###Kyle Campbell and Kara Manton excused for the remainder of the meeting.
+**Kyle Campbell and Kara Manton excused for the remainder of the meeting.**
 
 ## Google Imagery – New / Pending Purchases and Current Budget
 
