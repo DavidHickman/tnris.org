@@ -225,3 +225,16 @@
     margin-bottom: 15px;
   }
 }
+
+.georodeo-front-btn {
+  bottom: 20px;
+  box-shadow: inset $urgentblue 0 0 7px;
+    box-shadow: 2px 2px 2px $darkgrey;
+  left: 25%;
+  max-width: 50%;
+  position: absolute;
+
+  @media (min-width: $screen-sm) {
+    max-width: 25%;
+  }
+}
