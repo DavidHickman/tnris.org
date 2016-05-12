@@ -45,33 +45,10 @@
 .description {
   margin-bottom: 30px;
 
-  h2 {
-    margin-top: 0;
-  }
-
   p {
     font-weight: 300;
     font-size: 20px;
   }
-
-  table {
-    width: 100%;
-    tr {
-      &:nth-child(odd) {}
-      &:nth-child(even) {
-        background-color: $lightgrey;
-      }
-      td {
-        padding: 10px;
-        vertical-align: top;
-
-        &:first-child {
-          width: 30%;
-        }
-      }
-    }
-  }
-
 }
 
 #catalog-main-image {
@@ -457,9 +434,27 @@ input.wms-url {
   }
 }
 
-.data-deets {
-  li {
-    background: $lightgrey;
+h2.clean-top {
+  margin-top: 0;
+}
+
+table.data-details {
+  margin-bottom: 20px;
+  width: 100%;
+
+  tr {
+    &:nth-child(odd) {}
+    &:nth-child(even) {
+      background-color: $lightgrey;
+    }
+    td {
+      padding: 10px;
+      vertical-align: top;
+
+      &:first-child {
+        width: 30%;
+      }
+    }
   }
 }
 

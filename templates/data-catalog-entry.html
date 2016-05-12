@@ -193,22 +193,29 @@
         </div>
         </div>
         <div class="col-sm-7">
-          <div class="description">
-          <h2>Data Details</h2>
-          <table>
+          <h2 class="clean-top">Data Details</h2>
+          <table class="data-details">
                 <tbody>
             <tr><td><strong>Available Formats:</strong></td><td>  {{ available_formats }}</td></tr>
+           
            {% if alternative_data %} 
             <tr><td><strong>Alternative Data:</strong></td><td>  {{ alternative_data }}</td></tr>
            {% endif %}
+
             {% if derivative_data %}
             <tr><td><strong>Derivative Data:</strong></td><td>  {{ derivative_data }}</td></tr>
             {% endif %}
             <tr><td><strong>Known Issues:</strong></td><td> {% if known_issues %}{{ known_issues }}{% else %} None {% endif %}</td></tr>
+
             <tr><td><strong>Recommended Uses:</strong></td><td>  {{ recommended_use }}</td></tr>
+
+            {% if spatial_reference %}
+            <tr><td><strong>Spatial Reference:</strong></td><td>  {{ spatial_reference|safe }} </td></tr>
+            {% endif %}
           </tbody>
         </table>
 
+          <div class="description">
             <h2>Description</h2>
             <p>{{contents|safe}}</p>
           </div>
