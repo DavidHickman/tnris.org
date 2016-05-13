@@ -167,8 +167,13 @@
 }
 
 .presenter {
-  border: 5px solid $auburn;
-  max-width: 160px;
+  border: 4px solid $auburn;
+  max-width: 120px;
+}
+
+.gr-presenter-container {
+  clear: both;
+  min-height: 150px;
 }
 
 .quick-agenda {
