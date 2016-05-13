@@ -304,6 +304,7 @@ gulp.task('dist-metal', function () {
             var markdownFields = [
               'description',
               'short_description',
+              'spatial_reference',
             ];
 
             _.each(markdownFields, function(markdownField) {
