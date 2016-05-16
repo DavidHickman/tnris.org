@@ -21,7 +21,7 @@ Sponsored by <a href="http://www.esri.com"><img src="{{m.link('static/images/log
 
 ## 9:00AM to 10:00AM
 
-<h3><small>Keynote Address</small>
+<h3><small>Keynote Address</small><br>
 Waldo Jaquith, U.S. Open Data</h3>
 
 #### About Waldo
@@ -44,7 +44,7 @@ Waldo Jaquith is the director of U.S. Open Data, an organization building the ca
 #### About Andy
 As a commercial pilot by schooling and a self-taught geographer by trade, Andy has been working with GIS for over the past 13 years. Andy works at Boundless, where he currently serves as the CEO and previously held the role of the Vice President of Professional Services. His team supports the promotion of open source geospatial technologies, as well as providing support for those needing a little help along the way. Prior to working at Boundless, Andy worked at Esri for 10 years leading the Midwest Professional Services delivery team. He lives in St. Louis with his wife and four kids, where he enjoys hiking, fishing, and being a novice woodworker, when is he is not camping out with the Boy Scouts!
 
-<h3>John Gravois - ESRI</h3>
+### John Gravois - ESRI
 
 <h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/2016/john_gravois.jpg')}}" alt="Head shot of John Gravois from ESRI"> Hey Esri, What Have You Open-sourced for me Lately?</h4>
 
