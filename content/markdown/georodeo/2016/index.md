@@ -41,6 +41,8 @@ Waldo Jaquith is the director of U.S. Open Data, an organization building the ca
 
 <h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/2016/andy_dearing.jpg')}}" alt="Head shot of John Andy Dearing"> Thinking Open – A Hybrid Approach to Implementing Open-Source Technologies</h4>
 
+As open-source technology trends continue to emerge in modern IT enterprises, there has been significant interest from the geospatial community in implementing open-source GIS technologies.  There are a multitude of reasons why organizations consider open-source, and in this discussion, Boundless will share best practices around a hybrid approach to integrating and implementing open-source geospatial technologies, complementing the existing proprietary technologies and tools.
+
 #### About Andy
 As a commercial pilot by schooling and a self-taught geographer by trade, Andy has been working with GIS for over the past 13 years. Andy works at Boundless, where he currently serves as the CEO and previously held the role of the Vice President of Professional Services. His team supports the promotion of open source geospatial technologies, as well as providing support for those needing a little help along the way. Prior to working at Boundless, Andy worked at Esri for 10 years leading the Midwest Professional Services delivery team. He lives in St. Louis with his wife and four kids, where he enjoys hiking, fishing, and being a novice woodworker, when is he is not camping out with the Boy Scouts!
 
