@@ -104,7 +104,7 @@ John Clary is a senior analyst for the City of Austin Transportation Department.
 
 ### Calvin Metcalf - AppGeo
 
-<h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/2016/calvin_metcalf.jpg')}}" alt="Head shot of Calvin Metcalf from AppGeo"> When worse is better: making a dumb as bricks app for use when everything goes wrong</h4>
+<h4><img class="img-circle pull-right presenter" src="{{m.link('static/images/georodeo/2016/calvin_metcalf.jpg')}}" alt="Head shot of Calvin Metcalf from AppGeo"> When Worse is Better: Making a Dumb as Bricks App for Use When Everything Goes Wrong</h4>
 
 #### About Calvin
 
