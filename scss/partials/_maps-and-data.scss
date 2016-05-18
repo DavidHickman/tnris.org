@@ -497,3 +497,36 @@ table.data-details {
   margin-bottom: 0;
 }
 
+// Data Tiles
+
+.data-tile-container {
+  border: 1px solid $midgrey;
+  box-shadow: 3px 3px 3px $middarkgrey;
+  float: left;
+  height: 375px;
+  margin: 0 15px 15px 0;
+  overflow: hidden;
+  width: 200px;
+
+  img {
+    max-width: 200px;
+  }
+
+  .data-tile-body {
+    padding: 5px;
+
+    h3 {
+      font-size: 20px;
+      margin: 5px 0;
+      padding: 0;
+    }
+
+    p {
+      color: $middarkgrey;
+      font-size: 14px;
+    }
+  }
+}
+
+
+

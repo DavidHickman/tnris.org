@@ -31,18 +31,18 @@
 {% endblock topcontent %}
 
 {% block contents %}
-  {% include "stratmap/nav.html" %}
-  <div class="row">
-    <div class="col-md-8">
-      {{ contents|safe }}
+
+{% endblock contents %}
+
+{% block contents-two %}
+<div class="container">  {% include "stratmap/nav.html" %}</div>
+   {{ contents|safe }}
+
+{% endblock contents-two %}
+
+   
 
       {% block extracontent %}
       {% endblock extracontent %}
-    </div>
 
-    <div class="col-md-4">
-      {% block sidebarLeft %}
-      {% endblock sidebarLeft %}
-    </div>
   </div>
-{% endblock contents %}
