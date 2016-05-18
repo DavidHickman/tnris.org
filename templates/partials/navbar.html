@@ -30,21 +30,24 @@
             {%- set programs = [
               {
                 'id': 'stratmap',
+                'url': 'stratmap/index',
                 'name': 'StratMap',
                 'description': 'Strategic Mapping Program'
               }, {
                 'id': 'training',
+                'url': 'training',
                 'name': 'Education &amp; Training',
                 'description': 'Low-cost and accessible GIS training'
               }, {
                 'id': 'high-priority-imagery-data-sets',
+                'url': 'high-priority-imagery-data-sets',
                 'name': 'HPIDS',
                 'description': 'High Priority Imagery &amp; Data Sets'
               }
             ] -%}
             {% for program in programs %}
               <li {% if id === program.id %}class="active"{% endif %}>
-                <a href="{{m.link(program.id)}}">
+                <a href="{{m.link(program.url)}}">
                   {{program.name}}<br>
                   <small>{{program.description}}</small>
                 </a>

@@ -21,7 +21,7 @@ tags: stratmap, orthoimagery, williamson county, bell county, city of georgetown
 
 High resolution 6-inch aerial imagery are now available from TNRIS for the [City of Georgetown](https://georgetown.org/) and portions of Williamson, Bell, and Burnet Counties. This dataset is part of the [2015 Statewide Orthoimagery Project](2015-statewide-orthoimagery-project) as a BUY-UP higher resolution product with local contribution from the City of Georgetown Utilities to collect the new imagery.
 
-[Surdex Corp.](https://www.surdex.net/) was selected under the [High Priority Imagery and Data Sets (HPIDS)](high-priority-imagery-data-sets) state contract as the orthoimagery data provider. The TNRIS [Strategic Mapping Program (StratMap)](stratmap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
+[Surdex Corp.](https://www.surdex.net/) was selected under the [High Priority Imagery and Data Sets (HPIDS)](high-priority-imagery-data-sets) state contract as the orthoimagery data provider. The TNRIS [Strategic Mapping Program (StratMap)](stratmap/index) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
 
 The new orthoimagery are used for city engineering, planning and other applications. 
 
