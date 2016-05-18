@@ -167,8 +167,13 @@
 }
 
 .presenter {
-  border: 5px solid $auburn;
-  max-width: 160px;
+  border: 4px solid $auburn;
+  max-width: 120px;
+}
+
+.gr-presenter-container {
+  clear: both;
+  min-height: 150px;
 }
 
 .quick-agenda {
@@ -223,5 +228,18 @@
 
   img {
     margin-bottom: 15px;
+  }
+}
+
+.georodeo-front-btn {
+  bottom: 20px;
+  box-shadow: inset $urgentblue 0 0 7px;
+    box-shadow: 2px 2px 2px $darkgrey;
+  left: 25%;
+  max-width: 50%;
+  position: absolute;
+
+  @media (min-width: $screen-sm) {
+    max-width: 25%;
   }
 }
