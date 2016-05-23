@@ -24,44 +24,13 @@ abstract: Light Detection and Ranging (Lidar) is a technology that utilizes lase
 
 <p class="lead">All Lidar datasets are available at reproduction cost through our Research and Distribution center. They can be obtained by filling out an <a href="https://tnris.org/order-data/">order form</a>.</p>
 
-{{m.catalog_data_tile('capcog-2007-140cm')}}
-{{m.catalog_data_tile('capcog-2008-140cm')}}
-{{m.catalog_data_tile('capcog-2012-140cm')}}
-{{m.catalog_data_tile('city-of-georgetown-2015-50-cm')}}
-{{m.catalog_data_tile('city-of-grand-prairie-2009-70cm')}}
-{{m.catalog_data_tile('city-of-lubbock-2011-70cm-lidar')}}
-{{m.catalog_data_tile('fema-2006-140cm')}}
-{{m.catalog_data_tile('fema-2011-1m-liberty')}}
-{{m.catalog_data_tile('fema-2011-1m-parker')}}
-{{m.catalog_data_tile('fema-2011-61cm-comal-guadalupe')}}
-{{m.catalog_data_tile('fema-2013-60cm-middle-brazos-palo-pinto')}}
-{{m.catalog_data_tile('fema-2015-70-cm')}}
-{{m.catalog_data_tile('fort-bend-2006-60cm')}}
-{{m.catalog_data_tile('harris-county-flood-control-2001-150cm')}}
-{{m.catalog_data_tile('houston-galveston-area-council-h-gac-2008-lidar')}}
-{{m.catalog_data_tile('ibwc-2006-70cm')}}
-{{m.catalog_data_tile('ibwc-2011-70cm')}}
-{{m.catalog_data_tile('lcra-2007-140cm')}}
-{{m.catalog_data_tile('tnris-2009-1m-dallas')}}
-{{m.catalog_data_tile('tnris-2009-1m-goliad-mcmullen-zapata')}}
-{{m.catalog_data_tile('tnris-2009-50cm-tarrant')}}
-{{m.catalog_data_tile('tnris-2010-1m-lee-leon-madison-milam')}}
-{{m.catalog_data_tile('tnris-2010-50cm-bexar')}}
-{{m.catalog_data_tile('tnris-2010-50cm-cooke-grayson-montague-wise')}}
-{{m.catalog_data_tile('tnris-2011-50cm-austin-grimes-walker')}}
-{{m.catalog_data_tile('tnris-2011-50cm-bell-burnet-mclennan')}}
-{{m.catalog_data_tile('tnris-2011-50cm-blanco-caldwell-gonzales-kendall-kerr')}}
-{{m.catalog_data_tile('tnris-2011-50cm-collin-denton-kaufman')}}
-{{m.catalog_data_tile('tnris-2012-50cm-dewitt')}}
-{{m.catalog_data_tile('tnris-2012-50cm-tceq-dam-safety-sites')}}
-{{m.catalog_data_tile('tnris-2013-50cm-ellis-navarro-wilson-karnes')}}
-{{m.catalog_data_tile('tnris-2014-50cm-bandera-lampasas')}}
-{{m.catalog_data_tile('tnris-2014-50cm-fort-bend')}}
-{{m.catalog_data_tile('tnris-2014-50cm-henderson-smith-van-zandt-trinity-river')}}
-{{m.catalog_data_tile('tnris-2015-50cm-brazos-county')}}
-{{m.catalog_data_tile('tpwd-2014-50cm-palo-pinto-mountains-state-park')}}
-{{m.catalog_data_tile('tpwd-2015-galveston-state-park')}}
-{{m.catalog_data_tile('usgs-2008-120cm')}}
-{{m.catalog_data_tile('usgs-2011-150cm')}}
+{% for category in catalog|sortBy(['category', 'name'])|groupBy('category') %}
+  
+  {% if loop.key === 'Lidar' %}
+      {% for item in category %}
+        {{m.catalog_data_tile_entry(item)}}
+      {% endfor %}
+    {% endif %}
+{% endfor %}
 
 </div>
