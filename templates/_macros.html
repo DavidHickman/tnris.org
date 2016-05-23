@@ -9,20 +9,19 @@
     {# run validateLink to generate a usable build warning #}
     {%- set throwaway = validateLink(search, crossref, filename) -%}
    {%- else  -%}
+    <a href="{{link(item.path)}}">
     <div class="data-tile-container">
-        <a class="media-left" href="{{link(item.path)}}">
           <img src="{{m.link('static/' + item.thumb_url)}}" alt="thumbnail of {{item.name}} data set">
       <div class="data-tile-body">
-        <h3>
-          <a href="{{link(item.path)}}">{{item.name}}</a>
-        </h3>
+        <h3>{{item.name}}</h3>
         <p>
           {{item.short_description|safe}}
         </p>
 
-        </a>
       </div>
+
     </div>
+    </a>
   {% endif -%}
 {%- endmacro -%}
 

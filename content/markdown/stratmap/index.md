@@ -7,45 +7,45 @@ abstract: The Strategic Mapping Program (StratMap) was established in 1997 by Se
 
 {% import "_macros.html" as m %}
 
-StratMap's primary goal is to acquire and improve digital geographic data for statewide mapping applications. StratMap also maintains comprehensive data standard specifications to ensure consistent, high quality data products across the State.
+<div class="container">
 
-StratMap personnel at TNRIS work with multiple agencies on cost-share initiatives in order to provide the State of Texas with best value data products. 
+<p>StratMap's primary goal is to acquire and improve digital geographic data for statewide mapping applications. StratMap also maintains comprehensive data standard specifications to ensure consistent, high quality data products across the State.</p>
 
-How does this work? The StratMap team communicates regularly with State, Federal, regional and local government entities to discuss mapping needs. New projects are formed by identifying type of data required, location, specification, budget and timeline for delivery. Data acquisition, production and independent quality assurance and quality control (QA/QC) are awarded to private geospatial contractors through the Texas Strategic Mapping Contract. After the final data deliverables are accepted, they are placed in the public domain for use by local, regional and federal government, academia, private industry and the public.
+<p>StratMap personnel at TNRIS work with multiple agencies on cost-share initiatives in order to provide the State of Texas with best value data products. </p>
 
-## Current Projects
+<p>How does this work? The StratMap team communicates regularly with State, Federal, regional and local government entities to discuss mapping needs. New projects are formed by identifying type of data required, location, specification, budget and timeline for delivery. Data acquisition, production and independent quality assurance and quality control (QA/QC) are awarded to private geospatial contractors through the Texas Strategic Mapping Contract. After the final data deliverables are accepted, they are placed in the public domain for use by local, regional and federal government, academia, private industry and the public.</p>
 
-### New Initiatives
+<h2>Current Projects</h2>
 
-2016-17 Lidar Acquisition Project
+<h3>New Initiatives</h3>
 
-Texas Strategic Mapping Contract
+<p>2016-17 Lidar Acquisition Project</p>
 
-The new contracting vehicle for StratMap and any Texas government agency is almost available for 17 total pre-approved vendors available for GIS products, services, and software.
+<p>Texas Strategic Mapping Contract</p>
 
-### Ongoing
+<p>The new contracting vehicle for StratMap and any Texas government agency is almost available for 17 total pre-approved vendors available for GIS products, services, and software.</p>
 
-2015 Statewide Orthoimagery Project
+<h3>Ongoing<h3>
 
-### Latest Data Releases
+<p>2015 Statewide Orthoimagery Project</p>
 
-TPWD 2015 Aerial
+<h3>Latest Data Releases</h3>
+
+<p>TPWD 2015 Aerial
 2016 Smith County Aerial
-City of Georgetown 2015 Aerial
+City of Georgetown 2015 Aerial</p>
 
-## By the numbers
+<h2>By the numbers</h2>
 
-<strong>48</strong> past agency partners and counting...
+<p><strong>48</strong> past agency partners and counting...</p>
 
-<strong>32</strong> project SOW releases since 2009 and counting...
+<p><strong>32</strong> project SOW releases since 2009 and counting...
+</p>
 
-<strong>$14.9M</strong> ($14,971,527.14) total spent on orthoimagery and lidar data products for the State of Texas since 2009 through cost-share initiatives.
+<p><strong>$14.9M</strong> ($14,971,527.14) total spent on orthoimagery and lidar data products for the State of Texas since 2009 through cost-share initiatives.</p>
 
-StratMap Program direct funding over time
-
-## Hydrography
-{{m.catalog_data_card('national-hydrography-dataset-nhd')}}
-
+<p>StratMap Program direct funding over time</p>
+</div>
 
 
 
