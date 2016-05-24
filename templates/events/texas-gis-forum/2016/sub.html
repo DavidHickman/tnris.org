@@ -19,7 +19,7 @@
 
 {% block contents %}
 
-
+<div id="contentMain" class="container">
 <div class="row">
     <div class="col-md-8">
         {{contents|safe}}
@@ -31,6 +31,7 @@
         {% include "./partials/2015-forum/poster-submission.html" %}
         {% endif %}
     </div>
+</div>
 </div>
 {% endblock contents %}
 

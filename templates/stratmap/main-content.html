@@ -1,0 +1,129 @@
+{% set highlight_items = [ 
+  { 
+    name: '2016-17 Lidar Acquisition Project', 
+    acronym: 'New Initiatives',
+    description: 'Facilitating efforts to maximize funding, coordination, and visibility of Lidar Acquisition for the State of Texas', 
+    image: 'static/images/highlights/tx-flag-gis.jpg', 
+    alt_text: 'Data support staff working with a customer', 
+    link: 'maps-and-data/research-and-distribution', 
+    button_text: 'Learn More <span class="sr-only">about Research &amp; Distribution</span>' 
+  }, { 
+    name: 'Texas Strategic Mapping Contract', 
+    acronym: 'New Initiatives',
+    description: 'The new contracting vehicle for StratMap and any Texas government agency is almost available for 17 total pre-approved vendors available for GIS products, services, and software.', 
+    image: 'static/images/highlights/tx-flag-gis.jpg', 
+    alt_text: 'Texas flag superimposed with spatial data', 
+    link: 'geographic-information-office', 
+    button_text: 'Learn More <span class="sr-only">about the Geographic Information Office</span>' 
+  }, { 
+    name: '2015 Statewide Orthoimagery Project', 
+    acronym: 'Ongoing',
+    description: 'Capturing High Quality, Leaf-Off data for the entire state', 
+    image: 'static/images/highlights/tx-flag-gis.jpg', 
+    alt_text: 'Texas flag superimposed with spatial data', 
+    link: 'geographic-information-office', 
+    button_text: 'Learn More <span class="sr-only">about the Geographic Information Office</span>' 
+  }
+  ] 
+  %} 
+
+  {% import "_macros.html" as m %}
+<section class="container">
+    <div class="col-sm-8">
+      <p class="lead">StratMap's primary goal is to acquire and improve digital geographic data for statewide mapping applications. StratMap also maintains comprehensive data standard specifications to ensure consistent, high quality data products across the State. StratMap was originally established in 1997 by Senate Bill 1 to develop consistent statewide digital data layers.</p>
+        <p>StratMap personnel at TNRIS work with multiple agencies on cost-share initiatives in order to provide the State of Texas with best value data products. </p>
+        <p><strong>How does this work? </strong>The StratMap team communicates regularly with State, Federal, regional and local government entities to discuss mapping needs. New projects are formed by identifying type of data required, location, specification, budget and timeline for delivery. Data acquisition, production and independent quality assurance and quality control (QA/QC) are awarded to private geospatial contractors through the Texas Strategic Mapping Contract. After the final data deliverables are accepted, they are placed in the public domain for use by local, regional and federal government, academia, private industry and the public.</p></div>
+</section>
+<section id="stratmap-by-the-numbers">
+    <div class="container">
+      <h2>By the numbers</h2>
+        <div class="row">
+            <div class="col-sm-4">
+              <strong>48 ----------------</strong><br> past agency partners and counting...
+            </div>
+            <div class="col-sm-4">
+              <strong>32 ----------------</strong><br> project Statement of Work (SOW) releases since 2009 and counting...
+            </div>
+            <div class="col-sm-4">
+              <strong>$14.9 Million</strong><br> total spent on orthoimagery and lidar data products for the State of Texas since 2009 through cost-share initiatives.
+            </div>
+            <div class="col-xs-12">
+              Timeline? --- StratMap Program direct funding over time
+            </div>
+          </div>
+      </div>
+</section>
+
+<section class="container">
+    <h2>Current Projects</h2>
+    <div class="row">
+        {% for item in highlight_items %}
+        <div class="col-sm-4 stratmap-project">
+            <div class="thumbnail ">
+                <a href="{{m.link(item.link)}}"><img class="img-responsive" src="{{m.link(item.image)}}" alt="{{item.alt_text}}"></a>
+                <div class="caption">
+                    <h3>
+
+                      {% if item.acronym %}
+                        <small>{{item.acronym}}</small><br>
+                      {% endif %} 
+                      {{item.name|safe}}</h3>
+                    <p>{{item.description}}</p>
+                    <a class="btn btn-default" href="{{m.link(item.link)}}" role="button">{{item.button_text|safe}} <span class="glyphicon glyphicon-chevron-right"></a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</section>
+<section class="container-fluid stratmap-releases">
+<div class="container">
+  <h2>Latest StratMap Data Releases</h2>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="media">
+                <div class="media-left">
+                    <a href="news/2016-04-28-amarillo-dfw-el-paso-lubbock-2015-aerial-imagery-now-available">
+                        <img class="media-object" src="{{m.link('static/images/updates/2016/nga-2015/nga_2015_th.jpg')}}" alt="...">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><a href="news/2016-04-28-amarillo-dfw-el-paso-lubbock-2015-aerial-imagery-now-available">Amarillo-DFW-El Paso-Lubbock 2015 Aerial Imagery Now Available</a></h4> <p>High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for four urban areas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="media">
+                <div class="media-left">
+                    <a href="news/2016-04-05-texas-parks-wildlife-2015-aerial-imagery-now-available">
+                        <img class="media-object" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd_2015_th.jpg')}}" alt="...">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                    <a href="news/2016-04-05-texas-parks-wildlife-2015-aerial-imagery-now-available">Texas Parks and Wildlife 2015 Aerial Imagery Now Available
+                    </a>
+                    </h4>
+                    <p>High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for three Texas Parks and Wildlife areas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="media">
+                <div class="media-left">
+                    <a href="news/2016-03-14-2016-smith-county-aerial-imagery-now-available">
+                        <img class="media-object" src="{{m.link('static/images/updates/2016/smith-2016/hpids_smith_county_2016_6in_nc_cir_th.jpg')}}" alt="...">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                    <a href="news/2016-03-14-2016-smith-county-aerial-imagery-now-available">2016 Smith County Aerial Imagery Now Available
+                    </a></h4>
+                    <p>High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for Smith County.</p>
+                </div>
+            </div>
+        </div>
+    </div></div>
+</section>
+

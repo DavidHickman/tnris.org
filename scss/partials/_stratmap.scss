@@ -1,0 +1,42 @@
+.stratmap-bar {
+  background: $darkgrey;
+  font-size: 20px;
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover {
+    background-color: lighten($forum2015blue, 5%);
+  }
+}
+
+.stratmap-releases {
+  background: $lightgrey;
+  padding-bottom: 30px;
+
+    img {
+      max-width: 100px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
+}
+
+.stratmap-project {
+
+    .thumbnail {
+      border: none;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+}
+
+#stratmap-by-the-numbers {
+  background: $darkgrey;
+  color: white;
+
+  strong {
+    font-size: 50px;
+  }
+}

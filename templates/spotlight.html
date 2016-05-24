@@ -44,11 +44,13 @@
 {% endblock topcontent %}
 
 {% block contents %}
+<div id="contentMain" class="container">
   <div class="row article">
     <div class="col-md-9">
        {{contents|safe}}
     </div>
   </div>
+</div>
 {% endblock contents %}
 
 {% block contents-two %}

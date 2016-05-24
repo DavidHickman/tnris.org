@@ -503,9 +503,10 @@ table.data-details {
   border: 1px solid $midgrey;
   box-shadow: 3px 3px 3px $middarkgrey;
   float: left;
-  height: 375px;
+  height: 330px;
   margin: 0 15px 25px 0;
   overflow: hidden;
+  position: relative;
   width: 200px;
 
   &:hover {
@@ -516,6 +517,10 @@ table.data-details {
   transition-property: margin-top, margin-bottom, box-shadow;
   transition-duration: 0.5s, 0.5s, 0.5s;
   transition-delay: 0s, 0s, 0s;
+
+    .data-tile-category {
+      background: $tnrisblue;
+    }
 
     a {
       text-decoration: none;
@@ -540,7 +545,25 @@ table.data-details {
       font-size: 14px;
     }
   }
+
+  .data-tile-category {
+    background: $darkgrey;
+    bottom: 0;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+  }
 }
 
+#stratmap-orthoimagery .data-tile-container#spot-select-for-texas-pan-bw-1999-2001-10m {
+    display: none;
+}
 
+#stratmap-body {
+  #contentMain {
+    display: none;
+  }
+}
 

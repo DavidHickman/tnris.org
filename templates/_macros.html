@@ -10,16 +10,16 @@
     {%- set throwaway = validateLink(search, crossref, filename) -%}
    {%- else  -%}
     <a href="{{link(item.path)}}">
-    <div class="data-tile-container">
+    <div id="{{ item.urlized_name }}" class="data-tile-container">
           <img src="{{m.link('static/' + item.thumb_url)}}" alt="thumbnail of {{item.name}} data set">
       <div class="data-tile-body">
         <h3>{{item.name}}</h3>
-        <p>
+        <!-- <p>
           {{item.short_description|safe}}
-        </p>
+        </p> -->
 
       </div>
-
+      <div class="data-tile-category">{{ item.category }}</div>
     </div>
     </a>
   {% endif -%}
