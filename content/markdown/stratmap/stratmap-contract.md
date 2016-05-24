@@ -38,7 +38,7 @@ New data acquisition projects are determined by identifying type of data require
     Each of the selected companies were carefully evaluated for project experience and success. Qualifications include project experience, technology innovation, professional staff, and available resources.
 
 <a href="http://www.aecom.com/">AECOM</a>
-AECOM Contract page - In progress
+AECOM Contract <a href="http://www.ursbtr.com/DirStratMap/storymap/index.html">page</a>
 DIR Contract <a href="http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3423&keyword=aecom">page</a>
 
 <a href="http://www.appgeo.com/">AppGeo</a>
@@ -46,7 +46,7 @@ AppGeo Contract page - In progress
 DIR Contract page - In progress
 
 <a href="http://www.dewberry.com/">Dewberry</a>
-Dewberry Contract page - In progress
+Dewberry Contract <a href="http://www.dewberry.com/services/geospatial/texas-dir">page</a>
 DIR Contract <a href="http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3389&keyword=dewberry">page</a>
 
 <a href="http://www.esri.com/">Esri</a>
@@ -66,7 +66,7 @@ Geophex Contract <a href="http://geophexsurveys.com/dir-contractor-geographic-da
 DIR Contract <a href="http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3411&keyword=geophex">page</a>
 
 <a href="http://harris.com/">Harris</a>
-Harris Contract page - In progress
+Harris Contract <a href="http://www.harrisgeospatial.com/ProductsandSolutions/GeospatialProducts/GeigerModeLiDAR/TXDIR.aspx">page</a>
 DIR Contract <a href="http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3390&keyword=Harris">page</a>
 
 <a href="http://www.infogroup.com/">Infogroup</a>
@@ -78,12 +78,12 @@ Hexagon Geospatial Contract page - In progress
 DIR Contract page - In progress
 
 <a href="http://www.merrick.com/">Merrick</a>
-Merrick Contract page - In progress
+Merrick Contract <a href="http://www.merrick.com/TXDIR">page</a>
 DIR Contract <a href="http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3388&keyword=merrick">page</a>
 
 <a href="http://penbaysolutions.com/">PenBay</a>
-PenBay Contract page - In progess
-DIR Contract page - In progress
+PenBay Contract <a href="http://penbaysolutions.com/texas-dir/">page</a>
+DIR Contract <a href="http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3397&keyword=penbay">page</a>
 
 <a href="http://www.razor-tek.com/">RazorTek</a>
 RazorTek Contract page - In progress
