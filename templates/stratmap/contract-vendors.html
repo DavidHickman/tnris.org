@@ -1,0 +1,150 @@
+{% set contract_vendors = [ 
+  { 
+    name: 'AECOM', 
+    logo_url: 'static/images/texas-gis-forum/2015/sponsors/aecom_logo.png',
+    vendor_home_url: 'http://www.aecom.com/',
+    vendor_page_url: 'http://www.ursbtr.com/DirStratMap/storymap/index.html', 
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3423&keyword=aecom', 
+  }, { 
+    name: 'AppGeo',
+    status: 'unavailable', 
+    logo_url: 'static/images/texas-gis-forum/2015/sponsors/appgeo_logo_sm.png',
+    vendor_home_url: 'http://www.appgeo.com/',
+  }, 
+  { 
+    name: 'Dewberry', 
+    logo_url: 'static/images/vendors/dewberry_logo.png',
+    vendor_home_url: 'http://www.dewberry.com/  ',
+    vendor_page_url: 'http://www.dewberry.com/services/geospatial/texas-dir', 
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3389&keyword=dewberry', 
+  },
+  { 
+    name: 'Esri', 
+    status: 'unavailable', 
+    logo_url: 'static/images/logos/esri_web_md.png',
+    vendor_home_url: 'http://www.esri.com/',
+  },
+  { 
+    name: 'Fugro Geospatial', 
+    status: 'unavailable', 
+    logo_url: 'static/images/vendors/fugro_logo.jpg',
+    vendor_home_url: 'http://www.fugrogeospatial.com/',
+  },
+  { 
+    name: 'GeoComm', 
+    logo_url: 'static/images/vendors/geocom_logo.png',
+    status: 'unavailable', 
+    vendor_home_url: 'http://www.geo-comm.com/',
+  },
+  { 
+    name: 'Geophex', 
+    logo_url: 'static/images/vendors/geophex_logo.png',
+    vendor_home_url: 'http://www.geophex.com/',
+    vendor_page_url: 'http://geophexsurveys.com/dir-contractor-geographic-data-provider/', 
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3411&keyword=geophex', 
+  },
+  { 
+    name: 'Harris', 
+    logo_url: 'static/images/vendors/harris_logo.png',
+    vendor_home_url: 'http://www.harrisgeospatial.com/',
+    vendor_page_url: 'http://www.harrisgeospatial.com/ProductsandSolutions/GeospatialProducts/GeigerModeLiDAR/TXDIR.aspx', 
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3390&keyword=Harris', 
+  },
+  { 
+    name: 'Infogroup', 
+    logo_url: 'static/images/texas-gis-forum/2015/sponsors/infogroup_logo.png',
+    status: 'unavailable', 
+    vendor_home_url: 'http://www.infogroup.com/',
+  },
+  { 
+    name: 'Hexagon Geospatial', 
+    logo_url: 'static/images/texas-gis-forum/2015/sponsors/hexagon_logo.png',
+    status: 'unavailable', 
+    vendor_home_url: 'http://www.hexagongeospatial.com/',
+  },
+  { 
+    name: 'Merrick', 
+    logo_url: 'static/images/vendors/merrick_logo.png',
+    vendor_home_url: 'http://www.merrick.com/',
+    vendor_page_url: 'http://www.merrick.com/TXDIR', 
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3388&keyword=merrick', 
+  },
+  { 
+    name: 'PenBay', 
+    logo_url: 'static/images/vendors/penbay_logo.png',
+    vendor_home_url: 'http://penbaysolutions.com/',
+    vendor_page_url: 'http://penbaysolutions.com/texas-dir/', 
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3397&keyword=penbay', 
+  },
+  { 
+    name: 'RazorTek', 
+    logo_url: 'static/images/texas-gis-forum/2015/sponsors/razorlizard_web.png',
+    status: 'unavailable', 
+    vendor_home_url: 'http://www.razor-tek.com/',
+  },
+  { 
+    name: 'SADA Systems', 
+    logo_url: 'static/images/vendors/sada_logo.jpg',
+    status: 'unavailable', 
+    vendor_home_url: 'https://sadasystems.com/',
+  },
+  { 
+    name: 'Sanborn', 
+    logo_url: 'static/images/vendors/sanborn_logo_sm.jpg',
+    status: 'unavailable', 
+    vendor_home_url: 'http://www.sanborn.com/',
+  },
+  { 
+    name: 'Surdex', 
+    logo_url: 'static/images/vendors/surdex_logo_sm.jpg',
+    vendor_home_url: 'https://www.surdex.net/',
+    vendor_page_url: 'https://www.texas-geospatial.com/', 
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3394&keyword=Surdex', 
+  },
+  { 
+    name: 'Tessellations', 
+    logo_url: 'static/images/vendors/tesselations_logo.jpg',
+    status: 'unavailable', 
+    vendor_home_url: 'http://tessellations.us/',
+  },
+  ] 
+  %} 
+
+{% import "_macros.html" as m %}
+
+       {% for item in contract_vendors %}
+        <div class="col-sm-6">
+          {% if item.status == 'unavailable' %} 
+          <div class="thumbnail vendor-box unavailable">
+          {% else %}
+            <div class="thumbnail vendor-box">
+          {% endif %}
+                <a href="{{item.vendor_home_url}}"><img class="img-responsive" src="{{m.link(item.logo_url)}}" alt="Logo and home page for {{item.name}}"></a>
+                <div class="caption">
+                    <h3 class="sr-only">{{item.name|safe}}</h3>
+                    <ul class="list-clean">
+                      <li><a href="{{item.vendor_home_url}}">
+                        <i class="glyphicon glyphicon-home"></i> Vendor Home</a>
+                      </li>
+
+                      <li>
+                      {% if item.vendor_page_url %}
+                      <a href="{{item.vendor_page_url}}"><i class="glyphicon glyphicon-new-window"></i> Vendor Contract Page</a>
+                      {% else %}
+                      <em>Vendor Contract Page in progress</em>
+                      {% endif %}
+                      </li>
+                      
+                      <li>
+                      {% if item.dir_page_url %}
+                      <a href="{{item.dir_page_url}}"><i class="glyphicon glyphicon-new-window"></i> DIR Vendor Contract Page</a>
+                      {% else %}
+                      <em>DIR Contract Page in progress</em>
+                       {% endif %}
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      {% endfor %}
+
