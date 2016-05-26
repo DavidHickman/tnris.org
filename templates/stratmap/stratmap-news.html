@@ -1,0 +1,40 @@
+{% set stratmap_items = [ 
+    { 
+      name: 'Amarillo-DFW-El Paso-Lubbock 2015 Aerial Imagery Now Available',
+      date: 'April 28, 2016',
+      link: 'news/2016-04-28-amarillo-dfw-el-paso-lubbock-2015-aerial-imagery-now-available',
+      thumb: 'static/images/updates/2016/nga-2015/nga_2015_th.jpg',
+      teaser: 'High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for four urban areas.',
+    },
+    { 
+      name: 'Texas Parks and Wildlife 2015 Aerial Imagery Now Available',
+      date: 'April 5, 2016',
+      link: 'news/2016-04-05-texas-parks-wildlife-2015-aerial-imagery-now-available',
+      thumb: ''static/images/updates/2016/tpwd-2015/tpwd_2015_th.jpg',
+      teaser: 'High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for three Texas Parks and Wildlife areas.',
+    },
+    { 
+      name: 'Amarillo-DFW-El Paso-Lubbock 2015 Aerial Imagery Now Available',
+      date: 'March 14, 2016',
+      link: 'news/2016-03-14-2016-smith-county-aerial-imagery-now-available',
+      thumb: 'static/images/updates/2016/nga-2015/nga_2015_th.jpg',
+      teaser: 'High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for Smith County.',
+    }
+   ] 
+%} 
+
+
+{% for article in stratmap_items %}
+    <div class="media">
+        <div class="media-left">
+            <a href="{{m.link(article.link)}}">
+                <img class="media-object" src="{{m.link(article.thumb)}}" alt="...">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading"><small>{{article.date}}</small><a href="{{m.link(article.link)}}">{{article.name}}</a></h4> 
+            <p class="sr-only">{{article.description}}</p>
+        </div>
+    </div>
+    <hr>
+{% endfor %}
