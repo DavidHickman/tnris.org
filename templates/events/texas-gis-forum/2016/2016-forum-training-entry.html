@@ -1,5 +1,5 @@
 
-{% extends "base.html" %}
+{% extends "events/texas-gis-forum/2016/main.html" %}
 {% import "_form_macros.html" as form %}
 
 
@@ -16,33 +16,35 @@
 {% endblock scripts %}
 
 
-
 {% block topcontent %}
-<div id="_2015-forum-container">
-  <div class="container-fluid full">
-
+  <div id="_2016-forum-container">
+    <div class="container-fluid full">
       <div class="top-container">
-          <div class="hidden-sm hidden-xs">
-            <img src="{{m.link('static/images/texas-gis-forum/2015/2015_forum_banner_lg.jpg')}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
-          </div>
-          <div class="hidden-xs hidden-md hidden-lg">
-            <img src="{{m.link('static/images/texas-gis-forum/2015/small-web-banner.jpg')}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
-          </div>
-          <div class="hidden-sm hidden-md hidden-lg">
-            <img src="{{m.link('static/images/texas-gis-forum/2015/xs-banner.jpg')}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
-          </div>
-      </div>
-  </div>
 
+      <div class="container forum-2016-brand-container">
+        <span class="forum-brand">Texas GIS Forum</span> October 24th – 27th, 2016 | Austin, Texas
+      </div>
+          <img src="{{m.link('static/images/texas-gis-forum/2015/forum_photo_montage.jpg')}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+          <img src="{{m.link('static/images/texas-gis-forum/2016/montage.jpg')}}" class="banner img-responsive hidden-xs hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+          <img src="{{m.link('static/images/texas-gis-forum/2016/montagesm.jpg')}}" class="banner img-responsive hidden-sm hidden-md hidden-lg"  alt="Texas GIS Forum Main Image">
+      </div>
+    </div>
+
+    <div class="_2016-forum-intro">
+      <div class="container">        
+        {% include "events/texas-gis-forum/2016/nav.html" %}
+        <h1>{{title}}</h1>
+        <p class="lead">
+          {{abstract}}
+        </p>
+    </div>
+  </div>
 {% endblock topcontent %}
 
-{% block contents %}
-<div id="contentMain" class="container">
-{% include "./partials/2015-forum/forum-nav-2015.html" %}
 
+{% block contents %}
   <div class="row">
     <div class="col-sm-8">
-      <h1 class="training-title">{{class_title}}</h1>
       <div class="training-date">
         <strong>
           <span class="glyphicon glyphicon-calendar"></span>
@@ -85,7 +87,7 @@
         {% endif %} -->
 
 
-          <p style="font-size: 18px;"><em><strong>Online Registration is now closed.</strong> On-site registration will be available at the Conference starting Wednesday morning.</em></p>
+          <p style="font-size: 18px;"><em><strong>Online Registration will open shortly.</strong></em></p>
 
       {% endblock sidebarLeft %}
     </div>
@@ -93,19 +95,4 @@
 </div>
 </div>
 {% endblock contents %}
-
-{% block contents-two %}
-<section class="forum-map">
-    <div class="container">
-        <div class="row">
-                {% include "./partials/2015-forum/forum-map.html" %}
-        </div>
-    </div>
-</section>
-<section class="forum-sponsors">
-  {% include "./partials/2015-forum/2015-forum-sponsors.html" %}
-</section>
-
-{% endblock contents-two %}
-
 
