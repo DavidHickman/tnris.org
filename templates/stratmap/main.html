@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block topcontent %}
+<div class="container-fluid full">
+
+      <div class="top-container">
+      {% if mainimage %}
+        <img class="img-responsive center-block" src="{{m.link(mainimage)}}" alt="Masthead for {{title}}">
+      {% endif %}
+
+      <div class="top-header center-block">
+          <div class="container">
+            <h1>
+            {% if title == 'StratMap - Strategic Mapping Program' || title == 'StratMap Contract' %}
+
+            {% else %}
+              <small>StratMap</small><br>
+            {% endif %}
+
+              {{title}}</h1>
+          </div>
+      </div>
+      </div>
+      <div class="container">
+
+            {% if abstract %}
+              <div class="lead">{{abstract}}</div>
+            {% endif %}
+      </div>
+</div>
+{% endblock topcontent %}
+
+
+{% block contents %}
+{% endblock contents %}
+
+{% block contents-two %}
+<div class="container">  {% include "stratmap/nav.html" %}</div>
+   {{ contents|safe }}
+
+{% endblock contents-two %}
+
+   
+{% block extracontent %}
+{% endblock extracontent %}
+
+  </div>

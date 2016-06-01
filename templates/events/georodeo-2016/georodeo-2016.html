@@ -42,6 +42,7 @@
 {% endblock topcontent %}
 
 {% block contents %}
+<div id="contentMain" class="container">
 <div class="row">
     <div class="col-md-4 col-md-push-8">
         {% block sidebarLeft %}
@@ -54,6 +55,7 @@
         {{ contents|safe }} 
         {% block extracontent %} {% endblock extracontent %}
     </div>
+</div>
 </div>
 {% endblock contents %}
 

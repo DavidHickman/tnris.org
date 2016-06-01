@@ -1,0 +1,24 @@
+<nav class="navbar navbar-inverse stratmap-bar">
+  <div class="container">
+    <ul class="nav navbar-nav">
+        <li {% if (path === 'stratmap/index') %}class="active"{% endif %}>
+          <a href="{{ m.link('stratmap/index')}}">Main</a>
+        </li>
+        <!-- <li {% if (path === 'stratmap/elevation-lidar') %}class="active"{% endif %}>
+          <a href="{{ m.link('stratmap/elevation-lidar')}}">Elevation - Lidar</a>
+        </li>
+        <li {% if (path === 'stratmap/orthoimagery') %}class="active"{% endif %}>
+          <a href="{{ m.link('stratmap/orthoimagery')}}">Orthoimagery</a>
+        </li> -->
+        <li {% if (path === 'stratmap/stratmap-contract') %}class="active"{% endif %}>
+          <a href="{{ m.link('stratmap/stratmap-contract')}}">StratMap Contract</a>
+        </li>
+     <!--    <li {% if (path === 'stratmap/projects') %}class="active"{% endif %}>
+          <a href="{{ m.link('stratmap/projects')}}">Projects</a>
+        </li>
+        <li {% if (path === 'stratmap/history') %}class="active"{% endif %}>
+          <a href="{{ m.link('stratmap/history')}}">History</a>
+        </li> -->
+      </ul>
+  </div>
+</nav>

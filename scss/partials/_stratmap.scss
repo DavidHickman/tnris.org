@@ -1,0 +1,118 @@
+.stratmap-bar {
+  background: $darkgrey;
+  font-size: 20px;
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover {
+    background-color: lighten($forum2015blue, 5%);
+  }
+}
+
+.stratmap-releases {
+  background: $lightgrey;
+  padding-bottom: 30px;
+
+  h3 {
+    color: $auburn;
+  }
+
+  h4 a {
+    color: $darkgrey;
+  }
+
+    img {
+      max-width: 100px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
+}
+
+.stratmap-project {
+
+    .thumbnail {
+      border: none;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+}
+
+#stratmap-by-the-numbers {
+  background: $darkerblue;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 30px;
+
+  h2 {
+    color: $lightgrey;
+  }
+
+  strong {
+    font-size: 50px;
+  }
+}
+
+.thumbnail.vendor-box {
+  @media (min-width: $screen-sm) {
+    min-height: 250px;
+  }
+
+  @media (min-width: $screen-md) {
+    min-height: 200px;
+  }
+
+  li {
+    margin-bottom: 10px;
+
+    a {
+      color: $darkgrey;
+    }
+    
+    &:first-child a {
+      color: $tnrisblue;
+    }
+
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  em {
+    font-size: 14px;
+  }
+
+  &.unavailable {
+    background: $lightgrey;
+
+    .caption {
+      color: $middarkgrey;
+    }
+
+    img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    }
+
+    &:first-child a {
+      color: $middarkgrey;
+    }
+  }
+}
+
+ul.stratmap-work {
+  list-style-type: square;
+  padding-left: 1em;
+
+  li {
+    margin-bottom: 1em;
+  }
+
+  strong {
+    font-size: 18px;
+  }
+
+}
