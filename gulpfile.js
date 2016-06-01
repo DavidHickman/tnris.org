@@ -403,6 +403,18 @@ gulp.task('dist-metal', function () {
             return file;
           }
         }))
+        .use(parseCSV({
+          name: 'forumtraining2016',
+          path: 'content/forum-training-2016.csv',
+          template: 'events/texas-gis-forum/2016/2016-forum-training-entry.html',
+          filenameKeys: ['class_title'],
+          contentsKey: 'description',
+          titleKey: 'class_title',
+          additional: function (file) {
+            file.bodyClass = '_2016-forum-training';
+            return file;
+          }
+        }))
         .use(metadata({
           variables: 'variables.yaml'
         }))
