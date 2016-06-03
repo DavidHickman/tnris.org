@@ -1,7 +1,7 @@
 ---
 title: StratMap Contract
 template: stratmap/main.html
-mainimage: static/images/stratmap/stratmap-banner.jpg
+mainimage: static/images/stratmap/main_banner.jpg
 ---
 <section class="container">
 <div class="row">
