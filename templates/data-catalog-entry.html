@@ -61,14 +61,14 @@
   ] -%}
 
 
-  <div class="row">
+<div class="container">  <div class="row">
     <ol class="breadcrumb cleanmargin">
       <li><a href="{{m.link('index')}}"><span class="glyphicon glyphicon-home"></span></a></li>
       <li><a href="{{m.link('maps-and-data')}}">Maps &amp; Data</a></li>
       <li><a href="{{m.link('data-catalog')}}">Data Catalog</a></li>
       <li class="active">{{ name }}</li>
     </ol>
-  </div>
+  </div></div>
   <div id="catalogEntryContent" class="row">
     <div class="container"><h1><small><a href="{{m.link('data-catalog')}}/#{{urlized_category}}">{{ category }}</a></small><br>{{ name }}</h1></div>
     <div id="catalog-main-image">
@@ -105,28 +105,28 @@
       </div>
 
     <div class="data-callout">
-        <div class="row">
-          <table>
-            <thead>
-              <tr>
-                <th class="col-sm-1"><i class="glyphicon glyphicon-calendar"></i> Date(s):</th>
-                <th class="col-sm-4">Coverage Availability/Geographic Extent:</th>
-                <th class="col-sm-2">Footprint:</th>
-                <th class="col-sm-3">Source(s):</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="col-sm-1">{{ date_created }}</td>
-                <td class="col-sm-4">
-                    {{ coverage_extent }}
-                </td>
-                <td class="col-sm-2">{{ footprint }}</td>
-                <td class="col-sm-3">{{ source }}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <div class="container"><div class="row">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th class="col-sm-1"><i class="glyphicon glyphicon-calendar"></i> Date(s):</th>
+                        <th class="col-sm-4">Coverage Availability/Geographic Extent:</th>
+                        <th class="col-sm-2">Footprint:</th>
+                        <th class="col-sm-3">Source(s):</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="col-sm-1">{{ date_created }}</td>
+                        <td class="col-sm-4">
+                            {{ coverage_extent }}
+                        </td>
+                        <td class="col-sm-2">{{ footprint }}</td>
+                        <td class="col-sm-3">{{ source }}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div></div>
       </div>
     </div>
 
