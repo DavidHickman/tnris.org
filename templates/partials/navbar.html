@@ -31,21 +31,31 @@
               {
                 'id': 'stratmap',
                 'url': 'stratmap/index',
-                'name': 'StratMap',
-                'description': 'Strategic Mapping Program'
+                'name': 'StratMap - Strategic Mapping Program',
+                'subpage_1': 'Stratmap Contract',
+                'subpage_1_url': 'stratmap/stratmap-contract',
               }, {
                 'id': 'training',
                 'url': 'training',
-                'name': 'Education &amp; Training',
-                'description': 'Low-cost and accessible GIS training'
+                'name': 'Education &amp; Training'
               }
             ] -%}
             {% for program in programs %}
               <li {% if id === program.id %}class="active"{% endif %}>
-                <a href="{{m.link(program.url)}}">
+                <a href="{{m.link(program.url)}}" class="main-program">
                   {{program.name}}<br>
-                  <small>{{program.description}}</small>
                 </a>
+                {% if program.subpage_1 %}
+                <ul>
+                  <li><a href="{{m.link(program.subpage_1_url)}}">{{ program.subpage_1 }}</a></li>
+
+                {% if program.subpage_2 %}
+                  <li><a href="{{m.link(program.subpage_2_url)}}">{{ program.subpage_2 }}</a></li>
+
+                {% endif %}
+
+                </ul>
+                {% endif %}
               </li>
             {% endfor %}
           </ul>
