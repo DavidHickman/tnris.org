@@ -42,9 +42,41 @@
       <div class="container">        
         {% include "events/texas-gis-forum/2016/nav.html" %}
         <h1>{{title}}</h1>
-        <p class="lead">
-          {{abstract}}
-        </p>
+        {% if buttontext %}
+        <div class="col-sm-5 col-sm-push-7"> 
+          {% if title == '2016 Texas GIS Forum' %}
+            {% include "events/texas-gis-forum/2016/registration.html" %}
+          {% endif %}
+
+          {% if title == 'Sponsors & Exhibitors' %}
+            {% include "events/texas-gis-forum/2016/sponsorbox.html" %}
+          {% endif %}
+
+          <a class="btn btn-lg btn-success btn-block" href="{{buttonurl}}">
+            <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
+          </a>
+
+          
+        </div>
+        {% else %}
+
+        <div class="col-sm-5 col-sm-push-7"> 
+        </div>
+        {% endif %}
+        <div class="col-sm-7 col-sm-pull-5">
+          <p class="lead">
+            {{abstract}}
+          </p>
+          {% if title == '2016 Texas GIS Forum' %}
+              {% include "events/texas-gis-forum/2016/welcome.html" %}
+          {% endif %}
+
+
+          {% if title == 'Sponsors & Exhibitors' %}
+              {% include "events/texas-gis-forum/2016/sponsortext.html" %}
+          {% endif %}
+
+        </div>
     </div>
   </div>
 {% endblock topcontent %}
@@ -68,9 +100,10 @@
       </div>
     </div>
   </section>
-<!--   <section class="forum-sponsors">
+<!-- <section class="forum-sponsors">
     {% include "events/texas-gis-forum/2016/sponsors.html" %}
   </section> -->
+</div>
 {% endblock contents-two %}
 
 

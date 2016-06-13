@@ -5,37 +5,41 @@ subtitle: At the Intersection of Geography and Technology
 mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
 mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
 mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
+buttonurl: https://www.regonline.com/Register/Checkin.aspx?EventID=1842376
+buttontext: Register for the Forum
 intro: true
 abstract: Save the date for the Texas GIS Forum, the state's premiere conference for the geospatial professional community.
 ---
-<div class="row"> 
-  <div class="col-sm-8">
-  <p class="lead-forum">
-    For nearly 3 decades, the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector and take the opportunity to touch base with long-time colleagues – as well as make new connections.
-  </p>
-  <hr>
-  <div class="media keynote-speaker">
-  <div class="media-left">
-    <a href="{{m.link('/news/2016-04-11-robert-ballard-discoverer-titanic-wreck-keynote-2016-gis-forum')}}">
-      <img class="media-object img-circle" src="{{ m.link('static/images/texas-gis-forum/2016/ballard_headshot_th.jpg')}}" alt="A headshot of Robert Ballard">
-    </a>
-  </div>
-  <div class="media-body">
-    <h3 class="media-heading"><small>Keynote Speaker</small><br><a href="{{m.link('/news/2016-04-11-robert-ballard-discoverer-titanic-wreck-keynote-2016-gis-forum')}}">Robert Ballard, Oceanographer</a></h3>
-    <p>Professor of Oceanography, Robert Ballard, who discovered the final resting place of the Titanic and many other shipwrecks, will be a keynote at this year's GIS Forum.</p>
-   <p><a class="btn btn-md btn-success" href="{{m.link('/news/2016-04-11-robert-ballard-discoverer-titanic-wreck-keynote-2016-gis-forum')}}">Read More</a></p>
-  </div>
+<section class="row">
+    <div class="col-sm-7">
+<div class="media keynote-speaker">
+    <div class="media-left">
+        <a href="{{m.link('texas-gis-forum/2016/job-board')}}">
+            <img class="media-object img-circle" src="{{ m.link('static/images/texas-gis-forum/2015/sticky_job_square.jpg')}}" alt="A post-it note with job opening on it">
+        </a>
+    </div>
+    <div class="media-body">
+        <h3 class="media-heading"><a href="{{m.link('texas-gis-forum/2016/job-board')}}">Forum Job Board</a></h3>
+        <p>We'll have a job board with GIS job openings from Forum sponsors, exhibitors, and anyone else wanting to tap the talent at the forum. If your organization has an open GIS-related position, <a href="{{m.link('texas-gis-forum/2016/job-board')}}">contact us</a>.</p>
+        <p><a class="btn btn-md btn-danger" href="{{m.link('texas-gis-forum/2016/job-board')}}">Submit a Job Opening</a></p>
+    </div>
 </div>
+<hr>
+<div class="media keynote-speaker">
+    <div class="media-left">
+        <a href="{{m.link('texas-gis-forum/2016/poster-gallery')}}">
+            <img class="media-object img-circle" src="{{ m.link('static/images/texas-gis-forum/2016/poster_gallery_square.jpg')}}" alt="people looking at posters in the poster gallery">
+        </a>
+    </div>
+    <div class="media-body">
+        <h3 class="media-heading"><a href="{{m.link('texas-gis-forum/2016/job-board')}}">Poster Gallery &amp; Contest</a></h3>
+        <p>Showcase your work and submit for a contets, judged by your peers, to determine which map excels in the art of cartography. </p>
+        <p><a class="btn btn-md btn-danger" href="{{m.link('texas-gis-forum/2016/poster-gallery')}}">Submit a Poster</a></p>
+    </div>
 </div>
-<div class="col-sm-4">
 
-<img class="img-responsive" src="{{ m.link('static/images/texas-gis-forum/2015/sticky_job.jpg')}}" alt="A sticky note with handwritten Now Hiring!">
-<h4>Forum Job Board</h4>
-<p>We'll have a job board with GIS job openings from Forum sponsors, exhibitors, and anyone else wanting to tap the talent at the forum. If your organization has an open GIS-related position, <a href="{{m.link('texas-gis-forum/2016/job-board')}}">contact us</a>.</p>
-<p><a class="btn btn-md btn-danger" href="{{m.link('texas-gis-forum/2016/job-board')}}">Submit a Job Opening</a></p>    
 </div>
-
-</div>
+</section>
 
 
 
