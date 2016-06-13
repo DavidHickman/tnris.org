@@ -135,7 +135,7 @@
 
   img {
   border: 5px solid $forum2015blue;
-  max-width: 200px;
+  max-width: 150px;
   }
 }
 
@@ -168,11 +168,6 @@ h2#exhibitor-only-1-500-limit-10- {
 
 .well.sponsor-box {
   margin-top: 0 !important;
-
-  @media (min-width: $screen-sm) {
-    margin: 0 0 20px 20px !important;
-    max-width: 45%;
-  }
 
   .btn-success {
     margin-top: 20px;
