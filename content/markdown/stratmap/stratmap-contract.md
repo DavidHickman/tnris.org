@@ -43,7 +43,8 @@ mainimage: static/images/stratmap/main_banner.jpg
 <p>Each project performed under the StratMap Services contracts adds to the base of existing valuable historical data and experience and helps to improve data standards and overall project management.</p>
 
 <h3>Increased Opportunity for Cost Sharing</h3>
-<p>By taking the first step to notify us about your potential project at: StratMap@twdb.texas.gov, you may be alerted to another entity interested in purchasing a similar product or area of interest.</p>
+
+<p>By taking the first step to notify us about your potential project at: <a href="mailto:StratMap@twdb.texas.gov">StratMap@twdb.texas.gov</a>, you may be alerted to another entity interested in purchasing a similar product or area of interest.</p>
 
 <h3>Pre-screened Companies with Geospatial experience</h3>
 <p>Each of the selected companies were carefully evaluated for project experience and success. Qualifications include project experience, technology innovation, professional staff, and available resources.</p>
