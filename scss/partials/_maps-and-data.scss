@@ -503,11 +503,17 @@ table.data-details {
   border: 1px solid $midgrey;
   box-shadow: 3px 3px 3px $middarkgrey;
   float: left;
-  height: 330px;
+  height: 280px;
   margin: 0 15px 25px 0;
   overflow: hidden;
   position: relative;
-  width: 200px;
+  width: 150px;
+
+
+    @media (min-width: $screen-sm) {
+      height: 330px;
+      width: 200px;
+    }
 
   &:hover {
   border-color: $tnrisblue;
@@ -528,7 +534,11 @@ table.data-details {
   }
 
   img {
-    max-width: 200px;
+    max-width: 150px;
+
+    @media (min-width: $screen-sm) {
+      max-width: 200px;
+    }
   }
 
   .data-tile-body {

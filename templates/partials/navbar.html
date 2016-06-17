@@ -34,6 +34,12 @@
                 'name': 'StratMap - Strategic Mapping Program',
                 'subpage_1': 'Stratmap Contract',
                 'subpage_1_url': 'stratmap/stratmap-contract',
+                'subpage_2': 'Elevation - Lidar',
+                'subpage_2_url': 'stratmap/elevation-lidar',
+                'subpage_3': 'Orthoimagery',
+                'subpage_3_url': 'stratmap/orthoimagery',
+                'subpage_4': 'History',
+                'subpage_4_url': 'stratmap/history',
               }, {
                 'id': 'training',
                 'url': 'training',
@@ -51,7 +57,14 @@
 
                 {% if program.subpage_2 %}
                   <li><a href="{{m.link(program.subpage_2_url)}}">{{ program.subpage_2 }}</a></li>
+                {% endif %}
 
+                {% if program.subpage_3 %}
+                  <li><a href="{{m.link(program.subpage_3_url)}}">{{ program.subpage_3 }}</a></li>
+                {% endif %}
+
+                {% if program.subpage_4 %}
+                  <li><a href="{{m.link(program.subpage_4_url)}}">{{ program.subpage_4 }}</a></li>
                 {% endif %}
 
                 </ul>

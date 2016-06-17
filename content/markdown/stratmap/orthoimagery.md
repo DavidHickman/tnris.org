@@ -1,7 +1,7 @@
 ---
 title: Orthoimagery
 template: stratmap/main.html
-mainimage: static/images/stratmap/ortho_banner.jpg
+mainimage: static/images/updates/2015/ortho-review/orthoreview_main.jpg
 abstract: Orthoimagery is digital aerial photography that has been geometrically corrected (orthorectified) to remove distortion caused by camera optics, aircraft tilt, and differences in ground elevation. 
 ---
 {% import "_macros.html" as m %}
@@ -15,21 +15,13 @@ abstract: Orthoimagery is digital aerial photography that has been geometrically
 <h3>National Agriculture Imagery Program (NAIP) Statewide Datasets</h3>
 <p>NAIP continues to refresh Texas statewide with new orthoimagery every two years at 1-meter pixel resolution (2012, 2014) during the leaf-on growing season (April – October acquisitions). </p>
 
-{{m.catalog_data_card('national-agriculture-imagery-program-naip-2012-1m-nc-cir')}}
-
-{{m.catalog_data_card('national-agriculture-imagery-program-naip-2010-1m-nc-cir')}}
-
 <p>Pooling State funds again in 2014, StratMap coordinated a new statewide 0.5-meter leaf-off acquisition that occurred during the 2014/15 (91% of state) & 2015/16 (9% of state) winter seasons.</p>
 
 <h3>High-Resolution Imagery </h3>
 
 Since 2009, the StratMap Program has coordinated numerous higher resolution (6-inch/1-foot) orthoimagery regional acquisition projects within Texas. A contracting vehicle called the [StratMap Contract](stratmap/stratmap-contract) provides an efficient way to procure new orthoimagery from a list of prequalified geospatial data product and services vendors.
 
-{{m.catalog_data_card('hpids-smith-2014-6in-nc-cir')}}
-
-<h2>StratMap Lidar Datasets</h2>
-
-<p class="lead">All Lidar datasets are available at reproduction cost through our Research and Distribution center. They can be obtained by filling out an <a href="https://tnris.org/order-data/">order form</a>.</p>
+<h2>StratMap Orthoimagery Datasets</h2>
 
 <h3>Statewide Datasets</h3>
 

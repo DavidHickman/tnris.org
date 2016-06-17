@@ -333,22 +333,31 @@ blockquote {
     min-height: 200px;
 
     .top-header { 
-      color: white;
-      text-shadow: 0 0 4px black;
       background: rgba(0, 0, 0, .75);
-      height: auto;
-      position: absolute;
-      z-index: 100;    
       bottom: 0;
+      color: white;
+      height: auto;
       margin: 0 auto;
+      padding: 15px 0;
+      position: absolute;
+      text-shadow: 0 0 4px black;
       width: 100%;
+      z-index: 100;    
 
       h1 {
         margin-bottom: 0;
+        margin-top: 0;
 
         @media (min-width: $screen-md){
           font-size: 50px;
 
+        }
+
+        small {
+          color: $midgrey;
+          clear: both;
+          display: block;
+          font-size: 22px;
         }
 
       }
