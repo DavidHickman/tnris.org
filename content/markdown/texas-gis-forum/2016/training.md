@@ -1,7 +1,7 @@
 ---
 template: events/texas-gis-forum/2016/2016-forum-training.html
 title: Forum Pre-Conference Training
-subtitle: Texas GIS Forum | October 26th – 29th, 2015
+subtitle: Texas GIS Forum | October 24th-27th, 2016
 mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
 mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
 mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
