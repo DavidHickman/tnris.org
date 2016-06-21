@@ -9,7 +9,17 @@ abstract: Light Detection and Ranging (Lidar) is a technology that utilizes lase
 
 <div class="container"><img class="img-responsive pull-right" style="max-width: 400px;" src="http://lidar-america.com/wp-content/uploads/2014/03/LiDAR-Escaneo-Ejemplo.jpg" alt="illustration of lidar">
 <p class="lead"><strong>Lidar - Light Detection and Ranging,</strong> is a remote sensing technique that utilizes light in the form of a rapidly pulsed laser to measure return distances from the Earth captured by a sensor at the source of the pulse. These combined pulse return measurements with additional spatial and temproral data recorded by the acquisition system(airborne or terrestial) produce a three-dimensional(3-D), detailed representation of the shape of the Earth illuminating its surface characteristics.</p>
+</div>
 
+<figure class="full-article-figure">
+<div id="imageCompare1" class='twentytwenty-container lidar-compare'>
+<img class="img-responsive" src="{{m.link('static/images/stratmap/flyover_pointcloud_lidar_sample.jpg')}}" alt="Lidar Point Cloud of COllege Station Texas">
+<img class="img-responsive" src="{{m.link('static/images/stratmap/flyover_render_buildings_lidar_sample.jpg')}}" alt="lidar 3-d render of buildings in College Station">
+</div>
+<figcaption class="text-center">Left: Sample of 3-D point cloud of Area in College Station, TX | Right: 3-D rendering of Lidar with Aerial Imagery Overlay</figcaption>
+</figure>
+
+<div class="container">
 <p>Lidar goes beyond traditional bare earth digital elevation models (DEMs) by producing point cloud information that can be classified into existing features such as vegetation and man-made structures.  </p>
 
 <h2>TNRIS Lidar Coverage</h2>
