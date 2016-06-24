@@ -1,5 +1,5 @@
 ---
-title: StratMap Contract
+title: StratMap Contracts
 template: stratmap/main.html
 mainimage: static/images/stratmap/main_banner.jpg
 ---

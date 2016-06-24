@@ -23,7 +23,7 @@ abstract: Orthoimagery is digital aerial photography that has been geometrically
 
 <h3>High-Resolution Imagery </h3>
 
-Since 2009, the StratMap Program has coordinated numerous higher resolution (6-inch/1-foot) orthoimagery regional acquisition projects within Texas. A contracting vehicle called the [StratMap Contract](stratmap/stratmap-contract) provides an efficient way to procure new orthoimagery from a list of prequalified geospatial data product and services vendors.
+Since 2009, the StratMap Program has coordinated numerous higher resolution (6-inch/1-foot) orthoimagery regional acquisition projects within Texas. A contracting vehicle called the [StratMap Contract](stratmap/stratmap-contracts) provides an efficient way to procure new orthoimagery from a list of prequalified geospatial data product and services vendors.
 
 {{m.catalog_data_card('hpids-smith-2014-6in-nc-cir')}}
 
