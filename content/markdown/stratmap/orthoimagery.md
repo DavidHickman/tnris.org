@@ -1,7 +1,7 @@
 ---
 title: Orthoimagery
 template: stratmap/main.html
-mainimage: static/images/updates/2015/ortho-review/orthoreview_main.jp
+mainimage: static/images/updates/2015/ortho-review/orthoreview_main.jpg
 ---
 {% import "_macros.html" as m %}
 
