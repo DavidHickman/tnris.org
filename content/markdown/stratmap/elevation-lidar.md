@@ -1,8 +1,7 @@
 ---
 title: Elevation – Lidar
 template: stratmap/main.html
-mainimage: static/images/stratmap/lidar_banner.jpg 
-abstract: Light Detection and Ranging (Lidar) is a technology that utilizes lasers to measure the distance from an airborne sensor to points on the ground.
+mainimage: static/images/stratmap/lidar_banner.jpg
 ---
 {% import "_macros.html" as m %}
 
@@ -20,13 +19,18 @@ abstract: Light Detection and Ranging (Lidar) is a technology that utilizes lase
 </figure>
 
 <div class="container">
-<p>Lidar goes beyond traditional bare earth digital elevation models (DEMs) by producing point cloud information that can be classified into existing features such as vegetation and man-made structures.  </p>
+<p class="lead">Lidar goes beyond traditional bare earth digital elevation models (DEMs) by producing point cloud information that can be classified into existing features such as vegetation and man-made structures.  </p>
 
 <h2>TNRIS Lidar Coverage</h2>
 
-<p>TNRIS acquires Lidar data through partnerships with other federal and state agencies historically through the high priority imagery and data sets(HPIDS) contract and now through the Department of Information Resources(DIR) StratMap contract to make this data available to the public. Lidar coverage varies across the state. Lidar coverage and project details (date, nps, vendor, etc.) can be found on the [LiDAR Status Map](https://tnris-twdb.cartodb.com/u/tnris/viz/41bcf87c-0248-11e6-b572-0e31c9be1b51/public_map). All details about each dataset in our collection can be found in the supplemental reports for each project.</p>
+<iframe class="pull-right" width="60%" height="600" frameborder="0" src="https://tnris.cartodb.com/viz/0447c616-bee6-11e5-bf8f-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p class="lead"> TNRIS acquires Lidar data through partnerships with other federal and state agencies through the <a href="{{m.link('stratmap/stratmap-contracts')}}"><strong>StratMap Contract</strong></a>, which operates through the <a href="http://dir.texas.gov/">Texas Department of Information Resources (TxDIR)</a>.
 
-<iframe width="100%" height="600" frameborder="0" src="https://tnris.cartodb.com/viz/0447c616-bee6-11e5-bf8f-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<p class="lead">Historically, TNRIS acquired data through the now <strong>defunct</strong> <a href="{{m.link('high-priority-imagery-data-sets')}}">High Priority Imagery and Data Sets (HPIDS)</a> contract.</p>
+
+<p class="lead">
+Lidar coverage varies across the state. Lidar coverage and project details (date, nps, vendor, etc.) can be found on the [LiDAR Status Map](https://tnris-twdb.cartodb.com/u/tnris/viz/41bcf87c-0248-11e6-b572-0e31c9be1b51/public_map). All details about each dataset in our collection can be found in the supplemental reports for each project.</p>
+
+<hr class="clearfix">
 
 <h2>StratMap Lidar Datasets</h2>
 

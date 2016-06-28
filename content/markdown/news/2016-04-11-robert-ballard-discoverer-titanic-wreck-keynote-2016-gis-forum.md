@@ -19,6 +19,6 @@ He served in the U.S. Navy for more than 30 years and continues to work with the
 
 In 1985, he discovered the RMS Titanic, and has succeeded in tracking down numerous other significant shipwrecks, including the German battleship Bismarck, the lost fleet of Guadalcanal, the U.S. aircraft carrier Yorktown, and John F. Kennedy’s boat, PT-109. He has also discovered hydrothermal vents and “black smokers” in the Galapagos Rift and East Pacific Rise in 1977 and 1979. 
 
-The author of numerous books, scientific papers, and articles, he has been featured in several National Geographic television programs, including “Secrets of the Titanic” and a morerecent five-part mini-series, “Alien Deep with Bob Ballard.” He was a special advisor to Steven Spielberg on the futuristic television show seaQuest DSV.
+The author of numerous books, scientific papers, and articles, he has been featured in several National Geographic television programs, including “Secrets of the Titanic” and a more recent five-part mini-series, “Alien Deep with Bob Ballard.” He was a special advisor to Steven Spielberg on the futuristic television show seaQuest DSV.
 
 His honors include 21 Honorary Doctorates, National Geographic’s highest award, the Hubbard Medal, and a National Endowment for the Humanities Medal. He was elected a Fellow of the American Academy of Arts and Sciences in 2014.
