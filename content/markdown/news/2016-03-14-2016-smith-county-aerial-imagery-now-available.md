@@ -37,7 +37,7 @@ The new orthoimagery were acquired in early January 2016 during leaf-off conditi
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('hpids-smith-2016-6in-nc-cir')}}
+{{m.catalog_data_card('stratmap-smith-2016-6in-nc-cir')}}
 
 ## Acquisition Areas
 View coverage areas in the interactive map below:

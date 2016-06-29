@@ -25,7 +25,7 @@ abstract: Orthoimagery is digital aerial photography that has been geometrically
 
 Since 2009, the StratMap Program has coordinated numerous higher resolution (6-inch/1-foot) orthoimagery regional acquisition projects within Texas. A contracting vehicle called the [StratMap Contract](stratmap/stratmap-contracts) provides an efficient way to procure new orthoimagery from a list of prequalified geospatial data product and services vendors.
 
-{{m.catalog_data_card('hpids-smith-2014-6in-nc-cir')}}
+{{m.catalog_data_card('stratmap-smith-2014-6in-nc-cir')}}
 
 <h2>StratMap Lidar Datasets</h2>
 
@@ -46,21 +46,21 @@ Since 2009, the StratMap Program has coordinated numerous higher resolution (6-i
 
 <h3>Regional Datasets</h3>
 
-{{m.catalog_data_tile('hpids-bexar-2010-6in-nc')}}
-{{m.catalog_data_tile('hpids-brazos-2011-6in-1ft-nc-cir')}}
-{{m.catalog_data_tile('hpids-brazos-2013-6in-1ft-nc-cir')}}
-{{m.catalog_data_tile('hpids-brazos-and-palestine-2015-6in-nc-cir')}}
-{{m.catalog_data_tile('hpids-galveston-2009-6in-cir')}}
-{{m.catalog_data_tile('hpids-galveston-2009-6in-nc-cir')}}
-{{m.catalog_data_tile('hpids-georgetown-2015-6in-nc-cir')}}
-{{m.catalog_data_tile('hpids-houston-2013-1ft-nc-cir')}}
-{{m.catalog_data_tile('hpids-nga-usgs-2015-1ft-nc-cir')}}
-{{m.catalog_data_tile('hpids-sara-2015-6in-nc-cir')}}
-{{m.catalog_data_tile('hpids-smith-2010-1ft-nc-cir')}}
-{{m.catalog_data_tile('hpids-smith-2014-6in-nc-cir')}}
-{{m.catalog_data_tile('hpids-smith-2016-6in-nc-cir')}}
-{{m.catalog_data_tile('hpids-south-texas-2013-6in-9in-12in-nc')}}
-{{m.catalog_data_tile('hpids-tpwd-2015-6in-1ft-nc-cir')}}
-{{m.catalog_data_tile('hpids-university-lands-2015-6in-nc-cir')}}
+{{m.catalog_data_tile('stratmap-bexar-2010-6in-nc')}}
+{{m.catalog_data_tile('stratmap-brazos-2011-6in-1ft-nc-cir')}}
+{{m.catalog_data_tile('stratmap-brazos-2013-6in-1ft-nc-cir')}}
+{{m.catalog_data_tile('stratmap-brazos-and-palestine-2015-6in-nc-cir')}}
+{{m.catalog_data_tile('stratmap-galveston-2009-6in-cir')}}
+{{m.catalog_data_tile('stratmap-galveston-2009-6in-nc-cir')}}
+{{m.catalog_data_tile('stratmap-georgetown-2015-6in-nc-cir')}}
+{{m.catalog_data_tile('stratmap-houston-2013-1ft-nc-cir')}}
+{{m.catalog_data_tile('stratmap-nga-usgs-2015-1ft-nc-cir')}}
+{{m.catalog_data_tile('stratmap-sara-2015-6in-nc-cir')}}
+{{m.catalog_data_tile('stratmap-smith-2010-1ft-nc-cir')}}
+{{m.catalog_data_tile('stratmap-smith-2014-6in-nc-cir')}}
+{{m.catalog_data_tile('stratmap-smith-2016-6in-nc-cir')}}
+{{m.catalog_data_tile('stratmap-south-texas-2013-6in-9in-12in-nc')}}
+{{m.catalog_data_tile('stratmap-tpwd-2015-6in-1ft-nc-cir')}}
+{{m.catalog_data_tile('stratmap-university-lands-2015-6in-nc-cir')}}
 
 </div>
