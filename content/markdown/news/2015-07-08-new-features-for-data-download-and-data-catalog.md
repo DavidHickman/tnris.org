@@ -41,6 +41,6 @@ New datasets include authoritative source data from the [Texas Water Development
 
 Building on the Data Catalog as well, we've incorporated dynamic coverage maps that provide an immediate idea of whether the dataset covers your desired area.
 
-<img class="img-responsive" alt="An animated demo of the dynamic coverage maps, showing HPIDS Bexar 2010 6in NC" src="{{m.link('static/images/updates/2015/new-features/coveragemap_demo.gif')}}">
+<img class="img-responsive" alt="An animated demo of the dynamic coverage maps, showing StratMap Bexar 2010 6in NC" src="{{m.link('static/images/updates/2015/new-features/coveragemap_demo.gif')}}">
 
 We hope that these new features meet the expectations of our dedicated users. We welcome any [feedback and suggestions](contact) for how we can keep improving the site and continue to meet your needs.

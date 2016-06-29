@@ -86,11 +86,11 @@ tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands
 
 <p>6,930 total square miles of 6-inch natural color and color infrared orthoimagery were independently QC’d and are now available for download for these areas:</p>
 
-{{m.catalog_data_card('hpids-georgetown-2015-6in-nc-cir')}}
+{{m.catalog_data_card('stratmap-georgetown-2015-6in-nc-cir')}}
 
-{{m.catalog_data_card('hpids-sara-2015-6in-nc-cir')}}
+{{m.catalog_data_card('stratmap-sara-2015-6in-nc-cir')}}
 
-{{m.catalog_data_card('hpids-university-lands-2015-6in-nc-cir')}}
+{{m.catalog_data_card('stratmap-university-lands-2015-6in-nc-cir')}}
 
 <br>
 </div>
@@ -103,7 +103,7 @@ tags: stratmap, orthoimagery, statewide, TOP, georgetown, sara, university lands
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/lampasas_river_nc.jpg')}}" alt="Natural Color preview of Lampasas River near  Georgetown">
   <img class="img-responsive" src="{{m.link('static/images/updates/2015/ortho-review/lampasas_river_ir.jpg')}}" alt="Infra Red preview of Lampasas River near Georgetown">
 </div>
-<figcaption class="text-center">Lampasas River in Bell County from the [HPIDS Georgetown 2015 6in NC\CIR](data-catalog/entry/hpids-georgetown-2015-6in-nc-cir) dataset, SCALE 1:3000</figcaption>
+<figcaption class="text-center">Lampasas River in Bell County from the [StratMap Georgetown 2015 6in NC\CIR](data-catalog/entry/stratmap-georgetown-2015-6in-nc-cir) dataset, SCALE 1:3000</figcaption>
 </figure> 
 </section>
 
