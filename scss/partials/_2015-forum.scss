@@ -154,6 +154,10 @@ h2.logo-2015 {
       @media (min-width: $screen-sm){
         float: left;
       }
+
+      @media (min-width: $screen-md) {
+        float: none;
+      }
     }
   }
 
