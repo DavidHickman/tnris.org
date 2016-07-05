@@ -28,7 +28,7 @@ tags: Agenda, GIO Meeting
 
 * Contracts Page: [StratMap Contracts](https://tnris.org/stratmap/stratmap-contracts/)
 
-### South Central Texas Lidar Status
+### 2016-2017 Lidar Acquisitions for Texas
 
 #### Joey Thomas 
 
