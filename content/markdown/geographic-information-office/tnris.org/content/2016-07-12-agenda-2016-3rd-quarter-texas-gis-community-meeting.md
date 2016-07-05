@@ -15,13 +15,18 @@ tags: Agenda, GIO Meeting
 
 ## Project Updates
 
-### Statewide Orthoimagery Project
+### Imagery Project Updates
 #### Gayla Mullins
 
+#### 2015 Statewide Orthoimagery Project
 * Project Page: [2015 Statewide Orthoimagery Project](2015-statewide-orthoimagery-project)
 
-### StratMap Contract Status
+#### 2016 NAIP for Texas
+
+### StratMap Contracts Status
 #### Gayla Mullins
+
+* Contracts Page: [StratMap Contracts](https://tnris.org/stratmap/stratmap-contracts/)
 
 ### South Central Texas Lidar Status
 
