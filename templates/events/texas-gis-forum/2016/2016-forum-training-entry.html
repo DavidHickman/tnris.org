@@ -43,7 +43,8 @@
 
 
 {% block contents %}
-<section class="container">  <div class="row">
+<section class="container">  
+  <div class="row">
     <div class="col-sm-8">
       <div class="training-date">
         <strong>
@@ -80,19 +81,27 @@
     </div>
     <div class="col-sm-4">
       {% block sidebarLeft %}
-       <!--   {% if status == "CLOSED" %}
+      {% if status == "CLOSED" %}
          <div class="alert alert-danger" role="alert"><strong>Note:</strong> All available spots in this course have been filled and registration is closed.</div>
         {% else %}
-        <a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1725172" class="btn btn-danger btn-lg btn-block">Register For Forum Training</a>
-        {% endif %} -->
+        <a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1842376" class="btn btn-success btn-lg btn-block">Register For Forum Training</a>
+        {% endif %}
 
-
-          <p style="font-size: 18px;"><em><strong>Online Registration will open shortly.</strong></em></p>
 
       {% endblock sidebarLeft %}
     </div>
   </div>
 </div>
-</div></section>
+</section>
 {% endblock contents %}
+
+
+{% block contents-two %}
+
+<section class="forum-sponsors">
+    {% include "events/texas-gis-forum/2016/sponsors.html" %}
+  </section>
+</div>
+{% endblock contents-two %}
+
 

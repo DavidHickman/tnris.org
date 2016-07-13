@@ -6,7 +6,7 @@ mainimage: static/images/stratmap/main_banner.jpg
 <section class="container">
 <div class="row">
 
-<div class="col-sm-12">
+<div class="col-sm-8">
 <a href="http://dir.texas.gov/"><img class="pull-right" src="{{m.link('static/images/logos/dir_logo_med.jpg')}}"></a>
 <p class="lead">The <a href="http://dir.texas.gov/">Department of Information Resources (DIR)</a> has recently awarded multiple Cooperative Program contracts which are designed to strengthen Texas’ capabilities to procure quality digital map data. The contracts are for use by customers that include Texas state, regional and local government offices, public education entities, and river and water authorities. The process for procuring GIS Products and Custom Geospatial Data and Services is administered by TNRIS and known as <strong>Texas Strategic Mapping (StratMap) Services.</strong> These contracts are successors to the 2009-2015 High Priority Imagery and Data Sets (HPIDS) Contracts.</p>
  
