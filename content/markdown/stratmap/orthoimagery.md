@@ -21,6 +21,30 @@ mainimage: static/images/updates/2015/ortho-review/orthoreview_main.jpg
 
 Since 2009, the StratMap Program has coordinated numerous higher resolution (6-inch/1-foot) orthoimagery regional acquisition projects within Texas. A contracting vehicle called the [StratMap Contract](stratmap/stratmap-contracts) provides an efficient way to procure new orthoimagery from a list of prequalified geospatial data product and services vendors.
 
+
+</div>
+
+<section id="stratmap-by-the-numbers" class="ortho-numbers">
+    <div class="container">
+      <h2>Orthoimagery by the Numbers</h2>
+        <div class="row">
+            <div class="col-sm-4">
+              <strong>37</strong><br> past agency partners and counting...
+            </div>
+            <div class="col-sm-4">
+              <strong>13</strong><br> project Statement of Work (SOW) releases since 2009 and counting...
+            </div>
+            <div class="col-sm-4">
+              <strong>$5.1 Million</strong><br> total spent on orthoimagery data products for the State of Texas since 2009 through cost-share initiatives.
+            </div>
+            <!-- <div class="col-xs-12">
+              Timeline? --- StratMap Program direct funding over time
+            </div> --> 
+          </div>
+      </div>
+</section>
+<div class="container">
+
 <h2>StratMap Orthoimagery Datasets</h2>
 
 <h3>Statewide Datasets</h3>

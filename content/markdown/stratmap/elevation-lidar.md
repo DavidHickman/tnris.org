@@ -21,6 +21,29 @@ mainimage: static/images/stratmap/lidar_banner.jpg
 <div class="container">
 <p class="lead">Lidar goes beyond traditional bare earth digital elevation models (DEMs) by producing point cloud information that can be classified into existing features such as vegetation and man-made structures.  </p>
 
+</div>
+
+<section id="stratmap-by-the-numbers" class="lidar-numbers">
+    <div class="container">
+      <h2>Lidar by the Numbers</h2>
+        <div class="row">
+            <div class="col-sm-4">
+              <strong>19</strong><br> past agency partners and counting...
+            </div>
+            <div class="col-sm-4">
+              <strong>21</strong><br> project Statement of Work (SOW) releases since 2009 and counting...
+            </div>
+            <div class="col-sm-4">
+              <strong>$9.9 Million</strong><br> total spent on Lidar data products for the State of Texas since 2009 through cost-share initiatives.
+            </div>
+            <!-- <div class="col-xs-12">
+              Timeline? --- StratMap Program direct funding over time
+            </div> --> 
+          </div>
+      </div>
+</section>
+<div class="container">
+
 <h2>TNRIS Lidar Coverage</h2>
 
 <iframe class="pull-right" width="60%" height="600" frameborder="0" src="https://tnris.cartodb.com/viz/0447c616-bee6-11e5-bf8f-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p class="lead"> TNRIS acquires Lidar data through partnerships with other federal and state agencies through the <a href="{{m.link('stratmap/stratmap-contracts')}}"><strong>StratMap Contract</strong></a>, which operates through the <a href="http://dir.texas.gov/">Texas Department of Information Resources (TxDIR)</a>.

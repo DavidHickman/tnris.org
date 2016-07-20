@@ -53,6 +53,16 @@
   strong {
     font-size: 50px;
   }
+
+  &.lidar-numbers {
+    background: url(../static/images/data-catalog/entry/capcog_2012_140cm_overview.jpg) 0 0;
+    text-shadow: 2px 2px 2px #333;
+  }
+
+  &.ortho-numbers {
+    background: url(../static/images/data-catalog/entry/texas_orthoimagery_program_top_2008_50cm_nc_cir_natural.jpg) 0 0;
+    text-shadow: 2px 2px 2px #333;
+  }
 }
 
 .thumbnail.vendor-box {
