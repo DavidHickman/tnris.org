@@ -4,7 +4,7 @@ title: "Robert Ballard, Discoverer of Titanic Wreck, to Keynote 2016 GIS Forum"
 author: Texas GIS Forum
 mainimage: static/images/texas-gis-forum/2016/ballard_main.jpg
 thumbnail: static/images/texas-gis-forum/2016/ballard_headshot_th.jpg
-thumbalt: Sample of new the Texas Parks and Wildlife Aerial Imagery
+thumbalt: Headshot of Robert Ballard
 abstract:
     Professor of Oceanography, Robert Ballard, who discovered the final resting place of the Titanic and many other shipwrecks, will be a keynote at this year's GIS Forum.
 tags: keynote, forum, robert ballard, titanic, oceanography
