@@ -1,6 +1,6 @@
 ---
 template: news.html
-title: "Forum Keynote: Nazgol Bagheri, Architect, Professor of Geography at UTSA"
+title: "Forum Keynote: Nazgol Bagheri, Feminist Geographer, Architect, and Urban Planner"
 author: Texas GIS Forum
 mainimage: static/images/updates/2016/nazgol_places.jpg
 thumbnail: static/images/texas-gis-forum/2016/nazgol_headshot.jpg
