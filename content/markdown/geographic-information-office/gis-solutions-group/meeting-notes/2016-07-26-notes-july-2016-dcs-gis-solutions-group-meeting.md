@@ -66,20 +66,20 @@ tags: GIO, Data Sharing, GIS, Geospatial, DIR, DCS
     - Fully managed vs semi managed support services
     - Full, Partial, Minimal, or No database support options
 - Cloud Connectivity
-o   CDC to Public Cloud Vendor Direct Connection – Available by 9/1/2016
-o   3 circuits (2.5 – 10GB each)
-o   Global DNS capabilities
-o   Costs included in monthly Infrastructure Rate ($99.14/mth Intel, $199.90/mth Unix)
-o   Public Cloud Vendor Egress Charges
-o   Azure egress charges are entirely replaced by the direct connection circuits.
-o   AWS egress charges significantly reduced by the direct connection circuits.
-o   Anticipated rate reduction is in the 70% off market range
-o   Virtual Data Center & Virtual Data Center Management
-o   Router, Firewalls, Load Balancers provided by cloud vendor @ market rates based on customer needs.  Representative configurations might look like:
-o   Simple – 1 Router for Test/Standalone
-o   Moderate -  1 Router, 1 Firewall, 1 Load balancer for Production/Internet DMZ w/simple load balancing & firewall zones
-o   Complex - 1 Router, 2 Firewall, 2 Load balancer for Production/Internet DMZ w/multi load balancing & firewalls zones, redundant NW gear
-o   Atos VDC management = $70/mth/cloud network device 
+  - CDC to Public Cloud Vendor Direct Connection – Available by 9/1/2016
+  - 3 circuits (2.5 – 10GB each)
+  - Global DNS capabilities
+  - Costs included in monthly Infrastructure Rate ($99.14/mth Intel, $199.90/mth Unix)
+  - Public Cloud Vendor Egress Charges
+  - Azure egress charges are entirely replaced by the direct connection circuits.
+  - AWS egress charges significantly reduced by the direct connection circuits.
+  - Anticipated rate reduction is in the 70% off market range
+  - Virtual Data Center & Virtual Data Center Management
+  - Router, Firewalls, Load Balancers provided by cloud vendor @ market rates based on customer needs.  Representative configurations might look like:
+  - Simple – 1 Router for Test/Standalone
+  - Moderate -  1 Router, 1 Firewall, 1 Load balancer for Production/Internet DMZ w/simple load balancing & firewall zones
+  - Complex - 1 Router, 2 Firewall, 2 Load balancer for Production/Internet DMZ w/multi load balancing & firewalls zones, redundant NW gear
+  - Atos VDC management = $70/mth/cloud network device 
 
 
 ## Brainstorming Session: GIS SG Goals/Charter Language 
