@@ -29,12 +29,13 @@ The new orthoimagery were acquired March 23-28, 2015 over Wilson, Karnes and Gol
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('stratmap-tpwd-2015-6in-1ft-nc-cir')}}
+{{m.catalog_data_card('stratmap-sara-2015-6in-nc-cir')}}
 
 ## Acquisition Areas
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/dd5ba2c6-df05-11e5-90a3-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="http://tnris.cartodb.com/viz/74be531c-897e-11e5-9e0b-0e5db1731f59/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
 
 ## Products
 
