@@ -6,7 +6,7 @@ mainimage: static/images/updates/2016/nazgol_places.jpg
 thumbnail: static/images/texas-gis-forum/2016/nazgol_headshot.jpg
 thumbalt: Headshot of Nazgol Bagheri
 abstract:
-    Nazgol Bagheri, architect, urban planner, and professor at UTSA with a focus on feminist geography, will keynote the second day of the 2016 Texas GIS Forum.
+    Nazgol Bagheri, architect, urban planner, and professor at UTSA with a feminist geography focus, will keynote the second day of the 2016 Texas GIS Forum.
 tags: keynote, forum, nazgol bagheri, feminism, geography
 ---
 <p class="lead"><a class="btn btn-lg btn-success pull-right" href="{{m.link('texas-gis-forum/2016/index')}}">Visit the 2016 Forum Home</a> TNRIS is proud to announce <strong>Nazgol Bagheri</strong>, an Assistant Professor in the Department of Political Science and Geography at the [University of Texas at San Antonio (UTSA)](http://colfa.utsa.edu/polisci-geography/faculty/bagheri), as the keynote speaker for the 2016 Texas GIS Forum, on Thursday, October 27th. Trained as an architect and Urban Planner, Bagheri has transitioned to Geography, employing her other backgrounds to analyze space and social relations, particularly along lines of gender.</p>
