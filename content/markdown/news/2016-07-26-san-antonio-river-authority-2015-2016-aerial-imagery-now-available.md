@@ -2,9 +2,9 @@
 template: news.html
 title: "San Antonio River Authority 2015/2016 Aerial Imagery Now Available"
 author: StratMap
-mainimage: static/images/updates/2016/tpwd-2015/tpwd_2015_main.jpg
-thumbnail: static/images/updates/2016/tpwd-2015/tpwd_2015_th.jpg
-thumbalt: Sample of new the San Antonio River Authority Aerial Imagery
+mainimage: static/images/updates/2016/sara-2016/sara-2016-main.jpg
+thumbnail: static/images/updates/2016/sara-2016/sara_2016_th.jpg
+thumbalt: samples of SARA 2016 imagery
 abstract:
     High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for two San Antonio River Authority areas.
 tags: stratmap, orthoimagery, sara, wilson, karnes, goliad, refugio, aransas, calhoun
@@ -60,64 +60,64 @@ View coverage areas in the interactive map below:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_burnscar_nc_1to21000_20151119.jpg')}}" alt="Natural Color preview of Hidden Pins Fire Burn Scar">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_burnscar_cir_1to21000_20151119.jpg')}}" alt="Color infra red of Hidden Pins Fire Burn Scar">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_oilgas_6in_nc_1to576_20150328.jpg')}}" alt="Natural Color preview of Oil Gas Extraction">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_oilgas_6in_nc_1to576_20150328.jpg')}}" alt="Color infra red of Oil Gas Extraction">
 </div>
 <figcaption>Oil/Gas Extraction 6in SCALE 1:576</figcaption>
 </figure>
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_powderhornranch_nc_1to18000_20151028.jpg')}}" alt="Natural Color preview of Powderhorn Ranch">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_powderhornranch_cir_1to18000_20151028.jpg')}}" alt="Color Infrared preview of Powderhorn Ranch">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_oilgasoverview_6in_nc_1to70000_20150328.jpg')}}" alt="Natural Color preview of oil gas overview">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_oilgasoverview_6in_cir_1to70000_20150328.jpg')}}" alt="Color Infrared preview of oil gas overview">
 </div>
 <figcaption>Oil/Gas Extraction Overview 6in SCALE 1:70000</figcaption>
 </figure>
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_nc_1to10000_20150425.jpg')}}" alt="Natural Color preview of Hueco Tanks">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_cir_1to10000_20150425.jpg')}}" alt="Color Infrared preview of Hueco Tanks">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_sariver_6in_nc_1to1300_20150328.jpg')}}" alt="Natural Color preview of San Antonio River">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_sariver_6in_cir_1to1300_20150328.jpg')}}" alt="Color Infrared preview of San Antonio River">
 </div>
 <figcaption>San Antonio River 6in SCALE 1:1300</figcaption>
 </figure>
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_nc_1to10000_20150425.jpg')}}" alt="Natural Color preview of Hueco Tanks">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_cir_1to10000_20150425.jpg')}}" alt="Color Infrared preview of Hueco Tanks">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_sariver2_6in_nc_1to700_20150328.jpg')}}" alt="Natural Color preview of San Antonio River">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_sariver2_6in_cir_1to700_20150328.jpg')}}" alt="Color Infrared preview of San Antonio River">
+</div>
+<figcaption>San Antonio River 6in SCALE 1:700</figcaption>
+</figure>
+
+<figure class="data-preview">
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_karnescityfootball_6in_nc_1to850_20150328.jpg')}}" alt="Natural Color preview of Karnes City">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_karnescityfootball_6in_cir_1to850_20150328.jpg')}}" alt="Color Infrared preview of Karnes City">
 </div>
 <figcaption>Karnes City Football Field 6in SCALE 1:850</figcaption>
 </figure>
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_nc_1to10000_20150425.jpg')}}" alt="Natural Color preview of Hueco Tanks">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_cir_1to10000_20150425.jpg')}}" alt="Color Infrared preview of Hueco Tanks">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara16_coastalcalhounco2_12in_nc_1to3400_20160129.jpg')}}" alt="Natural Color preview of Calhoun County">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara16_coastalcalhounco2_12in_cir_1to3400_20160129.jpg')}}" alt="Color Infrared preview of Calhoun County">
 </div>
 <figcaption>Docks along coast in Calhoun County 12in SCALE 1:3400</figcaption>
 </figure>
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_nc_1to10000_20150425.jpg')}}" alt="Natural Color preview of Hueco Tanks">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_cir_1to10000_20150425.jpg')}}" alt="Color Infrared preview of Hueco Tanks">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara16_oilgasrefugioco_12in_nc_1to10000_20160129.jpg')}}" alt="Natural Color preview of Refugio County">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara16_oilgasrefugioco_12in_cir_1to10000_20160129.jpg')}}" alt="Color Infrared preview of Refugio County">
 </div>
 <figcaption>Coastal marsh in Refugio County 12in SCALE 1:9000</figcaption>
 </figure>
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_nc_1to10000_20150425.jpg')}}" alt="Natural Color preview of Hueco Tanks">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_cir_1to10000_20150425.jpg')}}" alt="Color Infrared preview of Hueco Tanks">
-</div>
-<figcaption>Oil & Gas Exploration Clearing 12in SCALE 1:10000</figcaption>
-</figure>
-
-<figure class="data-preview">
-<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_nc_1to10000_20150425.jpg')}}" alt="Natural Color preview of Hueco Tanks">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/tpwd-2015/tpwd15_huecotankssp_cir_1to10000_20150425.jpg')}}" alt="Color Infrared preview of Hueco Tanks">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara16_refugiotx_12in_nc_1to1400_20160129.jpg')}}" alt="Natural Color preview of Refugio, TX">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara16_refugiotx_12in_cir_1to1400_20160129.jpg')}}" alt="Color Infrared preview of Refugio, TX">
 </div>
 <figcaption>Refugio, TX 12in SCALE 1:1400</figcaption>
 </figure>
