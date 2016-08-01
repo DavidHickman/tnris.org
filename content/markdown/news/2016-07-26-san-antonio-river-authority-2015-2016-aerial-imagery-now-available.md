@@ -28,8 +28,10 @@ The new orthoimagery were acquired March 23-28, 2015 over Wilson, Karnes and Gol
 
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
-View more details in the **Data Catalog Entry**:
+View more details in the **Data Catalog Entries**:
 {{m.catalog_data_card('stratmap-sara-2015-6in-nc-cir')}}
+
+{{m.catalog_data_card('stratmap-sara-2016-12in-nc-cir')}}
 
 ## Acquisition Areas
 View coverage areas in the interactive map below:
