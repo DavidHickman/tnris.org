@@ -63,7 +63,7 @@ View coverage areas in the interactive map below:
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
   <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_oilgas_6in_nc_1to576_20150328.jpg')}}" alt="Natural Color preview of Oil Gas Extraction">
-  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_oilgas_6in_nc_1to576_20150328.jpg')}}" alt="Color infra red of Oil Gas Extraction">
+  <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara15_oilgas_6in_cir_1to576_20150328.jpg')}}" alt="Color infra red of Oil Gas Extraction">
 </div>
 <figcaption>Oil/Gas Extraction 6in SCALE 1:576</figcaption>
 </figure>
@@ -113,7 +113,7 @@ View coverage areas in the interactive map below:
   <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara16_oilgasrefugioco_12in_nc_1to10000_20160129.jpg')}}" alt="Natural Color preview of Refugio County">
   <img class="img-responsive" src="{{m.link('static/images/updates/2016/sara-2016/sara16_oilgasrefugioco_12in_cir_1to10000_20160129.jpg')}}" alt="Color Infrared preview of Refugio County">
 </div>
-<figcaption>Coastal marsh in Refugio County 12in SCALE 1:9000</figcaption>
+<figcaption>Oil/Gas Footprint in Refugio County 12in SCALE 1:10,000</figcaption>
 </figure>
 
 <figure class="data-preview">
