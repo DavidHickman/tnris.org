@@ -37,7 +37,7 @@ Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/ind
 ## Catalog Entry
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('tnris-2015-50cm-brazos-county')}}
+{{m.catalog_data_card('stratmap-2015-50cm-brazos-county')}}
 
 ## Products
 - Classified all-return lidar DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format

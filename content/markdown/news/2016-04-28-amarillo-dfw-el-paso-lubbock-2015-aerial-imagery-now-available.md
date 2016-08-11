@@ -4,7 +4,7 @@ title: "Amarillo-DFW-El Paso-Lubbock 2015 Aerial Imagery Now Available"
 author: StratMap
 mainimage: static/images/updates/2016/nga-2015/main_comp.jpg
 thumbnail: static/images/updates/2016/nga-2015/nga_2015_th.jpg
-thumbalt: Sample of new the Texas Parks and Wildlife Aerial Imagery
+thumbalt: Sample of imagery
 abstract:
     High resolution (RGBIR) natural color and color infrared aerial orthoimagery are now available from TNRIS for four urban areas.
 tags: stratmap, orthoimagery, nga, el paso, dallas, fort worth, amarillo, lubbock
@@ -29,7 +29,7 @@ The new orthoimagery were acquired in 2015 on March 13 over Amarillo, October 28
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('hpids-nga-usgs-2015-1ft-nc-cir')}}
+{{m.catalog_data_card('stratmap-nga-usgs-2015-1ft-nc-cir')}}
 
 ## Acquisition Areas
 View coverage areas in the interactive map below:

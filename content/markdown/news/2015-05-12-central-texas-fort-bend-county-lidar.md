@@ -29,8 +29,8 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
 Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage. 
 
 ### Catalog Entries
-{{m.catalog_data_card('tnris-2014-50cm-bandera-lampasas')}}
-{{m.catalog_data_card('tnris-2014-50cm-fort-bend')}}
+{{m.catalog_data_card('stratmap-2014-50cm-bandera-lampasas')}}
+{{m.catalog_data_card('stratmap-2014-50cm-fort-bend')}}
 
 ##PRODUCTS
 - Classified all-return lidar DO4Q tiles (1/64th of USGS Quad) in LAS 1.2 format

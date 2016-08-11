@@ -32,7 +32,7 @@ The new orthoimagery were acquired in early March 2015 during leaf-off condition
 The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG2000s are available for direct download.
 
 View more details in the **Data Catalog Entry**:
-{{m.catalog_data_card('hpids-georgetown-2015-6in-nc-cir')}}
+{{m.catalog_data_card('stratmap-georgetown-2015-6in-nc-cir')}}
 
 ## Acquisition Areas
 View coverage areas in the interactive map below:

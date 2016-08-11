@@ -42,7 +42,7 @@ Premium location of a 10x20 exhibit space (with carpet, electricity), 1 draped t
 - **5-minute on-stage welcoming** or **opening statement** prior to keynote address (Optional).
 - **Verbal and visual recognition of sponsorship** during opening remarks and throughout the Forum
 - **Five (5) free registrations** for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
-- **1-hour uncontested presentation slot to demonstrate products** and services (2 available) or **Exclusive Sponsorship of the Social Event**. The choice of one of these three options is on a first-come first-serve basis and is optional.
+- **45-minute uncontested presentation slot to demonstrate products** and services (2 available) or **Exclusive Sponsorship of the Social Event**. The choice of one of these three options is on a first-come first-serve basis and is optional.
 - **Large Logo on Forum sponsorship banner** prominently displayed in the Exhibit Hall.
 - **Prominent placement of the corporate logo** on the front page of the TNRIS web site.
 - **Prominent placement of the corporate logo** (with Links to corporate website) on the front page of the Forum website.

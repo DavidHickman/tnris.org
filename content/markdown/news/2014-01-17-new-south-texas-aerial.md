@@ -11,7 +11,7 @@ tags: orthoimagery, data release, hpids
 ---
 
 ** View the data using the link below **
-{{m.catalog_data_card('hpids-south-texas-2013-6in-9in-12in-nc')}}
+{{m.catalog_data_card('stratmap-south-texas-2013-6in-9in-12in-nc')}}
 
 High resolution 6-inch, 9-inch, and 12-inch aerial imagery are now available from TNRIS for the South Texas region, including the Lower Rio Grande Valley. Eleven local entities and one federal agency contributed funds to collect the new imagery.
 

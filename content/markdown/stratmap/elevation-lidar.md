@@ -42,7 +42,19 @@ mainimage: static/images/stratmap/lidar_banner.jpg
           </div>
       </div>
 </section>
+
 <div class="container">
+
+<figure class="full-article-figure">
+<div id="imageCompare1" class='twentytwenty-container lidar-compare'>
+<img class="img-responsive" src="{{m.link('static/images/stratmap/flyover_pointcloud_lidar_sample.jpg')}}" alt="Lidar Point Cloud of College Station Texas">
+<img class="img-responsive" src="{{m.link('static/images/stratmap/flyover_render_buildings_lidar_sample.jpg')}}" alt="lidar 3-d render of buildings in College Station">
+</div>
+<figcaption class="text-center">Left: Sample of 3-D point cloud of Area in College Station, TX | Right: 3-D rendering of Lidar with Aerial Imagery Overlay</figcaption>
+</figure>
+
+<div class="container">
+<p class="lead">Lidar goes beyond traditional bare earth digital elevation models (DEMs) by producing point cloud information that can be classified into existing features such as vegetation and man-made structures.  </p>
 
 <h2>TNRIS Lidar Coverage</h2>
 
