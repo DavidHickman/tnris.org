@@ -12,9 +12,17 @@ tags: stratmap, orthoimagery, statewide, basemap, esri, service
 
 {% import '_macros.html' as m %}
 
-<p class="lead">The [2015 Statewide Orthoimagery](2015-statewide-orthoimagery-project) are now available to stream direct into your GIS software via the Esri Basemap Imagery Service. The imagery collected for this project are at 0.5-meter pixel resolution and were flown during the 2014/2015 and 2015/2016 winter seasons in Texas.</p>
+<p class="lead">The complete [2015 Statewide Orthoimagery](2015-statewide-orthoimagery-project) are now available to stream direct into your GIS software via the <strong>Esri Basemap Imagery Service</strong>. The imagery collected for this project are at 0.5-meter pixel resolution and were flown during the 2014/2015 and 2015/2016 winter seasons in Texas. ESRI has offered existing 2015 orthoimagery as it was processed but this signals the completion of the dataset.</p>
 
-Access the new 0.5-meter imagery through the Esri Basemap Imagery Service:
+<p><div class="pull-right">{{m.catalog_data_tile('texas-orthoimagery-program-top-2015-50cm-nc-cir')}}</div> Regional 6-inch/1-foot orthoimagery acquired as buy-up datasets through the [2015 Statewide Orthoimagery Project](2015-statewide-orthoimagery-project) are also available in the Esri Basemap Imagery Service.</p>
+
+Although the infrared band is available statewide for these datasets, the Esri Basemap Imagery Service displays the imagery in natural color only. For color infrared composites, download the imagery direct from TNRIS.
+
+Learn how to access the Imagery Service in ArcMap through the short tutorial below.
+
+<hr class="clearfix">
+
+### Access the new 0.5-meter imagery through the Esri Basemap Imagery Service:
 
 <p>
   <ol>
@@ -27,9 +35,3 @@ Access the new 0.5-meter imagery through the Esri Basemap Imagery Service:
     </li>
   </ol>
 </p>
-
-Regional 6-inch/1-foot orthoimagery acquired as buy-up datasets through the [2015 Statewide Orthoimagery Project](2015-statewide-orthoimagery-project) are also available in the Esri Basemap Imagery Service.
-
-Although the infrared band is available statewide for these datasets, the Esri Basemap Imagery Service displays the imagery in natural color only. For color infrared composites, download the imagery direct from TNRIS:
-
-{{m.catalog_data_card('texas-orthoimagery-program-top-2015-50cm-nc-cir')}}
