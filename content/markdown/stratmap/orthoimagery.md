@@ -15,17 +15,16 @@ mainimage: static/images/updates/2015/ortho-review/orthoreview_main.jpg
 </div>
 </div>
 
-<p>Leveraging funds from multiple government agencies (State, Federal, and Local), the StratMap Program coordinated statewide orthoimagery acquisitions starting in the mid-1990s. Since then, the state has been refreshed with new orthoimagery in 2004 at 1-meter, 2008/09 at 0.5-meter & 1-meter, and 2010 at 1-meter, all in conjunction with the [National Agriculture Imagery Program (NAIP)](http://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/) administered by the USDA-Farm Service Agency-Aerial Photography Field Office.</p>
+<h3>Statewide Orthoimagery</h3>
+<p>Leveraging funds from multiple government agencies (State, Federal, and Local), the StratMap Program coordinated statewide orthoimagery acquisitions starting in the mid-1990s which also began the Texas Orthoimagery Program (TOP). Since then, the state has been refreshed with new orthoimagery in 2004 at 1-meter, 2008/09 at 0.5-meter (under TOP) & 1-meter, and 2010 at 1-meter, all in conjunction with the [National Agriculture Imagery Program (NAIP)](http://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/) administered by the USDA-Farm Service Agency-Aerial Photography Field Office.</p>
 
+<p>The USDA NAIP continues to refresh Texas statewide with new orthoimagery every two years at 1-meter pixel resolution (2012, 2014, 2016) during the leaf-on growing season (April – October acquisitions). </p>
 
-<h3>National Agriculture Imagery Program (NAIP) Statewide Datasets</h3>
-<p>NAIP continues to refresh Texas statewide with new orthoimagery every two years at 1-meter pixel resolution (2012, 2014) during the leaf-on growing season (April – October acquisitions). </p>
+<p>Pooling State funds again in 2014, StratMap coordinated a new TOP statewide 0.5-meter leaf-off acquisition that occurred during the 2014/15 (91% of state) & 2015/16 (9% of state) winter seasons.</p>
 
-<p>Pooling State funds again in 2014, StratMap coordinated a new statewide 0.5-meter leaf-off acquisition that occurred during the 2014/15 (91% of state) & 2015/16 (9% of state) winter seasons.</p>
+<h3>Regional Orthoimagery </h3>
 
-<h3>High-Resolution Imagery </h3>
-
-Since 2009, the StratMap Program has coordinated numerous higher resolution (6-inch/1-foot) orthoimagery regional acquisition projects within Texas. A contracting vehicle called the [StratMap Contract](stratmap/stratmap-contracts) provides an efficient way to procure new orthoimagery from a list of prequalified geospatial data product and services vendors.
+Since 2009, the StratMap Program has coordinated numerous higher resolution (6-inch/1-foot) orthoimagery regional acquisition projects within Texas. A contracting vehicle called the [StratMap Contracts](stratmap/stratmap-contracts) provides an efficient way to procure new orthoimagery from a list of prequalified geospatial data product and services vendors.
 
 </div>
 
