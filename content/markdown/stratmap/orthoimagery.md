@@ -6,8 +6,14 @@ mainimage: static/images/updates/2015/ortho-review/orthoreview_main.jpg
 {% import "_macros.html" as m %}
 
 <div class="container">
-<p class="lead">Orthoimagery is digital aerial photography that has been geometrically corrected (orthorectified) to remove distortion caused by camera optics, aircraft tilt, and differences in ground elevation.</p>
-<p>The publicly available statewide orthoimagery datasets from TNRIS have either 0.5-meter or 1-meter pixel resolution. This level of image detail is used to identify current conditions, features, and changes on the ground serving as a base of reference for other map information. </p>
+<div class="row">
+<div class="col-md-8"><p class="lead">Orthoimagery is digital aerial photography that has been geometrically corrected (orthorectified) to remove distortion caused by camera optics, aircraft tilt, and differences in ground elevation.</p>
+<p>The publicly available statewide orthoimagery datasets from TNRIS have either 0.5-meter or 1-meter pixel resolution. This level of image detail is used to identify current conditions, features, and changes on the ground serving as a base of reference for other map information. </p></div>
+<div class="col-md-4">
+<h3>Orthoimagery Specifications</h3>
+  <a class="btn btn-lg btn-success" href="{{m.link('static/documents/stratmap/tx_orthoimagery_sow_v9.pdf')}}"><i class="glyphicon glyphicon-document"></i> Download Orthoimagery Specifications</a>
+</div>
+</div>
 
 <p>Leveraging funds from multiple government agencies (State, Federal, and Local), the StratMap Program coordinated statewide orthoimagery acquisitions starting in the mid-1990s. Since then, the state has been refreshed with new orthoimagery in 2004 at 1-meter, 2008/09 at 0.5-meter & 1-meter, and 2010 at 1-meter, all in conjunction with the [National Agriculture Imagery Program (NAIP)](http://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/) administered by the USDA-Farm Service Agency-Aerial Photography Field Office.</p>
 
