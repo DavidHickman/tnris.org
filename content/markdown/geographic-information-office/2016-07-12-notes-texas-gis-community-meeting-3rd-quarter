@@ -4,13 +4,13 @@ title: "Notes: Texas GIS Community Meeting 3rd Quarter 2016"
 author: Felicia Retiz, Deputy GIO
 thumbnail: static/images/gio-stories/texaswords_th.jpg
 abstract:
-    Highlights from 3rd Quarterly Meeting of the GIO. 
+    Highlights from 3rd Quarterly Meeting (2016) of the GIO. 
 tags: GIO, Data Sharing, GIS, Geospatial
 ---
 
-<script async class="speakerdeck-embed" data-id="4184008e4c9b4254a3d5d2bd2407453a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+#This needs to be replaced with QtrlyMtg3 pptx<script async class="speakerdeck-embed" data-id="4184008e4c9b4254a3d5d2bd2407453a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-<p class="lead">The 2nd quarter Texas GIS Community meeting of 2016 was held on Tuesday, April 12th, 2016.</p>
+<p class="lead">The 3rd quarter Texas GIS Community meeting of 2016 was held on Tuesday, July 12th, 2016.</p>
 
 ## Project Updates
 
@@ -29,29 +29,20 @@ tags: GIO, Data Sharing, GIS, Geospatial
 
 -	New AOI for Lidar 2016-2017 project. Check out the latest on the [project page](https://tnris.org/2016-lidar-acquisition-project/).
 
-- Start here.......
-
 ### Imagery for Texas	
 #### Gayla Mullins
 
-Final data from the 2015 Texas Orthoimagery Project (TOP) captured at 0.5-meter resolution during the 2014/2015 and 2015/2016 winter seasons is near completion and has been delivered in full to TNRIS. The southernmost tip of Texas is the most recent delivery to TNRIS and will be made available for download from the TNRIS website in about two weeks along with the exisiting data for the rest of the state. The TOP imagery is also being shared with the Esri Community Imagery Program. Imagery is gradually appearing in the Esri imagery basemap available in Arc products starting now. Check the [project website](https://tnris.org/2015-statewide-orthoimagery-project/) for additional updates and data download and WMS connection information.
-The Buy-Up areas at 6-inch/1-foot resolution are also complete and available and in various stages of download and WMS access. See chart on slide 10 of the QtrlyMtg2_2016.pdf
-All products from the 2015 TOP project are 4-band and in the public domain.
+Imagery products from the 2015 TOP project are now available for download from [tnris.org](https://tnris.org/).
+  - Compressed JPEG200
+    - individual tiles
+    - county compressed mosaic
+  - 0.5 meter 
+  - 4-band
+  - public domain (source citation: Texas Orthoimagery Program 2015)
 
-### NAIP 2016
-#### Gayla Mullins
+Uncompressed GeoTIFF tiles can be [ordered](https://tnris.org/order-data/) from TNRIS.
 
-The National Agriculture Imagery Program will fly Texas during the 2016 growing season (May - October) at 1-meter resolution. The final product will be 4-band and in the public domain. NAIP is managed by the USDA-Aerial Photography Field Office.
-
-### StratMap Contract Update	
-#### Gayla Mullins
-
-Contracts have been signed by a few of the 17 companies currently under negotiation and are ready for use by state agencies and other public entities for GIS products, services, and software. TNRIS is working on a dedicated StratMap Contract web page that will contain information regarding use of the contract, list of contractors, and links to contractor sites. The contracts are held at the Department of Information Resources (DIR).
-
-### South Central Texas Lidar	
-#### Joey Thomas
-
-Still on track to collect lidar in south central Texas this next leaf-off season. Contributing partner list is growing and we expect the USGS will announce the opening for grant proposals sometime this summer. A meeting to discuss the grant proposal will be held soon. 
+The 2015 TOP imagery can also be accessed via the [Esri Basemap Imagery Service](https://tnris.org/news/2016-08-15/2015-orthoimagery-now-available-esri-basemap-imagery-service/).
 
 
 *****
@@ -60,65 +51,74 @@ Still on track to collect lidar in south central Texas this next leaf-off season
 
 <p class="lead">Many representatives of government agencies and city governments from across the state were in attendance and shared updates on key projects and initiatives their organizations are working on. We'd love to see you or your organization at the next meeting.</p>
 
+#### Ed Kelly, DIR
+Half-day conference finished up and successful. 125 attendees from federal, state, local government and private industry. Working together with TNRIS to highlight data initiatives on respective reports. Sharing initiatives are very important to highlight. Executive survey conducted with 63 respondents for the report to create statute updates on reducing barriers to data sharing. Highlight all levels of government that need to share data: counties, etc. No fiscal note in this report. 
+
 <h3><a href="http://www.glo.texas.gov/"><img class="pull-right" alt="Texas General Land Office Logo and Link to website" src="{{m.link('static/images/gio-stories/logos/tx_glo_logo.jpg')}}"></a> Texas General Land Office</h3>
 
 #### Scot Friedman
-Working on web apps, mobile apps, offshore structures inventory in state waters, oil spill toolkit (next release scheduled for September), boat ramps. With the recent removal of parcel data from Google Earth, GLO has worked on collecting parcels from county appraisal districts. Close to finalizing agreement with City of Corpus Christi for their parcel data. Parcel data is needed by the beach team for permitting. Need centralized parcel data at least for coastal counties and would like to see a service provided by TNRIS.
-
-GIS programmer analyst position with GLO will be posted soon. GIS team interested in Infogroup data. Kam coming May 3 and will coordinate to have the meeting with TNRIS.
+GLO - Annual release of oil spill toolkit. Improving atlas maps. Converting old viewers to mobile ready JavaScript. One is [texascoasts.com](texascoasts.com) – won third place at Esri.
 
 <h3><a href="https://tpwd.texas.gov/"><img class="pull-right" src="{{m.link('static/images/gio-stories/logos/tpwd_logo.jpg')}}"></a> Texas Parks and Wildlife Department (TPWD)</h3>  
 
 #### Kim Ludeke 
-Working on conservation areas indices. Have a little money to refine some of the VegMap areas, working with NPS in the South Padre Island area. Got funding for plant ecologist to focus on prairie/grassland areas – intensively visit areas of the state for grassland monitoring. Maybe use lidar for. Still need additional funding for more Veg mapping refinement and seagrass mapping.
+Just got 3 years of federal funding for field work to map grasslands to revise vegmap. Attended StateMap meeting chaired by Robert Mace TWDB to leverage $300,000 federal funds through BEG for surface geology mapping along the coast. Showed some of the new hard copy geology maps.
 
+#### Stephanie Long
+Looking for lessons learned on data federation.
 
-<h3><a href="http://www.dps.texas.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/tx_dps_logo.jpg')}}"></a> Texas Department of Public Safety (TxDPS)</h3> 
-#### Linda Prosperie
-
-Two GIS positions available at DPS. Currently working on a mobile application for law enforcement, field officers, and troopers working along the Texas-Mexico border.
-<br>
-<br>
 <h3><a href="http://osd.state.tx.us"><img class="pull-right" src="{{m.link('static/images/gio-stories/logos/tx_demographer.jpg')}}" alt="logo and link to state Demographer's office"></a> Office of the State Demographer (OSD)/State Data Center (SDC)</h3>  
-#### Jeff Jordan
 
-Getting ready for the upcoming 2020 census and conducting a housing review using new imagery and parcel data by 2018.
+#### Jeff Jordan
+Merged Office of the State Demographer agency with state data center - demographics.texas.gov
 <br>
 <h3><a href="http://www.txdot.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/txdot_logo.jpg')}}"></a> Texas Department of Transportation (TxDOT)</h3> 
-#### Mike Zugelder
 
-Will give presentation on new TxDOT Open Data Portal in a few minutes. TxDOT is prioritizing road projects by scoring and ranking them in order of importance. Working on road centerlines but currently there is a 6-8 month freeze on updates. Data updates are requested as needed.
+#### Chris Bardash
+Soft launch of open data portal. [Txdot.gov/opendata](http://gis.txdot.opendata.arcgis.com/) mostly containing vector files. Update of base maps. Jack D at UC announced most Esri online training open for free now. 
 
-#### Traci Tracey
+#### Travis Scruggs
+working on another site called Project Tracker to look up all TxDOT projects in the planning pipeline on a state owned road. Application called Data Update and Sharing App. for data asset collection and local governments can upload data to TxDOT or redline data for updated information. Putting together flight safety document for flying drones. First draft out by end of the year.
 
-Free [GeoDev Meetup](http://www.meetup.com/DevMeetUpTexas/events/229771773/) at NXNW coming up Tuesday, May 24.
+#### Jolana Erichsen
+Submitted federally mandated road centerlines to the Federal Highway Administration on June 15.
 
-#### Renae Seely
+#### Greg Goldman
+Using AGO more for MPOs for improving local traffic counts.
 
-Sunsetting DARS and dividing between TWC and HHSC which means splitting up mapping efforts too. Complete overhaul of their districts and areas. 
+#### William Kohlrenken, Texas Comptroller of Public Accounts
+Developing and consolidating new web map sites.
+
+#### Jack Hill, Sam Houston State University
+Started a GIS Center this year. Health science apps in GIS is booming. Lots of new infrastructure coming. Mapped first generation students to show reach and impact from the university. Got a big comptroller’s project for monarch butterflies parasite study. Started a drone committee to understand risk management in accordance with the FAA rules. A faculty member wrote a book on the TX/LA border along Sabine River. Got first grant to establish historic boundary perhaps using lidar.
+
+#### Raj Nadkarni, Texas Commission on Environmental Quality
+Talking with Attorney General's office for reality of using drones for air quality monitoring. Land owner allowed to shoot drone down. Ok on public lands. Speculates the legislature will strike down any clearances proposed for drones. TCEQ would use fixed wing 30-40 minute flight to collect air data. Contour the location of all of their monitors. Taking them from 2D platform to 3D.
+
+#### John Refolo, San Antonio River Authority
+Working with TNRIS/DIR for new lidar data. Working flood assessments using Lidar for flood risk mapping.
+
+#### Claire DeVaughan, United States Geological Survey
+National 3DEP webinars on August 11, 2pm Central and August 15, noon Central. No formal state or regional meetings. May do something informal with TNRIS in next couple months. Webinars will be posted to the [National Map](http://nationalmap.gov/3DEP/) 3DEP site.
 
 *******
 
 ## Presentations
-### Implementing TxDOT's Open Data
-#### Adam Breznicky, Chris Bardash, Mike Zugelder – TxDOT
+### Update - Texas GIO Report 2016
+#### Rob Aanstoos - TWDB/TNRIS
 
-- Over the last year, TxDOTs Transportation Planning and Programming Division has moved much of its data to ArcGIS Online, improved metadata and developed an Open Data Site to share its geospatial data with the public.
+- The GIO report continues with draft version 2.0, now out for peer and executive administration review. Draft version 3.0 is slated for release at the end of August. 
 
-<script async class="speakerdeck-embed" data-id="3b89f49a24244a39a4159c861fabd0b5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+#Gotta update this speakerdeck link with AECOM presentation<script async class="speakerdeck-embed" data-id="3b89f49a24244a39a4159c861fabd0b5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-### Digital Globe
-#### Travis Schindler – Digital Globe
+### Delivering a Better Texas Through StratMap and Geospatial Solutions
+#### Zsolt Nagy, John Knowlton, and Kristi Teykl - AECOM
 
-- High resolution imagery, basemaps, DEMs and Big Data – Using satellites to collect and create products from 16 years of archive imagery.
+- AECOM is proud to serve as a pre-qualified vendor under the StratMap contract. AECOM will provide an introduction to the AECOM Texas team and the geospatial data products and service offerings under the StratMap contract.
 
-<script async class="speakerdeck-embed" data-id="032b53105c7c429cb4b0441139530481" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+### Interactive Energy Map of Texas
+#### Scot Friedman, Alex Sanders - General Land Office
 
-### Texas GIO Report 2016
-#### Felicia Retiz – Deputy GIO, TNRIS
+The General Land Office developed and released an interactive version of Commissioner Bush’s [Energy Map](http://commissionerbushmaps.com/) of Texas using Esri’s Story Map web application. Printed copies of the map can also be ordered from the [Archive Map Store](http://www.glo.texas.gov/history/archives/map-store/index.cfm#item/93978).
 
-- Several state agencies have been interviewed, surveys have been collected, and we are now compiling data for the upcoming 2016 report.
-
-<script async class="speakerdeck-embed" data-id="36393f2141da4d39ba884e90f6426c7f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-## 3rd Quarter Meeting - July 12, 2016
+## The 2016 [Texas GIS Forum](https://tnris.org/texas-gis-forum/2016/), October 24-27, 2016, serves as the 4th quarter GIO Community meeting.
