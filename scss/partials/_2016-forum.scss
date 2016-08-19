@@ -1,7 +1,25 @@
 @import "variables";
 
 #_2016-forum-container {
+  background: $black;
+  box-sizing: border-box;
+  clear: both;    
+  display: table;
+  margin: 0 auto;
+  margin-top: -5px;
   position: relative;
+
+  @media (min-width: 1200px){
+    width: 1200px;
+  }
+
+  @media (min-width: 992px){
+    width: 1000px;
+  }
+
+  @media (min-width: 768px){
+    width: 780px;
+  }
 
   img {
     position: relative;
@@ -13,29 +31,6 @@
 
   .keynote-feature {
     margin-top: 55px;
-  }
-
-  ._2015-forum-intro {
-    color: white;
-    font-size: 20px;
-    min-height: 150px;
-    padding: 30px 0;
-
-    .lead {
-      font-size: 28px;
-      margin-bottom: 0;
-      text-shadow: 1px 1px 1px $darkgrey;
-      max-width: 300px;
-    }
-
-    .btn-lg {
-      font-size: 16px;
-
-      @media (min-width: $screen-sm) {
-        font-size: 20px;
-         min-width: 300px;
-      }
-    }
   }
 
   h2 {
@@ -95,33 +90,67 @@
   }
 }
 
-.forum-2016-brand-container {
-  background: $darkergreyrbga;
+.intro-2016-plain {
+  padding: 15px;
+
+}
+
+.forum-home-left-2016 {
+  background: $black;
+  float: left;
+  width: 41.66666667%;
+}
+.forum-home-right-2016 {
+  background: $white;
+  float: left;
+  width: 58.33333333%;
+}
+
+.registration-box-2016 {
+  background: $forum2016blue;
+  color: white;
+  padding: 20px;
+}
+
+.forum-bar-2016 {
+  background: $forum2016blue;
+  border-radius: 0;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 20px 0;
+
+  h1 {
+    color: $white;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+#_2016-forum-container  .forum-intro-2016 {
+  background: $black;
+  clear: both;
   color: $white;
-  font-size: 30px;
-  font-weight: 300;
-  height: auto;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  vertical-align: middle;
-  z-index: 10;
+  display: block;
+  overflow: auto;
+  padding: 20px;
 
-  img {
-    min-width: auto !important;
+  h2 {
+    color: $white;
+    margin: 0;
   }
+}
 
-  .forum-brand {
-    background: url('../static/images/texas-gis-forum/2016/logo_lg.png');
-    display: inline-block;
-    height: 52px;
-    margin-right: 40px;
-    text-indent: -9999px;
-    width: 400px;
-  }
+.forum-brand {
+  background: url('../static/images/texas-gis-forum/2016/texas-gis-forum-logo-white.png')  0 0 no-repeat;
+  background-size: 300px 33px;
+  display: inline-block;
+  float:left;
+  height: 52px;
+  margin-right: 50px;
+  text-indent: -9999px;
+  width: 300px;
 }
 
 .media.keynote-speaker {
@@ -134,7 +163,6 @@
   }
 
   img {
-  border: 5px solid $forum2015blue;
   max-width: 150px;
   }
 }

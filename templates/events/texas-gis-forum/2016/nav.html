@@ -1,5 +1,6 @@
-<nav class="navbar navbar-inverse forum-bar">
+<nav class="navbar navbar-inverse forum-bar-2016">
   <div class="container">
+    <h1 class="forum-brand"><a href="{{m.link('texas-gis-forum/2016/index')}}">Texas GIS Forum</a></h1>
     <ul class="nav navbar-nav">
         <li {% if (path === 'texas-gis-forum/2016/index') %}class="active"{% endif %}>
           <a href="{{ m.link('texas-gis-forum/2016/index')}}">Welcome</a>
@@ -14,7 +15,7 @@
           <a href="{{ m.link('texas-gis-forum/2016/call-for-papers')}}">Call For Papers</a>
         </li> -->
         <li {% if (path === 'texas-gis-forum/2016/poster-gallery') %}class="active"{% endif %}>
-          <a href="{{ m.link('texas-gis-forum/2016/poster-gallery')}}">Poster Gallery &amp; Contest</a>
+          <a href="{{ m.link('texas-gis-forum/2016/poster-gallery')}}">Poster Contest</a>
         </li>
         <li {% if (path === 'texas-gis-forum/2016/sponsors-and-exhibitors') %}class="active"{% endif %}>
           <a href="{{ m.link('texas-gis-forum/2016/sponsors-and-exhibitors')}}">Sponsors &amp; Exhibitors</a>
