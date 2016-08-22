@@ -2,9 +2,10 @@
 template: events/texas-gis-forum/2016/sub.html
 title: Sponsors & Exhibitors
 subtitle: Texas GIS Forum | October 24th-27th, 2016
-mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
+mainimage: static/images/front-page/2016_forum_front_mock.jpg
 mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
 mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
+bodyClass: forum-sub-2016
 intro: true
 sidebar: sponsors
 button: sponsors

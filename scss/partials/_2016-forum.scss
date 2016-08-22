@@ -1,13 +1,27 @@
 @import "variables";
 
+body.forum-sub-2016 {
+  background: url(../static/images/texas-gis-forum/2016/exploring_limits_bg,jpg) 0 0 repeat-x $black;
+}
+
 #_2016-forum-container {
-  background: $black;
+  background: $white;
   box-sizing: border-box;
   clear: both;    
   display: table;
   margin: 0 auto;
   margin-top: -5px;
   position: relative;
+
+  &.welcome_2016 {
+  background: $black;
+  }
+
+  #contentMain {
+    background: $white
+  }
+
+
 
   @media (min-width: 1200px){
     width: 1200px;
@@ -112,7 +126,7 @@
   padding: 20px;
 }
 
-.forum-bar-2016 {
+#_2016-forum-container .forum-bar-2016 {
   background: $forum2016blue;
   border-radius: 0;
   font-size: 20px;
@@ -120,7 +134,7 @@
   margin-top: 0;
   padding: 20px 0;
 
-  h1 {
+  h1, h2 {
     color: $white;
     float: left;
     margin: 0;
@@ -205,3 +219,7 @@ h2#exhibitor-only-1-500-limit-10- {
     margin-bottom: 20px;
   }
 }
+
+  #forum-training-2016 {
+    background: $white;
+  }
