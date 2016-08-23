@@ -8,7 +8,7 @@ abstract:
 tags: GIO, Data Sharing, GIS, Geospatial
 ---
 
-#This needs to be replaced with QtrlyMtg3 pptx<script async class="speakerdeck-embed" data-id="4184008e4c9b4254a3d5d2bd2407453a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="ef24f6cb32e84ab3910ace1d6a7c1e1e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 <p class="lead">The 3rd quarter Texas GIS Community meeting of 2016 was held on Tuesday, July 12th, 2016.</p>
 
@@ -51,13 +51,19 @@ The 2015 TOP imagery can also be accessed via the [Esri Basemap Imagery Service]
 
 <p class="lead">Many representatives of government agencies and city governments from across the state were in attendance and shared updates on key projects and initiatives their organizations are working on. We'd love to see you or your organization at the next meeting.</p>
 
-#### Ed Kelly, DIR
+*****
+
+<h3><a href="https://dir.texas.gov/"><img class="pull-right" src="{{m.link('static/images/logos/dir_logo_med.jpg')}}"></a> Ed Kelly, DIR</h3>
 Half-day conference finished up and successful. 125 attendees from federal, state, local government and private industry. Working together with TNRIS to highlight data initiatives on respective reports. Sharing initiatives are very important to highlight. Executive survey conducted with 63 respondents for the report to create statute updates on reducing barriers to data sharing. Highlight all levels of government that need to share data: counties, etc. No fiscal note in this report. 
+
+*****
 
 <h3><a href="http://www.glo.texas.gov/"><img class="pull-right" alt="Texas General Land Office Logo and Link to website" src="{{m.link('static/images/gio-stories/logos/tx_glo_logo.jpg')}}"></a> Texas General Land Office</h3>
 
 #### Scot Friedman
-GLO - Annual release of oil spill toolkit. Improving atlas maps. Converting old viewers to mobile ready JavaScript. One is [texascoasts.com](texascoasts.com) – won third place at Esri.
+GLO - Annual release of oil spill toolkit. Improving atlas maps. Converting old viewers to mobile ready JavaScript. One is [texascoasts.com](http://www.texascoasts.com) – won third place at Esri.
+
+*****
 
 <h3><a href="https://tpwd.texas.gov/"><img class="pull-right" src="{{m.link('static/images/gio-stories/logos/tpwd_logo.jpg')}}"></a> Texas Parks and Wildlife Department (TPWD)</h3>  
 
@@ -67,12 +73,17 @@ Just got 3 years of federal funding for field work to map grasslands to revise v
 #### Stephanie Long
 Looking for lessons learned on data federation.
 
+*****
+
 <h3><a href="http://osd.state.tx.us"><img class="pull-right" src="{{m.link('static/images/gio-stories/logos/tx_demographer.jpg')}}" alt="logo and link to state Demographer's office"></a> Office of the State Demographer (OSD)/State Data Center (SDC)</h3>  
 
 #### Jeff Jordan
 Merged Office of the State Demographer agency with state data center - demographics.texas.gov
-<br>
+
+*****
+
 <h3><a href="http://www.txdot.gov/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/txdot_logo.jpg')}}"></a> Texas Department of Transportation (TxDOT)</h3> 
+
 
 #### Chris Bardash
 Soft launch of open data portal. [Txdot.gov/opendata](http://gis.txdot.opendata.arcgis.com/) mostly containing vector files. Update of base maps. Jack D at UC announced most Esri online training open for free now. 
@@ -86,22 +97,34 @@ Submitted federally mandated road centerlines to the Federal Highway Administrat
 #### Greg Goldman
 Using AGO more for MPOs for improving local traffic counts.
 
-#### William Kohlrenken, Texas Comptroller of Public Accounts
+*****
+
+### William Kohlrenken, Texas Comptroller of Public Accounts
+
 Developing and consolidating new web map sites.
 
-#### Jack Hill, Sam Houston State University
+*****
+
+<h3><a href="http://www.shsu.edu/"><img class="pull-right" alt="" src="{{m.link('static/images/gio-stories/logos/samhouston_logo.jpg')}}"></a>    Jack Hill, Sam Houston State University</h3>
+
 Started a GIS Center this year. Health science apps in GIS is booming. Lots of new infrastructure coming. Mapped first generation students to show reach and impact from the university. Got a big comptroller’s project for monarch butterflies parasite study. Started a drone committee to understand risk management in accordance with the FAA rules. A faculty member wrote a book on the TX/LA border along Sabine River. Got first grant to establish historic boundary perhaps using lidar.
 
-#### Raj Nadkarni, Texas Commission on Environmental Quality
+*****
+
+### Raj Nadkarni, Texas Commission on Environmental Quality
 Talking with Attorney General's office for reality of using drones for air quality monitoring. Land owner allowed to shoot drone down. Ok on public lands. Speculates the legislature will strike down any clearances proposed for drones. TCEQ would use fixed wing 30-40 minute flight to collect air data. Contour the location of all of their monitors. Taking them from 2D platform to 3D.
 
-#### John Refolo, San Antonio River Authority
+*****
+
+<h3><a href="https://sara/"><img class="pull-right" src="{{m.link('static/images/logos/sara_web_med.jpg')}}"></a> John Refolo, San Antonio River Authority</h3>
 Working with TNRIS/DIR for new lidar data. Working flood assessments using Lidar for flood risk mapping.
 
-#### Claire DeVaughan, United States Geological Survey
+*****
+
+### Claire DeVaughan, United States Geological Survey
 National 3DEP webinars on August 11, 2pm Central and August 15, noon Central. No formal state or regional meetings. May do something informal with TNRIS in next couple months. Webinars will be posted to the [National Map](http://nationalmap.gov/3DEP/) 3DEP site.
 
-*******
+*****
 
 ## Presentations
 ### Update - Texas GIO Report 2016
@@ -109,16 +132,25 @@ National 3DEP webinars on August 11, 2pm Central and August 15, noon Central. No
 
 - The GIO report continues with draft version 2.0, now out for peer and executive administration review. Draft version 3.0 is slated for release at the end of August. 
 
-#Gotta update this speakerdeck link with AECOM presentation<script async class="speakerdeck-embed" data-id="3b89f49a24244a39a4159c861fabd0b5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+
+*****
 
 ### Delivering a Better Texas Through StratMap and Geospatial Solutions
 #### Zsolt Nagy, John Knowlton, and Kristi Teykl - AECOM
 
+<script async class="speakerdeck-embed" data-id="4bf7ef610e474c2c996ed22dacff6bed" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 - AECOM is proud to serve as a pre-qualified vendor under the StratMap contract. AECOM will provide an introduction to the AECOM Texas team and the geospatial data products and service offerings under the StratMap contract.
+
+*****
 
 ### Interactive Energy Map of Texas
 #### Scot Friedman, Alex Sanders - General Land Office
 
 The General Land Office developed and released an interactive version of Commissioner Bush’s [Energy Map](http://commissionerbushmaps.com/) of Texas using Esri’s Story Map web application. Printed copies of the map can also be ordered from the [Archive Map Store](http://www.glo.texas.gov/history/archives/map-store/index.cfm#item/93978).
 
-## The 2016 [Texas GIS Forum](https://tnris.org/texas-gis-forum/2016/), October 24-27, 2016, serves as the 4th quarter GIO Community meeting.
+*****
+
+## Next Meeting
+### The 2016 [Texas GIS Forum](https://tnris.org/texas-gis-forum/2016/), October 24-27, 2016, serves as the 4th quarter GIO Community meeting.
