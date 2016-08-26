@@ -1,13 +1,20 @@
 <nav class="navbar navbar-inverse forum-bar-2016">
   <div class="container">
-    <div class="navbar-header"><h1 class="forum-brand"><a href="{{m.link('texas-gis-forum/2016/index')}}">Texas GIS Forum</a></h1></div>
+    <div class="navbar-header"><h1 class="forum-brand">
+      <a href="{{m.link('texas-gis-forum/2016/index')}}">Texas GIS Forum</a></h1>
+
+          <div class="forum-date-2016"><h2>October 24-29, 2016 | Austin, Texas</h2></div>
+          <img class="img-responsive exploring-beyond-text" src="{{m.link('static/images/texas-gis-forum/2016/exploring_beyond_text.png')}}" alt="Text: Exploring Beyond the Limits">
+
+
+    </div>
     <ul class="nav navbar-nav">
         <li {% if (path === 'texas-gis-forum/2016/index') %}class="active"{% endif %}>
           <a href="{{ m.link('texas-gis-forum/2016/index')}}">Welcome</a>
         </li>
-        <!-- <li {% if (path === 'texas-gis-forum/2016/index') %}class="active"{% endif %}>
+        <li {% if (path === 'texas-gis-forum/2016/agenda') %}class="active"{% endif %}>
           <a href="{{ m.link('texas-gis-forum/2016/agenda')}}">Agenda</a>
-        </li> -->
+        </li>
         <li {% if (path === 'texas-gis-forum/2016/training') %}class="active"{% endif %}>
           <a href="{{ m.link('texas-gis-forum/2016/training')}}">Training</a>
         </li>
@@ -27,8 +34,4 @@
       </ul>
 
   </div>
-
-      {% if bodyClass == 'forum-sub-2016' %}
-          <h2>October 24-29, 2016 | Austin, Texas</h2>
-      {% endif %}
 </nav>
