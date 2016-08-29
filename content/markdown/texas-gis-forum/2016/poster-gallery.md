@@ -1,12 +1,12 @@
 ---
 title: "Forum Poster Gallery & Contest"
-template: events/texas-gis-forum/2016/sub.html
-mainimage: static/images/texas-gis-forum/2015/forum_photo_montage.jpg
+template: events/texas-gis-forum/2016/poster-gallery.html
+mainimage: static/images/front-page/2016_forum_front_mock.jpg
 mainimagesm: static/images/texas-gis-forum/2016/montage.jpg
 mainimagexs: static/images/texas-gis-forum/2016/montagesm.jpg
 abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
 intro: true
-body_class: poster-gallery
+bodyClass: poster-gallery
 sidebar: postersubmission
 ---
 The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:

@@ -1,4 +1,4 @@
----
+  ---
 template: 2015-forum.html
 title: Sponsors & Exhibitors
 subtitle: Texas GIS Forum | October 26th – 29th, 2015
@@ -28,15 +28,6 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - Networking Reception
 - On-site promotions
 - Technical demos
-
-<!-- <div class="panel panel-danger">
-	<div class="panel-heading">
-		<h3 class="panel-title">Important Note</h3>
-	</div>
-	<div class="panel-body">
-		This information is for reference purposes only. Note that these prices and promotions are only valid for the 2014 forum and are liable to change for current or upcoming forums.
-	</div>
-</div> -->
 
 <a href="{{m.link('static/documents/2015-forum/Rules-and-Regulations-2015.pdf')}}" class="btn btn-danger btn-lg"><i class="glyphicon glyphicon-chevron-right"></i> Download the Sponsor Rules &amp; Regulations</a>
 

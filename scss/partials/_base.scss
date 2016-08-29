@@ -105,6 +105,30 @@ h2 {
   }
 }
 
+.btn-darkgrey {
+  color: white;
+  background-color: $darkgrey;
+  border-color: $black;
+  box-shadow: inset $black 0 0 7px;
+
+  &:hover {
+    background: $black;
+    color: white;
+  }
+}
+
+.btn-periwinkle {
+  color: white;
+  background-color: $periwinkle;
+  border-color: $purpblue;
+  box-shadow: inset $black 0 0 7px;
+
+  &:hover {
+    background: $purpblue;
+    color: white;
+  }
+}
+
 .btn {
   cursor: pointer !important;
 }
