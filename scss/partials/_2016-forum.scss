@@ -6,7 +6,9 @@ body.forum-sub-2016, body.poster-gallery, body._2016-forum-training {
 }
 
 #texas-gis-forum-2016-index img.exploring-beyond-text {
-  display: none;
+  @media (min-width: $screen-sm) {
+    display: none;
+  }
 }
 
 

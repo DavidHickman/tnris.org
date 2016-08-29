@@ -291,7 +291,11 @@ img.keynote-portrait {
       text-decoration: none;
     }
 
-    img {
+    img.img-responsive {
+        
+      @media (max-width: $screen-md) {
+          max-width: 50%;
+        }
 
       &:hover {
         box-shadow: 0 0 3px $forum2015blue;
