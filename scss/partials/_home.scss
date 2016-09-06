@@ -4,6 +4,7 @@
 /* Home Top */
 #home-top-content {
   margin-bottom: 20px;
+  overflow: hidden;
 
   @include background-image(linear-gradient(to top, $lightergrey, white, white, white));
   border-bottom: 1px solid #e7e7e7;
@@ -66,8 +67,9 @@ h2.forum-title-front {
   width: 100%;
 
   @media (max-width: $screen-sm) {
-    min-height: 400px;
+    min-height: 450px;
     background: $darkgrey;
+    overflow: hidden;
   }
   
   @media (min-width: $screen-sm) {
@@ -719,4 +721,34 @@ h2.big-title {
   border-right: 0;
   margin-bottom: 0;
   margin-top: -5px;
+}
+
+// Lidar Project
+
+.lidar-project-container {
+  display: block;
+  overflow: auto;
+  position: relative;
+
+  img {
+    display: block;
+    position: relative;
+  }
+
+  a h4 {
+    color: white;
+    font-size: 30px;
+    padding: 0 15px;
+    position: absolute;
+    text-shadow: 2px 2px 2px $darkgrey; 
+    top: 0;
+  }
+
+  a p {
+    color: white;
+    padding: 0 15px;
+    position: absolute;
+    text-shadow: 2px 2px 2px $darkgrey; 
+    top: 45%;
+  }
 }

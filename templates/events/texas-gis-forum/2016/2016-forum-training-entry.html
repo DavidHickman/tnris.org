@@ -16,34 +16,8 @@
 {% endblock scripts %}
 
 
-{% block topcontent %}
-  <div id="_2016-forum-container">
-    <div class="container-fluid full">
-      <div class="top-container">
-
-      <div class="container forum-2016-brand-container">
-        <span class="forum-brand">Texas GIS Forum</span> October 24th – 27th, 2016 | Austin, Texas
-      </div>
-          <img src="{{m.link('static/images/texas-gis-forum/2015/forum_photo_montage.jpg')}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
-          <img src="{{m.link('static/images/texas-gis-forum/2016/montage.jpg')}}" class="banner img-responsive hidden-xs hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
-          <img src="{{m.link('static/images/texas-gis-forum/2016/montagesm.jpg')}}" class="banner img-responsive hidden-sm hidden-md hidden-lg"  alt="Texas GIS Forum Main Image">
-      </div>
-    </div>
-
-    <div class="_2016-forum-intro">
-      <div class="container">        
-        {% include "events/texas-gis-forum/2016/nav.html" %}
-        <h1>{{title}}</h1>
-        <p class="lead">
-          {{abstract}}
-        </p>
-    </div>
-  </div>
-{% endblock topcontent %}
-
-
 {% block contents %}
-<section class="container">  
+<section id="forum-training-2016" class="container">  
   <div class="row">
     <div class="col-sm-8">
       <div class="training-date">
