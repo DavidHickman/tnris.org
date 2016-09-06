@@ -1,5 +1,5 @@
 ---
-title: Kim Ludeke – Mapping Happy Trails!
+title: Longtime Friend and Colleague Dr. Kim Ludeke Retires from TPWD
 template: aroundthestate.html
 author: Richard Wade, TNRIS Director/GIO
 thumbnail: static/images/around-the-state/rob-aanstoos/rob-aanstoos-th.jpg
@@ -8,8 +8,7 @@ abstract:
     TNRIS had the chance to talk to Dr. Aaron Kim Ludeke, acclaimed advocate for GIS in state government and long-time GIS manager at Texas Parks and Wildlife Department during his last days of state service.
 ---
 <img class="pull-left" src="{{m.link('static/images/around-the-state/ludeke/kim_headshot.jpg')}}" alt="A headshot of Kim ludeke">
-<p class="lead">Longtime Friend and Colleague Dr. Kim Ludeke Retires from TPWD
-Only a handful of people still working in the Geographic Information Systems (GIS) field remember when this new technology was just taking root in Texas government.  One of the individuals that certainly made his mark in Texas GIS is our longtime friend and active member of the GIS community, Dr. Kim Ludeke.  Kim officially retired from Texas Parks and Wildlife Department (TPWD) on Wednesday, August 31 2016 after serving 28 years in state government.</p>
+<p class="lead">Only a handful of people still working in the Geographic Information Systems (GIS) field remember when this new technology was just taking root in Texas government.  One of the individuals that certainly made his mark in Texas GIS is our longtime friend and active member of the GIS community, Dr. Kim Ludeke.  Kim officially retired from Texas Parks and Wildlife Department (TPWD) on Wednesday, August 31 2016 after serving 28 years in state government.</p>
 
 Although Kim spent most of his career with TPWD, he spent several of those years at TNRIS helping to develop one of the first modern GIS environments in the state.
 
@@ -18,6 +17,7 @@ We had an opportunity to talk to Kim about his career and his time in GIS at the
 **TNRIS: Where did you grow up?**
 
 Kim: I grew up on a ranch on the banks of the Red River in Wichita County, Texas.  I remember working hard.  I milked a cow before school, spent summers on a tractor plowing and clearing brush, helped work cattle, built fences, and the usual work of a farm/ranch kid. Going to school was a respite.  In high school we started getting officers' kids from the nearby Sheppard Air Force Base as classmates  and I was intrigued by their more global experiences and perspectives.  In 1967 our family went to the World's Fair in Montreal and that opened me up to the broader world in a big way.
+
 <figure><img alt="From left to right: Ali Baird, Joyce Gilliam, Dr. Changxiang Liu, Dr. Kim Ludeke, Vivian Ackerson, Duane German, Cynthia Banks, Christine Coates, Michelle Valek, Jennifer Estes - 1996" class="img-responsive" src="{{m.link('static/images/around-the-state/ludeke/kim_past.jpg')}}">
 <figcaption>1996, from left to right: Ali Baird, Joyce Gilliam, Dr. Changxiang Liu, Dr. Kim Ludeke, Vivian Ackerson, Duane German, Cynthia Banks, Christine Coates, Michelle Valek, Jennifer Estes.</caption></figure>
 
