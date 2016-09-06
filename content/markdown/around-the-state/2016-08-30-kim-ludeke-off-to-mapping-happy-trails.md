@@ -8,9 +8,12 @@ abstract:
     TNRIS had the chance to talk to Dr. Aaron Kim Ludeke, acclaimed advocate for GIS in state government and long-time GIS manager at Texas Parks and Wildlife Department during his last days of state service.
 ---
 <img class="pull-left" src="{{m.link('static/images/around-the-state/ludeke/kim_headshot.jpg')}}" alt="A headshot of Kim ludeke">
-<p class="lead">They say things happen in threes and if that is the case, we can all begin to breathe a little easier that our state GIS leadership will not be saddened by another retirement in the near future. Following in Rob Aanstoos and Sterling Harris' footsteps is Dr. Kim Ludeke, longtime friend and active member of the GIS community in Texas.</p>
+<p class="lead">Longtime Friend and Colleague Dr. Kim Ludeke Retires from TPWD
+Only a handful of people still working in the Geographic Information Systems (GIS) field remember when this new technology was just taking root in Texas government.  One of the individuals that certainly made his mark in Texas GIS is our longtime friend and active member of the GIS community, Dr. Kim Ludeke.  Kim officially retired from Texas Parks and Wildlife Department (TPWD) on Wednesday, August 31 2016 after serving 28 years in state government.</p>
 
-Kim officially retired from Texas Parks and Wildlife Department on Monday, August 29, 2016. Here is what he had to say about his early beginnings and his time in GIS at the state...
+Although Kim spent most of his career with TPWD, he spent several of those years at TNRIS helping to develop one of the first modern GIS environments in the state.
+
+We had an opportunity to talk to Kim about his career and his time in GIS at the state and here’s what he had to say:</p>
 
 **TNRIS: Where did you grow up?**
 
