@@ -39,13 +39,15 @@ K: The work ethic learned early on the ranch on the Red.  The exposure to the la
 
 K: Getting the appropriate data for the work at hand.  When I first started one had to digitize every map (the kindergarten skill of tracing).  Sufficient funding has been and remains a challenge.  Another challenge is to educate management of the need for support.  GIS can sell itself but sometimes we make it look too easy .  The availability of data can certainly facilitate work but without data what might take 1/2 day might actually take years to first develop the data.  We have to not over sell given this reality.
 
-<p><div class="pull-quote right" title="A pulled quote, out of order with text flow">True integration of geospatial technologies with mainstream information technologies would lead to tremendous benefits to society. Although great progress has been made, there is still a long way to go.</div><strong>T: What was your most rewarding part of your career?</strong></p>
+<p><div class="pull-quote right" title="A pulled quote, out of order with text flow">GIS can sell itself but sometimes we make it look too easy . The availability of data can certainly facilitate work but without data what might take 1/2 day might actually take years to first develop the data. We have to not over sell given this reality.</div><strong>T: What was your most rewarding part of your career?</strong></p>
 
-K: Seeing how far the technology has come, how much geoasptial data we have developed, and working with dedicated GIS professionals a number of whom started as interns at TNRIS and at TPWD.
+K: Seeing how far the technology has come, how much geospatial data we have developed, and working with dedicated GIS professionals a number of whom started as interns at TNRIS and at TPWD.
 
 **T: What would you consider to be your greatest achievement?**
 
 K: Having the opportunity to get GIS started at TPWD and managing the team that developed the Vegetation Communities Map of Texas and accompanying database.  Also, Chairing the Texas Geographic Information Council and being part of the Texas GIS community which has developed amazing base data for Texas over the years.
+
+One of my early projects of which I am very proud is the work Richard Wade and I did in support of the Balcones Canyonlands Conservation Plan. We did mapping and spatial analysis of the various preserve configurations.
 
 **T: What will you remember most about your career?**  
 
@@ -69,7 +71,3 @@ K: Volunteering at TPWD.  Hiking in wilderness. Travel. Reading. Volunteering at
 
 *Kim, from all your friends in the GIS community, we wish you all the best and we hope that our actions moving forward will make you proud.*
 
-<figure>
-<img class="img-responsive" alt="Rob Today, along with colleagues past and present from TNRIS" src="{{m.link('static/images/around-the-state/rob-aanstoos/tnris_rob.jpg')}}">
-<figcaption><em><strong>TNRIS Past and Present from Left to Right</strong>: Hugh Bender (Former Director), Lou Falconieri (Former Aerial Photo Manager), Dr. Charles Palmer (Former Director), Charlotte Aanstoos (Former Data Specialist), Rob Aanstoos (Former GIS/Remote Sensing Specialist), Richard Wade (Current Director/GIO), Felicia Retiz (Deputy GIO), Brent Porter (Former Applications Developer)</em></figcaption>
-</figure>
