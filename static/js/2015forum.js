@@ -1,8 +1,10 @@
-(function goToConferenceTimeBlock(_now) {
+require('jquery.storage/jquery.storage.js');
+
+function goToConferenceTimeBlock(_now) {
   var now = _now || moment();
 
-  var dayOne = moment('2015-10-28');
-  var dayTwo = moment('2015-10-29');
+  var dayOne = moment('2016-10-26');
+  var dayTwo = moment('2016-10-27');
 
   var dayPrefix;
   if (now.isSame(dayOne, 'day')) {
@@ -31,7 +33,7 @@
     }
   });
   window.location.hash = '#' + dayPrefix + bestStart;
-})();
+};
 
 
 $(function() {
@@ -139,6 +141,9 @@ $(function() {
     });
   }
 
-  loadStars();
-  attachStarBehavior();
+  if (location.href.indexOf("/texas-gis-forum/2016/agenda") !== -1) {
+    goToConferenceTimeBlock();
+    loadStars();
+    attachStarBehavior();
+  }
 });
