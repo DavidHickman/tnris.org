@@ -13,5 +13,14 @@ abstract: Program is subject to change.
 ---
 
 
+<div class="well well-md personalize-agenda">
+<p class="lead-forum"><strong>Personalize Your Agenda!</strong><br>
+Click the star <i class="glyphicon glyphicon-star"></i> next to the presentations you want to highlight. Unstarred presentations will be greyed out.</p>
+<div class="checkbox">
+<input type="checkbox" class="show-starred-check" id="show-starred-check">
+<label for="show-starred-check">Show Only My Starred Presentations</label>
+</div>
+</div>
+
 {% include "./events/texas-gis-forum/2016/agenda-2016.html" %}
 
