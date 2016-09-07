@@ -12,6 +12,5 @@ buttontext: Register for the Forum
 abstract: Program is subject to change.
 ---
 
-
 {% include "./events/texas-gis-forum/2016/agenda-2016.html" %}
 
